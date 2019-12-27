@@ -1,0 +1,2680 @@
+id,coder,run,answer
+1,Coder 2,Screening,3
+2,Coder 2,Screening,3
+3,Coder 2,Screening,3
+4,Coder 2,Screening,3
+5,Coder 2,Screening,3
+6,Coder 1,Screening,3
+7,Coder 1,Trial 2,3
+7,Coder 2,Trial 2,3
+8,Coder 1,Trial 3,3
+8,Coder 2,Trial 3,3
+9,Coder 1,Screening,3
+10,Coder 1,Screening,3
+11,Coder 1,Screening,3
+12,Coder 2,Screening,3
+13,Coder 2,Screening,2
+14,Coder 1,Screening,3
+15,Coder 2,Screening,3
+16,Coder 1,Screening,3
+17,Coder 2,Screening,3
+18,Coder 2,Screening,3
+19,Coder 1,Screening,1
+20,Coder 2,Screening,3
+21,Coder 2,Screening,3
+22,Coder 2,Screening,3
+23,Coder 2,Screening,3
+24,Coder 1,Trial 2,3
+24,Coder 2,Trial 2,3
+25,Coder 1,Trial 3,3
+25,Coder 2,Trial 3,3
+26,Coder 1,Screening,3
+27,Coder 1,Screening,3
+28,Coder 1,Screening,3
+29,Coder 2,Screening,3
+30,Coder 1,Screening,3
+31,Coder 1,Screening,3
+32,Coder 2,Screening,3
+33,Coder 1,Screening,3
+34,Coder 2,Screening,3
+35,Coder 2,Screening,3
+36,Coder 2,Screening,3
+37,Coder 1,Screening,3
+38,Coder 2,Screening,3
+39,Coder 1,Screening,3
+40,Coder 1,Screening,3
+41,Coder 1,Screening,3
+42,Coder 2,Screening,3
+43,Coder 1,Screening,3
+44,Coder 2,Screening,3
+45,Coder 1,Screening,1
+46,Coder 2,Screening,2
+47,Coder 2,Screening,3
+48,Coder 2,Screening,3
+49,Coder 2,Screening,3
+50,Coder 2,Screening,2
+51,Coder 1,Screening,3
+52,Coder 1,Screening,3
+53,Coder 1,Screening,3
+54,Coder 2,Screening,3
+55,Coder 1,Screening,3
+56,Coder 2,Screening,3
+57,Coder 2,Screening,3
+58,Coder 1,Screening,3
+59,Coder 2,Screening,3
+60,Coder 2,Screening,3
+61,Coder 1,Screening,3
+62,Coder 2,Screening,3
+63,Coder 2,Screening,3
+64,Coder 2,Screening,3
+65,Coder 1,Screening,3
+66,Coder 2,Screening,3
+67,Coder 1,Screening,3
+68,Coder 2,Screening,3
+69,Coder 2,Screening,3
+70,Coder 2,Screening,3
+71,Coder 1,Screening,3
+72,Coder 1,Screening,3
+73,Coder 2,Screening,3
+74,Coder 1,Screening,3
+75,Coder 2,Screening,3
+76,Coder 2,Screening,3
+77,Coder 2,Screening,3
+78,Coder 1,Screening,3
+79,Coder 1,Screening,3
+80,Coder 1,Screening,3
+81,Coder 1,Screening,3
+82,Coder 2,Screening,3
+83,Coder 2,Screening,3
+84,Coder 1,Screening,3
+85,Coder 1,Screening,3
+86,Coder 2,Screening,3
+87,Coder 2,Screening,3
+88,Coder 2,Screening,3
+89,Coder 1,Screening,3
+90,Coder 2,Screening,3
+91,Coder 1,Screening,1
+92,Coder 2,Screening,3
+93,Coder 2,Screening,2
+94,Coder 1,Screening,2
+95,Coder 1,Screening,3
+96,Coder 1,Screening,3
+97,Coder 2,Screening,3
+98,Coder 2,Screening,3
+99,Coder 1,Trial 3,3
+99,Coder 2,Trial 3,3
+100,Coder 2,Screening,3
+101,Coder 1,Trial 3,3
+101,Coder 2,Trial 3,3
+102,Coder 1,Trial 2,3
+102,Coder 2,Trial 2,3
+103,Coder 1,Screening,3
+104,Coder 1,Trial 2,2
+104,Coder 2,Trial 2,3
+105,Coder 1,Trial 3,3
+105,Coder 2,Trial 3,3
+106,Coder 1,Trial 2,2
+106,Coder 2,Trial 2,4
+107,Coder 1,Screening,3
+108,Coder 1,Screening,3
+109,Coder 2,Screening,2
+110,Coder 2,Screening,3
+111,Coder 2,Screening,3
+112,Coder 1,Trial 1,3
+112,Coder 2,Trial 1,3
+113,Coder 1,Trial 2,3
+113,Coder 2,Trial 2,3
+114,Coder 1,Trial 3,3
+114,Coder 2,Trial 3,3
+115,Coder 1,Screening,3
+116,Coder 1,Screening,3
+117,Coder 2,Screening,3
+118,Coder 1,Screening,3
+119,Coder 1,Screening,3
+120,Coder 2,Screening,3
+121,Coder 1,Screening,2
+122,Coder 2,Screening,3
+123,Coder 1,Screening,3
+124,Coder 1,Screening,3
+125,Coder 1,Trial 1,3
+125,Coder 2,Trial 1,3
+126,Coder 1,Screening,3
+127,Coder 1,Screening,3
+128,Coder 1,Trial 2,3
+128,Coder 2,Trial 2,3
+129,Coder 2,Screening,3
+130,Coder 1,Trial 3,3
+130,Coder 2,Trial 3,3
+131,Coder 2,Screening,3
+132,Coder 2,Screening,3
+133,Coder 1,Screening,3
+134,Coder 1,Screening,3
+135,Coder 1,Screening,2
+136,Coder 2,Screening,3
+137,Coder 2,Screening,3
+138,Coder 1,Screening,3
+139,Coder 1,Screening,3
+140,Coder 2,Screening,3
+141,Coder 2,Screening,3
+142,Coder 2,Screening,3
+143,Coder 2,Screening,3
+144,Coder 1,Screening,3
+145,Coder 1,Screening,3
+146,Coder 1,Screening,3
+147,Coder 1,Screening,3
+148,Coder 2,Screening,3
+149,Coder 2,Screening,3
+150,Coder 2,Screening,3
+151,Coder 2,Screening,3
+152,Coder 1,Screening,3
+153,Coder 1,Screening,3
+154,Coder 1,Screening,3
+155,Coder 2,Screening,3
+156,Coder 1,Trial 2,3
+156,Coder 2,Trial 2,3
+157,Coder 1,Screening,3
+158,Coder 1,Trial 3,3
+158,Coder 2,Trial 3,3
+159,Coder 2,Screening,3
+160,Coder 2,Screening,3
+161,Coder 1,Screening,2
+162,Coder 2,Screening,3
+163,Coder 2,Screening,3
+164,Coder 1,Screening,3
+165,Coder 2,Screening,3
+166,Coder 2,Screening,3
+167,Coder 2,Screening,3
+168,Coder 1,Screening,3
+169,Coder 2,Screening,3
+170,Coder 2,Screening,3
+171,Coder 2,Screening,3
+172,Coder 2,Screening,3
+173,Coder 2,Screening,3
+174,Coder 2,Screening,3
+175,Coder 1,Screening,3
+176,Coder 2,Screening,3
+177,Coder 1,Trial 1,3
+177,Coder 2,Trial 1,3
+178,Coder 2,Screening,3
+179,Coder 1,Screening,3
+180,Coder 2,Screening,3
+181,Coder 1,Screening,3
+182,Coder 1,Screening,3
+183,Coder 2,Screening,3
+184,Coder 2,Screening,3
+185,Coder 2,Screening,3
+186,Coder 2,Screening,3
+187,Coder 2,Screening,3
+188,Coder 2,Screening,3
+189,Coder 1,Trial 1,2
+189,Coder 2,Trial 1,2
+190,Coder 2,Screening,3
+191,Coder 2,Screening,3
+192,Coder 1,Screening,3
+193,Coder 1,Trial 1,3
+193,Coder 2,Trial 1,3
+194,Coder 1,Screening,2
+195,Coder 1,Screening,3
+196,Coder 2,Screening,3
+197,Coder 1,Screening,3
+198,Coder 1,Screening,3
+199,Coder 2,Screening,3
+200,Coder 2,Screening,3
+201,Coder 2,Screening,3
+202,Coder 1,Screening,3
+203,Coder 1,Screening,3
+204,Coder 2,Screening,3
+205,Coder 2,Screening,3
+206,Coder 2,Screening,3
+207,Coder 2,Screening,3
+208,Coder 1,Screening,3
+209,Coder 2,Screening,3
+210,Coder 1,Screening,2
+211,Coder 1,Screening,3
+212,Coder 1,Screening,3
+213,Coder 2,Screening,3
+214,Coder 1,Screening,3
+215,Coder 1,Screening,3
+216,Coder 1,Screening,3
+217,Coder 1,Screening,3
+218,Coder 2,Screening,3
+219,Coder 1,Screening,2
+220,Coder 2,Screening,2
+221,Coder 2,Screening,2
+222,Coder 2,Screening,3
+223,Coder 2,Screening,3
+224,Coder 1,Screening,3
+225,Coder 1,Trial 1,3
+225,Coder 2,Trial 1,3
+226,Coder 2,Screening,4
+227,Coder 1,Trial 1,2
+227,Coder 2,Trial 1,1
+228,Coder 1,Screening,3
+229,Coder 2,Screening,3
+230,Coder 1,Screening,3
+231,Coder 2,Screening,3
+232,Coder 2,Screening,3
+233,Coder 2,Screening,3
+234,Coder 2,Screening,3
+235,Coder 2,Screening,3
+236,Coder 2,Screening,3
+237,Coder 2,Screening,3
+238,Coder 2,Screening,3
+239,Coder 2,Screening,3
+240,Coder 1,Screening,3
+241,Coder 2,Screening,3
+242,Coder 1,Screening,3
+243,Coder 1,Trial 1,3
+243,Coder 2,Trial 1,3
+244,Coder 1,Trial 1,1
+244,Coder 2,Trial 1,1
+245,Coder 1,Screening,3
+246,Coder 2,Screening,3
+247,Coder 2,Screening,3
+248,Coder 2,Screening,3
+249,Coder 2,Screening,3
+250,Coder 2,Screening,3
+251,Coder 2,Screening,3
+252,Coder 1,Screening,3
+253,Coder 2,Screening,3
+254,Coder 1,Screening,3
+255,Coder 2,Screening,3
+256,Coder 1,Screening,3
+257,Coder 2,Screening,3
+258,Coder 1,Screening,3
+259,Coder 2,Screening,3
+260,Coder 1,Screening,3
+261,Coder 2,Screening,3
+262,Coder 1,Screening,3
+263,Coder 2,Screening,3
+264,Coder 1,Screening,3
+265,Coder 1,Screening,3
+266,Coder 1,Screening,3
+267,Coder 2,Screening,3
+268,Coder 1,Screening,3
+269,Coder 1,Screening,3
+270,Coder 2,Screening,2
+271,Coder 2,Screening,3
+272,Coder 2,Screening,3
+273,Coder 2,Screening,3
+274,Coder 2,Screening,3
+275,Coder 1,Screening,3
+276,Coder 2,Screening,3
+277,Coder 1,Trial 1,3
+277,Coder 2,Trial 1,2
+278,Coder 2,Screening,3
+279,Coder 1,Screening,3
+280,Coder 1,Screening,3
+281,Coder 1,Screening,3
+282,Coder 1,Screening,3
+283,Coder 1,Screening,3
+284,Coder 1,Screening,1
+285,Coder 2,Screening,3
+286,Coder 2,Screening,1
+287,Coder 2,Screening,3
+288,Coder 1,Screening,3
+289,Coder 1,Screening,3
+290,Coder 2,Screening,4
+291,Coder 1,Screening,3
+292,Coder 1,Screening,3
+293,Coder 2,Screening,3
+294,Coder 1,Trial 3,3
+294,Coder 2,Trial 3,3
+295,Coder 1,Screening,3
+296,Coder 1,Screening,3
+297,Coder 1,Screening,2
+298,Coder 1,Trial 2,3
+298,Coder 2,Trial 2,3
+299,Coder 2,Screening,3
+300,Coder 2,Screening,3
+301,Coder 1,Screening,2
+302,Coder 1,Screening,3
+303,Coder 1,Screening,1
+304,Coder 2,Screening,3
+305,Coder 1,Screening,3
+306,Coder 2,Screening,3
+307,Coder 1,Screening,3
+308,Coder 1,Screening,3
+309,Coder 2,Screening,3
+310,Coder 2,Screening,3
+311,Coder 2,Screening,4
+312,Coder 1,Screening,3
+313,Coder 1,Screening,2
+314,Coder 1,Screening,3
+315,Coder 1,Trial 1,3
+315,Coder 2,Trial 1,3
+316,Coder 2,Screening,3
+317,Coder 1,Screening,2
+318,Coder 1,Screening,3
+319,Coder 1,Screening,3
+320,Coder 2,Screening,3
+321,Coder 1,Screening,3
+322,Coder 1,Screening,1
+323,Coder 1,Screening,3
+324,Coder 1,Screening,2
+325,Coder 1,Screening,2
+326,Coder 1,Screening,3
+327,Coder 2,Screening,3
+328,Coder 2,Screening,3
+329,Coder 1,Screening,3
+330,Coder 2,Screening,3
+331,Coder 1,Screening,3
+332,Coder 2,Screening,3
+333,Coder 1,Screening,2
+334,Coder 2,Screening,3
+335,Coder 2,Screening,3
+336,Coder 2,Screening,1
+337,Coder 1,Screening,3
+338,Coder 1,Screening,3
+339,Coder 1,Screening,3
+340,Coder 2,Screening,3
+341,Coder 1,Screening,3
+342,Coder 1,Screening,3
+343,Coder 1,Screening,3
+344,Coder 2,Screening,3
+345,Coder 1,Screening,3
+346,Coder 1,Screening,3
+347,Coder 1,Screening,3
+348,Coder 1,Trial 1,3
+348,Coder 2,Trial 1,3
+349,Coder 1,Trial 1,3
+349,Coder 2,Trial 1,3
+350,Coder 1,Screening,3
+351,Coder 2,Screening,3
+352,Coder 2,Screening,3
+353,Coder 1,Screening,3
+354,Coder 1,Screening,3
+355,Coder 1,Screening,3
+356,Coder 1,Screening,3
+357,Coder 1,Screening,3
+358,Coder 2,Screening,3
+359,Coder 1,Screening,3
+360,Coder 1,Screening,2
+361,Coder 2,Screening,3
+362,Coder 2,Screening,3
+363,Coder 1,Screening,2
+364,Coder 2,Screening,3
+365,Coder 1,Trial 3,4
+365,Coder 2,Trial 3,4
+366,Coder 1,Trial 1,3
+366,Coder 2,Trial 1,3
+367,Coder 2,Screening,3
+368,Coder 1,Trial 3,3
+368,Coder 2,Trial 3,3
+369,Coder 1,Screening,3
+370,Coder 2,Screening,3
+371,Coder 2,Screening,2
+372,Coder 1,Trial 3,3
+372,Coder 2,Trial 3,3
+373,Coder 1,Trial 2,4
+373,Coder 2,Trial 2,4
+374,Coder 1,Screening,3
+375,Coder 1,Trial 2,2
+375,Coder 2,Trial 2,3
+376,Coder 2,Screening,3
+377,Coder 1,Screening,3
+378,Coder 1,Screening,3
+379,Coder 1,Trial 1,3
+379,Coder 2,Trial 1,3
+380,Coder 1,Trial 2,2
+380,Coder 2,Trial 2,3
+381,Coder 1,Screening,3
+382,Coder 2,Screening,3
+383,Coder 1,Screening,3
+384,Coder 1,Trial 3,3
+384,Coder 2,Trial 3,3
+385,Coder 1,Screening,3
+386,Coder 1,Screening,3
+387,Coder 2,Screening,3
+388,Coder 1,Trial 2,3
+388,Coder 2,Trial 2,3
+389,Coder 2,Screening,3
+390,Coder 2,Screening,3
+391,Coder 1,Screening,3
+392,Coder 1,Trial 1,3
+392,Coder 2,Trial 1,3
+393,Coder 1,Trial 3,3
+393,Coder 2,Trial 3,3
+394,Coder 1,Screening,3
+395,Coder 2,Screening,3
+396,Coder 2,Screening,3
+397,Coder 1,Trial 2,3
+397,Coder 2,Trial 2,3
+398,Coder 1,Screening,3
+399,Coder 1,Screening,3
+400,Coder 1,Screening,3
+401,Coder 2,Screening,1
+402,Coder 1,Screening,2
+403,Coder 1,Screening,3
+404,Coder 1,Screening,3
+405,Coder 1,Screening,3
+406,Coder 2,Screening,3
+407,Coder 2,Screening,3
+408,Coder 1,Trial 3,3
+408,Coder 2,Trial 3,3
+409,Coder 2,Screening,3
+410,Coder 2,Screening,3
+411,Coder 1,Screening,3
+412,Coder 1,Trial 1,4
+412,Coder 2,Trial 1,4
+413,Coder 1,Trial 2,3
+413,Coder 2,Trial 2,3
+414,Coder 1,Screening,1
+415,Coder 1,Screening,3
+416,Coder 2,Screening,3
+417,Coder 1,Screening,3
+418,Coder 2,Screening,3
+419,Coder 1,Screening,2
+420,Coder 1,Trial 3,3
+420,Coder 2,Trial 3,3
+421,Coder 2,Screening,3
+422,Coder 1,Screening,1
+423,Coder 1,Trial 2,2
+423,Coder 2,Trial 2,3
+424,Coder 1,Screening,3
+425,Coder 2,Screening,3
+426,Coder 2,Screening,3
+427,Coder 1,Screening,3
+428,Coder 1,Screening,3
+429,Coder 2,Screening,3
+430,Coder 2,Screening,1
+431,Coder 1,Screening,3
+432,Coder 1,Screening,3
+433,Coder 2,Screening,3
+434,Coder 2,Screening,3
+435,Coder 2,Screening,3
+436,Coder 1,Screening,3
+437,Coder 2,Screening,3
+438,Coder 1,Screening,3
+439,Coder 1,Trial 3,3
+439,Coder 2,Trial 3,3
+440,Coder 1,Screening,3
+441,Coder 2,Screening,3
+442,Coder 1,Trial 2,3
+442,Coder 2,Trial 2,3
+443,Coder 1,Screening,3
+444,Coder 1,Screening,3
+445,Coder 2,Screening,3
+446,Coder 1,Screening,1
+447,Coder 2,Screening,3
+448,Coder 1,Screening,3
+449,Coder 2,Screening,3
+450,Coder 2,Screening,3
+451,Coder 2,Screening,3
+452,Coder 2,Screening,3
+453,Coder 1,Screening,3
+454,Coder 2,Screening,3
+455,Coder 1,Screening,3
+456,Coder 2,Screening,3
+457,Coder 2,Screening,3
+458,Coder 1,Screening,2
+459,Coder 1,Screening,3
+460,Coder 1,Screening,3
+461,Coder 1,Screening,3
+462,Coder 2,Screening,3
+463,Coder 2,Screening,3
+464,Coder 1,Screening,3
+465,Coder 1,Screening,3
+466,Coder 2,Screening,3
+467,Coder 2,Screening,4
+468,Coder 1,Screening,3
+469,Coder 2,Screening,3
+470,Coder 2,Screening,3
+471,Coder 2,Screening,3
+472,Coder 2,Screening,3
+473,Coder 2,Screening,3
+474,Coder 1,Screening,3
+475,Coder 1,Screening,3
+476,Coder 2,Screening,3
+477,Coder 2,Screening,3
+478,Coder 1,Screening,3
+479,Coder 1,Screening,3
+480,Coder 2,Screening,1
+481,Coder 1,Screening,3
+482,Coder 1,Screening,3
+483,Coder 1,Screening,3
+484,Coder 1,Screening,2
+485,Coder 1,Screening,3
+486,Coder 1,Screening,3
+487,Coder 2,Screening,3
+488,Coder 1,Trial 1,3
+488,Coder 2,Trial 1,3
+489,Coder 1,Trial 3,3
+489,Coder 2,Trial 3,3
+490,Coder 1,Screening,3
+491,Coder 2,Screening,3
+492,Coder 1,Trial 3,3
+492,Coder 2,Trial 3,3
+493,Coder 1,Trial 2,1
+493,Coder 2,Trial 2,2
+494,Coder 1,Screening,3
+495,Coder 1,Screening,3
+496,Coder 1,Screening,3
+497,Coder 1,Trial 2,3
+497,Coder 2,Trial 2,3
+498,Coder 1,Screening,3
+499,Coder 1,Screening,3
+500,Coder 2,Screening,3
+501,Coder 2,Screening,3
+502,Coder 2,Screening,3
+503,Coder 2,Screening,3
+504,Coder 2,Screening,3
+505,Coder 2,Screening,2
+506,Coder 2,Screening,3
+507,Coder 2,Screening,3
+508,Coder 1,Trial 3,3
+508,Coder 2,Trial 3,3
+509,Coder 1,Trial 3,3
+509,Coder 2,Trial 3,3
+510,Coder 2,Screening,3
+511,Coder 1,Trial 2,3
+511,Coder 2,Trial 2,3
+512,Coder 1,Trial 2,3
+512,Coder 2,Trial 2,3
+513,Coder 1,Screening,2
+514,Coder 2,Screening,3
+515,Coder 1,Screening,3
+516,Coder 2,Screening,3
+517,Coder 1,Trial 3,3
+517,Coder 2,Trial 3,3
+518,Coder 1,Trial 2,3
+518,Coder 2,Trial 2,3
+519,Coder 2,Screening,3
+520,Coder 2,Screening,3
+521,Coder 1,Screening,3
+522,Coder 1,Screening,3
+523,Coder 1,Screening,3
+524,Coder 1,Screening,3
+525,Coder 1,Screening,3
+526,Coder 1,Trial 2,3
+526,Coder 2,Trial 2,3
+527,Coder 1,Trial 2,3
+527,Coder 2,Trial 2,3
+528,Coder 1,Trial 3,3
+528,Coder 2,Trial 3,3
+529,Coder 1,Trial 3,3
+529,Coder 2,Trial 3,3
+530,Coder 2,Screening,2
+531,Coder 2,Screening,4
+532,Coder 2,Screening,3
+533,Coder 2,Screening,3
+534,Coder 1,Screening,3
+535,Coder 1,Screening,3
+536,Coder 1,Screening,3
+537,Coder 2,Screening,3
+538,Coder 2,Screening,3
+539,Coder 1,Screening,4
+540,Coder 1,Screening,3
+541,Coder 1,Trial 2,3
+541,Coder 2,Trial 2,3
+542,Coder 2,Screening,3
+543,Coder 1,Trial 3,3
+543,Coder 2,Trial 3,3
+544,Coder 2,Screening,3
+545,Coder 2,Screening,3
+546,Coder 1,Screening,3
+547,Coder 1,Screening,3
+548,Coder 2,Screening,3
+549,Coder 2,Screening,3
+550,Coder 1,Trial 2,3
+550,Coder 2,Trial 2,3
+551,Coder 1,Screening,3
+552,Coder 1,Trial 1,3
+552,Coder 2,Trial 1,3
+553,Coder 1,Trial 2,3
+553,Coder 2,Trial 2,3
+554,Coder 1,Trial 3,3
+554,Coder 2,Trial 3,3
+555,Coder 1,Trial 2,3
+555,Coder 2,Trial 2,3
+556,Coder 2,Screening,3
+557,Coder 1,Trial 3,3
+557,Coder 2,Trial 3,3
+558,Coder 1,Trial 3,3
+558,Coder 2,Trial 3,3
+559,Coder 2,Screening,3
+560,Coder 2,Screening,3
+561,Coder 1,Screening,3
+562,Coder 1,Screening,3
+563,Coder 1,Screening,3
+564,Coder 1,Screening,3
+565,Coder 1,Screening,3
+566,Coder 2,Screening,3
+567,Coder 2,Screening,3
+568,Coder 1,Screening,3
+569,Coder 2,Screening,3
+570,Coder 2,Screening,3
+571,Coder 2,Screening,3
+572,Coder 2,Screening,3
+573,Coder 1,Screening,3
+574,Coder 2,Screening,3
+575,Coder 1,Trial 1,3
+575,Coder 2,Trial 1,3
+576,Coder 1,Screening,3
+577,Coder 2,Screening,2
+578,Coder 1,Trial 1,3
+578,Coder 2,Trial 1,3
+579,Coder 1,Screening,3
+580,Coder 1,Screening,3
+581,Coder 1,Screening,3
+582,Coder 1,Screening,3
+583,Coder 2,Screening,3
+584,Coder 1,Trial 2,3
+584,Coder 2,Trial 2,3
+585,Coder 1,Trial 1,3
+585,Coder 2,Trial 1,3
+586,Coder 2,Screening,3
+587,Coder 1,Screening,3
+588,Coder 1,Trial 3,3
+588,Coder 2,Trial 3,3
+589,Coder 1,Screening,3
+590,Coder 1,Screening,3
+591,Coder 1,Screening,3
+592,Coder 2,Screening,3
+593,Coder 2,Screening,2
+594,Coder 1,Screening,3
+595,Coder 2,Screening,2
+596,Coder 2,Screening,3
+597,Coder 1,Screening,3
+598,Coder 1,Screening,3
+599,Coder 2,Screening,3
+600,Coder 1,Trial 2,3
+600,Coder 2,Trial 2,3
+601,Coder 2,Screening,3
+602,Coder 1,Screening,3
+603,Coder 2,Screening,3
+604,Coder 1,Trial 3,3
+604,Coder 2,Trial 3,3
+605,Coder 1,Screening,3
+606,Coder 2,Screening,3
+607,Coder 1,Screening,3
+608,Coder 1,Screening,3
+609,Coder 1,Screening,2
+610,Coder 2,Screening,3
+611,Coder 2,Screening,3
+612,Coder 1,Screening,2
+613,Coder 1,Screening,3
+614,Coder 1,Screening,3
+615,Coder 1,Trial 1,3
+615,Coder 2,Trial 1,3
+616,Coder 1,Screening,3
+617,Coder 1,Screening,3
+618,Coder 1,Screening,3
+619,Coder 2,Screening,3
+620,Coder 2,Screening,3
+621,Coder 2,Screening,3
+622,Coder 2,Screening,1
+623,Coder 2,Screening,3
+624,Coder 1,Screening,3
+625,Coder 1,Screening,3
+626,Coder 1,Screening,3
+627,Coder 2,Screening,3
+628,Coder 1,Screening,3
+629,Coder 2,Screening,3
+630,Coder 1,Screening,3
+631,Coder 1,Screening,3
+632,Coder 2,Screening,3
+633,Coder 2,Screening,3
+634,Coder 2,Screening,3
+635,Coder 1,Screening,3
+636,Coder 1,Screening,3
+637,Coder 2,Screening,3
+638,Coder 2,Screening,3
+639,Coder 2,Screening,2
+640,Coder 2,Screening,3
+641,Coder 1,Screening,1
+642,Coder 2,Screening,3
+643,Coder 2,Screening,3
+644,Coder 2,Screening,3
+645,Coder 2,Screening,3
+646,Coder 2,Screening,3
+647,Coder 1,Screening,3
+648,Coder 1,Screening,3
+649,Coder 2,Screening,3
+650,Coder 1,Trial 2,3
+650,Coder 2,Trial 2,3
+651,Coder 1,Trial 2,3
+651,Coder 2,Trial 2,3
+652,Coder 1,Trial 2,3
+652,Coder 2,Trial 2,3
+653,Coder 1,Screening,3
+654,Coder 2,Screening,3
+655,Coder 1,Trial 3,3
+655,Coder 2,Trial 3,3
+656,Coder 1,Trial 3,3
+656,Coder 2,Trial 3,3
+657,Coder 1,Trial 1,3
+657,Coder 2,Trial 1,3
+658,Coder 2,Screening,3
+659,Coder 1,Screening,3
+660,Coder 1,Screening,3
+661,Coder 2,Screening,2
+662,Coder 2,Screening,3
+663,Coder 2,Screening,3
+664,Coder 2,Screening,3
+665,Coder 2,Screening,3
+666,Coder 2,Screening,3
+667,Coder 1,Screening,3
+668,Coder 1,Screening,1
+669,Coder 2,Screening,3
+670,Coder 2,Screening,3
+671,Coder 2,Screening,3
+672,Coder 1,Trial 1,3
+672,Coder 2,Trial 1,2
+673,Coder 1,Screening,3
+674,Coder 2,Screening,3
+675,Coder 2,Screening,3
+676,Coder 1,Screening,3
+677,Coder 1,Screening,3
+678,Coder 1,Trial 1,3
+678,Coder 2,Trial 1,3
+679,Coder 1,Screening,3
+680,Coder 1,Trial 2,3
+680,Coder 2,Trial 2,3
+681,Coder 1,Screening,3
+682,Coder 1,Screening,3
+683,Coder 1,Screening,3
+684,Coder 1,Trial 3,1
+684,Coder 2,Trial 3,1
+685,Coder 1,Screening,3
+686,Coder 1,Screening,3
+687,Coder 1,Screening,3
+688,Coder 1,Screening,3
+689,Coder 1,Screening,3
+690,Coder 2,Screening,3
+691,Coder 1,Trial 1,3
+691,Coder 2,Trial 1,3
+692,Coder 2,Screening,3
+693,Coder 1,Screening,3
+694,Coder 2,Screening,3
+695,Coder 2,Screening,3
+696,Coder 2,Screening,3
+697,Coder 2,Screening,2
+698,Coder 2,Screening,3
+699,Coder 2,Screening,3
+700,Coder 2,Screening,3
+701,Coder 1,Screening,3
+702,Coder 1,Screening,3
+703,Coder 2,Screening,2
+704,Coder 1,Screening,3
+705,Coder 1,Screening,3
+706,Coder 1,Screening,2
+707,Coder 2,Screening,3
+708,Coder 2,Screening,3
+709,Coder 1,Screening,3
+710,Coder 1,Screening,3
+711,Coder 1,Screening,2
+712,Coder 2,Screening,3
+713,Coder 1,Screening,3
+714,Coder 2,Screening,3
+715,Coder 1,Screening,2
+716,Coder 1,Screening,3
+717,Coder 2,Screening,3
+718,Coder 2,Screening,1
+719,Coder 2,Screening,2
+720,Coder 1,Screening,3
+721,Coder 1,Screening,3
+722,Coder 2,Screening,3
+723,Coder 1,Trial 2,3
+723,Coder 2,Trial 2,3
+724,Coder 2,Screening,3
+725,Coder 1,Screening,3
+726,Coder 2,Screening,3
+727,Coder 1,Trial 3,3
+727,Coder 2,Trial 3,3
+728,Coder 2,Screening,3
+729,Coder 2,Screening,3
+730,Coder 2,Screening,3
+731,Coder 1,Screening,3
+732,Coder 2,Screening,3
+733,Coder 2,Screening,1
+734,Coder 2,Screening,3
+735,Coder 1,Trial 2,3
+735,Coder 2,Trial 2,3
+736,Coder 1,Screening,3
+737,Coder 1,Screening,3
+738,Coder 1,Screening,3
+739,Coder 1,Screening,3
+740,Coder 1,Trial 3,3
+740,Coder 2,Trial 3,3
+741,Coder 1,Screening,3
+742,Coder 2,Screening,3
+743,Coder 1,Screening,3
+744,Coder 2,Screening,3
+745,Coder 2,Screening,3
+746,Coder 2,Screening,3
+747,Coder 1,Screening,3
+748,Coder 2,Screening,3
+749,Coder 2,Screening,3
+750,Coder 2,Screening,3
+751,Coder 1,Screening,3
+752,Coder 1,Screening,3
+753,Coder 2,Screening,3
+754,Coder 1,Screening,3
+755,Coder 1,Screening,3
+756,Coder 2,Screening,3
+757,Coder 2,Screening,3
+758,Coder 1,Trial 1,3
+758,Coder 2,Trial 1,3
+759,Coder 2,Screening,3
+760,Coder 2,Screening,3
+761,Coder 2,Screening,3
+762,Coder 2,Screening,3
+763,Coder 1,Screening,2
+764,Coder 2,Screening,3
+765,Coder 2,Screening,3
+766,Coder 1,Screening,3
+767,Coder 1,Screening,3
+768,Coder 1,Trial 1,3
+768,Coder 2,Trial 1,3
+769,Coder 2,Screening,3
+770,Coder 2,Screening,3
+771,Coder 1,Screening,3
+772,Coder 2,Screening,3
+773,Coder 1,Screening,3
+774,Coder 2,Screening,3
+775,Coder 2,Screening,2
+776,Coder 1,Trial 2,3
+776,Coder 2,Trial 2,3
+777,Coder 2,Screening,3
+778,Coder 1,Trial 2,3
+778,Coder 2,Trial 2,3
+779,Coder 2,Screening,3
+780,Coder 2,Screening,3
+781,Coder 1,Trial 3,3
+781,Coder 2,Trial 3,3
+782,Coder 1,Screening,3
+783,Coder 1,Trial 3,1
+783,Coder 2,Trial 3,3
+784,Coder 2,Screening,3
+785,Coder 1,Screening,3
+786,Coder 1,Screening,2
+787,Coder 2,Screening,3
+788,Coder 1,Screening,3
+789,Coder 1,Trial 2,1
+789,Coder 2,Trial 2,1
+790,Coder 1,Screening,3
+791,Coder 2,Screening,3
+792,Coder 2,Screening,3
+793,Coder 1,Screening,3
+794,Coder 1,Trial 3,3
+794,Coder 2,Trial 3,3
+795,Coder 1,Screening,3
+796,Coder 2,Screening,3
+797,Coder 2,Screening,3
+798,Coder 1,Screening,3
+799,Coder 1,Screening,3
+800,Coder 1,Screening,3
+801,Coder 2,Screening,3
+802,Coder 1,Screening,3
+803,Coder 2,Screening,2
+804,Coder 1,Screening,3
+805,Coder 1,Screening,3
+806,Coder 1,Screening,4
+807,Coder 1,Screening,3
+808,Coder 1,Screening,3
+809,Coder 1,Screening,3
+810,Coder 1,Screening,3
+811,Coder 1,Screening,3
+812,Coder 2,Screening,3
+813,Coder 1,Screening,1
+814,Coder 1,Screening,3
+815,Coder 1,Screening,3
+816,Coder 1,Screening,3
+817,Coder 1,Screening,3
+818,Coder 1,Screening,2
+819,Coder 2,Screening,3
+820,Coder 2,Screening,3
+821,Coder 1,Screening,3
+822,Coder 1,Screening,3
+823,Coder 1,Screening,2
+824,Coder 1,Screening,3
+825,Coder 1,Trial 2,3
+825,Coder 2,Trial 2,3
+826,Coder 1,Screening,3
+827,Coder 1,Screening,3
+828,Coder 2,Screening,3
+829,Coder 2,Screening,2
+830,Coder 1,Trial 2,1
+830,Coder 2,Trial 2,2
+831,Coder 1,Trial 3,3
+831,Coder 2,Trial 3,3
+832,Coder 2,Screening,3
+833,Coder 2,Screening,3
+834,Coder 1,Trial 3,3
+834,Coder 2,Trial 3,3
+835,Coder 2,Screening,3
+836,Coder 2,Screening,3
+837,Coder 2,Screening,3
+838,Coder 1,Screening,3
+839,Coder 2,Screening,3
+840,Coder 2,Screening,3
+841,Coder 1,Screening,1
+842,Coder 1,Screening,3
+843,Coder 1,Trial 1,3
+843,Coder 2,Trial 1,3
+844,Coder 2,Screening,3
+845,Coder 2,Screening,3
+846,Coder 1,Trial 2,3
+846,Coder 2,Trial 2,3
+847,Coder 2,Screening,3
+848,Coder 2,Screening,3
+849,Coder 1,Screening,3
+850,Coder 1,Screening,3
+851,Coder 1,Trial 3,3
+851,Coder 2,Trial 3,3
+852,Coder 2,Screening,3
+853,Coder 2,Screening,3
+854,Coder 1,Screening,3
+855,Coder 2,Screening,3
+856,Coder 2,Screening,1
+857,Coder 2,Screening,3
+858,Coder 2,Screening,3
+859,Coder 1,Screening,3
+860,Coder 1,Screening,3
+861,Coder 2,Screening,3
+862,Coder 2,Screening,3
+863,Coder 2,Screening,3
+864,Coder 1,Trial 2,3
+864,Coder 2,Trial 2,3
+865,Coder 1,Screening,3
+866,Coder 1,Screening,3
+867,Coder 1,Screening,4
+868,Coder 1,Screening,3
+869,Coder 1,Trial 3,3
+869,Coder 2,Trial 3,3
+870,Coder 1,Screening,3
+871,Coder 2,Screening,3
+872,Coder 1,Screening,3
+873,Coder 1,Screening,3
+874,Coder 1,Screening,2
+875,Coder 1,Trial 1,3
+875,Coder 2,Trial 1,3
+876,Coder 1,Screening,3
+877,Coder 1,Trial 1,3
+877,Coder 2,Trial 1,3
+878,Coder 2,Screening,3
+879,Coder 2,Screening,3
+880,Coder 1,Screening,3
+881,Coder 1,Screening,3
+882,Coder 2,Screening,3
+883,Coder 2,Screening,3
+884,Coder 1,Trial 1,3
+884,Coder 2,Trial 1,3
+885,Coder 2,Screening,2
+886,Coder 2,Screening,3
+887,Coder 2,Screening,3
+888,Coder 1,Screening,3
+889,Coder 2,Screening,3
+890,Coder 1,Screening,3
+891,Coder 2,Screening,3
+892,Coder 2,Screening,3
+893,Coder 1,Trial 2,2
+893,Coder 2,Trial 2,2
+894,Coder 1,Screening,1
+895,Coder 1,Screening,3
+896,Coder 2,Screening,3
+897,Coder 1,Screening,3
+898,Coder 1,Trial 3,3
+898,Coder 2,Trial 3,3
+899,Coder 2,Screening,3
+900,Coder 1,Screening,3
+901,Coder 1,Screening,3
+902,Coder 1,Screening,3
+903,Coder 1,Screening,3
+904,Coder 1,Screening,3
+905,Coder 1,Screening,3
+906,Coder 2,Screening,3
+907,Coder 1,Screening,3
+908,Coder 1,Screening,3
+909,Coder 2,Screening,3
+910,Coder 2,Screening,2
+911,Coder 1,Screening,3
+912,Coder 1,Screening,3
+913,Coder 1,Trial 1,3
+913,Coder 2,Trial 1,2
+914,Coder 2,Screening,3
+915,Coder 1,Screening,3
+916,Coder 2,Screening,3
+917,Coder 1,Screening,3
+918,Coder 1,Screening,3
+919,Coder 2,Screening,3
+920,Coder 2,Screening,1
+921,Coder 2,Screening,3
+922,Coder 1,Screening,3
+923,Coder 1,Screening,3
+924,Coder 1,Screening,3
+925,Coder 2,Screening,3
+926,Coder 2,Screening,3
+927,Coder 1,Trial 1,3
+927,Coder 2,Trial 1,3
+928,Coder 2,Screening,3
+929,Coder 1,Screening,3
+930,Coder 2,Screening,3
+931,Coder 1,Screening,3
+932,Coder 1,Screening,3
+933,Coder 1,Screening,1
+934,Coder 1,Trial 2,3
+934,Coder 2,Trial 2,3
+935,Coder 2,Screening,3
+936,Coder 2,Screening,3
+937,Coder 1,Trial 1,3
+937,Coder 2,Trial 1,3
+938,Coder 2,Screening,3
+939,Coder 2,Screening,1
+940,Coder 1,Trial 3,3
+940,Coder 2,Trial 3,3
+941,Coder 1,Screening,3
+942,Coder 1,Screening,3
+943,Coder 2,Screening,3
+944,Coder 1,Screening,3
+945,Coder 1,Trial 1,3
+945,Coder 2,Trial 1,3
+946,Coder 2,Screening,3
+947,Coder 1,Trial 2,3
+947,Coder 2,Trial 2,3
+948,Coder 1,Screening,3
+949,Coder 2,Screening,3
+950,Coder 1,Trial 2,3
+950,Coder 2,Trial 2,3
+951,Coder 2,Screening,3
+952,Coder 1,Screening,3
+953,Coder 2,Screening,3
+954,Coder 1,Trial 3,3
+954,Coder 2,Trial 3,3
+955,Coder 2,Screening,3
+956,Coder 1,Trial 3,1
+956,Coder 2,Trial 3,1
+957,Coder 2,Screening,3
+958,Coder 2,Screening,3
+959,Coder 1,Screening,3
+960,Coder 1,Screening,3
+961,Coder 1,Screening,3
+962,Coder 2,Screening,3
+963,Coder 2,Screening,3
+964,Coder 2,Screening,3
+965,Coder 1,Screening,2
+966,Coder 2,Screening,3
+967,Coder 1,Screening,3
+968,Coder 1,Trial 1,3
+968,Coder 2,Trial 1,3
+969,Coder 1,Trial 1,3
+969,Coder 2,Trial 1,3
+970,Coder 2,Screening,3
+971,Coder 1,Screening,3
+972,Coder 1,Screening,3
+973,Coder 1,Screening,3
+974,Coder 2,Screening,3
+975,Coder 2,Screening,3
+976,Coder 1,Screening,3
+977,Coder 1,Screening,3
+978,Coder 2,Screening,3
+979,Coder 1,Screening,3
+980,Coder 2,Screening,3
+981,Coder 2,Screening,3
+982,Coder 1,Screening,3
+983,Coder 2,Screening,3
+984,Coder 1,Screening,3
+985,Coder 2,Screening,3
+986,Coder 2,Screening,3
+987,Coder 2,Screening,3
+988,Coder 2,Screening,3
+989,Coder 2,Screening,3
+990,Coder 1,Screening,3
+991,Coder 2,Screening,3
+992,Coder 1,Screening,3
+993,Coder 2,Screening,3
+994,Coder 2,Screening,3
+995,Coder 1,Screening,3
+996,Coder 2,Screening,2
+997,Coder 1,Trial 1,3
+997,Coder 2,Trial 1,3
+998,Coder 1,Screening,3
+999,Coder 1,Screening,3
+1000,Coder 1,Screening,3
+1001,Coder 2,Screening,3
+1002,Coder 1,Screening,3
+1003,Coder 2,Screening,3
+1004,Coder 2,Screening,3
+1005,Coder 1,Screening,3
+1006,Coder 1,Screening,3
+1007,Coder 2,Screening,3
+1008,Coder 1,Screening,3
+1009,Coder 1,Screening,3
+1010,Coder 1,Screening,3
+1011,Coder 2,Screening,3
+1012,Coder 2,Screening,3
+1013,Coder 2,Screening,3
+1014,Coder 2,Screening,3
+1015,Coder 1,Screening,3
+1016,Coder 1,Screening,3
+1017,Coder 1,Screening,3
+1018,Coder 2,Screening,3
+1019,Coder 2,Screening,3
+1020,Coder 1,Screening,1
+1021,Coder 2,Screening,3
+1022,Coder 2,Screening,2
+1023,Coder 2,Screening,3
+1024,Coder 1,Screening,4
+1025,Coder 2,Screening,3
+1026,Coder 2,Screening,3
+1027,Coder 1,Trial 1,3
+1027,Coder 2,Trial 1,3
+1028,Coder 2,Screening,3
+1029,Coder 1,Screening,3
+1030,Coder 1,Screening,3
+1031,Coder 2,Screening,3
+1032,Coder 2,Screening,3
+1033,Coder 2,Screening,3
+1034,Coder 2,Screening,3
+1035,Coder 2,Screening,3
+1036,Coder 2,Screening,3
+1037,Coder 2,Screening,3
+1038,Coder 1,Screening,3
+1039,Coder 1,Screening,3
+1040,Coder 1,Screening,3
+1041,Coder 1,Trial 2,3
+1041,Coder 2,Trial 2,3
+1042,Coder 1,Trial 1,2
+1042,Coder 2,Trial 1,1
+1043,Coder 2,Screening,3
+1044,Coder 2,Screening,3
+1045,Coder 1,Screening,1
+1046,Coder 1,Trial 3,3
+1046,Coder 2,Trial 3,3
+1047,Coder 1,Trial 1,3
+1047,Coder 2,Trial 1,3
+1048,Coder 1,Screening,3
+1049,Coder 1,Screening,3
+1050,Coder 2,Screening,3
+1051,Coder 1,Screening,3
+1052,Coder 2,Screening,3
+1053,Coder 1,Screening,3
+1054,Coder 1,Screening,3
+1055,Coder 1,Screening,3
+1056,Coder 1,Screening,3
+1057,Coder 1,Screening,2
+1058,Coder 2,Screening,3
+1059,Coder 2,Screening,2
+1060,Coder 2,Screening,3
+1061,Coder 1,Screening,3
+1062,Coder 1,Screening,3
+1063,Coder 2,Screening,3
+1064,Coder 2,Screening,3
+1065,Coder 1,Screening,3
+1066,Coder 2,Screening,3
+1067,Coder 2,Screening,3
+1068,Coder 1,Screening,3
+1069,Coder 1,Screening,3
+1070,Coder 2,Screening,2
+1071,Coder 1,Trial 1,3
+1071,Coder 2,Trial 1,3
+1072,Coder 1,Trial 1,3
+1072,Coder 2,Trial 1,3
+1073,Coder 2,Screening,3
+1074,Coder 1,Screening,3
+1075,Coder 1,Screening,3
+1076,Coder 2,Screening,3
+1077,Coder 1,Screening,3
+1078,Coder 1,Screening,3
+1079,Coder 2,Screening,3
+1080,Coder 2,Screening,3
+1081,Coder 1,Screening,3
+1082,Coder 2,Screening,3
+1083,Coder 2,Screening,2
+1084,Coder 1,Screening,3
+1085,Coder 2,Screening,3
+1086,Coder 1,Screening,3
+1087,Coder 1,Screening,3
+1088,Coder 2,Screening,3
+1089,Coder 1,Screening,3
+1090,Coder 2,Screening,3
+1091,Coder 2,Screening,3
+1092,Coder 1,Screening,3
+1093,Coder 1,Screening,3
+1094,Coder 1,Screening,3
+1095,Coder 2,Screening,3
+1096,Coder 1,Screening,3
+1097,Coder 2,Screening,3
+1098,Coder 1,Screening,3
+1099,Coder 2,Screening,3
+1100,Coder 1,Screening,3
+1101,Coder 1,Screening,1
+1102,Coder 2,Screening,3
+1103,Coder 2,Screening,3
+1104,Coder 2,Screening,3
+1105,Coder 2,Screening,3
+1106,Coder 2,Screening,3
+1107,Coder 1,Screening,3
+1108,Coder 1,Screening,3
+1109,Coder 1,Screening,3
+1110,Coder 2,Screening,3
+1111,Coder 1,Screening,3
+1112,Coder 1,Screening,1
+1113,Coder 2,Screening,3
+1114,Coder 2,Screening,1
+1115,Coder 2,Screening,2
+1116,Coder 1,Screening,3
+1117,Coder 2,Screening,3
+1118,Coder 1,Trial 2,3
+1118,Coder 2,Trial 2,3
+1119,Coder 1,Trial 3,3
+1119,Coder 2,Trial 3,3
+1120,Coder 1,Screening,3
+1121,Coder 1,Trial 2,3
+1121,Coder 2,Trial 2,3
+1122,Coder 1,Screening,3
+1123,Coder 1,Trial 3,3
+1123,Coder 2,Trial 3,3
+1124,Coder 1,Screening,3
+1125,Coder 1,Screening,3
+1126,Coder 1,Trial 2,3
+1126,Coder 2,Trial 2,3
+1127,Coder 2,Screening,3
+1128,Coder 1,Screening,3
+1129,Coder 1,Trial 3,3
+1129,Coder 2,Trial 3,3
+1130,Coder 2,Screening,3
+1131,Coder 2,Screening,3
+1132,Coder 2,Screening,3
+1133,Coder 1,Trial 1,3
+1133,Coder 2,Trial 1,3
+1134,Coder 2,Screening,3
+1135,Coder 1,Screening,3
+1136,Coder 2,Screening,3
+1137,Coder 2,Screening,3
+1138,Coder 1,Screening,3
+1139,Coder 1,Screening,3
+1140,Coder 2,Screening,3
+1141,Coder 1,Screening,3
+1142,Coder 2,Screening,3
+1143,Coder 1,Screening,3
+1144,Coder 1,Screening,3
+1145,Coder 1,Screening,3
+1146,Coder 1,Screening,3
+1147,Coder 2,Screening,3
+1148,Coder 2,Screening,3
+1149,Coder 1,Trial 2,3
+1149,Coder 2,Trial 2,3
+1150,Coder 1,Screening,3
+1151,Coder 1,Screening,3
+1152,Coder 1,Trial 3,3
+1152,Coder 2,Trial 3,3
+1153,Coder 2,Screening,3
+1154,Coder 2,Screening,3
+1155,Coder 1,Screening,3
+1156,Coder 1,Screening,2
+1157,Coder 2,Screening,2
+1158,Coder 1,Screening,3
+1159,Coder 2,Screening,3
+1160,Coder 1,Screening,3
+1161,Coder 2,Screening,1
+1162,Coder 1,Screening,3
+1163,Coder 2,Screening,1
+1164,Coder 2,Screening,3
+1165,Coder 1,Screening,3
+1166,Coder 1,Trial 1,3
+1166,Coder 2,Trial 1,3
+1167,Coder 2,Screening,3
+1168,Coder 2,Screening,3
+1169,Coder 2,Screening,3
+1170,Coder 2,Screening,1
+1171,Coder 2,Screening,3
+1172,Coder 2,Screening,3
+1173,Coder 2,Screening,3
+1174,Coder 1,Screening,3
+1175,Coder 2,Screening,3
+1176,Coder 2,Screening,3
+1177,Coder 1,Screening,3
+1178,Coder 1,Screening,3
+1179,Coder 1,Screening,3
+1180,Coder 1,Screening,2
+1181,Coder 1,Trial 2,3
+1181,Coder 2,Trial 2,3
+1182,Coder 2,Screening,3
+1183,Coder 1,Trial 3,3
+1183,Coder 2,Trial 3,3
+1184,Coder 1,Screening,3
+1185,Coder 2,Screening,3
+1186,Coder 1,Screening,3
+1187,Coder 1,Screening,3
+1188,Coder 2,Screening,3
+1189,Coder 1,Screening,3
+1190,Coder 2,Screening,3
+1191,Coder 1,Screening,3
+1192,Coder 2,Screening,3
+1193,Coder 2,Screening,3
+1194,Coder 2,Screening,3
+1195,Coder 1,Screening,3
+1196,Coder 2,Screening,3
+1197,Coder 1,Trial 2,3
+1197,Coder 2,Trial 2,3
+1198,Coder 1,Screening,3
+1199,Coder 1,Trial 2,3
+1199,Coder 2,Trial 2,3
+1200,Coder 2,Screening,3
+1201,Coder 1,Trial 3,3
+1201,Coder 2,Trial 3,3
+1202,Coder 2,Screening,3
+1203,Coder 2,Screening,3
+1204,Coder 1,Trial 3,3
+1204,Coder 2,Trial 3,3
+1205,Coder 2,Screening,3
+1206,Coder 2,Screening,3
+1207,Coder 1,Screening,3
+1208,Coder 2,Screening,3
+1209,Coder 1,Trial 1,3
+1209,Coder 2,Trial 1,3
+1210,Coder 1,Screening,3
+1211,Coder 1,Screening,3
+1212,Coder 1,Screening,3
+1213,Coder 1,Screening,3
+1214,Coder 2,Screening,3
+1215,Coder 2,Screening,3
+1216,Coder 1,Trial 2,3
+1216,Coder 2,Trial 2,3
+1217,Coder 1,Screening,2
+1218,Coder 1,Screening,3
+1219,Coder 1,Screening,3
+1220,Coder 1,Trial 3,1
+1220,Coder 2,Trial 3,1
+1221,Coder 1,Screening,2
+1222,Coder 2,Screening,3
+1223,Coder 2,Screening,3
+1224,Coder 1,Screening,3
+1225,Coder 1,Screening,3
+1226,Coder 1,Screening,3
+1227,Coder 1,Screening,3
+1228,Coder 1,Screening,3
+1229,Coder 2,Screening,3
+1230,Coder 2,Screening,3
+1231,Coder 2,Screening,3
+1232,Coder 1,Screening,3
+1233,Coder 2,Screening,3
+1234,Coder 1,Trial 1,3
+1234,Coder 2,Trial 1,3
+1235,Coder 2,Screening,3
+1236,Coder 1,Screening,3
+1237,Coder 1,Screening,3
+1238,Coder 2,Screening,3
+1239,Coder 1,Screening,3
+1240,Coder 2,Screening,3
+1241,Coder 1,Screening,3
+1242,Coder 1,Trial 1,2
+1242,Coder 2,Trial 1,3
+1243,Coder 1,Screening,2
+1244,Coder 2,Screening,3
+1245,Coder 1,Trial 1,3
+1245,Coder 2,Trial 1,3
+1246,Coder 1,Screening,3
+1247,Coder 1,Screening,3
+1248,Coder 1,Screening,1
+1249,Coder 1,Screening,3
+1250,Coder 1,Screening,3
+1251,Coder 1,Screening,3
+1252,Coder 1,Screening,3
+1253,Coder 2,Screening,3
+1254,Coder 2,Screening,3
+1255,Coder 1,Screening,3
+1256,Coder 1,Screening,3
+1257,Coder 1,Screening,3
+1258,Coder 1,Trial 1,3
+1258,Coder 2,Trial 1,3
+1259,Coder 1,Screening,3
+1260,Coder 2,Screening,3
+1261,Coder 2,Screening,3
+1262,Coder 1,Screening,3
+1263,Coder 1,Screening,3
+1264,Coder 1,Trial 1,3
+1264,Coder 2,Trial 1,3
+1265,Coder 1,Screening,3
+1266,Coder 1,Trial 2,3
+1266,Coder 2,Trial 2,3
+1267,Coder 1,Screening,3
+1268,Coder 2,Screening,3
+1269,Coder 1,Trial 3,3
+1269,Coder 2,Trial 3,3
+1270,Coder 2,Screening,3
+1271,Coder 2,Screening,3
+1272,Coder 1,Screening,1
+1273,Coder 1,Trial 2,3
+1273,Coder 2,Trial 2,3
+1274,Coder 2,Screening,3
+1275,Coder 1,Screening,3
+1276,Coder 2,Screening,3
+1277,Coder 1,Trial 3,3
+1277,Coder 2,Trial 3,3
+1278,Coder 1,Screening,3
+1279,Coder 1,Screening,3
+1280,Coder 1,Screening,3
+1281,Coder 2,Screening,3
+1282,Coder 2,Screening,3
+1283,Coder 1,Screening,2
+1284,Coder 1,Trial 1,3
+1284,Coder 2,Trial 1,3
+1285,Coder 1,Screening,3
+1286,Coder 1,Screening,3
+1287,Coder 2,Screening,3
+1288,Coder 1,Screening,3
+1289,Coder 1,Screening,3
+1290,Coder 1,Trial 2,3
+1290,Coder 2,Trial 2,3
+1291,Coder 1,Screening,3
+1292,Coder 1,Screening,3
+1293,Coder 1,Trial 2,3
+1293,Coder 2,Trial 2,3
+1294,Coder 1,Trial 3,4
+1294,Coder 2,Trial 3,4
+1295,Coder 1,Screening,3
+1296,Coder 1,Screening,3
+1297,Coder 2,Screening,3
+1298,Coder 1,Trial 3,3
+1298,Coder 2,Trial 3,3
+1299,Coder 1,Screening,3
+1300,Coder 1,Screening,3
+1301,Coder 1,Trial 2,4
+1301,Coder 2,Trial 2,4
+1302,Coder 2,Screening,3
+1303,Coder 2,Screening,3
+1304,Coder 1,Screening,3
+1305,Coder 1,Trial 3,2
+1305,Coder 2,Trial 3,3
+1306,Coder 1,Screening,3
+1307,Coder 2,Screening,3
+1308,Coder 2,Screening,3
+1309,Coder 1,Screening,3
+1310,Coder 2,Screening,3
+1311,Coder 2,Screening,3
+1312,Coder 1,Screening,3
+1313,Coder 1,Screening,3
+1314,Coder 2,Screening,3
+1315,Coder 1,Screening,3
+1316,Coder 1,Screening,3
+1317,Coder 1,Screening,3
+1318,Coder 1,Trial 1,3
+1318,Coder 2,Trial 1,3
+1319,Coder 2,Screening,3
+1320,Coder 2,Screening,2
+1321,Coder 2,Screening,3
+1322,Coder 2,Screening,3
+1323,Coder 1,Screening,3
+1324,Coder 2,Screening,3
+1325,Coder 1,Screening,3
+1326,Coder 2,Screening,3
+1327,Coder 2,Screening,3
+1328,Coder 1,Trial 1,3
+1328,Coder 2,Trial 1,3
+1329,Coder 1,Screening,3
+1330,Coder 2,Screening,3
+1331,Coder 1,Screening,3
+1332,Coder 1,Screening,3
+1333,Coder 1,Screening,3
+1334,Coder 1,Screening,3
+1335,Coder 1,Screening,3
+1336,Coder 1,Screening,1
+1337,Coder 2,Screening,3
+1338,Coder 1,Screening,1
+1339,Coder 2,Screening,3
+1340,Coder 2,Screening,4
+1341,Coder 2,Screening,3
+1342,Coder 2,Screening,3
+1343,Coder 1,Screening,3
+1344,Coder 1,Screening,1
+1345,Coder 2,Screening,3
+1346,Coder 2,Screening,3
+1347,Coder 1,Trial 2,3
+1347,Coder 2,Trial 2,3
+1348,Coder 2,Screening,3
+1349,Coder 1,Screening,3
+1350,Coder 2,Screening,3
+1351,Coder 1,Screening,3
+1352,Coder 1,Trial 3,3
+1352,Coder 2,Trial 3,3
+1353,Coder 2,Screening,3
+1354,Coder 1,Screening,3
+1355,Coder 1,Screening,1
+1356,Coder 1,Screening,3
+1357,Coder 2,Screening,3
+1358,Coder 2,Screening,3
+1359,Coder 2,Screening,2
+1360,Coder 1,Screening,3
+1361,Coder 1,Trial 2,3
+1361,Coder 2,Trial 2,3
+1362,Coder 1,Screening,3
+1363,Coder 2,Screening,3
+1364,Coder 1,Trial 3,3
+1364,Coder 2,Trial 3,3
+1365,Coder 1,Screening,3
+1366,Coder 1,Screening,3
+1367,Coder 1,Screening,2
+1368,Coder 2,Screening,2
+1369,Coder 2,Screening,3
+1370,Coder 2,Screening,3
+1371,Coder 2,Screening,3
+1372,Coder 1,Screening,3
+1373,Coder 2,Screening,3
+1374,Coder 1,Screening,3
+1375,Coder 1,Screening,3
+1376,Coder 2,Screening,2
+1377,Coder 2,Screening,3
+1378,Coder 2,Screening,3
+1379,Coder 2,Screening,3
+1380,Coder 2,Screening,3
+1381,Coder 2,Screening,3
+1382,Coder 2,Screening,3
+1383,Coder 2,Screening,3
+1384,Coder 1,Screening,3
+1385,Coder 1,Screening,3
+1386,Coder 2,Screening,1
+1387,Coder 1,Trial 1,3
+1387,Coder 2,Trial 1,3
+1388,Coder 1,Screening,3
+1389,Coder 2,Screening,3
+1390,Coder 1,Screening,3
+1391,Coder 2,Screening,3
+1392,Coder 2,Screening,3
+1393,Coder 2,Screening,3
+1394,Coder 2,Screening,3
+1395,Coder 2,Screening,2
+1396,Coder 2,Screening,3
+1397,Coder 2,Screening,3
+1398,Coder 2,Screening,3
+1399,Coder 1,Screening,3
+1400,Coder 2,Screening,3
+1401,Coder 1,Screening,3
+1402,Coder 1,Screening,3
+1403,Coder 2,Screening,3
+1404,Coder 2,Screening,1
+1405,Coder 2,Screening,3
+1406,Coder 2,Screening,3
+1407,Coder 2,Screening,2
+1408,Coder 1,Screening,3
+1409,Coder 1,Screening,3
+1410,Coder 1,Screening,3
+1411,Coder 2,Screening,1
+1412,Coder 1,Screening,1
+1413,Coder 1,Trial 2,3
+1413,Coder 2,Trial 2,3
+1414,Coder 2,Screening,3
+1415,Coder 2,Screening,3
+1416,Coder 1,Trial 3,3
+1416,Coder 2,Trial 3,3
+1417,Coder 2,Screening,3
+1418,Coder 2,Screening,3
+1419,Coder 1,Screening,3
+1420,Coder 1,Screening,3
+1421,Coder 2,Screening,3
+1422,Coder 1,Screening,3
+1423,Coder 1,Screening,3
+1424,Coder 2,Screening,3
+1425,Coder 1,Screening,3
+1426,Coder 2,Screening,3
+1427,Coder 1,Trial 2,3
+1427,Coder 2,Trial 2,3
+1428,Coder 2,Screening,3
+1429,Coder 1,Trial 2,3
+1429,Coder 2,Trial 2,3
+1430,Coder 1,Screening,3
+1431,Coder 1,Screening,3
+1432,Coder 1,Screening,3
+1433,Coder 1,Trial 3,3
+1433,Coder 2,Trial 3,3
+1434,Coder 1,Trial 1,3
+1434,Coder 2,Trial 1,3
+1435,Coder 2,Screening,3
+1436,Coder 1,Screening,3
+1437,Coder 1,Screening,3
+1438,Coder 2,Screening,3
+1439,Coder 2,Screening,3
+1440,Coder 1,Screening,3
+1441,Coder 2,Screening,3
+1442,Coder 1,Screening,3
+1443,Coder 2,Screening,3
+1444,Coder 2,Screening,3
+1445,Coder 1,Trial 2,3
+1445,Coder 2,Trial 2,3
+1446,Coder 2,Screening,3
+1447,Coder 1,Screening,3
+1448,Coder 1,Trial 3,3
+1448,Coder 2,Trial 3,3
+1449,Coder 1,Screening,3
+1450,Coder 1,Screening,3
+1451,Coder 1,Screening,3
+1452,Coder 1,Screening,3
+1453,Coder 1,Trial 2,3
+1453,Coder 2,Trial 2,3
+1454,Coder 1,Screening,3
+1455,Coder 1,Screening,3
+1456,Coder 1,Screening,3
+1457,Coder 2,Screening,3
+1458,Coder 1,Trial 3,3
+1458,Coder 2,Trial 3,3
+1459,Coder 1,Screening,3
+1460,Coder 2,Screening,3
+1461,Coder 2,Screening,2
+1462,Coder 1,Screening,3
+1463,Coder 2,Screening,2
+1464,Coder 2,Screening,3
+1465,Coder 2,Screening,3
+1466,Coder 1,Screening,3
+1467,Coder 1,Screening,2
+1468,Coder 1,Screening,3
+1469,Coder 1,Screening,3
+1470,Coder 2,Screening,3
+1471,Coder 1,Screening,3
+1472,Coder 2,Screening,3
+1473,Coder 2,Screening,3
+1474,Coder 2,Screening,3
+1475,Coder 2,Screening,3
+1476,Coder 1,Screening,2
+1477,Coder 1,Screening,3
+1478,Coder 1,Screening,3
+1479,Coder 1,Screening,4
+1480,Coder 1,Screening,3
+1481,Coder 1,Screening,4
+1482,Coder 1,Screening,3
+1483,Coder 2,Screening,3
+1484,Coder 1,Screening,3
+1485,Coder 2,Screening,3
+1486,Coder 1,Screening,3
+1487,Coder 1,Screening,3
+1488,Coder 1,Screening,3
+1489,Coder 1,Screening,3
+1490,Coder 1,Screening,3
+1491,Coder 2,Screening,4
+1492,Coder 2,Screening,3
+1493,Coder 2,Screening,3
+1494,Coder 1,Screening,1
+1495,Coder 2,Screening,3
+1496,Coder 1,Screening,3
+1497,Coder 1,Screening,3
+1498,Coder 2,Screening,3
+1499,Coder 2,Screening,3
+1500,Coder 1,Trial 1,3
+1500,Coder 2,Trial 1,3
+1501,Coder 2,Screening,3
+1502,Coder 2,Screening,3
+1503,Coder 2,Screening,3
+1504,Coder 2,Screening,3
+1505,Coder 1,Screening,3
+1506,Coder 2,Screening,3
+1507,Coder 1,Screening,3
+1508,Coder 2,Screening,3
+1509,Coder 2,Screening,3
+1510,Coder 2,Screening,3
+1511,Coder 1,Screening,3
+1512,Coder 2,Screening,3
+1513,Coder 1,Screening,3
+1514,Coder 1,Trial 1,3
+1514,Coder 2,Trial 1,3
+1515,Coder 2,Screening,3
+1516,Coder 1,Screening,3
+1517,Coder 2,Screening,3
+1518,Coder 1,Screening,3
+1519,Coder 1,Screening,3
+1520,Coder 1,Screening,3
+1521,Coder 1,Screening,3
+1522,Coder 2,Screening,2
+1523,Coder 1,Screening,3
+1524,Coder 1,Trial 1,3
+1524,Coder 2,Trial 1,3
+1525,Coder 1,Screening,2
+1526,Coder 1,Screening,3
+1527,Coder 2,Screening,3
+1528,Coder 2,Screening,3
+1529,Coder 1,Screening,3
+1530,Coder 1,Screening,3
+1531,Coder 1,Screening,3
+1532,Coder 1,Screening,3
+1533,Coder 1,Screening,1
+1534,Coder 2,Screening,3
+1535,Coder 2,Screening,3
+1536,Coder 1,Trial 1,3
+1536,Coder 2,Trial 1,3
+1537,Coder 2,Screening,3
+1538,Coder 1,Screening,4
+1539,Coder 2,Screening,3
+1540,Coder 2,Screening,3
+1541,Coder 2,Screening,1
+1542,Coder 2,Screening,3
+1543,Coder 1,Screening,3
+1544,Coder 1,Screening,3
+1545,Coder 2,Screening,3
+1546,Coder 1,Screening,3
+1547,Coder 2,Screening,3
+1548,Coder 1,Screening,3
+1549,Coder 2,Screening,1
+1550,Coder 1,Screening,3
+1551,Coder 1,Screening,3
+1552,Coder 1,Screening,3
+1553,Coder 1,Screening,3
+1554,Coder 1,Screening,3
+1555,Coder 2,Screening,3
+1556,Coder 2,Screening,3
+1557,Coder 1,Screening,3
+1558,Coder 1,Screening,3
+1559,Coder 2,Screening,3
+1560,Coder 2,Screening,3
+1561,Coder 1,Screening,3
+1562,Coder 2,Screening,3
+1563,Coder 2,Screening,3
+1564,Coder 1,Screening,3
+1565,Coder 2,Screening,3
+1566,Coder 1,Screening,3
+1567,Coder 2,Screening,3
+1568,Coder 1,Screening,3
+1569,Coder 1,Screening,3
+1570,Coder 2,Screening,3
+1571,Coder 1,Screening,3
+1572,Coder 2,Screening,3
+1573,Coder 1,Screening,3
+1574,Coder 1,Screening,3
+1575,Coder 2,Screening,3
+1576,Coder 2,Screening,1
+1577,Coder 2,Screening,3
+1578,Coder 1,Screening,3
+1579,Coder 1,Screening,3
+1580,Coder 1,Screening,3
+1581,Coder 2,Screening,3
+1582,Coder 1,Screening,3
+1583,Coder 2,Screening,3
+1584,Coder 1,Screening,3
+1585,Coder 1,Screening,3
+1586,Coder 1,Screening,3
+1587,Coder 1,Screening,3
+1588,Coder 2,Screening,3
+1589,Coder 1,Trial 2,3
+1589,Coder 2,Trial 2,3
+1590,Coder 1,Trial 1,3
+1590,Coder 2,Trial 1,3
+1591,Coder 1,Screening,3
+1592,Coder 1,Trial 3,3
+1592,Coder 2,Trial 3,3
+1593,Coder 1,Screening,3
+1594,Coder 2,Screening,3
+1595,Coder 1,Screening,3
+1596,Coder 2,Screening,3
+1597,Coder 1,Screening,3
+1598,Coder 1,Screening,3
+1599,Coder 2,Screening,3
+1600,Coder 1,Screening,3
+1601,Coder 1,Screening,2
+1602,Coder 2,Screening,3
+1603,Coder 2,Screening,3
+1604,Coder 1,Screening,3
+1605,Coder 2,Screening,3
+1606,Coder 2,Screening,3
+1607,Coder 1,Screening,3
+1608,Coder 2,Screening,3
+1609,Coder 2,Screening,3
+1610,Coder 2,Screening,3
+1611,Coder 2,Screening,3
+1612,Coder 1,Screening,3
+1613,Coder 2,Screening,3
+1614,Coder 1,Trial 3,1
+1614,Coder 2,Trial 3,1
+1615,Coder 1,Trial 2,3
+1615,Coder 2,Trial 2,3
+1616,Coder 1,Screening,3
+1617,Coder 2,Screening,3
+1618,Coder 1,Screening,2
+1619,Coder 2,Screening,3
+1620,Coder 1,Screening,3
+1621,Coder 1,Trial 1,3
+1621,Coder 2,Trial 1,3
+1622,Coder 1,Screening,3
+1623,Coder 2,Screening,3
+1624,Coder 1,Screening,3
+1625,Coder 2,Screening,3
+1626,Coder 1,Screening,3
+1627,Coder 2,Screening,2
+1628,Coder 2,Screening,3
+1629,Coder 1,Screening,3
+1630,Coder 1,Screening,3
+1631,Coder 2,Screening,3
+1632,Coder 1,Screening,3
+1633,Coder 2,Screening,2
+1634,Coder 1,Screening,3
+1635,Coder 2,Screening,2
+1636,Coder 2,Screening,3
+1637,Coder 1,Screening,3
+1638,Coder 1,Screening,3
+1639,Coder 1,Screening,3
+1640,Coder 1,Screening,3
+1641,Coder 1,Screening,3
+1642,Coder 1,Screening,3
+1643,Coder 2,Screening,3
+1644,Coder 1,Screening,3
+1645,Coder 1,Screening,3
+1646,Coder 1,Screening,3
+1647,Coder 1,Screening,3
+1648,Coder 2,Screening,3
+1649,Coder 1,Screening,3
+1650,Coder 1,Screening,3
+1651,Coder 2,Screening,3
+1652,Coder 1,Screening,3
+1653,Coder 1,Screening,3
+1654,Coder 2,Screening,3
+1655,Coder 1,Screening,3
+1656,Coder 1,Screening,3
+1657,Coder 1,Screening,3
+1658,Coder 1,Screening,2
+1659,Coder 2,Screening,3
+1660,Coder 2,Screening,3
+1661,Coder 1,Screening,3
+1662,Coder 2,Screening,3
+1663,Coder 1,Screening,3
+1664,Coder 1,Trial 1,3
+1664,Coder 2,Trial 1,3
+1665,Coder 1,Screening,3
+1666,Coder 1,Screening,3
+1667,Coder 1,Screening,3
+1668,Coder 1,Trial 3,3
+1668,Coder 2,Trial 3,3
+1669,Coder 1,Trial 2,4
+1669,Coder 2,Trial 2,4
+1670,Coder 1,Screening,4
+1671,Coder 2,Screening,3
+1672,Coder 2,Screening,3
+1673,Coder 2,Screening,3
+1674,Coder 2,Screening,3
+1675,Coder 1,Screening,2
+1676,Coder 1,Screening,3
+1677,Coder 2,Screening,3
+1678,Coder 2,Screening,3
+1679,Coder 2,Screening,3
+1680,Coder 1,Screening,3
+1681,Coder 2,Screening,3
+1682,Coder 1,Screening,3
+1683,Coder 1,Screening,3
+1684,Coder 1,Trial 3,3
+1684,Coder 2,Trial 3,3
+1685,Coder 1,Trial 1,3
+1685,Coder 2,Trial 1,3
+1686,Coder 1,Trial 2,3
+1686,Coder 2,Trial 2,3
+1687,Coder 2,Screening,3
+1688,Coder 2,Screening,3
+1689,Coder 1,Trial 1,3
+1689,Coder 2,Trial 1,3
+1690,Coder 2,Screening,3
+1691,Coder 1,Screening,3
+1692,Coder 2,Screening,3
+1693,Coder 2,Screening,3
+1694,Coder 1,Trial 1,3
+1694,Coder 2,Trial 1,3
+1695,Coder 1,Screening,1
+1696,Coder 1,Trial 1,3
+1696,Coder 2,Trial 1,3
+1697,Coder 1,Screening,3
+1698,Coder 1,Screening,3
+1699,Coder 2,Screening,3
+1700,Coder 2,Screening,3
+1701,Coder 2,Screening,3
+1702,Coder 2,Screening,3
+1703,Coder 1,Trial 3,3
+1703,Coder 2,Trial 3,3
+1704,Coder 1,Trial 1,3
+1704,Coder 2,Trial 1,3
+1705,Coder 1,Trial 2,2
+1705,Coder 2,Trial 2,2
+1706,Coder 2,Screening,3
+1707,Coder 2,Screening,3
+1708,Coder 1,Screening,3
+1709,Coder 1,Screening,3
+1710,Coder 2,Screening,3
+1711,Coder 1,Screening,3
+1712,Coder 1,Screening,1
+1713,Coder 2,Screening,3
+1714,Coder 1,Trial 3,3
+1714,Coder 2,Trial 3,3
+1715,Coder 2,Screening,3
+1716,Coder 1,Trial 2,3
+1716,Coder 2,Trial 2,3
+1717,Coder 1,Screening,3
+1718,Coder 1,Trial 3,3
+1718,Coder 2,Trial 3,3
+1719,Coder 2,Screening,3
+1720,Coder 2,Screening,3
+1721,Coder 1,Screening,3
+1722,Coder 2,Screening,3
+1723,Coder 2,Screening,3
+1724,Coder 1,Trial 1,3
+1724,Coder 2,Trial 1,3
+1725,Coder 1,Screening,3
+1726,Coder 1,Screening,3
+1727,Coder 2,Screening,3
+1728,Coder 2,Screening,3
+1729,Coder 1,Screening,3
+1730,Coder 2,Screening,3
+1731,Coder 2,Screening,3
+1732,Coder 1,Trial 2,3
+1732,Coder 2,Trial 2,3
+1733,Coder 1,Trial 3,3
+1733,Coder 2,Trial 3,3
+1734,Coder 1,Trial 2,2
+1734,Coder 2,Trial 2,2
+1735,Coder 1,Trial 3,3
+1735,Coder 2,Trial 3,3
+1736,Coder 1,Screening,3
+1737,Coder 1,Screening,3
+1738,Coder 1,Screening,3
+1739,Coder 1,Screening,3
+1740,Coder 2,Screening,3
+1741,Coder 2,Screening,3
+1742,Coder 1,Screening,3
+1743,Coder 2,Screening,1
+1744,Coder 1,Screening,3
+1745,Coder 1,Screening,3
+1746,Coder 2,Screening,3
+1747,Coder 1,Screening,3
+1748,Coder 1,Screening,3
+1749,Coder 1,Screening,3
+1750,Coder 1,Screening,2
+1751,Coder 2,Screening,3
+1752,Coder 2,Screening,3
+1753,Coder 2,Screening,3
+1754,Coder 1,Screening,3
+1755,Coder 2,Screening,3
+1756,Coder 1,Screening,3
+1757,Coder 1,Screening,3
+1758,Coder 1,Screening,3
+1759,Coder 2,Screening,4
+1760,Coder 1,Trial 3,3
+1760,Coder 2,Trial 3,3
+1761,Coder 1,Trial 2,3
+1761,Coder 2,Trial 2,3
+1762,Coder 1,Screening,1
+1763,Coder 1,Screening,3
+1764,Coder 1,Screening,2
+1765,Coder 2,Screening,3
+1766,Coder 1,Screening,3
+1767,Coder 2,Screening,3
+1768,Coder 2,Screening,3
+1769,Coder 1,Screening,3
+1770,Coder 1,Screening,3
+1771,Coder 1,Screening,3
+1772,Coder 1,Screening,2
+1773,Coder 2,Screening,3
+1774,Coder 2,Screening,3
+1775,Coder 1,Screening,3
+1776,Coder 1,Trial 2,3
+1776,Coder 2,Trial 2,3
+1777,Coder 1,Screening,3
+1778,Coder 1,Trial 3,3
+1778,Coder 2,Trial 3,3
+1779,Coder 1,Screening,3
+1780,Coder 2,Screening,3
+1781,Coder 1,Screening,3
+1782,Coder 2,Screening,3
+1783,Coder 1,Screening,3
+1784,Coder 2,Screening,3
+1785,Coder 2,Screening,3
+1786,Coder 1,Screening,3
+1787,Coder 1,Screening,3
+1788,Coder 2,Screening,3
+1789,Coder 1,Screening,3
+1790,Coder 1,Trial 1,2
+1790,Coder 2,Trial 1,3
+1791,Coder 1,Screening,3
+1792,Coder 2,Screening,3
+1793,Coder 1,Screening,3
+1794,Coder 1,Screening,3
+1795,Coder 1,Screening,3
+1796,Coder 1,Screening,3
+1797,Coder 2,Screening,3
+1798,Coder 1,Screening,3
+1799,Coder 2,Screening,3
+1800,Coder 1,Screening,3
+1801,Coder 1,Screening,3
+1802,Coder 2,Screening,3
+1803,Coder 2,Screening,3
+1804,Coder 2,Screening,3
+1805,Coder 1,Screening,2
+1806,Coder 1,Screening,3
+1807,Coder 2,Screening,1
+1808,Coder 1,Screening,3
+1809,Coder 1,Screening,3
+1810,Coder 2,Screening,3
+1811,Coder 1,Screening,3
+1812,Coder 1,Screening,1
+1813,Coder 1,Screening,3
+1814,Coder 1,Screening,3
+1815,Coder 1,Screening,3
+1816,Coder 1,Screening,3
+1817,Coder 1,Screening,3
+1818,Coder 2,Screening,3
+1819,Coder 2,Screening,3
+1820,Coder 2,Screening,3
+1821,Coder 2,Screening,3
+1822,Coder 1,Screening,3
+1823,Coder 1,Screening,3
+1824,Coder 2,Screening,3
+1825,Coder 1,Trial 1,3
+1825,Coder 2,Trial 1,3
+1826,Coder 1,Trial 1,3
+1826,Coder 2,Trial 1,3
+1827,Coder 2,Screening,3
+1828,Coder 1,Screening,3
+1829,Coder 2,Screening,3
+1830,Coder 2,Screening,3
+1831,Coder 2,Screening,3
+1832,Coder 2,Screening,3
+1833,Coder 2,Screening,3
+1834,Coder 1,Screening,3
+1835,Coder 1,Screening,3
+1836,Coder 1,Screening,3
+1837,Coder 1,Trial 1,3
+1837,Coder 2,Trial 1,3
+1838,Coder 1,Screening,3
+1839,Coder 1,Screening,3
+1840,Coder 2,Screening,3
+1841,Coder 1,Screening,3
+1842,Coder 2,Screening,3
+1843,Coder 1,Screening,3
+1844,Coder 1,Screening,3
+1845,Coder 1,Trial 1,3
+1845,Coder 2,Trial 1,2
+1846,Coder 2,Screening,3
+1847,Coder 1,Screening,3
+1848,Coder 2,Screening,3
+1849,Coder 2,Screening,3
+1850,Coder 1,Screening,2
+1851,Coder 2,Screening,3
+1852,Coder 1,Screening,3
+1853,Coder 2,Screening,3
+1854,Coder 1,Screening,3
+1855,Coder 1,Screening,3
+1856,Coder 2,Screening,3
+1857,Coder 2,Screening,3
+1858,Coder 1,Trial 1,3
+1858,Coder 2,Trial 1,3
+1859,Coder 2,Screening,3
+1860,Coder 2,Screening,4
+1861,Coder 1,Screening,3
+1862,Coder 2,Screening,3
+1863,Coder 1,Screening,1
+1864,Coder 1,Screening,3
+1865,Coder 2,Screening,2
+1866,Coder 1,Screening,3
+1867,Coder 2,Screening,3
+1868,Coder 1,Screening,3
+1869,Coder 2,Screening,2
+1870,Coder 1,Screening,3
+1871,Coder 1,Screening,3
+1872,Coder 1,Screening,3
+1873,Coder 1,Screening,3
+1874,Coder 1,Screening,3
+1875,Coder 2,Screening,1
+1876,Coder 1,Screening,3
+1877,Coder 1,Screening,3
+1878,Coder 1,Screening,2
+1879,Coder 1,Screening,3
+1880,Coder 2,Screening,3
+1881,Coder 1,Screening,3
+1882,Coder 2,Screening,3
+1883,Coder 1,Screening,3
+1884,Coder 2,Screening,3
+1885,Coder 2,Screening,3
+1886,Coder 1,Screening,3
+1887,Coder 1,Screening,3
+1888,Coder 2,Screening,3
+1889,Coder 1,Screening,3
+1890,Coder 1,Screening,3
+1891,Coder 2,Screening,1
+1892,Coder 2,Screening,3
+1893,Coder 1,Screening,2
+1894,Coder 2,Screening,3
+1895,Coder 2,Screening,3
+1896,Coder 2,Screening,3
+1897,Coder 1,Trial 3,3
+1897,Coder 2,Trial 3,3
+1898,Coder 2,Screening,3
+1899,Coder 1,Screening,3
+1900,Coder 1,Screening,3
+1901,Coder 1,Screening,3
+1902,Coder 1,Trial 2,3
+1902,Coder 2,Trial 2,3
+1903,Coder 1,Screening,3
+1904,Coder 1,Screening,3
+1905,Coder 1,Screening,3
+1906,Coder 2,Screening,3
+1907,Coder 1,Trial 3,3
+1907,Coder 2,Trial 3,3
+1908,Coder 2,Screening,3
+1909,Coder 1,Screening,3
+1910,Coder 2,Screening,3
+1911,Coder 1,Trial 2,3
+1911,Coder 2,Trial 2,3
+1912,Coder 1,Trial 3,3
+1912,Coder 2,Trial 3,3
+1913,Coder 2,Screening,3
+1914,Coder 1,Screening,2
+1915,Coder 1,Screening,3
+1916,Coder 1,Trial 2,3
+1916,Coder 2,Trial 2,3
+1917,Coder 1,Screening,3
+1918,Coder 2,Screening,3
+1919,Coder 1,Screening,3
+1920,Coder 1,Screening,3
+1921,Coder 1,Screening,3
+1922,Coder 1,Screening,3
+1923,Coder 1,Screening,3
+1924,Coder 1,Screening,3
+1925,Coder 2,Screening,3
+1926,Coder 1,Trial 3,3
+1926,Coder 2,Trial 3,3
+1927,Coder 2,Screening,3
+1928,Coder 1,Screening,3
+1929,Coder 1,Trial 2,3
+1929,Coder 2,Trial 2,3
+1930,Coder 1,Screening,3
+1931,Coder 2,Screening,3
+1932,Coder 1,Screening,3
+1933,Coder 1,Trial 1,3
+1933,Coder 2,Trial 1,3
+1934,Coder 1,Screening,2
+1935,Coder 2,Screening,2
+1936,Coder 1,Screening,3
+1937,Coder 2,Screening,3
+1938,Coder 1,Trial 3,3
+1938,Coder 2,Trial 3,3
+1939,Coder 1,Trial 2,3
+1939,Coder 2,Trial 2,3
+1940,Coder 1,Screening,3
+1941,Coder 2,Screening,3
+1942,Coder 1,Screening,3
+1943,Coder 1,Screening,3
+1944,Coder 2,Screening,3
+1945,Coder 1,Trial 2,3
+1945,Coder 2,Trial 2,3
+1946,Coder 1,Trial 3,3
+1946,Coder 2,Trial 3,3
+1947,Coder 2,Screening,3
+1948,Coder 2,Screening,3
+1949,Coder 1,Screening,1
+1950,Coder 1,Screening,1
+1951,Coder 2,Screening,3
+1952,Coder 1,Screening,3
+1953,Coder 1,Screening,3
+1954,Coder 1,Screening,3
+1955,Coder 2,Screening,3
+1956,Coder 2,Screening,3
+1957,Coder 2,Screening,3
+1958,Coder 1,Trial 1,3
+1958,Coder 2,Trial 1,3
+1959,Coder 1,Screening,3
+1960,Coder 2,Screening,3
+1961,Coder 2,Screening,3
+1962,Coder 1,Screening,3
+1963,Coder 2,Screening,3
+1964,Coder 1,Screening,2
+1965,Coder 2,Screening,3
+1966,Coder 1,Trial 1,2
+1966,Coder 2,Trial 1,3
+1967,Coder 1,Screening,3
+1968,Coder 1,Screening,3
+1969,Coder 2,Screening,3
+1970,Coder 2,Screening,3
+1971,Coder 1,Screening,3
+1972,Coder 1,Screening,3
+1973,Coder 2,Screening,3
+1974,Coder 2,Screening,3
+1975,Coder 1,Trial 1,3
+1975,Coder 2,Trial 1,3
+1976,Coder 2,Screening,3
+1977,Coder 2,Screening,3
+1978,Coder 1,Screening,3
+1979,Coder 2,Screening,3
+1980,Coder 2,Screening,3
+1981,Coder 2,Screening,3
+1982,Coder 2,Screening,3
+1983,Coder 2,Screening,3
+1984,Coder 2,Screening,3
+1985,Coder 2,Screening,3
+1986,Coder 2,Screening,3
+1987,Coder 1,Screening,3
+1988,Coder 1,Screening,3
+1989,Coder 1,Screening,3
+1990,Coder 1,Screening,3
+1991,Coder 2,Screening,3
+1992,Coder 1,Screening,3
+1993,Coder 1,Trial 1,2
+1993,Coder 2,Trial 1,2
+1994,Coder 2,Screening,3
+1995,Coder 1,Screening,3
+1996,Coder 1,Screening,3
+1997,Coder 2,Screening,3
+1998,Coder 1,Trial 1,3
+1998,Coder 2,Trial 1,2
+1999,Coder 1,Screening,3
+2000,Coder 2,Screening,3
+2001,Coder 1,Screening,2
+2002,Coder 1,Trial 1,3
+2002,Coder 2,Trial 1,3
+2003,Coder 2,Screening,3
+2004,Coder 2,Screening,3
+2005,Coder 1,Screening,3
+2006,Coder 2,Screening,3
+2007,Coder 2,Screening,3
+2008,Coder 1,Screening,3
+2009,Coder 1,Screening,3
+2010,Coder 1,Screening,3
+2011,Coder 1,Screening,3
+2012,Coder 1,Screening,3
+2013,Coder 1,Screening,2
+2014,Coder 1,Screening,3
+2015,Coder 1,Screening,3
+2016,Coder 1,Screening,3
+2017,Coder 1,Screening,3
+2018,Coder 2,Screening,3
+2019,Coder 2,Screening,3
+2020,Coder 2,Screening,3
+2021,Coder 2,Screening,3
+2022,Coder 2,Screening,3
+2023,Coder 1,Screening,2
+2024,Coder 2,Screening,3
+2025,Coder 2,Screening,3
+2026,Coder 1,Trial 1,3
+2026,Coder 2,Trial 1,3
+2027,Coder 1,Screening,3
+2028,Coder 1,Screening,3
+2029,Coder 2,Screening,3
+2030,Coder 2,Screening,3
+2031,Coder 2,Screening,3
+2032,Coder 2,Screening,3
+2033,Coder 2,Screening,1
+2034,Coder 1,Screening,3
+2035,Coder 2,Screening,3
+2036,Coder 2,Screening,3
+2037,Coder 2,Screening,3
+2038,Coder 2,Screening,3
+2039,Coder 2,Screening,3
+2040,Coder 2,Screening,3
+2041,Coder 2,Screening,3
+2042,Coder 1,Screening,3
+2043,Coder 1,Screening,3
+2044,Coder 1,Screening,3
+2045,Coder 2,Screening,2
+2046,Coder 1,Screening,3
+2047,Coder 2,Screening,3
+2048,Coder 2,Screening,3
+2049,Coder 2,Screening,3
+2050,Coder 2,Screening,3
+2051,Coder 2,Screening,3
+2052,Coder 2,Screening,3
+2053,Coder 2,Screening,3
+2054,Coder 1,Screening,3
+2055,Coder 1,Screening,3
+2056,Coder 1,Screening,3
+2057,Coder 2,Screening,3
+2058,Coder 2,Screening,3
+2059,Coder 1,Screening,3
+2060,Coder 2,Screening,3
+2061,Coder 1,Screening,3
+2062,Coder 2,Screening,3
+2063,Coder 1,Screening,3
+2064,Coder 1,Screening,3
+2065,Coder 2,Screening,3
+2066,Coder 2,Screening,3
+2067,Coder 2,Screening,3
+2068,Coder 1,Screening,2
+2069,Coder 1,Screening,3
+2070,Coder 1,Trial 3,3
+2070,Coder 2,Trial 3,3
+2071,Coder 2,Screening,3
+2072,Coder 1,Screening,3
+2073,Coder 1,Trial 1,3
+2073,Coder 2,Trial 1,3
+2074,Coder 2,Screening,3
+2075,Coder 2,Screening,1
+2076,Coder 2,Screening,3
+2077,Coder 1,Screening,3
+2078,Coder 1,Trial 2,3
+2078,Coder 2,Trial 2,3
+2079,Coder 1,Screening,3
+2080,Coder 1,Screening,3
+2081,Coder 1,Screening,3
+2082,Coder 2,Screening,3
+2083,Coder 2,Screening,3
+2084,Coder 2,Screening,3
+2085,Coder 2,Screening,3
+2086,Coder 1,Screening,3
+2087,Coder 1,Screening,2
+2088,Coder 2,Screening,3
+2089,Coder 1,Screening,3
+2090,Coder 1,Screening,3
+2091,Coder 2,Screening,3
+2092,Coder 1,Screening,3
+2093,Coder 2,Screening,3
+2094,Coder 2,Screening,3
+2095,Coder 1,Screening,3
+2096,Coder 1,Screening,3
+2097,Coder 1,Screening,4
+2098,Coder 1,Screening,3
+2099,Coder 2,Screening,3
+2100,Coder 1,Trial 3,3
+2100,Coder 2,Trial 3,3
+2101,Coder 1,Screening,3
+2102,Coder 2,Screening,3
+2103,Coder 2,Screening,3
+2104,Coder 1,Trial 2,3
+2104,Coder 2,Trial 2,3
+2105,Coder 2,Screening,3
+2106,Coder 2,Screening,3
+2107,Coder 1,Trial 1,3
+2107,Coder 2,Trial 1,3
+2108,Coder 1,Screening,3
+2109,Coder 1,Screening,3
+2110,Coder 1,Screening,3
+2111,Coder 2,Screening,3
+2112,Coder 1,Screening,3
+2113,Coder 1,Trial 1,3
+2113,Coder 2,Trial 1,3
+2114,Coder 2,Screening,3
+2115,Coder 1,Screening,3
+2116,Coder 1,Screening,3
+2117,Coder 1,Screening,3
+2118,Coder 2,Screening,3
+2119,Coder 2,Screening,3
+2120,Coder 2,Screening,3
+2121,Coder 1,Trial 3,3
+2121,Coder 2,Trial 3,3
+2122,Coder 1,Screening,3
+2123,Coder 1,Screening,3
+2124,Coder 2,Screening,3
+2125,Coder 1,Screening,3
+2126,Coder 1,Trial 2,3
+2126,Coder 2,Trial 2,3
+2127,Coder 2,Screening,3
+2128,Coder 1,Trial 3,3
+2128,Coder 2,Trial 3,3
+2129,Coder 2,Screening,3
+2130,Coder 1,Screening,3
+2131,Coder 2,Screening,3
+2132,Coder 2,Screening,3
+2133,Coder 1,Screening,3
+2134,Coder 1,Screening,3
+2135,Coder 1,Trial 2,3
+2135,Coder 2,Trial 2,3
+2136,Coder 2,Screening,3
+2137,Coder 2,Screening,3
+2138,Coder 1,Screening,3
+2139,Coder 1,Screening,2
+2140,Coder 1,Screening,3
+2141,Coder 1,Screening,2
+2142,Coder 2,Screening,3
+2143,Coder 2,Screening,3
+2144,Coder 1,Screening,3
+2145,Coder 2,Screening,3
+2146,Coder 1,Trial 3,3
+2146,Coder 2,Trial 3,3
+2147,Coder 2,Screening,3
+2148,Coder 2,Screening,3
+2149,Coder 2,Screening,3
+2150,Coder 2,Screening,3
+2151,Coder 1,Trial 2,3
+2151,Coder 2,Trial 2,3
+2152,Coder 2,Screening,3
+2153,Coder 2,Screening,3
+2154,Coder 1,Screening,3
+2155,Coder 2,Screening,3
+2156,Coder 1,Screening,3
+2157,Coder 1,Screening,3
+2158,Coder 2,Screening,3
+2159,Coder 1,Trial 1,3
+2159,Coder 2,Trial 1,3
+2160,Coder 2,Screening,3
+2161,Coder 1,Screening,3
+2162,Coder 1,Screening,3
+2163,Coder 1,Screening,3
+2164,Coder 1,Trial 3,4
+2164,Coder 2,Trial 3,4
+2165,Coder 1,Screening,3
+2166,Coder 1,Screening,3
+2167,Coder 2,Screening,3
+2168,Coder 1,Trial 2,3
+2168,Coder 2,Trial 2,3
+2169,Coder 2,Screening,3
+2170,Coder 2,Screening,3
+2171,Coder 2,Screening,3
+2172,Coder 1,Trial 3,3
+2172,Coder 2,Trial 3,3
+2173,Coder 1,Screening,3
+2174,Coder 2,Screening,3
+2175,Coder 2,Screening,3
+2176,Coder 1,Trial 2,3
+2176,Coder 2,Trial 2,3
+2177,Coder 1,Screening,3
+2178,Coder 1,Screening,3
+2179,Coder 1,Screening,3
+2180,Coder 1,Screening,3
+2181,Coder 2,Screening,3
+2182,Coder 2,Screening,3
+2183,Coder 1,Screening,3
+2184,Coder 2,Screening,3
+2185,Coder 1,Trial 3,3
+2185,Coder 2,Trial 3,3
+2186,Coder 1,Screening,3
+2187,Coder 2,Screening,3
+2188,Coder 1,Screening,3
+2189,Coder 2,Screening,3
+2190,Coder 1,Trial 2,3
+2190,Coder 2,Trial 2,3
+2191,Coder 2,Screening,3
+2192,Coder 1,Screening,3
+2193,Coder 2,Screening,3
+2194,Coder 1,Screening,1
+2195,Coder 2,Screening,3
+2196,Coder 2,Screening,3
+2197,Coder 1,Screening,3
+2198,Coder 2,Screening,3
+2199,Coder 1,Trial 3,3
+2199,Coder 2,Trial 3,3
+2200,Coder 2,Screening,3
+2201,Coder 1,Screening,3
+2202,Coder 1,Trial 2,3
+2202,Coder 2,Trial 2,3
+2203,Coder 1,Screening,3
+2204,Coder 2,Screening,3
+2205,Coder 1,Screening,3
+2206,Coder 1,Screening,3
+2207,Coder 2,Screening,3
+2208,Coder 2,Screening,3
+2209,Coder 1,Trial 1,3
+2209,Coder 2,Trial 1,3
+2210,Coder 1,Screening,3
+2211,Coder 2,Screening,3
+2212,Coder 2,Screening,3
+2213,Coder 2,Screening,3
+2214,Coder 2,Screening,3
+2215,Coder 2,Screening,3
+2216,Coder 1,Screening,3
+2217,Coder 1,Screening,3
+2218,Coder 1,Trial 1,3
+2218,Coder 2,Trial 1,3
+2219,Coder 2,Screening,3
+2220,Coder 2,Screening,3
+2221,Coder 1,Screening,3
+2222,Coder 1,Screening,3
+2223,Coder 1,Screening,3
+2224,Coder 2,Screening,3
+2225,Coder 2,Screening,3
+2226,Coder 1,Screening,3
+2227,Coder 1,Screening,3
+2228,Coder 2,Screening,3
+2229,Coder 1,Screening,3
+2230,Coder 2,Screening,3
+2231,Coder 1,Screening,3
+2232,Coder 1,Screening,3
+2233,Coder 1,Screening,3
+2234,Coder 2,Screening,3
+2235,Coder 2,Screening,3
+2236,Coder 1,Screening,3
+2237,Coder 1,Screening,3
+2238,Coder 1,Screening,3
+2239,Coder 1,Screening,3
+2240,Coder 2,Screening,3
+2241,Coder 2,Screening,3
+2242,Coder 2,Screening,3
+2243,Coder 1,Screening,2
+2244,Coder 2,Screening,3
+2245,Coder 1,Screening,3
+2246,Coder 1,Trial 1,2
+2246,Coder 2,Trial 1,2
+2247,Coder 2,Screening,3
+2248,Coder 2,Screening,3
+2249,Coder 2,Screening,3
+2250,Coder 2,Screening,3
+2251,Coder 2,Screening,3
+2252,Coder 1,Screening,3
+2253,Coder 1,Trial 3,3
+2253,Coder 2,Trial 3,3
+2254,Coder 2,Screening,3
+2255,Coder 1,Trial 2,3
+2255,Coder 2,Trial 2,3
+2256,Coder 1,Screening,3
+2257,Coder 1,Screening,2
+2258,Coder 1,Screening,3
+2259,Coder 2,Screening,3
+2260,Coder 2,Screening,3
+2261,Coder 2,Screening,3
+2262,Coder 1,Screening,3
+2263,Coder 1,Screening,3
+2264,Coder 1,Screening,3
+2265,Coder 1,Screening,3
+2266,Coder 1,Screening,3
+2267,Coder 2,Screening,3
+2268,Coder 2,Screening,3
+2269,Coder 1,Screening,3
+2270,Coder 1,Trial 1,3
+2270,Coder 2,Trial 1,3
+2271,Coder 1,Trial 3,3
+2271,Coder 2,Trial 3,3
+2272,Coder 2,Screening,3
+2273,Coder 1,Screening,3
+2274,Coder 1,Screening,3
+2275,Coder 1,Trial 2,3
+2275,Coder 2,Trial 2,3
+2276,Coder 1,Screening,3
+2277,Coder 1,Screening,3
+2278,Coder 1,Screening,3
+2279,Coder 1,Screening,3
+2280,Coder 2,Screening,3
+2281,Coder 2,Screening,3
+2282,Coder 1,Screening,3
+2283,Coder 2,Screening,3
+2284,Coder 1,Screening,3
+2285,Coder 2,Screening,3
+2286,Coder 2,Screening,3
+2287,Coder 1,Trial 1,3
+2287,Coder 2,Trial 1,3
+2288,Coder 1,Screening,4
+2289,Coder 2,Screening,3
+2290,Coder 2,Screening,3
+2291,Coder 1,Screening,2
+2292,Coder 1,Trial 3,4
+2292,Coder 2,Trial 3,3
+2293,Coder 2,Screening,3
+2294,Coder 2,Screening,3
+2295,Coder 2,Screening,2
+2296,Coder 1,Trial 2,3
+2296,Coder 2,Trial 2,3
+2297,Coder 1,Screening,3
+2298,Coder 1,Screening,3
+2299,Coder 2,Screening,3
+2300,Coder 1,Trial 3,3
+2300,Coder 2,Trial 3,3
+2301,Coder 2,Screening,3
+2302,Coder 1,Trial 2,2
+2302,Coder 2,Trial 2,3
+2303,Coder 2,Screening,3
+2304,Coder 2,Screening,3
+2305,Coder 2,Screening,3
+2306,Coder 1,Screening,3
+2307,Coder 1,Screening,3
+2308,Coder 1,Screening,3
+2309,Coder 1,Screening,1
+2310,Coder 1,Screening,3
+2311,Coder 1,Screening,3
+2312,Coder 1,Screening,3
+2313,Coder 2,Screening,3
+2314,Coder 1,Screening,3
+2315,Coder 2,Screening,3
+2316,Coder 2,Screening,3
+2317,Coder 2,Screening,3
+2318,Coder 1,Screening,3
+2319,Coder 2,Screening,2
+2320,Coder 1,Screening,3
+2321,Coder 2,Screening,3
+2322,Coder 1,Trial 3,3
+2322,Coder 2,Trial 3,3
+2323,Coder 1,Screening,3
+2324,Coder 1,Trial 2,3
+2324,Coder 2,Trial 2,3
+2325,Coder 2,Screening,3
+2326,Coder 2,Screening,3
+2327,Coder 1,Screening,3
+2328,Coder 2,Screening,3
+2329,Coder 2,Screening,3
+2330,Coder 2,Screening,3
+2331,Coder 2,Screening,3
+2332,Coder 2,Screening,3
+2333,Coder 1,Screening,2
+2334,Coder 1,Screening,3
+2335,Coder 2,Screening,3
+2336,Coder 1,Screening,3
+2337,Coder 1,Screening,1
+2338,Coder 1,Screening,3
+2339,Coder 1,Trial 1,3
+2339,Coder 2,Trial 1,3
+2340,Coder 2,Screening,3
+2341,Coder 2,Screening,2
+2342,Coder 2,Screening,3
+2343,Coder 2,Screening,3
+2344,Coder 1,Screening,3
+2345,Coder 1,Screening,3
+2346,Coder 1,Screening,3
+2347,Coder 1,Trial 3,3
+2347,Coder 2,Trial 3,3
+2348,Coder 2,Screening,3
+2349,Coder 2,Screening,3
+2350,Coder 1,Trial 1,3
+2350,Coder 2,Trial 1,3
+2351,Coder 1,Screening,3
+2352,Coder 1,Screening,3
+2353,Coder 2,Screening,3
+2354,Coder 2,Screening,3
+2355,Coder 1,Screening,3
+2356,Coder 1,Screening,3
+2357,Coder 2,Screening,2
+2358,Coder 2,Screening,3
+2359,Coder 1,Screening,3
+2360,Coder 2,Screening,3
+2361,Coder 2,Screening,3
+2362,Coder 1,Screening,3
+2363,Coder 1,Screening,3
+2364,Coder 1,Trial 1,3
+2364,Coder 2,Trial 1,3
+2365,Coder 1,Trial 3,3
+2365,Coder 2,Trial 3,3
+2366,Coder 2,Screening,3
+2367,Coder 1,Screening,3
+2368,Coder 1,Screening,3
+2369,Coder 1,Screening,4
+2370,Coder 2,Screening,3
+2371,Coder 1,Trial 2,3
+2371,Coder 2,Trial 2,2
+2372,Coder 2,Screening,3
+2373,Coder 1,Trial 1,3
+2373,Coder 2,Trial 1,3
+2374,Coder 2,Screening,3
+2375,Coder 1,Screening,1
+2376,Coder 1,Trial 3,3
+2376,Coder 2,Trial 3,3
+2377,Coder 1,Trial 1,3
+2377,Coder 2,Trial 1,3
+2378,Coder 1,Trial 1,3
+2378,Coder 2,Trial 1,3
+2379,Coder 1,Trial 2,3
+2379,Coder 2,Trial 2,3
