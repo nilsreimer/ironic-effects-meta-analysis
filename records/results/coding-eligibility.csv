@@ -1,0 +1,358 @@
+id,coder,q1,q2,q3,q4,q5,q6,q7
+13,Coder 1,1,1,0,1,0,0,NA
+13,Coder 2,1,1,0,1,0,0,NA
+19,Coder 1,1,1,1,1,0,0,Correlation matrix is reported on page 19.
+19,Coder 2,1,1,1,1,0,0,NA
+45,Coder 1,1,1,1,1,0,0,"""Lower scores indicate more positive contacts with host nationals.""
+Correlation matrix is reported on page 272."
+45,Coder 2,1,1,1,0,0,0,NA
+46,Coder 1,1,1,1,1,0,0,Correlation matrix is not reported.
+46,Coder 2,1,1,1,1,0,0,the way intergroup contact is measured makes it hard/impossible to disentangle contact with the dominant group vs contact with other minority groups
+50,Coder 1,1,1,1,1,1,1,Information on quantitative research is provided on pages 40 onwards. Correlation table is reported on pages 50 and 51 (though not breaken down by group).
+50,Coder 2,1,1,1,1,1,0,"opportunity for contact only measured in terms of workplace ethnic diversity. policy support measure very general -- i.e, not focussed on policies that benefit the ingroup"
+91,Coder 1,1,1,1,1,0,0,Correlation matrix is reported on page 74.
+91,Coder 2,1,1,1,1,0,0,NA
+93,Coder 1,1,1,1,0,0,1,Correlation matrix is reported on page 89.
+93,Coder 2,1,1,1,0,0,1,NA
+94,Coder 1,1,1,1,1,0,0,Perceived discrimination and ethnic composition of the classroom are measured on two different levels with no individual-level correlation provided. Non-standardized regression coefficients are reported on page 266.
+94,Coder 2,1,1,1,1,0,0,opportunity for contact: ethnic composition of classroom
+104,Coder 1,1,1,1,1,0,0,Variables are described from page 77 onwards. Correlation matrices are reported from page 276 onwards.
+104,Coder 2,1,1,1,0,0,0,"the ""migrant group"" in this context is actually the dominant group in society (i.e, Han Chinese)"
+106,Coder 1,0,0,0,0,0,0,Comment starts on page 432.
+106,Coder 2,0,0,0,0,0,0,review (response to dixon et al BBS
+109,Coder 1,1,0,0,0,0,0,NA
+109,Coder 2,1,1,1,0,0,0,NA
+135,Coder 1,1,1,0,1,0,0,NA
+135,Coder 2,1,1,0,1,0,0,NA
+161,Coder 1,1,1,1,0,0,0,NA
+161,Coder 2,1,1,1,0,0,0,NA
+189,Coder 1,1,1,1,0,0,0,NA
+189,Coder 2,1,1,1,0,0,0,NA
+194,Coder 1,1,1,1,1,0,0,Correlation coefficient for Black subsample is not reported.
+194,Coder 2,1,1,1,1,0,0,NA
+210,Coder 1,1,1,1,1,0,0,Correlation matrix (for the relevant variables) is not reported.
+210,Coder 2,1,1,1,1,0,0,NA
+219,Coder 1,1,1,1,0,0,0,NA
+219,Coder 2,1,1,1,0,0,0,NA
+220,Coder 1,1,1,0,1,0,0,NA
+220,Coder 2,1,1,0,1,0,0,NA
+221,Coder 1,1,1,0,1,0,0,NA
+221,Coder 2,1,1,0,1,0,0,NA
+227,Coder 1,1,0,0,0,0,0,"The National Longitudinal Survey of Freshmen (NLSF) should include relevant data on Latinx and Black students' experiences and policy support ratings, but it is not reported in this study."
+227,Coder 2,1,1,0,1,1,0,NA
+244,Coder 1,1,1,1,1,0,0,"As this was an experimental design, no correlation matrix was reported. Effect sizes were reported, as far as I could see."
+244,Coder 2,1,1,1,1,0,0,"""perceived injustice"" is basically ratings of wrongfulness of scenarios in which minority-group member faces social exclusion. Doesn't seem particularly relevant to our research question"
+270,Coder 1,1,1,0,1,0,0,NA
+270,Coder 2,1,1,0,1,0,0,NA
+277,Coder 1,1,1,0,1,0,0,NA
+277,Coder 2,1,1,0,1,0,0,NA
+284,Coder 1,1,1,1,1,1,1,NA
+284,Coder 2,1,1,1,1,1,1,NA
+286,Coder 1,1,1,1,0,1,0,Attitudes toward the peace process are also described as support for pro-Kurdish policy changes. Correlation matrix is reported on page 283.
+286,Coder 2,1,1,1,0,1,0,NA
+297,Coder 1,1,1,1,1,0,0,Correlation matrix is not reported.
+297,Coder 2,1,1,1,1,0,0,NA
+301,Coder 1,1,1,0,1,0,0,NA
+301,Coder 2,1,1,0,1,0,0,NA
+303,Coder 1,1,1,1,1,0,0,Relevant correlation coefficients are reported on page 31.
+303,Coder 2,1,1,1,1,0,0,NA
+313,Coder 1,0,0,0,0,0,0,NA
+313,Coder 2,0,NA,NA,NA,NA,NA,NA
+317,Coder 1,1,1,1,1,0,0,Correlation matrices are reported from page 67 onwards.
+317,Coder 2,1,1,1,1,0,0,analyses focus on ingroup friendship but one dataset includes a measure of proprtion of majority-group friends
+322,Coder 1,1,1,1,1,0,1,Correlation matrix is reported on page 14.
+322,Coder 2,1,1,1,1,0,1,NA
+324,Coder 1,1,1,1,1,0,0,Correlation matrix is not reported.
+324,Coder 2,1,1,1,1,0,0,opportunity for contact: % outgroup in neighbourhood
+325,Coder 1,1,1,1,1,0,0,Correlation coefficients are reported on page 59.
+325,Coder 2,1,1,1,1,0,0,NA
+336,Coder 1,1,1,1,1,0,0,Correlation matrix is reported on page 410.
+336,Coder 2,1,1,1,1,0,0,NA
+360,Coder 1,1,1,1,0,0,0,NA
+360,Coder 2,1,1,1,0,0,0,NA
+363,Coder 1,1,0,0,1,0,0,Returned migrants report only very minimal discrimination (see Table 3).
+363,Coder 2,1,1,1,1,0,0,"unusual ""disadvantaged group"" (returned migrants. dubious the degree to which they are disadvantaged in terms of power and status... seems like very slight SES differences between returned migrants and natives."
+375,Coder 1,0,0,0,0,0,0,NA
+375,Coder 2,0,NA,NA,NA,NA,NA,NA
+380,Coder 1,1,0,0,0,0,0,NA
+380,Coder 2,0,NA,NA,NA,NA,NA,review
+401,Coder 1,1,1,1,1,0,0,"Correlation coefficients are reported for the combined sample, not for each subsample."
+401,Coder 2,1,1,1,1,0,0,NA
+402,Coder 1,1,1,1,1,0,1,"Effect sizes can be calculated from the information on pages 23, 34, and 45. Study 1 is a lab-based contact experiment, while Studies 2 and 3 ask participants to recall a past contact experience."
+402,Coder 2,1,1,1,1,0,1,NA
+414,Coder 1,1,1,1,0,0,1,Correlation matrix is reported on page 781.
+414,Coder 2,1,1,1,1,0,0,NA
+419,Coder 1,1,0,0,0,0,0,"This study measures all the right variables, but does not include responses from the disadvantaged groups. This data should exist, however."
+419,Coder 2,1,0,1,0,1,0,NA
+422,Coder 1,1,1,1,0,0,1,This study asked participants to recall a past contact experience.
+422,Coder 2,1,1,0,0,0,1,contact manipulation more akin to imagined contact
+423,Coder 1,1,1,1,1,0,0,Correlation coefficient (with direct contact) were not reported.
+423,Coder 2,1,1,1,1,0,0,NA
+446,Coder 1,1,1,1,1,0,0,Correlation coefficients (for the relevant variables) are not reported.
+446,Coder 2,1,1,1,1,1,0,NA
+458,Coder 1,1,0,0,0,0,0,The authors might have surveyed Roma as well—the article doesn't rule it out.
+458,Coder 2,1,0,0,0,1,0,NA
+480,Coder 1,1,1,1,1,0,0,Correlation matrix is reported on page 100.
+480,Coder 2,1,1,1,1,0,0,"i think the answers above are correct, but this one will be hard because it is in Spanish. still, it has a correlation matrix and we'll probably be able to include it..."
+513,Coder 1,1,1,0,1,1,0,Chapter 5 studies intergroup contact in a qualitative study.
+513,Coder 2,1,1,0,0,0,0,NA
+530,Coder 1,1,1,1,1,0,0,Correlation matrix is not reported.
+530,Coder 2,1,1,1,1,0,0,NA
+577,Coder 1,1,0,0,0,0,0,NA
+577,Coder 2,1,0,0,1,1,1,NA
+593,Coder 1,1,1,1,0,0,0,NA
+593,Coder 2,1,1,1,0,0,0,"there is one DV that's conceptually similar to ours2support for maintenance of Mapuche culture"" but it doesn't relate to any policies or collective action etc so don't really think we can include it."
+595,Coder 1,1,1,1,1,0,0,Correlation matrix is not reported.
+595,Coder 2,1,1,1,1,0,0,measured 'militant attitudes' which could be an index of  (non-normative) collective action
+609,Coder 1,1,1,1,1,0,0,Correlation matrix is reported on page 76.
+609,Coder 2,1,1,1,1,0,0,NA
+612,Coder 1,1,1,1,0,0,0,NA
+612,Coder 2,1,1,1,0,0,0,NA
+622,Coder 1,1,1,0,1,0,0,NA
+622,Coder 2,1,1,0,1,0,0,NA
+639,Coder 1,1,1,1,0,0,0,All measure that might relate to discrimination experiences do not ask for participants to attribute the treatment to their ethnicity.
+639,Coder 2,1,1,1,0,0,0,"measured basically like bullying/harassment which i think would be a stretch to call ""perceived discrimination"""
+661,Coder 1,1,1,0,0,0,0,NA
+661,Coder 2,1,1,0,1,0,1,NA
+668,Coder 1,1,1,1,1,0,0,Correlation matrix is not reported.
+668,Coder 2,1,1,1,1,0,0,NA
+672,Coder 1,1,1,1,0,0,0,NA
+672,Coder 2,1,1,1,0,0,0,NA
+684,Coder 1,1,1,1,1,0,0,Not all correlation coefficients necessary to construct cross-lagged correlations are reported.
+684,Coder 2,1,1,0,0,0,0,"the acculturation subscale has some items that could approximate contact, but they don't report separate correlations for each subscale so don't think we can use this"
+697,Coder 1,0,0,0,0,0,0,This is an (interesting!) review.
+697,Coder 2,0,0,0,0,0,0,review article
+703,Coder 1,1,1,1,1,0,0,"Correlation matrix is reported on page 1542, but not in enough detail to calculate cross-lagged effects (thought the developmental context might mean that this does not make much sense)."
+703,Coder 2,1,1,1,1,0,0,NA
+706,Coder 1,1,0,0,0,0,0,NA
+706,Coder 2,1,0,1,0,0,1,NA
+711,Coder 1,1,1,1,1,0,0,NA
+711,Coder 2,1,1,1,1,0,0,NA
+718,Coder 1,1,1,0,1,0,0,"I do not think that their operationalization of contact makes sense even as ""opportunity for contact""."
+718,Coder 2,1,1,0,1,0,0,too crude a measure of contact opportunity to be usable
+733,Coder 1,1,1,1,1,0,0,NA
+733,Coder 2,1,1,1,1,0,0,NA
+763,Coder 1,1,1,0,1,0,1,It might be worth asking whether they had measured intergroup contact as one of their unreported variables.
+763,Coder 2,1,1,0,1,0,1,NA
+775,Coder 1,1,1,1,1,0,0,Correlation matrix is not reported.
+775,Coder 2,1,1,1,1,0,0,NA
+783,Coder 1,1,1,1,1,0,0,Correlation matrix is not reported.
+783,Coder 2,1,1,1,1,0,0,NA
+786,Coder 1,1,1,1,1,0,0,Correlation coefficients are reported on page 300.
+786,Coder 2,1,1,1,1,0,0,NA
+789,Coder 1,1,1,1,1,0,0,Effect sizes for this complex pretest-posttest quasiexperimental design can be constructed from the available information. Correlation matrix (for pretest scores across conditions) is provided.
+789,Coder 2,1,1,1,1,0,0,NA
+803,Coder 1,1,1,1,1,0,0,Correlation coefficients are reported on page 247.
+803,Coder 2,1,1,1,1,0,0,NA
+813,Coder 1,1,1,1,1,1,0,Correlation matrix is reported on page 119.
+813,Coder 2,1,1,1,1,1,0,NA
+818,Coder 1,1,1,0,0,0,0,NA
+818,Coder 2,1,1,0,0,0,0,NA
+823,Coder 1,1,1,1,1,0,0,Correlation matrix is reported on page 501.
+823,Coder 2,1,1,1,1,0,0,NA
+829,Coder 1,1,1,1,1,0,0,Correlation matrix is not reported.
+829,Coder 2,1,1,1,1,0,0,"contact doesn't appear in results tables (I think it's folded in to another variable  ""ethnic behaviour) but the method section shows it's measured separately."
+830,Coder 1,1,1,1,1,0,0,Correlation matrices are reported from page 67 onwards.
+830,Coder 2,1,1,1,1,0,0,"contact measured in terms of co-ethnic rather than ourgroup friendship, but probably can treat it as the opposite of outgroup contact based on how its measured"
+841,Coder 1,1,1,0,1,0,0,This is a borderline case. MEIM Other-Group Orientation Scale (https://journals.sagepub.com/doi/pdf/10.1177/074355489272003) combines items measuring quantity of intergroup contact with items measuring willingness for or enjoyment of intergroup contact.
+841,Coder 2,1,1,0,1,0,0,NA
+856,Coder 1,1,1,1,1,1,0,Correlation matrix is reported on page 429.
+856,Coder 2,1,1,1,1,1,0,NA
+874,Coder 1,1,0,0,0,0,0,NA
+874,Coder 2,1,0,1,0,1,0,NA
+893,Coder 1,1,1,1,1,0,0,Correlation matrix is reported on page 239.
+893,Coder 2,1,1,1,1,0,0,NA
+894,Coder 1,1,1,1,1,0,1,Correlation matrix is reported on page 35.
+894,Coder 2,1,1,1,1,0,1,NA
+910,Coder 1,1,1,0,0,0,0,NA
+910,Coder 2,1,1,1,0,0,1,NA
+913,Coder 1,1,1,1,0,0,0,NA
+913,Coder 2,1,1,0,0,0,0,NA
+920,Coder 1,1,1,0,0,0,1,Study B is not eligible as it does not contain a no-contact condition.
+920,Coder 2,1,1,1,0,0,1,NA
+933,Coder 1,1,1,1,1,0,0,Correlation matrix is reported on page 75.
+933,Coder 2,1,1,1,1,0,0,NA
+956,Coder 1,1,1,1,1,0,1,Correlation matrices are reported in the online appendix.
+956,Coder 2,1,1,1,1,0,1,NA
+965,Coder 1,1,1,1,1,0,0,Correlation matrix is not reported.
+965,Coder 2,1,1,1,1,0,0,NA
+1020,Coder 1,1,1,1,1,0,0,Correlation matrix is reported on page 271.
+1020,Coder 2,1,1,1,1,0,0,NA
+1022,Coder 1,1,1,1,1,1,0,"This study contains racial/ethnic minority participants, but does not report subgroup analyses."
+1022,Coder 2,1,1,1,0,1,0,"not reported separately for majority and minority groups, might be an issue"
+1042,Coder 1,1,1,1,1,1,0,Correlation matrices are not reported; standardized beta coefficients are reported on page 86.
+1042,Coder 2,1,1,1,1,1,0,NA
+1045,Coder 1,1,1,1,1,0,0,Correlation matrix is reported on page 496.
+1045,Coder 2,1,1,1,1,0,0,cross-ethnic friendship measure conflates majority-group and other-minority-group contact
+1083,Coder 1,1,0,0,0,0,0,NA
+1083,Coder 2,1,0,1,0,1,0,NA
+1101,Coder 1,1,1,1,0,1,0,Correlation matrix is reported on page 283.
+1101,Coder 2,1,1,1,0,1,0,NA
+1114,Coder 1,1,1,1,0,0,1,Correlation matrix is reported on page 302.
+1114,Coder 2,1,1,1,0,0,1,NA
+1115,Coder 1,1,0,0,0,0,0,Only 13 respondents were people of colour; subgroup analyses are not reported.
+1115,Coder 2,1,0,1,0,1,0,NA
+1157,Coder 1,1,1,0,1,0,0,NA
+1157,Coder 2,1,1,0,1,0,0,NA
+1161,Coder 1,1,1,1,1,0,0,Correlation matrix is not reported.
+1161,Coder 2,1,1,1,1,0,0,NA
+1163,Coder 1,1,1,1,1,0,0,Correlation matrix is reported on page 83.
+1163,Coder 2,1,1,1,1,0,0,NA
+1170,Coder 1,1,1,1,1,0,0,Correlation matrix is not reported.
+1170,Coder 2,1,1,0,1,0,0,NA
+1217,Coder 1,1,1,0,1,0,0,"This study measures ingroup contact (% of friends of ""the same origin""), but does not differentiate between other disadvantaged minorities and the advantaged majority."
+1217,Coder 2,1,1,1,1,0,0,"the contact measure might be hard to use. also, the way the results are reported doesn't give me hope of getting a correlation matrix that would have what we need...."
+1220,Coder 1,1,1,1,0,0,0,Study 1 included a measure of perceived injustice but did not manipulate contact. Study 2 contained a quasi-experimental contact variable but did not measure perceived injustice.
+1220,Coder 2,1,1,1,0,0,0,NA
+1221,Coder 1,1,1,1,0,0,0,NA
+1221,Coder 2,1,1,1,1,0,0,NA
+1243,Coder 1,0,0,0,0,0,0,"This is a review that includes existing research that is reported elsewhere: ""The results addressing both sets of questions are presented in detail in Dialogue Across Difference: Practice, Theory and Research on Intergroup Dialogue (Gurin et al., 2013)."""
+1243,Coder 2,0,NA,NA,NA,NA,NA,review paper
+1248,Coder 1,1,1,1,1,0,1,Correlation matrix is reported on page 741.
+1248,Coder 2,1,1,1,0,0,1,NA
+1283,Coder 1,1,1,1,1,0,0,Correlation matrix is not reported.
+1283,Coder 2,1,1,1,1,0,0,NA
+1305,Coder 1,1,1,0,0,0,0,"""The study presented here is a partial description of a speciﬁc analysis within a larger research program conducted by the author. For a more extensive and detailed description of this research, including other variables and analyses, see Maoz (2004)."""
+1305,Coder 2,0,NA,NA,NA,NA,NA,NA
+1320,Coder 1,1,1,0,1,0,0,NA
+1320,Coder 2,1,1,0,1,0,0,a social support measure COULD be a proxy for contact but it is an aggregate of social support recieved from ingroup and outgroups so not sure we'll be able to get any usable information unless we actually get the data and re-analyse it
+1367,Coder 1,1,1,1,1,0,0,Correlation matrix is not reported for the relevant subgroup.
+1367,Coder 2,1,1,1,1,0,0,NA
+1368,Coder 1,1,1,1,1,0,0,"Correlation matrix is reported, but it is unclear how ""diversity in friendship networks"" is measured."
+1368,Coder 2,1,1,1,1,0,0,NA
+1376,Coder 1,1,1,1,0,0,0,"The authors consider Catholics as the relevant minority group. Neither ""political participation"" nor ""support for political violence"" fit our definition of collective action."
+1376,Coder 2,1,1,1,0,0,1,NA
+1386,Coder 1,1,1,1,0,1,0,Square-root of Nagelkerke's pseudo R-squared is reported on page 870.
+1386,Coder 2,1,1,1,0,1,0,NA
+1395,Coder 1,1,1,1,1,0,0,Correlation matrix is reported on page 8.
+1395,Coder 2,1,1,1,1,0,0,NA
+1407,Coder 1,1,1,1,1,0,0,Correlation matrices are reported from page 166 onwards.
+1407,Coder 2,1,1,1,1,0,0,NA
+1411,Coder 1,1,1,1,1,0,0,Correlation matrix is not reported.
+1411,Coder 2,1,1,1,1,0,0,NA
+1412,Coder 1,1,1,1,1,0,0,Correlation matrix is not reported.
+1412,Coder 2,1,1,1,1,0,0,NA
+1463,Coder 1,1,1,1,0,0,0,"The researchers measured attitudes towards school integration, but this does not fulfill our criteria for policy support. The researchers measured whether participants would discriminate against the other group, not whether they perceived discrimination against their own group."
+1463,Coder 2,1,0,0,0,0,0,not in english
+1467,Coder 1,1,1,1,1,0,0,Not enough information is provided to calculate the relevant effect sizes.
+1467,Coder 2,1,1,1,1,0,0,NA
+1494,Coder 1,1,1,1,1,0,0,Correlation matrix is reported on page 98. I am not sure about the interracial contact measure as it is contact with other-race people (regardless of what race they are).
+1494,Coder 2,1,1,1,1,0,0,NA
+1522,Coder 1,1,1,1,0,0,0,NA
+1522,Coder 2,1,0,0,0,0,0,NA
+1525,Coder 1,1,1,1,1,0,0,I am not sure what to do with this as the researchers do not differentiate between contact with white and other non-white people. Mean differences are reported on page 758.
+1525,Coder 2,1,1,1,1,0,0,not a great measure of contact (might be unusable)
+1549,Coder 1,1,1,1,0,1,0,Beta coefficients are reported on page 37 onwards.
+1549,Coder 2,1,1,1,0,1,0,NA
+1576,Coder 1,1,1,1,1,0,0,Odds ratios (for perceived discrimination regressed on contact opportunity) are reported on page 217.
+1576,Coder 2,1,1,1,1,0,0,NA
+1614,Coder 1,1,1,1,1,1,0,Correlation matrix is reported on page 1044.
+1614,Coder 2,1,1,1,1,1,0,NA
+1618,Coder 1,1,1,0,1,0,0,NA
+1618,Coder 2,1,1,0,1,0,0,NA
+1627,Coder 1,1,1,0,1,0,0,NA
+1627,Coder 2,1,1,0,1,0,0,NA
+1633,Coder 1,1,0,0,0,0,0,NA
+1633,Coder 2,1,0,0,1,0,0,NA
+1635,Coder 1,1,1,0,1,0,0,NA
+1635,Coder 2,1,1,0,1,0,0,NA
+1658,Coder 1,1,1,1,1,0,0,Correlation matrices are reported on page 33 onwards.
+1658,Coder 2,1,1,1,0,0,0,NA
+1695,Coder 1,1,1,1,1,1,0,Correlation matrix is reported on page 1397.
+1695,Coder 2,1,1,1,1,1,0,NA
+1705,Coder 1,1,1,0,1,0,0,NA
+1705,Coder 2,1,1,0,1,0,0,NA
+1712,Coder 1,1,1,1,1,1,1,"Study 1 is identical to Study 1 in Cakal et al. (2011). Studies 2 and 3 focuses on advantaged-group members (White South-Africans, Turks in Turkey). Study 4 focuses on disadvantaged-group members (Kurds in Turkey). Correlation matrix is reported on page 93."
+1712,Coder 2,1,1,1,1,0,1,Huseyin's PhD. We'll have to look more closely if this includes any data that's not in his published studies
+1743,Coder 1,1,1,1,1,0,1,Correlation matrix is reported on page 265.
+1743,Coder 2,1,1,1,1,0,1,NA
+1750,Coder 1,1,1,1,1,0,0,Relevant effect sizes are not reported.
+1750,Coder 2,1,1,0,1,0,0,NA
+1762,Coder 1,1,1,1,1,0,0,No correlation coefficients or standard deviations (for the means) are reported. Partial eta-squared might be enough to calculate r.
+1762,Coder 2,1,1,1,1,0,0,NA
+1764,Coder 1,1,1,1,0,0,0,NA
+1764,Coder 2,1,1,1,0,0,0,NA
+1772,Coder 1,1,1,1,1,1,0,"Correlation matrix is reported on page 362. Outgroup contact does not differentiate by outgroup, but the relevant data has been collected."
+1772,Coder 2,1,1,1,1,1,0,NA
+1790,Coder 1,1,0,0,0,0,0,NA
+1790,Coder 2,0,0,NA,NA,NA,NA,review
+1805,Coder 1,1,1,1,0,0,0,NA
+1805,Coder 2,1,1,1,0,0,0,NA
+1807,Coder 1,1,1,1,1,0,0,Correlation matrix is not reported. I should be able to use the provided descriptive statistics to calculate the standardized beta coefficient.
+1807,Coder 2,1,1,1,1,0,0,NA
+1812,Coder 1,1,0,0,0,0,0,"This sample was selected to reflect an age group, but included participants from different ethnic groups (including 25% White participants)."
+1812,Coder 2,1,1,1,1,0,0,NA
+1845,Coder 1,1,1,1,0,0,0,NA
+1845,Coder 2,1,1,1,0,0,0,NA
+1850,Coder 1,1,1,1,1,0,0,NA
+1850,Coder 2,1,1,0,0,0,0,NA
+1865,Coder 1,1,1,0,1,0,0,NA
+1865,Coder 2,1,1,0,1,0,1,NA
+1869,Coder 1,1,1,0,0,0,0,NA
+1869,Coder 2,1,1,0,0,0,0,NA
+1878,Coder 1,1,1,1,0,0,0,NA
+1878,Coder 2,1,1,1,0,0,0,NA
+1891,Coder 1,1,1,0,1,0,0,"Correlation coefficients are reported on page 190. ""Percentage of different religion and different ancestry"" is not necessarily ""contact with members of outgroups that are relatively advantaged compared to the participants' ingroup""."
+1891,Coder 2,1,1,1,1,0,0,NA
+1893,Coder 1,0,0,0,0,0,0,NA
+1893,Coder 2,0,NA,NA,NA,NA,NA,NA
+1914,Coder 1,1,1,1,1,0,0,Correlation matrix is reported on page 13.
+1914,Coder 2,1,1,1,1,0,0,article in spanish but the correlation matrix seems pretty easy to make sense of
+1934,Coder 1,1,1,1,1,0,0,Correlation matrix is not reported.
+1934,Coder 2,1,1,1,1,0,0,contact opportunity measure -> perceived school diversity. i've forgotten whether we made a decision about whether 'opportunity for contact' could be subjective or whether it had to be objective. I feel like it should be the latter otherwise there's the whole perceived diversity literature that we're ignoring and that didn't make it into our search criteria
+1935,Coder 1,1,0,0,0,0,0,NA
+1935,Coder 2,1,1,1,0,0,0,"one study includes a relative dep measure and another a contact, measure, but not both simultaneously"
+1949,Coder 1,1,1,1,1,0,0,Correlation matrix is reported on page 49.
+1949,Coder 2,1,1,1,1,0,0,NA
+1950,Coder 1,1,1,1,1,0,0,Correlation matrix is not reported.
+1950,Coder 2,1,1,1,1,0,0,"The PD measure is about quite specific experiences of discrimination, which as i've noted before, I don't think is actually a relevant DV for us"
+1964,Coder 1,1,1,1,1,0,0,Eastern Jews are a disadvantaged group. Contact is measured either as friendship composition or school integration. Not enough information is reported to derive an effect size for the contact-deprivation relationship.
+1964,Coder 2,1,1,1,1,0,0,NA
+1966,Coder 1,1,1,1,1,0,0,Correlation matrix is reported on page 185.
+1966,Coder 2,1,1,1,1,0,0,NA
+1993,Coder 1,1,1,1,1,0,0,Correlation matrix is reported on page 772.
+1993,Coder 2,1,1,1,1,0,0,NA
+1998,Coder 1,1,1,1,0,0,0,NA
+1998,Coder 2,1,1,1,0,0,0,NA
+2001,Coder 1,1,1,0,1,0,0,% Black does not assess who the other group is. Mean differences are reported.
+2001,Coder 2,1,1,1,1,0,0,NA
+2023,Coder 1,1,1,0,1,0,0,NA
+2023,Coder 2,1,1,1,1,0,0,NA
+2033,Coder 1,1,1,1,1,0,1,Cohen's d effect sizes are reported for the relevant findings (Study 2).
+2033,Coder 2,1,1,1,1,0,1,NA
+2045,Coder 1,1,1,0,0,0,1,NA
+2045,Coder 2,1,1,0,0,1,1,NA
+2068,Coder 1,0,1,0,0,0,0,NA
+2068,Coder 2,0,NA,NA,NA,NA,NA,NA
+2075,Coder 1,1,1,1,0,0,1,"M, SD, but not n are reported for the relevant conditions."
+2075,Coder 2,1,1,1,0,0,1,NA
+2139,Coder 1,1,1,0,1,0,0,NA
+2139,Coder 2,1,1,0,1,0,0,NA
+2141,Coder 1,1,1,1,1,0,0,Correlation matrix is not reported.
+2141,Coder 2,1,1,1,1,0,0,NA
+2246,Coder 1,0,0,0,0,0,0,All studies reported have previously been published.
+2246,Coder 2,1,1,0,0,0,0,NA
+2257,Coder 1,1,1,1,1,0,0,Correlation matrix is reported on page 297.
+2257,Coder 2,1,1,1,1,0,0,NA
+2291,Coder 1,1,1,1,0,1,0,"Not enough information is reported to calculate any measure of effect size. Given its age, it will be impossible to retrieve the necessary information."
+2291,Coder 2,1,1,0,0,0,0,NA
+2295,Coder 1,1,1,0,1,0,0,NA
+2295,Coder 2,1,1,1,1,0,0,NA
+2302,Coder 1,1,1,0,1,0,0,"In this study, contact refers to contact with the criminal justice system."
+2302,Coder 2,1,1,0,1,0,0,criminal justice contact rather than intergroup contact
+2309,Coder 1,1,1,1,1,0,1,Correlation matrix is reported on page 8.
+2309,Coder 2,1,1,1,1,0,1,NA
+2319,Coder 1,1,1,0,0,0,1,NA
+2319,Coder 2,1,1,0,0,0,1,NA
+2333,Coder 1,1,1,1,1,0,0,Some information to calculate effect sizes is reported on page 123.
+2333,Coder 2,1,1,1,1,0,0,NA
+2337,Coder 1,0,0,0,0,0,0,This is a review article with a useful discussion of possible explanations for the ironic effects of intergroup contact.
+2337,Coder 2,0,NA,NA,NA,NA,NA,review paper
+2341,Coder 1,1,1,1,1,0,0,Correlation matrix is reported on page 321.
+2341,Coder 2,1,1,1,1,0,0,NA
+2357,Coder 1,1,1,0,0,0,0,NA
+2357,Coder 2,1,1,1,0,0,0,NA
+2371,Coder 1,1,1,1,1,0,1,This study does not report effect sizes for the different subsamples; 80% of participants are from the relevant advantaged group.
+2371,Coder 2,1,0,0,1,0,0,NA
+2375,Coder 1,1,1,1,1,0,1,Correlation matrix is reported on page 543.
+2375,Coder 2,1,1,1,1,0,1,NA
