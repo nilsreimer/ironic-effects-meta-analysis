@@ -65,7 +65,7 @@ name_variables <- function(variable, name) {
   case_when(
     variable == "oc" ~ "Opportunity for contact",
     variable == "cq" ~ "Contact quantity",
-    variable == "pc" ~ "Contact quantity / Positive contact",
+    variable == "pc" ~ "Contact quality / Positive contact",
     variable == "nc" ~ "Negative contact",
     variable == "cf" ~ "Cross-group friendship",
     variable == "in" ~ "Ingroup contact",

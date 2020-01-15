@@ -18,7 +18,7 @@ date,id,status,reason,comment
 2019-12-06,324,completed,NA,NA
 2019-12-02,325,completed,NA,NA
 2019-12-02,336,completed,NA,NA
-2019-12-02,401,ongoing,NA,NA
+2020-01-08,401,completed,NA,NA
 2019-12-02,402,excluded,NA,Found to be a duplicate study (published as 2033).
 2019-12-02,414,completed,NA,NA
 2019-12-08,423,completed,NA,NA
@@ -52,11 +52,11 @@ date,id,status,reason,comment
 2019-12-02,1022,ongoing,NA,NA
 2019-12-02,1042,completed,NA,NA
 2019-12-02,1045,completed,NA,NA
-2019-12-02,1101,completed,NA,NA
-2019-12-03,1114,completed,NA,NA
+2019-12-30,1101,excluded,NA,NA
+2020-01-09,1114,ongoing,NA,NA
 2019-12-05,1161,ongoing,NA,NA
 2019-12-06,1163,completed,NA,NA
-2019-12-20,1217,failed,NA,Authors responded without effect size.
+2019-12-20,1217,failed,NA,Found to be a duplicate study (published as 1386).
 2019-12-03,1221,completed,NA,NA
 2019-12-03,1248,completed,NA,NA
 2019-12-06,1283,ongoing,NA,NA
@@ -66,7 +66,7 @@ date,id,status,reason,comment
 2019-12-05,1386,completed,NA,NA
 2019-12-05,1395,completed,NA,NA
 2019-12-05,1407,completed,NA,NA
-2019-12-05,1411,ongoing,NA,NA
+2020-01-09,1411,completed,NA,NA
 2019-12-05,1412,ongoing,NA,NA
 2019-12-05,1467,ongoing,NA,NA
 2019-12-05,1494,completed,NA,NA
@@ -80,7 +80,7 @@ date,id,status,reason,comment
 2019-12-05,1743,completed,NA,NA
 2019-12-05,1750,ongoing,NA,NA
 2019-12-05,1762,ongoing,NA,NA
-2019-12-05,1772,completed,NA,NA
+2020-01-09,1772,excluded,NA,Found to be a duplicate study (published as 1695).
 2019-12-05,1807,completed,NA,NA
 2019-12-05,1850,completed,NA,NA
 2019-12-05,1891,completed,NA,NA

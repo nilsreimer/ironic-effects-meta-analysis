@@ -1,0 +1,1394 @@
+id,sample,metric,es,x,y,source,note,n1,n2,t1,t2,direction,x_name,y_name
+19,1,r,1,cq,cq,text,NA,NA,NA,NA,NA,NA,Contact quantity,Contact quantity
+19,1,r,-0.33,cq,pd,text,NA,NA,NA,NA,NA,NA,Contact quantity,Personal discrimination
+19,1,r,-0.33,pd,cq,text,NA,NA,NA,NA,NA,NA,Personal discrimination,Contact quantity
+19,1,r,1,pd,pd,text,NA,NA,NA,NA,NA,NA,Personal discrimination,Personal discrimination
+45,1,r,1,pc,pc,text,predictor reversed to reflect more positive contact,NA,NA,NA,NA,NA,Contact quality / Positive contact,Contact quality / Positive contact
+45,1,r,-0.16,pc,pd,text,predictor reversed to reflect more positive contact,NA,NA,NA,NA,NA,Contact quality / Positive contact,Personal discrimination
+45,1,r,-0.16,pd,pc,text,predictor reversed to reflect more positive contact,NA,NA,NA,NA,NA,Personal discrimination,Contact quality / Positive contact
+45,1,r,1,pd,pd,text,NA,NA,NA,NA,NA,NA,Personal discrimination,Personal discrimination
+45,2,r,1,pc,pc,text,predictor reversed to reflect more positive contact,NA,NA,NA,NA,NA,Contact quality / Positive contact,Contact quality / Positive contact
+45,2,r,-0.23,pc,pd,text,predictor reversed to reflect more positive contact,NA,NA,NA,NA,NA,Contact quality / Positive contact,Personal discrimination
+45,2,r,-0.23,pd,pc,text,predictor reversed to reflect more positive contact,NA,NA,NA,NA,NA,Personal discrimination,Contact quality / Positive contact
+45,2,r,1,pd,pd,text,NA,NA,NA,NA,NA,NA,Personal discrimination,Personal discrimination
+45,3,r,1,pc,pc,text,predictor reversed to reflect more positive contact,NA,NA,NA,NA,NA,Contact quality / Positive contact,Contact quality / Positive contact
+45,3,r,0.15,pc,pd,text,predictor reversed to reflect more positive contact,NA,NA,NA,NA,NA,Contact quality / Positive contact,Personal discrimination
+45,3,r,0.15,pd,pc,text,predictor reversed to reflect more positive contact,NA,NA,NA,NA,NA,Personal discrimination,Contact quality / Positive contact
+45,3,r,1,pd,pd,text,NA,NA,NA,NA,NA,NA,Personal discrimination,Personal discrimination
+46,1,r,1,gd,gd,author,NA,NA,NA,NA,NA,NA,Group discrimination,Group discrimination
+46,1,r,-0.0756,gd,ic,author,NA,NA,NA,NA,NA,NA,Group discrimination,Intergroup contact (other)
+46,1,r,-0.0756,ic,gd,author,NA,NA,NA,NA,NA,NA,Intergroup contact (other),Group discrimination
+46,1,r,1,ic,ic,author,NA,NA,NA,NA,NA,NA,Intergroup contact (other),Intergroup contact (other)
+91,1,r,1,pc,pc,text,NA,NA,NA,NA,NA,NA,Contact quality / Positive contact,Contact quality / Positive contact
+91,1,r,1,pc,pc,text,unpleasant/pleasant - perceived discrimination (a),NA,NA,NA,NA,NA,Contact quality / Positive contact,Contact quality / Positive contact
+91,1,r,1,pc,pc,text,competitive/cooperative - perceived discrimination (a),NA,NA,NA,NA,NA,Contact quality / Positive contact,Contact quality / Positive contact
+91,1,r,1,pc,pc,text,superficial/intimate - perceived discrimination (a),NA,NA,NA,NA,NA,Contact quality / Positive contact,Contact quality / Positive contact
+91,1,r,1,pc,pc,text,not equal/equal - perceived discrimination (a),NA,NA,NA,NA,NA,Contact quality / Positive contact,Contact quality / Positive contact
+91,1,r,1,pc,pc,text,involuntary/voluntary - perceived discrimination (a),NA,NA,NA,NA,NA,Contact quality / Positive contact,Contact quality / Positive contact
+91,1,r,1,pc,pc,text,negative/positive - perceived discrimination (a),NA,NA,NA,NA,NA,Contact quality / Positive contact,Contact quality / Positive contact
+91,1,r,1,pc,pc,text,unpleasant/pleasant - perceived discrimination (b),NA,NA,NA,NA,NA,Contact quality / Positive contact,Contact quality / Positive contact
+91,1,r,1,pc,pc,text,competitive/cooperative - perceived discrimination (b),NA,NA,NA,NA,NA,Contact quality / Positive contact,Contact quality / Positive contact
+91,1,r,1,pc,pc,text,superficial/intimate - perceived discrimination (b),NA,NA,NA,NA,NA,Contact quality / Positive contact,Contact quality / Positive contact
+91,1,r,1,pc,pc,text,not equal/equal - perceived discrimination (b),NA,NA,NA,NA,NA,Contact quality / Positive contact,Contact quality / Positive contact
+91,1,r,1,pc,pc,text,involuntary/voluntary - perceived discrimination (b),NA,NA,NA,NA,NA,Contact quality / Positive contact,Contact quality / Positive contact
+91,1,r,1,pc,pc,text,negative/positive - perceived discrimination (b),NA,NA,NA,NA,NA,Contact quality / Positive contact,Contact quality / Positive contact
+91,1,r,0.032,pc,pd,text,unpleasant/pleasant - perceived discrimination (a),NA,NA,NA,NA,NA,Contact quality / Positive contact,Personal discrimination
+91,1,r,0.036,pc,pd,text,competitive/cooperative - perceived discrimination (a),NA,NA,NA,NA,NA,Contact quality / Positive contact,Personal discrimination
+91,1,r,0.119,pc,pd,text,superficial/intimate - perceived discrimination (a),NA,NA,NA,NA,NA,Contact quality / Positive contact,Personal discrimination
+91,1,r,0.018,pc,pd,text,not equal/equal - perceived discrimination (a),NA,NA,NA,NA,NA,Contact quality / Positive contact,Personal discrimination
+91,1,r,0.093,pc,pd,text,involuntary/voluntary - perceived discrimination (a),NA,NA,NA,NA,NA,Contact quality / Positive contact,Personal discrimination
+91,1,r,0.124,pc,pd,text,negative/positive - perceived discrimination (a),NA,NA,NA,NA,NA,Contact quality / Positive contact,Personal discrimination
+91,1,r,0.032,pc,pd,text,unpleasant/pleasant - perceived discrimination (b),NA,NA,NA,NA,NA,Contact quality / Positive contact,Personal discrimination
+91,1,r,0.035,pc,pd,text,competitive/cooperative - perceived discrimination (b),NA,NA,NA,NA,NA,Contact quality / Positive contact,Personal discrimination
+91,1,r,0.119,pc,pd,text,superficial/intimate - perceived discrimination (b),NA,NA,NA,NA,NA,Contact quality / Positive contact,Personal discrimination
+91,1,r,0.018,pc,pd,text,not equal/equal - perceived discrimination (b),NA,NA,NA,NA,NA,Contact quality / Positive contact,Personal discrimination
+91,1,r,0.093,pc,pd,text,involuntary/voluntary - perceived discrimination (b),NA,NA,NA,NA,NA,Contact quality / Positive contact,Personal discrimination
+91,1,r,0.124,pc,pd,text,negative/positive - perceived discrimination (b),NA,NA,NA,NA,NA,Contact quality / Positive contact,Personal discrimination
+91,1,r,0.032,pd,pc,text,unpleasant/pleasant - perceived discrimination (a),NA,NA,NA,NA,NA,Personal discrimination,Contact quality / Positive contact
+91,1,r,0.036,pd,pc,text,competitive/cooperative - perceived discrimination (a),NA,NA,NA,NA,NA,Personal discrimination,Contact quality / Positive contact
+91,1,r,0.119,pd,pc,text,superficial/intimate - perceived discrimination (a),NA,NA,NA,NA,NA,Personal discrimination,Contact quality / Positive contact
+91,1,r,0.018,pd,pc,text,not equal/equal - perceived discrimination (a),NA,NA,NA,NA,NA,Personal discrimination,Contact quality / Positive contact
+91,1,r,0.093,pd,pc,text,involuntary/voluntary - perceived discrimination (a),NA,NA,NA,NA,NA,Personal discrimination,Contact quality / Positive contact
+91,1,r,0.124,pd,pc,text,negative/positive - perceived discrimination (a),NA,NA,NA,NA,NA,Personal discrimination,Contact quality / Positive contact
+91,1,r,0.032,pd,pc,text,unpleasant/pleasant - perceived discrimination (b),NA,NA,NA,NA,NA,Personal discrimination,Contact quality / Positive contact
+91,1,r,0.035,pd,pc,text,competitive/cooperative - perceived discrimination (b),NA,NA,NA,NA,NA,Personal discrimination,Contact quality / Positive contact
+91,1,r,0.119,pd,pc,text,superficial/intimate - perceived discrimination (b),NA,NA,NA,NA,NA,Personal discrimination,Contact quality / Positive contact
+91,1,r,0.018,pd,pc,text,not equal/equal - perceived discrimination (b),NA,NA,NA,NA,NA,Personal discrimination,Contact quality / Positive contact
+91,1,r,0.093,pd,pc,text,involuntary/voluntary - perceived discrimination (b),NA,NA,NA,NA,NA,Personal discrimination,Contact quality / Positive contact
+91,1,r,0.124,pd,pc,text,negative/positive - perceived discrimination (b),NA,NA,NA,NA,NA,Personal discrimination,Contact quality / Positive contact
+91,1,r,1,pd,pd,text,NA,NA,NA,NA,NA,NA,Personal discrimination,Personal discrimination
+91,1,r,1,pd,pd,text,unpleasant/pleasant - perceived discrimination (a),NA,NA,NA,NA,NA,Personal discrimination,Personal discrimination
+91,1,r,1,pd,pd,text,competitive/cooperative - perceived discrimination (a),NA,NA,NA,NA,NA,Personal discrimination,Personal discrimination
+91,1,r,1,pd,pd,text,superficial/intimate - perceived discrimination (a),NA,NA,NA,NA,NA,Personal discrimination,Personal discrimination
+91,1,r,1,pd,pd,text,not equal/equal - perceived discrimination (a),NA,NA,NA,NA,NA,Personal discrimination,Personal discrimination
+91,1,r,1,pd,pd,text,involuntary/voluntary - perceived discrimination (a),NA,NA,NA,NA,NA,Personal discrimination,Personal discrimination
+91,1,r,1,pd,pd,text,negative/positive - perceived discrimination (a),NA,NA,NA,NA,NA,Personal discrimination,Personal discrimination
+91,1,r,1,pd,pd,text,unpleasant/pleasant - perceived discrimination (b),NA,NA,NA,NA,NA,Personal discrimination,Personal discrimination
+91,1,r,1,pd,pd,text,competitive/cooperative - perceived discrimination (b),NA,NA,NA,NA,NA,Personal discrimination,Personal discrimination
+91,1,r,1,pd,pd,text,superficial/intimate - perceived discrimination (b),NA,NA,NA,NA,NA,Personal discrimination,Personal discrimination
+91,1,r,1,pd,pd,text,not equal/equal - perceived discrimination (b),NA,NA,NA,NA,NA,Personal discrimination,Personal discrimination
+91,1,r,1,pd,pd,text,involuntary/voluntary - perceived discrimination (b),NA,NA,NA,NA,NA,Personal discrimination,Personal discrimination
+91,1,r,1,pd,pd,text,negative/positive - perceived discrimination (b),NA,NA,NA,NA,NA,Personal discrimination,Personal discrimination
+93,1,r,1,ca,ca,text,NA,NA,NA,NA,NA,NA,Collective action,Collective action
+93,1,r,0.15,ca,cq,text,NA,NA,NA,NA,NA,NA,Collective action,Contact quantity
+93,1,r,0.43,ca,ge,text,NA,NA,NA,NA,NA,NA,Collective action,Group efficacy
+93,1,r,0.15,cq,ca,text,NA,NA,NA,NA,NA,NA,Contact quantity,Collective action
+93,1,r,1,cq,cq,text,NA,NA,NA,NA,NA,NA,Contact quantity,Contact quantity
+93,1,r,0.13,cq,ge,text,NA,NA,NA,NA,NA,NA,Contact quantity,Group efficacy
+93,1,r,0.43,ge,ca,text,NA,NA,NA,NA,NA,NA,Group efficacy,Collective action
+93,1,r,0.13,ge,cq,text,NA,NA,NA,NA,NA,NA,Group efficacy,Contact quantity
+93,1,r,1,ge,ge,text,NA,NA,NA,NA,NA,NA,Group efficacy,Group efficacy
+244,1,d,0.43043679415456065,ic,pi,text,NA,59,70,NA,NA,NA,Intergroup contact (other),Perceived injustice (other)
+244,1,d,NA,ic,pi,text,NA,59,70,NA,NA,NA,Intergroup contact (other),Perceived injustice (other)
+284,1,r,1,ca,ca,text,NA,NA,NA,NA,NA,NA,Collective action,Collective action
+284,1,r,-0.292,ca,cf,text,NA,NA,NA,NA,NA,NA,Collective action,Cross-group friendship
+284,1,r,0.599,ca,ge,text,NA,NA,NA,NA,NA,NA,Collective action,Group efficacy
+284,1,r,0.505,ca,gi,text,NA,NA,NA,NA,NA,NA,Collective action,Group identificaiton
+284,1,r,0.339,ca,ps,text,NA,NA,NA,NA,NA,NA,Collective action,Policy support
+284,1,r,0.312,ca,rd,text,NA,NA,NA,NA,NA,NA,Collective action,Relative deprivation
+284,1,r,-0.292,cf,ca,text,NA,NA,NA,NA,NA,NA,Cross-group friendship,Collective action
+284,1,r,1,cf,cf,text,NA,NA,NA,NA,NA,NA,Cross-group friendship,Cross-group friendship
+284,1,r,-0.126,cf,ge,text,NA,NA,NA,NA,NA,NA,Cross-group friendship,Group efficacy
+284,1,r,-0.273,cf,gi,text,NA,NA,NA,NA,NA,NA,Cross-group friendship,Group identificaiton
+284,1,r,-0.27,cf,ps,text,NA,NA,NA,NA,NA,NA,Cross-group friendship,Policy support
+284,1,r,-0.258,cf,rd,text,NA,NA,NA,NA,NA,NA,Cross-group friendship,Relative deprivation
+284,1,r,0.599,ge,ca,text,NA,NA,NA,NA,NA,NA,Group efficacy,Collective action
+284,1,r,-0.126,ge,cf,text,NA,NA,NA,NA,NA,NA,Group efficacy,Cross-group friendship
+284,1,r,1,ge,ge,text,NA,NA,NA,NA,NA,NA,Group efficacy,Group efficacy
+284,1,r,0.487,ge,gi,text,NA,NA,NA,NA,NA,NA,Group efficacy,Group identificaiton
+284,1,r,0.252,ge,ps,text,NA,NA,NA,NA,NA,NA,Group efficacy,Policy support
+284,1,r,0.076,ge,rd,text,NA,NA,NA,NA,NA,NA,Group efficacy,Relative deprivation
+284,1,r,0.505,gi,ca,text,NA,NA,NA,NA,NA,NA,Group identificaiton,Collective action
+284,1,r,-0.273,gi,cf,text,NA,NA,NA,NA,NA,NA,Group identificaiton,Cross-group friendship
+284,1,r,0.487,gi,ge,text,NA,NA,NA,NA,NA,NA,Group identificaiton,Group efficacy
+284,1,r,1,gi,gi,text,NA,NA,NA,NA,NA,NA,Group identificaiton,Group identificaiton
+284,1,r,0.163,gi,ps,text,NA,NA,NA,NA,NA,NA,Group identificaiton,Policy support
+284,1,r,0.06,gi,rd,text,NA,NA,NA,NA,NA,NA,Group identificaiton,Relative deprivation
+284,1,r,0.339,ps,ca,text,NA,NA,NA,NA,NA,NA,Policy support,Collective action
+284,1,r,-0.27,ps,cf,text,NA,NA,NA,NA,NA,NA,Policy support,Cross-group friendship
+284,1,r,0.252,ps,ge,text,NA,NA,NA,NA,NA,NA,Policy support,Group efficacy
+284,1,r,0.163,ps,gi,text,NA,NA,NA,NA,NA,NA,Policy support,Group identificaiton
+284,1,r,1,ps,ps,text,NA,NA,NA,NA,NA,NA,Policy support,Policy support
+284,1,r,0.305,ps,rd,text,NA,NA,NA,NA,NA,NA,Policy support,Relative deprivation
+284,1,r,0.312,rd,ca,text,NA,NA,NA,NA,NA,NA,Relative deprivation,Collective action
+284,1,r,-0.258,rd,cf,text,NA,NA,NA,NA,NA,NA,Relative deprivation,Cross-group friendship
+284,1,r,0.076,rd,ge,text,NA,NA,NA,NA,NA,NA,Relative deprivation,Group efficacy
+284,1,r,0.06,rd,gi,text,NA,NA,NA,NA,NA,NA,Relative deprivation,Group identificaiton
+284,1,r,0.305,rd,ps,text,NA,NA,NA,NA,NA,NA,Relative deprivation,Policy support
+284,1,r,1,rd,rd,text,NA,NA,NA,NA,NA,NA,Relative deprivation,Relative deprivation
+286,1,r,1,cf,cf,text,NA,NA,NA,NA,NA,NA,Cross-group friendship,Cross-group friendship
+286,1,r,-0.14,cf,ps,text,NA,NA,NA,NA,NA,NA,Cross-group friendship,Policy support
+286,1,r,-0.14,ps,cf,text,NA,NA,NA,NA,NA,NA,Policy support,Cross-group friendship
+286,1,r,1,ps,ps,text,NA,NA,NA,NA,NA,NA,Policy support,Policy support
+303,1,r,1,cf,cf,text,NA,NA,NA,NA,NA,NA,Cross-group friendship,Cross-group friendship
+303,1,r,-0.177,cf,pd,text,NA,NA,NA,NA,NA,NA,Cross-group friendship,Personal discrimination
+303,1,r,-0.177,pd,cf,text,NA,NA,NA,NA,NA,NA,Personal discrimination,Cross-group friendship
+303,1,r,1,pd,pd,text,NA,NA,NA,NA,NA,NA,Personal discrimination,Personal discrimination
+317,1,r,1,ic,ic,text,NA,NA,NA,NA,NA,NA,Intergroup contact (other),Intergroup contact (other)
+317,1,r,-0.032,ic,pd,text,NA,NA,NA,NA,NA,NA,Intergroup contact (other),Personal discrimination
+317,1,r,-0.032,pd,ic,text,NA,NA,NA,NA,NA,NA,Personal discrimination,Intergroup contact (other)
+317,1,r,1,pd,pd,text,NA,NA,NA,NA,NA,NA,Personal discrimination,Personal discrimination
+317,2,r,1,ic,ic,text,NA,NA,NA,NA,NA,NA,Intergroup contact (other),Intergroup contact (other)
+317,2,r,0.089,ic,pd,text,NA,NA,NA,NA,NA,NA,Intergroup contact (other),Personal discrimination
+317,2,r,0.089,pd,ic,text,NA,NA,NA,NA,NA,NA,Personal discrimination,Intergroup contact (other)
+317,2,r,1,pd,pd,text,NA,NA,NA,NA,NA,NA,Personal discrimination,Personal discrimination
+317,3,r,1,ic,ic,text,NA,NA,NA,NA,NA,NA,Intergroup contact (other),Intergroup contact (other)
+317,3,r,-0.077,ic,pd,text,NA,NA,NA,NA,NA,NA,Intergroup contact (other),Personal discrimination
+317,3,r,-0.077,pd,ic,text,NA,NA,NA,NA,NA,NA,Personal discrimination,Intergroup contact (other)
+317,3,r,1,pd,pd,text,NA,NA,NA,NA,NA,NA,Personal discrimination,Personal discrimination
+322,1,r,1,ca,ca,text,NA,NA,NA,NA,NA,NA,Collective action,Collective action
+322,1,r,0.29,ca,gi,text,NA,NA,NA,NA,NA,NA,Collective action,Group identificaiton
+322,1,r,0.05,ca,nc,text,NA,NA,NA,NA,NA,NA,Collective action,Negative contact
+322,1,r,-0.2,ca,oa,text,NA,NA,NA,NA,NA,NA,Collective action,Outgroup attitudes
+322,1,r,-0.1,ca,pc,text,NA,NA,NA,NA,NA,NA,Collective action,Contact quality / Positive contact
+322,1,r,0.24,ca,pd,text,NA,NA,NA,NA,NA,NA,Collective action,Personal discrimination
+322,1,r,0.3,ca,rd,text,NA,NA,NA,NA,NA,NA,Collective action,Relative deprivation
+322,1,r,0.29,gi,ca,text,NA,NA,NA,NA,NA,NA,Group identificaiton,Collective action
+322,1,r,1,gi,gi,text,NA,NA,NA,NA,NA,NA,Group identificaiton,Group identificaiton
+322,1,r,-0.04,gi,nc,text,NA,NA,NA,NA,NA,NA,Group identificaiton,Negative contact
+322,1,r,-0.07,gi,oa,text,NA,NA,NA,NA,NA,NA,Group identificaiton,Outgroup attitudes
+322,1,r,0.18,gi,pc,text,NA,NA,NA,NA,NA,NA,Group identificaiton,Contact quality / Positive contact
+322,1,r,0.13,gi,pd,text,NA,NA,NA,NA,NA,NA,Group identificaiton,Personal discrimination
+322,1,r,0.06,gi,rd,text,NA,NA,NA,NA,NA,NA,Group identificaiton,Relative deprivation
+322,1,r,0.05,nc,ca,text,NA,NA,NA,NA,NA,NA,Negative contact,Collective action
+322,1,r,-0.04,nc,gi,text,NA,NA,NA,NA,NA,NA,Negative contact,Group identificaiton
+322,1,r,1,nc,nc,text,NA,NA,NA,NA,NA,NA,Negative contact,Negative contact
+322,1,r,-0.08,nc,oa,text,NA,NA,NA,NA,NA,NA,Negative contact,Outgroup attitudes
+322,1,r,0.09,nc,pc,text,NA,NA,NA,NA,NA,NA,Negative contact,Contact quality / Positive contact
+322,1,r,-0.05,nc,pd,text,NA,NA,NA,NA,NA,NA,Negative contact,Personal discrimination
+322,1,r,-0.07,nc,rd,text,NA,NA,NA,NA,NA,NA,Negative contact,Relative deprivation
+322,1,r,-0.2,oa,ca,text,NA,NA,NA,NA,NA,NA,Outgroup attitudes,Collective action
+322,1,r,-0.07,oa,gi,text,NA,NA,NA,NA,NA,NA,Outgroup attitudes,Group identificaiton
+322,1,r,-0.08,oa,nc,text,NA,NA,NA,NA,NA,NA,Outgroup attitudes,Negative contact
+322,1,r,1,oa,oa,text,NA,NA,NA,NA,NA,NA,Outgroup attitudes,Outgroup attitudes
+322,1,r,0.45,oa,pc,text,NA,NA,NA,NA,NA,NA,Outgroup attitudes,Contact quality / Positive contact
+322,1,r,-0.28,oa,pd,text,NA,NA,NA,NA,NA,NA,Outgroup attitudes,Personal discrimination
+322,1,r,-0.32,oa,rd,text,NA,NA,NA,NA,NA,NA,Outgroup attitudes,Relative deprivation
+322,1,r,-0.1,pc,ca,text,NA,NA,NA,NA,NA,NA,Contact quality / Positive contact,Collective action
+322,1,r,0.18,pc,gi,text,NA,NA,NA,NA,NA,NA,Contact quality / Positive contact,Group identificaiton
+322,1,r,0.09,pc,nc,text,NA,NA,NA,NA,NA,NA,Contact quality / Positive contact,Negative contact
+322,1,r,0.45,pc,oa,text,NA,NA,NA,NA,NA,NA,Contact quality / Positive contact,Outgroup attitudes
+322,1,r,1,pc,pc,text,NA,NA,NA,NA,NA,NA,Contact quality / Positive contact,Contact quality / Positive contact
+322,1,r,-0.21,pc,pd,text,NA,NA,NA,NA,NA,NA,Contact quality / Positive contact,Personal discrimination
+322,1,r,-0.25,pc,rd,text,NA,NA,NA,NA,NA,NA,Contact quality / Positive contact,Relative deprivation
+322,1,r,0.24,pd,ca,text,NA,NA,NA,NA,NA,NA,Personal discrimination,Collective action
+322,1,r,0.13,pd,gi,text,NA,NA,NA,NA,NA,NA,Personal discrimination,Group identificaiton
+322,1,r,-0.05,pd,nc,text,NA,NA,NA,NA,NA,NA,Personal discrimination,Negative contact
+322,1,r,-0.28,pd,oa,text,NA,NA,NA,NA,NA,NA,Personal discrimination,Outgroup attitudes
+322,1,r,-0.21,pd,pc,text,NA,NA,NA,NA,NA,NA,Personal discrimination,Contact quality / Positive contact
+322,1,r,1,pd,pd,text,NA,NA,NA,NA,NA,NA,Personal discrimination,Personal discrimination
+322,1,r,0.3,pd,rd,text,NA,NA,NA,NA,NA,NA,Personal discrimination,Relative deprivation
+322,1,r,0.3,rd,ca,text,NA,NA,NA,NA,NA,NA,Relative deprivation,Collective action
+322,1,r,0.06,rd,gi,text,NA,NA,NA,NA,NA,NA,Relative deprivation,Group identificaiton
+322,1,r,-0.07,rd,nc,text,NA,NA,NA,NA,NA,NA,Relative deprivation,Negative contact
+322,1,r,-0.32,rd,oa,text,NA,NA,NA,NA,NA,NA,Relative deprivation,Outgroup attitudes
+322,1,r,-0.25,rd,pc,text,NA,NA,NA,NA,NA,NA,Relative deprivation,Contact quality / Positive contact
+322,1,r,0.3,rd,pd,text,NA,NA,NA,NA,NA,NA,Relative deprivation,Personal discrimination
+322,1,r,1,rd,rd,text,NA,NA,NA,NA,NA,NA,Relative deprivation,Relative deprivation
+324,1,r,1,oc,oc,author,NA,NA,NA,NA,NA,NA,Opportunity for contact,Opportunity for contact
+324,1,r,0.0623,oc,pd,author,NA,NA,NA,NA,NA,NA,Opportunity for contact,Personal discrimination
+324,1,r,0.0623,pd,oc,author,NA,NA,NA,NA,NA,NA,Personal discrimination,Opportunity for contact
+324,1,r,1,pd,pd,author,NA,NA,NA,NA,NA,NA,Personal discrimination,Personal discrimination
+324,2,r,1,oc,oc,author,NA,NA,NA,NA,NA,NA,Opportunity for contact,Opportunity for contact
+324,2,r,0.0708,oc,pd,author,NA,NA,NA,NA,NA,NA,Opportunity for contact,Personal discrimination
+324,2,r,0.0708,pd,oc,author,NA,NA,NA,NA,NA,NA,Personal discrimination,Opportunity for contact
+324,2,r,1,pd,pd,author,NA,NA,NA,NA,NA,NA,Personal discrimination,Personal discrimination
+325,1,r,1,cf,cf,text,NA,NA,NA,NA,NA,NA,Cross-group friendship,Cross-group friendship
+325,1,r,-0.25,cf,pd,text,NA,NA,NA,NA,NA,NA,Cross-group friendship,Personal discrimination
+325,1,r,-0.25,pd,cf,text,NA,NA,NA,NA,NA,NA,Personal discrimination,Cross-group friendship
+325,1,r,1,pd,pd,text,NA,NA,NA,NA,NA,NA,Personal discrimination,Personal discrimination
+336,1,r,1,cq,cq,text,NA,NA,NA,NA,NA,NA,Contact quantity,Contact quantity
+336,1,r,0.04,cq,gd,text,NA,NA,NA,NA,NA,NA,Contact quantity,Group discrimination
+336,1,r,-0.04,cq,gd,text,NA,NA,NA,NA,NA,NA,Contact quantity,Group discrimination
+336,1,r,0.03,cq,oa,text,NA,NA,NA,NA,NA,NA,Contact quantity,Outgroup attitudes
+336,1,r,0.41,cq,pc,text,NA,NA,NA,NA,NA,NA,Contact quantity,Contact quality / Positive contact
+336,1,r,-0.05,cq,pd,text,NA,NA,NA,NA,NA,NA,Contact quantity,Personal discrimination
+336,1,r,0.02,cq,pi,text,NA,NA,NA,NA,NA,NA,Contact quantity,Perceived injustice (other)
+336,1,r,0,cq,rd,text,NA,NA,NA,NA,NA,NA,Contact quantity,Relative deprivation
+336,1,r,-0.04,gd,cq,text,NA,NA,NA,NA,NA,NA,Group discrimination,Contact quantity
+336,1,r,0.04,gd,cq,text,NA,NA,NA,NA,NA,NA,Group discrimination,Contact quantity
+336,1,r,1,gd,gd,text,NA,NA,NA,NA,NA,NA,Group discrimination,Group discrimination
+336,1,r,-0.23,gd,oa,text,NA,NA,NA,NA,NA,NA,Group discrimination,Outgroup attitudes
+336,1,r,-0.22,gd,pc,text,NA,NA,NA,NA,NA,NA,Group discrimination,Contact quality / Positive contact
+336,1,r,0.47,gd,pd,text,NA,NA,NA,NA,NA,NA,Group discrimination,Personal discrimination
+336,1,r,0.05,gd,pi,text,NA,NA,NA,NA,NA,NA,Group discrimination,Perceived injustice (other)
+336,1,r,0.09,gd,rd,text,NA,NA,NA,NA,NA,NA,Group discrimination,Relative deprivation
+336,1,r,0.03,oa,cq,text,NA,NA,NA,NA,NA,NA,Outgroup attitudes,Contact quantity
+336,1,r,-0.23,oa,gd,text,NA,NA,NA,NA,NA,NA,Outgroup attitudes,Group discrimination
+336,1,r,1,oa,oa,text,NA,NA,NA,NA,NA,NA,Outgroup attitudes,Outgroup attitudes
+336,1,r,0.42,oa,pc,text,NA,NA,NA,NA,NA,NA,Outgroup attitudes,Contact quality / Positive contact
+336,1,r,-0.28,oa,pd,text,NA,NA,NA,NA,NA,NA,Outgroup attitudes,Personal discrimination
+336,1,r,-0.01,oa,pi,text,NA,NA,NA,NA,NA,NA,Outgroup attitudes,Perceived injustice (other)
+336,1,r,-0.09,oa,rd,text,NA,NA,NA,NA,NA,NA,Outgroup attitudes,Relative deprivation
+336,1,r,0.41,pc,cq,text,NA,NA,NA,NA,NA,NA,Contact quality / Positive contact,Contact quantity
+336,1,r,-0.22,pc,gd,text,NA,NA,NA,NA,NA,NA,Contact quality / Positive contact,Group discrimination
+336,1,r,0.42,pc,oa,text,NA,NA,NA,NA,NA,NA,Contact quality / Positive contact,Outgroup attitudes
+336,1,r,1,pc,pc,text,NA,NA,NA,NA,NA,NA,Contact quality / Positive contact,Contact quality / Positive contact
+336,1,r,-0.32,pc,pd,text,NA,NA,NA,NA,NA,NA,Contact quality / Positive contact,Personal discrimination
+336,1,r,-0.18,pc,pi,text,NA,NA,NA,NA,NA,NA,Contact quality / Positive contact,Perceived injustice (other)
+336,1,r,-0.13,pc,rd,text,NA,NA,NA,NA,NA,NA,Contact quality / Positive contact,Relative deprivation
+336,1,r,-0.05,pd,cq,text,NA,NA,NA,NA,NA,NA,Personal discrimination,Contact quantity
+336,1,r,0.47,pd,gd,text,NA,NA,NA,NA,NA,NA,Personal discrimination,Group discrimination
+336,1,r,-0.28,pd,oa,text,NA,NA,NA,NA,NA,NA,Personal discrimination,Outgroup attitudes
+336,1,r,-0.32,pd,pc,text,NA,NA,NA,NA,NA,NA,Personal discrimination,Contact quality / Positive contact
+336,1,r,1,pd,pd,text,NA,NA,NA,NA,NA,NA,Personal discrimination,Personal discrimination
+336,1,r,0.12,pd,pi,text,NA,NA,NA,NA,NA,NA,Personal discrimination,Perceived injustice (other)
+336,1,r,0.11,pd,rd,text,NA,NA,NA,NA,NA,NA,Personal discrimination,Relative deprivation
+336,1,r,0.02,pi,cq,text,NA,NA,NA,NA,NA,NA,Perceived injustice (other),Contact quantity
+336,1,r,0.05,pi,gd,text,NA,NA,NA,NA,NA,NA,Perceived injustice (other),Group discrimination
+336,1,r,-0.01,pi,oa,text,NA,NA,NA,NA,NA,NA,Perceived injustice (other),Outgroup attitudes
+336,1,r,-0.18,pi,pc,text,NA,NA,NA,NA,NA,NA,Perceived injustice (other),Contact quality / Positive contact
+336,1,r,0.12,pi,pd,text,NA,NA,NA,NA,NA,NA,Perceived injustice (other),Personal discrimination
+336,1,r,1,pi,pi,text,NA,NA,NA,NA,NA,NA,Perceived injustice (other),Perceived injustice (other)
+336,1,r,0.67,pi,rd,text,NA,NA,NA,NA,NA,NA,Perceived injustice (other),Relative deprivation
+336,1,r,0,rd,cq,text,NA,NA,NA,NA,NA,NA,Relative deprivation,Contact quantity
+336,1,r,0.09,rd,gd,text,NA,NA,NA,NA,NA,NA,Relative deprivation,Group discrimination
+336,1,r,-0.09,rd,oa,text,NA,NA,NA,NA,NA,NA,Relative deprivation,Outgroup attitudes
+336,1,r,-0.13,rd,pc,text,NA,NA,NA,NA,NA,NA,Relative deprivation,Contact quality / Positive contact
+336,1,r,0.11,rd,pd,text,NA,NA,NA,NA,NA,NA,Relative deprivation,Personal discrimination
+336,1,r,0.67,rd,pi,text,NA,NA,NA,NA,NA,NA,Relative deprivation,Perceived injustice (other)
+336,1,r,1,rd,rd,text,NA,NA,NA,NA,NA,NA,Relative deprivation,Relative deprivation
+401,1,r,1,cq,cq,author,NA,NA,NA,1,1,NA,Contact quantity,Contact quantity
+401,1,r,1,cq,cq,author,NA,NA,NA,2,2,NA,Contact quantity,Contact quantity
+401,1,r,1,cq,cq,author,NA,NA,NA,3,3,NA,Contact quantity,Contact quantity
+401,1,r,0.702,cq,cq,author,NA,NA,NA,1,2,NA,Contact quantity,Contact quantity
+401,1,r,0.69,cq,cq,author,NA,NA,NA,1,3,NA,Contact quantity,Contact quantity
+401,1,r,0.706,cq,cq,author,NA,NA,NA,2,3,NA,Contact quantity,Contact quantity
+401,1,r,-0.102,cq,rd,author,NA,NA,NA,1,1,NA,Contact quantity,Relative deprivation
+401,1,r,-0.13,cq,rd,author,NA,NA,NA,2,2,NA,Contact quantity,Relative deprivation
+401,1,r,0.002,cq,rd,author,NA,NA,NA,3,3,NA,Contact quantity,Relative deprivation
+401,1,r,-0.06,cq,rd,author,NA,NA,NA,1,2,NA,Contact quantity,Relative deprivation
+401,1,r,-0.041,cq,rd,author,NA,NA,NA,1,3,NA,Contact quantity,Relative deprivation
+401,1,r,-0.055,cq,rd,author,NA,NA,NA,2,3,NA,Contact quantity,Relative deprivation
+401,1,r,-0.102,rd,cq,author,NA,NA,NA,1,1,NA,Relative deprivation,Contact quantity
+401,1,r,-0.13,rd,cq,author,NA,NA,NA,2,2,NA,Relative deprivation,Contact quantity
+401,1,r,0.002,rd,cq,author,NA,NA,NA,3,3,NA,Relative deprivation,Contact quantity
+401,1,r,-0.12,rd,cq,author,NA,NA,NA,1,2,NA,Relative deprivation,Contact quantity
+401,1,r,-0.012,rd,cq,author,NA,NA,NA,1,3,NA,Relative deprivation,Contact quantity
+401,1,r,0.002,rd,cq,author,NA,NA,NA,2,3,NA,Relative deprivation,Contact quantity
+401,1,r,1,rd,rd,author,NA,NA,NA,1,1,NA,Relative deprivation,Relative deprivation
+401,1,r,1,rd,rd,author,NA,NA,NA,2,2,NA,Relative deprivation,Relative deprivation
+401,1,r,1,rd,rd,author,NA,NA,NA,3,3,NA,Relative deprivation,Relative deprivation
+401,1,r,0.512,rd,rd,author,NA,NA,NA,1,2,NA,Relative deprivation,Relative deprivation
+401,1,r,0.444,rd,rd,author,NA,NA,NA,1,3,NA,Relative deprivation,Relative deprivation
+401,1,r,0.475,rd,rd,author,NA,NA,NA,2,3,NA,Relative deprivation,Relative deprivation
+414,1,r,1,ca,ca,text,NA,NA,NA,NA,NA,NA,Collective action,Collective action
+414,1,r,0.31,ca,cf,text,NA,NA,NA,NA,NA,NA,Collective action,Cross-group friendship
+414,1,r,0.19,ca,oa,text,NA,NA,NA,NA,NA,NA,Collective action,Outgroup attitudes
+414,1,r,0.31,cf,ca,text,NA,NA,NA,NA,NA,NA,Cross-group friendship,Collective action
+414,1,r,1,cf,cf,text,NA,NA,NA,NA,NA,NA,Cross-group friendship,Cross-group friendship
+414,1,r,0.25,cf,oa,text,NA,NA,NA,NA,NA,NA,Cross-group friendship,Outgroup attitudes
+414,1,r,0.19,oa,ca,text,NA,NA,NA,NA,NA,NA,Outgroup attitudes,Collective action
+414,1,r,0.25,oa,cf,text,NA,NA,NA,NA,NA,NA,Outgroup attitudes,Cross-group friendship
+414,1,r,1,oa,oa,text,NA,NA,NA,NA,NA,NA,Outgroup attitudes,Outgroup attitudes
+423,1,r,1,cq,cq,author,NA,NA,NA,NA,NA,NA,Contact quantity,Contact quantity
+423,1,r,0.19,cq,gd,author,NA,NA,NA,NA,NA,NA,Contact quantity,Group discrimination
+423,1,r,0.19,gd,cq,author,NA,NA,NA,NA,NA,NA,Group discrimination,Contact quantity
+423,1,r,1,gd,gd,author,NA,NA,NA,NA,NA,NA,Group discrimination,Group discrimination
+423,2,r,1,cq,cq,author,NA,NA,NA,NA,NA,NA,Contact quantity,Contact quantity
+423,2,r,-0.003,cq,gd,author,NA,NA,NA,NA,NA,NA,Contact quantity,Group discrimination
+423,2,r,-0.003,gd,cq,author,NA,NA,NA,NA,NA,NA,Group discrimination,Contact quantity
+423,2,r,1,gd,gd,author,NA,NA,NA,NA,NA,NA,Group discrimination,Group discrimination
+423,3,r,1,cq,cq,author,NA,NA,NA,NA,NA,NA,Contact quantity,Contact quantity
+423,3,r,-0.08,cq,gd,author,NA,NA,NA,NA,NA,NA,Contact quantity,Group discrimination
+423,3,r,-0.08,gd,cq,author,NA,NA,NA,NA,NA,NA,Group discrimination,Contact quantity
+423,3,r,1,gd,gd,author,NA,NA,NA,NA,NA,NA,Group discrimination,Group discrimination
+480,1,r,1,gi,gi,text,NA,NA,NA,NA,NA,NA,Group identificaiton,Group identificaiton
+480,1,r,0.23,gi,pc,text,NA,NA,NA,NA,NA,NA,Group identificaiton,Contact quality / Positive contact
+480,1,r,0.13,gi,pd,text,NA,NA,NA,NA,NA,NA,Group identificaiton,Personal discrimination
+480,1,r,0.23,pc,gi,text,NA,NA,NA,NA,NA,NA,Contact quality / Positive contact,Group identificaiton
+480,1,r,1,pc,pc,text,NA,NA,NA,NA,NA,NA,Contact quality / Positive contact,Contact quality / Positive contact
+480,1,r,-0.11,pc,pd,text,NA,NA,NA,NA,NA,NA,Contact quality / Positive contact,Personal discrimination
+480,1,r,0.13,pd,gi,text,NA,NA,NA,NA,NA,NA,Personal discrimination,Group identificaiton
+480,1,r,-0.11,pd,pc,text,NA,NA,NA,NA,NA,NA,Personal discrimination,Contact quality / Positive contact
+480,1,r,1,pd,pd,text,NA,NA,NA,NA,NA,NA,Personal discrimination,Personal discrimination
+609,1,r,1,cf,cf,text,NA,NA,NA,NA,NA,NA,Cross-group friendship,Cross-group friendship
+609,1,r,-0.32,cf,pd,text,NA,NA,NA,NA,NA,NA,Cross-group friendship,Personal discrimination
+609,1,r,-0.32,pd,cf,text,NA,NA,NA,NA,NA,NA,Personal discrimination,Cross-group friendship
+609,1,r,1,pd,pd,text,NA,NA,NA,NA,NA,NA,Personal discrimination,Personal discrimination
+703,1,r,1,cf,cf,text,NA,NA,NA,NA,NA,NA,Cross-group friendship,Cross-group friendship
+703,1,r,0.04,cf,pi,text,NA,NA,NA,NA,NA,NA,Cross-group friendship,Perceived injustice (other)
+703,1,r,1,in,in,text,NA,NA,NA,NA,NA,NA,Ingroup contact,Ingroup contact
+703,1,r,0.275,in,pi,text,NA,NA,NA,NA,NA,NA,Ingroup contact,Perceived injustice (other)
+703,1,r,0.04,pi,cf,text,NA,NA,NA,NA,NA,NA,Perceived injustice (other),Cross-group friendship
+703,1,r,0.275,pi,in,text,NA,NA,NA,NA,NA,NA,Perceived injustice (other),Ingroup contact
+703,1,r,1,pi,pi,text,NA,NA,NA,NA,NA,NA,Perceived injustice (other),Perceived injustice (other)
+733,1,r,1,ic,ic,text,NA,NA,NA,NA,NA,NA,Intergroup contact (other),Intergroup contact (other)
+733,1,r,0.21,ic,in,text,NA,NA,NA,NA,NA,NA,Intergroup contact (other),Ingroup contact
+733,1,r,-0.38,ic,pd,text,NA,NA,NA,NA,NA,NA,Intergroup contact (other),Personal discrimination
+733,1,r,0.21,in,ic,text,NA,NA,NA,NA,NA,NA,Ingroup contact,Intergroup contact (other)
+733,1,r,1,in,in,text,NA,NA,NA,NA,NA,NA,Ingroup contact,Ingroup contact
+733,1,r,-0.35,in,pd,text,NA,NA,NA,NA,NA,NA,Ingroup contact,Personal discrimination
+733,1,r,-0.38,pd,ic,text,NA,NA,NA,NA,NA,NA,Personal discrimination,Intergroup contact (other)
+733,1,r,-0.35,pd,in,text,NA,NA,NA,NA,NA,NA,Personal discrimination,Ingroup contact
+733,1,r,1,pd,pd,text,NA,NA,NA,NA,NA,NA,Personal discrimination,Personal discrimination
+783,1,r,1,cq,cq,data,NA,NA,NA,NA,NA,NA,Contact quantity,Contact quantity
+783,1,r,0.0152,cq,pd,data,NA,NA,NA,NA,NA,NA,Contact quantity,Personal discrimination
+783,1,r,0.0152,pd,cq,data,NA,NA,NA,NA,NA,NA,Personal discrimination,Contact quantity
+783,1,r,1,pd,pd,data,NA,NA,NA,NA,NA,NA,Personal discrimination,Personal discrimination
+783,2,r,1,cq,cq,data,NA,NA,NA,NA,NA,NA,Contact quantity,Contact quantity
+783,2,r,-0.0297,cq,pd,data,NA,NA,NA,NA,NA,NA,Contact quantity,Personal discrimination
+783,2,r,-0.0297,pd,cq,data,NA,NA,NA,NA,NA,NA,Personal discrimination,Contact quantity
+783,2,r,1,pd,pd,data,NA,NA,NA,NA,NA,NA,Personal discrimination,Personal discrimination
+789,1,d,0.0844564240790664,ic,gd,text,"quasi-experimental pre-post design, outcome reversed to measure perceived inequality",162,119,NA,NA,NA,Intergroup contact (other),Group discrimination
+789,1,d,0.253174853174853,ic,pi,text,quasi-experimental pre-post design,162,119,NA,NA,NA,Intergroup contact (other),Perceived injustice (other)
+803,1,r,1,cq,cq,text,NA,NA,NA,NA,NA,NA,Contact quantity,Contact quantity
+803,1,r,-0.125,cq,ld,text,NA,NA,NA,NA,NA,NA,Contact quantity,(Il-)legitimacy of discrimination
+803,1,r,1,in,in,text,NA,NA,NA,NA,NA,NA,Ingroup contact,Ingroup contact
+803,1,r,0.085,in,ld,text,NA,NA,NA,NA,NA,NA,Ingroup contact,(Il-)legitimacy of discrimination
+803,1,r,-0.125,ld,cq,text,NA,NA,NA,NA,NA,NA,(Il-)legitimacy of discrimination,Contact quantity
+803,1,r,0.085,ld,in,text,NA,NA,NA,NA,NA,NA,(Il-)legitimacy of discrimination,Ingroup contact
+803,1,r,1,ld,ld,text,NA,NA,NA,NA,NA,NA,(Il-)legitimacy of discrimination,(Il-)legitimacy of discrimination
+813,2,r,1,ic,ic,text,NA,NA,NA,NA,NA,NA,Intergroup contact (other),Intergroup contact (other)
+813,2,r,-0.22,ic,ld,text,NA,NA,NA,NA,NA,NA,Intergroup contact (other),(Il-)legitimacy of discrimination
+813,2,r,0.31,ic,oa,text,NA,NA,NA,NA,NA,NA,Intergroup contact (other),Outgroup attitudes
+813,2,r,0.03,ic,ps,text,NA,NA,NA,NA,NA,NA,Intergroup contact (other),Policy support
+813,2,r,-0.03,ic,ps,text,NA,NA,NA,NA,NA,NA,Intergroup contact (other),Policy support
+813,2,r,-0.22,ld,ic,text,NA,NA,NA,NA,NA,NA,(Il-)legitimacy of discrimination,Intergroup contact (other)
+813,2,r,1,ld,ld,text,NA,NA,NA,NA,NA,NA,(Il-)legitimacy of discrimination,(Il-)legitimacy of discrimination
+813,2,r,-0.15,ld,oa,text,NA,NA,NA,NA,NA,NA,(Il-)legitimacy of discrimination,Outgroup attitudes
+813,2,r,0.21,ld,ps,text,NA,NA,NA,NA,NA,NA,(Il-)legitimacy of discrimination,Policy support
+813,2,r,0.31,oa,ic,text,NA,NA,NA,NA,NA,NA,Outgroup attitudes,Intergroup contact (other)
+813,2,r,-0.15,oa,ld,text,NA,NA,NA,NA,NA,NA,Outgroup attitudes,(Il-)legitimacy of discrimination
+813,2,r,1,oa,oa,text,NA,NA,NA,NA,NA,NA,Outgroup attitudes,Outgroup attitudes
+813,2,r,0.03,oa,ps,text,NA,NA,NA,NA,NA,NA,Outgroup attitudes,Policy support
+813,2,r,-0.03,ps,ic,text,NA,NA,NA,NA,NA,NA,Policy support,Intergroup contact (other)
+813,2,r,0.03,ps,ic,text,NA,NA,NA,NA,NA,NA,Policy support,Intergroup contact (other)
+813,2,r,0.21,ps,ld,text,NA,NA,NA,NA,NA,NA,Policy support,(Il-)legitimacy of discrimination
+813,2,r,0.03,ps,oa,text,NA,NA,NA,NA,NA,NA,Policy support,Outgroup attitudes
+813,2,r,1,ps,ps,text,NA,NA,NA,NA,NA,NA,Policy support,Policy support
+823,1,r,1,cq,cq,text,NA,NA,NA,NA,NA,NA,Contact quantity,Contact quantity
+823,1,r,-0.148,cq,pd,text,outcome reversed to reflect more discrimination,NA,NA,NA,NA,NA,Contact quantity,Personal discrimination
+823,1,r,-0.148,pd,cq,text,outcome reversed to reflect more discrimination,NA,NA,NA,NA,NA,Personal discrimination,Contact quantity
+823,1,r,1,pd,pd,text,outcome reversed to reflect more discrimination,NA,NA,NA,NA,NA,Personal discrimination,Personal discrimination
+829,1,r,1,cq,cq,author,predictor reversed to make other-group contact,NA,NA,NA,NA,NA,Contact quantity,Contact quantity
+829,1,r,0.029,cq,pd,author,predictor reversed to make other-group contact,NA,NA,NA,NA,NA,Contact quantity,Personal discrimination
+829,1,r,0.029,pd,cq,author,predictor reversed to make other-group contact,NA,NA,NA,NA,NA,Personal discrimination,Contact quantity
+829,1,r,1,pd,pd,author,predictor reversed to make other-group contact,NA,NA,NA,NA,NA,Personal discrimination,Personal discrimination
+830,1,r,1,cf,cf,text,NA,NA,NA,NA,NA,NA,Cross-group friendship,Cross-group friendship
+830,1,r,-0.032,cf,pi,text,NA,NA,NA,NA,NA,NA,Cross-group friendship,Perceived injustice (other)
+830,1,r,-0.032,pi,cf,text,NA,NA,NA,NA,NA,NA,Perceived injustice (other),Cross-group friendship
+830,1,r,1,pi,pi,text,NA,NA,NA,NA,NA,NA,Perceived injustice (other),Perceived injustice (other)
+830,2,r,1,cf,cf,text,NA,NA,NA,NA,NA,NA,Cross-group friendship,Cross-group friendship
+830,2,r,-0.077,cf,pd,text,predictor reversed to reflect outgroup contact,NA,NA,NA,NA,NA,Cross-group friendship,Personal discrimination
+830,2,r,-0.077,pd,cf,text,predictor reversed to reflect outgroup contact,NA,NA,NA,NA,NA,Personal discrimination,Cross-group friendship
+830,2,r,1,pd,pd,text,predictor reversed to reflect outgroup contact,NA,NA,NA,NA,NA,Personal discrimination,Personal discrimination
+830,3,r,1,cf,cf,text,NA,NA,NA,NA,NA,NA,Cross-group friendship,Cross-group friendship
+830,3,r,0.089,cf,pd,text,predictor reversed to reflect outgroup contact,NA,NA,NA,NA,NA,Cross-group friendship,Personal discrimination
+830,3,r,0.089,pd,cf,text,predictor reversed to reflect outgroup contact,NA,NA,NA,NA,NA,Personal discrimination,Cross-group friendship
+830,3,r,1,pd,pd,text,predictor reversed to reflect outgroup contact,NA,NA,NA,NA,NA,Personal discrimination,Personal discrimination
+856,1,r,1,cq,cq,text,NA,NA,NA,NA,NA,NA,Contact quantity,Contact quantity
+856,1,r,-0.034,cq,ld,text,NA,NA,NA,NA,NA,NA,Contact quantity,(Il-)legitimacy of discrimination
+856,1,r,-0.037,cq,oa,text,NA,NA,NA,NA,NA,NA,Contact quantity,Outgroup attitudes
+856,1,r,0.215,cq,pc,text,NA,NA,NA,NA,NA,NA,Contact quantity,Contact quality / Positive contact
+856,1,r,-0.089,cq,ps,text,NA,NA,NA,NA,NA,NA,Contact quantity,Policy support
+856,1,r,-0.034,ld,cq,text,NA,NA,NA,NA,NA,NA,(Il-)legitimacy of discrimination,Contact quantity
+856,1,r,1,ld,ld,text,NA,NA,NA,NA,NA,NA,(Il-)legitimacy of discrimination,(Il-)legitimacy of discrimination
+856,1,r,0.139,ld,oa,text,NA,NA,NA,NA,NA,NA,(Il-)legitimacy of discrimination,Outgroup attitudes
+856,1,r,0.191,ld,pc,text,NA,NA,NA,NA,NA,NA,(Il-)legitimacy of discrimination,Contact quality / Positive contact
+856,1,r,-0.001,ld,ps,text,NA,NA,NA,NA,NA,NA,(Il-)legitimacy of discrimination,Policy support
+856,1,r,-0.037,oa,cq,text,NA,NA,NA,NA,NA,NA,Outgroup attitudes,Contact quantity
+856,1,r,0.139,oa,ld,text,NA,NA,NA,NA,NA,NA,Outgroup attitudes,(Il-)legitimacy of discrimination
+856,1,r,1,oa,oa,text,NA,NA,NA,NA,NA,NA,Outgroup attitudes,Outgroup attitudes
+856,1,r,0.262,oa,pc,text,NA,NA,NA,NA,NA,NA,Outgroup attitudes,Contact quality / Positive contact
+856,1,r,0.014,oa,ps,text,NA,NA,NA,NA,NA,NA,Outgroup attitudes,Policy support
+856,1,r,0.215,pc,cq,text,NA,NA,NA,NA,NA,NA,Contact quality / Positive contact,Contact quantity
+856,1,r,0.191,pc,ld,text,NA,NA,NA,NA,NA,NA,Contact quality / Positive contact,(Il-)legitimacy of discrimination
+856,1,r,0.262,pc,oa,text,NA,NA,NA,NA,NA,NA,Contact quality / Positive contact,Outgroup attitudes
+856,1,r,1,pc,pc,text,NA,NA,NA,NA,NA,NA,Contact quality / Positive contact,Contact quality / Positive contact
+856,1,r,0.059,pc,ps,text,NA,NA,NA,NA,NA,NA,Contact quality / Positive contact,Policy support
+856,1,r,-0.089,ps,cq,text,NA,NA,NA,NA,NA,NA,Policy support,Contact quantity
+856,1,r,-0.001,ps,ld,text,NA,NA,NA,NA,NA,NA,Policy support,(Il-)legitimacy of discrimination
+856,1,r,0.014,ps,oa,text,NA,NA,NA,NA,NA,NA,Policy support,Outgroup attitudes
+856,1,r,0.059,ps,pc,text,NA,NA,NA,NA,NA,NA,Policy support,Contact quality / Positive contact
+856,1,r,1,ps,ps,text,NA,NA,NA,NA,NA,NA,Policy support,Policy support
+893,1,r,1,gi,gi,text,NA,NA,NA,NA,NA,NA,Group identificaiton,Group identificaiton
+893,1,r,-0.129,gi,oc,text,predictor reversed to reflect perceived outgroup contact,NA,NA,NA,NA,NA,Group identificaiton,Opportunity for contact
+893,1,r,0.06,gi,pi,text,NA,NA,NA,NA,NA,NA,Group identificaiton,Perceived injustice (other)
+893,1,r,-0.129,oc,gi,text,predictor reversed to reflect perceived outgroup contact,NA,NA,NA,NA,NA,Opportunity for contact,Group identificaiton
+893,1,r,1,oc,oc,text,predictor reversed to reflect perceived outgroup contact,NA,NA,NA,NA,NA,Opportunity for contact,Opportunity for contact
+893,1,r,0.067,oc,pi,text,predictor reversed to reflect perceived outgroup contact,NA,NA,NA,NA,NA,Opportunity for contact,Perceived injustice (other)
+893,1,r,0.06,pi,gi,text,NA,NA,NA,NA,NA,NA,Perceived injustice (other),Group identificaiton
+893,1,r,0.067,pi,oc,text,predictor reversed to reflect perceived outgroup contact,NA,NA,NA,NA,NA,Perceived injustice (other),Opportunity for contact
+893,1,r,1,pi,pi,text,NA,NA,NA,NA,NA,NA,Perceived injustice (other),Perceived injustice (other)
+894,1,r,1,ca,ca,text,NA,NA,NA,NA,NA,NA,Collective action,Collective action
+894,1,r,0.3,ca,gi,text,NA,NA,NA,NA,NA,NA,Collective action,Group identificaiton
+894,1,r,0.16,ca,ca,text,NA,NA,NA,NA,NA,NA,Collective action,Non-normative CA
+894,1,r,-0.06,ca,oa,text,NA,NA,NA,NA,NA,NA,Collective action,Outgroup attitudes
+894,1,r,-0.15,ca,oc,text,NA,NA,NA,NA,NA,NA,Collective action,Opportunity for contact
+894,1,r,0.3,gi,ca,text,NA,NA,NA,NA,NA,NA,Group identificaiton,Collective action
+894,1,r,1,gi,gi,text,NA,NA,NA,NA,NA,NA,Group identificaiton,Group identificaiton
+894,1,r,0.07,gi,ca,text,NA,NA,NA,NA,NA,NA,Group identificaiton,Non-normative CA
+894,1,r,-0.28,gi,oa,text,NA,NA,NA,NA,NA,NA,Group identificaiton,Outgroup attitudes
+894,1,r,-0.36,gi,oc,text,NA,NA,NA,NA,NA,NA,Group identificaiton,Opportunity for contact
+894,1,r,0.16,ca,ca,text,NA,NA,NA,NA,NA,NA,Non-normative CA,Collective action
+894,1,r,0.07,ca,gi,text,NA,NA,NA,NA,NA,NA,Non-normative CA,Group identificaiton
+894,1,r,1,ca,ca,text,NA,NA,NA,NA,NA,NA,Non-normative CA,Non-normative CA
+894,1,r,-0.12,ca,oa,text,NA,NA,NA,NA,NA,NA,Non-normative CA,Outgroup attitudes
+894,1,r,-0.1,ca,oc,text,NA,NA,NA,NA,NA,NA,Non-normative CA,Opportunity for contact
+894,1,r,-0.06,oa,ca,text,NA,NA,NA,NA,NA,NA,Outgroup attitudes,Collective action
+894,1,r,-0.28,oa,gi,text,NA,NA,NA,NA,NA,NA,Outgroup attitudes,Group identificaiton
+894,1,r,-0.12,oa,ca,text,NA,NA,NA,NA,NA,NA,Outgroup attitudes,Non-normative CA
+894,1,r,1,oa,oa,text,NA,NA,NA,NA,NA,NA,Outgroup attitudes,Outgroup attitudes
+894,1,r,0.32,oa,oc,text,NA,NA,NA,NA,NA,NA,Outgroup attitudes,Opportunity for contact
+894,1,r,-0.15,oc,ca,text,NA,NA,NA,NA,NA,NA,Opportunity for contact,Collective action
+894,1,r,-0.36,oc,gi,text,NA,NA,NA,NA,NA,NA,Opportunity for contact,Group identificaiton
+894,1,r,-0.1,oc,ca,text,NA,NA,NA,NA,NA,NA,Opportunity for contact,Non-normative CA
+894,1,r,0.32,oc,oa,text,NA,NA,NA,NA,NA,NA,Opportunity for contact,Outgroup attitudes
+894,1,r,1,oc,oc,text,NA,NA,NA,NA,NA,NA,Opportunity for contact,Opportunity for contact
+894,2,r,1,ca,ca,text,NA,NA,NA,NA,NA,NA,Collective action,Collective action
+894,2,r,0.2,ca,gi,text,NA,NA,NA,NA,NA,NA,Collective action,Group identificaiton
+894,2,r,0.13,ca,ca,text,NA,NA,NA,NA,NA,NA,Collective action,Non-normative CA
+894,2,r,-0.06,ca,oa,text,NA,NA,NA,NA,NA,NA,Collective action,Outgroup attitudes
+894,2,r,-0.08,ca,oc,text,NA,NA,NA,NA,NA,NA,Collective action,Opportunity for contact
+894,2,r,0.2,gi,ca,text,NA,NA,NA,NA,NA,NA,Group identificaiton,Collective action
+894,2,r,1,gi,gi,text,NA,NA,NA,NA,NA,NA,Group identificaiton,Group identificaiton
+894,2,r,0.16,gi,ca,text,NA,NA,NA,NA,NA,NA,Group identificaiton,Non-normative CA
+894,2,r,-0.33,gi,oa,text,NA,NA,NA,NA,NA,NA,Group identificaiton,Outgroup attitudes
+894,2,r,-0.28,gi,oc,text,NA,NA,NA,NA,NA,NA,Group identificaiton,Opportunity for contact
+894,2,r,0.13,ca,ca,text,NA,NA,NA,NA,NA,NA,Non-normative CA,Collective action
+894,2,r,0.16,ca,gi,text,NA,NA,NA,NA,NA,NA,Non-normative CA,Group identificaiton
+894,2,r,1,ca,ca,text,NA,NA,NA,NA,NA,NA,Non-normative CA,Non-normative CA
+894,2,r,-0.14,ca,oa,text,NA,NA,NA,NA,NA,NA,Non-normative CA,Outgroup attitudes
+894,2,r,-0.11,ca,oc,text,NA,NA,NA,NA,NA,NA,Non-normative CA,Opportunity for contact
+894,2,r,-0.06,oa,ca,text,NA,NA,NA,NA,NA,NA,Outgroup attitudes,Collective action
+894,2,r,-0.33,oa,gi,text,NA,NA,NA,NA,NA,NA,Outgroup attitudes,Group identificaiton
+894,2,r,-0.14,oa,ca,text,NA,NA,NA,NA,NA,NA,Outgroup attitudes,Non-normative CA
+894,2,r,1,oa,oa,text,NA,NA,NA,NA,NA,NA,Outgroup attitudes,Outgroup attitudes
+894,2,r,0.09,oa,oc,text,NA,NA,NA,NA,NA,NA,Outgroup attitudes,Opportunity for contact
+894,2,r,-0.08,oc,ca,text,NA,NA,NA,NA,NA,NA,Opportunity for contact,Collective action
+894,2,r,-0.28,oc,gi,text,NA,NA,NA,NA,NA,NA,Opportunity for contact,Group identificaiton
+894,2,r,-0.11,oc,ca,text,NA,NA,NA,NA,NA,NA,Opportunity for contact,Non-normative CA
+894,2,r,0.09,oc,oa,text,NA,NA,NA,NA,NA,NA,Opportunity for contact,Outgroup attitudes
+894,2,r,1,oc,oc,text,NA,NA,NA,NA,NA,NA,Opportunity for contact,Opportunity for contact
+933,1,r,1,cf,cf,text,NA,NA,NA,NA,NA,NA,Cross-group friendship,Cross-group friendship
+933,1,r,0.064,cf,gd,text,NA,NA,NA,NA,NA,NA,Cross-group friendship,Group discrimination
+933,1,r,0.078,cf,oa,text,NA,NA,NA,NA,NA,NA,Cross-group friendship,Outgroup attitudes
+933,1,r,0.064,gd,cf,text,NA,NA,NA,NA,NA,NA,Group discrimination,Cross-group friendship
+933,1,r,1,gd,gd,text,NA,NA,NA,NA,NA,NA,Group discrimination,Group discrimination
+933,1,r,-0.116,gd,oa,text,NA,NA,NA,NA,NA,NA,Group discrimination,Outgroup attitudes
+933,1,r,0.078,oa,cf,text,NA,NA,NA,NA,NA,NA,Outgroup attitudes,Cross-group friendship
+933,1,r,-0.116,oa,gd,text,NA,NA,NA,NA,NA,NA,Outgroup attitudes,Group discrimination
+933,1,r,1,oa,oa,text,NA,NA,NA,NA,NA,NA,Outgroup attitudes,Outgroup attitudes
+956,1,r,1,ca,ca,text,NA,NA,NA,NA,NA,NA,Collective action,Collective action
+956,1,r,0.54,ca,gd,text,NA,NA,NA,NA,NA,NA,Collective action,Group discrimination
+956,1,r,0.55,ca,gi,text,NA,NA,NA,NA,NA,NA,Collective action,Group identificaiton
+956,1,r,0.26,ca,nc,text,NA,NA,NA,NA,NA,NA,Collective action,Negative contact
+956,1,r,-0.2,ca,oa,text,NA,NA,NA,NA,NA,NA,Collective action,Outgroup attitudes
+956,1,r,-0.03,ca,pc,text,NA,NA,NA,NA,NA,NA,Collective action,Contact quality / Positive contact
+956,1,r,0.36,ca,pd,text,NA,NA,NA,NA,NA,NA,Collective action,Personal discrimination
+956,1,r,0.54,gd,ca,text,NA,NA,NA,NA,NA,NA,Group discrimination,Collective action
+956,1,r,1,gd,gd,text,NA,NA,NA,NA,NA,NA,Group discrimination,Group discrimination
+956,1,r,0.49,gd,gi,text,NA,NA,NA,NA,NA,NA,Group discrimination,Group identificaiton
+956,1,r,0.34,gd,nc,text,NA,NA,NA,NA,NA,NA,Group discrimination,Negative contact
+956,1,r,-0.35,gd,oa,text,NA,NA,NA,NA,NA,NA,Group discrimination,Outgroup attitudes
+956,1,r,-0.24,gd,pc,text,NA,NA,NA,NA,NA,NA,Group discrimination,Contact quality / Positive contact
+956,1,r,0.62,gd,pd,text,NA,NA,NA,NA,NA,NA,Group discrimination,Personal discrimination
+956,1,r,0.55,gi,ca,text,NA,NA,NA,NA,NA,NA,Group identificaiton,Collective action
+956,1,r,0.49,gi,gd,text,NA,NA,NA,NA,NA,NA,Group identificaiton,Group discrimination
+956,1,r,1,gi,gi,text,NA,NA,NA,NA,NA,NA,Group identificaiton,Group identificaiton
+956,1,r,0.27,gi,nc,text,NA,NA,NA,NA,NA,NA,Group identificaiton,Negative contact
+956,1,r,-0.4,gi,oa,text,NA,NA,NA,NA,NA,NA,Group identificaiton,Outgroup attitudes
+956,1,r,-0.14,gi,pc,text,NA,NA,NA,NA,NA,NA,Group identificaiton,Contact quality / Positive contact
+956,1,r,0.55,gi,pd,text,NA,NA,NA,NA,NA,NA,Group identificaiton,Personal discrimination
+956,1,r,0.26,nc,ca,text,NA,NA,NA,NA,NA,NA,Negative contact,Collective action
+956,1,r,0.34,nc,gd,text,NA,NA,NA,NA,NA,NA,Negative contact,Group discrimination
+956,1,r,0.27,nc,gi,text,NA,NA,NA,NA,NA,NA,Negative contact,Group identificaiton
+956,1,r,1,nc,nc,text,NA,NA,NA,NA,NA,NA,Negative contact,Negative contact
+956,1,r,-0.41,nc,oa,text,NA,NA,NA,NA,NA,NA,Negative contact,Outgroup attitudes
+956,1,r,-0.42,nc,pc,text,NA,NA,NA,NA,NA,NA,Negative contact,Contact quality / Positive contact
+956,1,r,0.72,nc,pd,text,NA,NA,NA,NA,NA,NA,Negative contact,Personal discrimination
+956,1,r,-0.2,oa,ca,text,NA,NA,NA,NA,NA,NA,Outgroup attitudes,Collective action
+956,1,r,-0.35,oa,gd,text,NA,NA,NA,NA,NA,NA,Outgroup attitudes,Group discrimination
+956,1,r,-0.4,oa,gi,text,NA,NA,NA,NA,NA,NA,Outgroup attitudes,Group identificaiton
+956,1,r,-0.41,oa,nc,text,NA,NA,NA,NA,NA,NA,Outgroup attitudes,Negative contact
+956,1,r,1,oa,oa,text,NA,NA,NA,NA,NA,NA,Outgroup attitudes,Outgroup attitudes
+956,1,r,0.59,oa,pc,text,NA,NA,NA,NA,NA,NA,Outgroup attitudes,Contact quality / Positive contact
+956,1,r,-0.45,oa,pd,text,NA,NA,NA,NA,NA,NA,Outgroup attitudes,Personal discrimination
+956,1,r,-0.03,pc,ca,text,NA,NA,NA,NA,NA,NA,Contact quality / Positive contact,Collective action
+956,1,r,-0.24,pc,gd,text,NA,NA,NA,NA,NA,NA,Contact quality / Positive contact,Group discrimination
+956,1,r,-0.14,pc,gi,text,NA,NA,NA,NA,NA,NA,Contact quality / Positive contact,Group identificaiton
+956,1,r,-0.42,pc,nc,text,NA,NA,NA,NA,NA,NA,Contact quality / Positive contact,Negative contact
+956,1,r,0.59,pc,oa,text,NA,NA,NA,NA,NA,NA,Contact quality / Positive contact,Outgroup attitudes
+956,1,r,1,pc,pc,text,NA,NA,NA,NA,NA,NA,Contact quality / Positive contact,Contact quality / Positive contact
+956,1,r,-0.38,pc,pd,text,NA,NA,NA,NA,NA,NA,Contact quality / Positive contact,Personal discrimination
+956,1,r,0.36,pd,ca,text,NA,NA,NA,NA,NA,NA,Personal discrimination,Collective action
+956,1,r,0.62,pd,gd,text,NA,NA,NA,NA,NA,NA,Personal discrimination,Group discrimination
+956,1,r,0.55,pd,gi,text,NA,NA,NA,NA,NA,NA,Personal discrimination,Group identificaiton
+956,1,r,0.72,pd,nc,text,NA,NA,NA,NA,NA,NA,Personal discrimination,Negative contact
+956,1,r,-0.45,pd,oa,text,NA,NA,NA,NA,NA,NA,Personal discrimination,Outgroup attitudes
+956,1,r,-0.38,pd,pc,text,NA,NA,NA,NA,NA,NA,Personal discrimination,Contact quality / Positive contact
+956,1,r,1,pd,pd,text,NA,NA,NA,NA,NA,NA,Personal discrimination,Personal discrimination
+956,2,r,1,ca,ca,text,NA,NA,NA,1,1,NA,Collective action,Collective action
+956,2,r,0.816,ca,ca,text,NA,NA,NA,1,2,NA,Collective action,Collective action
+956,2,r,1,ca,ca,text,NA,NA,NA,2,2,NA,Collective action,Collective action
+956,2,r,0.321,ca,gd,text,NA,NA,NA,1,2,NA,Collective action,Group discrimination
+956,2,r,0.391,ca,gd,text,NA,NA,NA,2,2,NA,Collective action,Group discrimination
+956,2,r,0.314,ca,gi,text,NA,NA,NA,1,2,NA,Collective action,Group identificaiton
+956,2,r,0.35,ca,gi,text,NA,NA,NA,2,2,NA,Collective action,Group identificaiton
+956,2,r,0.046,ca,nc,text,NA,NA,NA,1,2,NA,Collective action,Negative contact
+956,2,r,0.063,ca,nc,text,NA,NA,NA,2,2,NA,Collective action,Negative contact
+956,2,r,0.364,ca,o1,text,NA,NA,NA,1,2,NA,Collective action,Group Identificaiton: Solidarity
+956,2,r,0.47,ca,o1,text,NA,NA,NA,2,2,NA,Collective action,Group Identificaiton: Solidarity
+956,2,r,0.422,ca,o2,text,NA,NA,NA,1,2,NA,Collective action,Anger
+956,2,r,0.439,ca,o2,text,NA,NA,NA,2,2,NA,Collective action,Anger
+956,2,r,-0.032,ca,oa,text,NA,NA,NA,1,2,NA,Collective action,Outgroup attitudes
+956,2,r,-0.119,ca,oa,text,NA,NA,NA,1,1,NA,Collective action,Outgroup attitudes
+956,2,r,0.078,ca,pc,text,NA,NA,NA,1,2,NA,Collective action,Contact quality / Positive contact
+956,2,r,0.14,ca,pc,text,NA,NA,NA,2,2,NA,Collective action,Contact quality / Positive contact
+956,2,r,0.269,ca,pd,text,NA,NA,NA,1,2,NA,Collective action,Personal discrimination
+956,2,r,0.272,ca,pd,text,NA,NA,NA,2,2,NA,Collective action,Personal discrimination
+956,2,r,0.426,gd,ca,text,NA,NA,NA,1,1,NA,Group discrimination,Collective action
+956,2,r,0.478,gd,ca,text,NA,NA,NA,1,2,NA,Group discrimination,Collective action
+956,2,r,1,gd,gd,text,NA,NA,NA,1,1,NA,Group discrimination,Group discrimination
+956,2,r,0.773,gd,gd,text,NA,NA,NA,1,2,NA,Group discrimination,Group discrimination
+956,2,r,1,gd,gd,text,NA,NA,NA,2,2,NA,Group discrimination,Group discrimination
+956,2,r,0.116,gd,gi,text,NA,NA,NA,1,2,NA,Group discrimination,Group identificaiton
+956,2,r,0.164,gd,gi,text,NA,NA,NA,2,2,NA,Group discrimination,Group identificaiton
+956,2,r,0.161,gd,nc,text,NA,NA,NA,1,2,NA,Group discrimination,Negative contact
+956,2,r,0.232,gd,nc,text,NA,NA,NA,2,2,NA,Group discrimination,Negative contact
+956,2,r,0.219,gd,o1,text,NA,NA,NA,1,2,NA,Group discrimination,Group Identificaiton: Solidarity
+956,2,r,0.343,gd,o1,text,NA,NA,NA,2,2,NA,Group discrimination,Group Identificaiton: Solidarity
+956,2,r,0.585,gd,o2,text,NA,NA,NA,1,1,NA,Group discrimination,Anger
+956,2,r,0.479,gd,o2,text,NA,NA,NA,1,2,NA,Group discrimination,Anger
+956,2,r,-0.195,gd,oa,text,NA,NA,NA,1,2,NA,Group discrimination,Outgroup attitudes
+956,2,r,-0.213,gd,oa,text,NA,NA,NA,1,1,NA,Group discrimination,Outgroup attitudes
+956,2,r,-0.106,gd,pc,text,NA,NA,NA,1,2,NA,Group discrimination,Contact quality / Positive contact
+956,2,r,-0.113,gd,pc,text,NA,NA,NA,2,2,NA,Group discrimination,Contact quality / Positive contact
+956,2,r,0.291,gd,pd,text,NA,NA,NA,1,2,NA,Group discrimination,Personal discrimination
+956,2,r,0.229,gd,pd,text,NA,NA,NA,2,2,NA,Group discrimination,Personal discrimination
+956,2,r,0.416,gi,ca,text,NA,NA,NA,1,1,NA,Group identificaiton,Collective action
+956,2,r,0.297,gi,ca,text,NA,NA,NA,1,2,NA,Group identificaiton,Collective action
+956,2,r,0.262,gi,gd,text,NA,NA,NA,1,1,NA,Group identificaiton,Group discrimination
+956,2,r,0.25,gi,gd,text,NA,NA,NA,1,2,NA,Group identificaiton,Group discrimination
+956,2,r,1,gi,gi,text,NA,NA,NA,1,1,NA,Group identificaiton,Group identificaiton
+956,2,r,0.652,gi,gi,text,NA,NA,NA,1,2,NA,Group identificaiton,Group identificaiton
+956,2,r,1,gi,gi,text,NA,NA,NA,2,2,NA,Group identificaiton,Group identificaiton
+956,2,r,0.114,gi,nc,text,NA,NA,NA,1,2,NA,Group identificaiton,Negative contact
+956,2,r,0.122,gi,nc,text,NA,NA,NA,2,2,NA,Group identificaiton,Negative contact
+956,2,r,0.466,gi,o1,text,NA,NA,NA,1,2,NA,Group identificaiton,Group Identificaiton: Solidarity
+956,2,r,0.629,gi,o1,text,NA,NA,NA,2,2,NA,Group identificaiton,Group Identificaiton: Solidarity
+956,2,r,0.353,gi,o2,text,NA,NA,NA,1,1,NA,Group identificaiton,Anger
+956,2,r,0.234,gi,o2,text,NA,NA,NA,1,2,NA,Group identificaiton,Anger
+956,2,r,-0.1,gi,oa,text,NA,NA,NA,1,2,NA,Group identificaiton,Outgroup attitudes
+956,2,r,-0.167,gi,oa,text,NA,NA,NA,1,1,NA,Group identificaiton,Outgroup attitudes
+956,2,r,-0.067,gi,pc,text,NA,NA,NA,1,2,NA,Group identificaiton,Contact quality / Positive contact
+956,2,r,-0.04,gi,pc,text,NA,NA,NA,2,2,NA,Group identificaiton,Contact quality / Positive contact
+956,2,r,0.426,gi,pd,text,NA,NA,NA,1,1,NA,Group identificaiton,Personal discrimination
+956,2,r,0.365,gi,pd,text,NA,NA,NA,1,2,NA,Group identificaiton,Personal discrimination
+956,2,r,0.1,nc,ca,text,NA,NA,NA,1,1,NA,Negative contact,Collective action
+956,2,r,0.076,nc,ca,text,NA,NA,NA,1,2,NA,Negative contact,Collective action
+956,2,r,0.186,nc,gd,text,NA,NA,NA,1,1,NA,Negative contact,Group discrimination
+956,2,r,0.248,nc,gd,text,NA,NA,NA,1,2,NA,Negative contact,Group discrimination
+956,2,r,0.082,nc,gi,text,NA,NA,NA,1,1,NA,Negative contact,Group identificaiton
+956,2,r,0.089,nc,gi,text,NA,NA,NA,1,2,NA,Negative contact,Group identificaiton
+956,2,r,1,nc,nc,text,NA,NA,NA,1,1,NA,Negative contact,Negative contact
+956,2,r,0.711,nc,nc,text,NA,NA,NA,1,2,NA,Negative contact,Negative contact
+956,2,r,1,nc,nc,text,NA,NA,NA,2,2,NA,Negative contact,Negative contact
+956,2,r,0.08,nc,o1,text,NA,NA,NA,1,1,NA,Negative contact,Group Identificaiton: Solidarity
+956,2,r,0.063,nc,o1,text,NA,NA,NA,1,2,NA,Negative contact,Group Identificaiton: Solidarity
+956,2,r,0.126,nc,o2,text,NA,NA,NA,1,1,NA,Negative contact,Anger
+956,2,r,0.233,nc,o2,text,NA,NA,NA,1,2,NA,Negative contact,Anger
+956,2,r,-0.349,nc,oa,text,NA,NA,NA,1,2,NA,Negative contact,Outgroup attitudes
+956,2,r,-0.323,nc,oa,text,NA,NA,NA,1,1,NA,Negative contact,Outgroup attitudes
+956,2,r,-0.202,nc,pc,text,NA,NA,NA,1,2,NA,Negative contact,Contact quality / Positive contact
+956,2,r,-0.225,nc,pc,text,NA,NA,NA,2,2,NA,Negative contact,Contact quality / Positive contact
+956,2,r,0.309,nc,pd,text,NA,NA,NA,1,1,NA,Negative contact,Personal discrimination
+956,2,r,0.272,nc,pd,text,NA,NA,NA,1,2,NA,Negative contact,Personal discrimination
+956,2,r,0.426,o1,ca,text,NA,NA,NA,1,1,NA,Group Identificaiton: Solidarity,Collective action
+956,2,r,0.368,o1,ca,text,NA,NA,NA,1,2,NA,Group Identificaiton: Solidarity,Collective action
+956,2,r,0.329,o1,gd,text,NA,NA,NA,1,1,NA,Group Identificaiton: Solidarity,Group discrimination
+956,2,r,0.327,o1,gd,text,NA,NA,NA,1,2,NA,Group Identificaiton: Solidarity,Group discrimination
+956,2,r,0.542,o1,gi,text,NA,NA,NA,1,1,NA,Group Identificaiton: Solidarity,Group identificaiton
+956,2,r,0.342,o1,gi,text,NA,NA,NA,1,2,NA,Group Identificaiton: Solidarity,Group identificaiton
+956,2,r,-0.008,o1,nc,text,NA,NA,NA,1,2,NA,Group Identificaiton: Solidarity,Negative contact
+956,2,r,0.094,o1,nc,text,NA,NA,NA,2,2,NA,Group Identificaiton: Solidarity,Negative contact
+956,2,r,1,o1,o1,text,NA,NA,NA,1,1,NA,Group Identificaiton: Solidarity,Group Identificaiton: Solidarity
+956,2,r,0.625,o1,o1,text,NA,NA,NA,1,2,NA,Group Identificaiton: Solidarity,Group Identificaiton: Solidarity
+956,2,r,1,o1,o1,text,NA,NA,NA,2,2,NA,Group Identificaiton: Solidarity,Group Identificaiton: Solidarity
+956,2,r,0.358,o1,o2,text,NA,NA,NA,1,1,NA,Group Identificaiton: Solidarity,Anger
+956,2,r,0.324,o1,o2,text,NA,NA,NA,1,2,NA,Group Identificaiton: Solidarity,Anger
+956,2,r,-0.028,o1,oa,text,NA,NA,NA,1,2,NA,Group Identificaiton: Solidarity,Outgroup attitudes
+956,2,r,-0.053,o1,oa,text,NA,NA,NA,1,1,NA,Group Identificaiton: Solidarity,Outgroup attitudes
+956,2,r,0.148,o1,pc,text,NA,NA,NA,1,2,NA,Group Identificaiton: Solidarity,Contact quality / Positive contact
+956,2,r,-0.001,o1,pc,text,NA,NA,NA,2,2,NA,Group Identificaiton: Solidarity,Contact quality / Positive contact
+956,2,r,0.332,o1,pd,text,NA,NA,NA,1,1,NA,Group Identificaiton: Solidarity,Personal discrimination
+956,2,r,0.288,o1,pd,text,NA,NA,NA,1,2,NA,Group Identificaiton: Solidarity,Personal discrimination
+956,2,r,0.581,o2,ca,text,NA,NA,NA,1,1,NA,Anger,Collective action
+956,2,r,0.524,o2,ca,text,NA,NA,NA,1,2,NA,Anger,Collective action
+956,2,r,0.515,o2,gd,text,NA,NA,NA,1,2,NA,Anger,Group discrimination
+956,2,r,0.636,o2,gd,text,NA,NA,NA,2,2,NA,Anger,Group discrimination
+956,2,r,0.285,o2,gi,text,NA,NA,NA,1,2,NA,Anger,Group identificaiton
+956,2,r,0.245,o2,gi,text,NA,NA,NA,2,2,NA,Anger,Group identificaiton
+956,2,r,0.123,o2,nc,text,NA,NA,NA,1,2,NA,Anger,Negative contact
+956,2,r,0.209,o2,nc,text,NA,NA,NA,2,2,NA,Anger,Negative contact
+956,2,r,0.358,o2,o1,text,NA,NA,NA,1,2,NA,Anger,Group Identificaiton: Solidarity
+956,2,r,0.343,o2,o1,text,NA,NA,NA,2,2,NA,Anger,Group Identificaiton: Solidarity
+956,2,r,1,o2,o2,text,NA,NA,NA,1,1,NA,Anger,Anger
+956,2,r,0.622,o2,o2,text,NA,NA,NA,1,2,NA,Anger,Anger
+956,2,r,1,o2,o2,text,NA,NA,NA,2,2,NA,Anger,Anger
+956,2,r,-0.143,o2,oa,text,NA,NA,NA,1,2,NA,Anger,Outgroup attitudes
+956,2,r,-0.153,o2,oa,text,NA,NA,NA,1,1,NA,Anger,Outgroup attitudes
+956,2,r,-0.118,o2,pc,text,NA,NA,NA,1,2,NA,Anger,Contact quality / Positive contact
+956,2,r,-0.059,o2,pc,text,NA,NA,NA,2,2,NA,Anger,Contact quality / Positive contact
+956,2,r,0.281,o2,pd,text,NA,NA,NA,1,2,NA,Anger,Personal discrimination
+956,2,r,0.268,o2,pd,text,NA,NA,NA,2,2,NA,Anger,Personal discrimination
+956,2,r,-0.023,oa,ca,text,NA,NA,NA,2,2,NA,Outgroup attitudes,Collective action
+956,2,r,-0.08,oa,ca,text,NA,NA,NA,1,2,NA,Outgroup attitudes,Collective action
+956,2,r,-0.239,oa,gd,text,NA,NA,NA,2,2,NA,Outgroup attitudes,Group discrimination
+956,2,r,-0.206,oa,gd,text,NA,NA,NA,1,2,NA,Outgroup attitudes,Group discrimination
+956,2,r,-0.039,oa,gi,text,NA,NA,NA,2,2,NA,Outgroup attitudes,Group identificaiton
+956,2,r,-0.063,oa,gi,text,NA,NA,NA,1,2,NA,Outgroup attitudes,Group identificaiton
+956,2,r,-0.412,oa,nc,text,NA,NA,NA,2,2,NA,Outgroup attitudes,Negative contact
+956,2,r,-0.262,oa,nc,text,NA,NA,NA,1,2,NA,Outgroup attitudes,Negative contact
+956,2,r,-0.06,oa,o1,text,NA,NA,NA,2,2,NA,Outgroup attitudes,Group Identificaiton: Solidarity
+956,2,r,-0.056,oa,o1,text,NA,NA,NA,1,2,NA,Outgroup attitudes,Group Identificaiton: Solidarity
+956,2,r,-0.148,oa,o2,text,NA,NA,NA,2,2,NA,Outgroup attitudes,Anger
+956,2,r,-0.17,oa,o2,text,NA,NA,NA,1,2,NA,Outgroup attitudes,Anger
+956,2,r,1,oa,oa,text,NA,NA,NA,2,2,NA,Outgroup attitudes,Outgroup attitudes
+956,2,r,0.664,oa,oa,text,NA,NA,NA,1,2,NA,Outgroup attitudes,Outgroup attitudes
+956,2,r,1,oa,oa,text,NA,NA,NA,1,1,NA,Outgroup attitudes,Outgroup attitudes
+956,2,r,0.502,oa,pc,text,NA,NA,NA,2,2,NA,Outgroup attitudes,Contact quality / Positive contact
+956,2,r,0.364,oa,pc,text,NA,NA,NA,1,2,NA,Outgroup attitudes,Contact quality / Positive contact
+956,2,r,-0.197,oa,pd,text,NA,NA,NA,2,2,NA,Outgroup attitudes,Personal discrimination
+956,2,r,-0.236,oa,pd,text,NA,NA,NA,1,2,NA,Outgroup attitudes,Personal discrimination
+956,2,r,0.007,pc,ca,text,NA,NA,NA,1,1,NA,Contact quality / Positive contact,Collective action
+956,2,r,0.036,pc,ca,text,NA,NA,NA,1,2,NA,Contact quality / Positive contact,Collective action
+956,2,r,-0.149,pc,gd,text,NA,NA,NA,1,1,NA,Contact quality / Positive contact,Group discrimination
+956,2,r,-0.169,pc,gd,text,NA,NA,NA,1,2,NA,Contact quality / Positive contact,Group discrimination
+956,2,r,-0.073,pc,gi,text,NA,NA,NA,1,1,NA,Contact quality / Positive contact,Group identificaiton
+956,2,r,0.038,pc,gi,text,NA,NA,NA,1,2,NA,Contact quality / Positive contact,Group identificaiton
+956,2,r,-0.186,pc,nc,text,NA,NA,NA,1,1,NA,Contact quality / Positive contact,Negative contact
+956,2,r,-0.166,pc,nc,text,NA,NA,NA,1,2,NA,Contact quality / Positive contact,Negative contact
+956,2,r,0.016,pc,o1,text,NA,NA,NA,1,1,NA,Contact quality / Positive contact,Group Identificaiton: Solidarity
+956,2,r,0.025,pc,o1,text,NA,NA,NA,1,2,NA,Contact quality / Positive contact,Group Identificaiton: Solidarity
+956,2,r,-0.07,pc,o2,text,NA,NA,NA,1,1,NA,Contact quality / Positive contact,Anger
+956,2,r,-0.132,pc,o2,text,NA,NA,NA,1,2,NA,Contact quality / Positive contact,Anger
+956,2,r,0.409,pc,oa,text,NA,NA,NA,1,2,NA,Contact quality / Positive contact,Outgroup attitudes
+956,2,r,0.464,pc,oa,text,NA,NA,NA,1,1,NA,Contact quality / Positive contact,Outgroup attitudes
+956,2,r,1,pc,pc,text,NA,NA,NA,1,1,NA,Contact quality / Positive contact,Contact quality / Positive contact
+956,2,r,0.748,pc,pc,text,NA,NA,NA,1,2,NA,Contact quality / Positive contact,Contact quality / Positive contact
+956,2,r,1,pc,pc,text,NA,NA,NA,2,2,NA,Contact quality / Positive contact,Contact quality / Positive contact
+956,2,r,-0.229,pc,pd,text,NA,NA,NA,1,1,NA,Contact quality / Positive contact,Personal discrimination
+956,2,r,-0.119,pc,pd,text,NA,NA,NA,1,2,NA,Contact quality / Positive contact,Personal discrimination
+956,2,r,0.3,pd,ca,text,NA,NA,NA,1,1,NA,Personal discrimination,Collective action
+956,2,r,0.2,pd,ca,text,NA,NA,NA,1,2,NA,Personal discrimination,Collective action
+956,2,r,0.326,pd,gd,text,NA,NA,NA,1,1,NA,Personal discrimination,Group discrimination
+956,2,r,0.192,pd,gd,text,NA,NA,NA,1,2,NA,Personal discrimination,Group discrimination
+956,2,r,0.268,pd,gi,text,NA,NA,NA,1,2,NA,Personal discrimination,Group identificaiton
+956,2,r,0.32,pd,gi,text,NA,NA,NA,2,2,NA,Personal discrimination,Group identificaiton
+956,2,r,0.173,pd,nc,text,NA,NA,NA,1,2,NA,Personal discrimination,Negative contact
+956,2,r,0.256,pd,nc,text,NA,NA,NA,2,2,NA,Personal discrimination,Negative contact
+956,2,r,0.351,pd,o1,text,NA,NA,NA,1,2,NA,Personal discrimination,Group Identificaiton: Solidarity
+956,2,r,0.404,pd,o1,text,NA,NA,NA,2,2,NA,Personal discrimination,Group Identificaiton: Solidarity
+956,2,r,0.329,pd,o2,text,NA,NA,NA,1,1,NA,Personal discrimination,Anger
+956,2,r,0.276,pd,o2,text,NA,NA,NA,1,2,NA,Personal discrimination,Anger
+956,2,r,-0.25,pd,oa,text,NA,NA,NA,1,2,NA,Personal discrimination,Outgroup attitudes
+956,2,r,-0.302,pd,oa,text,NA,NA,NA,1,1,NA,Personal discrimination,Outgroup attitudes
+956,2,r,-0.248,pd,pc,text,NA,NA,NA,1,2,NA,Personal discrimination,Contact quality / Positive contact
+956,2,r,-0.134,pd,pc,text,NA,NA,NA,2,2,NA,Personal discrimination,Contact quality / Positive contact
+956,2,r,1,pd,pd,text,NA,NA,NA,1,1,NA,Personal discrimination,Personal discrimination
+956,2,r,0.819,pd,pd,text,NA,NA,NA,1,2,NA,Personal discrimination,Personal discrimination
+956,2,r,1,pd,pd,text,NA,NA,NA,2,2,NA,Personal discrimination,Personal discrimination
+1020,1,r,1,ic,ic,text,NA,NA,NA,NA,NA,NA,Intergroup contact (other),Intergroup contact (other)
+1020,1,r,0.39,ic,in,text,NA,NA,NA,NA,NA,NA,Intergroup contact (other),Ingroup contact
+1020,1,r,-0.75,ic,pd,text,NA,NA,NA,NA,NA,NA,Intergroup contact (other),Personal discrimination
+1020,1,r,0.39,in,ic,text,NA,NA,NA,NA,NA,NA,Ingroup contact,Intergroup contact (other)
+1020,1,r,1,in,in,text,NA,NA,NA,NA,NA,NA,Ingroup contact,Ingroup contact
+1020,1,r,-0.15,in,pd,text,NA,NA,NA,NA,NA,NA,Ingroup contact,Personal discrimination
+1020,1,r,-0.75,pd,ic,text,NA,NA,NA,NA,NA,NA,Personal discrimination,Intergroup contact (other)
+1020,1,r,-0.15,pd,in,text,NA,NA,NA,NA,NA,NA,Personal discrimination,Ingroup contact
+1020,1,r,1,pd,pd,text,NA,NA,NA,NA,NA,NA,Personal discrimination,Personal discrimination
+1020,2,r,1,ic,ic,text,NA,NA,NA,NA,NA,NA,Intergroup contact (other),Intergroup contact (other)
+1020,2,r,-0.34,ic,in,text,NA,NA,NA,NA,NA,NA,Intergroup contact (other),Ingroup contact
+1020,2,r,-0.03,ic,pd,text,NA,NA,NA,NA,NA,NA,Intergroup contact (other),Personal discrimination
+1020,2,r,-0.34,in,ic,text,NA,NA,NA,NA,NA,NA,Ingroup contact,Intergroup contact (other)
+1020,2,r,1,in,in,text,NA,NA,NA,NA,NA,NA,Ingroup contact,Ingroup contact
+1020,2,r,-0.21,in,pd,text,NA,NA,NA,NA,NA,NA,Ingroup contact,Personal discrimination
+1020,2,r,-0.03,pd,ic,text,NA,NA,NA,NA,NA,NA,Personal discrimination,Intergroup contact (other)
+1020,2,r,-0.21,pd,in,text,NA,NA,NA,NA,NA,NA,Personal discrimination,Ingroup contact
+1020,2,r,1,pd,pd,text,NA,NA,NA,NA,NA,NA,Personal discrimination,Personal discrimination
+1042,1,b,0.14,cq,gd,text,NA,NA,NA,NA,NA,NA,Contact quantity,Group discrimination
+1042,1,b,0.12,cq,ps,text,NA,NA,NA,NA,NA,NA,Contact quantity,Policy support
+1042,1,b,0.16,in,gd,text,NA,NA,NA,NA,NA,NA,Ingroup contact,Group discrimination
+1042,1,b,0.19,in,ps,text,NA,NA,NA,NA,NA,NA,Ingroup contact,Policy support
+1042,2,b,-0.03,cq,gd,text,NA,NA,NA,NA,NA,NA,Contact quantity,Group discrimination
+1042,2,b,0.05,cq,ps,text,NA,NA,NA,NA,NA,NA,Contact quantity,Policy support
+1042,2,b,0.09,in,gd,text,NA,NA,NA,NA,NA,NA,Ingroup contact,Group discrimination
+1042,2,b,0.11,in,ps,text,NA,NA,NA,NA,NA,NA,Ingroup contact,Policy support
+1045,1,r,1,cf,cf,text,NA,NA,NA,NA,NA,NA,Cross-group friendship,Cross-group friendship
+1045,1,r,0.16,cf,pd,text,NA,NA,NA,NA,NA,NA,Cross-group friendship,Peer discrimination
+1045,1,r,0.05,cf,pd,text,NA,NA,NA,NA,NA,NA,Cross-group friendship,Educator discrimination
+1045,1,r,0.16,pd,cf,text,NA,NA,NA,NA,NA,NA,Peer discrimination,Cross-group friendship
+1045,1,r,1,pd,pd,text,NA,NA,NA,NA,NA,NA,Peer discrimination,Peer discrimination
+1045,1,r,0.2,pd,pd,text,NA,NA,NA,NA,NA,NA,Peer discrimination,Educator discrimination
+1045,1,r,0.05,pd,cf,text,NA,NA,NA,NA,NA,NA,Educator discrimination,Cross-group friendship
+1045,1,r,0.2,pd,pd,text,NA,NA,NA,NA,NA,NA,Educator discrimination,Peer discrimination
+1045,1,r,1,pd,pd,text,NA,NA,NA,NA,NA,NA,Educator discrimination,Educator discrimination
+1114,1,r,1,ca,ca,text,NA,NA,NA,NA,NA,NA,Collective action,Collective action
+1114,1,r,-0.18,ca,cq,text,NA,NA,NA,NA,NA,NA,Collective action,Contact quantity
+1114,1,r,-0.24,ca,ic,text,NA,NA,NA,NA,NA,NA,Collective action,Intergroup contact (other)
+1114,1,r,0.33,ca,ca,text,NA,NA,NA,NA,NA,NA,Collective action,Violent CA
+1114,1,r,0.23,ca,oa,text,NA,NA,NA,NA,NA,NA,Collective action,Outgroup attitudes
+1114,1,r,-0.28,ca,pc,text,NA,NA,NA,NA,NA,NA,Collective action,Contact quality / Positive contact
+1114,1,r,-0.18,cq,ca,text,NA,NA,NA,NA,NA,NA,Contact quantity,Collective action
+1114,1,r,1,cq,cq,text,NA,NA,NA,NA,NA,NA,Contact quantity,Contact quantity
+1114,1,r,0.64,cq,ic,text,NA,NA,NA,NA,NA,NA,Contact quantity,Intergroup contact (other)
+1114,1,r,-0.16,cq,ca,text,NA,NA,NA,NA,NA,NA,Contact quantity,Violent CA
+1114,1,r,-0.07,cq,oa,text,NA,NA,NA,NA,NA,NA,Contact quantity,Outgroup attitudes
+1114,1,r,0.57,cq,pc,text,NA,NA,NA,NA,NA,NA,Contact quantity,Contact quality / Positive contact
+1114,1,r,-0.24,ic,ca,text,NA,NA,NA,NA,NA,NA,Intergroup contact (other),Collective action
+1114,1,r,0.64,ic,cq,text,NA,NA,NA,NA,NA,NA,Intergroup contact (other),Contact quantity
+1114,1,r,1,ic,ic,text,NA,NA,NA,NA,NA,NA,Intergroup contact (other),Intergroup contact (other)
+1114,1,r,-0.21,ic,ca,text,NA,NA,NA,NA,NA,NA,Intergroup contact (other),Violent CA
+1114,1,r,0.11,ic,oa,text,NA,NA,NA,NA,NA,NA,Intergroup contact (other),Outgroup attitudes
+1114,1,r,0.96,ic,pc,text,NA,NA,NA,NA,NA,NA,Intergroup contact (other),Contact quality / Positive contact
+1114,1,r,0.33,ca,ca,text,NA,NA,NA,NA,NA,NA,Violent CA,Collective action
+1114,1,r,-0.16,ca,cq,text,NA,NA,NA,NA,NA,NA,Violent CA,Contact quantity
+1114,1,r,-0.21,ca,ic,text,NA,NA,NA,NA,NA,NA,Violent CA,Intergroup contact (other)
+1114,1,r,1,ca,ca,text,NA,NA,NA,NA,NA,NA,Violent CA,Violent CA
+1114,1,r,0.03,ca,oa,text,NA,NA,NA,NA,NA,NA,Violent CA,Outgroup attitudes
+1114,1,r,-0.27,ca,pc,text,NA,NA,NA,NA,NA,NA,Violent CA,Contact quality / Positive contact
+1114,1,r,0.23,oa,ca,text,NA,NA,NA,NA,NA,NA,Outgroup attitudes,Collective action
+1114,1,r,-0.07,oa,cq,text,NA,NA,NA,NA,NA,NA,Outgroup attitudes,Contact quantity
+1114,1,r,0.11,oa,ic,text,NA,NA,NA,NA,NA,NA,Outgroup attitudes,Intergroup contact (other)
+1114,1,r,0.03,oa,ca,text,NA,NA,NA,NA,NA,NA,Outgroup attitudes,Violent CA
+1114,1,r,1,oa,oa,text,NA,NA,NA,NA,NA,NA,Outgroup attitudes,Outgroup attitudes
+1114,1,r,0.2,oa,pc,text,NA,NA,NA,NA,NA,NA,Outgroup attitudes,Contact quality / Positive contact
+1114,1,r,-0.28,pc,ca,text,NA,NA,NA,NA,NA,NA,Contact quality / Positive contact,Collective action
+1114,1,r,0.57,pc,cq,text,NA,NA,NA,NA,NA,NA,Contact quality / Positive contact,Contact quantity
+1114,1,r,0.96,pc,ic,text,NA,NA,NA,NA,NA,NA,Contact quality / Positive contact,Intergroup contact (other)
+1114,1,r,-0.27,pc,ca,text,NA,NA,NA,NA,NA,NA,Contact quality / Positive contact,Violent CA
+1114,1,r,0.2,pc,oa,text,NA,NA,NA,NA,NA,NA,Contact quality / Positive contact,Outgroup attitudes
+1114,1,r,1,pc,pc,text,NA,NA,NA,NA,NA,NA,Contact quality / Positive contact,Contact quality / Positive contact
+1163,1,r,1,cq,cq,text,NA,NA,NA,NA,NA,NA,Contact quantity,Contact quantity
+1163,1,r,-0.02,cq,gi,text,NA,NA,NA,NA,NA,NA,Contact quantity,Group identificaiton
+1163,1,r,0.2,cq,oa,text,outcome reversed to reflect more favourable attitudes,NA,NA,NA,NA,NA,Contact quantity,Outgroup attitudes
+1163,1,r,0.04,cq,pc,text,NA,NA,NA,NA,NA,NA,Contact quantity,Contact quality / Positive contact
+1163,1,r,0.12,cq,pd,text,NA,NA,NA,NA,NA,NA,Contact quantity,Personal discrimination
+1163,1,r,-0.02,gi,cq,text,NA,NA,NA,NA,NA,NA,Group identificaiton,Contact quantity
+1163,1,r,1,gi,gi,text,NA,NA,NA,NA,NA,NA,Group identificaiton,Group identificaiton
+1163,1,r,-0.1,gi,oa,text,outcome reversed to reflect more favourable attitudes,NA,NA,NA,NA,NA,Group identificaiton,Outgroup attitudes
+1163,1,r,-0.03,gi,pc,text,NA,NA,NA,NA,NA,NA,Group identificaiton,Contact quality / Positive contact
+1163,1,r,-0.01,gi,pd,text,NA,NA,NA,NA,NA,NA,Group identificaiton,Personal discrimination
+1163,1,r,0.2,oa,cq,text,outcome reversed to reflect more favourable attitudes,NA,NA,NA,NA,NA,Outgroup attitudes,Contact quantity
+1163,1,r,-0.1,oa,gi,text,outcome reversed to reflect more favourable attitudes,NA,NA,NA,NA,NA,Outgroup attitudes,Group identificaiton
+1163,1,r,1,oa,oa,text,outcome reversed to reflect more favourable attitudes,NA,NA,NA,NA,NA,Outgroup attitudes,Outgroup attitudes
+1163,1,r,0.2,oa,pc,text,outcome reversed to reflect more favourable attitudes,NA,NA,NA,NA,NA,Outgroup attitudes,Contact quality / Positive contact
+1163,1,r,0.51,oa,pd,text,outcome reversed to reflect more favourable attitudes,NA,NA,NA,NA,NA,Outgroup attitudes,Personal discrimination
+1163,1,r,0.04,pc,cq,text,NA,NA,NA,NA,NA,NA,Contact quality / Positive contact,Contact quantity
+1163,1,r,-0.03,pc,gi,text,NA,NA,NA,NA,NA,NA,Contact quality / Positive contact,Group identificaiton
+1163,1,r,0.2,pc,oa,text,outcome reversed to reflect more favourable attitudes,NA,NA,NA,NA,NA,Contact quality / Positive contact,Outgroup attitudes
+1163,1,r,1,pc,pc,text,NA,NA,NA,NA,NA,NA,Contact quality / Positive contact,Contact quality / Positive contact
+1163,1,r,0.44,pc,pd,text,NA,NA,NA,NA,NA,NA,Contact quality / Positive contact,Personal discrimination
+1163,1,r,0.12,pd,cq,text,NA,NA,NA,NA,NA,NA,Personal discrimination,Contact quantity
+1163,1,r,-0.01,pd,gi,text,NA,NA,NA,NA,NA,NA,Personal discrimination,Group identificaiton
+1163,1,r,0.51,pd,oa,text,outcome reversed to reflect more favourable attitudes,NA,NA,NA,NA,NA,Personal discrimination,Outgroup attitudes
+1163,1,r,0.44,pd,pc,text,NA,NA,NA,NA,NA,NA,Personal discrimination,Contact quality / Positive contact
+1163,1,r,1,pd,pd,text,NA,NA,NA,NA,NA,NA,Personal discrimination,Personal discrimination
+1221,1,r,1,cf,cf,data,NA,NA,NA,NA,NA,NA,Cross-group friendship,Cross-group friendship
+1221,1,r,-0.00425,cf,pi,data,outcome reversed to reflect more perceived prejudice,NA,NA,NA,NA,NA,Cross-group friendship,Perceived injustice (other)
+1221,1,r,-0.00425,pi,cf,data,outcome reversed to reflect more perceived prejudice,NA,NA,NA,NA,NA,Perceived injustice (other),Cross-group friendship
+1221,1,r,1,pi,pi,data,outcome reversed to reflect more perceived prejudice,NA,NA,NA,NA,NA,Perceived injustice (other),Perceived injustice (other)
+1221,2,r,1,cf,cf,data,NA,NA,NA,NA,NA,NA,Cross-group friendship,Cross-group friendship
+1221,2,r,0.0728,cf,pi,data,outcome reversed to reflect more perceived prejudice,NA,NA,NA,NA,NA,Cross-group friendship,Perceived injustice (other)
+1221,2,r,0.0728,pi,cf,data,outcome reversed to reflect more perceived prejudice,NA,NA,NA,NA,NA,Perceived injustice (other),Cross-group friendship
+1221,2,r,1,pi,pi,data,outcome reversed to reflect more perceived prejudice,NA,NA,NA,NA,NA,Perceived injustice (other),Perceived injustice (other)
+1221,3,r,1,cf,cf,data,NA,NA,NA,NA,NA,NA,Cross-group friendship,Cross-group friendship
+1221,3,r,0.0823,cf,pi,data,outcome reversed to reflect more perceived prejudice,NA,NA,NA,NA,NA,Cross-group friendship,Perceived injustice (other)
+1221,3,r,0.0823,pi,cf,data,outcome reversed to reflect more perceived prejudice,NA,NA,NA,NA,NA,Perceived injustice (other),Cross-group friendship
+1221,3,r,1,pi,pi,data,outcome reversed to reflect more perceived prejudice,NA,NA,NA,NA,NA,Perceived injustice (other),Perceived injustice (other)
+1221,4,r,1,cf,cf,data,NA,NA,NA,NA,NA,NA,Cross-group friendship,Cross-group friendship
+1221,4,r,-0.0718,cf,pi,data,outcome reversed to reflect more perceived prejudice,NA,NA,NA,NA,NA,Cross-group friendship,Perceived injustice (other)
+1221,4,r,-0.0718,pi,cf,data,outcome reversed to reflect more perceived prejudice,NA,NA,NA,NA,NA,Perceived injustice (other),Cross-group friendship
+1221,4,r,1,pi,pi,data,outcome reversed to reflect more perceived prejudice,NA,NA,NA,NA,NA,Perceived injustice (other),Perceived injustice (other)
+1248,1,r,1,ca,ca,text,NA,NA,NA,NA,NA,NA,Collective action,Collective action
+1248,1,r,-0.13,ca,cq,text,NA,NA,NA,NA,NA,NA,Collective action,Contact quantity
+1248,1,r,0.5,ca,gi,text,NA,NA,NA,NA,NA,NA,Collective action,Group identificaiton
+1248,1,r,-0.1,ca,oa,text,NA,NA,NA,NA,NA,NA,Collective action,Outgroup attitudes
+1248,1,r,0.5,ca,rd,text,NA,NA,NA,NA,NA,NA,Collective action,Relative deprivation
+1248,1,r,-0.13,cq,ca,text,NA,NA,NA,NA,NA,NA,Contact quantity,Collective action
+1248,1,r,1,cq,cq,text,NA,NA,NA,NA,NA,NA,Contact quantity,Contact quantity
+1248,1,r,-0.12,cq,gi,text,NA,NA,NA,NA,NA,NA,Contact quantity,Group identificaiton
+1248,1,r,0.34,cq,oa,text,NA,NA,NA,NA,NA,NA,Contact quantity,Outgroup attitudes
+1248,1,r,-0.31,cq,rd,text,NA,NA,NA,NA,NA,NA,Contact quantity,Relative deprivation
+1248,1,r,0.5,gi,ca,text,NA,NA,NA,NA,NA,NA,Group identificaiton,Collective action
+1248,1,r,-0.12,gi,cq,text,NA,NA,NA,NA,NA,NA,Group identificaiton,Contact quantity
+1248,1,r,1,gi,gi,text,NA,NA,NA,NA,NA,NA,Group identificaiton,Group identificaiton
+1248,1,r,-0.17,gi,oa,text,NA,NA,NA,NA,NA,NA,Group identificaiton,Outgroup attitudes
+1248,1,r,0.58,gi,rd,text,NA,NA,NA,NA,NA,NA,Group identificaiton,Relative deprivation
+1248,1,r,-0.1,oa,ca,text,NA,NA,NA,NA,NA,NA,Outgroup attitudes,Collective action
+1248,1,r,0.34,oa,cq,text,NA,NA,NA,NA,NA,NA,Outgroup attitudes,Contact quantity
+1248,1,r,-0.17,oa,gi,text,NA,NA,NA,NA,NA,NA,Outgroup attitudes,Group identificaiton
+1248,1,r,1,oa,oa,text,NA,NA,NA,NA,NA,NA,Outgroup attitudes,Outgroup attitudes
+1248,1,r,-0.32,oa,rd,text,NA,NA,NA,NA,NA,NA,Outgroup attitudes,Relative deprivation
+1248,1,r,0.5,rd,ca,text,NA,NA,NA,NA,NA,NA,Relative deprivation,Collective action
+1248,1,r,-0.31,rd,cq,text,NA,NA,NA,NA,NA,NA,Relative deprivation,Contact quantity
+1248,1,r,0.58,rd,gi,text,NA,NA,NA,NA,NA,NA,Relative deprivation,Group identificaiton
+1248,1,r,-0.32,rd,oa,text,NA,NA,NA,NA,NA,NA,Relative deprivation,Outgroup attitudes
+1248,1,r,1,rd,rd,text,NA,NA,NA,NA,NA,NA,Relative deprivation,Relative deprivation
+1368,1,r,1,gi,gi,text,NA,NA,NA,NA,NA,NA,Group identificaiton,Group identificaiton
+1368,1,r,0.32,gi,cf,text,NA,NA,NA,NA,NA,NA,Group identificaiton,Opportunity for contact
+1368,1,r,0.63,gi,pd,text,NA,NA,NA,NA,NA,NA,Group identificaiton,Personal discrimination
+1368,1,r,0.32,cf,gi,text,NA,NA,NA,NA,NA,NA,Opportunity for contact,Group identificaiton
+1368,1,r,1,cf,cf,text,NA,NA,NA,NA,NA,NA,Opportunity for contact,Opportunity for contact
+1368,1,r,0.16,cf,pd,text,NA,NA,NA,NA,NA,NA,Opportunity for contact,Personal discrimination
+1368,1,r,0.63,pd,gi,text,NA,NA,NA,NA,NA,NA,Personal discrimination,Group identificaiton
+1368,1,r,0.16,pd,cf,text,NA,NA,NA,NA,NA,NA,Personal discrimination,Opportunity for contact
+1368,1,r,1,pd,pd,text,NA,NA,NA,NA,NA,NA,Personal discrimination,Personal discrimination
+1376,1,r,1,ca,ca,text,NA,NA,NA,NA,NA,NA,Collective action,Collective action
+1376,1,r,-0.302,ca,pi,text,NA,NA,NA,NA,NA,NA,Collective action,Perceived injustice (other)
+1376,1,r,-0.302,pi,ca,text,NA,NA,NA,NA,NA,NA,Perceived injustice (other),Collective action
+1376,1,r,1,pi,pi,text,NA,NA,NA,NA,NA,NA,Perceived injustice (other),Perceived injustice (other)
+1386,1,r,1,cq,cq,text,education - compensatory education,NA,NA,NA,NA,NA,Contact quantity,Contact quantity
+1386,1,r,1,cq,cq,text,education - educational quotas,NA,NA,NA,NA,NA,Contact quantity,Contact quantity
+1386,1,r,1,cq,cq,text,land - land compensation,NA,NA,NA,NA,NA,Contact quantity,Contact quantity
+1386,1,r,1,cq,cq,text,land - land appropriation,NA,NA,NA,NA,NA,Contact quantity,Contact quantity
+1386,1,r,1,cq,cq,text,employment - job skills trainining,NA,NA,NA,NA,NA,Contact quantity,Contact quantity
+1386,1,r,1,cq,cq,text,employment - affirmative action,NA,NA,NA,NA,NA,Contact quantity,Contact quantity
+1386,1,r,-0.03,cq,ps,text,education - compensatory education,NA,NA,NA,NA,NA,Contact quantity,Policy support
+1386,1,r,-0.05,cq,ps,text,education - educational quotas,NA,NA,NA,NA,NA,Contact quantity,Policy support
+1386,1,r,-0.09,cq,ps,text,land - land compensation,NA,NA,NA,NA,NA,Contact quantity,Policy support
+1386,1,r,-0.22,cq,ps,text,land - land appropriation,NA,NA,NA,NA,NA,Contact quantity,Policy support
+1386,1,r,-0.06,cq,ps,text,employment - job skills trainining,NA,NA,NA,NA,NA,Contact quantity,Policy support
+1386,1,r,-0.09,cq,ps,text,employment - affirmative action,NA,NA,NA,NA,NA,Contact quantity,Policy support
+1386,1,r,-0.03,ps,cq,text,education - compensatory education,NA,NA,NA,NA,NA,Policy support,Contact quantity
+1386,1,r,-0.05,ps,cq,text,education - educational quotas,NA,NA,NA,NA,NA,Policy support,Contact quantity
+1386,1,r,-0.09,ps,cq,text,land - land compensation,NA,NA,NA,NA,NA,Policy support,Contact quantity
+1386,1,r,-0.22,ps,cq,text,land - land appropriation,NA,NA,NA,NA,NA,Policy support,Contact quantity
+1386,1,r,-0.06,ps,cq,text,employment - job skills trainining,NA,NA,NA,NA,NA,Policy support,Contact quantity
+1386,1,r,-0.09,ps,cq,text,employment - affirmative action,NA,NA,NA,NA,NA,Policy support,Contact quantity
+1386,1,r,1,ps,ps,text,education - compensatory education,NA,NA,NA,NA,NA,Policy support,Policy support
+1386,1,r,1,ps,ps,text,education - educational quotas,NA,NA,NA,NA,NA,Policy support,Policy support
+1386,1,r,1,ps,ps,text,land - land compensation,NA,NA,NA,NA,NA,Policy support,Policy support
+1386,1,r,1,ps,ps,text,land - land appropriation,NA,NA,NA,NA,NA,Policy support,Policy support
+1386,1,r,1,ps,ps,text,employment - job skills trainining,NA,NA,NA,NA,NA,Policy support,Policy support
+1386,1,r,1,ps,ps,text,employment - affirmative action,NA,NA,NA,NA,NA,Policy support,Policy support
+1395,1,r,1,cq,cq,text,NA,NA,NA,NA,NA,NA,Contact quantity,Contact quantity
+1395,1,r,-0.09,cq,gd,text,NA,NA,NA,NA,NA,NA,Contact quantity,Group discrimination
+1395,1,r,-0.09,gd,cq,text,NA,NA,NA,NA,NA,NA,Group discrimination,Contact quantity
+1395,1,r,1,gd,gd,text,NA,NA,NA,NA,NA,NA,Group discrimination,Group discrimination
+1407,1,r,1,cq,cq,text,NA,NA,NA,NA,NA,NA,Contact quantity,Contact quantity
+1407,1,r,1,cq,cq,text,day-to-day discrimination,NA,NA,NA,NA,NA,Contact quantity,Contact quantity
+1407,1,r,1,cq,cq,text,major lifetime discrimination,NA,NA,NA,NA,NA,Contact quantity,Contact quantity
+1407,1,r,0.087,cq,pd,text,day-to-day discrimination,NA,NA,NA,NA,NA,Contact quantity,Personal discrimination
+1407,1,r,0.111,cq,pd,text,major lifetime discrimination,NA,NA,NA,NA,NA,Contact quantity,Personal discrimination
+1407,1,r,0.087,pd,cq,text,day-to-day discrimination,NA,NA,NA,NA,NA,Personal discrimination,Contact quantity
+1407,1,r,0.111,pd,cq,text,major lifetime discrimination,NA,NA,NA,NA,NA,Personal discrimination,Contact quantity
+1407,1,r,1,pd,pd,text,NA,NA,NA,NA,NA,NA,Personal discrimination,Personal discrimination
+1407,1,r,1,pd,pd,text,day-to-day discrimination,NA,NA,NA,NA,NA,Personal discrimination,Personal discrimination
+1407,1,r,1,pd,pd,text,major lifetime discrimination,NA,NA,NA,NA,NA,Personal discrimination,Personal discrimination
+1407,2,r,1,cq,cq,text,NA,NA,NA,NA,NA,NA,Contact quantity,Contact quantity
+1407,2,r,1,cq,cq,text,day-to-day discrimination,NA,NA,NA,NA,NA,Contact quantity,Contact quantity
+1407,2,r,1,cq,cq,text,major lifetime discrimination,NA,NA,NA,NA,NA,Contact quantity,Contact quantity
+1407,2,r,-0.007,cq,pd,text,day-to-day discrimination,NA,NA,NA,NA,NA,Contact quantity,Personal discrimination
+1407,2,r,0.207,cq,pd,text,major lifetime discrimination,NA,NA,NA,NA,NA,Contact quantity,Personal discrimination
+1407,2,r,-0.007,pd,cq,text,day-to-day discrimination,NA,NA,NA,NA,NA,Personal discrimination,Contact quantity
+1407,2,r,0.207,pd,cq,text,major lifetime discrimination,NA,NA,NA,NA,NA,Personal discrimination,Contact quantity
+1407,2,r,1,pd,pd,text,NA,NA,NA,NA,NA,NA,Personal discrimination,Personal discrimination
+1407,2,r,1,pd,pd,text,day-to-day discrimination,NA,NA,NA,NA,NA,Personal discrimination,Personal discrimination
+1407,2,r,1,pd,pd,text,major lifetime discrimination,NA,NA,NA,NA,NA,Personal discrimination,Personal discrimination
+1411,1,r,1,cq,cq,author,NA,NA,NA,NA,NA,NA,Contact quantity,Contact quantity
+1411,1,r,-0.0682,cq,gd,author,NA,NA,NA,NA,NA,NA,Contact quantity,Group discrimination
+1411,1,r,0.3144,cq,pc,author,NA,NA,NA,NA,NA,NA,Contact quantity,Contact quality / Positive contact
+1411,1,r,-0.0682,gd,cq,author,NA,NA,NA,NA,NA,NA,Group discrimination,Contact quantity
+1411,1,r,1,gd,gd,author,NA,NA,NA,NA,NA,NA,Group discrimination,Group discrimination
+1411,1,r,-0.1392,gd,pc,author,NA,NA,NA,NA,NA,NA,Group discrimination,Contact quality / Positive contact
+1411,1,r,0.3144,pc,cq,author,NA,NA,NA,NA,NA,NA,Contact quality / Positive contact,Contact quantity
+1411,1,r,-0.1392,pc,gd,author,NA,NA,NA,NA,NA,NA,Contact quality / Positive contact,Group discrimination
+1411,1,r,1,pc,pc,author,NA,NA,NA,NA,NA,NA,Contact quality / Positive contact,Contact quality / Positive contact
+1494,3,r,1,cf,cf,text,NA,NA,NA,NA,NA,NA,Cross-group friendship,Cross-group friendship
+1494,3,r,0.09,cf,cq,text,NA,NA,NA,NA,NA,NA,Cross-group friendship,Workplace Contact
+1494,3,r,0.172,cf,cq,text,NA,NA,NA,NA,NA,NA,Cross-group friendship,Neighbourhood Contact
+1494,3,r,0.15,cf,pd,text,NA,NA,NA,NA,NA,NA,Cross-group friendship,Major Discrimination
+1494,3,r,-0.106,cf,pd,text,NA,NA,NA,NA,NA,NA,Cross-group friendship,Personal discrimination
+1494,3,r,0.09,cq,cf,text,NA,NA,NA,NA,NA,NA,Workplace Contact,Cross-group friendship
+1494,3,r,1,cq,cq,text,NA,NA,NA,NA,NA,NA,Workplace Contact,Workplace Contact
+1494,3,r,0.167,cq,cq,text,NA,NA,NA,NA,NA,NA,Workplace Contact,Neighbourhood Contact
+1494,3,r,0.138,cq,pd,text,NA,NA,NA,NA,NA,NA,Workplace Contact,Major Discrimination
+1494,3,r,0.151,cq,pd,text,NA,NA,NA,NA,NA,NA,Workplace Contact,Personal discrimination
+1494,3,r,0.172,cq,cf,text,NA,NA,NA,NA,NA,NA,Neighbourhood Contact,Cross-group friendship
+1494,3,r,0.167,cq,cq,text,NA,NA,NA,NA,NA,NA,Neighbourhood Contact,Workplace Contact
+1494,3,r,1,cq,cq,text,NA,NA,NA,NA,NA,NA,Neighbourhood Contact,Neighbourhood Contact
+1494,3,r,0.047,cq,pd,text,NA,NA,NA,NA,NA,NA,Neighbourhood Contact,Major Discrimination
+1494,3,r,-0.036,cq,pd,text,NA,NA,NA,NA,NA,NA,Neighbourhood Contact,Personal discrimination
+1494,3,r,0.15,pd,cf,text,NA,NA,NA,NA,NA,NA,Major Discrimination,Cross-group friendship
+1494,3,r,0.138,pd,cq,text,NA,NA,NA,NA,NA,NA,Major Discrimination,Workplace Contact
+1494,3,r,0.047,pd,cq,text,NA,NA,NA,NA,NA,NA,Major Discrimination,Neighbourhood Contact
+1494,3,r,1,pd,pd,text,NA,NA,NA,NA,NA,NA,Major Discrimination,Major Discrimination
+1494,3,r,0.102,pd,pd,text,NA,NA,NA,NA,NA,NA,Major Discrimination,Personal discrimination
+1494,3,r,-0.106,pd,cf,text,NA,NA,NA,NA,NA,NA,Personal discrimination,Cross-group friendship
+1494,3,r,0.151,pd,cq,text,NA,NA,NA,NA,NA,NA,Personal discrimination,Workplace Contact
+1494,3,r,-0.036,pd,cq,text,NA,NA,NA,NA,NA,NA,Personal discrimination,Neighbourhood Contact
+1494,3,r,0.102,pd,pd,text,NA,NA,NA,NA,NA,NA,Personal discrimination,Major Discrimination
+1494,3,r,1,pd,pd,text,NA,NA,NA,NA,NA,NA,Personal discrimination,Personal discrimination
+1494,4,r,1,cf,cf,text,NA,NA,NA,NA,NA,NA,Cross-group friendship,Cross-group friendship
+1494,4,r,0.15,cf,cq,text,NA,NA,NA,NA,NA,NA,Cross-group friendship,Workplace Contact
+1494,4,r,0.378,cf,cq,text,NA,NA,NA,NA,NA,NA,Cross-group friendship,Neighbourhood Contact
+1494,4,r,0.043,cf,pd,text,NA,NA,NA,NA,NA,NA,Cross-group friendship,Major discrimination
+1494,4,r,-0.029,cf,pd,text,NA,NA,NA,NA,NA,NA,Cross-group friendship,Personal discrimination
+1494,4,r,0.15,cq,cf,text,NA,NA,NA,NA,NA,NA,Workplace Contact,Cross-group friendship
+1494,4,r,1,cq,cq,text,NA,NA,NA,NA,NA,NA,Workplace Contact,Workplace Contact
+1494,4,r,0.207,cq,cq,text,NA,NA,NA,NA,NA,NA,Workplace Contact,Neighbourhood Contact
+1494,4,r,0.206,cq,pd,text,NA,NA,NA,NA,NA,NA,Workplace Contact,Major discrimination
+1494,4,r,0.096,cq,pd,text,NA,NA,NA,NA,NA,NA,Workplace Contact,Personal discrimination
+1494,4,r,0.378,cq,cf,text,NA,NA,NA,NA,NA,NA,Neighbourhood Contact,Cross-group friendship
+1494,4,r,0.207,cq,cq,text,NA,NA,NA,NA,NA,NA,Neighbourhood Contact,Workplace Contact
+1494,4,r,1,cq,cq,text,NA,NA,NA,NA,NA,NA,Neighbourhood Contact,Neighbourhood Contact
+1494,4,r,0.117,cq,pd,text,NA,NA,NA,NA,NA,NA,Neighbourhood Contact,Major discrimination
+1494,4,r,0.018,cq,pd,text,NA,NA,NA,NA,NA,NA,Neighbourhood Contact,Personal discrimination
+1494,4,r,0.043,pd,cf,text,NA,NA,NA,NA,NA,NA,Major discrimination,Cross-group friendship
+1494,4,r,0.206,pd,cq,text,NA,NA,NA,NA,NA,NA,Major discrimination,Workplace Contact
+1494,4,r,0.117,pd,cq,text,NA,NA,NA,NA,NA,NA,Major discrimination,Neighbourhood Contact
+1494,4,r,1,pd,pd,text,NA,NA,NA,NA,NA,NA,Major discrimination,Major discrimination
+1494,4,r,0.17,pd,pd,text,NA,NA,NA,NA,NA,NA,Major discrimination,Personal discrimination
+1494,4,r,-0.029,pd,cf,text,NA,NA,NA,NA,NA,NA,Personal discrimination,Cross-group friendship
+1494,4,r,0.096,pd,cq,text,NA,NA,NA,NA,NA,NA,Personal discrimination,Workplace Contact
+1494,4,r,0.018,pd,cq,text,NA,NA,NA,NA,NA,NA,Personal discrimination,Neighbourhood Contact
+1494,4,r,0.17,pd,pd,text,NA,NA,NA,NA,NA,NA,Personal discrimination,Major discrimination
+1494,4,r,1,pd,pd,text,NA,NA,NA,NA,NA,NA,Personal discrimination,Personal discrimination
+1525,1,r,1,cf,cf,data,ethnic identity - centrality,NA,NA,NA,NA,NA,Cross-group friendship,Cross-group friendship
+1525,1,r,1,cf,cf,data,ethnic identity - regard,NA,NA,NA,NA,NA,Cross-group friendship,Cross-group friendship
+1525,1,r,1,cf,cf,data,NA,NA,NA,NA,NA,NA,Cross-group friendship,Cross-group friendship
+1525,1,r,-0.075,cf,gi,data,ethnic identity - centrality,NA,NA,NA,NA,NA,Cross-group friendship,Group identificaiton
+1525,1,r,0.018,cf,gi,data,ethnic identity - regard,NA,NA,NA,NA,NA,Cross-group friendship,Group identificaiton
+1525,1,r,-0.162,cf,pd,data,NA,NA,NA,NA,NA,NA,Cross-group friendship,Personal discrimination
+1525,1,r,-0.075,gi,cf,data,ethnic identity - centrality,NA,NA,NA,NA,NA,Group identificaiton,Cross-group friendship
+1525,1,r,0.018,gi,cf,data,ethnic identity - regard,NA,NA,NA,NA,NA,Group identificaiton,Cross-group friendship
+1525,1,r,1,gi,gi,data,ethnic identity - centrality,NA,NA,NA,NA,NA,Group identificaiton,Group identificaiton
+1525,1,r,1,gi,gi,data,ethnic identity - regard,NA,NA,NA,NA,NA,Group identificaiton,Group identificaiton
+1525,1,r,NA,gi,pd,data,ethnic identity - centrality,NA,NA,NA,NA,NA,Group identificaiton,Personal discrimination
+1525,1,r,NA,gi,pd,data,ethnic identity - regard,NA,NA,NA,NA,NA,Group identificaiton,Personal discrimination
+1525,1,r,-0.162,pd,cf,data,NA,NA,NA,NA,NA,NA,Personal discrimination,Cross-group friendship
+1525,1,r,NA,pd,gi,data,ethnic identity - centrality,NA,NA,NA,NA,NA,Personal discrimination,Group identificaiton
+1525,1,r,NA,pd,gi,data,ethnic identity - regard,NA,NA,NA,NA,NA,Personal discrimination,Group identificaiton
+1525,1,r,1,pd,pd,data,NA,NA,NA,NA,NA,NA,Personal discrimination,Personal discrimination
+1525,1,r,1,pd,pd,data,ethnic identity - centrality,NA,NA,NA,NA,NA,Personal discrimination,Personal discrimination
+1525,1,r,1,pd,pd,data,ethnic identity - regard,NA,NA,NA,NA,NA,Personal discrimination,Personal discrimination
+1549,1,b,-0.085,cf,ps,text,NA,NA,NA,NA,NA,NA,Cross-group friendship,Policy support
+1549,1,b,0.063,cq,ps,text,NA,NA,NA,NA,NA,NA,Contact quantity,Policy support
+1576,1,or,1.67,oc,pd,text,'few Chinese' vs 'mostly Chinese',144,583,NA,NA,NA,Opportunity for contact,Personal discrimination
+1576,1,or,3.45,oc,pd,text,'some Chinese' vs 'mostly Chinese',777,583,NA,NA,NA,Opportunity for contact,Personal discrimination
+1614,1,r,1,cf,cf,text,NA,NA,NA,NA,NA,NA,Cross-group friendship,Cross-group friendship
+1614,1,r,-0.27,cf,gd,text,NA,NA,NA,NA,NA,NA,Cross-group friendship,Group discrimination
+1614,1,r,-0.3,cf,gi,text,NA,NA,NA,NA,NA,NA,Cross-group friendship,Group identificaiton
+1614,1,r,-0.23,cf,ps,text,NA,NA,NA,NA,NA,NA,Cross-group friendship,Policy support
+1614,1,r,-0.27,gd,cf,text,NA,NA,NA,NA,NA,NA,Group discrimination,Cross-group friendship
+1614,1,r,1,gd,gd,text,NA,NA,NA,NA,NA,NA,Group discrimination,Group discrimination
+1614,1,r,0.24,gd,gi,text,NA,NA,NA,NA,NA,NA,Group discrimination,Group identificaiton
+1614,1,r,0.37,gd,ps,text,NA,NA,NA,NA,NA,NA,Group discrimination,Policy support
+1614,1,r,-0.3,gi,cf,text,NA,NA,NA,NA,NA,NA,Group identificaiton,Cross-group friendship
+1614,1,r,0.24,gi,gd,text,NA,NA,NA,NA,NA,NA,Group identificaiton,Group discrimination
+1614,1,r,1,gi,gi,text,NA,NA,NA,NA,NA,NA,Group identificaiton,Group identificaiton
+1614,1,r,0.29,gi,ps,text,NA,NA,NA,NA,NA,NA,Group identificaiton,Policy support
+1614,1,r,-0.23,ps,cf,text,NA,NA,NA,NA,NA,NA,Policy support,Cross-group friendship
+1614,1,r,0.37,ps,gd,text,NA,NA,NA,NA,NA,NA,Policy support,Group discrimination
+1614,1,r,0.29,ps,gi,text,NA,NA,NA,NA,NA,NA,Policy support,Group identificaiton
+1614,1,r,1,ps,ps,text,NA,NA,NA,NA,NA,NA,Policy support,Policy support
+1658,1,r,1,cq,cq,text,NA,NA,NA,NA,NA,NA,Contact quantity,Contact quantity
+1658,1,r,0.19,cq,pc,text,NA,NA,NA,NA,NA,NA,Contact quantity,Contact quality / Positive contact
+1658,1,r,0.06,cq,pd,text,NA,NA,NA,NA,NA,NA,Contact quantity,Personal discrimination
+1658,1,r,0.19,pc,cq,text,NA,NA,NA,NA,NA,NA,Contact quality / Positive contact,Contact quantity
+1658,1,r,1,pc,pc,text,NA,NA,NA,NA,NA,NA,Contact quality / Positive contact,Contact quality / Positive contact
+1658,1,r,-0.25,pc,pd,text,NA,NA,NA,NA,NA,NA,Contact quality / Positive contact,Personal discrimination
+1658,1,r,0.06,pd,cq,text,NA,NA,NA,NA,NA,NA,Personal discrimination,Contact quantity
+1658,1,r,-0.25,pd,pc,text,NA,NA,NA,NA,NA,NA,Personal discrimination,Contact quality / Positive contact
+1658,1,r,1,pd,pd,text,NA,NA,NA,NA,NA,NA,Personal discrimination,Personal discrimination
+1658,2,r,1,cq,cq,text,NA,NA,NA,NA,NA,NA,Contact quantity,Contact quantity
+1658,2,r,0.39,cq,pc,text,NA,NA,NA,NA,NA,NA,Contact quantity,Contact quality / Positive contact
+1658,2,r,-0.02,cq,pd,text,NA,NA,NA,NA,NA,NA,Contact quantity,Personal discrimination
+1658,2,r,0.39,pc,cq,text,NA,NA,NA,NA,NA,NA,Contact quality / Positive contact,Contact quantity
+1658,2,r,1,pc,pc,text,NA,NA,NA,NA,NA,NA,Contact quality / Positive contact,Contact quality / Positive contact
+1658,2,r,-0.26,pc,pd,text,NA,NA,NA,NA,NA,NA,Contact quality / Positive contact,Personal discrimination
+1658,2,r,-0.02,pd,cq,text,NA,NA,NA,NA,NA,NA,Personal discrimination,Contact quantity
+1658,2,r,-0.26,pd,pc,text,NA,NA,NA,NA,NA,NA,Personal discrimination,Contact quality / Positive contact
+1658,2,r,1,pd,pd,text,NA,NA,NA,NA,NA,NA,Personal discrimination,Personal discrimination
+1658,3,r,1,cq,cq,text,NA,NA,NA,NA,NA,NA,Contact quantity,Contact quantity
+1658,3,r,0.41,cq,pc,text,NA,NA,NA,NA,NA,NA,Contact quantity,Contact quality / Positive contact
+1658,3,r,-0.01,cq,pd,text,NA,NA,NA,NA,NA,NA,Contact quantity,Personal discrimination
+1658,3,r,0.41,pc,cq,text,NA,NA,NA,NA,NA,NA,Contact quality / Positive contact,Contact quantity
+1658,3,r,1,pc,pc,text,NA,NA,NA,NA,NA,NA,Contact quality / Positive contact,Contact quality / Positive contact
+1658,3,r,-0.2,pc,pd,text,NA,NA,NA,NA,NA,NA,Contact quality / Positive contact,Personal discrimination
+1658,3,r,-0.01,pd,cq,text,NA,NA,NA,NA,NA,NA,Personal discrimination,Contact quantity
+1658,3,r,-0.2,pd,pc,text,NA,NA,NA,NA,NA,NA,Personal discrimination,Contact quality / Positive contact
+1658,3,r,1,pd,pd,text,NA,NA,NA,NA,NA,NA,Personal discrimination,Personal discrimination
+1695,1,r,1,cf,cf,text,NA,NA,NA,NA,NA,NA,Cross-group friendship,Cross-group friendship
+1695,1,r,0.62,cf,in,text,NA,NA,NA,NA,NA,NA,Cross-group friendship,Ingroup contact
+1695,1,r,-0.02,cf,ld,text,outcome(s) reversed to reflect support of policies/illegitimacy of discrimination,NA,NA,NA,NA,NA,Cross-group friendship,Legitimacy of injustice item 1
+1695,1,r,0.01,cf,ld,text,outcome(s) reversed to reflect support of policies/illegitimacy of discrimination,NA,NA,NA,NA,NA,Cross-group friendship,Legitimacy of injustice item 2
+1695,1,r,-0.04,cf,ld,text,outcome(s) reversed to reflect support of policies/illegitimacy of discrimination,NA,NA,NA,NA,NA,Cross-group friendship,Legitimacy of injustice item 3
+1695,1,r,0.03,cf,ps,text,outcome(s) reversed to reflect support of policies/illegitimacy of discrimination,NA,NA,NA,NA,NA,Cross-group friendship,Policy opposition
+1695,1,r,0.62,in,cf,text,NA,NA,NA,NA,NA,NA,Ingroup contact,Cross-group friendship
+1695,1,r,1,in,in,text,NA,NA,NA,NA,NA,NA,Ingroup contact,Ingroup contact
+1695,1,r,0.11,in,ld,text,outcome(s) reversed to reflect support of policies/illegitimacy of discrimination,NA,NA,NA,NA,NA,Ingroup contact,Legitimacy of injustice item 1
+1695,1,r,0.11,in,ld,text,outcome(s) reversed to reflect support of policies/illegitimacy of discrimination,NA,NA,NA,NA,NA,Ingroup contact,Legitimacy of injustice item 2
+1695,1,r,0.1,in,ld,text,outcome(s) reversed to reflect support of policies/illegitimacy of discrimination,NA,NA,NA,NA,NA,Ingroup contact,Legitimacy of injustice item 3
+1695,1,r,0.24,in,ps,text,outcome(s) reversed to reflect support of policies/illegitimacy of discrimination,NA,NA,NA,NA,NA,Ingroup contact,Policy opposition
+1695,1,r,-0.02,ld,cf,text,outcome(s) reversed to reflect support of policies/illegitimacy of discrimination,NA,NA,NA,NA,NA,Legitimacy of injustice item 1,Cross-group friendship
+1695,1,r,0.11,ld,in,text,outcome(s) reversed to reflect support of policies/illegitimacy of discrimination,NA,NA,NA,NA,NA,Legitimacy of injustice item 1,Ingroup contact
+1695,1,r,1,ld,ld,text,outcome(s) reversed to reflect support of policies/illegitimacy of discrimination,NA,NA,NA,NA,NA,Legitimacy of injustice item 1,Legitimacy of injustice item 1
+1695,1,r,0.3,ld,ld,text,outcome(s) reversed to reflect support of policies/illegitimacy of discrimination,NA,NA,NA,NA,NA,Legitimacy of injustice item 1,Legitimacy of injustice item 2
+1695,1,r,0.64,ld,ld,text,outcome(s) reversed to reflect support of policies/illegitimacy of discrimination,NA,NA,NA,NA,NA,Legitimacy of injustice item 1,Legitimacy of injustice item 3
+1695,1,r,0.44,ld,ps,text,outcome(s) reversed to reflect support of policies/illegitimacy of discrimination,NA,NA,NA,NA,NA,Legitimacy of injustice item 1,Policy opposition
+1695,1,r,0.01,ld,cf,text,outcome(s) reversed to reflect support of policies/illegitimacy of discrimination,NA,NA,NA,NA,NA,Legitimacy of injustice item 2,Cross-group friendship
+1695,1,r,0.11,ld,in,text,outcome(s) reversed to reflect support of policies/illegitimacy of discrimination,NA,NA,NA,NA,NA,Legitimacy of injustice item 2,Ingroup contact
+1695,1,r,0.3,ld,ld,text,outcome(s) reversed to reflect support of policies/illegitimacy of discrimination,NA,NA,NA,NA,NA,Legitimacy of injustice item 2,Legitimacy of injustice item 1
+1695,1,r,1,ld,ld,text,outcome(s) reversed to reflect support of policies/illegitimacy of discrimination,NA,NA,NA,NA,NA,Legitimacy of injustice item 2,Legitimacy of injustice item 2
+1695,1,r,0.3,ld,ld,text,outcome(s) reversed to reflect support of policies/illegitimacy of discrimination,NA,NA,NA,NA,NA,Legitimacy of injustice item 2,Legitimacy of injustice item 3
+1695,1,r,0.35,ld,ps,text,outcome(s) reversed to reflect support of policies/illegitimacy of discrimination,NA,NA,NA,NA,NA,Legitimacy of injustice item 2,Policy opposition
+1695,1,r,-0.04,ld,cf,text,outcome(s) reversed to reflect support of policies/illegitimacy of discrimination,NA,NA,NA,NA,NA,Legitimacy of injustice item 3,Cross-group friendship
+1695,1,r,0.1,ld,in,text,outcome(s) reversed to reflect support of policies/illegitimacy of discrimination,NA,NA,NA,NA,NA,Legitimacy of injustice item 3,Ingroup contact
+1695,1,r,0.64,ld,ld,text,outcome(s) reversed to reflect support of policies/illegitimacy of discrimination,NA,NA,NA,NA,NA,Legitimacy of injustice item 3,Legitimacy of injustice item 1
+1695,1,r,0.3,ld,ld,text,outcome(s) reversed to reflect support of policies/illegitimacy of discrimination,NA,NA,NA,NA,NA,Legitimacy of injustice item 3,Legitimacy of injustice item 2
+1695,1,r,1,ld,ld,text,outcome(s) reversed to reflect support of policies/illegitimacy of discrimination,NA,NA,NA,NA,NA,Legitimacy of injustice item 3,Legitimacy of injustice item 3
+1695,1,r,0.48,ld,ps,text,outcome(s) reversed to reflect support of policies/illegitimacy of discrimination,NA,NA,NA,NA,NA,Legitimacy of injustice item 3,Policy opposition
+1695,1,r,0.03,ps,cf,text,outcome(s) reversed to reflect support of policies/illegitimacy of discrimination,NA,NA,NA,NA,NA,Policy opposition,Cross-group friendship
+1695,1,r,0.24,ps,in,text,outcome(s) reversed to reflect support of policies/illegitimacy of discrimination,NA,NA,NA,NA,NA,Policy opposition,Ingroup contact
+1695,1,r,0.44,ps,ld,text,outcome(s) reversed to reflect support of policies/illegitimacy of discrimination,NA,NA,NA,NA,NA,Policy opposition,Legitimacy of injustice item 1
+1695,1,r,0.35,ps,ld,text,outcome(s) reversed to reflect support of policies/illegitimacy of discrimination,NA,NA,NA,NA,NA,Policy opposition,Legitimacy of injustice item 2
+1695,1,r,0.48,ps,ld,text,outcome(s) reversed to reflect support of policies/illegitimacy of discrimination,NA,NA,NA,NA,NA,Policy opposition,Legitimacy of injustice item 3
+1695,1,r,1,ps,ps,text,outcome(s) reversed to reflect support of policies/illegitimacy of discrimination,NA,NA,NA,NA,NA,Policy opposition,Policy opposition
+1743,1,r,0.53,ca,ca,text,NA,NA,NA,1,2,NA,Collective action,Collective action
+1743,1,r,1,ca,ca,text,NA,NA,NA,1,1,NA,Collective action,Collective action
+1743,1,r,1,ca,ca,text,NA,NA,NA,2,2,NA,Collective action,Collective action
+1743,1,r,-0.29,ca,cf,text,NA,NA,NA,1,2,NA,Collective action,Cross-group friendship
+1743,1,r,0.2,ca,pi,text,NA,NA,NA,1,2,NA,Collective action,Perceived injustice (other)
+1743,1,r,-0.27,cf,ca,text,NA,NA,NA,1,2,NA,Cross-group friendship,Collective action
+1743,1,r,-0.33,cf,ca,text,NA,NA,NA,1,1,NA,Cross-group friendship,Collective action
+1743,1,r,0.66,cf,cf,text,NA,NA,NA,1,2,NA,Cross-group friendship,Cross-group friendship
+1743,1,r,1,cf,cf,text,NA,NA,NA,1,1,NA,Cross-group friendship,Cross-group friendship
+1743,1,r,1,cf,cf,text,NA,NA,NA,2,2,NA,Cross-group friendship,Cross-group friendship
+1743,1,r,-0.35,cf,pi,text,NA,NA,NA,1,2,NA,Cross-group friendship,Perceived injustice (other)
+1743,1,r,-0.21,cf,pi,text,NA,NA,NA,1,1,NA,Cross-group friendship,Perceived injustice (other)
+1743,1,r,-0.2,cf,pi,text,NA,NA,NA,2,2,NA,Cross-group friendship,Perceived injustice (other)
+1743,1,r,0.09,pi,ca,text,NA,NA,NA,1,2,NA,Perceived injustice (other),Collective action
+1743,1,r,0.15,pi,ca,text,NA,NA,NA,1,1,NA,Perceived injustice (other),Collective action
+1743,1,r,-0.13,pi,cf,text,NA,NA,NA,1,2,NA,Perceived injustice (other),Cross-group friendship
+1743,1,r,0.62,pi,pi,text,NA,NA,NA,1,2,NA,Perceived injustice (other),Perceived injustice (other)
+1743,1,r,1,pi,pi,text,NA,NA,NA,1,1,NA,Perceived injustice (other),Perceived injustice (other)
+1743,1,r,1,pi,pi,text,NA,NA,NA,2,2,NA,Perceived injustice (other),Perceived injustice (other)
+1743,2,r,0.63,ca,ca,text,NA,NA,NA,1,2,NA,Collective action,Collective action
+1743,2,r,1,ca,ca,text,NA,NA,NA,1,1,NA,Collective action,Collective action
+1743,2,r,1,ca,ca,text,NA,NA,NA,2,2,NA,Collective action,Collective action
+1743,2,r,-0.25,ca,cf,text,NA,NA,NA,1,2,NA,Collective action,Cross-group friendship
+1743,2,r,0.32,ca,pi,text,NA,NA,NA,1,2,NA,Collective action,Perceived injustice (other)
+1743,2,r,-0.26,cf,ca,text,NA,NA,NA,1,2,NA,Cross-group friendship,Collective action
+1743,2,r,-0.21,cf,ca,text,NA,NA,NA,1,1,NA,Cross-group friendship,Collective action
+1743,2,r,0.61,cf,cf,text,NA,NA,NA,1,2,NA,Cross-group friendship,Cross-group friendship
+1743,2,r,1,cf,cf,text,NA,NA,NA,1,1,NA,Cross-group friendship,Cross-group friendship
+1743,2,r,1,cf,cf,text,NA,NA,NA,2,2,NA,Cross-group friendship,Cross-group friendship
+1743,2,r,-0.13,cf,pi,text,NA,NA,NA,1,2,NA,Cross-group friendship,Perceived injustice (other)
+1743,2,r,-0.07,cf,pi,text,NA,NA,NA,1,1,NA,Cross-group friendship,Perceived injustice (other)
+1743,2,r,-0.12,cf,pi,text,NA,NA,NA,2,2,NA,Cross-group friendship,Perceived injustice (other)
+1743,2,r,0.19,pi,ca,text,NA,NA,NA,1,2,NA,Perceived injustice (other),Collective action
+1743,2,r,0.35,pi,ca,text,NA,NA,NA,1,1,NA,Perceived injustice (other),Collective action
+1743,2,r,-0.15,pi,cf,text,NA,NA,NA,1,2,NA,Perceived injustice (other),Cross-group friendship
+1743,2,r,0.59,pi,pi,text,NA,NA,NA,1,2,NA,Perceived injustice (other),Perceived injustice (other)
+1743,2,r,1,pi,pi,text,NA,NA,NA,1,1,NA,Perceived injustice (other),Perceived injustice (other)
+1743,2,r,1,pi,pi,text,NA,NA,NA,2,2,NA,Perceived injustice (other),Perceived injustice (other)
+1743,3,r,0.48,ca,ca,text,NA,NA,NA,1,2,NA,Collective action,Collective action
+1743,3,r,1,ca,ca,text,NA,NA,NA,1,1,NA,Collective action,Collective action
+1743,3,r,1,ca,ca,text,NA,NA,NA,2,2,NA,Collective action,Collective action
+1743,3,r,-0.09,ca,cf,text,NA,NA,NA,1,2,NA,Collective action,Cross-group friendship
+1743,3,r,0.21,ca,pi,text,NA,NA,NA,1,2,NA,Collective action,Perceived injustice (other)
+1743,3,r,-0.01,cf,ca,text,NA,NA,NA,1,2,NA,Cross-group friendship,Collective action
+1743,3,r,-0.07,cf,ca,text,NA,NA,NA,1,1,NA,Cross-group friendship,Collective action
+1743,3,r,0.47,cf,cf,text,NA,NA,NA,1,2,NA,Cross-group friendship,Cross-group friendship
+1743,3,r,1,cf,cf,text,NA,NA,NA,1,1,NA,Cross-group friendship,Cross-group friendship
+1743,3,r,1,cf,cf,text,NA,NA,NA,2,2,NA,Cross-group friendship,Cross-group friendship
+1743,3,r,0.05,cf,pi,text,NA,NA,NA,1,2,NA,Cross-group friendship,Perceived injustice (other)
+1743,3,r,0.01,cf,pi,text,NA,NA,NA,1,1,NA,Cross-group friendship,Perceived injustice (other)
+1743,3,r,0.04,cf,pi,text,NA,NA,NA,2,2,NA,Cross-group friendship,Perceived injustice (other)
+1743,3,r,0.13,pi,ca,text,NA,NA,NA,1,2,NA,Perceived injustice (other),Collective action
+1743,3,r,0.23,pi,ca,text,NA,NA,NA,1,1,NA,Perceived injustice (other),Collective action
+1743,3,r,-0.04,pi,cf,text,NA,NA,NA,1,2,NA,Perceived injustice (other),Cross-group friendship
+1743,3,r,0.45,pi,pi,text,NA,NA,NA,1,2,NA,Perceived injustice (other),Perceived injustice (other)
+1743,3,r,1,pi,pi,text,NA,NA,NA,1,1,NA,Perceived injustice (other),Perceived injustice (other)
+1743,3,r,1,pi,pi,text,NA,NA,NA,2,2,NA,Perceived injustice (other),Perceived injustice (other)
+1762,1,eta2,0.02,oc,gd,text,comparing those who had and hadn't lived outside of the community,NA,NA,NA,NA,1,Opportunity for contact,Group discrimination
+1762,1,eta2,0.02,oc,gd,text,comparing those who worked and didn't work outside of the home,NA,NA,NA,NA,1,Opportunity for contact,Group discrimination
+1762,1,eta2,NA,oc,pd,text,comparing those who had and hadn't lived outside of the community,NA,NA,NA,NA,1,Opportunity for contact,Personal discrimination
+1762,1,eta2,NA,oc,pd,text,comparing those who worked and didn't work outside of the home,NA,NA,NA,NA,1,Opportunity for contact,Personal discrimination
+1762,1,eta2,0.03,oc,pi,text,comparing those who had and hadn't lived outside of the community; effect size combines pd and gd,NA,NA,NA,NA,1,Opportunity for contact,Perceived injustice (other)
+1762,1,eta2,NA,oc,pi,text,comparing those who worked and didn't work outside of the home; effect size combines pd and gd,NA,NA,NA,NA,1,Opportunity for contact,Perceived injustice (other)
+1807,1,b,-0.06612903225806452,cq,pd,text,converted unstandardized to standardized regression coefficient,NA,NA,NA,NA,NA,Contact quantity,Personal discrimination
+1850,1,r,1,cq,cq,text,NA,NA,NA,NA,NA,NA,Contact quantity,Contact quantity
+1850,1,r,0.03,cq,gd,text,NA,NA,NA,NA,NA,NA,Contact quantity,Group discrimination
+1850,1,r,0.47,cq,pc,text,NA,NA,NA,NA,NA,NA,Contact quantity,Contact quality / Positive contact
+1850,1,r,0.03,gd,cq,text,NA,NA,NA,NA,NA,NA,Group discrimination,Contact quantity
+1850,1,r,1,gd,gd,text,NA,NA,NA,NA,NA,NA,Group discrimination,Group discrimination
+1850,1,r,0.04,gd,pc,text,NA,NA,NA,NA,NA,NA,Group discrimination,Contact quality / Positive contact
+1850,1,r,0.47,pc,cq,text,NA,NA,NA,NA,NA,NA,Contact quality / Positive contact,Contact quantity
+1850,1,r,0.04,pc,gd,text,NA,NA,NA,NA,NA,NA,Contact quality / Positive contact,Group discrimination
+1850,1,r,1,pc,pc,text,NA,NA,NA,NA,NA,NA,Contact quality / Positive contact,Contact quality / Positive contact
+1891,1,r,1,cf,cf,text,NA,NA,NA,NA,NA,NA,Cross-group friendship,Cross-group friendship
+1891,1,r,-0.11,cf,pi,text,NA,NA,NA,NA,NA,NA,Cross-group friendship,Perceived injustice (other)
+1891,1,r,1,in,in,text,NA,NA,NA,NA,NA,NA,Ingroup contact,Ingroup contact
+1891,1,r,0.054,in,pi,text,NA,NA,NA,NA,NA,NA,Ingroup contact,Perceived injustice (other)
+1891,1,r,-0.11,pi,cf,text,NA,NA,NA,NA,NA,NA,Perceived injustice (other),Cross-group friendship
+1891,1,r,0.054,pi,in,text,NA,NA,NA,NA,NA,NA,Perceived injustice (other),Ingroup contact
+1891,1,r,1,pi,pi,text,NA,NA,NA,NA,NA,NA,Perceived injustice (other),Perceived injustice (other)
+1914,1,r,1,ic,ic,text,NA,NA,NA,NA,NA,NA,Intergroup contact (other),Intergroup contact (other)
+1914,1,r,0.06,ic,in,text,NA,NA,NA,NA,NA,NA,Intergroup contact (other),Ingroup contact
+1914,1,r,-0.35,ic,pd,text,NA,NA,NA,NA,NA,NA,Intergroup contact (other),Personal discrimination
+1914,1,r,0.06,in,ic,text,NA,NA,NA,NA,NA,NA,Ingroup contact,Intergroup contact (other)
+1914,1,r,1,in,in,text,NA,NA,NA,NA,NA,NA,Ingroup contact,Ingroup contact
+1914,1,r,-0.02,in,pd,text,NA,NA,NA,NA,NA,NA,Ingroup contact,Personal discrimination
+1914,1,r,-0.35,pd,ic,text,NA,NA,NA,NA,NA,NA,Personal discrimination,Intergroup contact (other)
+1914,1,r,-0.02,pd,in,text,NA,NA,NA,NA,NA,NA,Personal discrimination,Ingroup contact
+1914,1,r,1,pd,pd,text,NA,NA,NA,NA,NA,NA,Personal discrimination,Personal discrimination
+1949,1,r,1,nc,nc,text,NA,NA,NA,NA,NA,NA,Negative contact,Negative contact
+1949,1,r,0.037,nc,pc,text,NA,NA,NA,NA,NA,NA,Negative contact,Contact quality / Positive contact
+1949,1,r,0.326,nc,pd,text,NA,NA,NA,NA,NA,NA,Negative contact,Personal discrimination
+1949,1,r,0.037,pc,nc,text,NA,NA,NA,NA,NA,NA,Contact quality / Positive contact,Negative contact
+1949,1,r,1,pc,pc,text,NA,NA,NA,NA,NA,NA,Contact quality / Positive contact,Contact quality / Positive contact
+1949,1,r,-0.057,pc,pd,text,NA,NA,NA,NA,NA,NA,Contact quality / Positive contact,Personal discrimination
+1949,1,r,0.326,pd,nc,text,NA,NA,NA,NA,NA,NA,Personal discrimination,Negative contact
+1949,1,r,-0.057,pd,pc,text,NA,NA,NA,NA,NA,NA,Personal discrimination,Contact quality / Positive contact
+1949,1,r,1,pd,pd,text,NA,NA,NA,NA,NA,NA,Personal discrimination,Personal discrimination
+1966,1,r,1,cf,cf,text,NA,NA,NA,NA,NA,NA,Cross-group friendship,Cross-group friendship
+1966,1,r,0.503,cf,cf,text,NA,NA,NA,NA,NA,NA,Cross-group friendship,Best friend is immigrant (reversed)
+1966,1,r,0.497,cf,cf,text,NA,NA,NA,NA,NA,NA,Cross-group friendship,Clique consists mainly of immigrants (reversed)
+1966,1,r,-0.022,cf,pd,text,NA,NA,NA,NA,NA,NA,Cross-group friendship,Personal discrimination
+1966,1,r,0.503,cf,cf,text,NA,NA,NA,NA,NA,NA,Best friend is immigrant (reversed),Cross-group friendship
+1966,1,r,1,cf,cf,text,NA,NA,NA,NA,NA,NA,Best friend is immigrant (reversed),Best friend is immigrant (reversed)
+1966,1,r,0.54,cf,cf,text,NA,NA,NA,NA,NA,NA,Best friend is immigrant (reversed),Clique consists mainly of immigrants (reversed)
+1966,1,r,0.029,cf,pd,text,NA,NA,NA,NA,NA,NA,Best friend is immigrant (reversed),Personal discrimination
+1966,1,r,0.497,cf,cf,text,NA,NA,NA,NA,NA,NA,Clique consists mainly of immigrants (reversed),Cross-group friendship
+1966,1,r,0.54,cf,cf,text,NA,NA,NA,NA,NA,NA,Clique consists mainly of immigrants (reversed),Best friend is immigrant (reversed)
+1966,1,r,1,cf,cf,text,NA,NA,NA,NA,NA,NA,Clique consists mainly of immigrants (reversed),Clique consists mainly of immigrants (reversed)
+1966,1,r,-0.042,cf,pd,text,NA,NA,NA,NA,NA,NA,Clique consists mainly of immigrants (reversed),Personal discrimination
+1966,1,r,-0.022,pd,cf,text,NA,NA,NA,NA,NA,NA,Personal discrimination,Cross-group friendship
+1966,1,r,0.029,pd,cf,text,NA,NA,NA,NA,NA,NA,Personal discrimination,Best friend is immigrant (reversed)
+1966,1,r,-0.042,pd,cf,text,NA,NA,NA,NA,NA,NA,Personal discrimination,Clique consists mainly of immigrants (reversed)
+1966,1,r,1,pd,pd,text,NA,NA,NA,NA,NA,NA,Personal discrimination,Personal discrimination
+1966,2,r,1,cf,cf,text,NA,NA,NA,NA,NA,NA,Cross-group friendship,Cross-group friendship
+1966,2,r,0.34,cf,cf,text,NA,NA,NA,NA,NA,NA,Cross-group friendship,Best friend is immigrant (reversed)
+1966,2,r,0.39,cf,cf,text,NA,NA,NA,NA,NA,NA,Cross-group friendship,Clique consists mainly of immigrants (reversed)
+1966,2,r,-0.081,cf,pd,text,NA,NA,NA,NA,NA,NA,Cross-group friendship,Personal discrimination
+1966,2,r,0.34,cf,cf,text,NA,NA,NA,NA,NA,NA,Best friend is immigrant (reversed),Cross-group friendship
+1966,2,r,1,cf,cf,text,NA,NA,NA,NA,NA,NA,Best friend is immigrant (reversed),Best friend is immigrant (reversed)
+1966,2,r,0.225,cf,cf,text,NA,NA,NA,NA,NA,NA,Best friend is immigrant (reversed),Clique consists mainly of immigrants (reversed)
+1966,2,r,-0.064,cf,pd,text,NA,NA,NA,NA,NA,NA,Best friend is immigrant (reversed),Personal discrimination
+1966,2,r,0.39,cf,cf,text,NA,NA,NA,NA,NA,NA,Clique consists mainly of immigrants (reversed),Cross-group friendship
+1966,2,r,0.225,cf,cf,text,NA,NA,NA,NA,NA,NA,Clique consists mainly of immigrants (reversed),Best friend is immigrant (reversed)
+1966,2,r,1,cf,cf,text,NA,NA,NA,NA,NA,NA,Clique consists mainly of immigrants (reversed),Clique consists mainly of immigrants (reversed)
+1966,2,r,-0.115,cf,pd,text,NA,NA,NA,NA,NA,NA,Clique consists mainly of immigrants (reversed),Personal discrimination
+1966,2,r,-0.081,pd,cf,text,NA,NA,NA,NA,NA,NA,Personal discrimination,Cross-group friendship
+1966,2,r,-0.064,pd,cf,text,NA,NA,NA,NA,NA,NA,Personal discrimination,Best friend is immigrant (reversed)
+1966,2,r,-0.115,pd,cf,text,NA,NA,NA,NA,NA,NA,Personal discrimination,Clique consists mainly of immigrants (reversed)
+1966,2,r,1,pd,pd,text,NA,NA,NA,NA,NA,NA,Personal discrimination,Personal discrimination
+1993,1,r,1,cq,cq,text,NA,NA,NA,NA,NA,NA,Contact quantity,Contact quantity
+1993,1,r,-0.23,cq,gi,text,NA,NA,NA,NA,NA,NA,Contact quantity,Group identificaiton
+1993,1,r,0.32,cq,in,text,NA,NA,NA,NA,NA,NA,Contact quantity,Ingroup contact
+1993,1,r,0.23,cq,in,text,NA,NA,NA,NA,NA,NA,Contact quantity,Quality of Ingroup contact
+1993,1,r,0.38,cq,pc,text,NA,NA,NA,NA,NA,NA,Contact quantity,Contact quality / Positive contact
+1993,1,r,0.25,cq,pd,text,NA,NA,NA,NA,NA,NA,Contact quantity,Personal discrimination
+1993,1,r,-0.23,gi,cq,text,NA,NA,NA,NA,NA,NA,Group identificaiton,Contact quantity
+1993,1,r,1,gi,gi,text,NA,NA,NA,NA,NA,NA,Group identificaiton,Group identificaiton
+1993,1,r,0.1,gi,in,text,NA,NA,NA,NA,NA,NA,Group identificaiton,Ingroup contact
+1993,1,r,0.15,gi,in,text,NA,NA,NA,NA,NA,NA,Group identificaiton,Quality of Ingroup contact
+1993,1,r,-0.02,gi,pc,text,NA,NA,NA,NA,NA,NA,Group identificaiton,Contact quality / Positive contact
+1993,1,r,0,gi,pd,text,NA,NA,NA,NA,NA,NA,Group identificaiton,Personal discrimination
+1993,1,r,0.32,in,cq,text,NA,NA,NA,NA,NA,NA,Ingroup contact,Contact quantity
+1993,1,r,0.1,in,gi,text,NA,NA,NA,NA,NA,NA,Ingroup contact,Group identificaiton
+1993,1,r,1,in,in,text,NA,NA,NA,NA,NA,NA,Ingroup contact,Ingroup contact
+1993,1,r,0.39,in,in,text,NA,NA,NA,NA,NA,NA,Ingroup contact,Quality of Ingroup contact
+1993,1,r,0.1,in,pc,text,NA,NA,NA,NA,NA,NA,Ingroup contact,Contact quality / Positive contact
+1993,1,r,0.09,in,pd,text,NA,NA,NA,NA,NA,NA,Ingroup contact,Personal discrimination
+1993,1,r,0.23,in,cq,text,NA,NA,NA,NA,NA,NA,Quality of Ingroup contact,Contact quantity
+1993,1,r,0.15,in,gi,text,NA,NA,NA,NA,NA,NA,Quality of Ingroup contact,Group identificaiton
+1993,1,r,0.39,in,in,text,NA,NA,NA,NA,NA,NA,Quality of Ingroup contact,Ingroup contact
+1993,1,r,1,in,in,text,NA,NA,NA,NA,NA,NA,Quality of Ingroup contact,Quality of Ingroup contact
+1993,1,r,0.39,in,pc,text,NA,NA,NA,NA,NA,NA,Quality of Ingroup contact,Contact quality / Positive contact
+1993,1,r,-0.01,in,pd,text,NA,NA,NA,NA,NA,NA,Quality of Ingroup contact,Personal discrimination
+1993,1,r,0.38,pc,cq,text,NA,NA,NA,NA,NA,NA,Contact quality / Positive contact,Contact quantity
+1993,1,r,-0.02,pc,gi,text,NA,NA,NA,NA,NA,NA,Contact quality / Positive contact,Group identificaiton
+1993,1,r,0.1,pc,in,text,NA,NA,NA,NA,NA,NA,Contact quality / Positive contact,Ingroup contact
+1993,1,r,0.39,pc,in,text,NA,NA,NA,NA,NA,NA,Contact quality / Positive contact,Quality of Ingroup contact
+1993,1,r,1,pc,pc,text,NA,NA,NA,NA,NA,NA,Contact quality / Positive contact,Contact quality / Positive contact
+1993,1,r,-0.16,pc,pd,text,NA,NA,NA,NA,NA,NA,Contact quality / Positive contact,Personal discrimination
+1993,1,r,0.25,pd,cq,text,NA,NA,NA,NA,NA,NA,Personal discrimination,Contact quantity
+1993,1,r,0,pd,gi,text,NA,NA,NA,NA,NA,NA,Personal discrimination,Group identificaiton
+1993,1,r,0.09,pd,in,text,NA,NA,NA,NA,NA,NA,Personal discrimination,Ingroup contact
+1993,1,r,-0.01,pd,in,text,NA,NA,NA,NA,NA,NA,Personal discrimination,Quality of Ingroup contact
+1993,1,r,-0.16,pd,pc,text,NA,NA,NA,NA,NA,NA,Personal discrimination,Contact quality / Positive contact
+1993,1,r,1,pd,pd,text,NA,NA,NA,NA,NA,NA,Personal discrimination,Personal discrimination
+2001,1,r,1,oc,oc,data,lifetime job discrimination,NA,NA,NA,NA,NA,Opportunity for contact,Opportunity for contact
+2001,1,r,1,oc,oc,data,lifetime housing discrimination,NA,NA,NA,NA,NA,Opportunity for contact,Opportunity for contact
+2001,1,r,1,oc,oc,data,lifetime police discrimination,NA,NA,NA,NA,NA,Opportunity for contact,Opportunity for contact
+2001,1,r,0.052,oc,pd,data,lifetime job discrimination,NA,NA,NA,NA,NA,Opportunity for contact,Personal discrimination
+2001,1,r,0.0462,oc,pd,data,lifetime housing discrimination,NA,NA,NA,NA,NA,Opportunity for contact,Personal discrimination
+2001,1,r,0.124,oc,pd,data,lifetime police discrimination,NA,NA,NA,NA,NA,Opportunity for contact,Personal discrimination
+2001,1,r,0.052,pd,oc,data,lifetime job discrimination,NA,NA,NA,NA,NA,Personal discrimination,Opportunity for contact
+2001,1,r,0.0462,pd,oc,data,lifetime housing discrimination,NA,NA,NA,NA,NA,Personal discrimination,Opportunity for contact
+2001,1,r,0.124,pd,oc,data,lifetime police discrimination,NA,NA,NA,NA,NA,Personal discrimination,Opportunity for contact
+2001,1,r,1,pd,pd,data,lifetime job discrimination,NA,NA,NA,NA,NA,Personal discrimination,Personal discrimination
+2001,1,r,1,pd,pd,data,lifetime housing discrimination,NA,NA,NA,NA,NA,Personal discrimination,Personal discrimination
+2001,1,r,1,pd,pd,data,lifetime police discrimination,NA,NA,NA,NA,NA,Personal discrimination,Personal discrimination
+2023,1,r,1,cf,cf,text,NA,NA,NA,NA,NA,NA,Cross-group friendship,Cross-group friendship
+2023,1,r,1,cf,cf,text,cross-ethnic friendship quantity,NA,NA,NA,NA,NA,Cross-group friendship,Cross-group friendship
+2023,1,r,1,cf,cf,text,cross-ethnic friendship quality,NA,NA,NA,NA,NA,Cross-group friendship,Cross-group friendship
+2023,1,r,0.07,cf,pd,text,cross-ethnic friendship quantity,NA,NA,NA,NA,NA,Cross-group friendship,Personal discrimination
+2023,1,r,0.02,cf,pd,text,cross-ethnic friendship quality,NA,NA,NA,NA,NA,Cross-group friendship,Personal discrimination
+2023,1,r,0.07,pd,cf,text,cross-ethnic friendship quantity,NA,NA,NA,NA,NA,Personal discrimination,Cross-group friendship
+2023,1,r,0.02,pd,cf,text,cross-ethnic friendship quality,NA,NA,NA,NA,NA,Personal discrimination,Cross-group friendship
+2023,1,r,1,pd,pd,text,NA,NA,NA,NA,NA,NA,Personal discrimination,Personal discrimination
+2023,1,r,1,pd,pd,text,cross-ethnic friendship quantity,NA,NA,NA,NA,NA,Personal discrimination,Personal discrimination
+2023,1,r,1,pd,pd,text,cross-ethnic friendship quality,NA,NA,NA,NA,NA,Personal discrimination,Personal discrimination
+2023,2,r,1,cf,cf,text,NA,NA,NA,NA,NA,NA,Cross-group friendship,Cross-group friendship
+2023,2,r,1,cf,cf,text,cross-ethnic friendship quantity,NA,NA,NA,NA,NA,Cross-group friendship,Cross-group friendship
+2023,2,r,1,cf,cf,text,cross-ethnic friendship quality,NA,NA,NA,NA,NA,Cross-group friendship,Cross-group friendship
+2023,2,r,-0.05,cf,pd,text,cross-ethnic friendship quantity,NA,NA,NA,NA,NA,Cross-group friendship,Personal discrimination
+2023,2,r,-0.04,cf,pd,text,cross-ethnic friendship quality,NA,NA,NA,NA,NA,Cross-group friendship,Personal discrimination
+2023,2,r,-0.05,pd,cf,text,cross-ethnic friendship quantity,NA,NA,NA,NA,NA,Personal discrimination,Cross-group friendship
+2023,2,r,-0.04,pd,cf,text,cross-ethnic friendship quality,NA,NA,NA,NA,NA,Personal discrimination,Cross-group friendship
+2023,2,r,1,pd,pd,text,NA,NA,NA,NA,NA,NA,Personal discrimination,Personal discrimination
+2023,2,r,1,pd,pd,text,cross-ethnic friendship quantity,NA,NA,NA,NA,NA,Personal discrimination,Personal discrimination
+2023,2,r,1,pd,pd,text,cross-ethnic friendship quality,NA,NA,NA,NA,NA,Personal discrimination,Personal discrimination
+2033,1,d,0.08,ic,ca,text,willingness to engage in collective action,40,40,NA,NA,NA,Intergroup contact (other),Collective action
+2033,1,d,0.14,ic,ca,text,behavioural measure of collective action,40,40,NA,NA,NA,Intergroup contact (other),Collective action
+2033,1,d,-0.02,ic,ld,text,NA,40,40,NA,NA,NA,Intergroup contact (other),(Il-)legitimacy of discrimination
+2075,1,d,-0.8820097371744758,pc,ca,text,"ambigious vs control condition, intentions",20,20,NA,NA,NA,Contact quality / Positive contact,Collective action
+2075,1,d,-0.6342358523877444,pc,ca,text,"ambigious vs control condition, flyers",20,20,NA,NA,NA,Contact quality / Positive contact,Collective action
+2075,1,d,0.62314402344061,pc,oa,text,"abmigious vs control condition, attitudes",20,20,NA,NA,NA,Contact quality / Positive contact,Outgroup attitudes
+2257,1,r,1,gi,gi,text,NA,NA,NA,NA,NA,NA,Group identificaiton,Group identificaiton
+2257,1,r,0.1,gi,ic,text,NA,NA,NA,NA,NA,NA,Group identificaiton,Intergroup contact (other)
+2257,1,r,0.28,gi,pi,text,NA,NA,NA,NA,NA,NA,Group identificaiton,Perceived injustice (other)
+2257,1,r,0.1,ic,gi,text,NA,NA,NA,NA,NA,NA,Intergroup contact (other),Group identificaiton
+2257,1,r,1,ic,ic,text,NA,NA,NA,NA,NA,NA,Intergroup contact (other),Intergroup contact (other)
+2257,1,r,-0.06,ic,pi,text,NA,NA,NA,NA,NA,NA,Intergroup contact (other),Perceived injustice (other)
+2257,1,r,0.28,pi,gi,text,NA,NA,NA,NA,NA,NA,Perceived injustice (other),Group identificaiton
+2257,1,r,-0.06,pi,ic,text,NA,NA,NA,NA,NA,NA,Perceived injustice (other),Intergroup contact (other)
+2257,1,r,1,pi,pi,text,NA,NA,NA,NA,NA,NA,Perceived injustice (other),Perceived injustice (other)
+2309,1,r,1,ca,ca,text,NA,NA,NA,NA,NA,NA,Collective action,Collective action
+2309,1,r,0.27,ca,gd,text,NA,NA,NA,NA,NA,NA,Collective action,Group discrimination
+2309,1,r,0.39,ca,nc,text,NA,NA,NA,NA,NA,NA,Collective action,Negative contact
+2309,1,r,0.45,ca,ca,text,NA,NA,NA,NA,NA,NA,Collective action,Collective Action Behaviours
+2309,1,r,0.32,ca,o2,text,NA,NA,NA,NA,NA,NA,Collective action,Intergroup Anger
+2309,1,r,0.15,ca,pc,text,NA,NA,NA,NA,NA,NA,Collective action,Contact quality / Positive contact
+2309,1,r,0.27,gd,ca,text,NA,NA,NA,NA,NA,NA,Group discrimination,Collective action
+2309,1,r,1,gd,gd,text,NA,NA,NA,NA,NA,NA,Group discrimination,Group discrimination
+2309,1,r,0.36,gd,nc,text,NA,NA,NA,NA,NA,NA,Group discrimination,Negative contact
+2309,1,r,0.24,gd,ca,text,NA,NA,NA,NA,NA,NA,Group discrimination,Collective Action Behaviours
+2309,1,r,0.24,gd,o2,text,NA,NA,NA,NA,NA,NA,Group discrimination,Intergroup Anger
+2309,1,r,-0.04,gd,pc,text,NA,NA,NA,NA,NA,NA,Group discrimination,Contact quality / Positive contact
+2309,1,r,0.39,nc,ca,text,NA,NA,NA,NA,NA,NA,Negative contact,Collective action
+2309,1,r,0.36,nc,gd,text,NA,NA,NA,NA,NA,NA,Negative contact,Group discrimination
+2309,1,r,1,nc,nc,text,NA,NA,NA,NA,NA,NA,Negative contact,Negative contact
+2309,1,r,0.27,nc,ca,text,NA,NA,NA,NA,NA,NA,Negative contact,Collective Action Behaviours
+2309,1,r,0.54,nc,o2,text,NA,NA,NA,NA,NA,NA,Negative contact,Intergroup Anger
+2309,1,r,-0.003,nc,pc,text,NA,NA,NA,NA,NA,NA,Negative contact,Contact quality / Positive contact
+2309,1,r,0.45,ca,ca,text,NA,NA,NA,NA,NA,NA,Collective Action Behaviours,Collective action
+2309,1,r,0.24,ca,gd,text,NA,NA,NA,NA,NA,NA,Collective Action Behaviours,Group discrimination
+2309,1,r,0.27,ca,nc,text,NA,NA,NA,NA,NA,NA,Collective Action Behaviours,Negative contact
+2309,1,r,1,ca,ca,text,NA,NA,NA,NA,NA,NA,Collective Action Behaviours,Collective Action Behaviours
+2309,1,r,0.32,ca,o2,text,NA,NA,NA,NA,NA,NA,Collective Action Behaviours,Intergroup Anger
+2309,1,r,0.01,ca,pc,text,NA,NA,NA,NA,NA,NA,Collective Action Behaviours,Contact quality / Positive contact
+2309,1,r,0.32,o2,ca,text,NA,NA,NA,NA,NA,NA,Intergroup Anger,Collective action
+2309,1,r,0.24,o2,gd,text,NA,NA,NA,NA,NA,NA,Intergroup Anger,Group discrimination
+2309,1,r,0.54,o2,nc,text,NA,NA,NA,NA,NA,NA,Intergroup Anger,Negative contact
+2309,1,r,0.32,o2,ca,text,NA,NA,NA,NA,NA,NA,Intergroup Anger,Collective Action Behaviours
+2309,1,r,1,o2,o2,text,NA,NA,NA,NA,NA,NA,Intergroup Anger,Intergroup Anger
+2309,1,r,-0.27,o2,pc,text,NA,NA,NA,NA,NA,NA,Intergroup Anger,Contact quality / Positive contact
+2309,1,r,0.15,pc,ca,text,NA,NA,NA,NA,NA,NA,Contact quality / Positive contact,Collective action
+2309,1,r,-0.04,pc,gd,text,NA,NA,NA,NA,NA,NA,Contact quality / Positive contact,Group discrimination
+2309,1,r,-0.003,pc,nc,text,NA,NA,NA,NA,NA,NA,Contact quality / Positive contact,Negative contact
+2309,1,r,0.01,pc,ca,text,NA,NA,NA,NA,NA,NA,Contact quality / Positive contact,Collective Action Behaviours
+2309,1,r,-0.27,pc,o2,text,NA,NA,NA,NA,NA,NA,Contact quality / Positive contact,Intergroup Anger
+2309,1,r,1,pc,pc,text,NA,NA,NA,NA,NA,NA,Contact quality / Positive contact,Contact quality / Positive contact
+2309,2,r,1,ca,ca,text,NA,NA,NA,NA,NA,NA,Collective action,Collective action
+2309,2,r,0.53,ca,gd,text,NA,NA,NA,NA,NA,NA,Collective action,Group discrimination
+2309,2,r,0.3,ca,nc,text,NA,NA,NA,NA,NA,NA,Collective action,Negative contact
+2309,2,r,0.41,ca,ca,text,NA,NA,NA,NA,NA,NA,Collective action,Collective Action Behaviours
+2309,2,r,0.37,ca,o2,text,NA,NA,NA,NA,NA,NA,Collective action,Intergroup anger
+2309,2,r,-0.1,ca,pc,text,NA,NA,NA,NA,NA,NA,Collective action,Contact quality / Positive contact
+2309,2,r,0.53,gd,ca,text,NA,NA,NA,NA,NA,NA,Group discrimination,Collective action
+2309,2,r,1,gd,gd,text,NA,NA,NA,NA,NA,NA,Group discrimination,Group discrimination
+2309,2,r,0.39,gd,nc,text,NA,NA,NA,NA,NA,NA,Group discrimination,Negative contact
+2309,2,r,0.32,gd,ca,text,NA,NA,NA,NA,NA,NA,Group discrimination,Collective Action Behaviours
+2309,2,r,0.52,gd,o2,text,NA,NA,NA,NA,NA,NA,Group discrimination,Intergroup anger
+2309,2,r,-0.28,gd,pc,text,NA,NA,NA,NA,NA,NA,Group discrimination,Contact quality / Positive contact
+2309,2,r,0.3,nc,ca,text,NA,NA,NA,NA,NA,NA,Negative contact,Collective action
+2309,2,r,0.39,nc,gd,text,NA,NA,NA,NA,NA,NA,Negative contact,Group discrimination
+2309,2,r,1,nc,nc,text,NA,NA,NA,NA,NA,NA,Negative contact,Negative contact
+2309,2,r,0.47,nc,ca,text,NA,NA,NA,NA,NA,NA,Negative contact,Collective Action Behaviours
+2309,2,r,0.59,nc,o2,text,NA,NA,NA,NA,NA,NA,Negative contact,Intergroup anger
+2309,2,r,-0.08,nc,pc,text,NA,NA,NA,NA,NA,NA,Negative contact,Contact quality / Positive contact
+2309,2,r,0.41,ca,ca,text,NA,NA,NA,NA,NA,NA,Collective Action Behaviours,Collective action
+2309,2,r,0.32,ca,gd,text,NA,NA,NA,NA,NA,NA,Collective Action Behaviours,Group discrimination
+2309,2,r,0.47,ca,nc,text,NA,NA,NA,NA,NA,NA,Collective Action Behaviours,Negative contact
+2309,2,r,1,ca,ca,text,NA,NA,NA,NA,NA,NA,Collective Action Behaviours,Collective Action Behaviours
+2309,2,r,0.45,ca,o2,text,NA,NA,NA,NA,NA,NA,Collective Action Behaviours,Intergroup anger
+2309,2,r,0.04,ca,pc,text,NA,NA,NA,NA,NA,NA,Collective Action Behaviours,Contact quality / Positive contact
+2309,2,r,0.37,o2,ca,text,NA,NA,NA,NA,NA,NA,Intergroup anger,Collective action
+2309,2,r,0.52,o2,gd,text,NA,NA,NA,NA,NA,NA,Intergroup anger,Group discrimination
+2309,2,r,0.59,o2,nc,text,NA,NA,NA,NA,NA,NA,Intergroup anger,Negative contact
+2309,2,r,0.45,o2,ca,text,NA,NA,NA,NA,NA,NA,Intergroup anger,Collective Action Behaviours
+2309,2,r,1,o2,o2,text,NA,NA,NA,NA,NA,NA,Intergroup anger,Intergroup anger
+2309,2,r,-0.34,o2,pc,text,NA,NA,NA,NA,NA,NA,Intergroup anger,Contact quality / Positive contact
+2309,2,r,-0.1,pc,ca,text,NA,NA,NA,NA,NA,NA,Contact quality / Positive contact,Collective action
+2309,2,r,-0.28,pc,gd,text,NA,NA,NA,NA,NA,NA,Contact quality / Positive contact,Group discrimination
+2309,2,r,-0.08,pc,nc,text,NA,NA,NA,NA,NA,NA,Contact quality / Positive contact,Negative contact
+2309,2,r,0.04,pc,ca,text,NA,NA,NA,NA,NA,NA,Contact quality / Positive contact,Collective Action Behaviours
+2309,2,r,-0.34,pc,o2,text,NA,NA,NA,NA,NA,NA,Contact quality / Positive contact,Intergroup anger
+2309,2,r,1,pc,pc,text,NA,NA,NA,NA,NA,NA,Contact quality / Positive contact,Contact quality / Positive contact
+2333,1,d,0.039679228713683186,oc,pi,text,NA,935,402,NA,NA,NA,Opportunity for contact,Perceived injustice (other)
+2341,1,r,1,gd,gd,text,NA,NA,NA,NA,NA,NA,Group discrimination,Group discrimination
+2341,1,r,-0.41,gd,oa,text,NA,NA,NA,NA,NA,NA,Group discrimination,Outgroup attitudes
+2341,1,r,-0.41,gd,pc,text,NA,NA,NA,NA,NA,NA,Group discrimination,Contact quality / Positive contact
+2341,1,r,-0.41,oa,gd,text,NA,NA,NA,NA,NA,NA,Outgroup attitudes,Group discrimination
+2341,1,r,1,oa,oa,text,NA,NA,NA,NA,NA,NA,Outgroup attitudes,Outgroup attitudes
+2341,1,r,0.36,oa,pc,text,NA,NA,NA,NA,NA,NA,Outgroup attitudes,Contact quality / Positive contact
+2341,1,r,-0.41,pc,gd,text,NA,NA,NA,NA,NA,NA,Contact quality / Positive contact,Group discrimination
+2341,1,r,0.36,pc,oa,text,NA,NA,NA,NA,NA,NA,Contact quality / Positive contact,Outgroup attitudes
+2341,1,r,1,pc,pc,text,NA,NA,NA,NA,NA,NA,Contact quality / Positive contact,Contact quality / Positive contact
+2375,1,r,1,ca,ca,text,NA,NA,NA,NA,NA,NA,Collective action,Collective action
+2375,1,r,-0.23,ca,cf,text,NA,NA,NA,NA,NA,NA,Collective action,Cross-group friendship
+2375,1,r,0.32,ca,gd,text,NA,NA,NA,NA,NA,NA,Collective action,Group discrimination
+2375,1,r,0.31,ca,gi,text,NA,NA,NA,NA,NA,NA,Collective action,Group identificaiton
+2375,1,r,-0.02,ca,o1,text,NA,NA,NA,NA,NA,NA,Collective action,Group permeability
+2375,1,r,-0.02,ca,o2,text,NA,NA,NA,NA,NA,NA,Collective action,Anger
+2375,1,r,-0.24,ca,oa,text,NA,NA,NA,NA,NA,NA,Collective action,Outgroup attitudes
+2375,1,r,-0.23,cf,ca,text,NA,NA,NA,NA,NA,NA,Cross-group friendship,Collective action
+2375,1,r,1,cf,cf,text,NA,NA,NA,NA,NA,NA,Cross-group friendship,Cross-group friendship
+2375,1,r,-0.06,cf,gd,text,NA,NA,NA,NA,NA,NA,Cross-group friendship,Group discrimination
+2375,1,r,-0.35,cf,gi,text,NA,NA,NA,NA,NA,NA,Cross-group friendship,Group identificaiton
+2375,1,r,0.24,cf,o1,text,NA,NA,NA,NA,NA,NA,Cross-group friendship,Group permeability
+2375,1,r,-0.03,cf,o2,text,NA,NA,NA,NA,NA,NA,Cross-group friendship,Anger
+2375,1,r,0.41,cf,oa,text,NA,NA,NA,NA,NA,NA,Cross-group friendship,Outgroup attitudes
+2375,1,r,0.32,gd,ca,text,NA,NA,NA,NA,NA,NA,Group discrimination,Collective action
+2375,1,r,-0.06,gd,cf,text,NA,NA,NA,NA,NA,NA,Group discrimination,Cross-group friendship
+2375,1,r,1,gd,gd,text,NA,NA,NA,NA,NA,NA,Group discrimination,Group discrimination
+2375,1,r,-0.01,gd,gi,text,NA,NA,NA,NA,NA,NA,Group discrimination,Group identificaiton
+2375,1,r,0.14,gd,o1,text,NA,NA,NA,NA,NA,NA,Group discrimination,Group permeability
+2375,1,r,0.33,gd,o2,text,NA,NA,NA,NA,NA,NA,Group discrimination,Anger
+2375,1,r,-0.19,gd,oa,text,NA,NA,NA,NA,NA,NA,Group discrimination,Outgroup attitudes
+2375,1,r,0.31,gi,ca,text,NA,NA,NA,NA,NA,NA,Group identificaiton,Collective action
+2375,1,r,-0.35,gi,cf,text,NA,NA,NA,NA,NA,NA,Group identificaiton,Cross-group friendship
+2375,1,r,-0.01,gi,gd,text,NA,NA,NA,NA,NA,NA,Group identificaiton,Group discrimination
+2375,1,r,1,gi,gi,text,NA,NA,NA,NA,NA,NA,Group identificaiton,Group identificaiton
+2375,1,r,-0.02,gi,o1,text,NA,NA,NA,NA,NA,NA,Group identificaiton,Group permeability
+2375,1,r,-0.05,gi,o2,text,NA,NA,NA,NA,NA,NA,Group identificaiton,Anger
+2375,1,r,-0.06,gi,oa,text,NA,NA,NA,NA,NA,NA,Group identificaiton,Outgroup attitudes
+2375,1,r,-0.02,o1,ca,text,NA,NA,NA,NA,NA,NA,Group permeability,Collective action
+2375,1,r,0.24,o1,cf,text,NA,NA,NA,NA,NA,NA,Group permeability,Cross-group friendship
+2375,1,r,0.14,o1,gd,text,NA,NA,NA,NA,NA,NA,Group permeability,Group discrimination
+2375,1,r,-0.02,o1,gi,text,NA,NA,NA,NA,NA,NA,Group permeability,Group identificaiton
+2375,1,r,1,o1,o1,text,NA,NA,NA,NA,NA,NA,Group permeability,Group permeability
+2375,1,r,0.08,o1,o2,text,NA,NA,NA,NA,NA,NA,Group permeability,Anger
+2375,1,r,0.36,o1,oa,text,NA,NA,NA,NA,NA,NA,Group permeability,Outgroup attitudes
+2375,1,r,-0.02,o2,ca,text,NA,NA,NA,NA,NA,NA,Anger,Collective action
+2375,1,r,-0.03,o2,cf,text,NA,NA,NA,NA,NA,NA,Anger,Cross-group friendship
+2375,1,r,0.33,o2,gd,text,NA,NA,NA,NA,NA,NA,Anger,Group discrimination
+2375,1,r,-0.05,o2,gi,text,NA,NA,NA,NA,NA,NA,Anger,Group identificaiton
+2375,1,r,0.08,o2,o1,text,NA,NA,NA,NA,NA,NA,Anger,Group permeability
+2375,1,r,1,o2,o2,text,NA,NA,NA,NA,NA,NA,Anger,Anger
+2375,1,r,-0.36,o2,oa,text,NA,NA,NA,NA,NA,NA,Anger,Outgroup attitudes
+2375,1,r,-0.24,oa,ca,text,NA,NA,NA,NA,NA,NA,Outgroup attitudes,Collective action
+2375,1,r,0.41,oa,cf,text,NA,NA,NA,NA,NA,NA,Outgroup attitudes,Cross-group friendship
+2375,1,r,-0.19,oa,gd,text,NA,NA,NA,NA,NA,NA,Outgroup attitudes,Group discrimination
+2375,1,r,-0.06,oa,gi,text,NA,NA,NA,NA,NA,NA,Outgroup attitudes,Group identificaiton
+2375,1,r,0.36,oa,o1,text,NA,NA,NA,NA,NA,NA,Outgroup attitudes,Group permeability
+2375,1,r,-0.36,oa,o2,text,NA,NA,NA,NA,NA,NA,Outgroup attitudes,Anger
+2375,1,r,1,oa,oa,text,NA,NA,NA,NA,NA,NA,Outgroup attitudes,Outgroup attitudes
