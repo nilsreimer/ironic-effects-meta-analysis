@@ -388,3 +388,56 @@ id,coder,sample,variable,text,name
 2375,Coder 2,1,oa,Outgroup attitude was measured using a feeling thermometer. Respondents indicated on a thermometer that ran from 0°C to 100°C the extent to which they felt cold/warm toward Anglo-Whites.,Outgroup attitudes
 2375,Coder 2,1,o1,"This construct was operationalized by assessing respondents’ beliefs that upward mobility was possible for them (“I believe I am capable, as an individual, to improve my status in society”; “Acting on my own, I can advance myself in society”; 1 = strongly disagree, 2 = disagree, 3 = neither agree nor disagree, 4 = agree, 5 = strongly agree; r = .46, p < .001).",Group permeability
 2375,Coder 2,1,o2,"Anger. On scales ranging from 1 (not at all) to 5 (extremely), respondents indicated the extent to which they felt angry, resentful, furious, and displeased about the relative status of Latinos in the United States (α =.88).",Anger
+2380,NA,1,cq,"How often, in your everyday life, do you meet people from general castes? (1 = never, 5 = very often)",Contact quantity
+2380,NA,1,pc,"On average, how often do you have positive/good contact with people from general castes? (1 = never, 5 = very often)",Contact quality / Positive contact
+2380,NA,1,nc,"On average, how often do you have negative/bad contact with people from general castes? (1 = never, 5 = very often)",Negative contact
+2380,NA,1,cf,"How many close friends do you have who are from general castes? (1 = none, 5 = more than ten) How often do you spend time with friends from general castes? (1 = never, 5 = very often)",Cross-group friendship
+2380,NA,1,gd,"On average, how easy or hard is it for people from the following groups to succeed in India today? (1 = very hard, 7 = very easy) Scheduled Caste, Scheduled Tribe (reverse coded)",Group discrimination
+2380,NA,1,ps,"To what extent do you oppose or support reservation for SC/ST students in higher education? (1 = strongly oppose, 5 = strongly support) Do you think reservation for SC/ST students in higher education should increase, decrease, or remain unchanged? (1 = decrease a lot, 5 = increase a lot)",Policy support
+2380,NA,1,gi,"I identify with my caste group. (1 = strongly disagree, 7 = strongly agree)",Group identificaiton
+2380,NA,2,cq,"How often, in your everyday life, do you meet people from general castes? (1 = never, 5 = very often)",Contact quantity
+2380,NA,2,pc,"On average, how often do you have positive/good contact with people from general castes? (1 = never, 5 = very often)",Contact quality / Positive contact
+2380,NA,2,nc,"On average, how often do you have negative/bad contact with people from general castes? (1 = never, 5 = very often)",Negative contact
+2380,NA,2,cf,"How many close friends do you have who are from general castes? (1 = none, 5 = more than ten) How often do you spend time with friends from general castes? (1 = never, 5 = very often)",Cross-group friendship
+2380,NA,2,gd,"On average, how easy or hard is it for people from the following groups to succeed in India today? (1 = very hard, 7 = very easy) Other Backward Class (reverse coded)",Group discrimination
+2380,NA,2,ps,"To what extent do you oppose or support reservation for OBC students in higher education? (1 = strongly oppose, 5 = strongly support) Do you think reservation for OBC students in higher education should increase, decrease, or remain unchanged? (1 = decrease a lot, 5 = increase a lot)",Policy support
+2380,NA,2,gi,"I identify with my caste group. (1 = strongly disagree, 7 = strongly agree)",Group identificaiton
+2381,NA,1,pc,How frequently do you have POSITIVE/GOOD contact with NZ Europeans?,Contact quality / Positive contact
+2381,NA,1,nc,How frequently do you have NEGATIVE/BAD contact with NZ Europeans?,Negative contact
+2381,NA,1,cf,“Roughly how many hours (if any) have you spent with friends from each of the following groups in the last week?”,Cross-group friendship
+2381,NA,1,in,“Roughly how many hours (if any) have you spent with friends from each of the following groups in the last week?”,Ingroup contact
+2381,NA,1,pd,Feel that I am often discriminated against because of my ethnicity.,Personal discrimination
+2381,NA,1,gd,Do you think people from your ethnic group are discriminated against in NZ?,Group discrimination
+2381,NA,1,rd,Do you think people from your ethnic group are discriminated against in NZ? / I’m frustrated by what my ethnic group earns relative to other groups in NZ.,Relative deprivation
+2381,NA,1,pi,"Everyone in New Zealand has a fair shot at wealth and happiness, regardless of their ethnicity or race. / In general, relations between different ethnic groups in New Zealand are fair.",Perceived injustice (other)
+2381,NA,1,ca,I have considered voting in terms of what is good for my particular ethnic group. / I have considered participating in demonstrations on behalf of my ethnic group. / I have considered signing petitions on behalf of my ethnic group.,Collective action
+2381,NA,1,gi,I often think about the fact that I am a member of my ethnic group. / The fact that I am a member of my ethnic group is an important part of my identity. / Being a member of my ethnic group is an important part of how I see myself.,Group identificaiton
+2381,NA,1,oa,Warmth toward NZ Europeans,Outgroup attitudes
+2381,NA,1,ps,Performance of the Haka at international sports events. / Waitangi Day as a national celebration of biculturalism. / Teaching Māori language in New Zealand primary schools. / Singing the national anthem in Māori and English.,Cultural Policy Support
+2381,NA,1,ps,Māori ownership of the seabed and foreshore. / Reserving places for Māori students to study medicine. / Rates exemptions on Māori land. / Crown (government) ownership of the seabed and foreshore.,Reparative Policy Support
+2381,NA,2,pc,How frequently do you have POSITIVE/GOOD contact with NZ Europeans?,Contact quality / Positive contact
+2381,NA,2,nc,How frequently do you have NEGATIVE/BAD contact with NZ Europeans?,Negative contact
+2381,NA,2,cf,“Roughly how many hours (if any) have you spent with friends from each of the following groups in the last week?”,Cross-group friendship
+2381,NA,2,in,How frequently do you have POSITIVE/GOOD contact with Pacific Islanders?,Ingroup contact
+2381,NA,2,pd,Feel that I am often discriminated against because of my ethnicity.,Personal discrimination
+2381,NA,2,gd,Do you think people from your ethnic group are discriminated against in NZ?,Group discrimination
+2381,NA,2,rd,People from my ethnic group generally earn less than other groups in NZ.,Relative deprivation
+2381,NA,2,pi,I’m frustrated by what my ethnic group earns relative to other groups in NZ.,Perceived injustice (other)
+2381,NA,2,ca,I have considered voting in terms of what is good for my particular ethnic group. / I have considered participating in demonstrations on behalf of my ethnic group. / I have considered signing petitions on behalf of my ethnic group.,Collective action
+2381,NA,2,gi,I often think about the fact that I am a member of my ethnic group. / The fact that I am a member of my ethnic group is an important part of my identity. / Being a member of my ethnic group is an important part of how I see myself.,Group identificaiton
+2381,NA,2,oa,Warmth toward NZ Europeans,Outgroup attitudes
+2381,NA,2,ps,Performance of the Haka at international sports events. / Waitangi Day as a national celebration of biculturalism. / Teaching Māori language in New Zealand primary schools.,Cultural Policy Support
+2381,NA,2,ps,Māori ownership of the seabed and foreshore. / Reserving places for Māori students to study medicine. / Rates exemptions on Māori land. / Crown (government) ownership of the seabed and foreshore.,Reparative Policy Support
+2381,NA,3,pc,How frequently do you have POSITIVE/GOOD contact with NZ Europeans?,Contact quality / Positive contact
+2381,NA,3,nc,How frequently do you have NEGATIVE/BAD contact with NZ Europeans?,Negative contact
+2381,NA,3,cf,“Roughly how many hours (if any) have you spent with friends from each of the following groups in the last week?”,Cross-group friendship
+2381,NA,3,in,How frequently do you have POSITIVE/GOOD contact with Asians?,Ingroup contact
+2381,NA,3,pd,Feel that I am often discriminated against because of my ethnicity.,Personal discrimination
+2381,NA,3,gd,Do you think people from your ethnic group are discriminated against in NZ?,Group discrimination
+2381,NA,3,rd,People from my ethnic group generally earn less than other groups in NZ.,Relative deprivation
+2381,NA,3,pi,I’m frustrated by what my ethnic group earns relative to other groups in NZ.,Perceived injustice (other)
+2381,NA,3,ca,I have considered voting in terms of what is good for my particular ethnic group. / I have considered participating in demonstrations on behalf of my ethnic group. / I have considered signing petitions on behalf of my ethnic group.,Collective action
+2381,NA,3,gi,I often think about the fact that I am a member of my ethnic group. / The fact that I am a member of my ethnic group is an important part of my identity. / Being a member of my ethnic group is an important part of how I see myself.,Group identificaiton
+2381,NA,3,oa,Warmth toward NZ Europeans,Outgroup attitudes
+2381,NA,3,ps,Performance of the Haka at international sports events. / Waitangi Day as a national celebration of biculturalism. / Teaching Māori language in New Zealand primary schools. / Singing the national anthem in Māori and English.,Cultural Policy Support
+2381,NA,3,ps,Māori ownership of the seabed and foreshore. / Reserving places for Māori students to study medicine. / Rates exemptions on Māori land. / Crown (government) ownership of the seabed and foreshore.,Reparative Policy Support

@@ -20,10 +20,16 @@ rm(list = ls())
     col_types = "icicccccccccccc"
   )
   
-  # Import results from surveys
+  # Import results from survey
   results <- read_csv(
     "records/results/extracting-effect-sizes.csv", 
     col_types = "iciicc"
+  )
+  
+  # Import results from survey (unpublished)
+  unpublished <- read_csv(
+    "records/results/unpublished-studies.csv", 
+    col_types = "icciicc"
   )
   
   # Import status
@@ -52,11 +58,22 @@ rm(list = ls())
 
 # Prepare -----------------------------------------------------------------
 
+  # Add unpublished study
+  results <- unpublished %>% 
+    mutate(
+      item = case_when(
+        item == "ingroup" ~ "name",
+        TRUE ~ item
+      )
+    ) %>% 
+    filter(item %in% (distinct(results, item) %>% pull(item))) %>% 
+    select(-reference, -preprint) %>% 
+    bind_rows(results, .)
+      
   # Compile study/sample information
-  si <- results %>% 
+  si <- results %>%
     filter(item %in% c(
       "name", "n", "variables", 
-      "r_reported", "b_reported", "other_reported", "longitudinal",
       "comments"
     )) %>% 
     distinct() %>% 
@@ -64,7 +81,7 @@ rm(list = ls())
       names_from = item,
       values_from = response
     ) %>% 
-    mutate_at(vars(n, r_reported:longitudinal), as.integer) %>% 
+    mutate_at(vars(n), as.integer) %>% 
     mutate(variables = numbers_to_names(variables)) %>% 
     arrange(id)
   
@@ -99,7 +116,7 @@ rm(list = ls())
 
 # Extract -----------------------------------------------------------------
 
-  # Extract effect sizes (r) from published studies
+  # Extract effect sizes (r) from studies
   es <- results %>% 
     filter(str_detect(item, "r_[0-9]*_[0-9]")) %>% 
     extract(item, c("x", "y"), "r_([0-9]*)_([0-9]*)", convert = TRUE) %>% 
@@ -109,7 +126,7 @@ rm(list = ls())
       metric = "r",
       es = as.numeric(response),
       x, y,
-      source = "text",
+      source = if_else(id <= 2379L, "text", "unpublished"),
       note = NA_character_ 
     ) %>% 
     filter(!is.na(es)) %>% 
@@ -118,8 +135,12 @@ rm(list = ls())
   # Extract effect sizes (other) from published studies
   source("records/results/extract_other_effect_sizes.R")
 
-  # Extract effect sizes from unpublished studies (source = "unpublished")
-  
+  # Extract effect sizes (other) from unpublished studies
+  es <- read_csv(
+      "records/results/effect-sizes-from-unpublished-studies.csv",
+      col_types = "iicdccccii"
+    ) %>% 
+    bind_rows(es, .)
   
   # Add variable names to effect sizes
   es <- es %>% 
@@ -176,6 +197,8 @@ rm(list = ls())
         id == 1966L & x == "o2" ~ "cf",
         id == 1993L & x == "o1" ~ "in",
         id == 2309L & x == "o1" ~ "ca",
+        id == 2381L & x == "o1" ~ "ps",
+        id == 2381L & x == "o2" ~ "ps",
         TRUE ~ x
       ),
       y = case_when(
@@ -195,6 +218,8 @@ rm(list = ls())
         id == 1966L & y == "o2" ~ "cf",
         id == 1993L & y == "o1" ~ "in",
         id == 2309L & y == "o1" ~ "ca",
+        id == 2381L & y == "o1" ~ "ps",
+        id == 2381L & y == "o2" ~ "ps",
         TRUE ~ y
       )
     )
@@ -219,6 +244,8 @@ rm(list = ls())
         id == 1966L & variable == "o2" ~ "cf",
         id == 1993L & variable == "o1" ~ "in",
         id == 2309L & variable == "o1" ~ "ca",
+        id == 2381L & variable == "o1" ~ "ps",
+        id == 2381L & variable == "o2" ~ "ps",
         TRUE ~ variable
       )
     )
@@ -262,13 +289,13 @@ rm(list = ls())
     )
   
   # Check records
-  check_record <- function(i) {
-    records %>% filter(id == i) %>% print()
-    si %>% filter(id == i) %>% print(n = Inf)
-    mi %>% filter(id == i) %>% print(n = Inf)
-    es %>% filter(id == i) %>% print(n = Inf)
-    mi %>% filter(id == i) %>% pull(text)
-  }
+  # check_record <- function(i) {
+  #   records %>% filter(id == i) %>% print()
+  #   si %>% filter(id == i) %>% print(n = Inf)
+  #   mi %>% filter(id == i) %>% print(n = Inf)
+  #   es %>% filter(id == i) %>% print(n = Inf)
+  #   mi %>% filter(id == i) %>% pull(text)
+  # }
   
   
 # Export ------------------------------------------------------------------
@@ -285,3 +312,9 @@ rm(list = ls())
   write_rds(si, "data/si.rds")
   write_rds(mi, "data/mi.rds")
   write_rds(es, "data/es.rds")
+  
+  # Export for survey
+  # si %>% 
+  #   filter(id <= 2379L) %>% 
+  #   distinct(id, sample, name) %>% 
+  #   write_csv("../records/surveys/coding_moderators.csv")
