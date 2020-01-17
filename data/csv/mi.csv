@@ -441,3 +441,12 @@ id,coder,sample,variable,text,name
 2381,NA,3,oa,Warmth toward NZ Europeans,Outgroup attitudes
 2381,NA,3,ps,Performance of the Haka at international sports events. / Waitangi Day as a national celebration of biculturalism. / Teaching Māori language in New Zealand primary schools. / Singing the national anthem in Māori and English.,Cultural Policy Support
 2381,NA,3,ps,Māori ownership of the seabed and foreshore. / Reserving places for Māori students to study medicine. / Rates exemptions on Māori land. / Crown (government) ownership of the seabed and foreshore.,Reparative Policy Support
+2382,NA,1,pc,"In general, how often do you have positive contact with White people? (1 = never, 6 = every day)",Contact quality / Positive contact
+2382,NA,1,nc,"In general, how often do you have negative contact with White people? (1 = never, 6 = every day)",Negative contact
+2382,NA,1,cf,"How many of your close friends are White? (0 = 0, 11 = more than 10 (please specify))",Cross-group friendship
+2382,NA,1,in,"How many of your close friends are Asian? (0 = 0, 11 = more than 10 (please specify))",Ingroup contact
+2382,NA,1,pd,"In the last five years, how often, if at all, have you personally been discriminated against or treated unfairly because you are Asian? (1 = never, 5 = all the time)",Personal discrimination
+2382,NA,1,gd,"There is a lot of discrimination or unfair treatment towards Asian people in Britain today. (1 = disagree strongly, 5 = agree strongly)",Group discrimination
+2382,NA,1,ca,"1. How likely or unlikely would you be to take action (for example, signing petitions or participating in demonstrations), to stand up against anti-Asian discrimination? (1 = very unlikely, 5 = very likely) / 2. How likely or unlikely would you be to take action (for example, signing petitions or participating in demonstrations), to support Asian people's rights in the UK? (1 = very unlikely, 5 = very likely)",Collective action
+2382,NA,1,gi,"I identify with Asian people. (1 = disagree strongly, 5 = agree strongly)",Group identificaiton
+2382,NA,1,oa,"Please tell us how you feel about White people in general using the scale below. (1 = very cold, 5 = very warm)",Outgroup attitudes

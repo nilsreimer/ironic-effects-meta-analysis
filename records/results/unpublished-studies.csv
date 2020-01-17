@@ -1784,3 +1784,36 @@ id,reference,preprint,n_samples,sample,item,response
 2381,"Sengupta, N. K. & Sibley, C. G. (2020). Intergroup contact and political attitudes among ethnic minorities in New Zealand.",NA,3,3,var_18_text,Cultural Policy Support
 2381,"Sengupta, N. K. & Sibley, C. G. (2020). Intergroup contact and political attitudes among ethnic minorities in New Zealand.",NA,3,3,var_19_text,Reparative Policy Support
 2381,"Sengupta, N. K. & Sibley, C. G. (2020). Intergroup contact and political attitudes among ethnic minorities in New Zealand.",NA,3,3,variables,"3,4,5,6,8,9,11,12,14,15,16,18,19"
+2382,ORA Project,NA,1,1,age_adolescents,1
+2382,ORA Project,NA,1,1,age_adults,1
+2382,ORA Project,NA,1,1,age_children,0
+2382,ORA Project,NA,1,1,country,237
+2382,ORA Project,NA,1,1,ingroup,Asian British people
+2382,ORA Project,NA,1,1,items_1,NA
+2382,ORA Project,NA,1,1,items_10,NA
+2382,ORA Project,NA,1,1,items_11,NA
+2382,ORA Project,NA,1,1,items_12,NA
+2382,ORA Project,NA,1,1,items_13,NA
+2382,ORA Project,NA,1,1,items_14,"1. How likely or unlikely would you be to take action (for example, signing petitions or participating in demonstrations), to stand up against anti-Asian discrimination? (1 = very unlikely, 5 = very likely) / 2. How likely or unlikely would you be to take action (for example, signing petitions or participating in demonstrations), to support Asian people's rights in the UK? (1 = very unlikely, 5 = very likely)"
+2382,ORA Project,NA,1,1,items_15,"I identify with Asian people. (1 = disagree strongly, 5 = agree strongly)"
+2382,ORA Project,NA,1,1,items_16,"Please tell us how you feel about White people in general using the scale below. (1 = very cold, 5 = very warm)"
+2382,ORA Project,NA,1,1,items_18,NA
+2382,ORA Project,NA,1,1,items_19,NA
+2382,ORA Project,NA,1,1,items_2,NA
+2382,ORA Project,NA,1,1,items_3,"In general, how often do you have positive contact with White people? (1 = never, 6 = every day)"
+2382,ORA Project,NA,1,1,items_4,"In general, how often do you have negative contact with White people? (1 = never, 6 = every day)"
+2382,ORA Project,NA,1,1,items_5,"How many of your close friends are White? (0 = 0, 11 = more than 10 (please specify))"
+2382,ORA Project,NA,1,1,items_6,"How many of your close friends are Asian? (0 = 0, 11 = more than 10 (please specify))"
+2382,ORA Project,NA,1,1,items_7,NA
+2382,ORA Project,NA,1,1,items_8,"In the last five years, how often, if at all, have you personally been discriminated against or treated unfairly because you are Asian? (1 = never, 5 = all the time)"
+2382,ORA Project,NA,1,1,items_9,"There is a lot of discrimination or unfair treatment towards Asian people in Britain today. (1 = disagree strongly, 5 = agree strongly)"
+2382,ORA Project,NA,1,1,n,751
+2382,ORA Project,NA,1,1,outgroup,White British people
+2382,ORA Project,NA,1,1,study_design,2
+2382,ORA Project,NA,1,1,study_design_text,NA
+2382,ORA Project,NA,1,1,study_intention,1
+2382,ORA Project,NA,1,1,study_sample,3
+2382,ORA Project,NA,1,1,study_sample_text,NA
+2382,ORA Project,NA,1,1,var_18_text,NA
+2382,ORA Project,NA,1,1,var_19_text,NA
+2382,ORA Project,NA,1,1,variables,"3,4,5,6,8,9,14,15,16"

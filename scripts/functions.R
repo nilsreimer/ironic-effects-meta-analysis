@@ -95,3 +95,8 @@ eta2_to_r <- function(eta2, direction = c(-1, 1)) direction*sqrt(eta2)
 compute_d <- function(n1, m1, s1, n2, m2, s2) {
   (m1  - m2)/sqrt(((n1 - 1)*s1^2 + (n2 - 1)*s2^2)/(n1 + n2 - 2))
 }
+
+# Calculate partial correlations
+partial_r <- function(r_ab, r_ac, r_bc) {
+  (r_ab - r_ac * r_bc) / sqrt((1 - r_ac^2) * (1 - r_bc^2))
+}
