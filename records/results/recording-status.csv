@@ -1,105 +1,133 @@
-date,id,status,reason,comment
-2019-12-01,19,completed,NA,NA
-2019-12-01,45,completed,NA,NA
-2019-12-01,46,completed,NA,NA
-2019-12-01,50,failed,NA,Did not contact authors (manuscript published in 1996).
-2019-12-01,91,completed,NA,NA
-2019-12-01,93,completed,NA,NA
-2019-12-06,94,excluded,NA,"Found that the relevant predictor (proportion of students of immigrant background) is included in all analyses on the classroom level (n = 88) rather than on the individual level (n = 1,213). As such, the corresponding correlation (r = .55) is not comparable to other individual-level correlations in our meta-analysis."
-2019-12-01,194,failed,NA,Did not contact authors (manuscript published in 1973).
-2019-12-01,210,ongoing,NA,NA
-2019-12-01,244,ongoing,NA,NA
-2019-12-01,284,completed,NA,NA
-2019-12-06,286,completed,NA,NA
-2019-12-01,297,ongoing,NA,NA
-2019-12-01,303,completed,NA,NA
-2019-12-01,317,completed,NA,NA
-2019-12-01,322,completed,NA,NA
-2019-12-06,324,completed,NA,NA
-2019-12-02,325,completed,NA,NA
-2019-12-02,336,completed,NA,NA
-2020-01-08,401,completed,NA,NA
-2019-12-02,402,excluded,NA,Found to be a duplicate study (published as 2033).
-2019-12-02,414,completed,NA,NA
-2019-12-08,423,completed,NA,NA
-2019-12-02,446,ongoing,NA,NA
-2019-12-02,480,completed,NA,NA
-2019-12-02,530,excluded,NA,Found that group membership and the contact measure were inextricably confounded.
-2019-12-02,595,failed,NA,Did not contact authors (manuscript published in 1999).
-2019-12-02,609,completed,NA,NA
-2019-12-05,668,ongoing,NA,NA
-2019-12-02,684,excluded,NA,"Found that, on closer inspection, the peer nominations in this study are not suitable as a (network) measure of intergroup contact."
-2019-12-02,703,completed,NA,NA
-2019-10-16,711,ongoing,NA,NA
-2019-12-02,733,completed,NA,NA
-2019-10-14,775,ongoing,NA,NA
-2019-12-02,783,completed,NA,NA
-2019-12-02,786,excluded,NA,Found to be a duplicate study (published as 1891).
-2019-12-02,789,completed,NA,NA
-2019-12-02,803,completed,NA,NA
-2019-10-15,813,ongoing,NA,NA
-2019-12-02,823,completed,NA,NA
-2019-12-05,829,completed,NA,NA
-2019-12-02,830,completed,NA,NA
-2019-12-02,856,completed,NA,NA
-2019-12-02,893,completed,NA,NA
-2019-12-02,894,completed,NA,NA
-2019-12-02,910,excluded,NA,Found that the study did not measure intergroup contact.
-2019-12-02,933,completed,NA,NA
-2019-12-02,956,completed,NA,NA
-2019-12-06,965,excluded,NA,Found to be a duplicate study (published as 1743).
-2019-12-02,1020,completed,NA,NA
-2019-12-02,1022,ongoing,NA,NA
-2019-12-02,1042,completed,NA,NA
-2019-12-02,1045,completed,NA,NA
-2019-12-30,1101,excluded,NA,NA
-2020-01-09,1114,ongoing,NA,NA
-2019-12-05,1161,ongoing,NA,NA
-2019-12-06,1163,completed,NA,NA
-2019-12-20,1217,failed,NA,Found to be a duplicate study (published as 1386).
-2019-12-03,1221,completed,NA,NA
-2019-12-03,1248,completed,NA,NA
-2019-12-06,1283,ongoing,NA,NA
-2019-12-05,1367,ongoing,NA,NA
-2019-12-05,1368,completed,NA,NA
-2019-12-05,1376,completed,NA,NA
-2019-12-05,1386,completed,NA,NA
-2019-12-05,1395,completed,NA,NA
-2019-12-05,1407,completed,NA,NA
-2020-01-09,1411,completed,NA,NA
-2019-12-05,1412,ongoing,NA,NA
-2019-12-05,1467,ongoing,NA,NA
-2019-12-05,1494,completed,NA,NA
-2019-12-05,1525,completed,NA,NA
-2019-12-05,1549,completed,NA,NA
-2019-12-05,1576,completed,NA,NA
-2019-12-05,1614,completed,NA,NA
-2019-12-05,1658,completed,NA,NA
-2019-12-05,1695,completed,NA,NA
-2019-12-05,1712,ongoing,NA,NA
-2019-12-05,1743,completed,NA,NA
-2019-12-05,1750,ongoing,NA,NA
-2019-12-05,1762,ongoing,NA,NA
-2020-01-09,1772,excluded,NA,Found to be a duplicate study (published as 1695).
-2019-12-05,1807,completed,NA,NA
-2019-12-05,1850,completed,NA,NA
-2019-12-05,1891,completed,NA,NA
-2019-12-05,1914,completed,NA,NA
-2019-12-05,1934,ongoing,NA,NA
-2019-12-05,1949,completed,NA,NA
-2019-12-28,1950,ongoing,NA,NA
-2019-12-05,1964,failed,NA,Did not contact authors (manuscript published in 1988).
-2019-12-05,1966,completed,NA,NA
-2019-12-05,1993,completed,NA,NA
-2019-12-05,2001,completed,NA,NA
-2019-12-05,2023,completed,NA,NA
-2019-12-05,2033,completed,NA,NA
-2019-12-05,2075,completed,NA,NA
-2019-12-06,2141,failed,NA,Failed to find contact information.
-2019-12-06,2257,completed,NA,NA
-2019-12-06,2295,ongoing,NA,NA
-2019-12-06,2309,completed,NA,NA
-2019-12-06,2333,completed,NA,NA
-2019-12-06,2341,completed,NA,NA
-2019-12-06,2371,excluded,NA,"Found that sample is mostly from an advantaged, with only 26 participants of colour."
-2019-12-06,2375,completed,NA,NA
+date,id,status,comment
+2019-12-01,19,completed,NA
+2019-12-01,45,completed,NA
+2019-12-01,46,completed,NA
+2019-12-01,50,failed,Did not contact authors (manuscript published in 1996).
+2019-12-01,91,completed,NA
+2019-12-01,93,completed,NA
+2019-12-06,94,excluded,"Found that the relevant predictor (proportion of students of immigrant background) is included in all analyses on the classroom level (n = 88) rather than on the individual level (n = 1,213). As such, the corresponding correlation (r = .55) is not comparable to other individual-level correlations in our meta-analysis."
+2019-12-01,194,failed,Did not contact authors (manuscript published in 1973).
+2020-07-19,210,failed,No response from author(s).
+2019-12-01,244,completed,NA
+2019-12-01,284,completed,NA
+2019-12-06,286,completed,NA
+2020-07-19,297,failed,No response from author(s).
+2019-12-01,303,completed,NA
+2019-12-01,317,excluded,Found to be a duplicate study (identical to 830).
+2019-12-01,322,completed,NA
+2019-12-06,324,completed,NA
+2019-12-02,325,completed,NA
+2019-12-02,336,completed,NA
+2020-01-08,401,completed,NA
+2019-12-02,402,excluded,Found to be a duplicate study (published as 2033).
+2019-12-02,414,completed,NA
+2019-12-08,423,completed,NA
+2020-07-19,446,failed,No response from author(s).
+2019-12-02,480,completed,NA
+2019-12-02,530,excluded,Found that group membership and the contact measure were inextricably confounded.
+2019-12-02,595,failed,Did not contact authors (manuscript published in 1999).
+2019-12-02,609,completed,NA
+2020-01-21,668,failed,Author(s) responded without effect size.
+2019-12-02,684,excluded,"Found that, on closer inspection, the peer nominations in this study are not suitable as a (network) measure of intergroup contact."
+2019-12-02,703,completed,NA
+2020-07-19,711,failed,No response from author(s).
+2019-12-02,733,completed,NA
+2020-07-19,775,failed,No response from author(s).
+2019-12-02,783,completed,NA
+2019-12-02,786,excluded,Found to be a duplicate study (published as 1891).
+2019-12-02,789,completed,NA
+2019-12-02,803,completed,NA
+2019-10-15,813,completed,Author(s) responded without effect size (Study 1).
+2019-12-02,823,completed,NA
+2019-12-05,829,completed,NA
+2019-12-02,830,completed,NA
+2019-12-02,856,completed,NA
+2019-12-02,893,completed,NA
+2019-12-02,894,completed,NA
+2019-12-02,910,excluded,Found that the study did not measure intergroup contact.
+2019-12-02,933,completed,NA
+2019-12-02,956,completed,NA
+2019-12-06,965,excluded,Found to be a duplicate study (published as 1743).
+2019-12-02,1020,completed,NA
+2020-07-19,1022,failed,No response from author(s).
+2019-12-02,1042,completed,NA
+2019-12-02,1045,completed,NA
+2019-12-30,1101,excluded,NA
+2020-01-09,1114,completed,NA
+2020-07-19,1161,ongoing,Author(s) responded without effect size.
+2019-12-06,1163,completed,NA
+2019-12-20,1217,failed,Found to be a duplicate study (published as 1386).
+2019-12-03,1221,completed,NA
+2019-12-03,1248,completed,NA
+2020-07-19,1283,ongoing,NA
+2020-07-20,1367,failed,Failed to find contact information.
+2019-12-05,1368,excluded,Contact variable combines contact with the ingroup and with advantaged and disadvantaged outgroups.
+2019-12-05,1376,completed,NA
+2019-12-05,1386,completed,NA
+2019-12-05,1395,completed,NA
+2019-12-05,1407,completed,NA
+2020-01-09,1411,completed,NA
+2020-07-20,1412,completed,Author(s) responded with effect size.
+2019-12-05,1467,failed,Author(s) responded without effect size.
+2019-12-05,1494,completed,NA
+2019-12-05,1525,completed,NA
+2019-12-05,1549,completed,NA
+2019-12-05,1576,completed,NA
+2019-12-05,1614,completed,NA
+2019-12-05,1658,completed,NA
+2019-12-05,1695,completed,NA
+2020-07-20,1712,failed,No response from author(s).
+2019-12-05,1743,completed,NA
+2020-07-20,1750,failed,No response from author(s).
+2019-12-05,1762,completed,NA
+2020-01-09,1772,excluded,Found to be a duplicate study (published as 1695).
+2019-12-05,1807,completed,NA
+2019-12-05,1850,completed,NA
+2019-12-05,1891,completed,NA
+2019-12-05,1914,completed,NA
+2020-07-20,1934,failed,No response from author(s).
+2019-12-05,1949,completed,NA
+2020-07-20,1950,excluded,Found to be a duplicate study (identical to 1494).
+2019-12-05,1964,failed,Did not contact authors (manuscript published in 1988).
+2019-12-05,1966,completed,NA
+2019-12-05,1993,completed,NA
+2019-12-05,2001,completed,NA
+2019-12-05,2023,completed,NA
+2019-12-05,2033,completed,NA
+2019-12-05,2075,completed,NA
+2019-12-06,2141,failed,Failed to find contact information.
+2019-12-06,2257,completed,NA
+2020-07-20,2295,failed,No response from author(s).
+2019-12-06,2309,completed,NA
+2019-12-06,2333,completed,NA
+2019-12-06,2341,completed,NA
+2019-12-06,2371,excluded,"Found that sample is mostly from an advantaged, with only 26 participants of colour."
+2019-12-06,2375,completed,NA
+2020-07-21,2380,completed,NA
+2020-07-21,2381,completed,NA
+2020-07-21,2382,completed,NA
+2020-07-21,2383,completed,NA
+2020-07-21,2384,excluded,Sample might overlap with 2392.
+2020-07-21,2385,completed,NA
+2020-07-21,2388,completed,Has been published as 3054.
+2020-07-21,2389,failed,No response from author(s).
+2020-07-21,2391,completed,NA
+2020-07-21,2392,completed,NA
+2020-07-21,2394,completed,NA
+2020-05-14,3000,completed,NA
+2020-05-14,3005,completed,NA
+2020-05-14,3047,excluded,NA
+2020-07-20,3050,excluded,Found to be a duplicate study (published as 1395).
+2020-05-14,3051,completed,NA
+2020-05-14,3054,completed,NA
+2020-05-14,3060,completed,NA
+2020-05-14,3134,completed,NA
+2020-05-14,3196,completed,NA
+2020-05-14,3201,completed,NA
+2020-05-14,3205,completed,NA
+2020-05-28,4000,completed,NA
+2020-05-28,4001,completed,NA
+2020-05-28,4002,completed,NA
+2020-05-28,4003,completed,NA
+2020-05-28,4004,completed,NA
+2020-05-28,4005,completed,NA

@@ -1,0 +1,571 @@
+coder,id,sample,q4,q5,q6,q7,q8,q8_4_text,q9,q9_6_text,q10
+Coder 1,19,1,Singapore,International students from China in Singapore,Singaporeans,"Adolescents
+(13 - 18 years),Adults
+(≥ 18 years)","convenience sample, students (no random sampling)",NA,"observational, cross-sectional",NA,No
+Coder 2,19,1,Singapore,Chinese international students,Native Singaporeans,"Adults
+(≥ 18 years)","convenience sample, students (no random sampling)",NA,"observational, cross-sectional",NA,No
+Coder 1,45,1,Germany,International students in Germany,Germans,"Adults
+(≥ 18 years)","convenience sample, students (no random sampling)",NA,"observational, cross-sectional",NA,Yes
+Coder 2,45,1,Germany,UK international students,Native Germans,"Adults
+(≥ 18 years)","convenience sample, students (no random sampling)",NA,"observational, cross-sectional",NA,No
+Coder 1,45,2,UK,International students in the UK,British people,"Adults
+(≥ 18 years)","convenience sample, students (no random sampling)",NA,"observational, cross-sectional",NA,Yes
+Coder 2,45,2,UK,German international students,UK natives,"Adults
+(≥ 18 years)","convenience sample, students (no random sampling)",NA,"observational, cross-sectional",NA,No
+Coder 1,45,3,Germany,Visiting academics in Germany,Germans,"Adults
+(≥ 18 years)","convenience sample, non-students (no random sampling)",NA,"observational, cross-sectional",NA,Yes
+Coder 2,45,3,Germany,Visiting academics,Native Germans,"Adults
+(≥ 18 years)","convenience sample, non-students (no random sampling)",NA,"observational, cross-sectional",NA,No
+Coder 1,46,1,Belgium,Pupils of foreign origin in Brussels,Belgians,"Adolescents
+(13 - 18 years)","convenience sample, students (no random sampling)",NA,"observational, cross-sectional",NA,No
+Coder 2,46,1,Belgium,Students of foreign descent,Native Belgians,"Adolescents
+(13 - 18 years)",probability or representative sample,NA,"observational, cross-sectional",NA,No
+Coder 1,91,1,USA,International students from Asia in the US,US American students,"Adults
+(≥ 18 years)","convenience sample, students (no random sampling)",NA,"observational, cross-sectional",NA,Yes
+Coder 2,91,1,USA,Asian international students,Domestic students,"Adults
+(≥ 18 years)","convenience sample, non-students (no random sampling)",NA,"observational, cross-sectional",NA,No
+Coder 1,93,1,India,Muslim students,High-status Hindus,"Adults
+(≥ 18 years)","convenience sample, students (no random sampling)",NA,"observational, cross-sectional",NA,Yes
+Coder 2,93,1,India,Muslims,Hindus,"Adults
+(≥ 18 years)","convenience sample, students (no random sampling)",NA,"observational, cross-sectional",NA,Yes
+Coder 1,210,1,USA,Black American students,White Americans,"Adults
+(≥ 18 years)","convenience sample, students (no random sampling)",NA,"observational, cross-sectional",NA,No
+Coder 2,210,1,USA,Blacks,Whites,"Adults
+(≥ 18 years)","convenience sample, students (no random sampling)",NA,"observational, cross-sectional",NA,No
+Coder 1,244,1,USA,African American and Latino students,European American children,"Children
+(≤ 12 years),Adolescents
+(13 - 18 years)","convenience sample, students (no random sampling)",NA,"observational, cross-sectional",NA,Yes
+Coder 2,244,1,USA,Blacks,Whites,"Children
+(≤ 12 years),Adolescents
+(13 - 18 years)","convenience sample, students (no random sampling)",NA,"observational, cross-sectional",NA,No
+Coder 1,284,1,South Africa,Black students,White people,"Adults
+(≥ 18 years)","convenience sample, students (no random sampling)",NA,"observational, cross-sectional",NA,Yes
+Coder 2,284,1,South Africa,Blacks,Whites,"Adults
+(≥ 18 years)","convenience sample, students (no random sampling)",NA,"observational, cross-sectional",NA,Yes
+Coder 1,286,1,Turkey,Kurds,Turks,"Adults
+(≥ 18 years)","convenience sample, non-students (no random sampling)",NA,"observational, cross-sectional",NA,Yes
+Coder 2,286,1,Turkey,Kurds,Turks,"Adults
+(≥ 18 years)","convenience sample, non-students (no random sampling)",NA,"observational, cross-sectional",NA,Yes
+Coder 1,297,1,India,Muslims,Hindus,"Adults
+(≥ 18 years)","convenience sample, non-students (no random sampling)",NA,"observational, cross-sectional",NA,No
+Coder 2,297,1,India,Muslims,Hindus,"Adults
+(≥ 18 years)","convenience sample, non-students (no random sampling)",NA,"observational, cross-sectional",NA,No
+Coder 1,303,1,"Canada,Mexico,USA",Native young adults,Anglos/Whites,"Adults
+(≥ 18 years)","convenience sample, non-students (no random sampling)",NA,"observational, cross-sectional",NA,No
+Coder 2,303,1,NA,Native north americans,Whites,"Adults
+(≥ 18 years)","convenience sample, non-students (no random sampling)",NA,"observational, cross-sectional",NA,No
+Coder 1,317,1,USA,Korean American adolescents,People from other ethnic groups,"Adolescents
+(13 - 18 years)","convenience sample, non-students (no random sampling)",NA,"observational, cross-sectional",NA,No
+Coder 2,317,1,USA,Korean American adolescents,Non-Korean Americans,"Adolescents
+(13 - 18 years)","convenience sample, students (no random sampling)",NA,"observational, cross-sectional",NA,No
+Coder 1,317,2,USA,Cambodian American adolescents,People from other ethnic groups,"Adolescents
+(13 - 18 years)",probability or representative sample,NA,"observational, cross-sectional",NA,No
+Coder 2,317,2,USA,Cambodian-American Adolescent,Non-Cambodian-Americans,"Adolescents
+(13 - 18 years)","convenience sample, students (no random sampling)",NA,"observational, cross-sectional",NA,No
+Coder 1,317,3,USA,Vietnamese American adolescents,People from other ethnic groups,"Adolescents
+(13 - 18 years)",probability or representative sample,NA,"observational, cross-sectional",NA,No
+Coder 2,317,3,USA,Vietnamese-American Adolescents,Non-Vietnamese-Americans,"Adolescents
+(13 - 18 years)","convenience sample, students (no random sampling)",NA,"observational, cross-sectional",NA,No
+Coder 1,322,1,Turkey,Kurds,Turks,"Adults
+(≥ 18 years)","convenience sample, students (no random sampling)",NA,"observational, cross-sectional",NA,Yes
+Coder 2,322,1,Turkey,Kurdish people in Turkey,Native Turks,"Adults
+(≥ 18 years)","convenience sample, students (no random sampling)",NA,"observational, cross-sectional",NA,Yes
+Coder 1,324,1,USA,Black Americans,People from other racial groups,"Adolescents
+(13 - 18 years),Adults
+(≥ 18 years)",probability or representative sample,NA,"observational, cross-sectional",NA,No
+Coder 2,324,1,USA,Black Americans,White Americans,"Adolescents
+(13 - 18 years)",probability or representative sample,NA,"observational, cross-sectional",NA,No
+Coder 1,324,2,USA,Hispanic Americans,People from other racial groups,"Adolescents
+(13 - 18 years),Adults
+(≥ 18 years)",probability or representative sample,NA,"observational, cross-sectional",NA,No
+Coder 2,324,2,USA,Hispanic Americans,White Americans,"Adolescents
+(13 - 18 years)",probability or representative sample,NA,"observational, cross-sectional",NA,No
+Coder 1,325,1,USA,Multiracial Americans,People from other racial groups,"Adults
+(≥ 18 years)",probability or representative sample,NA,"observational, cross-sectional",NA,No
+Coder 2,325,1,USA,Multiracial Americans,White Americans,"Adults
+(≥ 18 years)",probability or representative sample,NA,"observational, cross-sectional",NA,No
+Coder 1,336,1,South Africa,Black South Africans,White South Africans,"Adults
+(≥ 18 years)",probability or representative sample,NA,"observational, cross-sectional",NA,Yes
+Coder 2,336,1,NA,Black South Africans,White South Africans,"Adults
+(≥ 18 years)",probability or representative sample,NA,"observational, cross-sectional",NA,Yes
+Coder 1,401,1,Germany,East Germans,West Germans,"Adolescents
+(13 - 18 years),Adults
+(≥ 18 years)",probability or representative sample,NA,"observational, longitudinal",NA,Yes
+Coder 2,401,1,Germany,East Germans,West Germans,"Adults
+(≥ 18 years)",probability or representative sample,NA,"observational, longitudinal",NA,Yes
+Coder 1,414,1,Turkey,Disabled people,Non-disabled people,"Adults
+(≥ 18 years)","convenience sample, non-students (no random sampling)",NA,"observational, cross-sectional",NA,Yes
+Coder 2,414,1,Turkey,Disabled people,Non-disabled people,"Adults
+(≥ 18 years)","convenience sample, non-students (no random sampling)",NA,"observational, cross-sectional",NA,Yes
+Coder 1,423,1,UK,Eastern European immigrants,British people,"Adults
+(≥ 18 years)","convenience sample, non-students (no random sampling)",NA,"observational, cross-sectional",NA,Yes
+Coder 2,423,1,UK,Eastern European Immigrants in the UK,UK Natives,"Adults
+(≥ 18 years)","convenience sample, non-students (no random sampling)",NA,"observational, cross-sectional",NA,Yes
+Coder 1,423,2,Turkey,Kurds,Turks,"Adults
+(≥ 18 years)","convenience sample, non-students (no random sampling)",NA,"observational, cross-sectional",NA,Yes
+Coder 2,423,2,Turkey,Kurdish Turks,Turks,"Adults
+(≥ 18 years)","convenience sample, non-students (no random sampling)",NA,"observational, cross-sectional",NA,Yes
+Coder 1,423,3,Turkey,Kurds,Turks,"Adults
+(≥ 18 years)","convenience sample, non-students (no random sampling)",NA,"observational, cross-sectional",NA,Yes
+Coder 2,423,3,Turkey,Kurdish Turks,Turks,"Adults
+(≥ 18 years)","convenience sample, non-students (no random sampling)",NA,"observational, cross-sectional",NA,Yes
+Coder 1,446,1,Netherlands,Turkish/Moroccan secondary-school students,People from other ethnic groups,"Adolescents
+(13 - 18 years)","convenience sample, students (no random sampling)",NA,"observational, cross-sectional",NA,No
+Coder 2,446,1,Netherlands,Turkish/Morrocons in the Netherlands,Native Dutch people,"Adolescents
+(13 - 18 years)","convenience sample, students (no random sampling)",NA,"observational, cross-sectional",NA,No
+Coder 1,446,2,Netherlands,Turkish/Moroccan secondary-school students,People from other ethnic groups,"Adolescents
+(13 - 18 years)","convenience sample, students (no random sampling)",NA,"observational, cross-sectional",NA,No
+Coder 2,446,2,NA,Turkish and Morroccon-descent people in the Netherlands,Native Dutch people,"Adolescents
+(13 - 18 years)",NA,NA,"observational, cross-sectional",NA,No
+Coder 1,480,1,Costa Rica,Afro-Costa Ricans,People from other ethnic groups,"Adolescents
+(13 - 18 years)","convenience sample, students (no random sampling)",NA,"observational, cross-sectional",NA,No
+Coder 2,480,1,NA,Afro-Costa Rican adolescents,White Costa Ricans,"Adolescents
+(13 - 18 years)","convenience sample, students (no random sampling)",NA,"observational, cross-sectional",NA,No
+Coder 1,609,1,China,Immigrants from Mainland China to Hong Kong,Hong Kong people,"Adults
+(≥ 18 years)","convenience sample, non-students (no random sampling)",NA,"observational, cross-sectional",NA,No
+Coder 2,609,1,China,Migrants from Mainland China to Hong Kong,Natives of Hong Kong,"Adults
+(≥ 18 years)","convenience sample, students (no random sampling)",NA,"observational, cross-sectional",NA,No
+Coder 1,668,1,Netherlands,Turkish immigrants,Dutch people,"Adults
+(≥ 18 years)",probability or representative sample,NA,"observational, cross-sectional",NA,Yes
+Coder 2,668,1,Netherlands,Turkish immigrants,Dutch natives,"Adults
+(≥ 18 years)",probability or representative sample,NA,"observational, cross-sectional",NA,Yes
+Coder 1,668,2,Netherlands,Moroccan immigrants,Dutch people,"Adults
+(≥ 18 years)",probability or representative sample,NA,"observational, cross-sectional",NA,Yes
+Coder 2,668,2,Netherlands,Moroccan immigrants,Dutch natives,"Adults
+(≥ 18 years)",probability or representative sample,NA,"observational, cross-sectional",NA,Yes
+Coder 1,668,3,Netherlands,Surinamese immigrants,Dutch people,"Adults
+(≥ 18 years)",probability or representative sample,NA,"observational, cross-sectional",NA,Yes
+Coder 2,668,3,Netherlands,Surinamese immigrants,Dutch natives,"Adults
+(≥ 18 years)",probability or representative sample,NA,"observational, cross-sectional",NA,Yes
+Coder 1,668,4,Netherlands,Antilean immigrants,Dutch people,"Adults
+(≥ 18 years)",probability or representative sample,NA,"observational, cross-sectional",NA,Yes
+Coder 2,668,4,Netherlands,Antilean immigrants,Dutch natives,"Adults
+(≥ 18 years)",probability or representative sample,NA,"observational, cross-sectional",NA,Yes
+Coder 1,703,1,USA,African American children,European Americans,"Children
+(≤ 12 years)","convenience sample, students (no random sampling)",NA,"observational, cross-sectional",NA,Yes
+Coder 2,703,1,USA,African Americans,White Americans,"Children
+(≤ 12 years),Adults
+(≥ 18 years)","convenience sample, students (no random sampling)",NA,"observational, cross-sectional",NA,No
+Coder 1,711,1,New Zealand,Chinese young adults,New Zealanders,"Adolescents
+(13 - 18 years),Adults
+(≥ 18 years)","convenience sample, students (no random sampling)",NA,"observational, cross-sectional",NA,No
+Coder 2,711,1,New Zealand,Chinese immigrants,Native New Zealanders,"Adults
+(≥ 18 years)","convenience sample, students (no random sampling)",NA,"observational, cross-sectional",NA,No
+Coder 1,711,2,Singapore,Chinese young adults,Singaporeans,"Adolescents
+(13 - 18 years),Adults
+(≥ 18 years)","convenience sample, students (no random sampling)",NA,"observational, cross-sectional",NA,No
+Coder 2,711,2,NA,Chinese international students,Native Singaporeans,"Adults
+(≥ 18 years)","convenience sample, students (no random sampling)",NA,"observational, cross-sectional",NA,No
+Coder 1,733,1,UK,Malaysian students,British people,"Adults
+(≥ 18 years)","convenience sample, students (no random sampling)",NA,"observational, cross-sectional",NA,No
+Coder 2,733,1,UK,Malaysian international students,Native British people,"Adults
+(≥ 18 years)","convenience sample, students (no random sampling)",NA,"observational, cross-sectional",NA,No
+Coder 1,775,1,Russia,Russians in Kabardino-Balkaria,Kabardians and Balkars,"Adults
+(≥ 18 years)","convenience sample, non-students (no random sampling)",NA,"observational, cross-sectional",NA,No
+Coder 2,775,1,Russia,Russians,Balkars and Kabardians,"Adults
+(≥ 18 years)","convenience sample, non-students (no random sampling)",NA,"observational, cross-sectional",NA,No
+Coder 1,783,1,Netherlands,Moroccan immigrants,Natives,"Adults
+(≥ 18 years)",probability or representative sample,NA,"observational, cross-sectional",NA,No
+Coder 2,783,1,Netherlands,Morrocan immigrants,Dutch natives,"Adults
+(≥ 18 years)",probability or representative sample,NA,"observational, cross-sectional",NA,No
+Coder 1,783,2,Netherlands,Turkish immigrants,Natives,"Adults
+(≥ 18 years)",probability or representative sample,NA,"observational, cross-sectional",NA,No
+Coder 2,783,2,Netherlands,Turkish immigrants,Dutch natives,"Adults
+(≥ 18 years)",probability or representative sample,NA,"observational, cross-sectional",NA,No
+Coder 1,789,1,Israel,Palestinians,Jews,"Adolescents
+(13 - 18 years)","convenience sample, students (no random sampling)",NA,quasi-experimental (no random assignment),NA,Yes
+Coder 2,789,1,Israel,Palestinians,Israelis,"Adolescents
+(13 - 18 years)","convenience sample, students (no random sampling)",NA,quasi-experimental (no random assignment),NA,Yes
+Coder 1,803,1,USA,Mexican Americans,Anglo/White Americans,"Adults
+(≥ 18 years)",probability or representative sample,NA,"observational, cross-sectional",NA,Yes
+Coder 2,803,1,USA,Mexican Americans,White Americans,"Adults
+(≥ 18 years)",probability or representative sample,NA,"observational, cross-sectional",NA,Yes
+Coder 1,813,1,USA,Disadvantaged minimal group,Advantaged minimal group,"Adults
+(≥ 18 years)","convenience sample, students (no random sampling)",NA,experimental (random assignment),NA,Yes
+Coder 2,813,1,NA,Minimal disadvantaged group,Minimal advantaged group,"Adults
+(≥ 18 years)","convenience sample, students (no random sampling)",NA,experimental (random assignment),NA,Yes
+Coder 1,813,2,Israel,Arabs,Jews,"Adults
+(≥ 18 years)","convenience sample, students (no random sampling)",NA,"observational, cross-sectional",NA,Yes
+Coder 2,813,2,Israel,Arab Israelis,Jewish Israelis,"Adults
+(≥ 18 years)","convenience sample, students (no random sampling)",NA,"observational, cross-sectional",NA,Yes
+Coder 1,823,1,USA,International students,US American students,"Adults
+(≥ 18 years)","convenience sample, students (no random sampling)",NA,"observational, cross-sectional",NA,No
+Coder 2,823,1,USA,International students,Native Americans,"Adults
+(≥ 18 years)","convenience sample, students (no random sampling)",NA,"observational, cross-sectional",NA,No
+Coder 1,829,1,"Finland,France,Germany,Netherlands,Norway,Sweden",Turkish adolescents,People from other ethnic groups,"Adolescents
+(13 - 18 years)","convenience sample, non-students (no random sampling)",NA,"observational, cross-sectional",NA,No
+Coder 2,829,1,NA,Turkish adolescents,Native Europeans,"Adolescents
+(13 - 18 years)","convenience sample, students (no random sampling)",NA,"observational, cross-sectional",NA,No
+Coder 1,830,1,USA,Korean American adolescents,People from other ethnic groups,"Adolescents
+(13 - 18 years)","convenience sample, non-students (no random sampling)",NA,"observational, cross-sectional",NA,No
+Coder 2,830,1,USA,Korean American Adolscents,White Americans,"Adolescents
+(13 - 18 years)","convenience sample, students (no random sampling)",NA,"observational, cross-sectional",NA,No
+Coder 1,830,2,USA,Vietnamese American adolescents,People from other ethnic groups,"Adolescents
+(13 - 18 years)",probability or representative sample,NA,"observational, cross-sectional",NA,No
+Coder 2,830,2,USA,Vietnamese American Adolescents,White Americans,"Adolescents
+(13 - 18 years),Adults
+(≥ 18 years)","convenience sample, students (no random sampling)",NA,"observational, cross-sectional",NA,No
+Coder 1,830,3,USA,Cambodian American adolescents,People from other ethnic groups,"Adolescents
+(13 - 18 years)",probability or representative sample,NA,"observational, cross-sectional",NA,No
+Coder 2,830,3,USA,Cambodian American Adolescents,White Americans,"Adolescents
+(13 - 18 years)","convenience sample, students (no random sampling)",NA,"observational, cross-sectional",NA,No
+Coder 1,856,1,Macedonia,Roma secondary-school students,Macedonians,"Adolescents
+(13 - 18 years)","convenience sample, students (no random sampling)",NA,"observational, cross-sectional",NA,Yes
+Coder 2,856,1,Macedonia,Roma in Macedonia,Native Macedonians,"Adolescents
+(13 - 18 years)","convenience sample, students (no random sampling)",NA,"observational, cross-sectional",NA,Yes
+Coder 1,893,1,UK,Catholics,Protestants,"Adults
+(≥ 18 years)",probability or representative sample,NA,"observational, cross-sectional",NA,Yes
+Coder 2,893,1,UK,Catholics in Northern Ireland,Protestants in Northern Ireland,"Adults
+(≥ 18 years)",probability or representative sample,NA,"observational, cross-sectional",NA,No
+Coder 1,894,1,USA,Chicano/Latinx/Mexican Americans,White Americans,"Adults
+(≥ 18 years)","convenience sample, students (no random sampling)",NA,"observational, cross-sectional",NA,Yes
+Coder 2,894,1,USA,Chicano/Latinx/Mexican-Americans,White Americans,"Adults
+(≥ 18 years)","convenience sample, students (no random sampling)",NA,"observational, cross-sectional",NA,Yes
+Coder 1,894,2,USA,African Americans,White Americans,"Adults
+(≥ 18 years)","convenience sample, students (no random sampling)",NA,"observational, cross-sectional",NA,Yes
+Coder 2,894,2,USA,African Americans,White Americans,"Adults
+(≥ 18 years)","convenience sample, students (no random sampling)",NA,experimental (random assignment),NA,Yes
+Coder 1,933,1,USA,Black Americans,White Americans,"Adults
+(≥ 18 years)",probability or representative sample,NA,"observational, cross-sectional",NA,No
+Coder 2,933,1,USA,African Americans,White Americans,"Adults
+(≥ 18 years)",probability or representative sample,NA,"observational, cross-sectional",NA,Yes
+Coder 1,956,1,UK,Sexual-minority students,Heterosexual people,"Adults
+(≥ 18 years)","convenience sample, students (no random sampling)",NA,"observational, cross-sectional",NA,Yes
+Coder 2,956,1,UK,Sexual minorities,Heterosexuals,"Adults
+(≥ 18 years)","convenience sample, students (no random sampling)",NA,"observational, cross-sectional",NA,Yes
+Coder 1,956,2,"Germany,UK",Sexual-minority students,Heterosexual/cisgender people,"Adults
+(≥ 18 years)","convenience sample, students (no random sampling)",NA,"observational, longitudinal",NA,Yes
+Coder 2,956,2,UK,LGBT+,Non-LGBT+,"Adults
+(≥ 18 years)","convenience sample, students (no random sampling)",NA,"observational, longitudinal",NA,Yes
+Coder 1,1020,1,UK,Malaysian (Malay) students,British people,"Adults
+(≥ 18 years)","convenience sample, students (no random sampling)",NA,"observational, cross-sectional",NA,No
+Coder 2,1020,1,UK,Malaysian students of Malay ethnicity,UK natives,"Adults
+(≥ 18 years)","convenience sample, students (no random sampling)",NA,"observational, cross-sectional",NA,No
+Coder 1,1020,2,UK,Malaysian (Chinese) students,British people,"Adults
+(≥ 18 years)","convenience sample, students (no random sampling)",NA,"observational, cross-sectional",NA,No
+Coder 2,1020,2,UK,Malaysian students of Chinese ethnicity,UK natives,"Adults
+(≥ 18 years)","convenience sample, students (no random sampling)",NA,"observational, cross-sectional",NA,No
+Coder 1,1022,1,USA,Ethnic-minority medial students,People of different races or ethnicities,"Adults
+(≥ 18 years)","convenience sample, students (no random sampling)",NA,"observational, cross-sectional",NA,No
+Coder 2,1022,1,USA,Ethnic minorities,White Americans,"Adults
+(≥ 18 years)",probability or representative sample,NA,"observational, cross-sectional",NA,No
+Coder 1,1042,1,USA,Asian Americans,European Americans,"Adults
+(≥ 18 years)","convenience sample, students (no random sampling)",NA,"observational, cross-sectional",NA,Yes
+Coder 2,1042,1,USA,Asian Americans,White Americans,"Adults
+(≥ 18 years)","convenience sample, students (no random sampling)",NA,"observational, cross-sectional",NA,Yes
+Coder 1,1042,2,USA,African Americans,European Americans,"Adults
+(≥ 18 years)","convenience sample, students (no random sampling)",NA,"observational, cross-sectional",NA,Yes
+Coder 2,1042,2,USA,African Americans,White Americans,"Adults
+(≥ 18 years)","convenience sample, students (no random sampling)",NA,"observational, cross-sectional",NA,Yes
+Coder 1,1045,1,USA,Ethnic-minority adolescents,People of a different race/ethnicity,"Adolescents
+(13 - 18 years)","convenience sample, students (no random sampling)",NA,"observational, cross-sectional",NA,No
+Coder 2,1045,1,USA,Ethnic minorities,White Americans,"Adolescents
+(13 - 18 years)","convenience sample, students (no random sampling)",NA,"observational, cross-sectional",NA,No
+Coder 1,1114,1,Lebanon,Syrian refugees,Lebanese people,"Adults
+(≥ 18 years)",probability or representative sample,NA,"observational, cross-sectional",NA,Yes
+Coder 2,1114,1,Lebanon,Syrian Refugees,Lebanese natives,"Adults
+(≥ 18 years)",probability or representative sample,NA,"observational, cross-sectional",NA,Yes
+Coder 1,1161,1,USA,Mexican Americans,White Americans,"Adults
+(≥ 18 years)","convenience sample, non-students (no random sampling)",NA,"observational, cross-sectional",NA,Yes
+Coder 2,1161,1,USA,Mexican Americans,White Americans,"Adults
+(≥ 18 years)",probability or representative sample,NA,"observational, cross-sectional",NA,No
+Coder 1,1163,1,USA,African Americans,White Americans,"Adults
+(≥ 18 years)","convenience sample, students (no random sampling)",NA,"observational, cross-sectional",NA,No
+Coder 2,1163,1,USA,African Americans,White Americans,"Adults
+(≥ 18 years)","convenience sample, students (no random sampling)",NA,"observational, cross-sectional",NA,Yes
+Coder 1,1221,1,USA,Hispanic Americans,People of a different race,"Adolescents
+(13 - 18 years)",probability or representative sample,NA,"observational, cross-sectional",NA,No
+Coder 2,1221,1,USA,Hispanic Americans,White Americans,"Adolescents
+(13 - 18 years)",probability or representative sample,NA,"observational, cross-sectional",NA,No
+Coder 1,1221,2,USA,Black Americans,People of a different race,"Adolescents
+(13 - 18 years)",probability or representative sample,NA,"observational, cross-sectional",NA,No
+Coder 2,1221,2,USA,Black Americans,White Americans,"Adolescents
+(13 - 18 years)",probability or representative sample,NA,"observational, cross-sectional",NA,No
+Coder 1,1221,3,USA,Native Americans,People of a different race,"Adolescents
+(13 - 18 years)",probability or representative sample,NA,"observational, cross-sectional",NA,No
+Coder 2,1221,3,USA,Native Americans,White Americans,"Adolescents
+(13 - 18 years)",probability or representative sample,NA,"observational, cross-sectional",NA,No
+Coder 1,1221,4,USA,Asian Americans,People of a different race,"Adolescents
+(13 - 18 years)",probability or representative sample,NA,"observational, cross-sectional",NA,No
+Coder 2,1221,4,USA,Asian Americans,White Americans,"Adolescents
+(13 - 18 years)",probability or representative sample,NA,"observational, cross-sectional",NA,No
+Coder 1,1248,1,Turkey,Kurds,Turks,"Adults
+(≥ 18 years)","convenience sample, non-students (no random sampling)",NA,"observational, cross-sectional",NA,Yes
+Coder 2,1248,1,Turkey,Kurds in Turkey,Native Kurds,"Adults
+(≥ 18 years)","convenience sample, non-students (no random sampling)",NA,"observational, cross-sectional",NA,Yes
+Coder 1,1283,1,UK,"Black, Asian, and other ethnic minorities",People from a different ethnic group,"Adolescents
+(13 - 18 years),Adults
+(≥ 18 years)",probability or representative sample,NA,"observational, cross-sectional",NA,No
+Coder 2,1283,1,UK,Ethnic minorities,White British,"Adults
+(≥ 18 years)",probability or representative sample,NA,"observational, cross-sectional",NA,No
+Coder 1,1367,1,USA,Low-wage workers,Higher earners,"Adults
+(≥ 18 years)","convenience sample, non-students (no random sampling)",NA,"observational, cross-sectional",NA,Yes
+Coder 2,1367,1,NA,Americans who identify as lower class,Americans who identify as upper class,NA,probability or representative sample,NA,"observational, cross-sectional",NA,No
+Coder 1,1368,1,USA,Adopted Korean American adolescents,People of various ethnic groups,"Adolescents
+(13 - 18 years)","convenience sample, non-students (no random sampling)",NA,"observational, cross-sectional",NA,No
+Coder 2,1368,1,USA,Korean Americans,White Americans,"Adolescents
+(13 - 18 years)","convenience sample, students (no random sampling)",NA,"observational, cross-sectional",NA,No
+Coder 1,1376,1,UK,Catholic students,Protestants,"Adults
+(≥ 18 years)","convenience sample, students (no random sampling)",NA,"observational, cross-sectional",NA,Yes
+Coder 2,1376,1,UK,Catholics in Northern Ireland,Protestants in Northern Ireland,"Adults
+(≥ 18 years)","convenience sample, students (no random sampling)",NA,"observational, cross-sectional",NA,Yes
+Coder 1,1386,1,South Africa,Black South Africans,White South Africans,"Adults
+(≥ 18 years)",probability or representative sample,NA,"observational, cross-sectional",NA,Yes
+Coder 2,1386,1,South Africa,Black South Africans,White South Africans,"Adults
+(≥ 18 years)",probability or representative sample,NA,"observational, cross-sectional",NA,Yes
+Coder 1,1395,1,China,International students in Hong Kong,Local students,"Adolescents
+(13 - 18 years),Adults
+(≥ 18 years)","convenience sample, students (no random sampling)",NA,"observational, cross-sectional",NA,No
+Coder 2,1395,1,China,International students Hong Kong,Hong Kong locals,"Adults
+(≥ 18 years)","convenience sample, students (no random sampling)",NA,"observational, cross-sectional",NA,No
+Coder 1,1407,1,USA,African Americans,White Americans,"Adults
+(≥ 18 years)",probability or representative sample,NA,"observational, cross-sectional",NA,Yes
+Coder 2,1407,1,USA,African Americans,White Americans,"Adults
+(≥ 18 years)",probability or representative sample,NA,"observational, cross-sectional",NA,No
+Coder 1,1407,2,USA,Black Caribbean Americans,White Americans,"Adults
+(≥ 18 years)",probability or representative sample,NA,"observational, cross-sectional",NA,Yes
+Coder 2,1407,2,USA,Black Caribbean Americans,White Americans,"Adults
+(≥ 18 years)",probability or representative sample,NA,"observational, cross-sectional",NA,No
+Coder 1,1411,1,Indonesia,Christians,Muslims,"Adults
+(≥ 18 years)","convenience sample, students (no random sampling)",NA,"observational, cross-sectional",NA,No
+Coder 2,1411,1,Indonesia,Christians in Indonesia,Muslims,"Adults
+(≥ 18 years)",probability or representative sample,NA,"observational, cross-sectional",NA,No
+Coder 1,1412,1,Denmark,Ethnic minorities,Danes,"Adults
+(≥ 18 years)",probability or representative sample,NA,"observational, cross-sectional",NA,No
+Coder 2,1412,1,Denmark,Ethnic minorities in Denmark,Danish Whites,"Adults
+(≥ 18 years)",probability or representative sample,NA,"observational, cross-sectional",NA,No
+Coder 1,1467,1,USA,Students of colour,White students,"Adults
+(≥ 18 years)","convenience sample, students (no random sampling)",NA,experimental (random assignment),NA,No
+Coder 2,1467,1,USA,Ethnic minorities,Whites,"Adults
+(≥ 18 years)","convenience sample, students (no random sampling)",NA,experimental (random assignment),NA,Yes
+Coder 1,1494,1,USA,African American adolescents,People from a different race,"Adolescents
+(13 - 18 years),Adults
+(≥ 18 years)",probability or representative sample,NA,"observational, cross-sectional",NA,Yes
+Coder 2,1494,1,USA,African Americans,White Americans,"Adolescents
+(13 - 18 years)",probability or representative sample,NA,"observational, cross-sectional",NA,No
+Coder 1,1494,2,USA,Hispanic adolescents and young adults,People of a different race,"Adolescents
+(13 - 18 years),Adults
+(≥ 18 years)",probability or representative sample,NA,"observational, cross-sectional",NA,Yes
+Coder 2,1494,2,USA,Hispanic Americans,White Americans,"Adolescents
+(13 - 18 years)",probability or representative sample,NA,"observational, cross-sectional",NA,No
+Coder 1,1494,3,USA,African American adults,People of a different race,"Adults
+(≥ 18 years)",probability or representative sample,NA,"observational, cross-sectional",NA,Yes
+Coder 2,1494,3,USA,African Americans,White Americans,"Adults
+(≥ 18 years)",probability or representative sample,NA,"observational, cross-sectional",NA,No
+Coder 1,1494,4,USA,Hispanic adults,People of a different race,"Adults
+(≥ 18 years)",probability or representative sample,NA,"observational, cross-sectional",NA,Yes
+Coder 2,1494,4,USA,Hispanic Americans,White Americans,"Adults
+(≥ 18 years)",probability or representative sample,NA,"observational, cross-sectional",NA,No
+Coder 1,1525,1,USA,Asian American adolescents,People of a different ethnicity,"Adolescents
+(13 - 18 years)","convenience sample, students (no random sampling)",NA,"observational, cross-sectional",NA,Yes
+Coder 2,1525,1,USA,Asian Americans,White Americans,"Adolescents
+(13 - 18 years)",probability or representative sample,NA,"observational, cross-sectional",NA,No
+Coder 1,1549,1,USA,Black Americans,White Americans,"Adults
+(≥ 18 years)",probability or representative sample,NA,"observational, cross-sectional",NA,Yes
+Coder 2,1549,1,USA,African Americans,White Americans,"Adults
+(≥ 18 years)",other,unclear,"observational, cross-sectional",NA,Yes
+Coder 1,1576,1,USA,Chinese Americans,Non-Chinese Americans,"Adults
+(≥ 18 years)",probability or representative sample,NA,"observational, cross-sectional",NA,Yes
+Coder 2,1576,1,USA,Chinese Americans,White Americans,"Adults
+(≥ 18 years)",probability or representative sample,NA,"observational, cross-sectional",NA,No
+Coder 1,1614,1,Turkey,Kurds,Turks,"Adults
+(≥ 18 years)","convenience sample, students (no random sampling)",NA,"observational, cross-sectional",NA,Yes
+Coder 2,1614,1,Turkey,Kurds in Turkey,Turks,"Adults
+(≥ 18 years)","convenience sample, students (no random sampling)",NA,"observational, cross-sectional",NA,Yes
+Coder 1,1658,1,USA,Black Americans,White Americans,"Adults
+(≥ 18 years)",probability or representative sample,NA,"observational, cross-sectional",NA,No
+Coder 2,1658,1,USA,African Americans,White Americans,"Adults
+(≥ 18 years)",probability or representative sample,NA,"observational, cross-sectional",NA,Yes
+Coder 1,1658,2,USA,Mexican immigrants,White Americans,"Adults
+(≥ 18 years)",probability or representative sample,NA,"observational, cross-sectional",NA,No
+Coder 2,1658,2,USA,Hispanic immgrants,White Americans,"Adults
+(≥ 18 years)",probability or representative sample,NA,"observational, cross-sectional",NA,Yes
+Coder 1,1658,3,USA,Indian immigrants,White Americans,"Adults
+(≥ 18 years)",probability or representative sample,NA,"observational, cross-sectional",NA,No
+Coder 2,1658,3,USA,Indian immgrants,White Americans,"Adults
+(≥ 18 years)",probability or representative sample,NA,"observational, cross-sectional",NA,Yes
+Coder 1,1695,1,New Zealand,Māori,NZ Europeans,"Adults
+(≥ 18 years)",probability or representative sample,NA,"observational, cross-sectional",NA,Yes
+Coder 2,1695,1,New Zealand,Maori New Zealanders,White New Zealanders,"Adults
+(≥ 18 years)",probability or representative sample,NA,"observational, cross-sectional",NA,Yes
+Coder 1,1712,1,Cyprus,Turkish Cypriots in Northern Cyprus,Greek Cypriots in Northern Cyprus,"Adults
+(≥ 18 years)",probability or representative sample,NA,"observational, longitudinal",NA,Yes
+Coder 2,1712,1,Cyprus,Turkish Cypriots,Greek Cypriots,"Adults
+(≥ 18 years)",probability or representative sample,NA,"observational, longitudinal",NA,Yes
+Coder 1,1743,1,USA,African Americans,White Americans,"Adults
+(≥ 18 years)","convenience sample, students (no random sampling)",NA,"observational, longitudinal",NA,Yes
+Coder 2,1743,1,USA,African Americans,White Americans,"Adults
+(≥ 18 years)","convenience sample, students (no random sampling)",NA,"observational, longitudinal",NA,Yes
+Coder 1,1743,2,USA,Latino Americans,White Americans,"Adults
+(≥ 18 years)","convenience sample, students (no random sampling)",NA,"observational, longitudinal",NA,Yes
+Coder 2,1743,2,USA,Latino Americans,White Americans,"Adults
+(≥ 18 years)","convenience sample, students (no random sampling)",NA,"observational, longitudinal",NA,Yes
+Coder 1,1743,3,USA,Asian Americans,White Americans,"Adults
+(≥ 18 years)","convenience sample, students (no random sampling)",NA,"observational, longitudinal",NA,Yes
+Coder 2,1743,3,USA,Asian Americans,White Americans,"Adults
+(≥ 18 years)","convenience sample, students (no random sampling)",NA,"observational, longitudinal",NA,Yes
+Coder 1,1750,1,USA,Turkish international students,US Americans,"Adults
+(≥ 18 years)","convenience sample, students (no random sampling)",NA,"observational, cross-sectional",NA,No
+Coder 2,1750,1,USA,Turkish international students,White Americans,"Adults
+(≥ 18 years)","convenience sample, students (no random sampling)",NA,"observational, cross-sectional",NA,No
+Coder 1,1762,1,Canada,Inuit,English-speaking Canadians,"Adolescents
+(13 - 18 years),Adults
+(≥ 18 years)","convenience sample, non-students (no random sampling)",NA,"observational, cross-sectional",NA,Yes
+Coder 2,1762,1,Canada,Inuit Canadians,White Canadians,"Adults
+(≥ 18 years)","convenience sample, non-students (no random sampling)",NA,"observational, cross-sectional",NA,Yes
+Coder 1,1807,1,Netherlands,"Refugees from Afghanistan, Iran, Iraq and Somalia",Dutch natives,"Adolescents
+(13 - 18 years),Adults
+(≥ 18 years)",probability or representative sample,NA,"observational, cross-sectional",NA,Yes
+Coder 2,1807,1,NA,"Refugees from Afghanistan, Iran, Iraq and Somalia in the Netherlands",Dutch natives,"Adults
+(≥ 18 years)","convenience sample, non-students (no random sampling)",NA,"observational, cross-sectional",NA,No
+Coder 1,1850,1,Russia,Immigrants,Russians,"Adults
+(≥ 18 years)","convenience sample, non-students (no random sampling)",NA,"observational, cross-sectional",NA,No
+Coder 2,1850,1,Russia,Immigrants in Russia,Native Russian,"Adults
+(≥ 18 years)","convenience sample, non-students (no random sampling)",NA,"observational, cross-sectional",NA,No
+Coder 1,1891,1,USA,Arab and Muslim American students,People of different ancestry and religion,"Adults
+(≥ 18 years)","convenience sample, students (no random sampling)",NA,"observational, cross-sectional",NA,No
+Coder 2,1891,1,USA,Arab and Muslim Americans,White Americans,"Adults
+(≥ 18 years)","convenience sample, students (no random sampling)",NA,"observational, cross-sectional",NA,No
+Coder 1,1914,1,Argentina,Foreign students,Locals,"Adults
+(≥ 18 years)","convenience sample, students (no random sampling)",NA,"observational, cross-sectional",NA,No
+Coder 2,1914,1,Argentina,International students in Argentina,Argentine natives,"Adults
+(≥ 18 years)","convenience sample, students (no random sampling)",NA,"observational, cross-sectional",NA,No
+Coder 1,1934,1,USA,African American adolescents,White Americans,"Adolescents
+(13 - 18 years)",probability or representative sample,NA,"observational, cross-sectional",NA,Yes
+Coder 2,1934,1,USA,African Americans,White Americans,"Adolescents
+(13 - 18 years)",probability or representative sample,NA,"observational, cross-sectional",NA,No
+Coder 1,1934,2,USA,Caribbean Black adolescents,White Americans,"Adolescents
+(13 - 18 years)",probability or representative sample,NA,"observational, cross-sectional",NA,Yes
+Coder 2,1934,2,USA,Caribbean Black Americans,White Americans,"Adolescents
+(13 - 18 years)",probability or representative sample,NA,"observational, cross-sectional",NA,No
+Coder 1,1949,1,Germany,Refugees,Germans,"Adolescents
+(13 - 18 years),Adults
+(≥ 18 years)","convenience sample, non-students (no random sampling)",NA,"observational, cross-sectional",NA,No
+Coder 2,1949,1,Germany,Refugees in Germany,Native Germans,"Adults
+(≥ 18 years)","convenience sample, non-students (no random sampling)",NA,"observational, cross-sectional",NA,No
+Coder 1,1950,1,USA,Black Americans,People of a different race,"Adults
+(≥ 18 years)",probability or representative sample,NA,"observational, cross-sectional",NA,No
+Coder 2,1950,1,USA,African Americans,White Americans,"Adults
+(≥ 18 years)",probability or representative sample,NA,"observational, cross-sectional",NA,Yes
+Coder 1,1950,2,USA,Hispanic Americans,People of a different race,"Adults
+(≥ 18 years)",probability or representative sample,NA,"observational, cross-sectional",NA,No
+Coder 2,1950,2,USA,Hispanic Americans,White Americans,"Adults
+(≥ 18 years)",probability or representative sample,NA,"observational, cross-sectional",NA,Yes
+Coder 1,1966,1,Germany,Ethnic German immigrants from the former Soviet Union,Germans,"Adolescents
+(13 - 18 years),Adults
+(≥ 18 years)","convenience sample, non-students (no random sampling)",NA,"observational, cross-sectional",NA,No
+Coder 2,1966,1,NA,Ethnic Germans from the Soviet Union in Germany,Native Germans,"Adolescents
+(13 - 18 years)",probability or representative sample,NA,"observational, cross-sectional",NA,No
+Coder 1,1966,2,Israel,Russian Jewish immigrants,Israelis,"Adolescents
+(13 - 18 years),Adults
+(≥ 18 years)","convenience sample, non-students (no random sampling)",NA,"observational, cross-sectional",NA,No
+Coder 2,1966,2,Israel,Russian Jews emigrated to Israel,Israeli Jews,"Adolescents
+(13 - 18 years)",probability or representative sample,NA,"observational, cross-sectional",NA,No
+Coder 1,1993,1,Singapore,Chinese sojourners,Singaporeans,"Adults
+(≥ 18 years)","convenience sample, students (no random sampling)",NA,"observational, cross-sectional",NA,No
+Coder 2,1993,1,NA,Chinese migrants workers in Singapore,Native Singaporeans,"Adults
+(≥ 18 years)","convenience sample, non-students (no random sampling)",NA,"observational, cross-sectional",NA,No
+Coder 1,2001,1,USA,Black American women,People of a different race,"Adults
+(≥ 18 years)","convenience sample, non-students (no random sampling)",NA,"observational, cross-sectional",NA,Yes
+Coder 2,2001,1,USA,African Americans,White Americans,"Adults
+(≥ 18 years)",probability or representative sample,NA,"observational, cross-sectional",NA,No
+Coder 1,2023,1,UK,South Asian students,People from a different ethnic group,"Children
+(≤ 12 years)","convenience sample, students (no random sampling)",NA,"observational, cross-sectional",NA,No
+Coder 2,2023,1,UK,South Asians in Britain,British Whites,"Adolescents
+(13 - 18 years)","convenience sample, students (no random sampling)",NA,"observational, cross-sectional",NA,Yes
+Coder 1,2023,2,UK,Black students,People from a different ethnic group,"Children
+(≤ 12 years)","convenience sample, students (no random sampling)",NA,"observational, cross-sectional",NA,No
+Coder 2,2023,2,UK,Black Britsh people,White British people,"Adults
+(≥ 18 years)","convenience sample, students (no random sampling)",NA,"observational, cross-sectional",NA,Yes
+Coder 1,2033,1,Canada,First-generation Canadians,Native Canadians,"Adults
+(≥ 18 years)","convenience sample, students (no random sampling)",NA,experimental (random assignment),NA,Yes
+Coder 2,2033,1,Canada,First-generation university students,Non-first-generation university students,"Adults
+(≥ 18 years)","convenience sample, students (no random sampling)",NA,experimental (random assignment),NA,Yes
+Coder 1,2075,1,Canada,SFU students,UBC students,"Adults
+(≥ 18 years)","convenience sample, students (no random sampling)",NA,experimental (random assignment),NA,Yes
+Coder 2,2075,1,NA,Students from a lower-status university,Students from a higher-status university,"Adults
+(≥ 18 years)","convenience sample, students (no random sampling)",NA,experimental (random assignment),NA,Yes
+Coder 1,2257,1,Turkey,Disabled people,Non-disable people,"Adults
+(≥ 18 years)","convenience sample, non-students (no random sampling)",NA,"observational, cross-sectional",NA,No
+Coder 2,2257,1,Turkmenistan,Disabled people,Non-disabled people,NA,"convenience sample, non-students (no random sampling)",NA,"observational, cross-sectional",NA,Yes
+Coder 1,2295,1,USA,"African American, Multiracial, Latino, Asian American students",People from different ethnic groups,"Adults
+(≥ 18 years)","convenience sample, students (no random sampling)",NA,"observational, cross-sectional",NA,No
+Coder 2,2295,1,USA,"African American, Multiracial, Latino, Asian Americans",White Americans,"Adults
+(≥ 18 years)","convenience sample, students (no random sampling)",NA,"observational, cross-sectional",NA,No
+Coder 1,2309,1,USA,Black Americans,White Americans,"Adults
+(≥ 18 years)","convenience sample, non-students (no random sampling)",NA,"observational, cross-sectional",NA,Yes
+Coder 2,2309,1,USA,African Americans,White Americans,"Adults
+(≥ 18 years)","convenience sample, non-students (no random sampling)",NA,"observational, cross-sectional",NA,Yes
+Coder 1,2309,2,USA,Hispanic Americans,Black Americans,"Adults
+(≥ 18 years)","convenience sample, non-students (no random sampling)",NA,"observational, cross-sectional",NA,Yes
+Coder 2,2309,2,USA,Hispanic Americans,White Americans,"Adults
+(≥ 18 years)","convenience sample, students (no random sampling)",NA,"observational, cross-sectional",NA,Yes
+Coder 1,2333,1,USA,Non-White Americans,White Americans,"Adolescents
+(13 - 18 years),Adults
+(≥ 18 years)","convenience sample, students (no random sampling)",NA,"observational, longitudinal",NA,Yes
+Coder 2,2333,1,USA,Ethnic minorities,White Americans,"Adults
+(≥ 18 years)","convenience sample, students (no random sampling)",NA,"observational, cross-sectional",NA,No
+Coder 1,2341,1,Finland,Ethnic re-migrants from Russia,Finish nationals,"Adults
+(≥ 18 years)","convenience sample, students (no random sampling)",NA,"observational, cross-sectional",NA,No
+Coder 2,2341,1,NA,Re-migrants from Russia to Finland,Finnish natives,"Adults
+(≥ 18 years)",probability or representative sample,NA,"observational, longitudinal",NA,No
+Coder 1,2375,1,USA,Latino Americans,Anglo-White Americans,"Adults
+(≥ 18 years)","convenience sample, students (no random sampling)",NA,"observational, cross-sectional",NA,Yes
+Coder 2,2375,1,USA,Latino Americans,White Americans,"Adults
+(≥ 18 years)","convenience sample, students (no random sampling)",NA,"observational, cross-sectional",NA,Yes
+Coder 1,3000,1,China,Mainland Chinese students,Local students,"Adults
+(≥ 18 years)","convenience sample, students (no random sampling)",NA,"observational, cross-sectional",NA,No
+Coder 2,3000,1,China,Mainland Chinese students,Hong Kong natives,"Adults
+(≥ 18 years)","convenience sample, students (no random sampling)",NA,"observational, cross-sectional",NA,No
+Coder 1,3005,1,Norway,Immigrant university students,Native Norwegians,"Adults
+(≥ 18 years)","convenience sample, students (no random sampling)",NA,"observational, cross-sectional",NA,No
+Coder 2,3005,1,Norway,Kurdish university students in Norway,Norwegian natives,"Adults
+(≥ 18 years)","convenience sample, students (no random sampling)",NA,"observational, cross-sectional",NA,No
+Coder 1,3047,1,Russia,Labor migrants from Kyrgyzstan,Russians,"Adults
+(≥ 18 years)","convenience sample, non-students (no random sampling)",NA,"observational, cross-sectional",NA,No
+Coder 2,3047,1,Russia,Kyrgyz migrant workers in Russia,Russian natives,"Adults
+(≥ 18 years)","convenience sample, non-students (no random sampling)",NA,"observational, cross-sectional",NA,No
+Coder 1,3047,2,Russia,Labor migrants from Tajikistan,Russians,"Adults
+(≥ 18 years)","convenience sample, non-students (no random sampling)",NA,"observational, cross-sectional",NA,No
+Coder 2,3047,2,Russia,Tajik migrant workers,Russian natives,"Adults
+(≥ 18 years)","convenience sample, non-students (no random sampling)",NA,"observational, cross-sectional",NA,No
+Coder 1,3047,3,Russia,Labor migrants from Uzbekistan,Russians,"Adults
+(≥ 18 years)","convenience sample, non-students (no random sampling)",NA,"observational, cross-sectional",NA,No
+Coder 2,3047,3,Russia,Uzbek migrant workers,Russian natives,"Adults
+(≥ 18 years)","convenience sample, non-students (no random sampling)",NA,"observational, cross-sectional",NA,No
+Coder 1,3050,1,China,International university students,Local students,"Adults
+(≥ 18 years)","convenience sample, students (no random sampling)",NA,"observational, cross-sectional",NA,No
+Coder 2,3050,1,China,International students in Hong Kong,Hong Kong natives,"Adults
+(≥ 18 years)","convenience sample, students (no random sampling)",NA,"observational, cross-sectional",NA,No
+Coder 1,3051,1,Denmark,Non-Western immigrants,Danes,"Adults
+(≥ 18 years)",probability or representative sample,NA,"observational, cross-sectional",NA,No
+Coder 2,3051,1,Denmark,Non-western migrants in Denmark,Danish natives,"Adults
+(≥ 18 years)",probability or representative sample,NA,"observational, cross-sectional",NA,No
+Coder 1,3060,1,USA,African Americans,Americans who were not African Americans,"Adults
+(≥ 18 years)","convenience sample, non-students (no random sampling)",NA,"observational, cross-sectional",NA,No
+Coder 2,3060,1,USA,African Americans,White Americans,"Adults
+(≥ 18 years)","convenience sample, non-students (no random sampling)",NA,"observational, cross-sectional",NA,No
+Coder 1,3134,1,Germany,Immigrant-origin Muslims,German people,"Adolescents
+(13 - 18 years)",probability or representative sample,NA,"observational, cross-sectional",NA,No
+Coder 2,3134,1,Germany,Immigrant-origin muslims in Germany,Native Germans,"Adolescents
+(13 - 18 years)",probability or representative sample,NA,"observational, cross-sectional",NA,No
+Coder 1,3134,2,Netherlands,Immigrant-origin Muslims,Dutch people,"Adolescents
+(13 - 18 years)",probability or representative sample,NA,"observational, cross-sectional",NA,No
+Coder 2,3134,2,Netherlands,Immigrant-origin muslim adolescents in the Netherlands,Dutch natives,"Adolescents
+(13 - 18 years)",probability or representative sample,NA,"observational, cross-sectional",NA,No
+Coder 1,3134,3,Sweden,Immigrant-origin Muslims,Swedish people,"Adolescents
+(13 - 18 years)",probability or representative sample,NA,"observational, cross-sectional",NA,No
+Coder 2,3134,3,Sweden,Immigrant-origin adolescents in Sweden,Swedish natives,"Adolescents
+(13 - 18 years)",probability or representative sample,NA,"observational, cross-sectional",NA,No
+Coder 1,3196,1,Italy,Immigrant high school students,Italians,"Adolescents
+(13 - 18 years)","convenience sample, students (no random sampling)",NA,"observational, cross-sectional",NA,Yes
+Coder 2,3196,1,Italy,Immigrant-origin muslims in Italy,Italian natives,"Adolescents
+(13 - 18 years)",probability or representative sample,NA,"observational, cross-sectional",NA,No
+Coder 1,3201,1,Palestine,Palestinians in the West Bank,Israelis,"Adults
+(≥ 18 years)","convenience sample, non-students (no random sampling)",NA,"observational, cross-sectional",NA,Yes
+Coder 2,3201,1,Palestine,Palestinians,Israelis,"Adults
+(≥ 18 years)","convenience sample, non-students (no random sampling)",NA,"observational, cross-sectional",NA,No
+Coder 1,3205,1,Romania,Roma,Romanians,"Adults
+(≥ 18 years)",probability or representative sample,NA,"observational, cross-sectional",NA,Yes
+Coder 2,3205,1,Romania,Roma in Romania,Romanian natives,"Adults
+(≥ 18 years)",probability or representative sample,NA,"observational, cross-sectional",NA,Yes

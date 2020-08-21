@@ -1,0 +1,112 @@
+% Options for packages loaded elsewhere
+\PassOptionsToPackage{unicode}{hyperref}
+\PassOptionsToPackage{hyphens}{url}
+%
+\documentclass[
+]{article}
+\usepackage{lmodern}
+\usepackage{amssymb,amsmath}
+\usepackage{ifxetex,ifluatex}
+\ifnum 0\ifxetex 1\fi\ifluatex 1\fi=0 % if pdftex
+  \usepackage[T1]{fontenc}
+  \usepackage[utf8]{inputenc}
+  \usepackage{textcomp} % provide euro and other symbols
+\else % if luatex or xetex
+  \usepackage{unicode-math}
+  \defaultfontfeatures{Scale=MatchLowercase}
+  \defaultfontfeatures[\rmfamily]{Ligatures=TeX,Scale=1}
+\fi
+% Use upquote if available, for straight quotes in verbatim environments
+\IfFileExists{upquote.sty}{\usepackage{upquote}}{}
+\IfFileExists{microtype.sty}{% use microtype if available
+  \usepackage[]{microtype}
+  \UseMicrotypeSet[protrusion]{basicmath} % disable protrusion for tt fonts
+}{}
+\makeatletter
+\@ifundefined{KOMAClassName}{% if non-KOMA class
+  \IfFileExists{parskip.sty}{%
+    \usepackage{parskip}
+  }{% else
+    \setlength{\parindent}{0pt}
+    \setlength{\parskip}{6pt plus 2pt minus 1pt}}
+}{% if KOMA class
+  \KOMAoptions{parskip=half}}
+\makeatother
+\usepackage{xcolor}
+\IfFileExists{xurl.sty}{\usepackage{xurl}}{} % add URL line breaks if available
+\IfFileExists{bookmark.sty}{\usepackage{bookmark}}{\usepackage{hyperref}}
+\hypersetup{
+  pdftitle={Meta-analysis of the `ironic' effects of intergroup contact},
+  pdfauthor={Nils Karl Reimer, University of Oxford; Nikhil Kumar Sengupta, University of Kent},
+  hidelinks,
+  pdfcreator={LaTeX via pandoc}}
+\urlstyle{same} % disable monospaced font for URLs
+\usepackage[margin=1in]{geometry}
+\usepackage{graphicx,grffile}
+\makeatletter
+\def\maxwidth{\ifdim\Gin@nat@width>\linewidth\linewidth\else\Gin@nat@width\fi}
+\def\maxheight{\ifdim\Gin@nat@height>\textheight\textheight\else\Gin@nat@height\fi}
+\makeatother
+% Scale images if necessary, so that they will not overflow the page
+% margins by default, and it is still possible to overwrite the defaults
+% using explicit options in \includegraphics[width, height, ...]{}
+\setkeys{Gin}{width=\maxwidth,height=\maxheight,keepaspectratio}
+% Set default figure placement to htbp
+\makeatletter
+\def\fps@figure{htbp}
+\makeatother
+\setlength{\emergencystretch}{3em} % prevent overfull lines
+\providecommand{\tightlist}{%
+  \setlength{\itemsep}{0pt}\setlength{\parskip}{0pt}}
+\setcounter{secnumdepth}{-\maxdimen} % remove section numbering
+
+\title{Meta-analysis of the `ironic' effects of intergroup contact}
+\author{Nils Karl Reimer, University of Oxford \and Nikhil Kumar Sengupta, University of Kent}
+\date{12/08/2020}
+
+\begin{document}
+\maketitle
+
+\hypertarget{results}{%
+\section{Results}\label{results}}
+
+\hypertarget{preregistered-analyses}{%
+\subsection{Preregistered analyses}\label{preregistered-analyses}}
+
+As preregistered, we ran three random-effects meta-analysis models, one
+for the relationship between intergroup contact and each outcome
+variable. Across 200,229 participants from 117 samples in 81 studies, we
+found strong evidence for a weak association (\(r = -.07, [-.11,-.04]\))
+between intergroup contact and perceived injustice, with \(>99.9\%\) of
+posterior samples for the mean correlation coefficient falling below
+zero. We found evidence that correlation coefficients varied across
+studies (\(\tau_J = .14, [.12,.17]\)) and across samples within studies
+(\(\tau_I = .09, [.06,.13]\)). Across 118,584 participants from 36
+samples in 23 studies, we found some evidence for a weak association
+(\(r = -.06, [-.14,.01]\)) between intergroup contact and collective
+action, with \(95.0\%\) of posterior samples for the mean correlation
+coefficient falling below zero. We found evidence that correlation
+coefficients varied across studies (\(\tau_J = .17, [.12,.24]\)) and
+across samples within studies (\(\tau_I = .09, [.06,.15]\)). Across
+13,703 participants from 19 samples in 14 studies, we found some
+evidence for a weak association (\(r = -.07, [-.14,-.00]\)) between
+intergroup contact and policy support, with \(98.1\%\) of posterior
+samples for the mean correlation coefficient falling below zero. We
+found evidence that correlation coefficients varied across studies
+(\(\tau_J = .10, [.06,.18]\)) and, to a lesser extent, across samples
+within studies (\(\tau_I = .03, [.00,.12]\)).
+
+As preregistered, we ran another three random-effects meta-analysis
+models to estimate the relationships between the three outcome
+variables. As we were not interested in the direction of these
+relationships, we used cross-sectional correlation coefficients as
+effect sizes for longitudinal studies. Across 111,252 participants from
+24 samples in 13 studies, we found evidence for a moderate association
+(\(r = .29, [.21,.37]\)) between perceived injustice and collective
+action. Across 6,244 participants from 12 samples in 9 studies, we found
+evidence for a moderate association (\(r = .23, [.08,.35]\)) between
+perceived injustice and policy support. Across 8,558 participants from 6
+samples in 3 studies, we found evidence for a moderate association
+(\(r = .30, [.13,.42]\)) between collective action and policy support.
+
+\end{document}

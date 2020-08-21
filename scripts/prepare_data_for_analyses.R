@@ -1,9 +1,14 @@
 rm(list = ls())
 
 # Notes -------------------------------------------------------------------
-  # In longitudinal studies with more than two waves, I should decide on 
-  # which intervals to include (e.g., t1 -> t3).
+  
+  #########################################################################
+  # 414 (1) and 2257 are likely duplicates—but have different measures.   # 
+  #########################################################################
 
+  #########################################################################
+  # Something is wrong with 2381's entry which contains ps double.        #
+  #########################################################################
 
 # Library -----------------------------------------------------------------
 
@@ -20,6 +25,8 @@ rm(list = ls())
   si <- read_rds("data/si.rds")
   mi <- read_rds("data/mi.rds")
   es <- read_rds("data/es.rds")
+  mo <- read_rds("data/mo.rds")
+  mo_mi <- read_rds("data/mo_mi.rds")
 
 
 # Calculate effect sizes --------------------------------------------------
@@ -43,12 +50,6 @@ rm(list = ls())
       si %>% select(id, sample, n),
       by = c("id", "sample")
     ) %>% 
-    mutate(
-      n = case_when(
-        !is.na(n1) & !is.na(n2) ~ n1 + n2,
-        TRUE ~ n
-      )
-    ) %>% 
     select(id:es, n, r, everything())
 
 
@@ -62,7 +63,7 @@ rm(list = ls())
         mutate(r_bc = r) %>% 
         select(id, sample, y, y_name, t1, t2, r_bc),
       by = c("id", "sample", "y", "y_name", "t1", "t2")
-    ) %>%
+    ) %>% 
     left_join(
       dl %>% 
         filter(metric == "r", x != y, x_name != y_name, t1 == t2) %>% 
@@ -78,15 +79,6 @@ rm(list = ls())
   
   # Exclude cross-lagged effects across two waves (e.g., t1 -> t3)
   dl <- dl %>% filter((is.na(t1) & is.na(t2)) | (t2 - t1) == 1L)
-  
-
-# Select/Arrange variables -------------------------------------------------------
-
-  # Select variables
-  dl <- dl %>% 
-    select(
-      id, sample, n, r, x, y, x_name, y_name, t1, t2, r_ab, r_bc, r_ac
-    )
   
 
 # Rank variables ----------------------------------------------------------
@@ -138,10 +130,75 @@ rm(list = ls())
     select(
       id:r, x, y, x_var, y_var, x_rank, y_rank, x_name, y_name, everything()
     )
+  
+  
+# Combine -----------------------------------------------------------------
+
+  # Add measure descriptions
+  dl <- dl %>% 
+    left_join(
+      mi %>% 
+        select(id, sample, x = variable, x_name = name, x_text = text) %>% 
+        distinct(),
+      by = c("id", "sample", "x", "x_name")
+    ) %>% 
+    left_join(
+      mi %>% 
+        select(id, sample, y = variable, y_name = name, y_text = text) %>% 
+        distinct(),
+      by = c("id", "sample", "y", "y_name")
+    )
+  
+  # Add moderators (study/sample)
+  dl <- dl %>% left_join(mo, by = c("id", "sample"))
+  
+  # Add moderators (measures)
+  dl <- dl %>% 
+    mutate(
+      x_text = if_else(
+        id == 4003L & x == "pc",
+        mo_mi$text[mo_mi$id == 4003L & mo_mi$variable == "pc"],
+        x_text
+      )
+    ) %>% 
+    left_join(
+      mo_mi %>% 
+        filter(var == "ic") %>% 
+        select(-starts_with("pi_")) %>% 
+        rename_with(~paste0("x_", .), c("var", "name", "text")) %>% 
+        rename(x = variable),
+      by = c("id", "sample", "x", "x_var", "x_name", "x_text")
+    ) %>% 
+    left_join(
+      mo_mi %>% 
+        filter(var == "pi") %>% 
+        select(-starts_with("ic_")) %>% 
+        rename_with(~paste0("y_", .), c("var", "name", "text")) %>% 
+        rename(y = variable),
+      by = c("id", "sample", "y", "y_var", "y_name", "y_text")
+    )
 
 
 # Export ------------------------------------------------------------------
 
+  # Select variables
+  dl <- dl %>% 
+    select(
+      id, sample, metric, es, n1, n2, direction, n, r,
+      x, y, x_var, y_var, x_rank, y_rank, x_name, y_name, x_text, y_text,
+      source, note, t1, t2, r_ab, r_bc, r_ac,
+      country, region, continent, ingroup, outgroup, study_setting, 
+      study_design, study_sample, age, study_intention, publication_status,
+      ic_direct, pi_specific, pi_personal,
+      ends_with("to_usa")
+    )
+  
+  # Remove missing effect/sample sizes
+  dl <- dl %>% filter(!is.na(n), !is.na(r))
+  
+  # Arrange for export
+  dl <- dl %>% arrange(id, sample, x, y)
+  
   # Export as .csv files (data/csv/) 
   write_csv(dl, "data/csv/dl.csv")
 

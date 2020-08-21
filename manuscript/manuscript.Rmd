@@ -1,0 +1,182 @@
+---
+title: "Meta-analysis of the `ironic' effects of intergroup contact"
+author:
+  - Nils K. Reimer
+  - Nikhil K. Sengupta
+output:
+  pdf_document:
+    latex_engine: pdflatex
+    keep_tex: true
+    # template: custom-template.tex
+---
+
+```{r setup, include = FALSE}
+
+  # Load packages
+  library(tidyverse); library(tidybayes); library(numform)
+
+  # Functions
+  r_to_z <- function(r) 0.5 * log( (1 + r) / (1 - r) )
+  z_to_r <- function(z) ( exp(2 * z) - 1 ) / ( exp(2 * z) + 1 )
+
+  # knitr options
+  knitr::opts_chunk$set(echo = FALSE)
+
+```
+
+# Results
+
+## Search results
+
+## Preregistered analyses
+
+```{r, include = FALSE}
+
+  # Make posterior predictions
+  results <- read_rds("../results/results_preregistered_analyses.rds") %>% 
+    mutate(
+      r_pred_l80 = z_to_r(qnorm(0.10, mu, tau_jj)),
+      r_pred_u80 = z_to_r(qnorm(0.90, mu, tau_jj)),
+    )
+
+  # Summarise results
+  results <- results %>% 
+    pivot_longer(
+      c(r_mean, tau_ii, tau_jj, r_pred_l80, r_pred_u80),
+      names_to = "parameter",
+      values_to = "estimate",
+      values_drop_na = TRUE
+    ) %>% 
+    group_by(x_var, y_var, parameter) %>% 
+    summarize(
+      I = f_comma(unique(I)),
+      J = f_comma(unique(J)),
+      N = f_comma(unique(N)),
+      median = median(estimate),
+      .lower = quantile(estimate, 0.025),
+      .upper = quantile(estimate, 0.975),
+      p_below = mean(estimate < 0),
+      p_above = mean(estimate > 0)
+    ) %>% 
+    ungroup() %>% 
+    mutate(
+      across(
+        c(median, .lower, .upper), 
+        ~f_num(., digits = 2)
+      ),
+      across(
+        c(p_below, p_above), 
+        ~case_when(
+          . < .001 ~ "$<0.1\\%$",
+          . > .999 ~ "$>99.9\\%$",
+          TRUE ~ paste0("$", f_num(. * 100, digits = 1), "\\%$")
+        )
+      ),
+      text = case_when(
+        parameter == "r_mean" ~ paste0("$r = ", median, ", [", .lower, ", ", .upper, "]$"),
+        parameter == "tau_ii" ~ paste0("$\\tau_I = ", median, ", [", .lower, ", ", .upper, "]$"),
+        parameter == "tau_jj" ~ paste0("$\\tau_J = ", median, ", [", .lower, ", ", .upper, "]$"),
+        TRUE ~ paste0("$", median, ", [", .lower, ", ", .upper, "]$")
+      )
+    ) %>% 
+    select(-median, -.lower, -.upper)
+
+```
+
+```{r, include = FALSE}
+
+  # Summarize predictions for statistical power
+  n_req <- read_rds("../results/n_req.rds") %>%
+    group_by(y_var) %>%
+    summarize(
+      across(
+        c(n, r),
+        list(
+          "med" = ~median(.),
+          "l95" = ~quantile(., 0.025),
+          "u95" = ~quantile(., 0.975)
+        )
+      )
+    ) %>%
+    mutate(
+      across(starts_with("n"), ~f_comma(ceiling(.))),
+      across(starts_with("r"), ~f_num(., digits = 3)),
+      n_text = paste0(n_med, ", [", n_l95, ", ", n_u95, "]"),
+      r_text = paste0("$|r| > ", r_med, ", [", r_l95, ", ", r_u95, "]$")
+    )
+
+```
+
+As preregistered, we ran three random-effects meta-analysis models, one for each outcome variable. Figure 3 shows posterior distributions from these analyses.
+
+```{r, fig_width = "100%", fig.align = "center", fig.cap = "Results of preregistered analyses. (\\textbf{A}) Posterior distributions for the estimated mean correlation coefficient, highlighting the proportion of posterior samples for which $r_\\text{mean} < 0$. (\\textbf{B}) Posterior predictive distributions  for the estimated study-wise correlation coefficients."}
+knitr::include_graphics("../figures/figure-3.pdf") 
+```
+
+```{r, include = FALSE}
+pi_results <- results %>% filter(x_var == "ic", y_var == "pi")
+```
+
+*Perceived injustice.* Across `r unique(pi_results$N)` participants from `r unique(pi_results$I)` samples in `r unique(pi_results$J)` studies, we found strong evidence for a weak association (`r pi_results$text[pi_results$parameter == "r_mean"]`) between intergroup contact and perceived injustice, with `r pi_results$p_below[pi_results$parameter == "r_mean"]` of posterior samples for the mean correlation coefficient falling below zero. We found evidence that correlation coefficients varied across studies (`r pi_results$text[pi_results$parameter == "tau_jj"]`) and across samples within studies  (`r pi_results$text[pi_results$parameter == "tau_ii"]`). Based on these analyses, we predicted that 80\% of studies would result in correlation coefficients between `r pi_results$text[pi_results$parameter == "r_pred_l80"]` and `r pi_results$text[pi_results$parameter == "r_pred_u80"]` and that researchers would need sample sizes of at least `r n_req$n_text[n_req$y_var == "pi"]` participants to find significant associations ($\alpha = .05$, two-sided) in 80\% of their studies.^[Sample sizes are based on posterior predictions from the three models, which implied that, for 80\% of studies, the absolute correlation coefficient would be `r n_req$r_text[n_req$y_var == "pi"]` for perceived injustice, `r n_req$r_text[n_req$y_var == "ca"]` for collective action, and `r n_req$r_text[n_req$y_var == "ps"]` for policy support.]
+
+```{r, include = FALSE}
+ca_results <- results %>% filter(x_var == "ic", y_var == "ca")
+```
+
+*Collective action.* Across `r unique(ca_results$N)` participants from `r unique(ca_results$I)` samples in `r unique(ca_results$J)` studies, we found some evidence for a weak association (`r ca_results$text[ca_results$parameter == "r_mean"]`) between intergroup contact and collective action, with `r ca_results$p_below[ca_results$parameter == "r_mean"]` of posterior samples for the mean correlation coefficient falling below zero. We found evidence that correlation coefficients varied across studies (`r ca_results$text[ca_results$parameter == "tau_jj"]`) and across samples within studies  (`r ca_results$text[ca_results$parameter == "tau_ii"]`). Based on these analyses, we predicted that 80\% of studies would result in correlation coefficients between `r ca_results$text[pi_results$parameter == "r_pred_l80"]` and `r ca_results$text[pi_results$parameter == "r_pred_u80"]` and that researchers would need sample sizes of at least `r n_req$n_text[n_req$y_var == "ca"]` participants to find significant associations ($\alpha = .05$, two-sided) in 80\% of their studies.
+
+```{r, include = FALSE}
+ps_results <- results %>% filter(x_var == "ic", y_var == "ps")
+```
+
+*Policy support.* Across `r unique(ps_results$N)` participants from `r unique(ps_results$I)` samples in `r unique(ps_results$J)` studies, we found some evidence for a weak association (`r ps_results$text[ps_results$parameter == "r_mean"]`) between intergroup contact and policy support, with `r ps_results$p_below[ps_results$parameter == "r_mean"]` of posterior samples for the mean correlation coefficient falling below zero. We found evidence that correlation coefficients varied across studies (`r ps_results$text[ps_results$parameter == "tau_jj"]`) and, to a lesser extent, across samples within studies  (`r ps_results$text[ps_results$parameter == "tau_ii"]`). Based on these analyses, we predicted that 80\% of studies would result in correlation coefficients between `r ps_results$text[pi_results$parameter == "r_pred_l80"]` and `r ps_results$text[pi_results$parameter == "r_pred_u80"]` and that researchers would need sample sizes of at least `r n_req$n_text[n_req$y_var == "ps"]` participants to find significant associations ($\alpha = .05$, two-sided) in 80\% of their studies.
+
+```{r, include = FALSE}
+pi_ca_results <- results %>% filter(x_var == "pi", y_var == "ca", parameter == "r_mean")
+pi_ps_results <- results %>% filter(x_var == "pi", y_var == "ps", parameter == "r_mean")
+ca_ps_results <- results %>% filter(x_var == "ca", y_var == "ps", parameter == "r_mean")
+```
+
+As preregistered, we ran another three random-effects meta-analysis models to estimate the relationships between the three outcome variables. As we were not interested in the direction of these relationships, we used cross-sectional correlation coefficients as effect sizes for longitudinal studies. Across `r pi_ca_results$N` participants from `r pi_ca_results$I` samples in `r pi_ca_results$J` studies, we found evidence for a moderate association (`r pi_ca_results$text`) between perceived injustice and collective action. Across `r pi_ps_results$N` participants from `r pi_ps_results$I` samples in `r pi_ps_results$J` studies, we found evidence for a moderate association (`r pi_ps_results$text`) between perceived injustice and policy support. Across `r ca_ps_results$N` participants from `r ca_ps_results$I` samples in `r ca_ps_results$J` studies, we found evidence for a moderate association (`r ca_ps_results$text`) between collective action and policy support.
+
+### Robustness checks
+
+```{r, include = FALSE}
+
+  # Summarize prior choice results
+  d_priors <- read_rds("../results/results_robustness_checks_priors.rds") %>% 
+    group_by(y_var, prior) %>% 
+    median_qi(d_r_mean) %>% 
+    mutate(
+      across(c(d_r_mean, .lower, .upper), ~f_num(., digits = 2)),
+      text = paste0("$\\Delta r = ", d_r_mean, ", [", .lower, ", ", .upper, "]$")
+    )
+
+```
+
+```{r, include = FALSE}
+
+  # Calculate Mean Absolute Deviation (MAD)
+  mad_loo <- read_rds("../results/results_robustness_checks_loo.rds") %>% 
+    group_by(.draw, y_var) %>% 
+    summarize(mad_loo = mean(ae_loo)) %>% 
+    group_by(y_var) %>% 
+    median_qi(mad_loo) %>% 
+    mutate(
+      across(c(mad_loo, .lower, .upper), ~f_num(., digits = 2)),
+      text = paste0("$\\textit{MAD} = ", mad_loo, ", [", .lower, ", ", .upper, "]$")
+    )
+
+  # Leave out most influential studies
+  d_loo <- read_rds("../results/results_robustness_checks_loo.rds") %>% 
+    group_by(y_var, id) %>%
+    median_qi(e_loo) %>% 
+    top_n(n = 1, wt = abs(e_loo)) %>% 
+    mutate(
+      across(c(e_loo, .lower, .upper), ~f_num(., digits = 2)),
+      text = paste0("$\\Delta r = ", e_loo, ", [", .lower, ", ", .upper, "]$")
+    )
+
+```
+
+First, we assessed to what extent our findings were sensitive to choosing narrower, $\mu \sim \text{Normal}(0, 0.1)$, or wider, $\mu \sim \text{Normal}(0, 1)$, prior distributions. Choosing narrower or wider prior distribution did not affect mean effect size estimates for perceived injustice (`r d_priors$text[d_priors$y_var == "pi" & d_priors$prior == "N(0, 0.1)"]` and `r d_priors$text[d_priors$y_var == "pi" & d_priors$prior == "N(0, 1.0)"]`), collective action (`r d_priors$text[d_priors$y_var == "ca" & d_priors$prior == "N(0, 0.1)"]` and `r d_priors$text[d_priors$y_var == "ca" & d_priors$prior == "N(0, 1.0)"]`), and policy support (`r d_priors$text[d_priors$y_var == "ps" & d_priors$prior == "N(0, 0.1)"]` and `r d_priors$text[d_priors$y_var == "ps" & d_priors$prior == "N(0, 1.0)"]`). Second, we assessed to what extent our findings were sensitive to including or excluding influential studies by repeating the preregistered analyses $J$ times while leaving out one of $J$ studies each time and by calculating the mean absolute difference (*MAD*) for the estimated mean effect size across left-out studies. For perceived injustice (`r mad_loo$text[mad_loo$y_var == "pi"]`), collective action (`r mad_loo$text[mad_loo$y_var == "ca"]`), and policy support (`r mad_loo$text[mad_loo$y_var == "ps"]`), the *MAD* was small. Leaving out the most influential study, for example, did not change estimates of the mean effect size for the three outcomes (`r d_loo$text[d_loo$y_var == "pi"]`; `r d_loo$text[d_loo$y_var == "ca"]`; `r d_loo$text[d_loo$y_var == "ps"]`). Together, these analyses showed that our findings were robust to choosing different prior distributions and to excluding influential studies.

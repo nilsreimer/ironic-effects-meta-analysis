@@ -35,6 +35,15 @@ es <- tribble(
   1411L,      1L,     "r", -0.0682, "gd", "cq", "author",    NA,
   1411L,      1L,     "r", -0.1392, "gd", "pc", "author",    NA,
   1411L,      1L,     "r",  1.0000, "gd", "gd", "author",    NA,
+  1412L,      1L,     "r",  1.0000, "cq", "cq", "author",    NA,
+  1412L,      1L,     "r", -0.0318, "cq", "pd", "author",    NA,
+  1412L,      1L,     "r", -0.2817, "cq", "oa", "author",    NA,
+  1412L,      1L,     "r", -0.0318, "pd", "cq", "author",    NA,
+  1412L,      1L,     "r",  1.0000, "pd", "pd", "author",    NA,
+  1412L,      1L,     "r",  0.0419, "pd", "oa", "author",    NA,
+  1412L,      1L,     "r", -0.2817, "oa", "cq", "author",    NA,
+  1412L,      1L,     "r",  0.0419, "oa", "pd", "author",    NA,
+  1412L,      1L,     "r",  1.0000, "oa", "oa", "author",    NA,
   1525L,      1L,     "r",  -0.162, "cf", "pd",   "data",    NA,
   1525L,      1L,     "r",  -0.075, "cf", "gi",   "data", "ethnic identity - centrality",
   1525L,      1L,     "r",   0.018, "cf", "gi",   "data", "ethnic identity - regard",
@@ -64,8 +73,10 @@ es <- tribble(
 # Extract effect sizes (d) for group differences
 es <- tribble(
     ~id, ~sample, ~metric,     ~es,   ~x,   ~y,  ~source, ~note, ~n1, ~n2, ~m1, ~s1, ~m2, ~s2,
-   244L,      1L,     "d",      NA, "ic", "pi",   "text",    NA, 59L, 70L, 7.48, 1.07, 7.01, 1.11, # This is a cross-sectional study, but the predictor was dichotomized.
-   244L,      1L,     "d",      NA, "ic", "pi",   "text",    NA, 59L, 70L,   NA, NA, NA, NA, # This is a cross-sectional study, but the predictor was dichotomized.
+   244L,      1L,     "d",      NA, "ic", "pi",   "text", "wrongfulness of race-based exclusion",          59L, 70L, 7.48, 1.07, 7.01, 1.11, # This is a cross-sectional study, but the predictor was dichotomized.
+   244L,      1L,     "d",      NA, "ic", "pi",   "text", "frequency of race-based exclusion - lunch",     59L, 70L, 2.14, 1.18, 2.29, 1.25, # This is a cross-sectional study, but the predictor was dichotomized.
+   244L,      1L,     "d",      NA, "ic", "pi",   "text", "frequency of race-based exclusion - sleepover", 59L, 70L, 2.49, 1.06, 2.33, 0.84, # This is a cross-sectional study, but the predictor was dichotomized.
+   244L,      1L,     "d",      NA, "ic", "pi",   "text", "frequency of race-based exclusion - dance",     59L, 70L, 2.27, 1.02, 2.42, 1.00, # This is a cross-sectional study, but the predictor was dichotomized.
    789L,      1L,     "d",      NA, "ic", "pi",   "text", "quasi-experimental pre-post design", 162L, 119L, 5.52/1.30-5.68/1.48, 1.00, 5.60/1.35-5.71/1.43, 1.00, 
    789L,      1L,     "d",      NA, "ic", "gd",   "text", "quasi-experimental pre-post design, outcome reversed to measure perceived inequality", 162L, 119L, (6-1.75)/1.02-(6-2.11)/1.06, 1.00, (6-2.08)/1.06-(6-2.32)/1.12, 1.00,
   2033L,      1L,     "d",    0.08, "ic", "ca",   "text", "willingness to engage in collective action", 40L, 40L, 3.8, 1.4, 3.7, 0.9,

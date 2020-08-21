@@ -1,0 +1,178 @@
+% Options for packages loaded elsewhere
+\PassOptionsToPackage{unicode}{hyperref}
+\PassOptionsToPackage{hyphens}{url}
+%
+\documentclass[
+]{article}
+\usepackage{lmodern}
+\usepackage{amssymb,amsmath}
+\usepackage{ifxetex,ifluatex}
+\ifnum 0\ifxetex 1\fi\ifluatex 1\fi=0 % if pdftex
+  \usepackage[T1]{fontenc}
+  \usepackage[utf8]{inputenc}
+  \usepackage{textcomp} % provide euro and other symbols
+\else % if luatex or xetex
+  \usepackage{unicode-math}
+  \defaultfontfeatures{Scale=MatchLowercase}
+  \defaultfontfeatures[\rmfamily]{Ligatures=TeX,Scale=1}
+\fi
+% Use upquote if available, for straight quotes in verbatim environments
+\IfFileExists{upquote.sty}{\usepackage{upquote}}{}
+\IfFileExists{microtype.sty}{% use microtype if available
+  \usepackage[]{microtype}
+  \UseMicrotypeSet[protrusion]{basicmath} % disable protrusion for tt fonts
+}{}
+\makeatletter
+\@ifundefined{KOMAClassName}{% if non-KOMA class
+  \IfFileExists{parskip.sty}{%
+    \usepackage{parskip}
+  }{% else
+    \setlength{\parindent}{0pt}
+    \setlength{\parskip}{6pt plus 2pt minus 1pt}}
+}{% if KOMA class
+  \KOMAoptions{parskip=half}}
+\makeatother
+\usepackage{xcolor}
+\IfFileExists{xurl.sty}{\usepackage{xurl}}{} % add URL line breaks if available
+\IfFileExists{bookmark.sty}{\usepackage{bookmark}}{\usepackage{hyperref}}
+\hypersetup{
+  pdftitle={Meta-analysis of the `ironic' effects of intergroup contact},
+  pdfauthor={Nils K. Reimer; Nikhil K. Sengupta},
+  hidelinks,
+  pdfcreator={LaTeX via pandoc}}
+\urlstyle{same} % disable monospaced font for URLs
+\usepackage[margin=1in]{geometry}
+\usepackage{graphicx,grffile}
+\makeatletter
+\def\maxwidth{\ifdim\Gin@nat@width>\linewidth\linewidth\else\Gin@nat@width\fi}
+\def\maxheight{\ifdim\Gin@nat@height>\textheight\textheight\else\Gin@nat@height\fi}
+\makeatother
+% Scale images if necessary, so that they will not overflow the page
+% margins by default, and it is still possible to overwrite the defaults
+% using explicit options in \includegraphics[width, height, ...]{}
+\setkeys{Gin}{width=\maxwidth,height=\maxheight,keepaspectratio}
+% Set default figure placement to htbp
+\makeatletter
+\def\fps@figure{htbp}
+\makeatother
+\setlength{\emergencystretch}{3em} % prevent overfull lines
+\providecommand{\tightlist}{%
+  \setlength{\itemsep}{0pt}\setlength{\parskip}{0pt}}
+\setcounter{secnumdepth}{-\maxdimen} % remove section numbering
+
+\title{Meta-analysis of the `ironic' effects of intergroup contact}
+\author{Nils K. Reimer \and Nikhil K. Sengupta}
+\date{}
+
+\begin{document}
+\maketitle
+
+\hypertarget{results}{%
+\section{Results}\label{results}}
+
+\hypertarget{search-results}{%
+\subsection{Search results}\label{search-results}}
+
+\hypertarget{preregistered-analyses}{%
+\subsection{Preregistered analyses}\label{preregistered-analyses}}
+
+As preregistered, we ran three random-effects meta-analysis models, one
+for each outcome variable. Figure 3 shows posterior distributions from
+these analyses.
+
+\begin{figure}
+
+{\centering \includegraphics{../figures/figure-3} 
+
+}
+
+\caption{Results of preregistered analyses. (\textbf{A}) Posterior distributions for the estimated mean correlation coefficient, highlighting the proportion of posterior samples for which $r_\text{mean} < 0$. (\textbf{B}) Posterior predictive distributions  for the estimated study-wise correlation coefficients.}\label{fig:unnamed-chunk-3}
+\end{figure}
+
+\emph{Perceived injustice.} Across 200,229 participants from 117 samples
+in 81 studies, we found strong evidence for a weak association
+(\(r = -.07, [-.11, -.04]\)) between intergroup contact and perceived
+injustice, with \(>99.9\%\) of posterior samples for the mean
+correlation coefficient falling below zero. We found evidence that
+correlation coefficients varied across studies
+(\(\tau_J = .14, [.12, .17]\)) and across samples within studies
+(\(\tau_I = .09, [.06, .13]\)). Based on these analyses, we predicted
+that 80\% of studies would result in correlation coefficients between
+\(-.25, [-.30, -.21]\) and \(.11, [.06, .16]\) and that researchers
+would need sample sizes of at least 2,226, {[}1,521, 3,248{]}
+participants to find significant associations (\(\alpha = .05\),
+two-sided) in 80\% of their studies.\footnote{Sample sizes are based on
+  posterior predictions from the three models, which implied that, for
+  80\% of studies, the absolute correlation coefficient would be
+  \(|r| > .042, [.034, .050]\) for perceived injustice,
+  \(|r| > .046, [.033, .067]\) for collective action, and
+  \(|r| > .036, [.022, .064]\) for policy support.}
+
+\emph{Collective action.} Across 118,584 participants from 36 samples in
+23 studies, we found some evidence for a weak association
+(\(r = -.06, [-.14, .01]\)) between intergroup contact and collective
+action, with \(95.0\%\) of posterior samples for the mean correlation
+coefficient falling below zero. We found evidence that correlation
+coefficients varied across studies (\(\tau_J = .17, [.12, .24]\)) and
+across samples within studies (\(\tau_I = .09, [.06, .15]\)). Based on
+these analyses, we predicted that 80\% of studies would result in
+correlation coefficients between \(-.27, [-.38, -.18]\) and
+\(.15, [.06, .27]\) and that researchers would need sample sizes of at
+least 1,801, {[}848, 3,458{]} participants to find significant
+associations (\(\alpha = .05\), two-sided) in 80\% of their studies.
+
+\emph{Policy support.} Across 13,703 participants from 19 samples in 14
+studies, we found some evidence for a weak association
+(\(r = -.07, [-.14, -.00]\)) between intergroup contact and policy
+support, with \(98.1\%\) of posterior samples for the mean correlation
+coefficient falling below zero. We found evidence that correlation
+coefficients varied across studies (\(\tau_J = .10, [.06, .18]\)) and,
+to a lesser extent, across samples within studies
+(\(\tau_I = .03, [.00, .12]\)). Based on these analyses, we predicted
+that 80\% of studies would result in correlation coefficients between
+\(-.20, [-.32, -.13]\) and \(.06, [-.02, .18]\) and that researchers
+would need sample sizes of at least 2,992, {[}949, 8,077{]} participants
+to find significant associations (\(\alpha = .05\), two-sided) in 80\%
+of their studies.
+
+As preregistered, we ran another three random-effects meta-analysis
+models to estimate the relationships between the three outcome
+variables. As we were not interested in the direction of these
+relationships, we used cross-sectional correlation coefficients as
+effect sizes for longitudinal studies. Across 111,252 participants from
+24 samples in 13 studies, we found evidence for a moderate association
+(\(r = .29, [.21, .37]\)) between perceived injustice and collective
+action. Across 6,244 participants from 12 samples in 9 studies, we found
+evidence for a moderate association (\(r = .23, [.08, .35]\)) between
+perceived injustice and policy support. Across 8,558 participants from 6
+samples in 3 studies, we found evidence for a moderate association
+(\(r = .30, [.13, .42]\)) between collective action and policy support.
+
+\hypertarget{robustness-checks}{%
+\subsubsection{Robustness checks}\label{robustness-checks}}
+
+First, we assessed to what extent our findings were sensitive to
+choosing narrower, \(\mu \sim \text{Normal}(0, 0.1)\), or wider,
+\(\mu \sim \text{Normal}(0, 1)\), prior distributions. Choosing narrower
+or wider prior distribution did not affect mean effect size estimates
+for perceived injustice (\(\Delta r = -.00, [-.05, .05]\) and
+\(\Delta r = -.00, [-.05, .05]\)), collective action
+(\(\Delta r = -.01, [-.11, .09]\) and \(\Delta r = -.00, [-.10, .11]\)),
+and policy support (\(\Delta r = -.01, [-.10, .08]\) and
+\(\Delta r = .00, [-.09, .10]\)). Second, we assessed to what extent our
+findings were sensitive to including or excluding influential studies by
+repeating the preregistered analyses \(J\) times while leaving out one
+of \(J\) studies each time and by calculating the mean absolute
+difference (\emph{MAD}) for the estimated mean effect size across
+left-out studies. For perceived injustice
+(\(\textit{MAD} = .02, [.01, .04]\)), collective action
+(\(\textit{MAD} = .04, [.02, .09]\)), and policy support
+(\(\textit{MAD} = .03, [.02, .08]\)), the \emph{MAD} was small. Leaving
+out the most influential study, for example, did not change estimates of
+the mean effect size for the three outcomes
+(\(\Delta r = -.01, [-.05, .04]\); \(\Delta r = .02, [-.09, .12]\);
+\(\Delta r = -.02, [-.11, .07]\)). Together, these analyses showed that
+our findings were robust to choosing different prior distributions and
+to excluding influential studies.
+
+\end{document}

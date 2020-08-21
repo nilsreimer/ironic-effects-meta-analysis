@@ -1,0 +1,291 @@
+coder,id,sample,ingroup,outgroup,study_setting
+Coder 1,19,1,Chinese international students,Native Singaporeans,Short-term migration
+Coder 2,19,1,Chinese international students,Native Singaporeans,Short-term migration
+Coder 1,45,1,International students in Germany,Native Germans,Short-term migration
+Coder 2,45,1,International students in Germany,Native Germans,Short-term migration
+Coder 1,45,2,German international students,British people,Short-term migration
+Coder 2,45,2,German international students,British people,Short-term migration
+Coder 1,45,3,Visiting academics,Native Germans,Short-term migration
+Coder 2,45,3,Visiting academics,Native Germans,Short-term migration
+Coder 1,46,1,Pupils of foreign origin in Brussels,Belgians,Short-term migration
+Coder 2,46,1,Pupils of foreign origin in Brussels,Belgians,Short-term migration
+Coder 1,91,1,Asian international students,Domestic students,Short-term migration
+Coder 2,91,1,Asian international students,Domestic students,Short-term migration
+Coder 1,93,1,Muslims,Hindus,Religion
+Coder 2,93,1,Muslims,Hindus,Religion
+Coder 1,244,1,African American and Latino students,European American children,Long-term migration
+Coder 2,244,1,African American and Latino students,European American children,Long-term migration
+Coder 1,284,1,Black South Africans,White South Africans,Colonization
+Coder 2,284,1,Black South Africans,White South Africans,Long-term migration
+Coder 1,286,1,Kurds,Turks,Colonization
+Coder 2,286,1,Kurds,Turks,Colonization
+Coder 1,303,1,Natives,Anglos/Whites,Colonization
+Coder 2,303,1,Natives,Anglos/Whites,Colonization
+Coder 1,322,1,Kurds,Turks,Colonization
+Coder 2,322,1,Kurds,Turks,Colonization
+Coder 1,324,1,Black Americans,White Americans,Long-term migration
+Coder 2,324,1,Black Americans,White Americans,Long-term migration
+Coder 1,324,2,Hispanic Americans,White Americans,Long-term migration
+Coder 2,324,2,Hispanic Americans,White Americans,Long-term migration
+Coder 1,325,1,Multiracial Americans,White Americans,Long-term migration
+Coder 2,325,1,Multiracial Americans,White Americans,Other
+Coder 1,336,1,Black South Africans,White South Africans,Colonization
+Coder 2,336,1,Black South Africans,White South Africans,Colonization
+Coder 1,401,1,East Germans,West Germans,Other
+Coder 2,401,1,East Germans,West Germans,Other
+Coder 1,414,1,Disabled people,Non-disabled people,Other
+Coder 2,414,1,Disabled people,Non-disabled people,Other
+Coder 1,423,1,Eastern European immigrants,British people,Long-term migration
+Coder 2,423,1,Eastern European immigrants,British people,Long-term migration
+Coder 1,423,2,Kurds,Turks,Colonization
+Coder 2,423,2,Kurds,Turks,Colonization
+Coder 1,423,3,Kurds,Turks,Colonization
+Coder 2,423,3,Kurds,Turks,Colonization
+Coder 1,480,1,Afro Costa Ricans,White Costa Ricans,Long-term migration
+Coder 2,480,1,Afro Costa Ricans,White Costa Ricans,Colonization
+Coder 1,609,1,Migrants from Mainland China to Hong Kong,Natives of Hong Kong,Long-term migration
+Coder 2,609,1,Migrants from Mainland China to Hong Kong,Natives of Hong Kong,Long-term migration
+Coder 1,703,1,African Americans,White Americans,Long-term migration
+Coder 2,703,1,African Americans,White Americans,Long-term migration
+Coder 1,733,1,Malaysian international students,British people,Short-term migration
+Coder 2,733,1,Malaysian international students,British people,Short-term migration
+Coder 1,783,1,Moroccan immigrants,Dutch natives,Long-term migration
+Coder 2,783,1,Moroccan immigrants,Dutch natives,Long-term migration
+Coder 1,783,2,Turkish immigrants,Dutch natives,Long-term migration
+Coder 2,783,2,Turkish immigrants,Dutch natives,Long-term migration
+Coder 1,789,1,Palestinians,Jews,Colonization
+Coder 2,789,1,Palestinians,Jews,Colonization
+Coder 1,803,1,Mexican Americans,Anglo/White Americans,Long-term migration
+Coder 2,803,1,Mexican Americans,Anglo/White Americans,Long-term migration
+Coder 1,813,1,Minimal disadvantaged group,Minimal advantaged group,Other
+Coder 2,813,1,Minimal disadvantaged group,Minimal advantaged group,Other
+Coder 1,813,2,Arab Israelis,Jewish Israelis,Colonization
+Coder 2,813,2,Arab Israelis,Jewish Israelis,Colonization
+Coder 1,823,1,International students,Domestic students,Short-term migration
+Coder 2,823,1,International students,Domestic students,Short-term migration
+Coder 1,829,1,Turkish adolescents,Native Europeans,Long-term migration
+Coder 2,829,1,Turkish adolescents,Native Europeans,Long-term migration
+Coder 1,830,1,Korean American adolescents,White Americans,Long-term migration
+Coder 2,830,1,Korean American adolescents,White Americans,Long-term migration
+Coder 1,830,2,Vietnamese American adolescents,White Americans,Long-term migration
+Coder 2,830,2,Vietnamese American adolescents,White Americans,Long-term migration
+Coder 1,830,3,Cambodian American adolescents,White Americans,Long-term migration
+Coder 2,830,3,Cambodian American adolescents,White Americans,Long-term migration
+Coder 1,856,1,Roma,Macedonians,Other
+Coder 2,856,1,Roma,Macedonians,Other
+Coder 1,893,1,Catholics,Protestants,Colonization
+Coder 2,893,1,Catholics,Protestants,Religion
+Coder 1,894,1,Chicano/Latinx/Mexican Americans,White Americans,Long-term migration
+Coder 2,894,1,Chicano/Latinx/Mexican Americans,White Americans,Long-term migration
+Coder 1,894,2,African Americans,White Americans,Long-term migration
+Coder 2,894,2,African Americans,White Americans,Long-term migration
+Coder 1,933,1,Black Americans,White Americans,Long-term migration
+Coder 2,933,1,Black Americans,White Americans,Long-term migration
+Coder 1,956,1,Sexual-minority students,Heterosexual people,Sexuality
+Coder 2,956,1,Sexual-minority students,Heterosexual people,Sexuality
+Coder 1,956,2,Sexual-minority students,Heterosexual/cisgender people,Sexuality
+Coder 2,956,2,Sexual-minority students,Heterosexual/cisgender people,Sexuality
+Coder 1,1020,1,Malaysian (Malay) students,British people,Short-term migration
+Coder 2,1020,1,Malaysian (Malay) students,British people,Short-term migration
+Coder 1,1020,2,Malaysian (Chinese) students,British people,Short-term migration
+Coder 2,1020,2,Malaysian (Chinese) students,British people,Short-term migration
+Coder 1,1042,1,Asian Americans,European Americans,Long-term migration
+Coder 2,1042,1,Asian Americans,European Americans,Long-term migration
+Coder 1,1042,2,African Americans,European Americans,Long-term migration
+Coder 2,1042,2,African Americans,European Americans,Long-term migration
+Coder 1,1045,1,Ethnic minorities,White Americans,Long-term migration
+Coder 2,1045,1,Ethnic minorities,White Americans,Long-term migration
+Coder 1,1114,1,Syrian refugees,Lebanese people,Other
+Coder 2,1114,1,Syrian refugees,Lebanese people,Long-term migration
+Coder 1,1161,1,Mexican Americans,White Americans,Long-term migration
+Coder 2,1161,1,Mexican Americans,White Americans,Long-term migration
+Coder 1,1163,1,African Americans,White Americans,Long-term migration
+Coder 2,1163,1,African Americans,White Americans,Long-term migration
+Coder 1,1221,1,Hispanic Americans,White Americans,Long-term migration
+Coder 2,1221,1,Hispanic Americans,White Americans,Long-term migration
+Coder 1,1221,2,Black Americans,White Americans,Long-term migration
+Coder 2,1221,2,Black Americans,White Americans,Long-term migration
+Coder 1,1221,3,Native Americans,White Americans,Colonization
+Coder 2,1221,3,Native Americans,White Americans,Colonization
+Coder 1,1221,4,Asian Americans,White Americans,Long-term migration
+Coder 2,1221,4,Asian Americans,White Americans,Long-term migration
+Coder 1,1248,1,Kurds,Turks,Colonization
+Coder 2,1248,1,Kurds,Turks,Colonization
+Coder 1,1283,1,"Black, Asian, and other ethnic minorities",White people,Long-term migration
+Coder 2,1283,1,"Black, Asian, and other ethnic minorities",White people,Long-term migration
+Coder 1,1376,1,Catholics,Protestants,Colonization
+Coder 2,1376,1,Catholics,Protestants,Religion
+Coder 1,1386,1,Black South Africans,White South Africans,Colonization
+Coder 2,1386,1,Black South Africans,White South Africans,Colonization
+Coder 1,1395,1,International students in Hong Kong,Domestic students,Short-term migration
+Coder 2,1395,1,International students in Hong Kong,Domestic students,Short-term migration
+Coder 1,1407,1,African Americans,White Americans,Long-term migration
+Coder 2,1407,1,African Americans,White Americans,Long-term migration
+Coder 1,1407,2,Black Caribbean Americans,White Americans,Long-term migration
+Coder 2,1407,2,Black Caribbean Americans,White Americans,Long-term migration
+Coder 1,1411,1,Christians,Muslims,Religion
+Coder 2,1411,1,Christians,Muslims,Religion
+Coder 1,1412,1,Ethnic minorities,Danes,Long-term migration
+Coder 2,1412,1,Ethnic minorities,Danes,Long-term migration
+Coder 1,1494,1,African Americans,White Americans,Long-term migration
+Coder 2,1494,1,African Americans,White Americans,Long-term migration
+Coder 1,1494,2,Hispanic Americans,White Americans,Long-term migration
+Coder 2,1494,2,Hispanic Americans,White Americans,Long-term migration
+Coder 1,1494,3,African Americans,White Americans,Long-term migration
+Coder 2,1494,3,African Americans,White Americans,Long-term migration
+Coder 1,1494,4,Hispanic Americans,White Americans,Long-term migration
+Coder 2,1494,4,Hispanic Americans,White Americans,Long-term migration
+Coder 1,1525,1,Asian Americans,White Americans,Long-term migration
+Coder 2,1525,1,Asian Americans,White Americans,Long-term migration
+Coder 1,1549,1,Black Americans,White Americans,Long-term migration
+Coder 2,1549,1,Black Americans,White Americans,Long-term migration
+Coder 1,1576,1,Chinese Americans,White Americans,Long-term migration
+Coder 2,1576,1,Chinese Americans,White Americans,Long-term migration
+Coder 1,1614,1,Kurds,Turks,Colonization
+Coder 2,1614,1,Kurds,Turks,Colonization
+Coder 1,1658,1,Black Americans,White Americans,Long-term migration
+Coder 2,1658,1,Black Americans,White Americans,Long-term migration
+Coder 1,1658,2,Mexican immigrants,White Americans,Long-term migration
+Coder 2,1658,2,Mexican immigrants,White Americans,Long-term migration
+Coder 1,1658,3,Indian immigrants,White Americans,Long-term migration
+Coder 2,1658,3,Indian immigrants,White Americans,Long-term migration
+Coder 1,1695,1,Māori New Zealanders,White New Zealanders,Colonization
+Coder 2,1695,1,Māori New Zealanders,White New Zealanders,Colonization
+Coder 1,1743,1,African Americans,White Americans,Long-term migration
+Coder 2,1743,1,African Americans,White Americans,Long-term migration
+Coder 1,1743,2,Latino Americans,White Americans,Long-term migration
+Coder 2,1743,2,Latino Americans,White Americans,Long-term migration
+Coder 1,1743,3,Asian Americans,White Americans,Long-term migration
+Coder 2,1743,3,Asian Americans,White Americans,Long-term migration
+Coder 1,1762,1,Inuit Canadians,White Canadians,Colonization
+Coder 2,1762,1,Inuit Canadians,White Canadians,Colonization
+Coder 1,1807,1,"Refugees from Afghanistan, Iran, Iraq and Somalia",Dutch natives,Other
+Coder 2,1807,1,"Refugees from Afghanistan, Iran, Iraq and Somalia",Dutch natives,Long-term migration
+Coder 1,1850,1,Immigrants,Russians,Long-term migration
+Coder 2,1850,1,Immigrants,Russians,Long-term migration
+Coder 1,1891,1,Arab and Muslim Americans,White Americans,Long-term migration
+Coder 2,1891,1,Arab and Muslim Americans,White Americans,Long-term migration
+Coder 1,1914,1,Foreign students,Locals,Short-term migration
+Coder 2,1914,1,Foreign students,Locals,Short-term migration
+Coder 1,1949,1,Refugees,Germans,Other
+Coder 2,1949,1,Refugees,Germans,Long-term migration
+Coder 1,1966,1,Ethnic German immigrants from the former Soviet Union,Germans,Long-term migration
+Coder 2,1966,1,Ethnic German immigrants from the former Soviet Union,Germans,Long-term migration
+Coder 1,1966,2,Russian Jewish immigrants,Israeli Jews,Long-term migration
+Coder 2,1966,2,Russian Jewish immigrants,Israeli Jews,Long-term migration
+Coder 1,1993,1,Chinese migrants workers,Singaporeans,Short-term migration
+Coder 2,1993,1,Chinese migrants workers,Singaporeans,Short-term migration
+Coder 1,2001,1,Black American women,White Americans,Long-term migration
+Coder 2,2001,1,Black American women,White Americans,Long-term migration
+Coder 1,2023,1,South Asians in Britain,British Whites,Long-term migration
+Coder 2,2023,1,South Asians in Britain,British Whites,Long-term migration
+Coder 1,2023,2,Black Britsh people,White British people,Long-term migration
+Coder 2,2023,2,Black Britsh people,White British people,Long-term migration
+Coder 1,2033,1,First-generation Canadians,Native Canadians,Long-term migration
+Coder 2,2033,1,First-generation Canadians,Native Canadians,Long-term migration
+Coder 1,2075,1,Students from a lower-status university,Students from a higher-status university,Other
+Coder 2,2075,1,Students from a lower-status university,Students from a higher-status university,Other
+Coder 1,2257,1,Disabled people,Non-disabled people,Other
+Coder 2,2257,1,Disabled people,Non-disabled people,Other
+Coder 1,2309,1,Black Americans,White Americans,Long-term migration
+Coder 2,2309,1,Black Americans,White Americans,Long-term migration
+Coder 1,2309,2,Hispanic Americans,White Americans,Long-term migration
+Coder 2,2309,2,Hispanic Americans,White Americans,Long-term migration
+Coder 1,2333,1,Non-White Americans,White Americans,Long-term migration
+Coder 2,2333,1,Non-White Americans,White Americans,Long-term migration
+Coder 1,2341,1,Re-migrants from Russia to Finland,Finnish natives,Long-term migration
+Coder 2,2341,1,Re-migrants from Russia to Finland,Finnish natives,Long-term migration
+Coder 1,2375,1,Latino Americans,Anglo/White Americans,Long-term migration
+Coder 2,2375,1,Latino Americans,Anglo/White Americans,Long-term migration
+Coder 1,2380,1,Scheduled Caste/Scheduled Tribe (Dalits/Adivasi),General Castes,Caste
+Coder 2,2380,1,Scheduled Caste/Scheduled Tribe (Dalits/Adivasi),General Castes,Caste
+Coder 1,2380,2,Other Backward Class,General Castes,Caste
+Coder 2,2380,2,Other Backward Class,General Castes,Caste
+Coder 1,2381,1,NZ Maori,NZ European,Colonization
+Coder 2,2381,1,NZ Maori,NZ European,Colonization
+Coder 1,2381,2,Pacific Islanders,NZ European,Long-term migration
+Coder 2,2381,2,Pacific Islanders,NZ European,Long-term migration
+Coder 1,2381,3,Asians,NZ European,Long-term migration
+Coder 2,2381,3,Asians,NZ European,Long-term migration
+Coder 1,2382,1,Asian British people,White British people,Long-term migration
+Coder 2,2382,1,Asian British people,White British people,Long-term migration
+Coder 1,2383,1,Asian British secondary-school students,White British people,Long-term migration
+Coder 2,2383,1,Asian British secondary-school students,White British people,Long-term migration
+Coder 1,2383,2,Black British secondary-school students,White British people,Long-term migration
+Coder 2,2383,2,Black British secondary-school students,White British people,Long-term migration
+Coder 1,2383,3,Mixed secondary-school students,White British people,Long-term migration
+Coder 2,2383,3,Mixed secondary-school students,White British people,Other
+Coder 1,2385,1,Muslims,Hindus,Religion
+Coder 2,2385,1,Muslims,Hindus,Religion
+Coder 1,2385,2,Sikhs,Hindus,Religion
+Coder 2,2385,2,Sikhs,Hindus,Religion
+Coder 1,2385,3,Christians,Hindus,Religion
+Coder 2,2385,3,Christians,Hindus,Religion
+Coder 1,2385,4,Buddhists,Hindus,Religion
+Coder 2,2385,4,Buddhists,Hindus,Religion
+Coder 1,2391,1,African immigrants in Italy,Italian native people,Long-term migration
+Coder 2,2391,1,African immigrants in Italy,Italian native people,Long-term migration
+Coder 1,2392,1,Intermediate Caste individuals,Upper caste individuals,Caste
+Coder 2,2392,1,Intermediate Caste individuals,Upper caste individuals,Caste
+Coder 1,2392,2,OBC (Other Backward Classes),Upper Castes,Caste
+Coder 2,2392,2,OBC (Other Backward Classes),Upper Castes,Caste
+Coder 1,2392,3,SC/ST (Scheduled castes and scheduled tribes),Upper Castes,Caste
+Coder 2,2392,3,SC/ST (Scheduled castes and scheduled tribes),Upper Castes,Caste
+Coder 1,2394,1,Asian Americans,White Americans,Long-term migration
+Coder 2,2394,1,Asian Americans,White Americans,Long-term migration
+Coder 1,2394,2,Black Americans,White Americans,Long-term migration
+Coder 2,2394,2,Black Americans,White Americans,Long-term migration
+Coder 1,3000,1,Mainland Chinese students,Local students,Short-term migration
+Coder 2,3000,1,Mainland Chinese students,Local students,Long-term migration
+Coder 1,3005,1,Kurdish university students in Norway,Native Norwegians,Short-term migration
+Coder 2,3005,1,Kurdish university students in Norway,Native Norwegians,Long-term migration
+Coder 1,3051,1,Non-Western immigrants,Danes,Long-term migration
+Coder 2,3051,1,Non-Western immigrants,Danes,Long-term migration
+Coder 1,3054,1,Mapuche,Non-Indigenous,Colonization
+Coder 2,3054,1,Mapuche,Non-Indigenous,Colonization
+Coder 1,3054,2,Peruvians,Chileans,Long-term migration
+Coder 2,3054,2,Peruvians,Chileans,Long-term migration
+Coder 1,3054,3,Muslims,Non-Muslims,Religion
+Coder 2,3054,3,Muslims,Non-Muslims,Religion
+Coder 1,3054,4,Serbs,Albanians,Other
+Coder 2,3054,4,Serbs,Albanians,Colonization
+Coder 1,3054,5,Ukranians,Polish,Long-term migration
+Coder 2,3054,5,Ukranians,Polish,Long-term migration
+Coder 1,3054,6,Bosniaks,Serbs,Other
+Coder 2,3054,6,Bosniaks,Serbs,Religion
+Coder 1,3054,7,Roma,Non-Roma,Other
+Coder 2,3054,7,Roma,Non-Roma,Other
+Coder 1,3054,8,Muslims,Non-Muslims,Religion
+Coder 2,3054,8,Muslims,Non-Muslims,Religion
+Coder 1,3054,9,Asian people,White people,Long-term migration
+Coder 2,3054,9,Asian people,White people,Long-term migration
+Coder 1,3054,10,Muslims,Non-Muslims,Religion
+Coder 2,3054,10,Muslims,Non-Muslims,Religion
+Coder 1,3054,11,Sexual and Gender Minorities,Cis-Heterosexuals,Sexuality
+Coder 2,3054,11,Sexual and Gender Minorities,Cis-Heterosexuals,Sexuality
+Coder 1,3060,1,African Americans,White Americans,Long-term migration
+Coder 2,3060,1,African Americans,White Americans,Long-term migration
+Coder 1,3134,1,Immigrant-origin Muslims,Native Germans,Long-term migration
+Coder 2,3134,1,Immigrant-origin Muslims,Native Germans,Long-term migration
+Coder 1,3134,2,Immigrant-origin Muslims,Dutch natives,Long-term migration
+Coder 2,3134,2,Immigrant-origin Muslims,Dutch natives,Long-term migration
+Coder 1,3134,3,Immigrant-origin Muslims,Swedish natives,Long-term migration
+Coder 2,3134,3,Immigrant-origin Muslims,Swedish natives,Long-term migration
+Coder 1,3196,1,Immigrant-origin Muslims,Italian natives,Long-term migration
+Coder 2,3196,1,Immigrant-origin Muslims,Italian natives,Long-term migration
+Coder 1,3201,1,Palestinians,Israelis,Colonization
+Coder 2,3201,1,Palestinians,Israelis,Colonization
+Coder 1,3205,1,Roma,Romanians,Other
+Coder 2,3205,1,Roma,Romanians,Other
+Coder 1,4000,1,Syrian refugees,Germans,Other
+Coder 2,4000,1,Syrian refugees,Germans,Long-term migration
+Coder 1,4001,1,Mexicans,Americans,Other
+Coder 2,4001,1,Mexicans,Americans,Long-term migration
+Coder 1,4002,1,Turkish‐ and Moroccan‐origin minority students,Belgians,Long-term migration
+Coder 2,4002,1,Turkish‐ and Moroccan‐origin minority students,Belgians,Long-term migration
+Coder 1,4003,1,Black Americans,White Americans,Long-term migration
+Coder 2,4003,1,Black Americans,White Americans,Long-term migration
+Coder 1,4004,1,Roma,Ethnic Bulgarians,Other
+Coder 2,4004,1,Roma,Ethnic Bulgarians,Other
+Coder 1,4005,1,Ethiopian Jews,Non-Ethiopians,Long-term migration
+Coder 2,4005,1,Ethiopian Jews,Non-Ethiopians,Long-term migration

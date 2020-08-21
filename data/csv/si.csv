@@ -6,15 +6,10 @@ id,coder,n_samples,sample,name,n,variables,comments
 46,Coder 1,1,1,Pupils of foreign descent,1445,"ic,gd",NA
 91,Coder 2,1,1,Asian international students in the US,284,"pc,pd","correlations are given for each item on the contact scale, rather than for the mean or latent factor, so not sure how to code this?"
 93,Coder 1,1,1,Study 1,449,"cq,ca,ge",NA
-210,Coder 1,1,1,Black college students,309,"cf,pd",Correlation coefficients are not reported; we should contact the authors.
 244,Coder 1,1,1,African American and Latino students,129,"ic,pi",We recorded both the wrongfulness and the expected frequency of race-based exclusion as outcome measures.
 284,Coder 1,1,1,"Study 1, Black students",488,"cf,rd,ps,ca,gi,ge",NA
 286,Coder 2,1,1,Kurds in Turkey,105,"cf,ps",NA
-297,Coder 1,1,1,Indian Muslims,107,"in,ic,pi",NA
 303,Coder 1,1,1,Native young adults,114,"cf,pd",NA
-317,Coder 1,3,1,Korean-American adolescents,220,"ic,pd",We reversed correlation coefficients so that correlations reflected cross-ethnic not co-ethnic friendship.
-317,Coder 1,3,2,Cambodian-American adolescents,164,"ic,pd",Correlation coefficients were reversed to reflect cross-ethnic not co-ethnic friendship.
-317,Coder 1,3,3,Vietnamese-American adolescents,163,"ic,pd",We again reversed correlation coefficients to reflect cross-ethnic not co-ethnic friendships.
 322,Coder 2,1,1,Kurdish university students in Turkey,151,"pc,nc,pd,rd,ca,gi,oa",NA
 324,Coder 1,2,1,Black Americans,353,"oc,pd,pi",NA
 324,Coder 1,2,2,Hispanic Americans,508,"oc,pd,pi",NA
@@ -25,19 +20,10 @@ id,coder,n_samples,sample,name,n,variables,comments
 423,Coder 1,3,1,Eastern European immigrants in the UK,64,"cq,gd",Participants completed both of the relevant measures after an imagined contact manipulation.
 423,Coder 1,3,2,Kurdish people in Turkey,67,"cq,gd",Participants completed both of the relevant measures after an imagined contact manipulation.
 423,Coder 1,3,3,Kurdish people in Turkey,210,"cq,gd",Participants completed both of the relevant measures after an imagined contact manipulation.
-446,Coder 1,2,1,Turkish/Moroccan secondary-school students in the Netherlands,92,"cf,gd,gi",NA
-446,Coder 1,2,2,Turkish-Moroccan secondary-school students in the Netherlands,77,"cf,gd,gi",NA
 480,Coder 2,1,1,Afro-Costa Rican adolescents,407,"pc,pd,gi",NA
 609,Coder 2,1,1,Migrants from Mainland China to Hong Kong,182,"cf,pd",NA
-668,Coder 1,4,1,Turkish immigrants in the Netherlands,1173,"cq,pd,gd,oa",NA
-668,Coder 1,4,2,Moroccan immigrants in the Netherlands,1056,"cq,pd,gd,oa",NA
-668,Coder 1,4,3,Surinamese immigrants in the Netherlands,1101,"cq,pd,gd,oa",NA
-668,Coder 1,4,4,Antilean immigrants in the Netherlands,869,"cq,pd,gd,oa",NA
 703,Coder 1,1,1,African-American elementary-age children,68,"cf,in,pi",I report the mean of the correlation coefficients in Grades 3 and 5 (Table 3).
-711,Coder 1,2,1,"Study 1, Chinese young adults in New Zealand",186,"pc,pd",NA
-711,Coder 1,2,2,"Study 2, Chinese young adults in Singapore",263,"pc,pd",NA
 733,Coder 1,1,1,Malaysian undergraduates in Britain,249,"in,ic,pd",NA
-775,Coder 1,1,1,Russians in Kabardino-Balkaria,249,"cf,pd",NA
 783,Coder 1,2,1,Moroccan immigrants,869,"cq,pd",Data (including for an unpublished second wave) are available online: https://easy.dans.knaw.nl/ui/datasets/id/easy-dataset:59831 (Netherlands Longitudinal Lifecourse Study).
 783,Coder 1,2,2,Turkish immigrants in the Netherlands,859,"cq,pd",NA
 789,Coder 1,1,1,Palestinian residents of Israel,281,"ic,gd,pi",NA
@@ -58,7 +44,6 @@ id,coder,n_samples,sample,name,n,variables,comments
 956,Coder 1,2,2,Study 2a,433,"pc,nc,pd,gd,ca,gi,oa,o1,o2",NA
 1020,Coder 1,2,1,Malaysian students of Malay ethnicity in Britain,81,"in,ic,pd",NA
 1020,Coder 1,2,2,Malaysian Students of Chinese ethnicity in Britain,110,"in,ic,pd",NA
-1022,Coder 1,1,1,American medical students from racial or ethnic minorities,NA,"cq,ps",NA
 1042,Coder 1,2,1,Asian-American university students,165,"cq,in,gd,ps",NA
 1042,Coder 1,2,2,African-American university students,92,"cq,in,gd,ps",NA
 1045,Coder 2,1,1,Ethnic-minority adolescents in the US,252,"cf,o1,o2","both peer- and educator discrimination were measured as ""personal discrimination"""
@@ -71,8 +56,6 @@ id,coder,n_samples,sample,name,n,variables,comments
 1221,Coder 1,4,4,Asian American adolescents,150,"cf,pi",I retrieved correlation coefficients from the available dataset: https://dataverse.unc.edu/.
 1248,Coder 2,1,1,Kurds in Turkey,209,"cq,rd,ca,gi,oa",NA
 1283,Coder 1,1,1,"Black, Asian, and other ethnic minorities in England",13236,"oc,pd",NA
-1367,Coder 1,1,1,Americans who identify as member of the lower class,130,"cq,rd",NA
-1368,Coder 2,1,1,Korean American adolescents adopted by white parents,158,"oc,pd,gi",NA
 1376,Coder 1,1,1,Catholic students in Northern Ireland,85,"pi,ca","We did not consider ""support for political violence"" as (non-normative) collective action because it is not about participants themselves participating in collective action."
 1386,Coder 1,1,1,Black respondents,1556,"cq,pc,ps",Results for contact quality are not reported.
 1395,Coder 2,1,1,International students in Hong Kong,726,"cq,gd",NA
@@ -80,7 +63,6 @@ id,coder,n_samples,sample,name,n,variables,comments
 1407,Coder 1,2,2,Black Caribbean Americans,695,"cq,pd",I need to add correlations later as there are two measures of personal discrimination.
 1411,Coder 1,1,1,Christian university students in Indonesia,531,"cq,pc,gd,oa",NA
 1412,Coder 1,1,1,Ethnic minorities in Danemark,3958,"cq,pd,oa",NA
-1467,Coder 1,1,1,Students of colour,372,"ic,gd,ca",NA
 1494,Coder 2,4,1,African American adolescents in Chicago,245,"oc,pd",logistic regressions reported
 1494,Coder 2,4,2,Hispanic adolescents in Chicago,244,"oc,pd",logistic regression reported
 1494,Coder 2,4,3,African American adults in Chicago,237,"cf,pd,o1,o2,o3","PD -- called ""minor discrimination"" in the study"
@@ -93,21 +75,15 @@ id,coder,n_samples,sample,name,n,variables,comments
 1658,Coder 1,3,2,Mexican immigrants,500,"cq,pc,pd",NA
 1658,Coder 1,3,3,Indian immigrants,501,"cq,pc,pd",NA
 1695,Coder 2,1,1,Representative sample of Maori in NZ,1008,"cf,in,o1,o2,o3,o4",NA
-1712,Coder 1,1,1,"Study 7, Turkish Cypriots in Northern Cyprus",610,"cq,ca,gi,oa",I did not includes samples from Studies 1 to 6 as they were either not eligible or were reported in other (published) research.
 1743,Coder 1,3,1,African Americans,72,"cf,pi,ca",Not all time lags are the same.
 1743,Coder 1,3,2,Latino Americans,282,"cf,pi,ca",NA
 1743,Coder 1,3,3,Asian Americans,417,"cf,pi,ca",NA
-1750,NA,1,1,Turkish international students in the US,229,"cq,pd",NA
 1762,Coder 1,1,1,Inuit,191,"oc,pd,gd,pi",NA
 1807,Coder 1,1,1,"Refugees from Afghanistan, Iran, Iraq and Somalia in the Netherlands",2775,"cq,pd",NA
 1850,Coder 1,1,1,Foreign-born residents living in Russia,110,"cq,pc,gd",NA
 1891,Coder 1,1,1,Arab and Muslim American students,753,"cf,in,pi",NA
 1914,Coder 2,1,1,Foreign students in Buenos Aires,216,"in,ic,pd",NA
-1934,Coder 1,2,1,African American adolescents,810,"oc,pd",NA
-1934,Coder 1,2,2,Caribbean Black adolescents,360,"oc,pd",NA
 1949,Coder 2,1,1,Refugees in Germany,94,"pc,nc,pd",NA
-1950,Coder 1,2,1,Black residents of Chicago,237,"cq,cf,pd,oa",NA
-1950,Coder 1,2,2,Hispanic residents of Chicago,235,"cq,cf,pd,oa",NA
 1966,Coder 1,2,1,Ethnic Germans from Soviet Union emigrated to Germany,506,"cf,pd,o1,o2",I reversed all correlations for measures of intraethnic friendship so that they presented correlations with interethnic friendship.
 1966,Coder 1,2,2,Russian Jews emigrated to Israel,506,"cf,pd,o1,o2",I reversed all correlations for measures of intraethnic friendship so that they presented correlations with interethnic friendship.
 1993,Coder 2,1,1,"Chinese ""sojourners"" in Singapore",106,"cq,pc,in,pd,gi,o1",NA
@@ -117,7 +93,6 @@ id,coder,n_samples,sample,name,n,variables,comments
 2033,Coder 1,1,1,"Study 2, first-generation Canadian students",203,"ic,ld,ca",NA
 2075,Coder 1,1,1,"Study 2, SFU students",81,"pc,ca,oa",I should contact the authors to find out the group sizes for each condition.
 2257,Coder 2,1,1,Physically disabled people in Turkey,269,"ic,pi,gi",IC is one quantity and one quality item PI is a combination of PD and GD
-2295,Coder 1,1,1,"African American, Multiracial, Latino, Asian American students",88,"cq,pd",NA
 2309,Coder 2,2,1,Online community sample of Black Americans,195,"pc,nc,gd,ca,o1,o2",NA
 2309,Coder 2,2,2,Online community sample of Hispanic Americans,170,"pc,nc,gd,ca,o1,o2",NA
 2333,Coder 1,1,1,Nonwhite students,1337,"oc,pi","Two other measures (CQ, PC) were also measured, but their correlations with PI (by subgroup) were not the focus of this study and not reported."
@@ -129,3 +104,34 @@ id,coder,n_samples,sample,name,n,variables,comments
 2381,NA,3,2,Pacific Islanders,526,"pc,nc,cf,in,pd,gd,rd,pi,ca,gi,oa,o1,o2",NA
 2381,NA,3,3,Asians,684,"pc,nc,cf,in,pd,gd,rd,pi,ca,gi,oa,o1,o2",NA
 2382,NA,1,1,Asian British people,751,"pc,nc,cf,in,pd,gd,ca,gi,oa",NA
+2383,NA,3,1,Asian British secondary-school students,466,"pc,nc,cf,in,pd,gd,gi,oa",NA
+2383,NA,3,2,Black British secondary-school students,161,"pc,nc,cf,in,pd,gd,gi,oa",NA
+2383,NA,3,3,Mixed secondary-school students,86,"pc,nc,cf,in,pd,gd,gi,oa",NA
+2385,NA,4,1,Muslims,4708,"pc,rd,ca,gi,oa",NA
+2385,NA,4,2,Sikhs,1526,"pc,rd,ca,gi,oa",NA
+2385,NA,4,3,Christians,935,"pc,rd,ca,gi,oa",NA
+2385,NA,4,4,Buddhists,271,"pc,rd,ca,gi,oa",NA
+2391,NA,1,1,African immigrants in Italy,400,"cq,nc,pd,gd,ca,gi,oa",NA
+2392,NA,3,1,Intermediate Caste individuals,13646,"pc,nc,rd,ca,gi",NA
+2392,NA,3,2,OBC (Other Backward Classes),49764,"pc,nc,rd,ca,gi",NA
+2392,NA,3,3,SC/ST (Scheduled castes and scheduled tribes),33137,"pc,nc,rd,ca,gi",NA
+2394,NA,2,1,Asian Americans,201,"pc,nc,ld,oa",NA
+2394,NA,2,2,Black Americans,209,"pc,nc,ld,oa",NA
+3000,Coder 1,1,1,Mainland Chinese students in Hong Kong,2201,"cq,pi",NA
+3005,Coder 1,1,1,Study 2,93,"cq,pd",NA
+3051,Coder 1,1,1,Non-Western immigrants in Denmark,1211,"cf,pd,gd,oa",NA
+3060,Coder 1,1,1,African Americans,385,"cf,pd",NA
+3134,Coder 1,3,1,Immigrant-origin Muslims in Germany,1172,"cq,cf,pd",I was not able to access data for the sample from England.
+3134,Coder 1,3,2,Immigrant-origin Muslims in the Netherlands,864,"cq,cf,pd",NA
+3134,Coder 1,3,3,Immigrant-origin Muslims in Sweden,774,"cq,cf,pd",NA
+3196,Coder 1,1,1,Immigrant high school students in Italy,165,"cq,pc,ld,ca",NA
+3201,Coder 1,1,1,Palestinian adults in the West Bank,159,"pc,ca",NA
+3205,Coder 1,1,1,Roma,602,"pc,gd,oa,o1,o2","I need to recode both policy support measures from ""other"" to ""policy support""."
+4000,NA,1,1,Syrian refugees,121,"pc,nc,pi",NA
+4001,NA,1,1,Mexicans,239,"pc,rd",NA
+4002,NA,1,1,Turkish‐ and Moroccan‐origin minority students,1251,"pc,pd,gi,oa",NA
+4003,NA,1,1,Black Americans,116,"pc,nc,pi,oa",NA
+4004,NA,1,1,Roma,320,"ic,ca,gi",NA
+4005,NA,1,1,Ethiopian Jews,74,"cq,pc,ic,pi,ps,gi",NA
+3054,NA,11,1,"Mapuche, Peruvians, Muslims, Serbs, Ukranians, Bosniaks, Roma, Muslims, Asians, Muslims",1000,"cq,pc,nc,cf,ps,ca",NA
+3054,NA,11,11,Sexual and Gender Minorities,3883,"cq,pc,nc,cf,ps,ca",NA

@@ -100,3 +100,12 @@ compute_d <- function(n1, m1, s1, n2, m2, s2) {
 partial_r <- function(r_ab, r_ac, r_bc) {
   (r_ab - r_ac * r_bc) / sqrt((1 - r_ac^2) * (1 - r_bc^2))
 }
+
+# Import bibliography
+read_bib <- function(file) {
+  bib <- readLines(file, encoding = "UTF-8")
+  bib <- str_replace_all(bib, "[^[:graph:]]", " ")
+  bib <- bib2df:::bib2df_gather(bib)
+  bib <- bib2df:::bib2df_tidy(bib, separate_names = FALSE)
+  return(bib)
+}

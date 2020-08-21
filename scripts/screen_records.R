@@ -52,6 +52,13 @@ rm(list = ls())
     select(-answer) %>% 
     pivot_wider(names_from = coder, values_from = decision) %>% 
     with(., kappa2(ratings = cbind(`Coder 1`, `Coder 2`)))
+  
+  # Caclulate interrater agreement for Second Search
+  ratings %>% 
+    filter(run == "Second Search") %>%
+    select(-answer) %>% 
+    pivot_wider(names_from = coder, values_from = decision) %>% 
+    with(., kappa2(ratings = cbind(`Coder 1`, `Coder 2`)))
 
 
 # Exclude -----------------------------------------------------------------

@@ -19,15 +19,22 @@ rm(list = ls())
   
   # Remove missing/unpublished records
   records <- records %>% filter(!(id %in% c(
-     505,  715,  719, 1057, 1070, 1156, 1180, 1242, 1336, 
-    1344, 1359, 1541, 1675, 1734, 1875, 2013, 2087, 2194
+     505,  715,  719, 1057, 1070, 1156, 1180, 1242, 1336, 1344, 1359, 
+     1541, 1675, 1734, 1875, 2013, 2087, 2194
   )))
-
+  
   # Import results from surveys
   results <- read_csv(
     "records/results/coding-eligibility.csv", 
     col_types = "iciiiiiic"
   )
+  
+  # Remove duplicates and non-existing records (second search)
+  results <- results %>%
+    filter(
+      !(id %in% c(3021, 3039, 3061, 3069, 3075, 3102, 3128, 3178)), # duplicates
+      !(id %in% c(3078, 3210)) # non-existing records
+    )
 
 # Calculate ---------------------------------------------------------------
   
@@ -91,28 +98,32 @@ rm(list = ls())
   
   # Resolve disagreements
   consensus <- tribble(
-     ~id, ~include,
-      45,       1L, 
-     104,       0L, 
-     363,       0L, 
-     422,       0L, 
-     684,       1L, 
-     910,       1L, 
-     920,       0L, 
-    1170,       0L, 
-    1217,       1L, 
-    1221,       1L, 
-    1376,       1L, 
-    1658,       1L, 
-    1750,       1L, 
-    1812,       0L, 
-    1850,       1L, 
-    1891,       1L, 
-    2001,       1L, 
-    2023,       1L, 
-    2291,       0L, 
-    2295,       1L, 
-    2371,       1L 
+      ~id, ~include,
+     104L,       0L, 
+      45L,       1L, 
+     363L,       0L, 
+     422L,       0L, 
+     684L,       1L, 
+     910L,       1L, 
+     920L,       0L, 
+    1170L,       0L, 
+    1217L,       1L, 
+    1221L,       1L, 
+    1376L,       1L, 
+    1658L,       1L, 
+    1750L,       1L, 
+    1812L,       0L, 
+    1850L,       1L, 
+    1891L,       1L, 
+    2001L,       1L, 
+    2023L,       1L, 
+    2291L,       0L, 
+    2295L,       1L, 
+    2371L,       1L,
+    3005L,       1L,
+    3047L,       1L,
+    3060L,       1L,
+    3137L,       0L
   )
 
 

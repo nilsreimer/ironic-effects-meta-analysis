@@ -356,3 +356,73 @@ Correlation matrix is reported on page 272."
 2371,Coder 2,1,0,0,1,0,0,NA
 2375,Coder 1,1,1,1,1,0,1,Correlation matrix is reported on page 543.
 2375,Coder 2,1,1,1,1,0,1,NA
+3000,Coder 1,1,1,1,1,0,0,Table 1 reports all inter-scale correlations.
+3005,Coder 1,1,1,1,1,0,0,Only Study 2 measures a relevant outcome; Table 4 reports all inter-scale correlations.
+3006,Coder 1,1,0,0,0,0,1,NA
+3012,Coder 1,1,0,0,0,0,0,NA
+3016,Coder 1,0,1,1,1,0,0,NA
+3021,Coder 1,1,1,1,1,0,0,This data looks familiar—check whether this record is a duplicate.
+3024,Coder 1,0,0,0,0,0,0,This is a (relevant) review article.
+3030,Coder 1,1,0,0,0,0,0,NA
+3039,Coder 1,1,1,1,1,0,0,This is a duplicate (same as 423).
+3043,Coder 1,1,1,1,0,0,0,NA
+3047,Coder 1,1,1,1,1,0,0,Effect sizes are not reported.
+3050,Coder 1,1,1,1,1,0,0,Table 1 report all inter-scale correlations.
+3051,Coder 1,1,1,1,1,0,0,Table 1 reports all inter-scale correlations.
+3054,Coder 1,1,1,1,0,1,1,This study has already been recorded as unpublished research.
+3060,Coder 1,1,1,1,1,0,0,Table 1 reports all inter-scale correlations.
+3061,Coder 1,1,1,1,1,0,0,This is a duplicate (same as 2257).
+3069,Coder 1,1,1,1,1,0,0,This is a duplicate (783).
+3071,Coder 1,1,1,0,1,0,0,NA
+3075,Coder 1,1,1,0,1,0,1,This is a duplicate (763).
+3078,Coder 1,NA,NA,NA,NA,NA,NA,This record does not exist.
+3102,Coder 1,1,1,1,1,0,1,This is a duplicate (322).
+3116,Coder 1,1,1,0,1,0,0,NA
+3126,Coder 1,1,1,0,1,0,0,NA
+3128,Coder 1,NA,NA,NA,NA,NA,NA,This is a duplicate (94).
+3134,Coder 1,1,1,1,1,0,0,Effect sizes are not reported but CILS4EU data is available.
+3137,Coder 1,1,0,0,1,0,1,"As Indonesia is a Muslim-majority country, I do not think we should consider participants as members of a disadvantaged group."
+3145,Coder 1,1,1,0,1,0,0,NA
+3168,Coder 1,1,1,0,0,0,0,NA
+3178,Coder 1,NA,NA,NA,NA,NA,NA,This is a duplicate (419).
+3181,Coder 1,1,1,1,0,0,0,NA
+3196,Coder 1,1,1,1,1,0,1,Table 2 reports all inter-scale correlations.
+3201,Coder 1,1,1,1,0,0,1,Table 1 reports all inter-scale correlations.
+3205,Coder 1,1,1,1,1,1,0,Tables 1 and 2 report all interscale correlations.
+3210,Coder 1,NA,NA,NA,NA,NA,NA,This record does not exist.
+3219,Coder 1,1,0,0,0,0,0,"As both Greek Cypriots (Study 1) and Turkish Cypriots (Study 2) were recruited in the parts of Cyprus where their group is the majority, I do not think either sample should be considered disadvantaged relative to the other."
+3000,Coder 2,1,1,1,1,0,0,NA
+3005,Coder 2,1,1,1,0,0,0,NA
+3006,Coder 2,1,1,0,0,0,1,"the intervention sounded initially like it could have been about contact, but it's not"
+3012,Coder 2,1,0,1,0,0,1,NA
+3016,Coder 2,0,NA,NA,NA,NA,NA,NA
+3021,Coder 2,1,1,1,1,0,0,NA
+3024,Coder 2,0,NA,NA,NA,NA,NA,NA
+3030,Coder 2,1,0,NA,NA,NA,NA,NA
+3039,Coder 2,NA,NA,NA,NA,NA,NA,NA
+3043,Coder 2,1,1,1,0,0,0,"the ""cultural maintenance"" DV could arguable be said to be quite similar some of the more vague policy DVs in the lit. But really just sounds to me like more of an identity-ish measure than a policy measure. maybe we can discuss"
+3047,Coder 2,1,1,0,0,0,0,NA
+3050,Coder 2,1,1,1,1,0,0,NA
+3051,Coder 2,1,1,1,1,0,0,NA
+3054,Coder 2,1,1,1,0,1,1,NA
+3060,Coder 2,1,1,0,NA,NA,NA,NA
+3061,Coder 2,NA,NA,NA,NA,NA,NA,NA
+3069,Coder 2,NA,NA,NA,NA,NA,NA,NA
+3071,Coder 2,1,1,0,NA,NA,NA,NA
+3075,Coder 2,NA,NA,NA,NA,NA,NA,NA
+3078,Coder 2,NA,NA,NA,NA,NA,NA,can't find full text
+3102,Coder 2,NA,NA,NA,NA,NA,NA,NA
+3116,Coder 2,1,1,0,NA,NA,NA,NA
+3126,Coder 2,1,1,0,NA,NA,NA,NA
+3128,Coder 2,NA,NA,NA,NA,NA,NA,NA
+3134,Coder 2,1,1,1,1,0,0,NA
+3137,Coder 2,1,1,1,1,0,1,NA
+3145,Coder 2,1,1,0,1,0,0,their outgroup orientation measure seems to be a half contact and half attitudes so I'm not sure we can really include it
+3168,Coder 2,1,1,0,NA,NA,NA,NA
+3178,Coder 2,NA,NA,NA,NA,NA,NA,NA
+3181,Coder 2,1,0,1,NA,NA,NA,it is a contact intervention but the sample size was so small that they haven't separated advantaged and disadvantaged groups in the analyses
+3196,Coder 2,1,1,1,1,0,1,NA
+3201,Coder 2,1,1,1,0,0,1,NA
+3205,Coder 2,1,1,1,1,1,0,NA
+3210,Coder 2,NA,NA,NA,NA,NA,NA,NA
+3219,Coder 2,1,1,0,NA,NA,NA,NA

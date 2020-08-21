@@ -11015,10 +11015,10 @@ id,coder,n_samples,sample,item,response
 893,Coder 2,1,1,items_9,NA
 893,Coder 2,1,1,items_10,NA
 893,Coder 2,1,1,items_11,NA
-893,Coder 2,1,1,items_12,"Ingroup identification was assessed using five items from the Group Identification Scale (Brown et al., 1986). Each item was responded to on a five-point Likert scale. An example item is: “Would you say you are a person who: 1) considers the Catholic/Protestant community important? 2) identifies with the Catholic/Protestant community? 3) feels strong ties with the Catholic/Protestant community? 4) glad to belong to the Catholic/Protestant community? 5) sees himself/herself as belonging to the Catholic/Protestant community? Again, Likert responses to items were summated in an overall religious community identification scale where a high score was indicative of high levels of in-group identification."
+893,Coder 2,1,1,items_15,"Ingroup identification was assessed using five items from the Group Identification Scale (Brown et al., 1986). Each item was responded to on a five-point Likert scale. An example item is: “Would you say you are a person who: 1) considers the Catholic/Protestant community important? 2) identifies with the Catholic/Protestant community? 3) feels strong ties with the Catholic/Protestant community? 4) glad to belong to the Catholic/Protestant community? 5) sees himself/herself as belonging to the Catholic/Protestant community? Again, Likert responses to items were summated in an overall religious community identification scale where a high score was indicative of high levels of in-group identification."
 893,Coder 2,1,1,items_13,NA
 893,Coder 2,1,1,items_14,NA
-893,Coder 2,1,1,items_15,"Perceived Discrimination/Inequality Against the In-group:Three Likert scale items were included as indicators of perceived discrimination/ inequality. These required respondents to indicate their level of satisfaction with: 1) the way jobs are distributed between the two main communities in Northern Ireland. 2) the way political power is distributed. 3) the relative standard of living of one’s in-group relative to the out-group. Once more, items were summated in a single scale where a high score indicated high expressed dissatisfaction or high perceived discrimination/inequality."
+893,Coder 2,1,1,items_12,"Perceived Discrimination/Inequality Against the In-group:Three Likert scale items were included as indicators of perceived discrimination/ inequality. These required respondents to indicate their level of satisfaction with: 1) the way jobs are distributed between the two main communities in Northern Ireland. 2) the way political power is distributed. 3) the relative standard of living of one’s in-group relative to the out-group. Once more, items were summated in a single scale where a high score indicated high expressed dissatisfaction or high perceived discrimination/inequality."
 893,Coder 2,1,1,items_16,NA
 893,Coder 2,1,1,items_17,NA
 893,Coder 2,1,1,items_18,NA
@@ -25823,13 +25823,13 @@ id,coder,n_samples,sample,item,response
 783,Coder 1,2,2,other_reported,0
 783,Coder 1,2,2,longitudinal,0
 783,Coder 1,2,2,items_1,NA
-783,Coder 1,2,2,items_2,NA
+783,Coder 1,2,2,items_2,"For measuring native contacts, respondents were asked to indicate on a seven-point scale ranging from “never” to “daily,” how often they had contact with natives in their neighborhood.1 1The questions on social contact in this survey asked how often respondents had contact with natives, in their neighborhood, at work and at social clubs. Because many respondents were not employed (about 40 percent) and were not a member of any social club (about 60 percent), we focus on the neighborhood contacts."
 783,Coder 1,2,2,items_3,NA
 783,Coder 1,2,2,items_4,NA
 783,Coder 1,2,2,items_5,NA
 783,Coder 1,2,2,items_6,NA
 783,Coder 1,2,2,items_7,NA
-783,Coder 1,2,2,items_8,NA
+783,Coder 1,2,2,items_8,"Perceived discrimination was measured by asking respondents to indicate, on a three-point scale (i.e., never, sometimes, often), if they had been discriminated against in job applications, at work, at school, on the street, in associations/clubs they were members of, and while going out (nightlife). We took the average of these items that formed a reliable scale (Cronbach’s a = .81)."
 783,Coder 1,2,2,items_9,NA
 783,Coder 1,2,2,items_10,NA
 783,Coder 1,2,2,items_11,NA
@@ -59762,12 +59762,12 @@ id,coder,n_samples,sample,item,response
 45,Coder 2,3,1,longitudinal,0
 45,Coder 2,3,1,items_1,NA
 45,Coder 2,3,1,items_2,NA
-45,Coder 2,3,1,items_3,"Respondents were asked to complete a 22-item Experience of Discrimination Scale (EDS) addressing perceived discrimination on four levels: (a) physical assault (or threat of assault); five items (e.g. ‘ How often have you been physically threatened because you are not German/British?’); (b) (active) behavioural discrimination, six items (e.g. ‘How often have you felt you were treated unfairly by people who work in public services because you are not German/British?’); (c) (passive) avoidance, seven items (e.g. ‘How often have you experienced German/British people keeping a physical distance from you because you are not German/British?’); and (d) antilocution or verbal discrimination, four items (e.g. ‘How often has someone expressed prejudice against non-German/non-British people in your presence?’). Responses were made on a 5-point scale ranging from 1 ¼ never to 5 ¼ very often. The full scale is presented in the Appendix."
+45,Coder 2,3,1,items_8,"Respondents were asked to complete a 22-item Experience of Discrimination Scale (EDS) addressing perceived discrimination on four levels: (a) physical assault (or threat of assault); five items (e.g. ‘ How often have you been physically threatened because you are not German/British?’); (b) (active) behavioural discrimination, six items (e.g. ‘How often have you felt you were treated unfairly by people who work in public services because you are not German/British?’); (c) (passive) avoidance, seven items (e.g. ‘How often have you experienced German/British people keeping a physical distance from you because you are not German/British?’); and (d) antilocution or verbal discrimination, four items (e.g. ‘How often has someone expressed prejudice against non-German/non-British people in your presence?’). Responses were made on a 5-point scale ranging from 1 ¼ never to 5 ¼ very often. The full scale is presented in the Appendix."
 45,Coder 2,3,1,items_4,NA
 45,Coder 2,3,1,items_5,NA
 45,Coder 2,3,1,items_6,NA
 45,Coder 2,3,1,items_7,NA
-45,Coder 2,3,1,items_8,"In addition, respondents were asked to rate the quality of their private contacts with members of their host nation on four 7-point semantic-differential-type scales (relaxed–tense; friendly–unfriendly; important–not important; satisfactory–unsatisfactory). Private contacts were defined as contacts in the respondents’ spare time (i.e. outside work and daily duties)"
+45,Coder 2,3,1,items_3,"In addition, respondents were asked to rate the quality of their private contacts with members of their host nation on four 7-point semantic-differential-type scales (relaxed–tense; friendly–unfriendly; important–not important; satisfactory–unsatisfactory). Private contacts were defined as contacts in the respondents’ spare time (i.e. outside work and daily duties)"
 45,Coder 2,3,1,items_9,NA
 45,Coder 2,3,1,items_10,NA
 45,Coder 2,3,1,items_11,NA
@@ -60240,12 +60240,12 @@ id,coder,n_samples,sample,item,response
 45,Coder 2,3,2,longitudinal,0
 45,Coder 2,3,2,items_1,NA
 45,Coder 2,3,2,items_2,NA
-45,Coder 2,3,2,items_3,"Respondents were asked to complete a 22-item Experience of Discrimination Scale (EDS) addressing perceived discrimination on four levels: (a) physical assault (or threat of assault); five items (e.g. ‘ How often have you been physically threatened because you are not German/British?’); (b) (active) behavioural discrimination, six items (e.g. ‘How often have you felt you were treated unfairly by people who work in public services because you are not German/British?’); (c) (passive) avoidance, seven items (e.g. ‘How often have you experienced German/British people keeping a physical distance from you because you are not German/British?’); and (d) antilocution or verbal discrimination, four items (e.g. ‘How often has someone expressed prejudice against"
+45,Coder 2,3,2,items_8,"Respondents were asked to complete a 22-item Experience of Discrimination Scale (EDS) addressing perceived discrimination on four levels: (a) physical assault (or threat of assault); five items (e.g. ‘ How often have you been physically threatened because you are not German/British?’); (b) (active) behavioural discrimination, six items (e.g. ‘How often have you felt you were treated unfairly by people who work in public services because you are not German/British?’); (c) (passive) avoidance, seven items (e.g. ‘How often have you experienced German/British people keeping a physical distance from you because you are not German/British?’); and (d) antilocution or verbal discrimination, four items (e.g. ‘How often has someone expressed prejudice against"
 45,Coder 2,3,2,items_4,NA
 45,Coder 2,3,2,items_5,NA
 45,Coder 2,3,2,items_6,NA
 45,Coder 2,3,2,items_7,NA
-45,Coder 2,3,2,items_8,"In addition, respondents were asked to rate the quality of their private contacts with members of their host nation on four 7-point semantic-differential-type scales (relaxed–tense; friendly–unfriendly; important–not important; satisfactory–unsatisfactory). Private contacts were defined as contacts in the respondents’ spare time (i.e. outside work and daily duties)"
+45,Coder 2,3,2,items_3,"In addition, respondents were asked to rate the quality of their private contacts with members of their host nation on four 7-point semantic-differential-type scales (relaxed–tense; friendly–unfriendly; important–not important; satisfactory–unsatisfactory). Private contacts were defined as contacts in the respondents’ spare time (i.e. outside work and daily duties)"
 45,Coder 2,3,2,items_9,NA
 45,Coder 2,3,2,items_10,NA
 45,Coder 2,3,2,items_11,NA
@@ -60718,12 +60718,12 @@ id,coder,n_samples,sample,item,response
 45,Coder 2,3,3,longitudinal,0
 45,Coder 2,3,3,items_1,NA
 45,Coder 2,3,3,items_2,NA
-45,Coder 2,3,3,items_3,"Respondents were asked to complete a 22-item Experience of Discrimination Scale (EDS) addressing perceived discrimination on four levels: (a) physical assault (or threat of assault); five items (e.g. ‘ How often have you been physically threatened because you are not German/British?’); (b) (active) behavioural discrimination, six items (e.g. ‘How often have you felt you were treated unfairly by people who work in public services because you are not German/British?’); (c) (passive) avoidance, seven items (e.g. ‘How often have you experienced German/British people keeping a physical distance from you because you are not German/British?’); and (d) antilocution or verbal discrimination, four items (e.g. ‘How often has someone expressed prejudice against"
+45,Coder 2,3,3,items_8,"Respondents were asked to complete a 22-item Experience of Discrimination Scale (EDS) addressing perceived discrimination on four levels: (a) physical assault (or threat of assault); five items (e.g. ‘ How often have you been physically threatened because you are not German/British?’); (b) (active) behavioural discrimination, six items (e.g. ‘How often have you felt you were treated unfairly by people who work in public services because you are not German/British?’); (c) (passive) avoidance, seven items (e.g. ‘How often have you experienced German/British people keeping a physical distance from you because you are not German/British?’); and (d) antilocution or verbal discrimination, four items (e.g. ‘How often has someone expressed prejudice against"
 45,Coder 2,3,3,items_4,NA
 45,Coder 2,3,3,items_5,NA
 45,Coder 2,3,3,items_6,NA
 45,Coder 2,3,3,items_7,NA
-45,Coder 2,3,3,items_8,"In addition, respondents were asked to rate the quality of their private contacts with members of their host nation on four 7-point semantic-differential-type scales (relaxed–tense; friendly–unfriendly; important–not important; satisfactory–unsatisfactory). Private contacts were defined as contacts in the respondents’ spare time (i.e. outside work and daily duties)"
+45,Coder 2,3,3,items_3,"In addition, respondents were asked to rate the quality of their private contacts with members of their host nation on four 7-point semantic-differential-type scales (relaxed–tense; friendly–unfriendly; important–not important; satisfactory–unsatisfactory). Private contacts were defined as contacts in the respondents’ spare time (i.e. outside work and daily duties)"
 45,Coder 2,3,3,items_9,NA
 45,Coder 2,3,3,items_10,NA
 45,Coder 2,3,3,items_11,NA
@@ -68831,3 +68831,143 @@ id,coder,n_samples,sample,item,response
 1966,Coder 1,2,2,r_21_20,NA
 1966,Coder 1,2,2,r_21_21,NA
 1966,Coder 1,2,2,comments,I reversed all correlations for measures of intraethnic friendship so that they presented correlations with interethnic friendship.
+3000,Coder 1,1,1,items_12,"Perceived discrimination / International students’ extent of perceived discrimination was measured by ten items adapted from Sandhu and Asrabadi’s (1994) Acculturative Stress Scale. The measure comprises 5-point rating scales, ranging from 1 (Strongly disagree) to 5 (Strongly agree). An example item is ‘Racial discrimination exists in Hong Kong’. /  / From Sandhu and Asrabadi's (1994) Perceived Discrimination scale: / Many opportunicies are denied to  me.  / I am treated differently in social situations.  / Others are  biased  toward  me.  / I feel that I receive  unequal treatment.  / I  am denied what I deserve.  / I feel  that my people  are discriminated against. / I am treated  differently because of my race.  / I am treated  differently because of my color."
+3000,Coder 1,1,1,items_2,"Contact with local students Students’ extent of contact with local students was measured using an eight-item Quantity of Contact Scale from Tawagi and Mak (2015), who originally adapted items from Ward et al. (2005). This measure comprises 4-point rating scales, where 1 stands for ‘Never’, 2 for ‘Rarely (Once a month)’, 3 for ‘Sometimes (2–4 times a month)’, and 4 for ‘Often (5–15 times a month)’. An example item is ‘Spending time together in the holidays."
+3000,Coder 1,1,1,n,2201
+3000,Coder 1,1,1,name,Mainland Chinese students in Hong Kong
+3000,Coder 1,1,1,r_12_12,1
+3000,Coder 1,1,1,r_2_12,-0.11
+3000,Coder 1,1,1,r_2_2,1
+3000,Coder 1,1,1,variables,"2,12"
+3005,Coder 1,1,1,items_2,"Contact with Norwegians. To measure participants’ positive contact / with native Norwegians we used a 3-item scale (Martiny et al., 2017). / This scale was a combination of quantity and quality of contact (“It is / important for me to have contact with Norwegians”; “I have a lot of / contact with Norwegians,” “I like having contact with Norwegians”; / Cronbach’s alpha = 0.77)."
+3005,Coder 1,1,1,items_8,"Perceived / discrimination was measured with nine items adapted from Noh and / Kaspar (2003; e.g., “Because of my ethnicity I have been insulted or / bullied,” Cronbach’s alpha = 0.92)."
+3005,Coder 1,1,1,n,93
+3005,Coder 1,1,1,name,Study 2
+3005,Coder 1,1,1,r_2_2,1
+3005,Coder 1,1,1,r_2_8,-0.18
+3005,Coder 1,1,1,r_8_8,1
+3005,Coder 1,1,1,variables,"2,8"
+3047,Coder 1,3,1,name,Kyrgyz people in Russia
+3047,Coder 1,3,2,name,Tajik people in Russia
+3047,Coder 1,3,3,name,Uzbek people in Russia
+3050,Coder 1,1,1,items_12,"Perceived discrimination International students’ extent of perceived discrimination was measured by ten items adapted from Sandhu and Asrabadi’s (1994) Acculturative Stress Scale. The measure comprises 5-point rating scales, ranging from 1 (Strongly disagree) to 5 (Strongly agree). An example item is ‘Racial discrimination exists in Hong Kong’. From Sandhu and Asrabadi's (1994) Perceived Discrimination scale: Many opportunicies are denied to me. I am treated differently in social situations. Others are biased toward me. I feel that I receive unequal treatment. I am denied what I deserve. I feel that my people are discriminated against. I am treated differently because of my race. I am treated differently because of my color."
+3050,Coder 1,1,1,items_2,"Contact with local students Students’ extent of contact with local students was measured using an eight-item Quantity of Contact Scale from Tawagi and Mak (2015), who originally adapted items from Ward et al. (2005). This measure comprises 4-point rating scales, where 1 stands for ‘Never’, 2 for ‘Rarely (Once a month)’, 3 for ‘Sometimes (2–4 times a month)’, and 4 for ‘Often (5–15 times a month)’. An example item is ‘Spending time together in the holidays."
+3050,Coder 1,1,1,n,726
+3050,Coder 1,1,1,name,International university students in Hong Kong
+3050,Coder 1,1,1,r_12_12,1
+3050,Coder 1,1,1,r_2_12,-.09
+3050,Coder 1,1,1,r_2_2,1
+3050,Coder 1,1,1,variables,"2,12"
+3051,Coder 1,1,1,items_16,"Our dependent variable—prejudice toward majority members—was measured using four indicators of social distance, which is usually considered one of the / most classical (behavioral) components of prejudice (Binder et al., 2009; Pettigrew and Meertens, 1995). The specific wording was as follows: “Whether or not you have children yourself, I would like to know if you would allow your children to (1) interact with Danish friends, (2) to stay at a Danish friend’s home overnight, (3) / to have a Danish girlfriend/boyfriend, and (4) to marry a Dane?”. The response categories were: “Yes, to any Dane”; “Yes, to most Danes”; “No, to most Danes”; / “To no Dane” (plus “don’t know” responses). Accordingly, an index measuring prejudice was formed out of these four items, and its reliability proved satisfactory / (Cronbach’s alpha = 0.794). Responses were averaged, conditional upon at least two valid responses of the four possibilities. The index of prejudice was subsequently rescaled to vary from 0 to 1, higher values indicating prejudice."
+3051,Coder 1,1,1,items_5,"Consistent with numerous previous studies (see Pettigrew and Tropp, 2011), the independent variable, cross-group friendship, was measured using a single item: “How many of your close friends are Danes?” This item had seven response categories: “all of them; almost all of them”; “over half of them”; “about half of them”; “below half of them”; “almost none of them”; and “none of them” (“don’t know” responses were excluded from the empirical analysis). This measure was treated as an interval-scaled variable and subsequently rescaled to vary from 0 to 1, higher values indicating greater contact intensity."
+3051,Coder 1,1,1,items_8,"Finally, we included a measure of perceived personal discrimination with the following wording: “Within the last half year, how often have you felt discriminated against in Denmark because of your ethnic background? It may be at your workplace, in the street, or in public transportation”. The response categories were “very often”; “often”; “now and then”; “rarely”; and “never” (refusals and “don’t know” responses were excluded from the analysis). This measure was treated as an interval-scaled variable and rescaled to vary from 0 to 1, higher values indicating greater levels of personal discrimination."
+3051,Coder 1,1,1,items_9,"We utilized a single item to measure our key moderator, perceived group discrimination: “How often do you think that immigrants are discriminated against in / Denmark (for example, in the public debate or the media)?” This item has five response categories: “very often”; “often”; “now and then”; “rarely”; and “never” / (“don’t know” responses were excluded from the analysis). This measure was treated as an interval-scaled variable and rescaled to vary from 0 to 1, higher values indicating greater levels of group discrimination."
+3051,Coder 1,1,1,n,1211
+3051,Coder 1,1,1,name,Non-Western immigrants in Denmark
+3051,Coder 1,1,1,r_16_16,1
+3051,Coder 1,1,1,r_5_16,-0.284
+3051,Coder 1,1,1,r_5_5,1
+3051,Coder 1,1,1,r_5_8,-0.115
+3051,Coder 1,1,1,r_5_9,-0.068
+3051,Coder 1,1,1,r_8_16,0.179
+3051,Coder 1,1,1,r_8_8,1
+3051,Coder 1,1,1,r_8_9,0.465
+3051,Coder 1,1,1,r_9_16,0.117
+3051,Coder 1,1,1,r_9_9,1
+3051,Coder 1,1,1,variables,"5,8,9,16"
+3060,Coder 1,1,1,items_5,"2.3.5. Black friends / At waves 4–7, respondents were asked, “What proportion of your casual friends is African American?” and “What proportion of your close friends is African American?” The response format for each of the items ranged from 1 (10% or less) to 5 (greater than 80%). Finally, a composite measure of the proportion of black friends was created by averaging the scores for the two items across waves. [Reverse coded for meta-analysis.]"
+3060,Coder 1,1,1,items_8,"2.3.3. Racial discrimination / At each wave of data collection (W4-W7), respondents completed 13 items from the Schedule of Racist Events (Landrine & Klonoff, 1996). This instrument has strong psychometric properties and has been used extensively in studies of African Americans (Simons et al., 2018). The items assess the frequency (1=never, 4=several times) with which various discriminatory events (racial slurs, hassled by police, disrespectful sales clerks, false accusations by authority figures) have been experienced in the last year because of being African American. Coefficient alpha for the scale was above 0.75 at every wave and scores were summed across waves to form a cumulative measure of perceived discrimination."
+3060,Coder 1,1,1,n,385
+3060,Coder 1,1,1,name,African Americans
+3060,Coder 1,1,1,r_5_5,1
+3060,Coder 1,1,1,r_5_8,0.004
+3060,Coder 1,1,1,r_8_8,1
+3060,Coder 1,1,1,variables,"5,8"
+3134,Coder 1,3,1,comments,I was not able to access data for the sample from England.
+3134,Coder 1,3,1,items_2,"How often do you spend time in your neighborhood with people from a Dutch/German/Swedish background? (1 = Every day, 5 = never) [Reverse coded for meta-analysis]"
+3134,Coder 1,3,2,items_2,"How often do you spend time in your neighborhood with people from a Dutch/German/Swedish background? (1 = Every day, 5 = never) [Reverse coded for meta-analysis]"
+3134,Coder 1,3,3,items_2,"How often do you spend time in your neighborhood with people from a Dutch/German/Swedish background? (1 = Every day, 5 = never) [Reverse coded for meta-analysis]"
+3134,Coder 1,3,1,items_5,"Thinking now about all of your friends. How many of them have a Dutch/German/Swedish background? (1 = Almost all or all, 5 = None or very few) [Reverse coded for meta-analysis]"
+3134,Coder 1,3,2,items_5,"Thinking now about all of your friends. How many of them have a Dutch/German/Swedish background? (1 = Almost all or all, 5 = None or very few) [Reverse coded for meta-analysis]"
+3134,Coder 1,3,3,items_5,"Thinking now about all of your friends. How many of them have a Dutch/German/Swedish background? (1 = Almost all or all, 5 = None or very few) [Reverse coded for meta-analysis]"
+3134,Coder 1,3,1,items_8,"1. How often do you feel discriminated against or treated unfairly in school? 2. How often do you feel discriminated against or treated unfairly in trains, buses, trams or the subway? 3. How often do you feel discriminated against or treated unfairly in shops, stores, cafes, restaurants or nightclubs? 4. How often do you feel discriminated against or treated unfairly by police or security guards? (1 = Always, 4 = Never) [Reverse coded for meta-analysis]"
+3134,Coder 1,3,2,items_8,"1. How often do you feel discriminated against or treated unfairly in school? 2. How often do you feel discriminated against or treated unfairly in trains, buses, trams or the subway? 3. How often do you feel discriminated against or treated unfairly in shops, stores, cafes, restaurants or nightclubs? 4. How often do you feel discriminated against or treated unfairly by police or security guards? (1 = Always, 4 = Never) [Reverse coded for meta-analysis]"
+3134,Coder 1,3,3,items_8,"1. How often do you feel discriminated against or treated unfairly in school? 2. How often do you feel discriminated against or treated unfairly in trains, buses, trams or the subway? 3. How often do you feel discriminated against or treated unfairly in shops, stores, cafes, restaurants or nightclubs? 4. How often do you feel discriminated against or treated unfairly by police or security guards? (1 = Always, 4 = Never) [Reverse coded for meta-analysis]"
+3134,Coder 1,3,1,n,1172
+3134,Coder 1,3,2,n,864
+3134,Coder 1,3,3,n,774
+3134,Coder 1,3,1,name,Immigrant-origin Muslims in Germany
+3134,Coder 1,3,2,name,Immigrant-origin Muslims in the Netherlands
+3134,Coder 1,3,3,name,Immigrant-origin Muslims in Sweden
+3134,Coder 1,3,1,r_2_2,1
+3134,Coder 1,3,2,r_2_2,1
+3134,Coder 1,3,3,r_2_2,1
+3134,Coder 1,3,1,r_2_5,.432
+3134,Coder 1,3,2,r_2_5,.475
+3134,Coder 1,3,3,r_2_5,.533
+3134,Coder 1,3,1,r_2_8,-.050
+3134,Coder 1,3,2,r_2_8,-.056
+3134,Coder 1,3,3,r_2_8,-.075
+3134,Coder 1,3,1,r_5_5,1
+3134,Coder 1,3,2,r_5_5,1
+3134,Coder 1,3,3,r_5_5,1
+3134,Coder 1,3,1,r_5_8,-.072
+3134,Coder 1,3,2,r_5_8,-.058
+3134,Coder 1,3,3,r_5_8,-.049
+3134,Coder 1,3,1,r_8_8,1
+3134,Coder 1,3,2,r_8_8,1
+3134,Coder 1,3,3,r_8_8,1
+3134,Coder 1,3,1,variables,"2,5,8"
+3134,Coder 1,3,2,variables,"2,5,8"
+3134,Coder 1,3,3,variables,"2,5,8"
+3196,Coder 1,1,1,items_10,"Status legitimacy. The perception of legitimacy of status differences was measured with three items (e.g., “Are differences in society between Italians and immigrants legitimate?”) adapted from Saguy, Dovidio, and Pratto (2008; see also Vorauer & Sakamoto, 2008; α = .78). [Reverse coded for meta-analysis.]"
+3196,Coder 1,1,1,items_14,"Social change motivation. Participants were asked to respond to four items that measured their willingness to engage in collective action on behalf of immigrants (e.g., “Do you think you should take part in actions toward equality between Italians and immigrants?”) adapted from Saguy et al. (2008) and from Glasford and Dovidio (2011; α = .85)."
+3196,Coder 1,1,1,items_2,"Quantity of contact. Quantity of contact was assessed using five items. Participants were asked to indicate the extent to which they had contact with immigrants/Italians at school, in the neighbourhood, during free time, and in general, and how many immigrants/Italians they spent time with. For the first four items, responses ranged from 1 (none) to 5 (very much); for the latter item, possible responses were: 1 (none), 2 (one or two), 3 (three or four), 4 (five or six), 5 (more than six; α = .88)."
+3196,Coder 1,1,1,items_3,"Quality of contact. Participants were asked to evaluate their interactions with immigrants/Italians using four bipolar words (e.g., competitive/cooperative, rude/kind) adapted from previous studies (e.g., Capozza, Trifiletti, Vezzali, & Favara, 2013). On a 5-point scale, 1 was assigned to the negative pole, 5 to the positive pole, 3 was the neutral point (neither, nor; α = .83)."
+3196,Coder 1,1,1,n,165
+3196,Coder 1,1,1,name,Immigrant high school students in Italy
+3196,Coder 1,1,1,r_10_10,1
+3196,Coder 1,1,1,r_10_14,0.17
+3196,Coder 1,1,1,r_14_14,1
+3196,Coder 1,1,1,r_2_10,0.26
+3196,Coder 1,1,1,r_2_14,0.23
+3196,Coder 1,1,1,r_2_2,1
+3196,Coder 1,1,1,r_2_3,0.45
+3196,Coder 1,1,1,r_3_10,0.23
+3196,Coder 1,1,1,r_3_14,0.20
+3196,Coder 1,1,1,r_3_3,1
+3196,Coder 1,1,1,variables,"2,3,10,14"
+3201,Coder 1,1,1,items_14,"To assess Motivation for revolutionary resistance, the respondents indicated their agreement with the statement “I do not have the motivation or the desire to engage in revolutionary resistance” (1 = Strongly disagree to 6 = Strongly agree, the item was reverse coded; see Table 1)."
+3201,Coder 1,1,1,items_3,"To assess previous experience of positive intergroup contact, respondents were asked how often, on a scale from 1 (never) to 4 (often), they had experienced three types of relations with Israelis: friendship, and contact in work settings and in the context of medical care. The mean score computed across the three items indicated that contact was rare (see Table 1)."
+3201,Coder 1,1,1,n,159
+3201,Coder 1,1,1,name,Palestinian adults in the West Bank
+3201,Coder 1,1,1,r_14_14,1
+3201,Coder 1,1,1,r_3_14,-0.19
+3201,Coder 1,1,1,r_3_3,1
+3201,Coder 1,1,1,variables,"3,14"
+3205,Coder 1,1,1,comments,"I need to recode both policy support measures from ""other"" to ""policy support""."
+3205,Coder 1,1,1,items_16,"Evaluative index / Respondents were presented with a list of 24 attributes / (e.g., kindhearted, egoistic, hostile, intelligent) and had / to select the three attributes they thought best characterize / each ethnic outgroup. Evaluatively ambiguous / items (e.g., religious, united) were discarded from the / analyses, and the respondents’ choices were added up / to form an evaluative index that could range between / -3 and 3, with higher scores denoting more negativity / against the outgroup. [Reverse scored for meta-analysis]"
+3205,Coder 1,1,1,items_18,"Two items asked respondents if they agree with the / affirmative policies that offer reserved places for / Roma in high schools and universities, respectively. / Responses were averaged and coded so that higher / score indicate stronger agreement with these policies / (a = .92 for the Hungarian sample and a = .98 for the / Roma sample)."
+3205,Coder 1,1,1,items_19,"This variable was measured by five items focusing on / respondents’ endorsement of various general policies / targeting the Roma minority (e.g., “The Romanian / state should support the cultural organizations of / Roma”; “The Romanian state should support the political / mobilization of Roma”; a = .88 for the / Hungarian sample and a = .82 for the Roma sample)."
+3205,Coder 1,1,1,items_3,"The survey measured contact with four items that / focused on intimate interactions with the majority / (i.e., Romanians) and the minority outgroups (e.g., / “When it comes to personal problems, I often talk / with an Hungarian/Roma/Romanian”; “Sometimes I / ask for help from an Hungarian/Roma/Romanian”). / These items were coded 0 if the answer was no or 1 if / the answer was yes; the answers were then summed to / form the scales, with higher scores indicating more / intimate contact. Cronbach’s alphas for Hungarians’ / intimate contact with Roma and Romanians were .68 / and .74, respectively, whereas Cronbach’s alphas for / Roma’s intimate contact with Hungarians and / Romanians were both .80."
+3205,Coder 1,1,1,items_9,"Perceived ingroup discrimination / Two items asked respondents if they feel that their / ethnic groups is being (a) advantaged, (b) treated / fairly, or (c) discriminated against when it comes to / the opportunities they have when (a) finding a job / and (b) successfully initiating and conducting a business. / Cronbach’s alpha were .71 in the Hungarian / sample and .70 in the Roma sample."
+3205,Coder 1,1,1,n,602
+3205,Coder 1,1,1,name,Roma
+3205,Coder 1,1,1,r_16_16,1
+3205,Coder 1,1,1,r_16_18,0.01
+3205,Coder 1,1,1,r_16_19,-0.10
+3205,Coder 1,1,1,r_18_18,1
+3205,Coder 1,1,1,r_18_19,0.28
+3205,Coder 1,1,1,r_19_19,1
+3205,Coder 1,1,1,r_3_16,-0.02
+3205,Coder 1,1,1,r_3_18,-0.12
+3205,Coder 1,1,1,r_3_19,-0.06
+3205,Coder 1,1,1,r_3_3,1
+3205,Coder 1,1,1,r_3_9,-0.11
+3205,Coder 1,1,1,r_9_16,-0.08
+3205,Coder 1,1,1,r_9_18,0.15
+3205,Coder 1,1,1,r_9_19,0.03
+3205,Coder 1,1,1,r_9_9,1
+3205,Coder 1,1,1,var_18_text,Support for specific pro-Roma policies
+3205,Coder 1,1,1,var_19_text,Support for nonspecific pro-Roma policies
+3205,Coder 1,1,1,variables,"3,9,16,18,19"
