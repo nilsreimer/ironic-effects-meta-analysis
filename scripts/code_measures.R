@@ -61,7 +61,7 @@ rm(list = ls())
   # Form consensus
   consensus <- c(
     "Directly", "Indirectly", "Indirectly", "Indirectly", "Indirectly",
-    "Indirectly", "Directly", "Directly", "Directly", "Both", 
+    "Indirectly", "Indirectly", "Directly", "Directly", "Directly", "Both", 
     "Personal", "Specific", "Personal", "Specific",  "Personal",
     "Specific", "Specific", "Group", "General", "General",
     "Specific", "Group", "General", "General", "Group",

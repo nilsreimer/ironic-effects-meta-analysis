@@ -109,7 +109,7 @@ output:
 
 As preregistered, we ran three random-effects meta-analysis models, one for each outcome variable. Figure 3 shows posterior distributions from these analyses.
 
-```{r, fig_width = "100%", fig.align = "center", fig.cap = "Results of preregistered analyses. (\\textbf{A}) Posterior distributions for the estimated mean correlation coefficient, highlighting the proportion of posterior samples for which $r_\\text{mean} < 0$. (\\textbf{B}) Posterior predictive distributions  for the estimated study-wise correlation coefficients."}
+```{r, fig_width = "100%", fig.align = "center", fig.cap = "Results of preregistered analyses. (\\textbf{A}) Posterior distributions for the estimated mean correlation coefficient, highlighting the proportion of posterior samples for which $r_\\text{mean} < 0$. (\\textbf{B}) Posterior predictive distributions for the estimated study-wise correlation coefficients, based on point estimates of the $\\mu$ and $\\tau_J$ parameters, with point estimates for the estimated correlation coefficients for all studies."}
 knitr::include_graphics("../figures/figure-3.pdf") 
 ```
 

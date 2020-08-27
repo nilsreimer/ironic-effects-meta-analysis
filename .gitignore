@@ -5,3 +5,7 @@
 figures/old/
 models/old/
 scripts/old/
+models/*.rds
+protocol/*.rds
+manuscript/*.aux
+presentation

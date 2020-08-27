@@ -17,6 +17,9 @@ rm(list = ls())
   
   # Import results from preregistered analyses
   results <- read_rds("results/results_preregistered_analyses.rds")
+  
+  # Import study-wise estimates from preregistered analyses
+  r_pred_jj <- read_rds("results/r_pred_jj.rds")
 
   # Name predictor and outcome variables
   results <- results %>% 
@@ -27,6 +30,21 @@ rm(list = ls())
         "pi" = "Perceived injustice",
         "ca" = "Collective action",
         "ps" = "Policy support"
+      ),
+      y_name = recode_factor(
+        y_var,
+        "pi" = "Perceived injustice",
+        "ca" = "Collective action",
+        "ps" = "Policy support"
+      )
+    )
+  
+  # Name predictor and outcome variables
+  r_pred_jj <- r_pred_jj %>% 
+    mutate(
+      x_name = recode_factor(
+        x_var,
+        "ic" = "Intergroup contact",
       ),
       y_name = recode_factor(
         y_var,
@@ -177,6 +195,13 @@ rm(list = ls())
       label.colour = NA
     ) + 
     geom_vline(xintercept = 0, linetype = "dashed", size = 0.5) +
+    geom_point(
+      data = r_pred_jj %>%
+        group_by(x_name, y_name, jj) %>%
+        summarize(r = median(r_pred)),
+      y = 0,
+      shape = "|", size = 3
+    ) +
     scale_x_continuous(breaks = seq(-1, 1, 0.2)) +
     scale_fill_manual(
       values = c(

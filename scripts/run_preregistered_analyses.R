@@ -362,6 +362,32 @@ rm(list = ls())
     by = c("x_var", "y_var")
   )
 
+  # Extract study-wise estimates
+  pred_jj <- bind_rows(
+      pi_fit %>% 
+        spread_draws(mu, tau_jj, b_jj[jj]) %>% 
+        mutate(x_var = "ic", y_var = "pi"),
+      ca_fit %>% 
+        spread_draws(mu, tau_jj, b_jj[jj]) %>% 
+        mutate(x_var = "ic", y_var = "ca"),
+      ps_fit %>% 
+        spread_draws(mu, tau_jj, b_jj[jj]) %>% 
+        mutate(x_var = "ic", y_var = "ps")
+    ) %>% 
+    mutate(
+      r_pred = z_to_r(mu + b_jj*tau_jj)
+    ) %>% 
+    select(-mu, -tau_jj, -b_jj) %>% 
+    ungroup() %>% 
+    left_join(
+      es %>% 
+        group_by(y_var) %>% 
+        mutate(jj = as.integer(factor(id))) %>% 
+        ungroup() %>% 
+        distinct(id, jj, x_var, y_var),
+      by = c("x_var", "y_var", "jj")
+    )
+  
 
 # Estimate statistical power ----------------------------------------------
 
@@ -390,6 +416,9 @@ rm(list = ls())
 
   # Export results (as .rds)
   write_rds(post, "results/results_preregistered_analyses.rds")
+  
+  # Export study-wise estimates (as .rds)
+  write_rds(pred_jj, "results/r_pred_jj.rds")
   
   # Export power predictions (as .rds)
   write_rds(n_req, "results/n_req.rds")

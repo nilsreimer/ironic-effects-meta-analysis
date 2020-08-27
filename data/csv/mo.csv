@@ -1,6 +1,6 @@
 id,sample,country,region,continent,ingroup,outgroup,study_setting,study_sample,age,study_design,study_intention,cultural_distance_to_usa,political_distance_to_usa,political_participation_distance_to_usa,group_membership_distance_to_usa,publication_status
 19,1,Singapore,East Asia & Pacific,Asia,Chinese international students,Native Singaporeans,Short-term migration,"convenience sample, students (no random sampling)","Adults
-(= 18 years)","observational, cross-sectional",No,0.0331007342408471,0.0435709147716596,"NA",0.0635398875539966,published
+(â‰¥ 18 years)","observational, cross-sectional",No,0.0331007342408471,0.0435709147716596,"NA",0.0635398875539966,published
 45,1,Germany,Europe & Central Asia,Europe,International students in Germany,Native Germans,Short-term migration,"convenience sample, students (no random sampling)","Adults
 (≥ 18 years)","observational, cross-sectional",Yes,0.0789551316831658,0.0664975463522096,0.0629091140634312,0.0218813762372545,published
 45,2,UK,Europe & Central Asia,Europe,German international students,British people,Short-term migration,"convenience sample, students (no random sampling)","Adults
@@ -34,7 +34,7 @@ id,sample,country,region,continent,ingroup,outgroup,study_setting,study_sample,a
 (≥ 18 years)","observational, cross-sectional",Yes,0.0775239756055437,0.0786389668446095,0.242407668227345,0.0650781400376889,published
 401,1,Germany,Europe & Central Asia,Europe,East Germans,West Germans,Other,probability or representative sample,"Adolescents
 (13 - 18 years),Adults
-(= 18 years)","observational, longitudinal",Yes,0.0789551316831658,0.0664975463522096,0.0629091140634312,0.0218813762372545,published
+(â‰¥ 18 years)","observational, longitudinal",Yes,0.0789551316831658,0.0664975463522096,0.0629091140634312,0.0218813762372545,published
 414,1,Turkey,Europe & Central Asia,Asia,Disabled people,Non-disabled people,Other,"convenience sample, non-students (no random sampling)","Adults
 (≥ 18 years)","observational, cross-sectional",Yes,0.127044425847128,0.115332198375567,0.332638505186188,0.135395755156231,published
 423,1,UK,Europe & Central Asia,Europe,Eastern European immigrants,British people,Long-term migration,"convenience sample, non-students (no random sampling)","Adults
@@ -48,7 +48,7 @@ id,sample,country,region,continent,ingroup,outgroup,study_setting,study_sample,a
 609,1,Hong Kong,East Asia & Pacific,Asia,Migrants from Mainland China to Hong Kong,Natives of Hong Kong,Long-term migration,"convenience sample, non-students (no random sampling)","Adults
 (≥ 18 years)","observational, cross-sectional",No,0.0979239647188102,0.0849829180794357,0.15086534296655,0.110575717315254,published
 703,1,USA,North America,North America,African Americans,White Americans,Slavery,"convenience sample, students (no random sampling)","Children
-(= 12 years)","observational, cross-sectional",Yes,0,0,0,0,published
+(â‰¤ 12 years)","observational, cross-sectional",Yes,0,0,0,0,published
 733,1,UK,Europe & Central Asia,Europe,Malaysian international students,British people,Short-term migration,"convenience sample, students (no random sampling)","Adults
 (≥ 18 years)","observational, cross-sectional",No,0.0557371621858993,0.0549427156231625,0.0154687741524952,0.0351843431994042,published
 783,1,Netherlands,Europe & Central Asia,Europe,Moroccan immigrants,Dutch natives,Long-term migration,probability or representative sample,"Adults
@@ -114,13 +114,13 @@ id,sample,country,region,continent,ingroup,outgroup,study_setting,study_sample,a
 1248,1,Turkey,Europe & Central Asia,Asia,Kurds,Turks,Colonization,"convenience sample, non-students (no random sampling)","Adults
 (≥ 18 years)","observational, cross-sectional",Yes,0.127044425847128,0.115332198375567,0.332638505186188,0.135395755156231,published
 1283,1,UK,Europe & Central Asia,Europe,"Black, Asian, and other ethnic minorities",White people,Long-term migration,probability or representative sample,"Adults
-(= 18 years)","observational, cross-sectional",No,0.0557371621858993,0.0549427156231625,0.0154687741524952,0.0351843431994042,published
+(â‰¥ 18 years)","observational, cross-sectional",No,0.0557371621858993,0.0549427156231625,0.0154687741524952,0.0351843431994042,published
 1376,1,UK,Europe & Central Asia,Europe,Catholics,Protestants,Religion,"convenience sample, students (no random sampling)","Adults
 (≥ 18 years)","observational, cross-sectional",Yes,0.0557371621858993,0.0549427156231625,0.0154687741524952,0.0351843431994042,published
 1386,1,South Africa,Sub-Saharan Africa,Africa,Black South Africans,White South Africans,Colonization,probability or representative sample,"Adults
 (≥ 18 years)","observational, cross-sectional",Yes,0.0775239756055437,0.0786389668446095,0.242407668227345,0.0650781400376889,published
 1395,1,Hong Kong,East Asia & Pacific,Asia,International students in Hong Kong,Domestic students,Short-term migration,"convenience sample, students (no random sampling)","Adults
-(= 18 years)","observational, cross-sectional",No,0.0979239647188102,0.0849829180794357,0.15086534296655,0.110575717315254,published
+(â‰¥ 18 years)","observational, cross-sectional",No,0.0979239647188102,0.0849829180794357,0.15086534296655,0.110575717315254,published
 1407,1,USA,North America,North America,African Americans,White Americans,Slavery,probability or representative sample,"Adults
 (≥ 18 years)","observational, cross-sectional",Yes,0,0,0,0,unpublished dissertation
 1407,2,USA,North America,North America,Black Caribbean Americans,White Americans,Long-term migration,probability or representative sample,"Adults
@@ -161,9 +161,9 @@ id,sample,country,region,continent,ingroup,outgroup,study_setting,study_sample,a
 (≥ 18 years)","observational, longitudinal",Yes,0,0,0,0,published
 1762,1,Canada,North America,North America,Inuit Canadians,White Canadians,Colonization,"convenience sample, non-students (no random sampling)","Adolescents
 (13 - 18 years),Adults
-(= 18 years)","observational, cross-sectional",Yes,0.0249903699091967,0.0261478632783305,0.00503791012665487,0.0257082208054689,published
+(â‰¥ 18 years)","observational, cross-sectional",Yes,0.0249903699091967,0.0261478632783305,0.00503791012665487,0.0257082208054689,published
 1807,1,Netherlands,Europe & Central Asia,Europe,"Refugees from Afghanistan, Iran, Iraq and Somalia",Dutch natives,Long-term migration,probability or representative sample,"Adults
-(= 18 years)","observational, cross-sectional",Yes,0.0822372379688003,0.0514121415927126,0.0603390568121052,0.0341913174333371,published
+(â‰¥ 18 years)","observational, cross-sectional",Yes,0.0822372379688003,0.0514121415927126,0.0603390568121052,0.0341913174333371,published
 1850,1,Russia,Europe & Central Asia,Europe,Immigrants,Russians,Long-term migration,"convenience sample, non-students (no random sampling)","Adults
 (≥ 18 years)","observational, cross-sectional",No,0.0919652266190042,0.100085749598954,0.438665692101446,0.0993774119573062,unpublished dissertation
 1891,1,USA,North America,North America,Arab and Muslim Americans,White Americans,Long-term migration,"convenience sample, students (no random sampling)","Adults
@@ -172,7 +172,7 @@ id,sample,country,region,continent,ingroup,outgroup,study_setting,study_sample,a
 (≥ 18 years)","observational, cross-sectional",No,0.0722195922138506,0.0689400648957619,0.234895327279662,0.0592007398979936,published
 1949,1,Germany,Europe & Central Asia,Europe,Refugees,Germans,Long-term migration,"convenience sample, non-students (no random sampling)","Adolescents
 (13 - 18 years),Adults
-(= 18 years)","observational, cross-sectional",No,0.0789551316831658,0.0664975463522096,0.0629091140634312,0.0218813762372545,published
+(â‰¥ 18 years)","observational, cross-sectional",No,0.0789551316831658,0.0664975463522096,0.0629091140634312,0.0218813762372545,published
 1966,1,Germany,Europe & Central Asia,Europe,Ethnic German immigrants from the former Soviet Union,Germans,Long-term migration,"convenience sample, non-students (no random sampling)","Adolescents
 (13 - 18 years)","observational, cross-sectional",No,0.0789551316831658,0.0664975463522096,0.0629091140634312,0.0218813762372545,published
 1966,2,Israel,Middle East & North Africa,Asia,Russian Jewish immigrants,Israeli Jews,Long-term migration,"convenience sample, non-students (no random sampling)","Adolescents
@@ -182,9 +182,9 @@ id,sample,country,region,continent,ingroup,outgroup,study_setting,study_sample,a
 2001,1,USA,North America,North America,Black American women,White Americans,Slavery,"convenience sample, non-students (no random sampling)","Adults
 (≥ 18 years)","observational, cross-sectional",Yes,0,0,0,0,published
 2023,1,UK,Europe & Central Asia,Europe,South Asians in Britain,British Whites,Long-term migration,"convenience sample, students (no random sampling)","Children
-(= 12 years)","observational, cross-sectional",No,0.0557371621858993,0.0549427156231625,0.0154687741524952,0.0351843431994042,unpublished dissertation
+(â‰¤ 12 years)","observational, cross-sectional",No,0.0557371621858993,0.0549427156231625,0.0154687741524952,0.0351843431994042,unpublished dissertation
 2023,2,UK,Europe & Central Asia,Europe,Black Britsh people,White British people,Long-term migration,"convenience sample, students (no random sampling)","Children
-(= 12 years)","observational, cross-sectional",No,0.0557371621858993,0.0549427156231625,0.0154687741524952,0.0351843431994042,unpublished dissertation
+(â‰¤ 12 years)","observational, cross-sectional",No,0.0557371621858993,0.0549427156231625,0.0154687741524952,0.0351843431994042,unpublished dissertation
 2033,1,Canada,North America,North America,First-generation Canadians,Native Canadians,Long-term migration,"convenience sample, students (no random sampling)","Adults
 (≥ 18 years)",experimental (random assignment),Yes,0.0249903699091967,0.0261478632783305,0.00503791012665487,0.0257082208054689,published
 2075,1,Canada,North America,North America,Students from a lower-status university,Students from a higher-status university,Other,"convenience sample, students (no random sampling)","Adults
@@ -196,24 +196,24 @@ id,sample,country,region,continent,ingroup,outgroup,study_setting,study_sample,a
 2309,2,USA,North America,North America,Hispanic Americans,White Americans,Long-term migration,"convenience sample, non-students (no random sampling)","Adults
 (≥ 18 years)","observational, cross-sectional",Yes,0,0,0,0,published
 2333,1,USA,North America,North America,Non-White Americans,White Americans,Long-term migration,"convenience sample, students (no random sampling)","Adults
-(= 18 years)","observational, cross-sectional",Yes,0,0,0,0,unpublished dissertation
+(â‰¥ 18 years)","observational, cross-sectional",Yes,0,0,0,0,unpublished dissertation
 2341,1,Finland,Europe & Central Asia,Europe,Re-migrants from Russia to Finland,Finnish natives,Long-term migration,"convenience sample, non-students (no random sampling)","Adults
 (≥ 18 years)","observational, cross-sectional",No,0.0740076303872321,0.0741312790289867,0.0776737018256955,0.0289764040176874,published
 2375,1,USA,North America,North America,Latino Americans,Anglo/White Americans,Long-term migration,"convenience sample, students (no random sampling)","Adults
 (≥ 18 years)","observational, cross-sectional",Yes,0,0,0,0,published
 2380,1,India,South Asia,Asia,Scheduled Caste/Scheduled Tribe (Dalits/Adivasi),General Castes,Caste,"convenience sample, students (no random sampling)","Adults
-(= 18 years)","observational, cross-sectional",Yes,0.0868712357751859,0.0911749932496509,0.13938190485367,0.121441974203517,unpublished
+(â‰¥ 18 years)","observational, cross-sectional",Yes,0.0868712357751859,0.0911749932496509,0.13938190485367,0.121441974203517,unpublished
 2380,2,India,South Asia,Asia,Other Backward Class,General Castes,Caste,"convenience sample, students (no random sampling)","Adults
-(= 18 years)","observational, cross-sectional",Yes,0.0868712357751859,0.0911749932496509,0.13938190485367,0.121441974203517,unpublished
+(â‰¥ 18 years)","observational, cross-sectional",Yes,0.0868712357751859,0.0911749932496509,0.13938190485367,0.121441974203517,unpublished
 2381,1,New Zealand,East Asia & Pacific,Oceania,NZ Maori,NZ European,Colonization,probability or representative sample,"Adults
-(= 18 years)","observational, longitudinal",No,0.0541673331886272,0.0543208653781205,0.0424378544921463,0.0648045909947234,unpublished
+(â‰¥ 18 years)","observational, longitudinal",No,0.0541673331886272,0.0543208653781205,0.0424378544921463,0.0648045909947234,unpublished
 2381,2,New Zealand,East Asia & Pacific,Oceania,Pacific Islanders,NZ European,Long-term migration,probability or representative sample,"Adults
-(= 18 years)","observational, longitudinal",No,0.0541673331886272,0.0543208653781205,0.0424378544921463,0.0648045909947234,unpublished
+(â‰¥ 18 years)","observational, longitudinal",No,0.0541673331886272,0.0543208653781205,0.0424378544921463,0.0648045909947234,unpublished
 2381,3,New Zealand,East Asia & Pacific,Oceania,Asians,NZ European,Long-term migration,probability or representative sample,"Adults
-(= 18 years)","observational, longitudinal",No,0.0541673331886272,0.0543208653781205,0.0424378544921463,0.0648045909947234,unpublished
+(â‰¥ 18 years)","observational, longitudinal",No,0.0541673331886272,0.0543208653781205,0.0424378544921463,0.0648045909947234,unpublished
 2382,1,UK,Europe & Central Asia,Europe,Asian British people,White British people,Long-term migration,probability or representative sample,"Adolescents
 (13 - 18 years),Adults
-(= 18 years)","observational, longitudinal",Yes,0.0557371621858993,0.0549427156231625,0.0154687741524952,0.0351843431994042,unpublished
+(â‰¥ 18 years)","observational, longitudinal",Yes,0.0557371621858993,0.0549427156231625,0.0154687741524952,0.0351843431994042,unpublished
 2383,1,UK,Europe & Central Asia,Europe,Asian British secondary-school students,White British people,Long-term migration,"convenience sample, students (no random sampling)","Adolescents
 (13 - 18 years)","observational, cross-sectional",No,0.0557371621858993,0.0549427156231625,0.0154687741524952,0.0351843431994042,unpublished
 2383,2,UK,Europe & Central Asia,Europe,Black British secondary-school students,White British people,Long-term migration,"convenience sample, students (no random sampling)","Adolescents
@@ -221,25 +221,25 @@ id,sample,country,region,continent,ingroup,outgroup,study_setting,study_sample,a
 2383,3,UK,Europe & Central Asia,Europe,Mixed secondary-school students,White British people,Other,"convenience sample, students (no random sampling)","Adolescents
 (13 - 18 years)","observational, cross-sectional",No,0.0557371621858993,0.0549427156231625,0.0154687741524952,0.0351843431994042,unpublished
 2385,1,India,South Asia,Asia,Muslims,Hindus,Religion,probability or representative sample,"Adults
-(= 18 years)","observational, cross-sectional",Yes,0.0868712357751859,0.0911749932496509,0.13938190485367,0.121441974203517,unpublished
+(â‰¥ 18 years)","observational, cross-sectional",Yes,0.0868712357751859,0.0911749932496509,0.13938190485367,0.121441974203517,unpublished
 2385,2,India,South Asia,Asia,Sikhs,Hindus,Religion,probability or representative sample,"Adults
-(= 18 years)","observational, cross-sectional",Yes,0.0868712357751859,0.0911749932496509,0.13938190485367,0.121441974203517,unpublished
+(â‰¥ 18 years)","observational, cross-sectional",Yes,0.0868712357751859,0.0911749932496509,0.13938190485367,0.121441974203517,unpublished
 2385,3,India,South Asia,Asia,Christians,Hindus,Religion,probability or representative sample,"Adults
-(= 18 years)","observational, cross-sectional",Yes,0.0868712357751859,0.0911749932496509,0.13938190485367,0.121441974203517,unpublished
+(â‰¥ 18 years)","observational, cross-sectional",Yes,0.0868712357751859,0.0911749932496509,0.13938190485367,0.121441974203517,unpublished
 2385,4,India,South Asia,Asia,Buddhists,Hindus,Religion,probability or representative sample,"Adults
-(= 18 years)","observational, cross-sectional",Yes,0.0868712357751859,0.0911749932496509,0.13938190485367,0.121441974203517,unpublished
+(â‰¥ 18 years)","observational, cross-sectional",Yes,0.0868712357751859,0.0911749932496509,0.13938190485367,0.121441974203517,unpublished
 2391,1,Italy,Europe & Central Asia,Europe,African immigrants in Italy,Italian native people,Long-term migration,"convenience sample, non-students (no random sampling)","Adults
-(= 18 years)","observational, longitudinal",Yes,0.0617256435632142,0.0553297298740493,0.0424087774135186,0.0270415582362963,unpublished
+(â‰¥ 18 years)","observational, longitudinal",Yes,0.0617256435632142,0.0553297298740493,0.0424087774135186,0.0270415582362963,unpublished
 2392,1,India,South Asia,Asia,Intermediate Caste individuals,Upper caste individuals,Caste,probability or representative sample,"Adults
-(= 18 years)","observational, cross-sectional",Yes,0.0868712357751859,0.0911749932496509,0.13938190485367,0.121441974203517,unpublished
+(â‰¥ 18 years)","observational, cross-sectional",Yes,0.0868712357751859,0.0911749932496509,0.13938190485367,0.121441974203517,unpublished
 2392,2,India,South Asia,Asia,OBC (Other Backward Classes),Upper Castes,Caste,probability or representative sample,"Adults
-(= 18 years)","observational, cross-sectional",Yes,0.0868712357751859,0.0911749932496509,0.13938190485367,0.121441974203517,unpublished
+(â‰¥ 18 years)","observational, cross-sectional",Yes,0.0868712357751859,0.0911749932496509,0.13938190485367,0.121441974203517,unpublished
 2392,3,India,South Asia,Asia,SC/ST (Scheduled castes and scheduled tribes),Upper Castes,Caste,probability or representative sample,"Adults
-(= 18 years)","observational, cross-sectional",Yes,0.0868712357751859,0.0911749932496509,0.13938190485367,0.121441974203517,unpublished
+(â‰¥ 18 years)","observational, cross-sectional",Yes,0.0868712357751859,0.0911749932496509,0.13938190485367,0.121441974203517,unpublished
 2394,1,USA,North America,North America,Asian Americans,White Americans,Long-term migration,"convenience sample, non-students (no random sampling)","Adults
-(= 18 years)","observational, cross-sectional",Yes,0,0,0,0,unpublished
+(â‰¥ 18 years)","observational, cross-sectional",Yes,0,0,0,0,unpublished
 2394,2,USA,North America,North America,Black Americans,White Americans,Slavery,"convenience sample, non-students (no random sampling)","Adults
-(= 18 years)","observational, cross-sectional",Yes,0,0,0,0,unpublished
+(â‰¥ 18 years)","observational, cross-sectional",Yes,0,0,0,0,unpublished
 3000,1,Hong Kong,East Asia & Pacific,Asia,Mainland Chinese students,Local students,Short-term migration,"convenience sample, students (no random sampling)","Adults
 (≥ 18 years)","observational, cross-sectional",No,0.0979239647188102,0.0849829180794357,0.15086534296655,0.110575717315254,published
 3005,1,Norway,Europe & Central Asia,Europe,Kurdish university students in Norway,Native Norwegians,Long-term migration,"convenience sample, students (no random sampling)","Adults
@@ -247,9 +247,9 @@ id,sample,country,region,continent,ingroup,outgroup,study_setting,study_sample,a
 3051,1,Denmark,Europe & Central Asia,Europe,Non-Western immigrants,Danes,Long-term migration,probability or representative sample,"Adults
 (≥ 18 years)","observational, cross-sectional",No,"NA","NA","NA","NA",published
 3054,1,"Chile, Germany, Kosovo, Poland, Serbia, Spain, Switzerland, UK, USA","Latin America & Caribbean, Europe & Central Asia, North America","South America, Europe, North America","Mapuche, Peruvians, Muslims, Serbs, Ukranians, Bosniaks, Roma, Asian people","Non-Indigenous, Chileans, Non-Muslims, Albanians, Polish, Serbs, Non-Roma, White people","Colonization, Long-term migration, Religion, Other","convenience sample, non-students (no random sampling)","Adults
-(= 18 years)","observational, cross-sectional",Yes,"0.0800639752673544, 0.0789551316831658, NA, 0.0790668206288022, 0.0782036728387198, 0.0636546745734697, 0.0557371621858993, 0","0.0777284371171846, 0.0664975463522096, NA, 0.0780406297501256, 0.0687634198308578, 0.0646386470974525, 0.0549427156231625, 0","0.320950847505054, 0.0629091140634312, NA, 0.244216603608822, 0.180384219869615, 0.0155588103416636, 0.0154687741524952, 0","0.0619713718631271, 0.0218813762372545, NA, 0.0552141782215148, 0.0412969750491968, 0.0438921110380529, 0.0351843431994042, 0",published
+(â‰¥ 18 years)","observational, cross-sectional",Yes,"0.0800639752673544, 0.0789551316831658, NA, 0.0790668206288022, 0.0782036728387198, 0.0636546745734697, 0.0557371621858993, 0","0.0777284371171846, 0.0664975463522096, NA, 0.0780406297501256, 0.0687634198308578, 0.0646386470974525, 0.0549427156231625, 0","0.320950847505054, 0.0629091140634312, NA, 0.244216603608822, 0.180384219869615, 0.0155588103416636, 0.0154687741524952, 0","0.0619713718631271, 0.0218813762372545, NA, 0.0552141782215148, 0.0412969750491968, 0.0438921110380529, 0.0351843431994042, 0",published
 3054,11,"Argentina,Australia,Austria,Bahamas,Belarus,Belgium,Bolivia,Bosnia and Herzegovina,Brazil,Canada,Chile,China,Colombia,Croatia,Czech Republic,Denmark,El Salvador,Estonia,Ethiopia,France,Germany,Greece,Hungary,Iceland,India,Iran,Israel,Italy,Japan,Kosovo,Kyrgyzstan,Liechtenstein,Mexico,Moldova,Monaco,Montenegro,Netherlands,New Zealand,Nicaragua,Norway,Peru,Poland,Portugal,Russia,Rwanda,Serbia,Slovakia,South Africa,Spain,Suriname,Sweden,Switzerland,Taiwan,Thailand,Turkey,UK,Ukraine,United Arab Emirates,USA",Mixed,Mixed,Sexual and Gender Minorities,Cis-Heterosexuals,Sexuality,"convenience sample, non-students (no random sampling)","Adults
-(= 18 years)","observational, cross-sectional",Yes,"0.0722195922138506,0.032507235520865,NA,NA,0.0659403665304273,NA,NA,NA,0.0698204356383095,0.0249903699091967,0.0800639752673544,0.170316011212987,0.1121588419115,NA,NA,NA,NA,0.125269305599528,0.140520264154255,0.0835579524630415,0.0789551316831658,NA,0.108363490338012,NA,0.0868712357751859,0.149245387945745,NA,0.0617256435632142,0.118450743052923,NA,0.136988390656723,NA,0.0752247712872093,0.104459193423475,NA,NA,0.0822372379688003,0.0541673331886272,NA,0.120088348955552,0.09573698526183,0.0790668206288022,NA,0.0919652266190042,0.164235999063952,NA,NA,0.0775239756055437,0.0782036728387198,NA,0.108898943947004,0.0636546745734697,0.104485799117913,0.139297404513815,0.127044425847128,0.0557371621858993,0.0854309706855056,NA,0","0.0689400648957619,0.0320968182314205,NA,NA,0.070188633376178,NA,NA,NA,0.0684949153160588,0.0261478632783305,0.0777284371171846,0.133714176449106,0.117675152321069,NA,NA,NA,NA,0.103604861600355,0.141976646286893,0.0685529867572972,0.0664975463522096,NA,0.116515956170258,NA,0.0911749932496509,0.150958172149511,NA,0.0553297298740493,0.10521407481229,NA,0.160462801575633,NA,0.0761214852908371,0.10862909894001,NA,NA,0.0514121415927126,0.0543208653781205,NA,0.110608527022266,0.093080703105032,0.0780406297501256,NA,0.100085749598954,0.159527627306881,NA,NA,0.0786389668446095,0.0687634198308578,NA,0.0967717099864005,0.0646386470974525,0.104752412735761,0.138177404902773,0.115332198375567,0.0549427156231625,0.0887797623186037,NA,0","0.234895327279662,0.0182345391561595,NA,NA,NA,NA,NA,NA,0.10232750847432,0.00503791012665487,0.320950847505054,0.396302163398596,0.225536106077977,NA,NA,NA,NA,0.384782281147465,0.270569119390869,0.0409397862693129,0.0629091140634312,NA,0.861396929301448,NA,0.13938190485367,NA,NA,0.0424087774135186,0.129341803798928,NA,0.69955127022353,NA,0.280416390609245,0.585396051648069,NA,NA,0.0603390568121052,0.0424378544921463,NA,0.0170131267761095,0.229188776501613,0.244216603608822,NA,0.438665692101446,0.361619566325667,NA,NA,0.242407668227345,0.180384219869615,NA,0.0548547269505727,0.0155588103416636,0.457142214788289,0.475324887531057,0.332638505186188,0.0154687741524952,0.492240464356304,NA,0","0.0592007398979936,0.0210511788882604,NA,NA,0.123117734658668,NA,NA,NA,0.0673127544968248,0.0257082208054689,0.0619713718631271,0.0893438071946623,0.0903289574808383,NA,NA,NA,NA,0.0951364579069012,0.100551945555497,0.0558593216898047,0.0218813762372545,NA,0.0524175852444736,NA,0.121441974203517,0.246619097988981,NA,0.0270415582362963,0.0549969502217425,NA,0.167667861696261,NA,0.0589065045843685,0.117588131104496,NA,NA,0.0341913174333371,0.0648045909947234,NA,0.0735337063833623,0.0809841041380413,0.0552141782215148,NA,0.0993774119573062,0.151538798002949,NA,NA,0.0650781400376889,0.0412969750491968,NA,0.060907567791121,0.0438921110380529,0.0938014162186633,0.078749472623834,0.135395755156231,0.0351843431994042,0.0825106708978714,NA,0",published
+(â‰¥ 18 years)","observational, cross-sectional",Yes,"0.0722195922138506,0.032507235520865,NA,NA,0.0659403665304273,NA,NA,NA,0.0698204356383095,0.0249903699091967,0.0800639752673544,0.170316011212987,0.1121588419115,NA,NA,NA,NA,0.125269305599528,0.140520264154255,0.0835579524630415,0.0789551316831658,NA,0.108363490338012,NA,0.0868712357751859,0.149245387945745,NA,0.0617256435632142,0.118450743052923,NA,0.136988390656723,NA,0.0752247712872093,0.104459193423475,NA,NA,0.0822372379688003,0.0541673331886272,NA,0.120088348955552,0.09573698526183,0.0790668206288022,NA,0.0919652266190042,0.164235999063952,NA,NA,0.0775239756055437,0.0782036728387198,NA,0.108898943947004,0.0636546745734697,0.104485799117913,0.139297404513815,0.127044425847128,0.0557371621858993,0.0854309706855056,NA,0","0.0689400648957619,0.0320968182314205,NA,NA,0.070188633376178,NA,NA,NA,0.0684949153160588,0.0261478632783305,0.0777284371171846,0.133714176449106,0.117675152321069,NA,NA,NA,NA,0.103604861600355,0.141976646286893,0.0685529867572972,0.0664975463522096,NA,0.116515956170258,NA,0.0911749932496509,0.150958172149511,NA,0.0553297298740493,0.10521407481229,NA,0.160462801575633,NA,0.0761214852908371,0.10862909894001,NA,NA,0.0514121415927126,0.0543208653781205,NA,0.110608527022266,0.093080703105032,0.0780406297501256,NA,0.100085749598954,0.159527627306881,NA,NA,0.0786389668446095,0.0687634198308578,NA,0.0967717099864005,0.0646386470974525,0.104752412735761,0.138177404902773,0.115332198375567,0.0549427156231625,0.0887797623186037,NA,0","0.234895327279662,0.0182345391561595,NA,NA,NA,NA,NA,NA,0.10232750847432,0.00503791012665487,0.320950847505054,0.396302163398596,0.225536106077977,NA,NA,NA,NA,0.384782281147465,0.270569119390869,0.0409397862693129,0.0629091140634312,NA,0.861396929301448,NA,0.13938190485367,NA,NA,0.0424087774135186,0.129341803798928,NA,0.69955127022353,NA,0.280416390609245,0.585396051648069,NA,NA,0.0603390568121052,0.0424378544921463,NA,0.0170131267761095,0.229188776501613,0.244216603608822,NA,0.438665692101446,0.361619566325667,NA,NA,0.242407668227345,0.180384219869615,NA,0.0548547269505727,0.0155588103416636,0.457142214788289,0.475324887531057,0.332638505186188,0.0154687741524952,0.492240464356304,NA,0","0.0592007398979936,0.0210511788882604,NA,NA,0.123117734658668,NA,NA,NA,0.0673127544968248,0.0257082208054689,0.0619713718631271,0.0893438071946623,0.0903289574808383,NA,NA,NA,NA,0.0951364579069012,0.100551945555497,0.0558593216898047,0.0218813762372545,NA,0.0524175852444736,NA,0.121441974203517,0.246619097988981,NA,0.0270415582362963,0.0549969502217425,NA,0.167667861696261,NA,0.0589065045843685,0.117588131104496,NA,NA,0.0341913174333371,0.0648045909947234,NA,0.0735337063833623,0.0809841041380413,0.0552141782215148,NA,0.0993774119573062,0.151538798002949,NA,NA,0.0650781400376889,0.0412969750491968,NA,0.060907567791121,0.0438921110380529,0.0938014162186633,0.078749472623834,0.135395755156231,0.0351843431994042,0.0825106708978714,NA,0",published
 3060,1,USA,North America,North America,African Americans,White Americans,Slavery,"convenience sample, non-students (no random sampling)","Adults
 (≥ 18 years)","observational, cross-sectional",No,0,0,0,0,published
 3134,1,Germany,Europe & Central Asia,Europe,Immigrant-origin Muslims,Native Germans,Long-term migration,probability or representative sample,"Adolescents
@@ -265,15 +265,15 @@ id,sample,country,region,continent,ingroup,outgroup,study_setting,study_sample,a
 3205,1,Romania,Europe & Central Asia,Europe,Roma,Romanians,Other,probability or representative sample,"Adults
 (≥ 18 years)","observational, cross-sectional",Yes,0.109972291329285,0.116332451382237,0.410037908968058,0.0757349534652357,published
 4000,1,Germany,Europe & Central Asia,Europe,Syrian refugees,Germans,Long-term migration,"convenience sample, non-students (no random sampling)","Adults
-(= 18 years)","observational, cross-sectional",Yes,0.0789551316831658,0.0664975463522096,0.0629091140634312,0.0218813762372545,published
+(â‰¥ 18 years)","observational, cross-sectional",Yes,0.0789551316831658,0.0664975463522096,0.0629091140634312,0.0218813762372545,published
 4001,1,Mexico,Latin America & Caribbean,South America,Mexicans,Americans,Other,"convenience sample, students (no random sampling)","Adults
-(= 18 years)","observational, cross-sectional",No,0.0752247712872093,0.0761214852908371,0.280416390609245,0.0589065045843685,published
+(â‰¥ 18 years)","observational, cross-sectional",No,0.0752247712872093,0.0761214852908371,0.280416390609245,0.0589065045843685,published
 4002,1,Belgium,Europe & Central Asia,Europe,Turkish‐ and Moroccan‐origin minority students,Belgians,Long-term migration,probability or representative sample,"Adolescents
 (13 - 18 years)","observational, cross-sectional",No,"NA","NA","NA","NA",published
 4003,1,USA,North America,North America,Black Americans,White Americans,Slavery,"convenience sample, non-students (no random sampling)","Adults
-(= 18 years)","observational, cross-sectional",Yes,0,0,0,0,published
+(â‰¥ 18 years)","observational, cross-sectional",Yes,0,0,0,0,published
 4004,1,Bulgaria,Europe & Central Asia,Europe,Roma,Ethnic Bulgarians,Other,"convenience sample, non-students (no random sampling)","Adolescents
 (13 - 18 years),Adults
-(= 18 years)","observational, cross-sectional",Yes,0.107764764715509,0.111983631611126,0.710591107400579,0.094454065596257,published
+(â‰¥ 18 years)","observational, cross-sectional",Yes,0.107764764715509,0.111983631611126,0.710591107400579,0.094454065596257,published
 4005,1,Israel,Middle East & North Africa,Asia,Ethiopian Jews,Non-Ethiopians,Long-term migration,"convenience sample, students (no random sampling)","Adults
-(= 18 years)","observational, cross-sectional",Yes,"NA","NA","NA","NA",published
+(â‰¥ 18 years)","observational, cross-sectional",Yes,"NA","NA","NA","NA",published
