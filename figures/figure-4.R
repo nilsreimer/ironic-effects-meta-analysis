@@ -16,7 +16,7 @@ rm(list = ls())
 # Prepare -----------------------------------------------------------------
   
   # Import results from moderator analyses
-  results <- read_rds("results/results_confirmatory_moderator_analyses.rds")
+  results <- read_rds("results/results_categorical_moderator_analyses.rds")
   
   # Transform to long format
   results <- results %>% 
