@@ -6,7 +6,12 @@ rm(list = ls())
 # Library -----------------------------------------------------------------
 
   # Load packages
-  library(tidyverse); library(numform)
+  library(tidyverse); library(numform); library(patchwork)
+
+# Visualize ---------------------------------------------------------------
+
+  # Figure 2a
+  source("figures/figure-2a.R")
 
 
 # Prepare -----------------------------------------------------------------
@@ -15,125 +20,266 @@ rm(list = ls())
   dl <- read_rds("data/dl.rds")
   
   # Select variables
-  dm <- dl %>% distinct(id, sample, n, country)
-  
-  # Separate samples with multiple countries (if possible)
-  dm <- dm %>% 
-    filter(
-      !(id == 829L & sample == 1L),
-      !(id == 956L & sample == 2L),
-      !(id == 3054L & sample == 1L)
+  dl <- dl %>% 
+    select(
+      id,
+      sample,
+      n,
+      country:publication_status 
     ) %>% 
-    bind_rows(
-      tribble(
-          ~id, ~sample,   ~n, ~country,
-         829L,      1L,  55L, "Finland",
-         829L,      1L,  61L, "France",
-         829L,      1L,  89L, "Germany",
-         829L,      1L, 100L, "Norway",
-         829L,      1L, 273L, "Sweden",
-         829L,      1L, 158L, "Netherlands",
-         956L,      2L, 310L, "Germany",
-         956L,      2L, 123L, "UK",
-        3054L,      1L, 118L, "Chile",
-        3054L,      1L, 127L, "Chile",
-        3054L,      1L, 110L, "Germany",
-        3054L,      1L, 112L, "Kosovo",
-        3054L,      1L,  89L, "Poland",
-        3054L,      1L,  95L, "Serbia",
-        3054L,      1L,  27L, "Spain",
-        3054L,      1L,  89L, "Switzerland",
-        3054L,      1L, 127L, "UK",
-        3054L,      1L, 106L, "USA"
+    distinct()
+
+# Visualize ---------------------------------------------------------------
+
+  # Figure 2b
+  f_2b <- dl %>% 
+    mutate(
+      continent = case_when(
+        str_detect(continent, ",") ~ "Mixed",
+        TRUE ~ continent
       )
     ) %>% 
-    arrange(id, sample)
-  
-  # Remove samples with multiple countries (if not)
-  dm <- dm %>% filter(
-    !(id == 3054L & sample == 11L), 
-    !(id == 303L & sample == 1L)
-  )
-  
-  # Prepare map data 
-  areas <- dm %>%
-    filter(!(country %in% c("Hong Kong", "Singapore"))) %>% 
-    group_by(country) %>% 
-    summarize(I = n(), J = n_distinct(id), N = sum(n)) %>%
-    left_join(
-      map_data("world"),
-      .,
-      by = c("region" = "country")
-    )
-    
-  # Prepare map data
-  cities <- dm %>%
-    filter(country %in% c("Hong Kong", "Singapore")) %>% 
-    group_by(country) %>% 
-    summarize(I = n(), J = n_distinct(id), N = sum(n)) %>% 
-    left_join(
-      tribble(
-           ~country,     ~lat,      ~long,
-        "Hong Kong", 22.30271, 114.177216,
-        "Singapore", 1.283333, 103.833333
-      )
+    group_by(continent) %>% 
+    summarize(
+      N = sum(n),
+      I = n(),
+      J = n_distinct(id)
     ) %>% 
-    rename(region = country)
-
-
-# Visluaize ---------------------------------------------------------------
-
-  # Figure 2
-  ggplot(areas)  +
-    geom_polygon(
-      aes(x = long, y = lat, group = group, fill = N),
-      colour = "grey20",
-      size = 0.1
+    mutate(
+      P = I/sum(I)
+    ) %>% 
+    arrange(P) %>% 
+    mutate(
+      continent = factor(continent, levels = c("Mixed", continent[continent != "Mixed"]))
+    ) %>% 
+    ggplot(., aes(x = P, y = continent)) +
+    geom_col(
+      aes(fill = if_else(continent == "Mixed", "grey82", "black")),
+      width = 0.8
     ) +
-    geom_point(
-      data = cities,
-      aes(x = long, y = lat, fill = N),
-      colour = "grey20",
-      shape = "circle filled",
-      size = 3
+    geom_text(
+      aes(
+        label = I,
+        colour = if_else(P < 0.10, "black", "white"),
+        hjust = if_else(P < 0.10, -0.25, 1.25)
+      ),
+      size = 9/.pt
     ) +
-    scale_fill_viridis_c(
-      option = "A",
-      direction = -1,
-      breaks = c(100, 1000, 10000, 100000),
-      labels = f_comma(c(100, 1000, 10000, 100000)),
-      trans = "log",
-      na.value = "white"
+    scale_x_continuous(
+      labels = scales::percent,
+      expand = c(0, 0)
     ) +
-    guides(
-      fill = guide_colourbar(
-        title = "Number of Participants",
-        title.position = "top",
-        label.position = "bottom",
-        label.hjust = 0,
-        ticks.linewidth = 1,
-        draw.ulim = TRUE,
-        barwidth = unit(8, "cm")
-      )
-    ) +
-    coord_equal(
-      xlim = c(-125, 180),
-      ylim = c(-60, 90),
-      expand = FALSE
-    ) +
-    theme_void(base_size = 16) +
+    scale_colour_identity() + 
+    scale_fill_identity() +
+    theme_minimal(base_size = 10) +
     theme(
-      legend.position = "bottom",
-      legend.justification = "left",
+      legend.position = "none",
+      plot.title = element_text(colour = "black", face = "bold"),
+      axis.text = element_text(colour = "black"),
+      axis.title = element_blank(),
+      panel.grid = element_blank(),
+      panel.grid.major.x = element_line(colour = "grey92")
+    ) +
+    labs(
+      title = "Continent"
     )
 
+  # Figure 2c
+  f_2c <- dl %>%
+    mutate(
+      study_setting = case_when(
+        str_detect(study_setting, ",") ~ "Other",
+        study_setting == "Slavery" ~ "Post-Slavery",
+        study_setting == "Colonization" ~ "Post-Colonial",
+        TRUE ~ study_setting
+      )
+    ) %>% 
+    group_by(study_setting) %>% 
+    summarize(
+      N = sum(n),
+      I = n(),
+      J = n_distinct(id)
+    ) %>% 
+    mutate(
+      P = I/sum(I)
+    ) %>% 
+    arrange(P) %>% 
+    filter(!is.na(study_setting)) %>% 
+    mutate(
+      study_setting = factor(study_setting, levels = c("Other", study_setting[study_setting != "Other"]))
+    ) %>% 
+    ggplot(., aes(x = P, y = study_setting)) +
+    geom_col(
+      aes(fill = if_else(study_setting == "Other", "grey82", "black")),
+      width = 0.8
+    ) +
+    geom_text(
+      aes(
+        label = I,
+        colour = if_else(P < 0.10, "black", "white"),
+        hjust = if_else(P < 0.10, -0.25, 1.25)
+      ),
+      size = 9/.pt
+    ) +
+    scale_x_continuous(
+      labels = scales::percent,
+      expand = c(0, 0)
+    ) +
+    scale_colour_identity() + 
+    scale_fill_identity() +
+    theme_minimal(base_size = 10) +
+    theme(
+      legend.position = "none",
+      plot.title = element_text(colour = "black", face = "bold"),
+      axis.text = element_text(colour = "black"),
+      axis.title = element_blank(),
+      panel.grid = element_blank(),
+      panel.grid.major.x = element_line(colour = "grey92")
+    ) +
+    labs(
+      title = "Study Setting"
+    )
+  
+  # Figure 2d
+  f_2d <- dl %>%
+    mutate(
+      study_design = recode(
+        study_design,
+        "experimental (random assignment)" = "experimental",
+        "quasi-experimental (no random assignment)" = "quasi-experimental",
+        "observational, longitudinal" = "observational,\nlongitudinal",
+        "observational, cross-sectional" = "observational,\ncross-sectional"
+      )
+    ) %>%
+    group_by(study_design) %>% 
+    summarize(
+      N = sum(n),
+      I = n(),
+      J = n_distinct(id)
+    ) %>% 
+    mutate(
+      P = I/sum(I)
+    ) %>% 
+    arrange(P) %>% 
+    mutate(
+      study_design = factor(study_design, levels = study_design)
+    ) %>% 
+    ggplot(., aes(x = P, y = study_design)) +
+    geom_col(
+      fill = "black",
+      width = 0.8
+    ) +
+    geom_text(
+      aes(
+        label = I,
+        colour = if_else(P < 0.10, "black", "white"),
+        hjust = if_else(P < 0.10, -0.25, 1.25)
+      ),
+      size = 9/.pt
+    ) +
+    scale_x_continuous(
+      labels = scales::percent,
+      expand = c(0, 0)
+    ) +
+    scale_colour_identity() + 
+    scale_fill_identity() +
+    theme_minimal(base_size = 10) +
+    theme(
+      legend.position = "none",
+      plot.title = element_text(colour = "black", face = "bold"),
+      axis.text = element_text(colour = "black"),
+      axis.title = element_blank(),
+      panel.grid = element_blank(),
+      panel.grid.major.x = element_line(colour = "grey92")
+    ) +
+    labs(
+      title = "Study Design"
+    )
+  
+  # Figure 2d
+  f_2e <- dl %>%
+    mutate(
+      study_sample = recode(
+        study_sample,
+        "convenience sample, non-students (no random sampling)" = "convenience sample,\nnot students",
+        "convenience sample, students (no random sampling)" = "convenience sample,\nstudents",
+        "probability or representative sample" = "probability/representative\nsample "
+      )
+    ) %>%
+    group_by(study_sample) %>% 
+    summarize(
+      N = sum(n),
+      I = n(),
+      J = n_distinct(id)
+    ) %>% 
+    mutate(
+      P = I/sum(I)
+    ) %>% 
+    arrange(P) %>% 
+    mutate(
+      study_sample = factor(study_sample, levels = study_sample)
+    ) %>% 
+    ggplot(., aes(x = P, y = study_sample)) +
+    geom_col(
+      fill = "black",
+      width = 0.8
+    ) +
+    geom_text(
+      aes(
+        label = I,
+        colour = if_else(P < 0.10, "black", "white"),
+        hjust = if_else(P < 0.10, -0.25, 1.25)
+      ),
+      size = 9/.pt
+    ) +
+    scale_x_continuous(
+      labels = scales::percent,
+      expand = c(0, 0)
+    ) +
+    scale_colour_identity() + 
+    scale_fill_identity() +
+    theme_minimal(base_size = 10) +
+    theme(
+      legend.position = "none",
+      plot.title = element_text(colour = "black", face = "bold"),
+      axis.text = element_text(colour = "black"),
+      axis.title = element_blank(),
+      panel.grid = element_blank(),
+      panel.grid.major.x = element_line(colour = "grey92")
+    ) +
+    labs(
+      title = "Study Sample"
+    )
+
+# Combine -----------------------------------------------------------------
+  
+  # Combine figures
+  f_2a + f_2b + f_2c + f_2d + f_2e + plot_layout(
+    heights = c(2, 1, 1),
+    widths = c(0, 1, 1),
+    design = "
+    AAA
+    #BC
+    #DE
+    "
+  ) + plot_annotation(
+    tag_levels = "A",
+    theme = theme(plot.tag = element_text(face = "bold"))
+  )
 
 # Export ------------------------------------------------------------------
-
+  
+  # Export figure (as .pdf)
+  ggsave(
+    "figures/figure-2.pdf",
+    width = 5.6, height = 5.6/3*4, units = "in",
+    device = cairo_pdf
+  )
+  
   # Export figure (as .png)
   ggsave(
-    "presentation/map-ppt.png",
-    width = 21.91, height = 16.14, units = "cm", dpi = 600,
-    type = "cairo-png"
-  )
+    "figures/figure-2.png",
+    width = 5.6, height = 5.6/3*4, units = "in",
+    dpi = 600
+  )    
     

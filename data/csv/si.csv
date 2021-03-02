@@ -117,6 +117,12 @@ id,coder,n_samples,sample,name,n,variables,comments
 2392,NA,3,3,SC/ST (Scheduled castes and scheduled tribes),33137,"pc,nc,rd,ca,gi",NA
 2394,NA,2,1,Asian Americans,201,"pc,nc,ld,oa",NA
 2394,NA,2,2,Black Americans,209,"pc,nc,ld,oa",NA
+2395,NA,2,1,Kurdish,132,"cq,pc,nc,cf,pd,gd,rd,gi,oa",NA
+2395,NA,2,2,Black british,188,"cq,pc,nc,cf,pd,gd,rd,gi,oa",NA
+2396,NA,3,1,Disabled people,290,"cf,in,pd,gi",NA
+2396,NA,3,2,LGBTI,381,"cf,in,pd,gi",NA
+2396,NA,3,3,Kurdish,191,"cf,in,pd,gi",NA
+2397,NA,1,1,Black British people,501,"pc,nc,rd,ca,gi,oa,o1,o2",NA
 3000,Coder 1,1,1,Mainland Chinese students in Hong Kong,2201,"cq,pi",NA
 3005,Coder 1,1,1,Study 2,93,"cq,pd",NA
 3051,Coder 1,1,1,Non-Western immigrants in Denmark,1211,"cf,pd,gd,oa",NA

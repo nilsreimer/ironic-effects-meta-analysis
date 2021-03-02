@@ -5,6 +5,7 @@
 figures/old/
 models/old/
 scripts/old/
+test/
 models/*.rds
 protocol/*.rds
 manuscript/*.aux

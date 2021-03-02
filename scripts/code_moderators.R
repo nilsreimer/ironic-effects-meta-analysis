@@ -457,6 +457,7 @@ rm(list = ls())
     mutate(
       publication_status = case_when(
         !is.na(publication_status) ~ publication_status,
+        id == 2396 ~ "published",
         between(id, 2380L, 2999L) ~ "unpublished",
         id >= 4000L ~ "published",
         id == 2257L ~ "published"

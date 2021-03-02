@@ -122,11 +122,15 @@ rm(list = ls())
       r_kk = map2(
         fit,
         es,
-        ~spread_draws(.x, r_kk[kk]) %>% 
+        ~spread_draws(.x, r_kk[kk], R2) %>% 
           left_join(
             distinct(.y, kk, category),
             by = "kk"
           )
+      ),
+      R2 = map(
+        fit,
+        ~spread_draws(., R2)
       )
     )
   
@@ -189,6 +193,10 @@ rm(list = ls())
             distinct(.y, kk, category),
             by = "kk"
           )
+      ),
+      R2 = map(
+        fit,
+        ~spread_draws(., R2)
       )
     )
   
@@ -257,6 +265,10 @@ rm(list = ls())
             distinct(.y, kk, category),
             by = "kk"
           )
+      ),
+      R2 = map(
+        fit,
+        ~spread_draws(.x, R2)
       )
     )
   
@@ -338,6 +350,10 @@ rm(list = ls())
             distinct(.y, kk, category),
             by = "kk"
           )
+      ),
+      R2 = map(
+        fit,
+        ~spread_draws(.x, R2)
       )
     )
   
@@ -420,6 +436,10 @@ rm(list = ls())
             distinct(.y, kk, category),
             by = "kk"
           )
+      ),
+      R2 = map(
+        fit,
+        ~spread_draws(., R2)
       )
     )
   
@@ -503,6 +523,10 @@ rm(list = ls())
             distinct(.y, kk, category),
             by = "kk"
           )
+      ),
+      R2 = map(
+        fit,
+        ~spread_draws(., R2)
       )
     )
   
@@ -530,11 +554,17 @@ rm(list = ls())
           dl %>% distinct(id, sample, category = publication_status),
           by = c("id", "sample")
         ) %>% mutate(
+          category = recode(
+            category,
+            "published" = "published",
+            "unpublished dissertation" = "unpublished",
+            "unpublished" = "unpublished"
+          ),
           kk = recode(
             category,
             "published" = 1L,
-            "unpublished dissertation" = 2L,
-            "unpublished" = 3L
+            # "unpublished dissertation" = 2L,
+            "unpublished" = 2L
           )
         )
       ),
@@ -569,7 +599,11 @@ rm(list = ls())
           left_join(
             distinct(.y, kk, category),
             by = "kk"
-          )
+          ),
+        R2 = map(
+          fit,
+          ~spread_draws(., R2)
+        )
       )
     )
 
@@ -581,6 +615,76 @@ rm(list = ls())
   }
   
 
+# Study intention ---------------------------------------------------------
+
+  # Load model
+  model <- stan_model("models/2l-meta-analysis-categorical-moderators.stan")
+  
+  # Prepare data list
+  results <- data %>% 
+    mutate(
+      moderator = "study_intention",
+      es = map(
+        es,
+        ~left_join(
+          .,
+          dl %>% distinct(id, sample, category = study_intention),
+          by = c("id", "sample")
+        ) %>% mutate(
+          kk = recode(
+            category,
+            "No" = 1L,
+            "Yes" = 2L
+          )
+        )
+      ),
+      dlist = map(es, ~with(., list(
+        I  = length(ii),
+        J  = max(jj),
+        K  = max(kk),
+        ii = ii,
+        jj = jj,
+        kk = kk,
+        r  = r,
+        n  = n
+      )))
+    )
+  
+  # Run model
+  results <- results %>% 
+    mutate(
+      fit = map(dlist, ~sampling(
+        model,
+        data = .,
+        control = list(adapt_delta = 0.99, max_treedepth = 12),
+        chains = n_cores,
+        iter = n_warmup + n_iter/n_cores,
+        warmup = n_warmup,
+        seed = 6414040
+      )),
+      r_kk = map2(
+        fit,
+        es,
+        ~spread_draws(.x, r_kk[kk]) %>% 
+          left_join(
+            distinct(.y, kk, category),
+            by = "kk"
+          ),
+        R2 = map(
+          fit,
+          ~spread_draws(., R2)
+        )
+      )
+    )
+  
+  # Compile results
+  if (exists("moderators")) {
+    moderators <- bind_rows(moderators, results)
+  } else {
+    moderators <- results
+  }
+  
+  
 # Cultural distance -------------------------------------------------------
 
   # Load model

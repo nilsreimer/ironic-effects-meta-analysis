@@ -3874,6 +3874,280 @@ id,sample,metric,es,x,y,source,note,n1,n2,t1,t2,direction,x_name,y_name
 2394,2,r,0.07,pc,nc,unpublished,NA,NA,NA,NA,NA,NA,Contact quality / Positive contact,Negative contact
 2394,2,r,0.51,pc,oa,unpublished,NA,NA,NA,NA,NA,NA,Contact quality / Positive contact,Outgroup attitudes
 2394,2,r,1,pc,pc,unpublished,NA,NA,NA,NA,NA,NA,Contact quality / Positive contact,Contact quality / Positive contact
+2395,1,r,1,cf,cf,unpublished,NA,NA,NA,NA,NA,NA,Cross-group friendship,Cross-group friendship
+2395,1,r,0.65,cf,cq,unpublished,NA,NA,NA,NA,NA,NA,Cross-group friendship,Contact quantity
+2395,1,r,-0.03,cf,gd,unpublished,NA,NA,NA,NA,NA,NA,Cross-group friendship,Group discrimination
+2395,1,r,0.003,cf,gi,unpublished,NA,NA,NA,NA,NA,NA,Cross-group friendship,Group identificaiton
+2395,1,r,0.21,cf,nc,unpublished,NA,NA,NA,NA,NA,NA,Cross-group friendship,Negative contact
+2395,1,r,0.33,cf,oa,unpublished,NA,NA,NA,NA,NA,NA,Cross-group friendship,Outgroup attitudes
+2395,1,r,0.53,cf,pc,unpublished,NA,NA,NA,NA,NA,NA,Cross-group friendship,Contact quality / Positive contact
+2395,1,r,-0.16,cf,pd,unpublished,NA,NA,NA,NA,NA,NA,Cross-group friendship,Personal discrimination
+2395,1,r,-0.26,cf,rd,unpublished,NA,NA,NA,NA,NA,NA,Cross-group friendship,Relative deprivation
+2395,1,r,0.65,cq,cf,unpublished,NA,NA,NA,NA,NA,NA,Contact quantity,Cross-group friendship
+2395,1,r,1,cq,cq,unpublished,NA,NA,NA,NA,NA,NA,Contact quantity,Contact quantity
+2395,1,r,-0.06,cq,gd,unpublished,NA,NA,NA,NA,NA,NA,Contact quantity,Group discrimination
+2395,1,r,-0.09,cq,gi,unpublished,NA,NA,NA,NA,NA,NA,Contact quantity,Group identificaiton
+2395,1,r,0.14,cq,nc,unpublished,NA,NA,NA,NA,NA,NA,Contact quantity,Negative contact
+2395,1,r,0.45,cq,oa,unpublished,NA,NA,NA,NA,NA,NA,Contact quantity,Outgroup attitudes
+2395,1,r,0.72,cq,pc,unpublished,NA,NA,NA,NA,NA,NA,Contact quantity,Contact quality / Positive contact
+2395,1,r,-0.15,cq,pd,unpublished,NA,NA,NA,NA,NA,NA,Contact quantity,Personal discrimination
+2395,1,r,-0.36,cq,rd,unpublished,NA,NA,NA,NA,NA,NA,Contact quantity,Relative deprivation
+2395,1,r,-0.03,gd,cf,unpublished,NA,NA,NA,NA,NA,NA,Group discrimination,Cross-group friendship
+2395,1,r,-0.06,gd,cq,unpublished,NA,NA,NA,NA,NA,NA,Group discrimination,Contact quantity
+2395,1,r,1,gd,gd,unpublished,NA,NA,NA,NA,NA,NA,Group discrimination,Group discrimination
+2395,1,r,0.1,gd,gi,unpublished,NA,NA,NA,NA,NA,NA,Group discrimination,Group identificaiton
+2395,1,r,0.14,gd,nc,unpublished,NA,NA,NA,NA,NA,NA,Group discrimination,Negative contact
+2395,1,r,-0.37,gd,oa,unpublished,NA,NA,NA,NA,NA,NA,Group discrimination,Outgroup attitudes
+2395,1,r,-0.17,gd,pc,unpublished,NA,NA,NA,NA,NA,NA,Group discrimination,Contact quality / Positive contact
+2395,1,r,0.71,gd,pd,unpublished,NA,NA,NA,NA,NA,NA,Group discrimination,Personal discrimination
+2395,1,r,0.41,gd,rd,unpublished,NA,NA,NA,NA,NA,NA,Group discrimination,Relative deprivation
+2395,1,r,0.003,gi,cf,unpublished,NA,NA,NA,NA,NA,NA,Group identificaiton,Cross-group friendship
+2395,1,r,-0.09,gi,cq,unpublished,NA,NA,NA,NA,NA,NA,Group identificaiton,Contact quantity
+2395,1,r,0.1,gi,gd,unpublished,NA,NA,NA,NA,NA,NA,Group identificaiton,Group discrimination
+2395,1,r,1,gi,gi,unpublished,NA,NA,NA,NA,NA,NA,Group identificaiton,Group identificaiton
+2395,1,r,0.1,gi,nc,unpublished,NA,NA,NA,NA,NA,NA,Group identificaiton,Negative contact
+2395,1,r,-0.02,gi,oa,unpublished,NA,NA,NA,NA,NA,NA,Group identificaiton,Outgroup attitudes
+2395,1,r,-0.09,gi,pc,unpublished,NA,NA,NA,NA,NA,NA,Group identificaiton,Contact quality / Positive contact
+2395,1,r,0.05,gi,pd,unpublished,NA,NA,NA,NA,NA,NA,Group identificaiton,Personal discrimination
+2395,1,r,0.08,gi,rd,unpublished,NA,NA,NA,NA,NA,NA,Group identificaiton,Relative deprivation
+2395,1,r,0.21,nc,cf,unpublished,NA,NA,NA,NA,NA,NA,Negative contact,Cross-group friendship
+2395,1,r,0.14,nc,cq,unpublished,NA,NA,NA,NA,NA,NA,Negative contact,Contact quantity
+2395,1,r,0.14,nc,gd,unpublished,NA,NA,NA,NA,NA,NA,Negative contact,Group discrimination
+2395,1,r,0.1,nc,gi,unpublished,NA,NA,NA,NA,NA,NA,Negative contact,Group identificaiton
+2395,1,r,1,nc,nc,unpublished,NA,NA,NA,NA,NA,NA,Negative contact,Negative contact
+2395,1,r,-0.04,nc,oa,unpublished,NA,NA,NA,NA,NA,NA,Negative contact,Outgroup attitudes
+2395,1,r,-0.03,nc,pc,unpublished,NA,NA,NA,NA,NA,NA,Negative contact,Contact quality / Positive contact
+2395,1,r,0.19,nc,pd,unpublished,NA,NA,NA,NA,NA,NA,Negative contact,Personal discrimination
+2395,1,r,0.02,nc,rd,unpublished,NA,NA,NA,NA,NA,NA,Negative contact,Relative deprivation
+2395,1,r,0.33,oa,cf,unpublished,NA,NA,NA,NA,NA,NA,Outgroup attitudes,Cross-group friendship
+2395,1,r,0.45,oa,cq,unpublished,NA,NA,NA,NA,NA,NA,Outgroup attitudes,Contact quantity
+2395,1,r,-0.37,oa,gd,unpublished,NA,NA,NA,NA,NA,NA,Outgroup attitudes,Group discrimination
+2395,1,r,-0.02,oa,gi,unpublished,NA,NA,NA,NA,NA,NA,Outgroup attitudes,Group identificaiton
+2395,1,r,-0.04,oa,nc,unpublished,NA,NA,NA,NA,NA,NA,Outgroup attitudes,Negative contact
+2395,1,r,1,oa,oa,unpublished,NA,NA,NA,NA,NA,NA,Outgroup attitudes,Outgroup attitudes
+2395,1,r,0.57,oa,pc,unpublished,NA,NA,NA,NA,NA,NA,Outgroup attitudes,Contact quality / Positive contact
+2395,1,r,-0.45,oa,pd,unpublished,NA,NA,NA,NA,NA,NA,Outgroup attitudes,Personal discrimination
+2395,1,r,-0.38,oa,rd,unpublished,NA,NA,NA,NA,NA,NA,Outgroup attitudes,Relative deprivation
+2395,1,r,0.53,pc,cf,unpublished,NA,NA,NA,NA,NA,NA,Contact quality / Positive contact,Cross-group friendship
+2395,1,r,0.72,pc,cq,unpublished,NA,NA,NA,NA,NA,NA,Contact quality / Positive contact,Contact quantity
+2395,1,r,-0.17,pc,gd,unpublished,NA,NA,NA,NA,NA,NA,Contact quality / Positive contact,Group discrimination
+2395,1,r,-0.09,pc,gi,unpublished,NA,NA,NA,NA,NA,NA,Contact quality / Positive contact,Group identificaiton
+2395,1,r,-0.03,pc,nc,unpublished,NA,NA,NA,NA,NA,NA,Contact quality / Positive contact,Negative contact
+2395,1,r,0.57,pc,oa,unpublished,NA,NA,NA,NA,NA,NA,Contact quality / Positive contact,Outgroup attitudes
+2395,1,r,1,pc,pc,unpublished,NA,NA,NA,NA,NA,NA,Contact quality / Positive contact,Contact quality / Positive contact
+2395,1,r,-0.31,pc,pd,unpublished,NA,NA,NA,NA,NA,NA,Contact quality / Positive contact,Personal discrimination
+2395,1,r,-0.31,pc,rd,unpublished,NA,NA,NA,NA,NA,NA,Contact quality / Positive contact,Relative deprivation
+2395,1,r,-0.16,pd,cf,unpublished,NA,NA,NA,NA,NA,NA,Personal discrimination,Cross-group friendship
+2395,1,r,-0.15,pd,cq,unpublished,NA,NA,NA,NA,NA,NA,Personal discrimination,Contact quantity
+2395,1,r,0.71,pd,gd,unpublished,NA,NA,NA,NA,NA,NA,Personal discrimination,Group discrimination
+2395,1,r,0.05,pd,gi,unpublished,NA,NA,NA,NA,NA,NA,Personal discrimination,Group identificaiton
+2395,1,r,0.19,pd,nc,unpublished,NA,NA,NA,NA,NA,NA,Personal discrimination,Negative contact
+2395,1,r,-0.45,pd,oa,unpublished,NA,NA,NA,NA,NA,NA,Personal discrimination,Outgroup attitudes
+2395,1,r,-0.31,pd,pc,unpublished,NA,NA,NA,NA,NA,NA,Personal discrimination,Contact quality / Positive contact
+2395,1,r,1,pd,pd,unpublished,NA,NA,NA,NA,NA,NA,Personal discrimination,Personal discrimination
+2395,1,r,0.32,pd,rd,unpublished,NA,NA,NA,NA,NA,NA,Personal discrimination,Relative deprivation
+2395,1,r,-0.26,rd,cf,unpublished,NA,NA,NA,NA,NA,NA,Relative deprivation,Cross-group friendship
+2395,1,r,-0.36,rd,cq,unpublished,NA,NA,NA,NA,NA,NA,Relative deprivation,Contact quantity
+2395,1,r,0.41,rd,gd,unpublished,NA,NA,NA,NA,NA,NA,Relative deprivation,Group discrimination
+2395,1,r,0.08,rd,gi,unpublished,NA,NA,NA,NA,NA,NA,Relative deprivation,Group identificaiton
+2395,1,r,0.02,rd,nc,unpublished,NA,NA,NA,NA,NA,NA,Relative deprivation,Negative contact
+2395,1,r,-0.38,rd,oa,unpublished,NA,NA,NA,NA,NA,NA,Relative deprivation,Outgroup attitudes
+2395,1,r,-0.31,rd,pc,unpublished,NA,NA,NA,NA,NA,NA,Relative deprivation,Contact quality / Positive contact
+2395,1,r,0.32,rd,pd,unpublished,NA,NA,NA,NA,NA,NA,Relative deprivation,Personal discrimination
+2395,1,r,1,rd,rd,unpublished,NA,NA,NA,NA,NA,NA,Relative deprivation,Relative deprivation
+2395,2,r,1,cf,cf,unpublished,NA,NA,NA,NA,NA,NA,Cross-group friendship,Cross-group friendship
+2395,2,r,0.37,cf,cq,unpublished,NA,NA,NA,NA,NA,NA,Cross-group friendship,Contact quantity
+2395,2,r,-0.14,cf,gd,unpublished,NA,NA,NA,NA,NA,NA,Cross-group friendship,Group discrimination
+2395,2,r,0.03,cf,gi,unpublished,NA,NA,NA,NA,NA,NA,Cross-group friendship,Group identificaiton
+2395,2,r,0.1,cf,nc,unpublished,NA,NA,NA,NA,NA,NA,Cross-group friendship,Negative contact
+2395,2,r,0.32,cf,oa,unpublished,NA,NA,NA,NA,NA,NA,Cross-group friendship,Outgroup attitudes
+2395,2,r,0.35,cf,pc,unpublished,NA,NA,NA,NA,NA,NA,Cross-group friendship,Contact quality / Positive contact
+2395,2,r,-0.11,cf,pd,unpublished,NA,NA,NA,NA,NA,NA,Cross-group friendship,Personal discrimination
+2395,2,r,-0.1,cf,rd,unpublished,NA,NA,NA,NA,NA,NA,Cross-group friendship,Relative deprivation
+2395,2,r,0.37,cq,cf,unpublished,NA,NA,NA,NA,NA,NA,Contact quantity,Cross-group friendship
+2395,2,r,1,cq,cq,unpublished,NA,NA,NA,NA,NA,NA,Contact quantity,Contact quantity
+2395,2,r,-0.01,cq,gd,unpublished,NA,NA,NA,NA,NA,NA,Contact quantity,Group discrimination
+2395,2,r,0.13,cq,gi,unpublished,NA,NA,NA,NA,NA,NA,Contact quantity,Group identificaiton
+2395,2,r,0.05,cq,nc,unpublished,NA,NA,NA,NA,NA,NA,Contact quantity,Negative contact
+2395,2,r,0.28,cq,oa,unpublished,NA,NA,NA,NA,NA,NA,Contact quantity,Outgroup attitudes
+2395,2,r,0.97,cq,pc,unpublished,NA,NA,NA,NA,NA,NA,Contact quantity,Contact quality / Positive contact
+2395,2,r,-0.03,cq,pd,unpublished,NA,NA,NA,NA,NA,NA,Contact quantity,Personal discrimination
+2395,2,r,-0.08,cq,rd,unpublished,NA,NA,NA,NA,NA,NA,Contact quantity,Relative deprivation
+2395,2,r,-0.14,gd,cf,unpublished,NA,NA,NA,NA,NA,NA,Group discrimination,Cross-group friendship
+2395,2,r,-0.01,gd,cq,unpublished,NA,NA,NA,NA,NA,NA,Group discrimination,Contact quantity
+2395,2,r,1,gd,gd,unpublished,NA,NA,NA,NA,NA,NA,Group discrimination,Group discrimination
+2395,2,r,0.16,gd,gi,unpublished,NA,NA,NA,NA,NA,NA,Group discrimination,Group identificaiton
+2395,2,r,0.25,gd,nc,unpublished,NA,NA,NA,NA,NA,NA,Group discrimination,Negative contact
+2395,2,r,-0.27,gd,oa,unpublished,NA,NA,NA,NA,NA,NA,Group discrimination,Outgroup attitudes
+2395,2,r,0.004,gd,pc,unpublished,NA,NA,NA,NA,NA,NA,Group discrimination,Contact quality / Positive contact
+2395,2,r,0.47,gd,pd,unpublished,NA,NA,NA,NA,NA,NA,Group discrimination,Personal discrimination
+2395,2,r,0.11,gd,rd,unpublished,NA,NA,NA,NA,NA,NA,Group discrimination,Relative deprivation
+2395,2,r,0.03,gi,cf,unpublished,NA,NA,NA,NA,NA,NA,Group identificaiton,Cross-group friendship
+2395,2,r,0.13,gi,cq,unpublished,NA,NA,NA,NA,NA,NA,Group identificaiton,Contact quantity
+2395,2,r,0.16,gi,gd,unpublished,NA,NA,NA,NA,NA,NA,Group identificaiton,Group discrimination
+2395,2,r,1,gi,gi,unpublished,NA,NA,NA,NA,NA,NA,Group identificaiton,Group identificaiton
+2395,2,r,-0.02,gi,nc,unpublished,NA,NA,NA,NA,NA,NA,Group identificaiton,Negative contact
+2395,2,r,-0.06,gi,oa,unpublished,NA,NA,NA,NA,NA,NA,Group identificaiton,Outgroup attitudes
+2395,2,r,0.15,gi,pc,unpublished,NA,NA,NA,NA,NA,NA,Group identificaiton,Contact quality / Positive contact
+2395,2,r,0.11,gi,pd,unpublished,NA,NA,NA,NA,NA,NA,Group identificaiton,Personal discrimination
+2395,2,r,0.07,gi,rd,unpublished,NA,NA,NA,NA,NA,NA,Group identificaiton,Relative deprivation
+2395,2,r,0.1,nc,cf,unpublished,NA,NA,NA,NA,NA,NA,Negative contact,Cross-group friendship
+2395,2,r,0.05,nc,cq,unpublished,NA,NA,NA,NA,NA,NA,Negative contact,Contact quantity
+2395,2,r,0.25,nc,gd,unpublished,NA,NA,NA,NA,NA,NA,Negative contact,Group discrimination
+2395,2,r,-0.02,nc,gi,unpublished,NA,NA,NA,NA,NA,NA,Negative contact,Group identificaiton
+2395,2,r,1,nc,nc,unpublished,NA,NA,NA,NA,NA,NA,Negative contact,Negative contact
+2395,2,r,-0.26,nc,oa,unpublished,NA,NA,NA,NA,NA,NA,Negative contact,Outgroup attitudes
+2395,2,r,0.03,nc,pc,unpublished,NA,NA,NA,NA,NA,NA,Negative contact,Contact quality / Positive contact
+2395,2,r,0.32,nc,pd,unpublished,NA,NA,NA,NA,NA,NA,Negative contact,Personal discrimination
+2395,2,r,0.02,nc,rd,unpublished,NA,NA,NA,NA,NA,NA,Negative contact,Relative deprivation
+2395,2,r,0.32,oa,cf,unpublished,NA,NA,NA,NA,NA,NA,Outgroup attitudes,Cross-group friendship
+2395,2,r,0.28,oa,cq,unpublished,NA,NA,NA,NA,NA,NA,Outgroup attitudes,Contact quantity
+2395,2,r,-0.27,oa,gd,unpublished,NA,NA,NA,NA,NA,NA,Outgroup attitudes,Group discrimination
+2395,2,r,-0.06,oa,gi,unpublished,NA,NA,NA,NA,NA,NA,Outgroup attitudes,Group identificaiton
+2395,2,r,-0.26,oa,nc,unpublished,NA,NA,NA,NA,NA,NA,Outgroup attitudes,Negative contact
+2395,2,r,1,oa,oa,unpublished,NA,NA,NA,NA,NA,NA,Outgroup attitudes,Outgroup attitudes
+2395,2,r,0.27,oa,pc,unpublished,NA,NA,NA,NA,NA,NA,Outgroup attitudes,Contact quality / Positive contact
+2395,2,r,-0.24,oa,pd,unpublished,NA,NA,NA,NA,NA,NA,Outgroup attitudes,Personal discrimination
+2395,2,r,-0.09,oa,rd,unpublished,NA,NA,NA,NA,NA,NA,Outgroup attitudes,Relative deprivation
+2395,2,r,0.35,pc,cf,unpublished,NA,NA,NA,NA,NA,NA,Contact quality / Positive contact,Cross-group friendship
+2395,2,r,0.97,pc,cq,unpublished,NA,NA,NA,NA,NA,NA,Contact quality / Positive contact,Contact quantity
+2395,2,r,0.004,pc,gd,unpublished,NA,NA,NA,NA,NA,NA,Contact quality / Positive contact,Group discrimination
+2395,2,r,0.15,pc,gi,unpublished,NA,NA,NA,NA,NA,NA,Contact quality / Positive contact,Group identificaiton
+2395,2,r,0.03,pc,nc,unpublished,NA,NA,NA,NA,NA,NA,Contact quality / Positive contact,Negative contact
+2395,2,r,0.27,pc,oa,unpublished,NA,NA,NA,NA,NA,NA,Contact quality / Positive contact,Outgroup attitudes
+2395,2,r,1,pc,pc,unpublished,NA,NA,NA,NA,NA,NA,Contact quality / Positive contact,Contact quality / Positive contact
+2395,2,r,-0.02,pc,pd,unpublished,NA,NA,NA,NA,NA,NA,Contact quality / Positive contact,Personal discrimination
+2395,2,r,-0.06,pc,rd,unpublished,NA,NA,NA,NA,NA,NA,Contact quality / Positive contact,Relative deprivation
+2395,2,r,-0.11,pd,cf,unpublished,NA,NA,NA,NA,NA,NA,Personal discrimination,Cross-group friendship
+2395,2,r,-0.03,pd,cq,unpublished,NA,NA,NA,NA,NA,NA,Personal discrimination,Contact quantity
+2395,2,r,0.47,pd,gd,unpublished,NA,NA,NA,NA,NA,NA,Personal discrimination,Group discrimination
+2395,2,r,0.11,pd,gi,unpublished,NA,NA,NA,NA,NA,NA,Personal discrimination,Group identificaiton
+2395,2,r,0.32,pd,nc,unpublished,NA,NA,NA,NA,NA,NA,Personal discrimination,Negative contact
+2395,2,r,-0.24,pd,oa,unpublished,NA,NA,NA,NA,NA,NA,Personal discrimination,Outgroup attitudes
+2395,2,r,-0.02,pd,pc,unpublished,NA,NA,NA,NA,NA,NA,Personal discrimination,Contact quality / Positive contact
+2395,2,r,1,pd,pd,unpublished,NA,NA,NA,NA,NA,NA,Personal discrimination,Personal discrimination
+2395,2,r,0.17,pd,rd,unpublished,NA,NA,NA,NA,NA,NA,Personal discrimination,Relative deprivation
+2395,2,r,-0.1,rd,cf,unpublished,NA,NA,NA,NA,NA,NA,Relative deprivation,Cross-group friendship
+2395,2,r,-0.08,rd,cq,unpublished,NA,NA,NA,NA,NA,NA,Relative deprivation,Contact quantity
+2395,2,r,0.11,rd,gd,unpublished,NA,NA,NA,NA,NA,NA,Relative deprivation,Group discrimination
+2395,2,r,0.07,rd,gi,unpublished,NA,NA,NA,NA,NA,NA,Relative deprivation,Group identificaiton
+2395,2,r,0.02,rd,nc,unpublished,NA,NA,NA,NA,NA,NA,Relative deprivation,Negative contact
+2395,2,r,-0.09,rd,oa,unpublished,NA,NA,NA,NA,NA,NA,Relative deprivation,Outgroup attitudes
+2395,2,r,-0.06,rd,pc,unpublished,NA,NA,NA,NA,NA,NA,Relative deprivation,Contact quality / Positive contact
+2395,2,r,0.17,rd,pd,unpublished,NA,NA,NA,NA,NA,NA,Relative deprivation,Personal discrimination
+2395,2,r,1,rd,rd,unpublished,NA,NA,NA,NA,NA,NA,Relative deprivation,Relative deprivation
+2396,1,r,1,cf,cf,unpublished,NA,NA,NA,NA,NA,NA,Cross-group friendship,Cross-group friendship
+2396,1,r,0.15,cf,gi,unpublished,NA,NA,NA,NA,NA,NA,Cross-group friendship,Group identificaiton
+2396,1,r,0.44,cf,in,unpublished,NA,NA,NA,NA,NA,NA,Cross-group friendship,Ingroup contact
+2396,1,r,-0.11,cf,pd,unpublished,NA,NA,NA,NA,NA,NA,Cross-group friendship,Personal discrimination
+2396,1,r,0.15,gi,cf,unpublished,NA,NA,NA,NA,NA,NA,Group identificaiton,Cross-group friendship
+2396,1,r,1,gi,gi,unpublished,NA,NA,NA,NA,NA,NA,Group identificaiton,Group identificaiton
+2396,1,r,0.33,gi,in,unpublished,NA,NA,NA,NA,NA,NA,Group identificaiton,Ingroup contact
+2396,1,r,-0.03,gi,pd,unpublished,NA,NA,NA,NA,NA,NA,Group identificaiton,Personal discrimination
+2396,1,r,0.44,in,cf,unpublished,NA,NA,NA,NA,NA,NA,Ingroup contact,Cross-group friendship
+2396,1,r,0.33,in,gi,unpublished,NA,NA,NA,NA,NA,NA,Ingroup contact,Group identificaiton
+2396,1,r,1,in,in,unpublished,NA,NA,NA,NA,NA,NA,Ingroup contact,Ingroup contact
+2396,1,r,0.08,in,pd,unpublished,NA,NA,NA,NA,NA,NA,Ingroup contact,Personal discrimination
+2396,1,r,-0.11,pd,cf,unpublished,NA,NA,NA,NA,NA,NA,Personal discrimination,Cross-group friendship
+2396,1,r,-0.03,pd,gi,unpublished,NA,NA,NA,NA,NA,NA,Personal discrimination,Group identificaiton
+2396,1,r,0.08,pd,in,unpublished,NA,NA,NA,NA,NA,NA,Personal discrimination,Ingroup contact
+2396,1,r,1,pd,pd,unpublished,NA,NA,NA,NA,NA,NA,Personal discrimination,Personal discrimination
+2396,2,r,1,cf,cf,unpublished,NA,NA,NA,NA,NA,NA,Cross-group friendship,Cross-group friendship
+2396,2,r,0.13,cf,gi,unpublished,NA,NA,NA,NA,NA,NA,Cross-group friendship,Group identificaiton
+2396,2,r,0.3,cf,in,unpublished,NA,NA,NA,NA,NA,NA,Cross-group friendship,Ingroup contact
+2396,2,r,-0.05,cf,pd,unpublished,NA,NA,NA,NA,NA,NA,Cross-group friendship,Personal discrimination
+2396,2,r,0.13,gi,cf,unpublished,NA,NA,NA,NA,NA,NA,Group identificaiton,Cross-group friendship
+2396,2,r,1,gi,gi,unpublished,NA,NA,NA,NA,NA,NA,Group identificaiton,Group identificaiton
+2396,2,r,0.23,gi,in,unpublished,NA,NA,NA,NA,NA,NA,Group identificaiton,Ingroup contact
+2396,2,r,0.16,gi,pd,unpublished,NA,NA,NA,NA,NA,NA,Group identificaiton,Personal discrimination
+2396,2,r,0.3,in,cf,unpublished,NA,NA,NA,NA,NA,NA,Ingroup contact,Cross-group friendship
+2396,2,r,0.23,in,gi,unpublished,NA,NA,NA,NA,NA,NA,Ingroup contact,Group identificaiton
+2396,2,r,1,in,in,unpublished,NA,NA,NA,NA,NA,NA,Ingroup contact,Ingroup contact
+2396,2,r,0.11,in,pd,unpublished,NA,NA,NA,NA,NA,NA,Ingroup contact,Personal discrimination
+2396,2,r,-0.05,pd,cf,unpublished,NA,NA,NA,NA,NA,NA,Personal discrimination,Cross-group friendship
+2396,2,r,0.16,pd,gi,unpublished,NA,NA,NA,NA,NA,NA,Personal discrimination,Group identificaiton
+2396,2,r,0.11,pd,in,unpublished,NA,NA,NA,NA,NA,NA,Personal discrimination,Ingroup contact
+2396,2,r,1,pd,pd,unpublished,NA,NA,NA,NA,NA,NA,Personal discrimination,Personal discrimination
+2396,3,r,1,cf,cf,unpublished,NA,NA,NA,NA,NA,NA,Cross-group friendship,Cross-group friendship
+2396,3,r,-0.001,cf,gi,unpublished,NA,NA,NA,NA,NA,NA,Cross-group friendship,Group identificaiton
+2396,3,r,0.45,cf,in,unpublished,NA,NA,NA,NA,NA,NA,Cross-group friendship,Ingroup contact
+2396,3,r,-0.07,cf,pd,unpublished,NA,NA,NA,NA,NA,NA,Cross-group friendship,Personal discrimination
+2396,3,r,-0.001,gi,cf,unpublished,NA,NA,NA,NA,NA,NA,Group identificaiton,Cross-group friendship
+2396,3,r,1,gi,gi,unpublished,NA,NA,NA,NA,NA,NA,Group identificaiton,Group identificaiton
+2396,3,r,0.2,gi,in,unpublished,NA,NA,NA,NA,NA,NA,Group identificaiton,Ingroup contact
+2396,3,r,0.23,gi,pd,unpublished,NA,NA,NA,NA,NA,NA,Group identificaiton,Personal discrimination
+2396,3,r,0.45,in,cf,unpublished,NA,NA,NA,NA,NA,NA,Ingroup contact,Cross-group friendship
+2396,3,r,0.2,in,gi,unpublished,NA,NA,NA,NA,NA,NA,Ingroup contact,Group identificaiton
+2396,3,r,1,in,in,unpublished,NA,NA,NA,NA,NA,NA,Ingroup contact,Ingroup contact
+2396,3,r,0.04,in,pd,unpublished,NA,NA,NA,NA,NA,NA,Ingroup contact,Personal discrimination
+2396,3,r,-0.07,pd,cf,unpublished,NA,NA,NA,NA,NA,NA,Personal discrimination,Cross-group friendship
+2396,3,r,0.23,pd,gi,unpublished,NA,NA,NA,NA,NA,NA,Personal discrimination,Group identificaiton
+2396,3,r,0.04,pd,in,unpublished,NA,NA,NA,NA,NA,NA,Personal discrimination,Ingroup contact
+2396,3,r,1,pd,pd,unpublished,NA,NA,NA,NA,NA,NA,Personal discrimination,Personal discrimination
+2397,1,r,1,ca,ca,unpublished,NA,NA,NA,NA,NA,NA,Collective action,Collective action
+2397,1,r,0.299,ca,gi,unpublished,NA,NA,NA,NA,NA,NA,Collective action,Group identificaiton
+2397,1,r,0.232,ca,nc,unpublished,NA,NA,NA,NA,NA,NA,Collective action,Negative contact
+2397,1,r,0.414,ca,o1,unpublished,NA,NA,NA,NA,NA,NA,Collective action,Non-normative collective action
+2397,1,r,0.461,ca,o2,unpublished,NA,NA,NA,NA,NA,NA,Collective action,Anger
+2397,1,r,-0.111,ca,oa,unpublished,NA,NA,NA,NA,NA,NA,Collective action,Outgroup attitudes
+2397,1,r,0.046,ca,pc,unpublished,NA,NA,NA,NA,NA,NA,Collective action,Contact quality / Positive contact
+2397,1,r,0.431,ca,rd,unpublished,NA,NA,NA,NA,NA,NA,Collective action,Relative deprivation
+2397,1,r,0.299,gi,ca,unpublished,NA,NA,NA,NA,NA,NA,Group identificaiton,Collective action
+2397,1,r,1,gi,gi,unpublished,NA,NA,NA,NA,NA,NA,Group identificaiton,Group identificaiton
+2397,1,r,0.106,gi,nc,unpublished,NA,NA,NA,NA,NA,NA,Group identificaiton,Negative contact
+2397,1,r,0.009,gi,o1,unpublished,NA,NA,NA,NA,NA,NA,Group identificaiton,Non-normative collective action
+2397,1,r,0.384,gi,o2,unpublished,NA,NA,NA,NA,NA,NA,Group identificaiton,Anger
+2397,1,r,0.077,gi,oa,unpublished,NA,NA,NA,NA,NA,NA,Group identificaiton,Outgroup attitudes
+2397,1,r,0.147,gi,pc,unpublished,NA,NA,NA,NA,NA,NA,Group identificaiton,Contact quality / Positive contact
+2397,1,r,0.431,gi,rd,unpublished,NA,NA,NA,NA,NA,NA,Group identificaiton,Relative deprivation
+2397,1,r,0.232,nc,ca,unpublished,NA,NA,NA,NA,NA,NA,Negative contact,Collective action
+2397,1,r,0.106,nc,gi,unpublished,NA,NA,NA,NA,NA,NA,Negative contact,Group identificaiton
+2397,1,r,1,nc,nc,unpublished,NA,NA,NA,NA,NA,NA,Negative contact,Negative contact
+2397,1,r,0.37,nc,o1,unpublished,NA,NA,NA,NA,NA,NA,Negative contact,Non-normative collective action
+2397,1,r,0.427,nc,o2,unpublished,NA,NA,NA,NA,NA,NA,Negative contact,Anger
+2397,1,r,-0.321,nc,oa,unpublished,NA,NA,NA,NA,NA,NA,Negative contact,Outgroup attitudes
+2397,1,r,-0.22,nc,pc,unpublished,NA,NA,NA,NA,NA,NA,Negative contact,Contact quality / Positive contact
+2397,1,r,0.311,nc,rd,unpublished,NA,NA,NA,NA,NA,NA,Negative contact,Relative deprivation
+2397,1,r,0.414,o1,ca,unpublished,NA,NA,NA,NA,NA,NA,Non-normative collective action,Collective action
+2397,1,r,0.009,o1,gi,unpublished,NA,NA,NA,NA,NA,NA,Non-normative collective action,Group identificaiton
+2397,1,r,0.37,o1,nc,unpublished,NA,NA,NA,NA,NA,NA,Non-normative collective action,Negative contact
+2397,1,r,1,o1,o1,unpublished,NA,NA,NA,NA,NA,NA,Non-normative collective action,Non-normative collective action
+2397,1,r,0.285,o1,o2,unpublished,NA,NA,NA,NA,NA,NA,Non-normative collective action,Anger
+2397,1,r,-0.229,o1,oa,unpublished,NA,NA,NA,NA,NA,NA,Non-normative collective action,Outgroup attitudes
+2397,1,r,-0.205,o1,pc,unpublished,NA,NA,NA,NA,NA,NA,Non-normative collective action,Contact quality / Positive contact
+2397,1,r,0.12,o1,rd,unpublished,NA,NA,NA,NA,NA,NA,Non-normative collective action,Relative deprivation
+2397,1,r,0.461,o2,ca,unpublished,NA,NA,NA,NA,NA,NA,Anger,Collective action
+2397,1,r,0.384,o2,gi,unpublished,NA,NA,NA,NA,NA,NA,Anger,Group identificaiton
+2397,1,r,0.427,o2,nc,unpublished,NA,NA,NA,NA,NA,NA,Anger,Negative contact
+2397,1,r,0.285,o2,o1,unpublished,NA,NA,NA,NA,NA,NA,Anger,Non-normative collective action
+2397,1,r,1,o2,o2,unpublished,NA,NA,NA,NA,NA,NA,Anger,Anger
+2397,1,r,-0.231,o2,oa,unpublished,NA,NA,NA,NA,NA,NA,Anger,Outgroup attitudes
+2397,1,r,-0.069,o2,pc,unpublished,NA,NA,NA,NA,NA,NA,Anger,Contact quality / Positive contact
+2397,1,r,0.576,o2,rd,unpublished,NA,NA,NA,NA,NA,NA,Anger,Relative deprivation
+2397,1,r,-0.111,oa,ca,unpublished,NA,NA,NA,NA,NA,NA,Outgroup attitudes,Collective action
+2397,1,r,0.077,oa,gi,unpublished,NA,NA,NA,NA,NA,NA,Outgroup attitudes,Group identificaiton
+2397,1,r,-0.321,oa,nc,unpublished,NA,NA,NA,NA,NA,NA,Outgroup attitudes,Negative contact
+2397,1,r,-0.229,oa,o1,unpublished,NA,NA,NA,NA,NA,NA,Outgroup attitudes,Non-normative collective action
+2397,1,r,-0.231,oa,o2,unpublished,NA,NA,NA,NA,NA,NA,Outgroup attitudes,Anger
+2397,1,r,1,oa,oa,unpublished,NA,NA,NA,NA,NA,NA,Outgroup attitudes,Outgroup attitudes
+2397,1,r,0.398,oa,pc,unpublished,NA,NA,NA,NA,NA,NA,Outgroup attitudes,Contact quality / Positive contact
+2397,1,r,-0.115,oa,rd,unpublished,NA,NA,NA,NA,NA,NA,Outgroup attitudes,Relative deprivation
+2397,1,r,0.046,pc,ca,unpublished,NA,NA,NA,NA,NA,NA,Contact quality / Positive contact,Collective action
+2397,1,r,0.147,pc,gi,unpublished,NA,NA,NA,NA,NA,NA,Contact quality / Positive contact,Group identificaiton
+2397,1,r,-0.22,pc,nc,unpublished,NA,NA,NA,NA,NA,NA,Contact quality / Positive contact,Negative contact
+2397,1,r,-0.205,pc,o1,unpublished,NA,NA,NA,NA,NA,NA,Contact quality / Positive contact,Non-normative collective action
+2397,1,r,-0.069,pc,o2,unpublished,NA,NA,NA,NA,NA,NA,Contact quality / Positive contact,Anger
+2397,1,r,0.398,pc,oa,unpublished,NA,NA,NA,NA,NA,NA,Contact quality / Positive contact,Outgroup attitudes
+2397,1,r,1,pc,pc,unpublished,NA,NA,NA,NA,NA,NA,Contact quality / Positive contact,Contact quality / Positive contact
+2397,1,r,0.126,pc,rd,unpublished,NA,NA,NA,NA,NA,NA,Contact quality / Positive contact,Relative deprivation
+2397,1,r,0.431,rd,ca,unpublished,NA,NA,NA,NA,NA,NA,Relative deprivation,Collective action
+2397,1,r,0.431,rd,gi,unpublished,NA,NA,NA,NA,NA,NA,Relative deprivation,Group identificaiton
+2397,1,r,0.311,rd,nc,unpublished,NA,NA,NA,NA,NA,NA,Relative deprivation,Negative contact
+2397,1,r,0.12,rd,o1,unpublished,NA,NA,NA,NA,NA,NA,Relative deprivation,Non-normative collective action
+2397,1,r,0.576,rd,o2,unpublished,NA,NA,NA,NA,NA,NA,Relative deprivation,Anger
+2397,1,r,-0.115,rd,oa,unpublished,NA,NA,NA,NA,NA,NA,Relative deprivation,Outgroup attitudes
+2397,1,r,0.126,rd,pc,unpublished,NA,NA,NA,NA,NA,NA,Relative deprivation,Contact quality / Positive contact
+2397,1,r,1,rd,rd,unpublished,NA,NA,NA,NA,NA,NA,Relative deprivation,Relative deprivation
 3000,1,r,1,cq,cq,text,NA,NA,NA,NA,NA,NA,Contact quantity,Contact quantity
 3000,1,r,-0.11,cq,pi,text,NA,NA,NA,NA,NA,NA,Contact quantity,Perceived injustice (other)
 3000,1,r,-0.11,pi,cq,text,NA,NA,NA,NA,NA,NA,Perceived injustice (other),Contact quantity

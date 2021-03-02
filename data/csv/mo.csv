@@ -240,6 +240,18 @@ id,sample,country,region,continent,ingroup,outgroup,study_setting,study_sample,a
 (â‰¥ 18 years)","observational, cross-sectional",Yes,0,0,0,0,unpublished
 2394,2,USA,North America,North America,Black Americans,White Americans,Slavery,"convenience sample, non-students (no random sampling)","Adults
 (â‰¥ 18 years)","observational, cross-sectional",Yes,0,0,0,0,unpublished
+2395,1,Turkey,Europe & Central Asia,Asia,NA,NA,NA,"convenience sample, non-students (no random sampling)","Adults
+(â‰¥ 18 years)","observational, cross-sectional",No,0.127044425847128,0.115332198375567,0.332638505186188,0.135395755156231,unpublished
+2395,2,UK,Europe & Central Asia,Europe,NA,NA,NA,probability or representative sample,"Adults
+(â‰¥ 18 years)","observational, cross-sectional",No,0.0557371621858993,0.0549427156231625,0.0154687741524952,0.0351843431994042,unpublished
+2396,1,Turkey,Europe & Central Asia,Asia,NA,NA,NA,"convenience sample, non-students (no random sampling)","Adults
+(â‰¥ 18 years)","observational, cross-sectional",No,0.127044425847128,0.115332198375567,0.332638505186188,0.135395755156231,published
+2396,2,Turkey,Europe & Central Asia,Asia,NA,NA,NA,"convenience sample, non-students (no random sampling)","Adults
+(â‰¥ 18 years)","observational, cross-sectional",No,0.127044425847128,0.115332198375567,0.332638505186188,0.135395755156231,published
+2396,3,Turkey,Europe & Central Asia,Asia,NA,NA,NA,"convenience sample, non-students (no random sampling)","Adults
+(â‰¥ 18 years)","observational, cross-sectional",No,0.127044425847128,0.115332198375567,0.332638505186188,0.135395755156231,published
+2397,1,UK,Europe & Central Asia,Europe,NA,NA,NA,probability or representative sample,"Adults
+(â‰¥ 18 years)","observational, cross-sectional",Yes,0.0557371621858993,0.0549427156231625,0.0154687741524952,0.0351843431994042,unpublished
 3000,1,Hong Kong,East Asia & Pacific,Asia,Mainland Chinese students,Local students,Short-term migration,"convenience sample, students (no random sampling)","Adults
 (≥ 18 years)","observational, cross-sectional",No,0.0979239647188102,0.0849829180794357,0.15086534296655,0.110575717315254,published
 3005,1,Norway,Europe & Central Asia,Europe,Kurdish university students in Norway,Native Norwegians,Long-term migration,"convenience sample, students (no random sampling)","Adults

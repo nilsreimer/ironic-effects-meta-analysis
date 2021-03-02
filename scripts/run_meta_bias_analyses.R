@@ -29,7 +29,7 @@ rm(list = ls())
   
   # Average effect sizes for multiple (equivalent) outcomes
   es <- es %>% 
-    group_by(id, sample, x, y, x_var, y_var, publication_status) %>% 
+    group_by(id, sample, x, y, x_var, y_var, publication_status, study_intention) %>% 
     summarise(
       n = unique(n), 
       r = mean(r, na.rm = TRUE)
@@ -47,6 +47,16 @@ rm(list = ls())
     ) %>% 
     ungroup()
   
+  # Add predictor variable
+  es <- es %>% 
+    mutate(
+      potential_bias = if_else(
+        publication_status == "published" & study_intention == "Yes",
+        1L,
+        0L
+      )
+    )
+  
   # Compile for analyses
   es <- tibble(
       y_var = c("pi", "ca", "ps"),
@@ -57,7 +67,14 @@ rm(list = ls())
       )
     ) %>% 
       mutate(
-      es = map(es, ~transmute(., ii, jj = as.integer(factor(id)), yi, vi))
+      es = map(es, ~transmute(
+        ., 
+        ii, 
+        jj = as.integer(factor(id)), 
+        yi, 
+        vi,
+        potential_bias
+      ))
     )
   
 
@@ -94,6 +111,13 @@ rm(list = ls())
         yi = .$yi,
         vi = .$vi, 
         side = "left"
+      )),
+      mod = map(es, ~rma.mv(
+        yi = yi, 
+        V = vi, 
+        random = list(~ 1 | ii, ~ 1 | jj), 
+        data = .,
+        mods = ~ potential_bias
       ))
     )
   
@@ -121,7 +145,10 @@ rm(list = ls())
       weightr_u95 = map_dbl(weightr, ~.$ci.ub_adj[2,1]),
       punistar_est = map_dbl(punistar, ~.$est),
       punistar_l95 = map_dbl(punistar, ~.$ci.lb),
-      punistar_u95 = map_dbl(punistar, ~.$ci.ub)
+      punistar_u95 = map_dbl(punistar, ~.$ci.ub),
+      mod_est = map_dbl(mod, ~.$b[1,1]),
+      mod_l95 = map_dbl(mod, ~.$ci.lb[1]),
+      mod_u95 = map_dbl(mod, ~.$ci.ub[1])
     ) %>% 
     select(-starts_with("pet_"), -starts_with("peese_"))
   
@@ -143,7 +170,8 @@ rm(list = ls())
         "rma" = "RMA",
         "petpeese" = "PET-PEESE",
         "weightr" = "3PSM",
-        "punistar" = "*p*-uniform\\*"
+        "punistar" = "*p*-uniform\\*",
+        "mod" = "Subgroup<br>Analysis"
       ),
       y_name = recode_factor(
         y_var,
@@ -154,7 +182,7 @@ rm(list = ls())
     ) %>% 
     select(y_var, y_name, method, est, l95, u95)
 
-  
+
 # Export ------------------------------------------------------------------
 
   # Export results (as .rds)
