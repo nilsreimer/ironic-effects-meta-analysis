@@ -81,6 +81,7 @@ rm(list = ls())
       panel.grid.major.x = element_line(colour = "grey92")
     ) +
     labs(
+      tag = "B",
       title = "Continent"
     )
 
@@ -263,7 +264,6 @@ rm(list = ls())
     #DE
     "
   ) + plot_annotation(
-    tag_levels = "A",
     theme = theme(plot.tag = element_text(face = "bold"))
   )
 
@@ -272,14 +272,14 @@ rm(list = ls())
   # Export figure (as .pdf)
   ggsave(
     "figures/figure-2.pdf",
-    width = 5.6, height = 5.6/3*4, units = "in",
+    width = 6.5, height = 7.5, units = "in",
     device = cairo_pdf
   )
   
   # Export figure (as .png)
   ggsave(
     "figures/figure-2.png",
-    width = 5.6, height = 5.6/3*4, units = "in",
+    width = 6.5, height = 7.5, units = "in",
     dpi = 600
   )    
     

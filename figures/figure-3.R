@@ -6,11 +6,18 @@ rm(list = ls())
 # Library -----------------------------------------------------------------
 
   # Load packages
-  library(tidyverse); library(ggtext); library(patchwork); library(numform)
+  library(tidyverse)
+  library(tidybayes)
+  library(ggtext)
+  library(patchwork)
+  library(numform)
 
   # Link functions
   r_to_z <- function(r) 0.5 * log( (1 + r) / (1 - r) )
   z_to_r <- function(z) ( exp(2 * z) - 1 ) / ( exp(2 * z) + 1 )
+  
+  # Set seed (for posterior predictive simulations)
+  set.seed(9071118)
   
 
 # Prepare -----------------------------------------------------------------
@@ -26,16 +33,16 @@ rm(list = ls())
     mutate(
       x_name = recode_factor(
         x_var,
-        "ic" = "Intergroup contact",
-        "pi" = "Perceived injustice",
-        "ca" = "Collective action",
-        "ps" = "Policy support"
+        "ic" = "Intergroup Contact",
+        "pi" = "Perceived Injustice",
+        "ca" = "Collective Action",
+        "ps" = "Policy Support"
       ),
       y_name = recode_factor(
         y_var,
-        "pi" = "Perceived injustice",
-        "ca" = "Collective action",
-        "ps" = "Policy support"
+        "pi" = "Perceived Injustice",
+        "ca" = "Collective Action",
+        "ps" = "Policy Support"
       )
     )
   
@@ -44,13 +51,13 @@ rm(list = ls())
     mutate(
       x_name = recode_factor(
         x_var,
-        "ic" = "Intergroup contact",
+        "ic" = "Intergroup Contact",
       ),
       y_name = recode_factor(
         y_var,
-        "pi" = "Perceived injustice",
-        "ca" = "Collective action",
-        "ps" = "Policy support"
+        "pi" = "Perceived Injustice",
+        "ca" = "Collective Action",
+        "ps" = "Policy Support"
       )
     )
   
@@ -66,20 +73,16 @@ rm(list = ls())
   
   # Visualize
   f_3a <- ggplot(d_3a, aes(x = r_mean)) +
-    geom_density(
-      aes(fill = y_name),
-      colour = NA,
+    stat_halfeye(
+      aes(
+        fill = y_name, 
+        alpha = after_stat(x < 0)
+      ),
+      point_interval = NULL,
       adjust = 2,
-      n = 1e4,
-      alpha = 1.0
+      n = 1e4
     ) +
-    annotate(
-      geom = "polygon",
-      x = c(0, Inf, Inf,   0),
-      y = c(0,   0, Inf, Inf),
-      fill = "white",
-      alpha = 0.6
-    ) +
+    geom_vline(xintercept = 0, linetype = "dashed", size = 0.5) +
     geom_richtext(
       data = d_3a %>% 
         group_by(y_name) %>% 
@@ -94,22 +97,24 @@ rm(list = ls())
     geom_richtext(
       data = d_3a %>% group_by(y_name) %>% summarise(text = unique(text)),
       aes(label = text),
-      x = 0.21, y = 24,
+      x = 0.21, y = 1.0,
       hjust = 1, vjust = 1,
       size = 10*0.8/.pt,
       label.colour = NA
     ) + 
-    geom_vline(xintercept = 0, linetype = "dashed", size = 0.5) +
     scale_x_continuous(breaks = seq(-1, 1, 0.1)) +
     scale_fill_manual(
       values = c(
-        "Perceived injustice" = "#648FFF", 
-        "Collective action" = "#DC267F", 
-        "Policy support" = "#FFB000"
+        "Perceived Injustice" = "#648FFF", 
+        "Collective Action" = "#DC267F", 
+        "Policy Support" = "#FFB000"
       )
     ) +
+    scale_alpha_manual(
+      values = c("TRUE" = 1.0, "FALSE" = 0.4)
+    ) +
     facet_grid(y_name ~ .) +
-    coord_cartesian(xlim = c(-0.21, 0.21), ylim = c(0, 24), expand = FALSE) +
+    coord_cartesian(xlim = c(-0.21, 0.21), ylim = c(0.0, 1.0), expand = FALSE) +
     theme_classic(base_size = 10) +
     theme(
       legend.position = "none",
@@ -124,7 +129,7 @@ rm(list = ls())
     ) +
     labs(
       x = expression(italic(r[plain(mean)])),
-      y = "Pr"
+      y = NULL
     )
   
   
@@ -134,52 +139,24 @@ rm(list = ls())
   d_3b <- results %>% 
     filter(x_var == "ic") %>% 
     mutate(
-      text = paste0("*I* = ", I, ", *J* = ", J, ", *N* = ", f_comma(N))
-    ) %>% 
-    group_by(y_name, text) %>% 
-    summarise(across(c(mu, tau_jj), median))
+      text = paste0("*I* = ", I, ", *J* = ", J, ", *N* = ", f_comma(N)),
+      r_pred = z_to_r(rnorm(n = n(), mean = mu, sd = tau_jj))
+    )
   
   # Visualize
-  f_3b <- d_3b %>% 
-    crossing(r = seq(-1, 1, 0.001)) %>% 
-    mutate(p = dnorm(r_to_z(r), mu, tau_jj)) %>% 
-    ggplot(., aes(x = r, y = p, group = y_name)) +
-    geom_area(
-      aes(fill = y_name),
-      colour = NA
+  f_3b <- ggplot(d_3b, aes(x = r_pred)) +
+    stat_halfeye(
+      aes(
+        fill = y_name,
+        alpha = after_stat(ggdist::cut_cdf_qi(cdf, c(1.0, 0.8)))
+      ),
+      point_interval = NULL,
+      adjust = 2,
+      n = 1e4
     ) +
-    geom_rect(
-      data = d_3b %>% 
-        group_by(y_name) %>% 
-        mutate(
-          r = z_to_r(mu),
-          p = 0,
-          .lower = qnorm(0.1, mu, tau_jj),
-        ),
-      aes(xmax = .lower),
-      xmin = -Inf,
-      ymin = 0,
-      ymax = Inf,
-      fill = "white",
-      alpha = 0.6
-    ) +
-    geom_rect(
-      data = d_3b %>% 
-        group_by(y_name) %>% 
-        mutate(
-          r = z_to_r(mu),
-          p = 0,
-          .upper = qnorm(0.9, mu, tau_jj)
-        ),
-      aes(xmin = .upper),
-      xmax = Inf,
-      ymin = 0,
-      ymax = Inf,
-      fill = "white",
-      alpha = 0.6
-    ) +
+    geom_vline(xintercept = 0, linetype = "dashed", size = 0.5) +
     geom_richtext(
-      data = d_3a %>% group_by(y_name) %>% summarise(r = mean(r_mean)),
+      data = d_3b %>% group_by(y_name) %>% summarise(r_pred = mean(r_pred)),
       label = "80%",
       y = 0,
       vjust = 0,
@@ -187,31 +164,34 @@ rm(list = ls())
       colour = "white", fill = NA, label.colour = NA
     ) + 
     geom_richtext(
-      data = d_3b %>% group_by(y_name) %>% summarise(text = unique(text)),
+      data = d_3b %>% distinct(y_name, text),
       aes(label = text),
-      x = 0.42, y = 4.1,
+      x = 0.42, y = 1.0,
       hjust = 1, vjust = 1,
       size = 10*0.8/.pt,
       label.colour = NA
-    ) + 
-    geom_vline(xintercept = 0, linetype = "dashed", size = 0.5) +
+    ) +
     geom_point(
       data = r_pred_jj %>%
         group_by(x_name, y_name, jj) %>%
-        summarize(r = median(r_pred)),
+        summarize(r_pred = median(r_pred)),
       y = 0,
       shape = "|", size = 3
     ) +
+    facet_grid(y_name ~ .) +
     scale_x_continuous(breaks = seq(-1, 1, 0.2)) +
     scale_fill_manual(
       values = c(
-        "Perceived injustice" = "#648FFF", 
-        "Collective action" = "#DC267F", 
-        "Policy support" = "#FFB000"
+        "Perceived Injustice" = "#648FFF", 
+        "Collective Action" = "#DC267F", 
+        "Policy Support" = "#FFB000"
       )
     ) +
+    scale_alpha_manual(
+      values = c("0.8" = 1.0, "1" = 0.4)
+    ) +
     facet_grid(y_name ~ .) +
-    coord_cartesian(xlim = c(-0.42, 0.42), ylim = c(0, 4.1), expand = FALSE) +
+    coord_cartesian(xlim = c(-0.42, 0.42), ylim = c(0.0, 1.0), expand = FALSE) +
     theme_classic(base_size = 10) +
     theme(
       legend.position = "none",
@@ -226,14 +206,14 @@ rm(list = ls())
     ) +
     labs(
       x = expression(italic(r[plain(predicted)])),
-      y = "Pr"
+      y = NULL
     )
 
 
 # Combine -----------------------------------------------------------------
 
   # Combine figures
-  f_3a + f_3b + plot_layout(ncol = 1) + plot_annotation(tag_levels = "A")
+  f_3a + f_3b + plot_layout(nrow = 1) + plot_annotation(tag_levels = "A")
   
 
 # Export ------------------------------------------------------------------
@@ -241,13 +221,13 @@ rm(list = ls())
   # Export figure (as .pdf)
   ggsave(
     "figures/figure-3.pdf",
-    width = 15.14, height = 15.14/4*5, units = "cm",
+    width = 6.5, height = 6.5/5*3, units = "in",
     device = cairo_pdf
   )
   
   # Export figure (as .png)
   ggsave(
     "figures/figure-3.png",
-    width = 15.14, height = 15.14/4*5, units = "cm",
+    width = 6.5, height = 6.5/5*3, units = "in",
     dpi = 600
   )

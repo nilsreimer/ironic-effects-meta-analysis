@@ -175,9 +175,9 @@ rm(list = ls())
       ),
       y_name = recode_factor(
         y_var,
-        "pi" = "Perceived injustice",
-        "ca" = "Collective action",
-        "ps" = "Policy support"
+        "pi" = "Perceived Injustice",
+        "ca" = "Collective Action",
+        "ps" = "Policy Support"
       )
     ) %>% 
     select(y_var, y_name, method, est, l95, u95)

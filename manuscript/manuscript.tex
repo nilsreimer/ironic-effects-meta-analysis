@@ -1,77 +1,56 @@
-% Options for packages loaded elsewhere
-\PassOptionsToPackage{unicode}{hyperref}
-\PassOptionsToPackage{hyphens}{url}
-%
-\documentclass[
-]{article}
-\usepackage{lmodern}
-\usepackage{amssymb,amsmath}
-\usepackage{ifxetex,ifluatex}
-\ifnum 0\ifxetex 1\fi\ifluatex 1\fi=0 % if pdftex
-  \usepackage[T1]{fontenc}
-  \usepackage[utf8]{inputenc}
-  \usepackage{textcomp} % provide euro and other symbols
-\else % if luatex or xetex
-  \usepackage{unicode-math}
-  \defaultfontfeatures{Scale=MatchLowercase}
-  \defaultfontfeatures[\rmfamily]{Ligatures=TeX,Scale=1}
-\fi
-% Use upquote if available, for straight quotes in verbatim environments
-\IfFileExists{upquote.sty}{\usepackage{upquote}}{}
-\IfFileExists{microtype.sty}{% use microtype if available
-  \usepackage[]{microtype}
-  \UseMicrotypeSet[protrusion]{basicmath} % disable protrusion for tt fonts
-}{}
-\makeatletter
-\@ifundefined{KOMAClassName}{% if non-KOMA class
-  \IfFileExists{parskip.sty}{%
-    \usepackage{parskip}
-  }{% else
-    \setlength{\parindent}{0pt}
-    \setlength{\parskip}{6pt plus 2pt minus 1pt}}
-}{% if KOMA class
-  \KOMAoptions{parskip=half}}
-\makeatother
-\usepackage{xcolor}
-\IfFileExists{xurl.sty}{\usepackage{xurl}}{} % add URL line breaks if available
-\IfFileExists{bookmark.sty}{\usepackage{bookmark}}{\usepackage{hyperref}}
-\hypersetup{
-  pdftitle={Meta-analysis of the `ironic' effects of intergroup contact},
-  pdfauthor={Nils K. Reimer; Nikhil K. Sengupta},
-  hidelinks,
-  pdfcreator={LaTeX via pandoc}}
-\urlstyle{same} % disable monospaced font for URLs
-\usepackage[margin=1in]{geometry}
-\usepackage{graphicx,grffile}
-\makeatletter
-\def\maxwidth{\ifdim\Gin@nat@width>\linewidth\linewidth\else\Gin@nat@width\fi}
-\def\maxheight{\ifdim\Gin@nat@height>\textheight\textheight\else\Gin@nat@height\fi}
-\makeatother
-% Scale images if necessary, so that they will not overflow the page
-% margins by default, and it is still possible to overwrite the defaults
-% using explicit options in \includegraphics[width, height, ...]{}
-\setkeys{Gin}{width=\maxwidth,height=\maxheight,keepaspectratio}
-% Set default figure placement to htbp
-\makeatletter
-\def\fps@figure{htbp}
-\makeatother
-\setlength{\emergencystretch}{3em} % prevent overfull lines
-\providecommand{\tightlist}{%
-  \setlength{\itemsep}{0pt}\setlength{\parskip}{0pt}}
-\setcounter{secnumdepth}{-\maxdimen} % remove section numbering
+\documentclass[twocolumn, 10pt, letterpaper]{article}
 
-\title{Meta-analysis of the `ironic' effects of intergroup contact}
-\author{Nils K. Reimer \and Nikhil K. Sengupta}
-\date{}
+% Font
+\usepackage[utf8]{inputenc}
+\usepackage{MinionPro} 
+\input{glyphtounicode}
+\pdfgentounicode=1 
+\usepackage{microtype}
+
+% Format
+\usepackage[letterpaper, margin = 1in]{geometry}
+\setcounter{secnumdepth}{0}
+\usepackage{authblk}
+% \renewcommand\Affilfont{\small}
+% \usepackage[hang, flushmargin]{footmisc}
+\setlength{\columnsep}{15pt}
+
+% Links
+\usepackage[colorlinks = true, linkcolor = black, urlcolor = black, citecolor = black]{hyperref} 
+
+% Figures
+\usepackage{graphicx}
+\usepackage[labelfont = bf, labelsep = newline, singlelinecheck = false]{caption}
+
+% Tables
+\usepackage{booktabs}
+\usepackage{tabularx}
+\usepackage[table, xcdraw]{xcolor}
 
 \begin{document}
-\maketitle
+
+(Pettigrew \& Tropp, 2006)
 
 \hypertarget{results}{%
 \section{Results}\label{results}}
 
 \hypertarget{search-results}{%
 \subsection{Search results}\label{search-results}}
+
+\begin{figure*}[!t]
+\centering
+\caption{Flow diagram illustrating the preregistered search strategy, study selection, and data collection}
+\includegraphics[scale=1]{../figures/figure-1}
+\label{fig:f1}
+\end{figure*}
+
+\begin{figure*}
+\centering
+\caption{Overview of the relevant literature}
+\includegraphics[scale=1]{../figures/figure-2}
+\caption*{\textit{Note.} \textbf{A} Map of all countries included in the meta-analysis with combined sample sizes. \textbf{B} Proportion of eligible samples in each category as well as the absolute number of samples in each category.}
+\label{fig:f2}
+\end{figure*}
 
 \hypertarget{preregistered-analyses}{%
 \subsection{Preregistered analyses}\label{preregistered-analyses}}
@@ -80,45 +59,44 @@ As preregistered, we ran three random-effects meta-analysis models, one
 for each outcome variable. Figure 3 shows posterior distributions from
 these analyses.
 
-\begin{figure}
+\begin{figure*}
+\centering
+\caption{Posterior distributions from the preregistered random-effect meta-analysis models}
+\includegraphics[scale=1]{../figures/figure-3}
+\caption*{\textit{Note.} \textbf{A} Posterior distributions for the estimated mean correlation coefficients, highlighting the proportion of posterior samples for which $r_\text{mean} < 0$. \textbf{B} Posterior predictive distributions for the estimated study-wise correlation coefficients, based on point estimates of the $\mu$ and $\tau_J$ parameters, with point estimates for the estimated correlation coefficients for all studies in the sample.}
+\label{fig:f3}
+\end{figure*}
 
-{\centering \includegraphics{../figures/figure-3} 
-
-}
-
-\caption{Results of preregistered analyses. (\textbf{A}) Posterior distributions for the estimated mean correlation coefficient, highlighting the proportion of posterior samples for which $r_\text{mean} < 0$. (\textbf{B}) Posterior predictive distributions for the estimated study-wise correlation coefficients, based on point estimates of the $\mu$ and $\tau_J$ parameters, with point estimates for the estimated correlation coefficients for all studies.}\label{fig:unnamed-chunk-3}
-\end{figure}
-
-\emph{Perceived injustice.} Across 201,411 participants from 122 samples
-in 83 studies, we found strong evidence for a weak association
-(\(r = -.07, [-.11, -.04]\)) between intergroup contact and perceived
+\emph{Perceived injustice.} Across 201,912 participants from 123 samples
+in 84 studies, we found strong evidence for a weak association
+(\(r = -.07, [-.10, -.04]\)) between intergroup contact and perceived
 injustice, with \(>99.9\%\) of posterior samples for the mean
 correlation coefficient falling below zero. We found evidence that
 correlation coefficients varied across studies
 (\(\tau_J = .14, [.12, .17]\)) and across samples within studies
 (\(\tau_I = .08, [.05, .12]\)). Based on these analyses, we predicted
 that 80\% of studies would result in correlation coefficients between
-\(-.25, [-.30, -.21]\) and \(.10, [.06, .15]\) and that researchers
-would need sample sizes of at least 2,295, {[}1,562, 3,293{]}
+\(-.25, [-.30, -.21]\) and \(.11, [.07, .16]\) and that researchers
+would need sample sizes of at least 2,299, {[}1,558, 3,295{]}
 participants to find significant associations (\(\alpha = .05\),
 two-sided) in 80\% of their studies.\footnote{Sample sizes are based on
   posterior predictions from the three models, which implied that, for
   80\% of studies, the absolute correlation coefficient would be
   \(|r| > .041, [.034, .050]\) for perceived injustice,
-  \(|r| > .046, [.033, .067]\) for collective action, and
+  \(|r| > .045, [.032, .065]\) for collective action, and
   \(|r| > .036, [.022, .064]\) for policy support.}
 
-\emph{Collective action.} Across 118,584 participants from 36 samples in
-23 studies, we found some evidence for a weak association
-(\(r = -.06, [-.14, .01]\)) between intergroup contact and collective
-action, with \(95.0\%\) of posterior samples for the mean correlation
+\emph{Collective action.} Across 119,085 participants from 37 samples in
+24 studies, we found some evidence for a weak association
+(\(r = -.06, [-.13, .02]\)) between intergroup contact and collective
+action, with \(93.6\%\) of posterior samples for the mean correlation
 coefficient falling below zero. We found evidence that correlation
-coefficients varied across studies (\(\tau_J = .17, [.12, .24]\)) and
-across samples within studies (\(\tau_I = .09, [.06, .15]\)). Based on
+coefficients varied across studies (\(\tau_J = .16, [.12, .23]\)) and
+across samples within studies (\(\tau_I = .09, [.06, .14]\)). Based on
 these analyses, we predicted that 80\% of studies would result in
-correlation coefficients between \(-.27, [-.38, -.18]\) and
-\(.15, [.06, .27]\) and that researchers would need sample sizes of at
-least 1,801, {[}848, 3,458{]} participants to find significant
+correlation coefficients between \(-.26, [-.37, -.18]\) and
+\(.15, [.07, .27]\) and that researchers would need sample sizes of at
+least 1,925, {[}911, 3,724{]} participants to find significant
 associations (\(\alpha = .05\), two-sided) in 80\% of their studies.
 
 \emph{Policy support.} Across 13,703 participants from 19 samples in 14
@@ -139,9 +117,9 @@ As preregistered, we ran another three random-effects meta-analysis
 models to estimate the relationships between the three outcome
 variables. As we were not interested in the direction of these
 relationships, we used cross-sectional correlation coefficients as
-effect sizes for longitudinal studies. Across 111,252 participants from
-24 samples in 13 studies, we found evidence for a moderate association
-(\(r = .29, [.21, .37]\)) between perceived injustice and collective
+effect sizes for longitudinal studies. Across 111,753 participants from
+25 samples in 14 studies, we found evidence for a moderate association
+(\(r = .31, [.23, .38]\)) between perceived injustice and collective
 action. Across 6,244 participants from 12 samples in 9 studies, we found
 evidence for a moderate association (\(r = .23, [.08, .35]\)) between
 perceived injustice and policy support. Across 8,558 participants from 6
@@ -174,5 +152,21 @@ the mean effect size for the three outcomes
 \(\Delta r = -.02, [-.11, .07]\)). Together, these analyses showed that
 our findings were robust to choosing different prior distributions and
 to excluding influential studies.
+
+\hypertarget{references}{%
+\section{References}\label{references}}
+
+\begingroup
+
+\noindent \setlength{\parindent}{-0.5in} \setlength{\leftskip}{0.5in}
+
+\hypertarget{refs}{}
+\leavevmode\hypertarget{ref-pettigrew_meta-analytic_2006}{}%
+Pettigrew, T. F., \& Tropp, L. R. (2006). A meta-analytic test of
+intergroup contact theory. \emph{Journal of Personality and Social
+Psychology}, \emph{90}(5), 751--783.
+\url{https://doi.org/10.1037/0022-3514.90.5.751}
+
+\endgroup
 
 \end{document}

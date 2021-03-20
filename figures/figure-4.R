@@ -6,7 +6,8 @@ rm(list = ls())
 # Library -----------------------------------------------------------------
 
   # Load packages
-  library(tidyverse); library(tidybayes); library(ggtext); library(numform)
+  library(tidyverse); library(tidybayes); library(ggtext); 
+  library(patchwork); library(numform)
 
   # Link functions
   r_to_z <- function(r) 0.5 * log( (1 + r) / (1 - r) )
@@ -20,9 +21,22 @@ rm(list = ls())
   
   # Transform to long format
   results <- results %>% 
-    select(y_var, moderator, r_kk) %>% 
-    filter(moderator != "cultural_distance_to_usa") %>% 
-    unnest(r_kk)
+    transmute(
+      y_var, 
+      moderator,
+      draws = map2(
+        r_kk,
+        R2,
+        ~left_join(.x, .y, by = c(".chain", ".iteration", ".draw"))
+      )
+    ) %>% 
+    unnest(draws) %>% 
+    left_join(
+      results %>% 
+        transmute(y_var, moderator, es = map(es, ~count(., kk, name = "I"))) %>% 
+        unnest(es),
+      by = c("y_var", "moderator", "kk")
+    )
   
   # Name moderator and outcome variables
   results <- results %>% 
@@ -35,36 +49,45 @@ rm(list = ls())
       ),
       moderator = recode_factor(
         moderator,
-        "study_setting" = "Study setting",
-        "study_design" = "Study design",
-        "study_sample" = "Study\nsample",
-        "study_intention" = "Study\nintention",
-        "publication_status" = "Publication\nstatus",
-        "ic_direct" = "Intergroup\ncontact",
-        "pi_specific" = "Perceived\ninjustice",
-        "pi_personal" = "Perceived\ninjustice "
+        "study_setting" = "Study Setting",
+        "study_design" = "Study Design",
+        "study_sample" = "Study Sample",
+        "age" = "Age",
+        "study_intention" = "Study Intention",
+        "publication_status" = "Publication Status",
+        "ic_direct" = "Predictor (Direct/Indirect)",
+        "pi_specific" = "Outcome (Specific/General)",
+        "pi_personal" = "Outcome (Personal/Group)"
       ),
-      category = Hmisc::capitalize(category),
       category = recode(
         category,
-        "Quasi-experimental (no random assignment)" = "Quasi-experimental",
-        "Experimental (random assignment)" = "Experimental",
+        "quasi-experimental (no random assignment)" = "quasi-experimental",
+        "experimental (random assignment)" = "experimental",
+        "convenience sample" = "convenience",
+        "probability/representative sample" = "probability/representative",
+        "Slavery" = "Post-Slavery",
+        "Colonization" = "Post-Colonial"
       ),
+      category = str_replace(category, " ", "\n"),
+      category = str_replace(category, "\\/", "/\n"),
+      category = Hmisc::capitalize(category),
       category = factor(category, levels = c(
-        "Observational, cross-sectional", 
-        "Observational, longitudinal",
+        "Observational,\ncross-sectional", 
+        "Observational,\nlongitudinal",
         "Quasi-experimental",
         "Experimental",
-        "Short-term migration",
-        "Long-term migration",
-        "Slavery",
-        "Colonization",
+        "Short-term\nmigration",
+        "Long-term\nmigration",
+        "Post-Slavery",
+        "Post-Colonial",
         "Religion",
         "Caste",
         "Sexuality",
         "Other",
-        "Convenience sample",
-        "Probability/representative sample",
+        "Convenience",
+        "Probability/\nrepresentative",
+        "Adults",
+        "Adolescents/\nChildren",
         "Directly",
         "Indirectly",
         "Specific",
@@ -74,15 +97,17 @@ rm(list = ls())
         "Both",
         "Published",
         "Unpublished",
-        "Unpublished dissertation",
         "Yes",
         "No"
       ))
     )
   
+# Figure 4 ----------------------------------------------------------------
+
   # Summarize posterior distributions
   d_4 <- results %>% 
-    group_by(y_var, y_name, moderator, category, kk) %>% 
+    filter(y_var == "pi") %>% 
+    group_by(y_var, y_name, moderator, category, I, kk) %>% 
     median_qi(r_kk)
   
   # Add results from main analyses
@@ -94,48 +119,87 @@ rm(list = ls())
     left_join(
       d_4, ., by = c("y_var", ".width", ".point", ".interval")
     )
-
-# Figure 4 ----------------------------------------------------------------
-
+  
+  # Add R2
+  d_4 <- results %>% 
+    filter(y_var == "pi") %>% 
+    group_by(y_var, y_name, moderator) %>% 
+    distinct(.draw, R2) %>% 
+    summarize(R2 = median(R2)) %>% 
+    mutate(
+      # R2 = glue("*R*<sup>2</sup> = {f_prop2percent(R2, digits = 0)}")
+      R2 = f_prop2percent(R2, digits = 0)
+    )%>% 
+    left_join(d_4, by = c("y_var", "y_name", "moderator"))
+  
   # Visualize
-  ggplot(d_4, aes(x = r_kk, y = fct_rev(category))) +
-    geom_rect(
-      aes(xmin = r_mean.lower, xmax = r_mean.upper),
-      ymin = -Inf, ymax = Inf,
-      fill = "grey92"
-    ) +
-    geom_hline(
-      aes(yintercept = fct_rev(category)),
-      colour = "grey92"
-    ) +
-    geom_pointrange(
-      aes(xmin = .lower, xmax = .upper),
-      size = 0.5,
-      fatten = 1
-    ) +
-    geom_vline(
-      xintercept = 0, 
-      linetype = "dashed",
-      size = 0.5
-    ) +
-    facet_grid(moderator ~ y_name, scales = "free_y", space = "free_y") +
-    theme_classic(base_size = 10) +
-    theme(
-      legend.position = "none",
-      strip.background = element_blank(),
-      strip.text.y = element_text(vjust = 0, hjust = 0.5),
-      axis.line = element_blank(),
-      axis.text.y = element_markdown(colour = "black"),
-      axis.text.x = element_text(colour = "black"),
-      axis.ticks.y = element_blank(),
-      axis.ticks.x = element_line(colour = "black"),
-      panel.background = element_rect(colour = "black", fill = NA),
-      panel.ontop = TRUE
-    ) +
-    labs(
-      x = expression(italic(r)),
-      y = NULL
-    )
+  for (m in unique(d_4$moderator)) {
+    fig <- d_4 %>% 
+      filter(moderator == m) %>%
+      ggplot(., aes(x = r_kk, y = fct_rev(category))) +
+      geom_rect(
+        aes(xmin = r_mean.lower, xmax = r_mean.upper),
+        ymin = -Inf, ymax = Inf,
+        fill = "grey92"
+      ) +
+      geom_hline(
+        aes(yintercept = fct_rev(category)),
+        colour = "grey92"
+      ) +
+      geom_linerange(
+        aes(xmin = .lower, xmax = .upper),
+        size = 0.5
+      ) +
+      geom_point(
+        # aes(size = I)
+      ) +
+      geom_vline(
+        xintercept = 0, 
+        linetype = "dashed",
+        size = 0.5
+      ) +
+      # scale_size(
+      #   range = c(1, 4)
+      # ) +
+      coord_cartesian(xlim = c(-0.3, 0.1)) + 
+      facet_grid(R2 ~ moderator) +
+      theme_classic(base_size = 10) +
+      theme(
+        legend.position = "none",
+        strip.background = element_blank(),
+        strip.text.y = element_markdown(),
+        axis.line = element_blank(),
+        axis.text.y = element_text(colour = "black"),
+        axis.text.x = element_text(colour = "black"),
+        axis.ticks.y = element_blank(),
+        axis.ticks.x = element_line(colour = "black"),
+        panel.background = element_rect(colour = "black", fill = NA),
+        panel.ontop = TRUE
+      ) +
+      labs(
+        x = expression(italic(r)),
+        y = NULL
+      )
+    if (m == unique(d_4$moderator)[1]) {
+      f_4 <- fig
+    } else {
+      f_4 <- f_4 + fig
+    }
+  }
+  
+  # Combine figures
+  f_4 + plot_layout(
+    design = "
+    AC
+    AD
+    AE
+    BF
+    BG
+    HI
+    HI
+    ",
+    guides = "collect"
+  )
 
 
 # Export ------------------------------------------------------------------
@@ -143,14 +207,14 @@ rm(list = ls())
   # Export figure (as .pdf)
   ggsave(
     "figures/figure-4.pdf",
-    width = 15.14, height = 15.14/3*4, units = "cm",
+    width = 6.5, height = 7.5, units = "in",
     device = cairo_pdf
   )
   
   # Export figure (as .png)
   ggsave(
     "figures/figure-4.png",
-    width = 15.14, height = 15.14/3*4, units = "cm",
+    width = 6.5, height = 7.5, units = "in",
     dpi = 600
   )  
   

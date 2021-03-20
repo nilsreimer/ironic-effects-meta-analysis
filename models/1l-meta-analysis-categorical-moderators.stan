@@ -42,6 +42,6 @@ generated quantities {
   if (K == 1) {
     R2 = 0;
   } else {
-    R2 = variance(b_kk[kk]) / variance(theta);
+    R2 = variance(b_kk[kk]) / (variance(b_kk[kk]) + tau_ii^2);
   }
 }

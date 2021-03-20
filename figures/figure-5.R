@@ -23,9 +23,9 @@ rm(list = ls())
     mutate(
       y_name = recode_factor(
         y_var,
-        "pi" = "Perceived injustice",
-        "ca" = "Collective action",
-        "ps" = "Policy support"
+        "pi" = "Perceived Injustice",
+        "ca" = "Collective Action",
+        "ps" = "Policy Support"
       )
     )
   
@@ -76,9 +76,9 @@ rm(list = ls())
     scale_y_continuous(breaks = seq(-1, 1, 0.1)) +
     scale_fill_manual(
       values = c(
-        "Perceived injustice" = "#648FFF", 
-        "Collective action" = "#DC267F", 
-        "Policy support" = "#FFB000"
+        "Perceived Injustice" = "#648FFF", 
+        "Collective Action" = "#DC267F", 
+        "Policy Support" = "#FFB000"
       )
     ) +
     facet_grid(. ~ y_name) +
@@ -104,14 +104,14 @@ rm(list = ls())
   # Export figure (as .pdf)
   ggsave(
     "figures/figure-5.pdf",
-    width = 15.14, height = 15.14/2, units = "cm",
+    width = 6.5, height = 6.5/2, units = "in",
     device = cairo_pdf
   )
   
   # Export figure (as .png)
   ggsave(
     "figures/figure-5.png",
-    width = 15.14, height = 15.14/2, units = "cm",
+    width = 6.5, height = 6.5/2, units = "in",
     dpi = 600
   )  
   

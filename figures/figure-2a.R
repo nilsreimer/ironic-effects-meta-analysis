@@ -215,6 +215,9 @@
       legend.justification = c(0, 0),
       panel.background = element_rect(fill = "#56B4E950", color = "white", size = 1),
       panel.grid = element_blank()
+    ) +
+    labs(
+      tag = "A"
     )
 
 
