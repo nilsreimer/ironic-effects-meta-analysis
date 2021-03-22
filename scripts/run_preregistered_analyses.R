@@ -387,29 +387,6 @@ rm(list = ls())
         distinct(id, jj, x_var, y_var),
       by = c("x_var", "y_var", "jj")
     )
-  
-
-# Estimate statistical power ----------------------------------------------
-
-  # Define functions
-  p_value <- function(r, n) 2*min(pnorm(0, r_to_z(r), 1/sqrt(n - 3)), 1-pnorm(0, r_to_z(r), 1/sqrt(n - 3)))
-  p_value <- Vectorize(p_value)
-  n_req   <- function(r) uniroot(function(n) ( 0.05 - p_value(r, n) ), c(3, 1e6))$root
-  n_req   <- Vectorize(n_req)
-  
-  # Estimate required n 
-  n_req <- post %>%
-    filter(x_var == "ic") %>% 
-    select(.chain:.draw, y_var, mu, tau_jj) %>% 
-    mutate(
-      z = map2_dbl(
-        mu,
-        tau_jj,
-        ~uniroot(function(z) 0.20 - diff(pnorm(c(-z, z), .x, .y)), c(-1, 1))$root
-      ),
-      r = z_to_r(z),
-      n = n_req(r)
-    )
 
 
 # Export ------------------------------------------------------------------
@@ -419,6 +396,3 @@ rm(list = ls())
   
   # Export study-wise estimates (as .rds)
   write_rds(pred_jj, "results/r_pred_jj.rds")
-  
-  # Export power predictions (as .rds)
-  write_rds(n_req, "results/n_req.rds")

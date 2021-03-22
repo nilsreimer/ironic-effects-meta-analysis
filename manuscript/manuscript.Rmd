@@ -52,17 +52,10 @@ output:
 
 ```{r, include = FALSE}
 
-  # Make posterior predictions
+  # Summarize results
   results <- read_rds("../results/results_preregistered_analyses.rds") %>% 
-    mutate(
-      r_pred_l80 = z_to_r(qnorm(0.10, mu, tau_jj)),
-      r_pred_u80 = z_to_r(qnorm(0.90, mu, tau_jj)),
-    )
-
-  # Summarise results
-  results <- results %>% 
     pivot_longer(
-      c(r_mean, tau_ii, tau_jj, r_pred_l80, r_pred_u80),
+      c(r_mean, tau_ii, tau_jj),
       names_to = "parameter",
       values_to = "estimate",
       values_drop_na = TRUE
@@ -105,24 +98,39 @@ output:
 
 ```{r, include = FALSE}
 
-  # Summarize predictions for statistical power
-  n_req <- read_rds("../results/n_req.rds") %>%
-    group_by(y_var) %>%
-    summarize(
-      across(
-        c(n, r),
-        list(
-          "med" = ~median(.),
-          "l95" = ~quantile(., 0.025),
-          "u95" = ~quantile(., 0.975)
-        )
-      )
-    ) %>%
+  # Set seed (for posterior predictive simulations)
+  set.seed(9071118)
+
+  # Simulate posterior predictions
+  post_pred <- read_rds("../results/results_preregistered_analyses.rds") %>% 
+    filter(x_var == "ic") %>% 
     mutate(
-      across(starts_with("n"), ~f_comma(ceiling(.))),
-      across(starts_with("r"), ~f_num(., digits = 3)),
-      n_text = paste0(n_med, ", [", n_l95, ", ", n_u95, "]"),
-      r_text = paste0("$|r| > ", r_med, ", [", r_l95, ", ", r_u95, "]$")
+      r_pred = z_to_r(rnorm(n = n(), mean = mu, sd = tau_jj))
+    )
+  
+  # Define functions for power calculations
+  p_value <- function(r, n) 2*min(pnorm(0, r_to_z(r), 1/sqrt(n - 3)), 1-pnorm(0, r_to_z(r), 1/sqrt(n - 3)))
+  p_value <- Vectorize(p_value)
+  n_req   <- function(r) uniroot(function(n) ( 0.05 - p_value(r, n) ), c(3, 1e6))$root
+  n_req   <- Vectorize(n_req)
+  
+  # Summarize posterior predictions
+  post_pred <- post_pred %>% 
+    group_by(x_var, y_var) %>% 
+    summarize(
+      r_pred_l80 = quantile(r_pred, 0.10),
+      r_pred_u80 = quantile(r_pred, 0.90),
+      r_abs = quantile(abs(r_pred), 0.20),
+      n_req = n_req(r_abs)
+    ) %>% 
+    ungroup() %>% 
+    mutate(
+      across(
+        c(r_pred_l80, r_pred_u80),
+        ~f_num(., digits = 2)
+      ),
+      r_abs = paste0("$|r| > ", f_num(r_abs, digits = 3), "$"),
+      n_req = f_comma(ceiling(n_req))
     )
 
 ```
@@ -143,19 +151,19 @@ As preregistered, we ran three random-effects meta-analysis models, one for each
 pi_results <- results %>% filter(x_var == "ic", y_var == "pi")
 ```
 
-*Perceived injustice.* Across `r unique(pi_results$N)` participants from `r unique(pi_results$I)` samples in `r unique(pi_results$J)` studies, we found strong evidence for a weak association (`r pi_results$text[pi_results$parameter == "r_mean"]`) between intergroup contact and perceived injustice, with `r pi_results$p_below[pi_results$parameter == "r_mean"]` of posterior samples for the mean correlation coefficient falling below zero. We found evidence that correlation coefficients varied across studies (`r pi_results$text[pi_results$parameter == "tau_jj"]`) and across samples within studies  (`r pi_results$text[pi_results$parameter == "tau_ii"]`). Based on these analyses, we predicted that 80\% of studies would result in correlation coefficients between `r pi_results$text[pi_results$parameter == "r_pred_l80"]` and `r pi_results$text[pi_results$parameter == "r_pred_u80"]` and that researchers would need sample sizes of at least `r n_req$n_text[n_req$y_var == "pi"]` participants to find significant associations ($\alpha = .05$, two-sided) in 80\% of their studies.^[Sample sizes are based on posterior predictions from the three models, which implied that, for 80\% of studies, the absolute correlation coefficient would be `r n_req$r_text[n_req$y_var == "pi"]` for perceived injustice, `r n_req$r_text[n_req$y_var == "ca"]` for collective action, and `r n_req$r_text[n_req$y_var == "ps"]` for policy support.]
+*Perceived injustice.* Across `r unique(pi_results$N)` participants from `r unique(pi_results$I)` samples in `r unique(pi_results$J)` studies, we found strong evidence for a weak association (`r pi_results$text[pi_results$parameter == "r_mean"]`) between intergroup contact and perceived injustice, with `r pi_results$p_below[pi_results$parameter == "r_mean"]` of posterior samples for the mean correlation coefficient falling below zero. We found evidence that correlation coefficients varied across studies (`r pi_results$text[pi_results$parameter == "tau_jj"]`) and across samples within studies  (`r pi_results$text[pi_results$parameter == "tau_ii"]`). Based on these analyses, we predicted that 80\% of studies would result in correlation coefficients between `r post_pred$r_pred_l80[post_pred$y_var == "pi"]` and `r post_pred$r_pred_u80[post_pred$y_var == "pi"]` and that researchers would need sample sizes of at least `r post_pred$n_req[post_pred$y_var == "pi"]` participants to find significant associations ($\alpha = .05$, two-sided) in 80\% of their studies.^[Sample sizes are based on posterior predictions from the three models, which implied that, for 80\% of studies, the absolute correlation coefficient would be `r post_pred$r_abs[post_pred$y_var == "pi"]` for perceived injustice, `r post_pred$r_abs[post_pred$y_var == "ca"]` for collective action, and `r post_pred$r_abs[post_pred$y_var == "ps"]` for policy support.]
 
 ```{r, include = FALSE}
 ca_results <- results %>% filter(x_var == "ic", y_var == "ca")
 ```
 
-*Collective action.* Across `r unique(ca_results$N)` participants from `r unique(ca_results$I)` samples in `r unique(ca_results$J)` studies, we found some evidence for a weak association (`r ca_results$text[ca_results$parameter == "r_mean"]`) between intergroup contact and collective action, with `r ca_results$p_below[ca_results$parameter == "r_mean"]` of posterior samples for the mean correlation coefficient falling below zero. We found evidence that correlation coefficients varied across studies (`r ca_results$text[ca_results$parameter == "tau_jj"]`) and across samples within studies  (`r ca_results$text[ca_results$parameter == "tau_ii"]`). Based on these analyses, we predicted that 80\% of studies would result in correlation coefficients between `r ca_results$text[pi_results$parameter == "r_pred_l80"]` and `r ca_results$text[pi_results$parameter == "r_pred_u80"]` and that researchers would need sample sizes of at least `r n_req$n_text[n_req$y_var == "ca"]` participants to find significant associations ($\alpha = .05$, two-sided) in 80\% of their studies.
+*Collective action.* Across `r unique(ca_results$N)` participants from `r unique(ca_results$I)` samples in `r unique(ca_results$J)` studies, we found some evidence for a weak association (`r ca_results$text[ca_results$parameter == "r_mean"]`) between intergroup contact and collective action, with `r ca_results$p_below[ca_results$parameter == "r_mean"]` of posterior samples for the mean correlation coefficient falling below zero. We found evidence that correlation coefficients varied across studies (`r ca_results$text[ca_results$parameter == "tau_jj"]`) and across samples within studies  (`r ca_results$text[ca_results$parameter == "tau_ii"]`). Based on these analyses, we predicted that 80\% of studies would result in correlation coefficients between `r post_pred$r_pred_l80[post_pred$y_var == "ca"]` and `r post_pred$r_pred_u80[post_pred$y_var == "ca"]` and that researchers would need sample sizes of at least `r post_pred$n_req[post_pred$y_var == "ca"]` participants to find significant associations ($\alpha = .05$, two-sided) in 80\% of their studies.
 
 ```{r, include = FALSE}
 ps_results <- results %>% filter(x_var == "ic", y_var == "ps")
 ```
 
-*Policy support.* Across `r unique(ps_results$N)` participants from `r unique(ps_results$I)` samples in `r unique(ps_results$J)` studies, we found some evidence for a weak association (`r ps_results$text[ps_results$parameter == "r_mean"]`) between intergroup contact and policy support, with `r ps_results$p_below[ps_results$parameter == "r_mean"]` of posterior samples for the mean correlation coefficient falling below zero. We found evidence that correlation coefficients varied across studies (`r ps_results$text[ps_results$parameter == "tau_jj"]`) and, to a lesser extent, across samples within studies  (`r ps_results$text[ps_results$parameter == "tau_ii"]`). Based on these analyses, we predicted that 80\% of studies would result in correlation coefficients between `r ps_results$text[pi_results$parameter == "r_pred_l80"]` and `r ps_results$text[pi_results$parameter == "r_pred_u80"]` and that researchers would need sample sizes of at least `r n_req$n_text[n_req$y_var == "ps"]` participants to find significant associations ($\alpha = .05$, two-sided) in 80\% of their studies.
+*Policy support.* Across `r unique(ps_results$N)` participants from `r unique(ps_results$I)` samples in `r unique(ps_results$J)` studies, we found some evidence for a weak association (`r ps_results$text[ps_results$parameter == "r_mean"]`) between intergroup contact and policy support, with `r ps_results$p_below[ps_results$parameter == "r_mean"]` of posterior samples for the mean correlation coefficient falling below zero. We found evidence that correlation coefficients varied across studies (`r ps_results$text[ps_results$parameter == "tau_jj"]`) and, to a lesser extent, across samples within studies  (`r ps_results$text[ps_results$parameter == "tau_ii"]`). Based on these analyses, we predicted that 80\% of studies would result in correlation coefficients between `r post_pred$r_pred_l80[post_pred$y_var == "ps"]` and `r post_pred$r_pred_u80[post_pred$y_var == "ps"]` and that researchers would need sample sizes of at least `r post_pred$n_req[post_pred$y_var == "ps1"]` participants to find significant associations ($\alpha = .05$, two-sided) in 80\% of their studies.
 
 ```{r, include = FALSE}
 pi_ca_results <- results %>% filter(x_var == "pi", y_var == "ca", parameter == "r_mean")
