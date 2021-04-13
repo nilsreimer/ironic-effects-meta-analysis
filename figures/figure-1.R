@@ -222,11 +222,7 @@ rm(list = ls())
     minor_breaks = seq(47, 0, -1)
   ) +
   coord_equal(xlim = c(0, 56), ylim = c(0, 47), expand = FALSE) +
-  theme_void(base_size = 10) +
-  theme(
-    # panel.grid.major = element_line(colour = "grey92", size = rel(0.75)),
-    # panel.grid.minor = element_line(colour = "grey92", size = rel(0.50))
-  )
+  theme_void(base_size = 10)
 
 
 # Export ------------------------------------------------------------------

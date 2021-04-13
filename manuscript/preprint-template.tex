@@ -1,4 +1,4 @@
-\documentclass[twocolumn, 10pt, letterpaper]{article}
+\documentclass[twocolumn, 11pt, letterpaper]{article}
 
 % Font
 \usepackage[utf8]{inputenc}
@@ -10,25 +10,32 @@
 % Format
 \usepackage[letterpaper, margin = 1in]{geometry}
 \setcounter{secnumdepth}{0}
+\usepackage{sectsty}
+\sectionfont{\centering}
 \usepackage{authblk}
-% \renewcommand\Affilfont{\small}
+\renewcommand\Affilfont{\small}
 % \usepackage[hang, flushmargin]{footmisc}
-\setlength{\columnsep}{15pt}
+\setlength{\columnsep}{18pt}
 
 % Links
 \usepackage[colorlinks = true, linkcolor = black, urlcolor = black, citecolor = black]{hyperref} 
 
 % Figures
 \usepackage{graphicx}
-\usepackage[labelfont = bf, labelsep = newline, singlelinecheck = false]{caption}
+\usepackage[labelfont = bf, font = small, labelsep = newline, singlelinecheck = false]{caption}
 
 % Tables
 \usepackage{booktabs}
 \usepackage{tabularx}
-\usepackage[table, xcdraw]{xcolor}
+
+% Frontmatter
+\title{ $title$ }
+\author{ $author$ }
 
 \begin{document}
 
-$body$
+\maketitle
+
+\noindent $body$
 
 \end{document}

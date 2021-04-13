@@ -1,12 +1,14 @@
 ---
-title: "Meta-Analysis of the `Ironic' Effects of Intergroup Contact"
+title: "Meta-Analysis of the 'Ironic' Effects of Intergroup Contact"
 bibliography: references.bib
 csl: apa.csl
 output:
   pdf_document:
     latex_engine: pdflatex
     keep_tex: yes
-    template: custom-template.tex
+    template: preprint-template.tex
+  word_document:
+    reference_docx: word-template.docx
 ---
 
 ```{r setup, include = FALSE}
@@ -23,11 +25,52 @@ output:
 
 ```
 
-[@pettigrew_meta-analytic_2006]
+It is ironic that psychology’s most-researched paradigm for reducing prejudice—intergroup contact—should hinder, rather than help, social change. Hundreds of studies have confirmed that intergroup contact is associated with less negative feelings toward outgroup members [for a meta-analysis, see @pettigrew_meta-analytic_2006]. Most of these studies have focused on advantaged-group members' contact experiences with disadvantaged-group members [@tropp_relationships_2005], guided by the idea that reducing advantaged-group members' prejudice will prevent interpersonal discrimination. Reducing prejudice, however, is rarely enough to overcome institutional and structural discrimination. Instead, as the 2020 Black Lives Matter protests have shown, social change often requires political mobilization by the disadvantaged. Critics have argued that, by fostering harmony and reducing conflict, intergroup contact might distract disadvantaged-group members from the injustice they face and undermine their motivation for social change [@dixon_beyond_2005; @reicher_rethinking_2007; @brown_strategic_2003]. By stifling disadvantaged-group members' opposition to injustice, intergroup contact might thus have the 'ironic' [@saguy_irony_2009], 'sedative' [@cakal_investigation_2011], or 'paradoxical' [@dixon_paradox_2010] effect of hindering social change.
 
-# Results
+Supporting this argument, initial studies provided evidence that, among disadvantaged-group members, intergroup contact reduces perceptions of injustice [@saguy_irony_2009], discourages collective action [@cakal_investigation_2011], and diminishes support for reparative policies [@dixon_intergroup_2007]. Others, however, have pointed to conflicting evidence [@poore_contact_2002] and argued that intergroup contact might instead render discrimination more salient and, thereby, increase disadvantaged-group members' support for social change [@pettigrew_recent_2011]. A decade after the initial studies, many more studies have examined the relationships between intergroup contact and support for social change in disadvantaged groups. We present a systematic review and meta-analysis of this growing literature. Specifically, we evaluate the evidence for three hypotheses about how intergroup contact might reduce support for social change.
 
-## Search results
+Perceived injustice—that is, perceiving unjust group-based deprivation or discrimination against the disadvantaged ingroup—is a prerequisite to instigating social change [@van_zomeren_toward_2008]. Researchers have argued that positive contact with advantaged-group members could contradict perceptions of personal discrimination, undermine negative characterizations of the advantaged outgroup, and, thereby, make group discrimination appear less plausible [@dixon_paradox_2010]. Positive contact could further reduce perceived injustice by emphasizing commonalities over differences [@saguy_irony_2009] and by motivating disadvantaged-group members to adopt system-justifying ideologies [@sengupta_perpetuating_2013]. To the extent that it reduces perceived injustice, intergroup contact hinders social change.
+
+Collective action—that is, any action directed at improving the conditions of the disadvantaged ingroup [@wright_responding_1990]—is crucial to achieving social change because advantaged-group members rarely surrender their advantages without sustained pressure from disadvantaged-group members [@blumer_race_1958; for a review, see @dixon_beyond_2012]. Researchers have argued that intergroup contact could discourage disadvantaged-group members from engaging in collective action by diminishing their perceived discrimination [@tropp_crossethnic_2012], by blurring boundaries between the disadvantaged ingroup and the advantaged outgroup [@saguy_irony_2009], by reducing negative attitudes toward the advantaged outgroup [@wright_struggle_2009], and by quelling anger about inequality [@tausch_how_2015] or toward the advantaged outgroup [@hayward_how_2018]. To the extent that it discourages collective action, intergroup contact hinders social change.
+
+Reparative policies (e.g., affirmative action) can be effective means to reduce social inequality. Disadvantaged-group members, who stand to benefit from their implementation, are important advocates for these policies. Researchers have argued that intergroup contact could diminish disadvantaged-group members’ support for redistributive policies by creating sympathy for advantaged-group members [@dixon_intergroup_2007], by fostering positive outgroup attitudes and reducing attention to inequality [@saguy_irony_2009], and by increasing their endorsement of system-justifying ideologies [@sengupta_perpetuating_2013]. To the extent that it diminishes support for redistributive policies, intergroup contact hinders social change.
+
+As a growing number of studies had been examining these relationships, we conducted a preregistered meta-analytic review of the available evidence for the hypothesized negative effects of intergroup contact on perceived injustice, collective action, and policy support in disadvantaged groups. 
+
+Our first objective was to systematically review the available evidence and to evaluate its strengths and limitations. Our second objective was to synthesize the available evidence to establish the direction and magnitude of the relationships between intergroup contact and the three outcomes. Doing so allows us, first, to determine whether the available evidence supports a negative or positive [see @pettigrew_recent_2011] relationship between contact and support for social change and, second, to estimate the strength of this relationship. Our third objective was to explore the variability of this relationship across study settings, designs, and other potential moderators. For example, we examined whether any effects were confined to Western, Educated, Industrialized, Rich, Democratic (WEIRD) settings, the cultural context of most psychological research [@henrich_weirdest_2010]. Our fourth objective was to assess how robust the available evidence was to publication bias. Together, these objectives provided a comprehensive answer to the question whether intergroup contact diminishes support for social change in disadvantaged groups.
+
+In addition, we explored the evidence for two alternative accounts of this relationship. First, we considered studies that measured both ingroup and outgroup contact as predictors of the three outcomes. @sengupta_ingroup_2015 argued that contact with other members of the disadvantaged ingroup would increase political mobilization in disadvantaged groups. As outgroup contact places limits on how much ingroup contact disadvantaged-group members can have [@pfister_contact_2020], the mobilizing effect of ingroup contact is an alternative explanation for negative associations between outgroup contact and support for social change. 
+
+Second, we considered studies that measured both negative and positive (outgroup) contact as predictors of the three outcomes. Researchers [@hayward_how_2018; @reimer_intergroup_2017] found negative contact with advantaged-group members to be associated with greater perceived discrimination and stronger collective action intentions. @reimer_intergroup_2017 argued that, to the extent disadvantaged-group members who have more positive contact also tend to have less negative contact, the mobilizing effect of negative contact is an alternative explanation for negative associations between outgroup contact and support for social change. For both alternative explanations, we collate and synthesize the available evidence for the relative effects of each predictor variable on the three outcomes.
+
+# Method
+
+## Transparency
+
+We prepared a protocol in accordance with the PRISMA-P statement [@moher_preferred_2015] and preregistered it on the Open Science Framework.^[[https://osf.io/ryuev/?view_only=8938ac6178914da98bdda1da4a6e27f0](https://osf.io/ryuev/?view_only=8938ac6178914da98bdda1da4a6e27f0)] Preregistration precludes undisclosed flexibility in study selection, outcome selection, and other decisions that influence effect size estimates—and thus prevents confirmation bias from determining the conclusions of a meta-analysis [@lakens_reproducibility_2016]. We report all deviations from our protocol in the Supplemental Materials. We make all data and analysis scripts available online.^[[https://osf.io/w5tqv/?view_only=5cbf7ad5b2b449a7a0f4ada0337b802a](https://osf.io/w5tqv/?view_only=5cbf7ad5b2b449a7a0f4ada0337b802a)]
+
+## Eligibility Criteria
+
+As preregistered, we considered all quantitative studies that included participants of a relatively disadvantaged group (see *Types of Participants*), that manipulated or measured intergroup contact with a relatively advantaged group (see *Types of Predictor Variables*), and that measured one or more of the following outcomes: perceptions or expectations of injustice, collective action intentions and behaviours, and/or support for policies that benefit or harm the participants’ ingroup (see *Types of Outcome Variables*).
+
+### Types of Participants
+
+We included studies with participants whose ingroup is disadvantaged (in terms of status, power, or resources) relative to the outgroup they have (or report to have) contact with.
+
+### Types of Predictor Variables
+
+We included studies if they measured or manipulated the quantity of, quality of, and opportunity for contact with members of outgroups that are relatively advantaged compared to the participants’ ingroup. We considered opportunity for contact, as it is a potential precursor to and proxy for face-to-face contact, but not imagined or indirect contact. Similarly, we included studies that measured intergroup contact indirectly by, for example, asking what proportion of someone’s friends were *not* from the participants’ ingroup.
+
+### Types of Outcome Variables
+
+***Perceived Injustice.*** We included studies that measured perceptions that one is discriminated against because of one’s group membership, that one’s group faces discrimination in society, that one’s group is relatively deprived compared to other groups, or that the deprivation and/or discrimination faced by one’s group is unjust and illegitimate. We also considered expectations of fair treatment as the reverse of perceived injustice. We included studies that measured personal and/or group discrimination or a mixture of both.
+
+***Collective Action.*** We included studies that measured observed, reported, or intended engagement in any action aimed at improving the position of the participants’ ingroup in society. This included participating in protests, signing petitions, and any other form of violent or nonviolent collective action.
+
+***Policy Support.*** We included studies that measured support for (or opposition to) policies and initiatives designed to improve the position of the participants’ ingroup in society, for example, affirmative action policies.
+
+
+## Search Strategy
 
 ```{=latex}
 \begin{figure*}[!t]
@@ -37,6 +80,34 @@ output:
 \label{fig:f1}
 \end{figure*}
 ```
+
+As preregistered, we searched titles, abstract, and keywords for relevant terms in four electronic databases. We searched for relevant articles in the *Scopus* and *PsycINFO* databases. We searched for gray literature in the *ProQuest Dissertations and Theses* database. We used similar non-exclusive search terms for all databases (see Supplemental Materials). We searched databases on April 1, 2019 and again on April 1, 2020. We exported records and relevant metadata from each database. We removed duplicates using the *revtools* package [@westgate_revtools:_2019]. 
+
+To find unpublished studies, we sent a call to the mailing lists of several professional organizations (see Supplemental Materials). We also advertised on social media and at relevant conferences. We directed researchers to an online survey in which they answered questions about the eligibility of their unpublished research and, if the research was eligible, provided data on moderator variables and effect sizes. We also contacted experts in the field, asking for unpublished research and other studies we might have missed.
+
+In addition, we used the *Scopus* citation database to find records that cited at least one of the published articles included in the meta-analysis or at least one of three relevant review articles [@dixon_beyond_2012; @reicher_rethinking_2007; @wright_struggle_2009]. This search resulted in 2,075 records. Of these, we focused on 145 records that cited at least three eligible studies or relevant reviews and looked for eligible studies that were not among those from our original search.
+
+## Study Selection
+
+As preregistered, we selected studies in three stages. First, we screened records based on their title, abstract, and keywords. We refined our coding strategy over three random samples of 100 records until we achieved acceptable inter-rater agreement ($\kappa_1 = .56$, $\kappa_2 = .60$, $\kappa_3 = .79$). We then divided the remaining records between the two authors. For each record, one of the authors coded whether the record met the eligibility criteria (yes, maybe, no), or whether it was a relevant review article. We kept all records coded as “yes” or “maybe”. Second, both authors reviewed each of the full-text manuscripts from the previous stage and coded whether any study or sample in the manuscript fulfilled the preregistered eligibility criteria ($\kappa = .75$). Third, we resolved any disagreements (by consensus) and excluded ineligible records.
+
+## Data Collection
+
+### Effect Sizes
+
+From all eligible records, we extracted correlation coefficients ($r$) as the relevant measure of effect size and extracted sample sizes ($n$) to calculate standard errors for each sample’s correlation coefficients. When provided, we copied correlation coefficients from the text or tables. When other effect-size measures were provided, we converted them to correlation coefficients using common conversion formulas [@borenstein_introduction_2009]. When effect sizes were not provided, we attempted to contact the authors to obtain the relevant effect sizes. We did not contact authors for studies that were more than twenty years old as we considered it unlikely that authors still had access to the underlying data. When we could not extract or obtain an effect size for a study or sample, we either imputed missing correlation coefficients from standardized beta coefficients [@peterson_use_2005] if reported or excluded the study or sample if not.
+
+### Outcomes Selection
+
+We collected effect sizes for all relationships between eligible predictor and outcome variables. When more than one eligible measure was reported, we extracted effect sizes for all of them. As preregistered, we also extracted effect sizes for negative contact, ingroup contact, group identification, and outgroup attitudes.
+
+When a study reported effect sizes for more than one measure of intergroup contact, we prioritized the predictor variable in the preregistered analyses that measured the most intense or intimate form of contact. As preregistered, we used the following ranking: cross-group friendship > quality of contact/positive contact > quantity of contact > opportunity for contact. When it was unclear which of several predictor variables measured the most intense form of contact, we combined and averaged effect sizes.
+
+When a study reported effect sizes for more than one measure of one of the three outcome variables, we selected effect sizes for the preregistered analyses as follows: For perceived injustice, we prioritized the measure closest to perceptions of injustice against the participants’ ingroup (rather than against the participants themselves); when it was ambiguous which measure that was, we combined and averaged effect sizes across outcome measures. For collective action, we prioritized the measure that was the primary focus of the reported analyses; otherwise, we combined and averaged effects sizes across outcome measures. For policy support, we combined and averaged effect sizes for all policies designed to improve the position of the participants’ ingroup in society.
+
+Some study designs resulted in more than one effect size for the same measure: When a longitudinal study reported results from more than two waves, we prioritized effect sizes spanning the inter-survey interval closest to one year. If a longitudinal study reported results from more than two waves and spanned multiple years, we combined and averaged effect sizes from each one-year inter-survey interval. In the preregistered analyses, we included the cross-lagged partial correlation between the relevant predictor variable (at time 1) and outcome variable (at time 2) controlling for initial levels of the outcome variable (at time 1). When an experimental or quasi-experimental study reported comparisons between more than two conditions, we prioritized the effect size that compared two conditions that most closely resembled generic contact and no-contact conditions.
+
+### Potential Moderators
 
 ```{=latex}
 \begin{figure*}
@@ -48,7 +119,48 @@ output:
 \end{figure*}
 ```
 
-## Preregistered analyses
+In addition to extracting and selecting effect sizes for the preregistered analyses, we collected data on a broad range of potential moderators. All moderators that required subjective assessments were coded by both authors. We calculated inter-rater agreement (Cohen’s $\kappa$) and resolved all disagreements by consensus.
+
+***Study Setting.*** For each sample, we recorded in what country (or countries) the data was collected ($\kappa = .97$) and what the disadvantaged ingroup and the advantaged outgroup were. We categorized each sample’s setting according to whether the source of the groups’ relative inequality was long-term migration (e.g., Asian Americans), short-term  migration (e.g., international students), slavery (e.g., Black Americans), colonization (e.g., Māori, Black South Africans), religion, caste, sexuality, or another distinction ($\kappa = .84$).
+
+***Study Design.*** We categorized each study as either observational and cross-sectional, observational and longitudinal, quasi-experimental, experimental, an intervention, or other ($\kappa = .85$). We categorized each sample as either a student convenience sample, a non-student convenience sample, a probability or representative sample, or another kind of sample ($\kappa = .73$). We categorized the age group(s) in each sample as children ($\leq 12$ years), adolescents (13–18 years), or adults ($\geq 18$ years; $\kappa = .64$).
+
+***Study Intention.*** We coded whether or not each study was conducted with the intention to examine the effects of intergroup contact on one or more of the three outcome measures ($\kappa = .48$).
+
+***Publication status.*** For each study, we coded whether it was published, unpublished, or an unpublished dissertation based on the information source from which we obtained it.
+
+***Predictor Variables.*** For each measure of intergroup contact, we coded whether it assessed contact with the specific advantaged outgroup of interest directly—or whether it assessed contact indirectly by, for example, asking what proportion of someone’s friends were not from the participants’ ingroup or what proportion of residents in someone’s neighbourhood were from the relevant outgroup ($\kappa = .82$).
+
+***Outcome Variables.*** For each measure of perceived injustice, we coded whether it refered to specific instances of discrimination, to a more general perception of discrimination, or to both ($\kappa = .67$) and whether it assessed personal discrimination, group discrimination, or both ($\kappa = .83$).
+
+***Cultural Distance.*** We also used the measure developed by @muthukrishna_beyond_2020, when available, to quantify each country’s cultural distance from the United States, which represents the cultural context of most psychological research [@henrich_weirdest_2010].
+
+## Analysis Strategy
+
+### Preregistered Analyses
+
+We transformed correlation coefficients to Fisher’s $z$ which is unbounded and has a normal sampling distribution: \begin{align*} 
+z & = \frac{1}{2} \ln\left(\frac{1 + r}{1 - r}\right) \\ \sigma & = \frac{1}{\sqrt{n - 3}} \end{align*} where $r$ is the sample correlation coefficient, $z$ is the transformed effect size, $n$ is the sample size, and $\sigma$ is the standard error of the transformed effect size.
+
+We estimated effect sizes using Bayesian random-effects meta-analysis models in *RStan* [@stan_development_team_rstan:_2020] which modeled the *z*-transformed correlation coefficients with a normal likelihood function: \begin{align*} z_{ij} &\sim \text{Normal}(\theta_{ij}, \sigma_{ij}) \\ \theta_{ij} &= \begin{cases} \mu + \beta_j\tau_J & \text{if } I_j = 1 \\ \mu + \beta_j\tau_J + \beta_i\tau_I & \text{if } I_j > 1 \end{cases} \\ \end{align*} where $z_{ij}$ is the observed effect size in sample $i$ of study $j$, $\sigma_{ij}$ is the sample standard error, and $\theta_{ij}$ is the estimated effect size. We estimated $z_{ij}$ as a function of the mean effect size $\mu$ and of two varying (random) intercepts, $\beta_i$ and $\beta_j$, with the corresponding standard deviations, $\tau_I$ and $\tau_J$. We used the non-centered parameterization to model the random effects. For studies that contained only one sample ($I_j = 1$), we only included $\beta_j\tau_J$, the study-wise deviation from the mean effect size $\mu$. For studies that contained more than one sample ($I_j > 1$), we also estimated $\beta_i\tau_I$, the sample-wise deviation from the study-specific effect size.
+
+Models assigned weakly informative prior distributions to all parameters. The prior distribution for the mean effect size, $\mu \sim \text{Normal}(0, 0.31605)$, was centered around 0 and concentrated 50% of the most plausible values between $r = -.21$ and $r = .21$. We focus on $|r| = .21$ because it corresponds to the mean effect size observed in both Pettigrew and Tropp’s [-@pettigrew_meta-analytic_2006] meta-analysis of the contact literature and Richard et al.’s [-@richard_one_2003] meta-analysis of effect sizes across a century of social-psychological research. The prior distribution for the standard deviation of random effects, $\tau \sim \text{Half-Cauchy}(0, 0.3)$, allocated 30% of plausible values below $\tau = 0.15$ and had a wide tail. We focus on $\tau = 0.15$ because it corresponds to the standard deviations observed in both Pettigrew and Tropp’s [-@pettigrew_meta-analytic_2006] and Richard et al.’s [-@richard_one_2003] meta-analyses. We chose this prior distribution in line with recommendations by Williams et al. (2018).
+
+Bayesian inference involves choosing a likelihood function and prior distributions. A likelihood function links the observed data to one or more model parameters and states how likely the observed data are given different values of said model parameters. Prior distributions state how plausible different values of said model parameters are before considering the observed data. Bayesian inference applies Bayes’ theorem to update prior distributions in light of the observed data to produce posterior distributions. Other than *p*-values and confidence intervals, the resulting posterior distributions have a straightforward interpretation as stating how plausible different values of the model parameters are given the observed data. We report point estimates, based on the median of posterior samples, and uncertainty intervals, based on the quantiles of posterior samples, that enclose the 95% most plausible estimates. In addition, we report the posterior probability, based on the proportion of posterior samples below zero, that an estimated mean effect size is negative.
+
+### Other Analyses
+
+We also conducted non-preregistered analyses to estimate to what extent moderator variables explained heterogeneity in the estimated effect sizes, to what extent meta-biases influenced the estimated effect sizes, and to what extent the three outcome variables were associated with two alternative predictor variables, ingroup contact and negative contact.
+
+# Results
+
+## Search Results
+
+Figure 1 shows a flow diagram illustrating our search strategy, study selection, and data collection. Our preregistered search strategy returned 2,610 unique records from electronic databases. Of these, we excluded 2,379 (91\%) ineligible records after screening titles, abstracts, and keywords. Of the remaining 231 records, we excluded 116 (50\%) ineligible records after reviewing full-text manuscripts. We supplemented these records with 14 unpublished studies solicited from researchers and 6 records that cited at least three relevant works. Of 135 eligible studies, we had to exclude 39 (29\%) studies for which we could not extract or impute any relevant effect size. At each stage, we also excluded studies that used the same data as another study. Our final sample comprised effect sizes from $J = 96$  studies spanning $N = 211,360$ participants in $I = 137$ samples.
+
+Figure 2 provides a qualitative overview of the literature. Even though most participants came from studies conducted in India ($N = 104,639$) and the United States ($N = 61,089$; Figure 2a), most samples were collected in North America ($I = 48$) and Europe ($I = 40$), with few samples from South America and Africa (Figure 2b). Most samples focused on relative inequalities that resulted from long-term migration ($I = 54$), slavery ($I = 19$), colonization ($I = 17$), and short-term migration ($I = 14$). With few exceptions, studies used observational, cross-sectional survey designs. Samples sizes ranged from 64 to 49,764 ($\textit{Mdn} = 282$). Unlike most psychological research, 2 in 5 samples used probability or representative sampling. Of all samples, 55\% ($I = 75$) were collected with the intention to examine the effects of intergroup contact on the outcomes considered in this meta-analysis.^[Many studies examined acculturation processes (Berry, 1997) and measured both intergroup contact and perceived injustice without the relationship between the two being of interest.] Together, these observations highlight both limitations and strengths of the empirical literature.
+
+## Preregistered Analyses
 
 ```{r, include = FALSE}
 
@@ -138,11 +250,11 @@ output:
 As preregistered, we ran three random-effects meta-analysis models, one for each outcome variable. Figure 3 shows posterior distributions from these analyses.
 
 ```{=latex}
-\begin{figure*}
+\begin{figure*}[!t]
 \centering
 \caption{Posterior distributions from the preregistered random-effect meta-analysis models}
 \includegraphics[scale=1]{../figures/figure-3}
-\caption*{\textit{Note.} \textbf{A} Posterior distributions for the estimated mean correlation coefficients, highlighting the proportion of posterior samples for which $r_\text{mean} < 0$. \textbf{B} Posterior predictive distributions for the estimated study-wise correlation coefficients, based on point estimates of the $\mu$ and $\tau_J$ parameters, with point estimates for the estimated correlation coefficients for all studies in the sample.}
+\caption*{\textit{Note.} \textbf{A} Posterior distributions for the mean correlation coefficients, highlighting the proportion of posterior samples for which $r_\text{mean} < 0$. \textbf{B} Posterior predictive distributions of study-wise correlation coefficients, highlighting the 80\% most common effect sizes, with point estimates for the correlation coefficients for all studies in the sample.}
 \label{fig:f3}
 \end{figure*}
 ```
@@ -151,19 +263,19 @@ As preregistered, we ran three random-effects meta-analysis models, one for each
 pi_results <- results %>% filter(x_var == "ic", y_var == "pi")
 ```
 
-*Perceived injustice.* Across `r unique(pi_results$N)` participants from `r unique(pi_results$I)` samples in `r unique(pi_results$J)` studies, we found strong evidence for a weak association (`r pi_results$text[pi_results$parameter == "r_mean"]`) between intergroup contact and perceived injustice, with `r pi_results$p_below[pi_results$parameter == "r_mean"]` of posterior samples for the mean correlation coefficient falling below zero. We found evidence that correlation coefficients varied across studies (`r pi_results$text[pi_results$parameter == "tau_jj"]`) and across samples within studies  (`r pi_results$text[pi_results$parameter == "tau_ii"]`). Based on these analyses, we predicted that 80\% of studies would result in correlation coefficients between `r post_pred$r_pred_l80[post_pred$y_var == "pi"]` and `r post_pred$r_pred_u80[post_pred$y_var == "pi"]` and that researchers would need sample sizes of at least `r post_pred$n_req[post_pred$y_var == "pi"]` participants to find significant associations ($\alpha = .05$, two-sided) in 80\% of their studies.^[Sample sizes are based on posterior predictions from the three models, which implied that, for 80\% of studies, the absolute correlation coefficient would be `r post_pred$r_abs[post_pred$y_var == "pi"]` for perceived injustice, `r post_pred$r_abs[post_pred$y_var == "ca"]` for collective action, and `r post_pred$r_abs[post_pred$y_var == "ps"]` for policy support.]
+***Perceived Injustice.*** Across `r unique(pi_results$N)` participants from `r unique(pi_results$I)` samples in `r unique(pi_results$J)` studies, we found strong evidence for a weak association (`r pi_results$text[pi_results$parameter == "r_mean"]`) between intergroup contact and perceived injustice, with `r pi_results$p_below[pi_results$parameter == "r_mean"]` of posterior samples for the mean correlation coefficient falling below zero. We found evidence that correlation coefficients varied across studies (`r pi_results$text[pi_results$parameter == "tau_jj"]`) and across samples within studies  (`r pi_results$text[pi_results$parameter == "tau_ii"]`). Based on these analyses, we predicted that 80\% of studies would result in correlation coefficients between `r post_pred$r_pred_l80[post_pred$y_var == "pi"]` and `r post_pred$r_pred_u80[post_pred$y_var == "pi"]` and that researchers would need sample sizes of at least `r post_pred$n_req[post_pred$y_var == "pi"]` participants to find significant associations ($\alpha = .05$, two-sided) in 80\% of their studies.^[Sample sizes are based on posterior predictions from the three models, which implied that, for 80\% of studies, the absolute correlation coefficient would be `r post_pred$r_abs[post_pred$y_var == "pi"]` for perceived injustice, `r post_pred$r_abs[post_pred$y_var == "ca"]` for collective action, and `r post_pred$r_abs[post_pred$y_var == "ps"]` for policy support.]
 
 ```{r, include = FALSE}
 ca_results <- results %>% filter(x_var == "ic", y_var == "ca")
 ```
 
-*Collective action.* Across `r unique(ca_results$N)` participants from `r unique(ca_results$I)` samples in `r unique(ca_results$J)` studies, we found some evidence for a weak association (`r ca_results$text[ca_results$parameter == "r_mean"]`) between intergroup contact and collective action, with `r ca_results$p_below[ca_results$parameter == "r_mean"]` of posterior samples for the mean correlation coefficient falling below zero. We found evidence that correlation coefficients varied across studies (`r ca_results$text[ca_results$parameter == "tau_jj"]`) and across samples within studies  (`r ca_results$text[ca_results$parameter == "tau_ii"]`). Based on these analyses, we predicted that 80\% of studies would result in correlation coefficients between `r post_pred$r_pred_l80[post_pred$y_var == "ca"]` and `r post_pred$r_pred_u80[post_pred$y_var == "ca"]` and that researchers would need sample sizes of at least `r post_pred$n_req[post_pred$y_var == "ca"]` participants to find significant associations ($\alpha = .05$, two-sided) in 80\% of their studies.
+***Collective Action.*** Across `r unique(ca_results$N)` participants from `r unique(ca_results$I)` samples in `r unique(ca_results$J)` studies, we found some evidence for a weak association (`r ca_results$text[ca_results$parameter == "r_mean"]`) between intergroup contact and collective action, with `r ca_results$p_below[ca_results$parameter == "r_mean"]` of posterior samples for the mean correlation coefficient falling below zero. We found evidence that correlation coefficients varied across studies (`r ca_results$text[ca_results$parameter == "tau_jj"]`) and across samples within studies  (`r ca_results$text[ca_results$parameter == "tau_ii"]`). Based on these analyses, we predicted that 80\% of studies would result in correlation coefficients between `r post_pred$r_pred_l80[post_pred$y_var == "ca"]` and `r post_pred$r_pred_u80[post_pred$y_var == "ca"]` and that researchers would need sample sizes of at least `r post_pred$n_req[post_pred$y_var == "ca"]` participants to find significant associations ($\alpha = .05$, two-sided) in 80\% of their studies.
 
 ```{r, include = FALSE}
 ps_results <- results %>% filter(x_var == "ic", y_var == "ps")
 ```
 
-*Policy support.* Across `r unique(ps_results$N)` participants from `r unique(ps_results$I)` samples in `r unique(ps_results$J)` studies, we found some evidence for a weak association (`r ps_results$text[ps_results$parameter == "r_mean"]`) between intergroup contact and policy support, with `r ps_results$p_below[ps_results$parameter == "r_mean"]` of posterior samples for the mean correlation coefficient falling below zero. We found evidence that correlation coefficients varied across studies (`r ps_results$text[ps_results$parameter == "tau_jj"]`) and, to a lesser extent, across samples within studies  (`r ps_results$text[ps_results$parameter == "tau_ii"]`). Based on these analyses, we predicted that 80\% of studies would result in correlation coefficients between `r post_pred$r_pred_l80[post_pred$y_var == "ps"]` and `r post_pred$r_pred_u80[post_pred$y_var == "ps"]` and that researchers would need sample sizes of at least `r post_pred$n_req[post_pred$y_var == "ps1"]` participants to find significant associations ($\alpha = .05$, two-sided) in 80\% of their studies.
+***Policy Support.*** Across `r unique(ps_results$N)` participants from `r unique(ps_results$I)` samples in `r unique(ps_results$J)` studies, we found evidence for a weak association (`r ps_results$text[ps_results$parameter == "r_mean"]`) between intergroup contact and policy support, with `r ps_results$p_below[ps_results$parameter == "r_mean"]` of posterior samples for the mean correlation coefficient falling below zero. We found evidence that correlation coefficients varied across studies (`r ps_results$text[ps_results$parameter == "tau_jj"]`) and, to a lesser extent, across samples within studies  (`r ps_results$text[ps_results$parameter == "tau_ii"]`). Based on these analyses, we predicted that 80\% of studies would result in correlation coefficients between `r post_pred$r_pred_l80[post_pred$y_var == "ps"]` and `r post_pred$r_pred_u80[post_pred$y_var == "ps"]` and that researchers would need sample sizes of at least `r post_pred$n_req[post_pred$y_var == "ps"]` participants to find significant associations ($\alpha = .05$, two-sided) in 80\% of their studies.
 
 ```{r, include = FALSE}
 pi_ca_results <- results %>% filter(x_var == "pi", y_var == "ca", parameter == "r_mean")
@@ -173,47 +285,209 @@ ca_ps_results <- results %>% filter(x_var == "ca", y_var == "ps", parameter == "
 
 As preregistered, we ran another three random-effects meta-analysis models to estimate the relationships between the three outcome variables. As we were not interested in the direction of these relationships, we used cross-sectional correlation coefficients as effect sizes for longitudinal studies. Across `r pi_ca_results$N` participants from `r pi_ca_results$I` samples in `r pi_ca_results$J` studies, we found evidence for a moderate association (`r pi_ca_results$text`) between perceived injustice and collective action. Across `r pi_ps_results$N` participants from `r pi_ps_results$I` samples in `r pi_ps_results$J` studies, we found evidence for a moderate association (`r pi_ps_results$text`) between perceived injustice and policy support. Across `r ca_ps_results$N` participants from `r ca_ps_results$I` samples in `r ca_ps_results$J` studies, we found evidence for a moderate association (`r ca_ps_results$text`) between collective action and policy support.
 
-### Robustness checks
+In addition, we ran preregistered robustness checks which showed that our main analyses were robust to choosing different prior distributions and to excluding influential studies (see Supplemental Materials).
 
-```{r, include = FALSE}
+## Moderator Analyses
 
-  # Summarize prior choice results
-  d_priors <- read_rds("../results/results_robustness_checks_priors.rds") %>% 
-    group_by(y_var, prior) %>% 
-    median_qi(d_r_mean) %>% 
-    mutate(
-      across(c(d_r_mean, .lower, .upper), ~f_num(., digits = 2)),
-      text = paste0("$\\Delta r = ", d_r_mean, ", [", .lower, ", ", .upper, "]$")
-    )
+We conducted two kinds of moderator analyses. For both analyses, we had an insufficient number of effect sizes to examine moderators for any outcomes except perceived injustice (for details, see Supplemental Materials). 
 
+```{=latex}
+\begin{figure*}
+\centering
+\caption{Estimated effect sizes for the association between intergroup contact and perceived injustice as a function of various categorical moderator variables}
+\includegraphics[scale=1]{../figures/figure-4}
+\caption*{\textit{Note.} Intervals enclose the 95\% most plausible estimates of the category-specific effect size. Shaded ribbons enclose the 95\% most plausible estimates of the mean effect size from the main analyses. Percentages indicate the estimated between-sample variance explained by each moderator variable.}
+\label{fig:f4}
+\end{figure*}
 ```
 
 ```{r, include = FALSE}
+  
+  # Load results
+  weird_results <- read_rds("../results/results_cultural_distance.rds")
 
-  # Calculate Mean Absolute Deviation (MAD)
-  mad_loo <- read_rds("../results/results_robustness_checks_loo.rds") %>% 
-    group_by(.draw, y_var) %>% 
-    summarize(mad_loo = mean(ae_loo)) %>% 
+  # Summarize results
+  weird_results <- weird_results %>% 
     group_by(y_var) %>% 
-    median_qi(mad_loo) %>% 
+    distinct(.chain, .iteration, .draw, b_x) %>% 
+    summarize(
+      median = median(b_x),
+      .lower = quantile(b_x, 0.025),
+      .upper = quantile(b_x, 0.975),
+      p = mean(b_x < 0)
+    ) %>% 
     mutate(
-      across(c(mad_loo, .lower, .upper), ~f_num(., digits = 2)),
-      text = paste0("$\\textit{MAD} = ", mad_loo, ", [", .lower, ", ", .upper, "]$")
-    )
-
-  # Leave out most influential studies
-  d_loo <- read_rds("../results/results_robustness_checks_loo.rds") %>% 
-    group_by(y_var, id) %>%
-    median_qi(e_loo) %>% 
-    top_n(n = 1, wt = abs(e_loo)) %>% 
-    mutate(
-      across(c(e_loo, .lower, .upper), ~f_num(., digits = 2)),
-      text = paste0("$\\Delta r = ", e_loo, ", [", .lower, ", ", .upper, "]$")
+      across(
+        c(.lower, .upper), 
+        ~f_pad_zero(f_num(., digits = 2))
+      ),
+      median = str_replace(f_num(median, digits = 2), "-.", "-0."),
+      p_text = case_when(
+        p < .001 ~ "$\\Pr (\\beta < 0) < 0.1\\%$",
+        p > .999 ~ "$\\Pr (\\beta < 0) > 99.9\\%$",
+        TRUE ~ paste0("$\\Pr (\\beta < 0) = ", f_num(p * 100, digits = 1), "\\%$")
+      ),
+      r_text = paste0("$\\beta = ", median, ", [", .lower, ", ", .upper, "]$"),
+      text = paste(r_text, p_text, sep = "; ")
     )
 
 ```
 
-First, we assessed to what extent our findings were sensitive to choosing narrower, $\mu \sim \text{Normal}(0, 0.1)$, or wider, $\mu \sim \text{Normal}(0, 1)$, prior distributions. Choosing narrower or wider prior distribution did not affect mean effect size estimates for perceived injustice (`r d_priors$text[d_priors$y_var == "pi" & d_priors$prior == "N(0, 0.1)"]` and `r d_priors$text[d_priors$y_var == "pi" & d_priors$prior == "N(0, 1.0)"]`), collective action (`r d_priors$text[d_priors$y_var == "ca" & d_priors$prior == "N(0, 0.1)"]` and `r d_priors$text[d_priors$y_var == "ca" & d_priors$prior == "N(0, 1.0)"]`), and policy support (`r d_priors$text[d_priors$y_var == "ps" & d_priors$prior == "N(0, 0.1)"]` and `r d_priors$text[d_priors$y_var == "ps" & d_priors$prior == "N(0, 1.0)"]`). Second, we assessed to what extent our findings were sensitive to including or excluding influential studies by repeating the preregistered analyses $J$ times while leaving out one of $J$ studies each time and by calculating the mean absolute difference (*MAD*) for the estimated mean effect size across left-out studies. For perceived injustice (`r mad_loo$text[mad_loo$y_var == "pi"]`), collective action (`r mad_loo$text[mad_loo$y_var == "ca"]`), and policy support (`r mad_loo$text[mad_loo$y_var == "ps"]`), the *MAD* was small. Leaving out the most influential study, for example, did not change estimates of the mean effect size for the three outcomes (`r d_loo$text[d_loo$y_var == "pi"]`; `r d_loo$text[d_loo$y_var == "ca"]`; `r d_loo$text[d_loo$y_var == "ps"]`). Together, these analyses showed that our findings were robust to choosing different prior distributions and to excluding influential studies.
+```{=latex}
+\begin{figure*}
+\centering
+\caption{Estimated effect size as a function of cultural distance from the United States, with point estimates and uncertainty intervals for each country}
+\includegraphics[scale=1]{../figures/figure-5}
+\caption*{\textit{Note.} We had data from too few countries to reach firm conclusions about the direction of these associations for perceived injustice (`r with(weird_results, text[y_var == "pi"])`), collective action (`r with(weird_results, text[y_var == "ca"])`), and policy support (`r with(weird_results, text[y_var == "ps"])`).}
+\label{fig:f5}
+\end{figure*}
+
+\begin{figure*}
+\centering
+\caption{Results from the random-effects meta-regression tree analysis}
+\includegraphics[scale=1]{../figures/figure-6}
+\caption*{\textit{Note.} Posterior distributions for the estimated correlation coefficient in each leaf of the meta-regression tree, highlighting the proportion of posterior samples for which $r_\text{mean} < 0$.  S.-T. Migration = Short-Term Migration.}
+\label{fig:f6}
+\end{figure*}
+```
+
+First, we used meta-regression models to examine specific moderator variables which we expected to explain heterogeneity in effect sizes across samples. Figure 4 shows results for categorical moderator variables. We found that the setting of the study ($R^2 = 20\%$), participants’ age group ($R^2 = 12\%$), and whether intergroup contact was measured directly or indirectly ($R^2 = 10\%$) explained the most variance across effect sizes. Figure 5 shows results from country-level analyses examining cultural context as a moderator variable. We found that cultural distance from the United States tended to be associated with larger effect sizes—although we had data from too few countries to reach any firm conclusions. 
+
+Second, we used meta-regression trees to discover interactions between moderator variables that best explained heterogeneity in effect sizes [@li_multiple_2020]. Figure 6 shows the resulting meta-regression that explained more variance across samples than any individual moderator ($R^2 = 31\%$). We found that intergroup contact was associated with less perceived injustice only in studies that focused on adults and that measured intergroup contact directly. Among these studies, this association was stronger in settings in which the groups’ relative inequality stemmed from short-term migration or colonization ($r = -.18, [-.23, -.13]$) than in other settings ($r = -.09, [-.12, -.06]$).
+
+## Meta Bias
+
+```{=latex}
+\begin{figure*}
+\centering
+\caption{Unadjusted ($\bullet$) and adjusted ($\circ$) point estimates with confidence intervals from the random-effects meta-analysis (RMA), the PET-PEESE estimator, the three-parameter selection model (3PSM), the \textit{p}-uniform* estimator, and the subgroup analysis}
+\includegraphics[scale=1]{../figures/figure-7}
+\label{fig:f7}
+\end{figure*}
+```
+
+Developing methods to detect and correct for publication bias and other meta-biases is an active area of research, with no single method outperforming all others [@carter_correcting_2019]. Following Carter et al.’s recommendations, we compared results of several methods to adjust meta-analytic estimates for publication bias: the PET-PEESE estimator [@stanley_meta-regression_2014]; the three-parameter selection model [3PSM; @vevea_general_1995]; and the *p*-uniform* estimator [@van_aert_correcting_2018]. As these methods do not use Bayesian statistics, we compared adjusted estimates from these methods to unadjusted estimates from a random-effects meta-analysis estimated with restricted maximum likelihood estimation using the *metafor* package [@viechtbauer_conducting_2010]. In addition, we ran a meta-regression model that compared studies that were published *and* were conducted with the intention to examine the effects of intergroup contact on any of the outcomes to all other studies. We report estimates from the latter subgroup of studies as we can assume that effect sizes in this subgroup were not affected by publication bias.
+
+Figure 7 shows adjusted and unadjusted estimates with confidence intervals for the three outcomes. Comparing adjusted and unadjusted estimates shows that the PET-PEESE and 3PSM methods tended to estimate the mean correlation coefficients to be closer to zero than the unadjusted estimate, with all confidence intervals including zero. The *p*-uniform* method and the subgroup analysis tended to estimate the mean correlations coefficients to be closer to the unadjusted estimates, with the confidence interval for perceived injustice—but not for the other outcomes—excluding zero. All methods, however, resulted in confidence intervals that largely overlapped with, but were wider than, the confidence intervals around the unadjusted estimates. This reflects the reduced power of the various methods to correct for meta-biases when sample sizes are small, effect sizes are heterogeneous, or publication bias is strong [@carter_correcting_2019]. Therefore, there was insufficient evidence to conclude *either* that, after adjusting for publication bias, intergroup contact was not associated with support of social change in disadvantaged groups *or* that publication bias did not affect the relevant literature.
+
+## Alternative Predictors
+
+```{r, include = FALSE}
+
+  # Summarize results
+  alt_results <- bind_rows(
+      read_rds("../results/results_analyses_with_negative_contact.rds"),
+      read_rds("../results/results_analyses_with_ingroup_contact.rds") 
+    ) %>% 
+    group_by(x_var, y_var) %>% 
+    summarize(
+      I = f_comma(unique(I)),
+      J = f_comma(unique(J)),
+      N = f_comma(unique(N)),
+      median = median(r_mean),
+      .lower = quantile(r_mean, 0.025),
+      .upper = quantile(r_mean, 0.975),
+      p_below = mean(r_mean < 0),
+      p_above = mean(r_mean > 0)
+    ) %>% 
+    ungroup() %>% 
+    mutate(
+      across(
+        c(median, .lower, .upper), 
+        ~f_num(., digits = 2)
+      ),
+      p_below = case_when(
+        p_below < .001 ~ "$\\Pr (r < 0) < 0.1\\%$",
+        p_below > .999 ~ "$\\Pr (r < 0) > 99.9\\%$",
+        TRUE ~ paste0("$\\Pr (r < 0) = ", f_num(p_below * 100, digits = 1), "\\%$")
+      ),
+      p_above = case_when(
+        p_above < .001 ~ "$\\Pr (r > 0) < 0.1\\%$",
+        p_above > .999 ~ "$\\Pr (r > 0) > 99.9\\%$",
+        TRUE ~ paste0("$\\Pr (r > 0) = ", f_num(p_above * 100, digits = 1), "\\%$")
+      ),
+      p_text = case_when(
+        x_var %in% c("nc", "ig") ~ p_above,
+        x_var %in% c("pc", "og") ~ p_below
+      ),
+      r_text = paste0("$r = ", median, ", [", .lower, ", ", .upper, "]$"),
+      text = paste(r_text, p_text, sep = "; ")
+    ) %>% 
+    select(-median, -.lower, -.upper)
+
+```
+
+```{=latex}
+\begin{figure*}
+\centering
+\caption{Posterior distributions from the random-effect meta-analysis models with alternative predictor variables}
+\includegraphics[scale=1]{../figures/figure-8}
+\label{fig:f8}
+\end{figure*}
+```
+
+We ran three random-effects meta-analysis models estimating the partial correlations of positive and negative contact with each outcome, using effect sizes from all studies that measured both predictors (Figure 8a). By using partial correlations, we estimated the effect of one form of contact while controlling for the other. Across `r alt_results$N[alt_results$x_var == "nc" & alt_results$y_var == "pi"]` participants from `r alt_results$I[alt_results$x_var == "nc" & alt_results$y_var == "pi"]` samples in `r alt_results$J[alt_results$x_var == "nc" & alt_results$y_var == "pi"]` studies, we found stronger evidence for a positive association between negative contact and perceived injustice (`r alt_results$text[alt_results$x_var == "nc" & alt_results$y_var == "pi"]`) than for a negative association between positive contact and perceived injustice (`r alt_results$text[alt_results$x_var == "pc" & alt_results$y_var == "pi"]`).  Across `r alt_results$N[alt_results$x_var == "nc" & alt_results$y_var == "ca"]` participants from `r alt_results$I[alt_results$x_var == "nc" & alt_results$y_var == "ca"]` samples in `r alt_results$J[alt_results$x_var == "nc" & alt_results$y_var == "ca"]` studies, we again found stronger evidence for a positive association between negative contact and collective action (`r alt_results$text[alt_results$x_var == "nc" & alt_results$y_var == "ca"]`) than for a negative association between positive contact and collective action (`r alt_results$text[alt_results$x_var == "pc" & alt_results$y_var == "ca"]`). Across `r alt_results$N[alt_results$x_var == "nc" & alt_results$y_var == "ps"]` participants from `r alt_results$I[alt_results$x_var == "nc" & alt_results$y_var == "ps"]` samples in `r alt_results$J[alt_results$x_var == "nc" & alt_results$y_var == "ps"]` studies, we also found stronger evidence for a positive association between negative contact and policy support (`r alt_results$text[alt_results$x_var == "nc" & alt_results$y_var == "ps"]`) than for a negative association between positive contact and policy support (`r alt_results$text[alt_results$x_var == "pc" & alt_results$y_var == "ps"]`). Across `r alt_results$N[alt_results$x_var == "pc" & alt_results$y_var == "nc"]` participants from `r alt_results$I[alt_results$x_var == "pc" & alt_results$y_var == "nc"]` samples in `r alt_results$J[alt_results$x_var == "pc" & alt_results$y_var == "nc"]` studies, we found a negative association between positive and negative contact (`r alt_results$text[alt_results$x_var == "pc" & alt_results$y_var == "nc"]`).
+
+We ran three random-effects meta-analysis models that estimated the partial correlations of ingroup and outgroup contact with each outcomes, using effect sizes from all studies that measured both predictors (Figure 8b). Across `r alt_results$N[alt_results$x_var == "ig" & alt_results$y_var == "pi"]` participants from `r alt_results$I[alt_results$x_var == "ig" & alt_results$y_var == "pi"]` samples in `r alt_results$J[alt_results$x_var == "ig" & alt_results$y_var == "pi"]` studies, we found insufficient evidence for associations of ingroup contact (`r alt_results$text[alt_results$x_var == "ig" & alt_results$y_var == "pi"]`) and outgroup contact (`r alt_results$text[alt_results$x_var == "og" & alt_results$y_var == "pi"]`) with perceived injustice. Across `r alt_results$N[alt_results$x_var == "ig" & alt_results$y_var == "ca"]` participants from `r alt_results$I[alt_results$x_var == "ig" & alt_results$y_var == "ca"]` samples in `r alt_results$J[alt_results$x_var == "ig" & alt_results$y_var == "ca"]` studies, we found stronger evidence for a positive association between ingroup contact and collective action (`r alt_results$text[alt_results$x_var == "ig" & alt_results$y_var == "ca"]`) than for a negative association between outgroup contact and collective action (`r alt_results$text[alt_results$x_var == "og" & alt_results$y_var == "ca"]`). Across `r alt_results$N[alt_results$x_var == "ig" & alt_results$y_var == "ps"]` participants from `r alt_results$I[alt_results$x_var == "ig" & alt_results$y_var == "ps"]` samples in `r alt_results$J[alt_results$x_var == "ig" & alt_results$y_var == "ps"]` study, we found insufficient evidence for associations of ingroup contact (`r alt_results$text[alt_results$x_var == "ig" & alt_results$y_var == "ps"]`) and outgroup contact (`r alt_results$text[alt_results$x_var == "og" & alt_results$y_var == "ps"]`) with policy support. Across `r alt_results$N[alt_results$x_var == "ig" & alt_results$y_var == "og"]` participants from `r alt_results$I[alt_results$x_var == "ig" & alt_results$y_var == "og"]` samples in `r alt_results$J[alt_results$x_var == "ig" & alt_results$y_var == "og"]` studies, we found a positive association between ingroup and outgroup contact (`r alt_results$text[alt_results$x_var == "ig" & alt_results$y_var == "og"]`).
+
+# Discussion
+
+```{r, include = FALSE}
+
+  # Set seed (for posterior predictive simulations)
+  set.seed(9071118)
+
+  # Summarize results
+  summary <- read_rds("../results/results_preregistered_analyses.rds") %>% 
+    filter(x_var == "ic", y_var %in% c("pi", "ca", "ps")) %>% 
+    mutate(
+      r_pred = z_to_r(rnorm(n = n(), mean = mu, sd = tau_jj))
+    ) %>% 
+    group_by(x_var, y_var) %>% 
+    summarize(
+      r = median(r_mean),
+      p = mean(r_mean < 0),
+      r_lower = quantile(r_mean, 0.025),
+      r_upper = quantile(r_mean, 0.975),
+      p_pred_positive = mean(r_pred > 0)
+    ) %>% 
+    ungroup() %>% 
+    mutate(
+      r_text = paste0("$r = ", f_num(r, digits = 2), "$"),
+      p_text = case_when(
+        p < .001 ~ "$\\Pr (r < 0) < 0.1\\%$",
+        p > .999 ~ "$\\Pr (r < 0) > 99.9\\%$",
+        TRUE ~ paste0("$\\Pr (r < 0) = ", f_num(p * 100, digits = 1), "\\%$")
+      )
+    )
+
+```
+
+There is an emerging consensus that intergroup contact has the 'ironic' effect of undermining support for social change in disadvantaged groups. We conducted a preregistered meta-analytic test of this effect across 96 studies with 137 samples of 211,360 disadvantaged-group members. We found that, based on the available evidence, the associations of intergroup contact with perceived injustice (`r with(summary, p_text[y_var == "pi"])`), collective action (`r with(summary, p_text[y_var == "ca"])`), and support for reparative policies (`r with(summary, p_text[y_var == "ps"])`) were, on average, much more likely to be negative than positive. Thus, our meta-analysis seems to support the emerging consensus that intergroup contact diminishes support for social change in disadvantaged groups. We use the rest of this section to argue why this conclusion might be premature.
+
+First, the estimated effect sizes for the average associations of intergroup contact with perceived injustice (`r with(summary, r_text[y_var == "pi"])`), collective action (`r with(summary, r_text[y_var == "ca"])`), and policy support (`r with(summary, r_text[y_var == "ps"])`) were small. Across the three outcomes, the 95% most plausible estimates included effect sizes between `r paste0("$r = ", f_num(min(summary$r_lower), digits = 2), "$")` and `r paste0("$r = ", f_num(max(summary$r_upper), digits = 2), "$")`. Effect sizes were thus much smaller than for the association between contact and prejudice in minority ($r = -.18$) and majority ($r = -.23$) groups [@tropp_relationships_2005].^[Comparing standardized effect sizes assumes that the two outcomes are of equal importance. That is not always the case: for example, a drug that reduces mild symptoms by 0.20 standard deviations is not better than a drug that reduces deaths by 0.10 standard deviations.] Small effects can still be important if they accumulate over time or across people. For example, even a small change in policy attitudes could, if it affects enough people, sway a tight election. Cumulative effects, however, should not be assumed without an empirical or theoretical rationale [@funder_evaluating_2019]—neither of which has been provided in the published literature.
+
+Second, the estimated effect sizes varied across studies. For example, we estimated that `r f_prop2percent(with(summary, p_pred_positive[y_var == "pi"]), digits = 0)` of studies find a positive association between intergroup contact and perceived injustice. While the between-study heterogeneity is comparable to that in other meta-analyses [e.g., @pettigrew_meta-analytic_2006], it supports Pettigrew et al.'s [-@pettigrew_recent_2011] argument that, at least in some circumstances, intergroup contact renders discrimination *more* salient.
+
+A combination of moderators explained about a third of the between-study variance in the association between intergroup contact and perceived injustice. We found that, on average, this association was negative only in studies of adults that measured contact *directly* by asking, for example, about the number of friends from the advantaged outgroup. This suggests that, as hypothesized, the 'ironic' effects result from direct contact and not from mere exposure or other contextual factors. We also found that, on average, effect sizes were greater for studies in post-colonial settings or on short-term migration than for studies in other contexts. Future research should systematically investigate variance in how contact affects support for social change across settings and cultures.
+
+```{=latex}
+\begin{figure}
+\centering
+\caption{Directed acyclic graphs for plausible causal relations between intergroup contact and support for social change}
+\includegraphics[scale=1]{../figures/figure-9}
+\caption*{\textit{Note.} IC = (Positive) Intergroup Contact, SC = Support for Social Change, U = Unobserved Variable(s), NC = Negative (Integroup) Contact, IN = Ingroup Contact}
+\label{fig:f9}
+\end{figure}
+```
+
+Third, the available evidence is almost entirely from cross-sectional, observational studies and thus consistent with alternative explanations for the observed associations (Figure 9). Support for social change could reduce intergroup contact (B) rather than the other way around (A). For example, disadvantaged-group members involved in collective action might purposefully avoid forming friendships with advantaged-group members. Alternatively, the association between intergroup contact and support for social change could be spurious with both being caused by an unobserved confounder (C). For example, a disadvantaged-group member's socioeconomic status might both expose them to more advantaged-group members and reduce their perception of injustice. Future research should prioritize longitudinal studies to confirm the direction of the observed associations and (field) experiments to rule out confounding and other alternative explanations.^[Published research includes only three longitudinal studies [@koschate_when_2012; @reimer_intergroup_2017; @tropp_crossethnic_2012], all of which conflated within-person change and between-person stability [@hamaker_critique_2015], two experimental studies with a no-contact control condition [@becker_friend_2013; @droogendyk_renewed_2016], and two intervention studies [@reimer_building_2021; @shani_effect_2017].]
+
+Further, the observed association between intergroup contact and support for social change could be confounded by an alternative predictor that *increases* support for social change (D, E). Supporting Reimer et al.'s [-@reimer_intergroup_2017] argument, we found that positive intergroup contact was not associated with support for social change after controlling for negative contact which, in turn, was associated with *greater* support for social change. We found mixed evidence for ingroup contact as an alternative explanation for the 'ironic' effects of intergroup contact [@sengupta_ingroup_2015] but note that few studies measured both ingroup and outgroup contact. Going forward, researchers should clarify which aspects of intergroup contact they hypothesize to affect support for social change—and include measures that allow testing both the hypothesized and competing explanations.
+
+Fourth, we cannot rule out that biases in the literature caused our meta-analysis to overestimate the 'ironic' effects of intergroup contact. Publication bias could have prevented studies that found positive or non-significant associations from entering the published literature. Even though we used state-of-the-art methods to detect and correct for publication bias, we did not find conclusive evidence for or against publication bias. That said, 61% of samples were *either* not collected with the intention to study the effects of intergroup contact on a relevant outcome (45%) *or* from unpublished studies (32%)—and thus unlikely to have been affected by publication bias. Another bias that could have affected our findings is that researchers made data-dependent decisions when analyzing data that inflate false-positive findings [@gelman_statistical_2014]. Future research should use preregistration and other methods to prevent undisclosed flexibility in data collection and analysis.^[To date, one preregistered study has been published [@hassler_large-scale_2020].]
+
+To conclude, our preregistered meta-analysis found some evidence that intergroup contact reduces perceived injustice, discourages collective action, and diminishes support for reparative policies in disadvantaged groups—but also showed that the estimated effect sizes were small, variable, and consistent with alternative explanations. Our research was motivated by the broader question whether intergroup contact helps or hinders social change. By examining the narrower question whether intergroup contact diminishes support for social change in disadvantaged groups, we tested the most prominent hypothesis explaining how intergroup contact might *hinder* social change. We did not consider whether intergroup contact might *help* social change by reducing prejudice [for a critical perspective, see @dixon_beyond_2012] or by motivating advantaged-group members to acknowledge and challenge social inequality [@tropp_making_2018]. Still, we hope that our meta-analytic review motivates researchers to address the open questions about how intergroup contact relates to support for social change in disadvantaged groups.
 
 # References
 
@@ -222,8 +496,8 @@ First, we assessed to what extent our findings were sensitive to choosing narrow
 \noindent
 \setlength{\parindent}{-0.5in}
 \setlength{\leftskip}{0.5in}
+\small
 
 <div id="refs"></div>
 
 \endgroup
-

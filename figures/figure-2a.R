@@ -174,7 +174,7 @@
     ) +
     scale_colour_viridis_c(
       option = "B",
-      limits = c(min(world_sf$N, na.rm = TRUE), max(world_sf$N, na.rm = TRUE)),
+      limits = c(10, max(world_sf$N, na.rm = TRUE)),
       direction = -1,
       breaks = c(10, 100, 1000, 10000, 100000),
       labels = f_comma(c(10, 100, 1000, 10000, 100000)),
@@ -184,7 +184,7 @@
     ) +
     scale_fill_viridis_c(
       option = "B",
-      limits = c(min(world_sf$N, na.rm = TRUE), max(world_sf$N, na.rm = TRUE)),
+      limits = c(10, max(world_sf$N, na.rm = TRUE)),
       direction = -1,
       breaks = c(10, 100, 1000, 10000, 100000),
       labels = f_comma(c(10, 100, 1000, 10000, 100000)),

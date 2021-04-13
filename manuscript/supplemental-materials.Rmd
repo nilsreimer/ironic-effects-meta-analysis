@@ -1,0 +1,79 @@
+---
+title: "Supplemental Materials"
+bibliography: references.bib
+csl: apa.csl
+output:
+  pdf_document:
+    latex_engine: pdflatex
+    keep_tex: yes
+    template: custom-template.tex
+---
+
+```{r setup, include = FALSE}
+
+  # Load packages
+  library(tidyverse); library(tidybayes); library(numform)
+
+  # Functions
+  r_to_z <- function(r) 0.5 * log( (1 + r) / (1 - r) )
+  z_to_r <- function(z) ( exp(2 * z) - 1 ) / ( exp(2 * z) + 1 )
+
+  # knitr options
+  knitr::opts_chunk$set(echo = FALSE)
+
+```
+
+# Robustness Checks
+
+```{r, include = FALSE}
+
+  # Summarize prior choice results
+  d_priors <- read_rds("../results/results_robustness_checks_priors.rds") %>% 
+    group_by(y_var, prior) %>% 
+    median_qi(d_r_mean) %>% 
+    mutate(
+      across(c(d_r_mean, .lower, .upper), ~f_num(., digits = 2)),
+      text = paste0("$\\Delta r = ", d_r_mean, ", [", .lower, ", ", .upper, "]$")
+    )
+
+```
+
+```{r, include = FALSE}
+
+  # Calculate Mean Absolute Deviation (MAD)
+  mad_loo <- read_rds("../results/results_robustness_checks_loo.rds") %>% 
+    group_by(.draw, y_var) %>% 
+    summarize(mad_loo = mean(ae_loo)) %>% 
+    group_by(y_var) %>% 
+    median_qi(mad_loo) %>% 
+    mutate(
+      across(c(mad_loo, .lower, .upper), ~f_num(., digits = 2)),
+      text = paste0("$\\textit{MAD} = ", mad_loo, ", [", .lower, ", ", .upper, "]$")
+    )
+
+  # Leave out most influential studies
+  d_loo <- read_rds("../results/results_robustness_checks_loo.rds") %>% 
+    group_by(y_var, id) %>%
+    median_qi(e_loo) %>% 
+    top_n(n = 1, wt = abs(e_loo)) %>% 
+    mutate(
+      across(c(e_loo, .lower, .upper), ~f_num(., digits = 2)),
+      text = paste0("$\\Delta r = ", e_loo, ", [", .lower, ", ", .upper, "]$")
+    )
+
+```
+
+As preregistered, we conducted two kinds of robustness checks. First, we assessed to what extent our findings were sensitive to choosing narrower, $\mu \sim \text{Normal}(0, 0.1)$, or wider, $\mu \sim \text{Normal}(0, 1)$, prior distributions. Choosing narrower or wider prior distribution did not affect mean effect size estimates for perceived injustice (`r d_priors$text[d_priors$y_var == "pi" & d_priors$prior == "N(0, 0.1)"]` and `r d_priors$text[d_priors$y_var == "pi" & d_priors$prior == "N(0, 1.0)"]`), collective action (`r d_priors$text[d_priors$y_var == "ca" & d_priors$prior == "N(0, 0.1)"]` and `r d_priors$text[d_priors$y_var == "ca" & d_priors$prior == "N(0, 1.0)"]`), and policy support (`r d_priors$text[d_priors$y_var == "ps" & d_priors$prior == "N(0, 0.1)"]` and `r d_priors$text[d_priors$y_var == "ps" & d_priors$prior == "N(0, 1.0)"]`). Second, we assessed to what extent our findings were sensitive to including or excluding influential studies by repeating the preregistered analyses $J$ times while leaving out one of $J$ studies each time and by calculating the mean absolute difference (*MAD*) for the estimated mean effect size across left-out studies. For perceived injustice (`r mad_loo$text[mad_loo$y_var == "pi"]`), collective action (`r mad_loo$text[mad_loo$y_var == "ca"]`), and policy support (`r mad_loo$text[mad_loo$y_var == "ps"]`), the *MAD* was small. Leaving out the most influential study, for example, did not change estimates of the mean effect size for the three outcomes (`r d_loo$text[d_loo$y_var == "pi"]`; `r d_loo$text[d_loo$y_var == "ca"]`; `r d_loo$text[d_loo$y_var == "ps"]`). Together, these analyses showed that our findings were robust to choosing different prior distributions and to excluding influential studies.
+
+# References
+
+\begingroup
+
+\noindent
+\setlength{\parindent}{-0.5in}
+\setlength{\leftskip}{0.5in}
+
+<div id="refs"></div>
+
+\endgroup
+
