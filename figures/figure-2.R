@@ -66,7 +66,7 @@ rm(list = ls())
       size = 9/.pt
     ) +
     scale_x_continuous(
-      labels = scales::percent,
+      labels = scales::percent_format(accuracy = 10),
       expand = c(0, 0)
     ) +
     scale_colour_identity() + 
@@ -123,7 +123,7 @@ rm(list = ls())
       size = 9/.pt
     ) +
     scale_x_continuous(
-      labels = scales::percent,
+      labels = scales::percent_format(accuracy = 10),
       expand = c(0, 0)
     ) +
     scale_colour_identity() + 
@@ -179,7 +179,7 @@ rm(list = ls())
       size = 9/.pt
     ) +
     scale_x_continuous(
-      labels = scales::percent,
+      labels = scales::percent_format(accuracy = 10),
       expand = c(0, 0)
     ) +
     scale_colour_identity() + 
@@ -234,7 +234,7 @@ rm(list = ls())
       size = 9/.pt
     ) +
     scale_x_continuous(
-      labels = scales::percent,
+      labels = scales::percent_format(accuracy = 10),
       expand = c(0, 0)
     ) +
     scale_colour_identity() + 

@@ -29,55 +29,6 @@ rm(list = ls())
   # Import data
   dl <- read_rds("data/dl.rds")
   
-  # Code (missing) moderators (for now)
-  dl <- dl %>% 
-    mutate(
-      study_setting = case_when(
-        !is.na(study_setting) ~ study_setting,
-        id == 2395L & sample == 1L ~ "Colonization",
-        id == 2395L & sample == 2L ~ "Long-term migration",
-        id == 2396L & sample == 1L ~ "Other",
-        id == 2396L & sample == 2L ~ "Sexuality",
-        id == 2396L & sample == 3L ~ "Colonization",
-        id == 2397L & sample == 1L ~ "Long-term migration"
-      ),
-      ic_direct = case_when(
-        !is.na(ic_direct) ~ ic_direct,
-        id == 2395L & sample == 1L ~ "Directly",
-        id == 2395L & sample == 2L ~ "Directly",
-        id == 2396L & sample == 1L ~ "Directly",
-        id == 2396L & sample == 2L ~ "Directly",
-        id == 2396L & sample == 3L ~ "Directly",
-        id == 2397L & sample == 1L ~ "Directly"
-      ),
-      pi_specific = case_when(
-        !is.na(pi_specific) ~ pi_specific,
-        id == 2395L & sample == 1L & y == "gd" ~ "General",
-        id == 2395L & sample == 1L & y == "pd" ~ "General",
-        id == 2395L & sample == 1L & y == "rd" ~ "General",
-        id == 2395L & sample == 2L & y == "gd" ~ "General",
-        id == 2395L & sample == 2L & y == "pd" ~ "General",
-        id == 2395L & sample == 2L & y == "rd" ~ "General",
-        id == 2396L & sample == 1L & y == "pd" ~ "Specific",
-        id == 2396L & sample == 2L & y == "pd" ~ "Specific",
-        id == 2396L & sample == 3L & y == "pd" ~ "Specific",
-        id == 2397L & sample == 1L & y == "rd" ~ "Specific"
-      ),
-      pi_personal = case_when(
-        !is.na(pi_personal) ~ pi_personal,
-        id == 2395L & sample == 1L & y == "gd" ~ "Group",
-        id == 2395L & sample == 1L & y == "pd" ~ "Personal",
-        id == 2395L & sample == 1L & y == "rd" ~ "Group",
-        id == 2395L & sample == 2L & y == "gd" ~ "Group",
-        id == 2395L & sample == 2L & y == "pd" ~ "Personal",
-        id == 2395L & sample == 2L & y == "rd" ~ "Group",
-        id == 2396L & sample == 1L & y == "pd" ~ "Personal",
-        id == 2396L & sample == 2L & y == "pd" ~ "Personal",
-        id == 2396L & sample == 3L & y == "pd" ~ "Personal",
-        id == 2397L & sample == 1L & y == "rd" ~ "Group"
-      )
-    )
-  
   # Select outcomes
   es <- dl %>% 
     filter(x_var == "ic", y_var %in% c("pi", "ca", "ps")) %>% 

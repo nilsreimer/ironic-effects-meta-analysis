@@ -240,3 +240,6 @@ rm(list = ls())
     width = 6.5, height = 4.7, units = "in",
     dpi = 600
   )      
+  
+  # Export data (as .rds)
+  write_rds(counts, "figures/figure-1.rds")
