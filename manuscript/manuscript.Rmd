@@ -4,6 +4,8 @@ bibliography: references.bib
 csl: apa.csl
 abstract: 
   Critics have argued that intergroup contact, psychology’s most-researched paradigm for reducing prejudice, has the ‘ironic’ effect of stifling support for social change in disadvantaged groups. We conducted a preregistered meta-analytic test of this effect across `r with(dplyr::distinct(readRDS("../data/dl.rds"), sample, id, n), numform::f_comma(dplyr::n_distinct(id)))` studies with `r with(dplyr::distinct(readRDS("../data/dl.rds"), sample, id, n), numform::f_comma(length(sample)))` samples of `r with(dplyr::distinct(readRDS("../data/dl.rds"), sample, id, n), numform::f_comma(sum(n)))` disadvantaged-group members. As predicted, intergroup contact was, on average, associated with less perceived injustice (`r with(readRDS("../results/results_preregistered_analyses.rds"), paste0("$r = ", numform::f_num(median(r_mean[x_var == "ic" & y_var == "pi"]), digits = 2), "$"))`), collective action (`r with(readRDS("../results/results_preregistered_analyses.rds"), paste0("$r = ", numform::f_num(median(r_mean[x_var == "ic" & y_var == "ca"]), digits = 2), "$"))`), and support for reparative policies (`r with(readRDS("../results/results_preregistered_analyses.rds"), paste0("$r = ", numform::f_num(median(r_mean[x_var == "ic" & y_var == "ps"]), digits = 2), "$"))`) in disadvantaged groups. However, these associations were small, variable, and consistent with alterative explanations. Moderator analyses found that these associations were strongest in studies on short-term migration and post-colonial relations, that measured intergroup contact directly, and that involved adults. After controlling for the positive association of negative contact with support for social change, positive contact was not (negatively) associated with any outcome in studies that measured both predictors. We close by highlighting open questions about the relation between intergroup contact and social change.
+statement: 
+  As societies are becoming more diverse, there are more opportunities for members of different groups to come in contact with each other. Psychologists disagree about what this means for overcoming persistent inequality between advantaged and disadvantaged groups. Some argue that intergroup contact reduces advantaged-group members' prejudice and, thereby, prevents interpersonal discrimination. Reducing prejudice, however, is rarely enough to overcome institutional and structural discrimination. Instead, social change often results from disadvantaged-group members mobilizing against social injustice (for example, in the 2020 Black Lives Matter protests). Critics argue that positive intergroup contact could create a false sense of equality and, thereby, stifle disadvantaged-group members' opposition to injustice. We present the first systematic review and meta-analysis of the growing number of studies examining how intergroup contact relates to support for social change in disadvantaged groups. Our findings help us understand whether, when, and how intergroup contact might hinder, rather than help, social change.
 output:
   pdf_document:
     latex_engine: pdflatex
@@ -71,7 +73,7 @@ We included studies if they measured or manipulated the quantity of, quality of,
 ## Search Strategy
 
 ```{=latex}
-\begin{figure*}[!t]
+\begin{figure*}[t!]
 \centering
 \caption{Flow diagram illustrating the preregistered search strategy, study selection, and data collection}
 \includegraphics[scale=1]{../figures/figure-1}
@@ -105,8 +107,6 @@ When a study reported effect sizes for more than one measure of one of the three
 
 Some study designs resulted in more than one effect size for the same measure: When a longitudinal study reported results from more than two waves, we prioritized effect sizes spanning the inter-survey interval closest to one year. If a longitudinal study reported results from more than two waves and spanned multiple years, we combined and averaged effect sizes from each one-year inter-survey interval. In the preregistered analyses, we included the cross-lagged partial correlation between the relevant predictor variable (at time 1) and outcome variable (at time 2) controlling for initial levels of the outcome variable (at time 1). When an experimental or quasi-experimental study reported comparisons between more than two conditions, we prioritized the effect size that compared two conditions that most closely resembled generic contact and no-contact conditions.
 
-### Potential Moderators
-
 ```{=latex}
 \begin{figure*}
 \centering
@@ -116,6 +116,8 @@ Some study designs resulted in more than one effect size for the same measure: W
 \label{fig:f2}
 \end{figure*}
 ```
+
+### Potential Moderators
 
 In addition to extracting and selecting effect sizes for the preregistered analyses, we collected data on a broad range of potential moderators. All moderators that required subjective assessments were coded by both authors. We calculated inter-rater agreement (Cohen’s $\kappa$) and resolved all disagreements by consensus.
 
@@ -256,7 +258,7 @@ Figure 2 provides a qualitative overview of the literature. Even though most par
 As preregistered, we ran three random-effects meta-analysis models, one for each outcome variable. Figure 3 shows posterior distributions from these analyses.
 
 ```{=latex}
-\begin{figure*}[!t]
+\begin{figure*}[t!]
 \centering
 \caption{Posterior distributions from the preregistered random-effect meta-analysis models}
 \includegraphics[scale=1]{../figures/figure-3}
@@ -347,7 +349,6 @@ We conducted two kinds of moderator analyses. For both analyses, we had an insuf
 \caption*{\textit{Note.} We had data from too few countries to reach firm conclusions about the direction of these associations for perceived injustice (`r with(weird_results, text[y_var == "pi"])`), collective action (`r with(weird_results, text[y_var == "ca"])`), and policy support (`r with(weird_results, text[y_var == "ps"])`).}
 \label{fig:f5}
 \end{figure*}
-
 \begin{figure*}
 \centering
 \caption{Results from the random-effects meta-regression tree analysis}

@@ -9,13 +9,20 @@
 
 % Format
 \usepackage[letterpaper, margin = 1in]{geometry}
-\setcounter{secnumdepth}{0}
-\usepackage{sectsty}
-\sectionfont{\centering}
-\usepackage{authblk}
-\renewcommand\Affilfont{\small}
-% \usepackage[hang, flushmargin]{footmisc}
 \setlength{\columnsep}{18pt}
+\setcounter{secnumdepth}{0}
+\usepackage[compact]{titlesec}  
+\titleformat*{\section}{\centering\normalfont\Large\bfseries}
+% \usepackage{authblk}
+% \renewcommand\Affilfont{\small}
+% \usepackage[hang, flushmargin]{footmisc}
+
+% Header
+% \usepackage{fancyhdr}
+% \pagestyle{fancy}
+% \rhead{\thepage}
+% \lhead{$title$}
+% \cfoot{}
 
 % Links
 \usepackage[colorlinks = true, linkcolor = black, urlcolor = black, citecolor = black]{hyperref} 
@@ -39,6 +46,13 @@
     \maketitle
     \begin{abstract}
     \noindent $abstract$
+    \end{abstract}
+  \end{@twocolumnfalse}
+  \renewcommand{\abstractname}{Statement of Relevance}
+  \begin{@twocolumnfalse}
+    \maketitle
+    \begin{abstract}
+    \noindent $statement$
     \end{abstract}
   \end{@twocolumnfalse}
 ]

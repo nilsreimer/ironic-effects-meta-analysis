@@ -9,13 +9,20 @@
 
 % Format
 \usepackage[letterpaper, margin = 1in]{geometry}
-\setcounter{secnumdepth}{0}
-\usepackage{sectsty}
-\sectionfont{\centering}
-\usepackage{authblk}
-\renewcommand\Affilfont{\small}
-% \usepackage[hang, flushmargin]{footmisc}
 \setlength{\columnsep}{18pt}
+\setcounter{secnumdepth}{0}
+\usepackage[compact]{titlesec}  
+\titleformat*{\section}{\centering\normalfont\Large\bfseries}
+% \usepackage{authblk}
+% \renewcommand\Affilfont{\small}
+% \usepackage[hang, flushmargin]{footmisc}
+
+% Header
+% \usepackage{fancyhdr}
+% \pagestyle{fancy}
+% \rhead{\thepage}
+% \lhead{Meta-Analysis of the `Ironic' Effects of Intergroup Contact}
+% \cfoot{}
 
 % Links
 \usepackage[colorlinks = true, linkcolor = black, urlcolor = black, citecolor = black]{hyperref} 
@@ -55,6 +62,29 @@ negative contact with support for social change, positive contact was
 not (negatively) associated with any outcome in studies that measured
 both predictors. We close by highlighting open questions about the
 relation between intergroup contact and social change.
+    \end{abstract}
+  \end{@twocolumnfalse}
+  \renewcommand{\abstractname}{Statement of Relevance}
+  \begin{@twocolumnfalse}
+    \maketitle
+    \begin{abstract}
+    \noindent As societies are becoming more diverse, there are more opportunities for
+members of different groups to come in contact with each other.
+Psychologists disagree about what this means for overcoming persistent
+inequality between advantaged and disadvantaged groups. Some argue that
+intergroup contact reduces advantaged-group members' prejudice and,
+thereby, prevents interpersonal discrimination. Reducing prejudice,
+however, is rarely enough to overcome institutional and structural
+discrimination. Instead, social change often results from
+disadvantaged-group members mobilizing against social injustice (for
+example, in the 2020 Black Lives Matter protests). Critics argue that
+positive intergroup contact could create a false sense of equality and,
+thereby, stifle disadvantaged-group members' opposition to injustice. We
+present the first systematic review and meta-analysis of the growing
+number of studies examining how intergroup contact relates to support
+for social change in disadvantaged groups. Our findings help us
+understand whether, when, and how intergroup contact might hinder,
+rather than help, social change.
     \end{abstract}
   \end{@twocolumnfalse}
 ]
@@ -249,7 +279,7 @@ example, affirmative action policies.
 \hypertarget{search-strategy}{%
 \subsection{Search Strategy}\label{search-strategy}}
 
-\begin{figure*}[!t]
+\begin{figure*}[t!]
 \centering
 \caption{Flow diagram illustrating the preregistered search strategy, study selection, and data collection}
 \includegraphics[scale=1]{../figures/figure-1}
@@ -367,9 +397,6 @@ comparisons between more than two conditions, we prioritized the effect
 size that compared two conditions that most closely resembled generic
 contact and no-contact conditions.
 
-\hypertarget{potential-moderators}{%
-\subsubsection{Potential Moderators}\label{potential-moderators}}
-
 \begin{figure*}
 \centering
 \caption{Overview of the relevant literature}
@@ -377,6 +404,9 @@ contact and no-contact conditions.
 \caption*{\textit{Note.} \textbf{A} Map of all countries included in the meta-analysis with combined sample sizes. \textbf{B} Proportion of eligible samples in each category as well as the absolute number of samples in each category.}
 \label{fig:f2}
 \end{figure*}
+
+\hypertarget{potential-moderators}{%
+\subsubsection{Potential Moderators}\label{potential-moderators}}
 
 In addition to extracting and selecting effect sizes for the
 preregistered analyses, we collected data on a broad range of potential
@@ -549,7 +579,7 @@ As preregistered, we ran three random-effects meta-analysis models, one
 for each outcome variable. Figure 3 shows posterior distributions from
 these analyses.
 
-\begin{figure*}[!t]
+\begin{figure*}[t!]
 \centering
 \caption{Posterior distributions from the preregistered random-effect meta-analysis models}
 \includegraphics[scale=1]{../figures/figure-3}
@@ -639,7 +669,6 @@ Materials).
 \caption*{\textit{Note.} We had data from too few countries to reach firm conclusions about the direction of these associations for perceived injustice ($\beta = -0.36, [-1.43, 0.78]$; $\Pr (\beta < 0) = 73.5\%$), collective action ($\beta = -0.09, [-1.60, 1.37]$; $\Pr (\beta < 0) = 55.1\%$), and policy support ($\beta = -0.92, [-2.13, 0.55]$; $\Pr (\beta < 0) = 90.3\%$).}
 \label{fig:f5}
 \end{figure*}
-
 \begin{figure*}
 \centering
 \caption{Results from the random-effects meta-regression tree analysis}
