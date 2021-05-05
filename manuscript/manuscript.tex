@@ -1,28 +1,29 @@
-\documentclass[twocolumn, 11pt, letterpaper]{article}
+\documentclass[12pt, letterpaper]{article}
 
 % Font
 \usepackage[utf8]{inputenc}
-\usepackage{MinionPro} 
-\input{glyphtounicode}
-\pdfgentounicode=1 
+\usepackage{amsmath}
 \usepackage{microtype}
 
 % Format
 \usepackage[letterpaper, margin = 1in]{geometry}
-\setlength{\columnsep}{18pt}
 \setcounter{secnumdepth}{0}
+\setlength{\parindent}{0.5in}
 \usepackage[compact]{titlesec}  
-\titleformat*{\section}{\centering\normalfont\Large\bfseries}
-% \usepackage{authblk}
-% \renewcommand\Affilfont{\small}
-% \usepackage[hang, flushmargin]{footmisc}
+\titleformat*{\section}{\centering\normalfont\normalsize\bfseries}
+\titleformat*{\subsection}{\raggedright\normalfont\normalsize\bfseries}
+\titleformat*{\subsubsection}{\raggedright\normalfont\normalsize\bfseries\itshape}
+\usepackage{indentfirst}
+\usepackage[hang,flushmargin]{footmisc}
 
 % Header
-% \usepackage{fancyhdr}
-% \pagestyle{fancy}
-% \rhead{\thepage}
-% \lhead{Meta-Analysis of the `Ironic' Effects of Intergroup Contact}
-% \cfoot{}
+\usepackage{fancyhdr}
+\pagestyle{fancy}
+\fancyhf{}
+\setlength{\headheight}{14.5pt}
+\renewcommand{\headrulewidth}{0pt}
+\fancyhead[L]{`IRONIC' EFFECTS META-ANALYSIS}
+\fancyhead[R]{\thepage}
 
 % Links
 \usepackage[colorlinks = true, linkcolor = black, urlcolor = black, citecolor = black]{hyperref} 
@@ -35,17 +36,14 @@
 \usepackage{booktabs}
 \usepackage{tabularx}
 
-% Frontmatter
-\title{ Meta-Analysis of the `Ironic' Effects of Intergroup Contact }
-\author{  }
+% Line spacing
+\usepackage[doublespacing]{setspace}
 
 \begin{document}
 
-\twocolumn[
-  \begin{@twocolumnfalse}
-    \maketitle
-    \begin{abstract}
-    \noindent Critics have argued that intergroup contact, psychology's
+\section{Abstract}
+
+\noindent Critics have argued that intergroup contact, psychology's
 most-researched paradigm for reducing prejudice, has the `ironic' effect
 of stifling support for social change in disadvantaged groups. We
 conducted a preregistered meta-analytic test of this effect across 96
@@ -62,13 +60,15 @@ negative contact with support for social change, positive contact was
 not (negatively) associated with any outcome in studies that measured
 both predictors. We close by highlighting open questions about the
 relation between intergroup contact and social change.
-    \end{abstract}
-  \end{@twocolumnfalse}
-  \renewcommand{\abstractname}{Statement of Relevance}
-  \begin{@twocolumnfalse}
-    \maketitle
-    \begin{abstract}
-    \noindent As societies are becoming more diverse, there are more opportunities for
+
+\textit{Keywords:} intergroup contact, meta-analysis, perceived discrimination, collective
+action, policy support, social change, social injustice
+
+\newpage
+
+\section{Statement of Relevance}
+
+\noindent As societies are becoming more diverse, there are more opportunities for
 members of different groups to come in contact with each other.
 Psychologists disagree about what this means for overcoming persistent
 inequality between advantaged and disadvantaged groups. Many argue that
@@ -85,12 +85,12 @@ number of studies examining how intergroup contact relates to support
 for social change in disadvantaged groups. Our findings help us
 understand whether, when, and how intergroup contact might hinder,
 rather than help, social change.
-    \end{abstract}
-  \end{@twocolumnfalse}
-]
-  
 
-\noindent It is ironic that psychology's most-researched paradigm for reducing
+\newpage
+
+\section{Meta-Analysis of the `Ironic' Effects of Intergroup Contact}
+
+It is ironic that psychology's most-researched paradigm for reducing
 prejudice---intergroup contact---should hinder, rather than help, social
 change. Hundreds of studies have confirmed that intergroup contact is
 associated with less negative feelings toward outgroup members (for a
@@ -922,6 +922,8 @@ social inequality (Tropp \& Barlow, 2018). Still, we hope that our
 meta-analytic review motivates researchers to address the open questions
 about how intergroup contact relates to support for social change in
 disadvantaged groups.
+
+\newpage
 
 \hypertarget{references}{%
 \section{References}\label{references}}

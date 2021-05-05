@@ -1,5 +1,7 @@
 ---
 title: "Meta-Analysis of the 'Ironic' Effects of Intergroup Contact"
+header: "'IRONIC' EFFECTS META-ANALYSIS"
+keywords: intergroup contact, meta-analysis, perceived discrimination, collective action, policy support, social change, social injustice 
 bibliography: references.bib
 csl: apa.csl
 abstract: 
@@ -7,12 +9,12 @@ abstract:
 statement: 
   As societies are becoming more diverse, there are more opportunities for members of different groups to come in contact with each other. Psychologists disagree about what this means for overcoming persistent inequality between advantaged and disadvantaged groups. Many argue that intergroup contact reduces advantaged-group members' prejudice and, thereby, prevents interpersonal discrimination. Reducing prejudice, however, is rarely enough to overcome institutional and structural discrimination. Instead, social change often results from disadvantaged-group members mobilizing against social injustice (for example, in the 2020 Black Lives Matter protests). Critics argue that positive intergroup contact could create a false sense of equality and, thereby, stifle disadvantaged-group members' opposition to injustice. We present the first systematic review and meta-analysis of the growing number of studies examining how intergroup contact relates to support for social change in disadvantaged groups. Our findings help us understand whether, when, and how intergroup contact might hinder, rather than help, social change.
 output:
-  word_document:
-    reference_docx: word-template.docx
   pdf_document:
     latex_engine: pdflatex
     keep_tex: yes
-    template: preprint-template.tex
+    template: apa-template.tex
+  word_document:
+    reference_docx: word-template.docx
 ---
 
 ```{r setup, include = FALSE}
@@ -485,6 +487,8 @@ Further, the observed association between intergroup contact and support for soc
 Fourth, we cannot rule out that biases in the literature caused our meta-analysis to overestimate the 'ironic' effects of intergroup contact. Publication bias could have prevented studies that found positive or non-significant associations from entering the published literature. We used state-of-the-art methods to detect and correct for publication bias, yet did not find conclusive evidence for or against publication bias. That said, 61% of samples were either not collected with the intention to study the effects of intergroup contact on a relevant outcome (45%) or from unpublished studies (32%)—and thus unlikely to have been affected by publication bias. Another bias that could have affected our findings is that researchers made data-dependent decisions when analyzing data that inflate false-positive findings [@gelman_statistical_2014]. Future research should use preregistration and other methods to prevent undisclosed flexibility in data collection and analysis.^[To date, one preregistered study has been published [@hassler_large-scale_2020].]
 
 To conclude, our preregistered meta-analysis found some evidence that intergroup contact reduces perceived injustice, discourages collective action, and diminishes support for reparative policies in disadvantaged groups—but also showed that the estimated effect sizes were small, variable, and consistent with alternative explanations. Our research was motivated by the broader question whether intergroup contact helps or hinders social change. By examining the narrower question whether intergroup contact diminishes support for social change in disadvantaged groups, we tested the most prominent hypothesis explaining how intergroup contact might *hinder* social change. We did not consider whether intergroup contact might *help* social change by reducing prejudice [for a critical perspective, see @dixon_beyond_2012] or by motivating advantaged-group members to acknowledge and challenge social inequality [@tropp_making_2018]. Still, we hope that our meta-analytic review motivates researchers to address the open questions about how intergroup contact relates to support for social change in disadvantaged groups.
+
+\newpage
 
 # References
 

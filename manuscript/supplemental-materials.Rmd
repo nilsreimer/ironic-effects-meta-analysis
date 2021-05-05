@@ -1,13 +1,14 @@
 ---
 title: "Supplemental Online Materials"
-subtitle: "Meta-Analysis of the 'Ironic' Effects of Intergroup Contact"
+subtitle: Meta-Analysis of the 'Ironic' Effects of Intergroup Contact
 bibliography: references.bib
-csl: apa.csl
 output:
+  word_document: default
   pdf_document:
     latex_engine: pdflatex
     keep_tex: yes
     template: som-template.tex
+csl: apa.csl
 ---
 
 ```{r setup, include = FALSE}
@@ -26,7 +27,7 @@ output:
 
 ## Deviations 
 
-We preregistered the eligibility criteria, search strategy, study selection, data collection, and preregistered analyses. Some details of the preregistered protocol proved unrealistic, impractical, or underspecified. Therefore, we deviated from the protocol in the following ways:
+We preregistered the eligibility criteria, search strategy, study selection, data collection, and preregistered analyses. Some aspects of the preregistered protocol proved unrealistic, impractical, or underspecified. Therefore, we deviated from the protocol in the following ways:
 
 1. We preregistered that we would update our search every four months until we would submit the manuscript. This proved unrealistic as the study selection and data collection process for the new studies took almost as long. Instead, we concluded our search of electronic databases on April 1, 2020—that is, before we started analyzing and documenting our findings.
 
@@ -94,7 +95,7 @@ As preregistered, we conducted two kinds of robustness checks. First, we assesse
 
 ## Moderator Analyses
 
-First, we ran a series of Bayesian random-effects meta-regression models to estimate how much of the between-samples heterogeneity was explained by specific categorical moderator variables (`run_moderator_analyses.R`). Figures S1 and S2 show the results for collective action and policy support. Comparisons were inconclusive because we had an insufficient number of effect sizes per category. Second, we used meta-regression trees to discover interactions between moderator variables that best explained heterogeneity in effect sizes [@li_meta-cart_2017; @li_multiple_2020]. As recommended, we ran random-effects meta-regression tree analyses using the look-ahead strategy [@li_multiple_2020]. We set the pruning parameter to $c = 0$ because, for this analysis, we prioritized exploration over error control (`run_exploratory_moderator_analyses.R`). For both collective action and policy support, the algorithm found that no moderator or interaction of moderators explained between-samples heterogeneity. This results is not, however, surprising as both analyses used fewer than 40 effect sizes, the minimum number required for the algorithm to perform well in detecting even simple interaction effects [@li_meta-cart_2017]. As both analyses were inconclusive for collective action and policy support, we only report results for perceived injustice in the main text.
+First, we ran a series of Bayesian random-effects meta-regression models to estimate how much of the between-samples heterogeneity was explained by specific categorical moderator variables (`run_moderator_analyses.R`). Figures S1 and S2 show the results for collective action and policy support. Comparisons were inconclusive because we had an insufficient number of effect sizes per category. Second, we used meta-regression trees to discover interactions between moderator variables that best explained heterogeneity in effect sizes [@li_meta-cart_2017; @li_multiple_2020]. As recommended, we ran random-effects meta-regression tree analyses using the look-ahead strategy [@li_multiple_2020]. We set the pruning parameter to $c = 0$ because, for this analysis, we prioritized exploration over error control (`run_exploratory_moderator_analyses.R`). For both collective action and policy support, the algorithm found that no moderator or interaction of moderators explained between-samples heterogeneity. This result is not surprising, however, as both analyses used fewer than 40 effect sizes, the minimum number required for the algorithm to perform well in detecting even simple interaction effects [@li_meta-cart_2017]. As both moderator analyses were inconclusive for collective action and policy support, we only report results for perceived injustice in the main text.
 
 ```{=latex}
 \begin{figure*}
