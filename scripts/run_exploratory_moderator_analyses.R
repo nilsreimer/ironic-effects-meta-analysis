@@ -213,6 +213,39 @@ rm(list = ls())
     ) %>% 
     select(.chain:.draw, kk, r = r_kk, n, R2, age:study_setting)
   
+  
+
+# Estimate (collective action) --------------------------------------------
+
+  # Set seed
+  set.seed(3242844)
+  
+  # Run random-effects meta-tree model
+  ca_tree <- REmrt(
+    z ~ ic_direct + study_setting + study_design + study_sample + age + study_intention + publication_status,
+    vi = vi,
+    data = es %>% filter(y_var == "ca"),
+    c = 0.0,
+    xval = nrow(es %>% filter(y_var == "ca")) - 1,
+    lookahead = TRUE
+  )
+  
+
+# Estimate (policy support) -----------------------------------------------
+
+  # Set seed
+  set.seed(1289771)
+  
+  # Run random-effects meta-tree model
+  ps_tree <- REmrt(
+    z ~ ic_direct + study_setting + study_design + study_sample + age + study_intention + publication_status,
+    vi = vi,
+    data = es %>% filter(y_var == "ps"),
+    c = 0.0,
+    xval = nrow(es %>% filter(y_var == "ps")) - 1,
+    lookahead = TRUE
+  )
+
 
 # Export ------------------------------------------------------------------
 

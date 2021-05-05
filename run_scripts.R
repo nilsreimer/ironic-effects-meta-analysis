@@ -66,12 +66,13 @@ rm(list = ls())
   source("scripts/figure-6.R")
   source("scripts/figure-7.R")
   source("scripts/figure-8.R")
-
+  source("scripts/figure-s1.R")
+  source("scripts/figure-s2.R")
 
 # Combine -----------------------------------------------------------------
 
   # Make manuscript
-  source("manuscript.Rmd")
+  source("manuscript/manuscript.Rmd")
 
   # Make supplemental materials
-  source("supplemental-materials.Rmd")
+  source("manuscript/supplemental-materials.Rmd")

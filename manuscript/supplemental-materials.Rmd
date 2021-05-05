@@ -1,0 +1,128 @@
+---
+title: "Supplemental Online Materials"
+subtitle: "Meta-Analysis of the 'Ironic' Effects of Intergroup Contact"
+bibliography: references.bib
+csl: apa.csl
+output:
+  pdf_document:
+    latex_engine: pdflatex
+    keep_tex: yes
+    template: som-template.tex
+---
+
+```{r setup, include = FALSE}
+
+  # Load packages
+  library(tidyverse); library(tidybayes); library(numform)
+
+  # Functions
+  r_to_z <- function(r) 0.5 * log( (1 + r) / (1 - r) )
+  z_to_r <- function(z) ( exp(2 * z) - 1 ) / ( exp(2 * z) + 1 )
+
+  # knitr options
+  knitr::opts_chunk$set(echo = FALSE)
+
+```
+
+## Deviations 
+
+We preregistered the eligibility criteria, search strategy, study selection, data collection, and preregistered analyses. Some details of the preregistered protocol proved unrealistic, impractical, or underspecified. Therefore, we deviated from the protocol in the following ways:
+
+1. We preregistered that we would update our search every four months until we would submit the manuscript. This proved unrealistic as the study selection and data collection process for the new studies took almost as long. Instead, we concluded our search of electronic databases on April 1, 2020—that is, before we started analyzing and documenting our findings.
+
+2. We preregistered that we would randomly select 100 records to be screened by both coders to calculate inter-rater agreement. We did not specify, however, what we would do if inter-rater agreement was less than acceptable. We decided to refine our coding strategy over three samples of 100 records until we achieved acceptable agreement.
+
+3. We preregistered that we would use *Google Scholar* to find records citing eligible studies. This proved impractical as *Google Scholar* does not facilitate the electronic export of citing records. Instead, we used the *Scopus* citation database.
+
+4. We preregistered that we would attempt to contact the authors of all papers with missing effect sizes. Instead, we decided to not contact authors for studies published before 2000 as we considered it unlikely that the authors still had access to the data.
+
+5. We preregistered that we would use a Bayesian two-level random-effects meta-analysis model, described in the main text, for all preregistered analyses. For the association between policy support and collective action, however, we had only few studies and found that the two-level model did not result in a reliable posterior distribution (as indicated by divergent transitions in the estimation algorithm). Instead, we used a Bayesian one-level random-effects model to estimate that association.
+
+## Search Strategy
+
+We used similar non-exclusive search terms for all electronic databases:
+
+1. (contact OR friendship) AND (“perceived discrimination” OR “perceived \*advantage” OR “relative deprivation” OR “group discrimination” OR “personal discrimination” OR “group deprivation” OR “perception\* of discrimination” OR “perception* of group discrimination” OR “perception* of personal discrimination” OR “rac\* discrimination”)
+
+2. \*group AND (contact OR friendship) AND (“collective action” OR protest OR “collective behavio\*r” OR “political behavio\*r” OR “social change” OR “social justice”)
+
+3. \*group AND (contact OR friendship) AND (policy OR policies OR “affirmative action” OR (politi* W/15 attitude\*) OR (politi\* W/15 preferenc\*)) AND (redistribut\* OR reparati\* OR inequalit\* OR equalit\* OR injustice\* OR justice\* OR disadvantage\* OR advantage\* OR minorit\* OR majorit\*)
+
+\noindent We sent a call for unpublished research to the mailing lists of the *European Association of Social Psychology*, the *Society for Personality and Social Psychology*, the *International Society of Political Psychology*, the *Society for the Psychological Study of Social Issues*, and the *Society of Australasian Social Psychologists*.
+
+## Robustness Checks
+
+```{r, include = FALSE}
+
+  # Summarize prior choice results
+  d_priors <- read_rds("../results/results_robustness_checks_priors.rds") %>% 
+    group_by(y_var, prior) %>% 
+    median_qi(d_r_mean) %>% 
+    mutate(
+      across(c(d_r_mean, .lower, .upper), ~f_num(., digits = 2)),
+      text = paste0("$\\Delta r = ", d_r_mean, ", [", .lower, ", ", .upper, "]$")
+    )
+
+```
+
+```{r, include = FALSE}
+
+  # Calculate Mean Absolute Deviation (MAD)
+  mad_loo <- read_rds("../results/results_robustness_checks_loo.rds") %>% 
+    group_by(.draw, y_var) %>% 
+    summarize(mad_loo = mean(ae_loo)) %>% 
+    group_by(y_var) %>% 
+    median_qi(mad_loo) %>% 
+    mutate(
+      across(c(mad_loo, .lower, .upper), ~f_num(., digits = 2)),
+      text = paste0("$\\textit{MAD} = ", mad_loo, ", [", .lower, ", ", .upper, "]$")
+    )
+
+  # Leave out most influential studies
+  d_loo <- read_rds("../results/results_robustness_checks_loo.rds") %>% 
+    group_by(y_var, id) %>%
+    median_qi(e_loo) %>% 
+    top_n(n = 1, wt = abs(e_loo)) %>% 
+    mutate(
+      across(c(e_loo, .lower, .upper), ~f_num(., digits = 2)),
+      text = paste0("$\\Delta r = ", e_loo, ", [", .lower, ", ", .upper, "]$")
+    )
+
+```
+
+As preregistered, we conducted two kinds of robustness checks. First, we assessed to what extent our findings were sensitive to choosing narrower, $\mu \sim \text{Normal}(0, 0.1)$, or wider, $\mu \sim \text{Normal}(0, 1)$, prior distributions. Choosing narrower or wider prior distribution did not affect mean effect size estimates for perceived injustice (`r d_priors$text[d_priors$y_var == "pi" & d_priors$prior == "N(0, 0.1)"]` and `r d_priors$text[d_priors$y_var == "pi" & d_priors$prior == "N(0, 1.0)"]`), collective action (`r d_priors$text[d_priors$y_var == "ca" & d_priors$prior == "N(0, 0.1)"]` and `r d_priors$text[d_priors$y_var == "ca" & d_priors$prior == "N(0, 1.0)"]`), and policy support (`r d_priors$text[d_priors$y_var == "ps" & d_priors$prior == "N(0, 0.1)"]` and `r d_priors$text[d_priors$y_var == "ps" & d_priors$prior == "N(0, 1.0)"]`). Second, we assessed to what extent our findings were sensitive to including or excluding influential studies by repeating the preregistered analyses $J$ times while leaving out one of $J$ studies each time and by calculating the mean absolute difference (*MAD*) for the estimated mean effect size across left-out studies. For perceived injustice (`r mad_loo$text[mad_loo$y_var == "pi"]`), collective action (`r mad_loo$text[mad_loo$y_var == "ca"]`), and policy support (`r mad_loo$text[mad_loo$y_var == "ps"]`), the *MAD* was small. Leaving out the most influential study, for example, did not change estimates of the mean effect size for the three outcomes (`r d_loo$text[d_loo$y_var == "pi"]`; `r d_loo$text[d_loo$y_var == "ca"]`; `r d_loo$text[d_loo$y_var == "ps"]`). Together, these analyses showed that our findings were robust to choosing different prior distributions and to excluding influential studies.
+
+## Moderator Analyses
+
+First, we ran a series of Bayesian random-effects meta-regression models to estimate how much of the between-samples heterogeneity was explained by specific categorical moderator variables (`run_moderator_analyses.R`). Figures S1 and S2 show the results for collective action and policy support. Comparisons were inconclusive because we had an insufficient number of effect sizes per category. Second, we used meta-regression trees to discover interactions between moderator variables that best explained heterogeneity in effect sizes [@li_meta-cart_2017; @li_multiple_2020]. As recommended, we ran random-effects meta-regression tree analyses using the look-ahead strategy [@li_multiple_2020]. We set the pruning parameter to $c = 0$ because, for this analysis, we prioritized exploration over error control (`run_exploratory_moderator_analyses.R`). For both collective action and policy support, the algorithm found that no moderator or interaction of moderators explained between-samples heterogeneity. This results is not, however, surprising as both analyses used fewer than 40 effect sizes, the minimum number required for the algorithm to perform well in detecting even simple interaction effects [@li_meta-cart_2017]. As both analyses were inconclusive for collective action and policy support, we only report results for perceived injustice in the main text.
+
+```{=latex}
+\begin{figure*}
+\centering
+\caption{Estimated effect sizes for the association between intergroup contact and collective action as a function of various categorical moderator variables}
+\includegraphics[scale=1]{../figures/figure-s1}
+\caption*{\textit{Note.} Intervals enclose the 95\% most plausible estimates of the category-specific effect size. Shaded ribbons enclose the 95\% most plausible estimates of the mean effect size from the main analyses. Percentages indicate the estimated between-sample variance explained by each moderator variable.}
+\label{fig:s1}
+\end{figure*}
+
+\begin{figure*}
+\centering
+\caption{Estimated effect sizes for the association between intergroup contact and policy support as a function of various categorical moderator variables}
+\includegraphics[scale=1]{../figures/figure-s2}
+\caption*{\textit{Note.} Intervals enclose the 95\% most plausible estimates of the category-specific effect size. Shaded ribbons enclose the 95\% most plausible estimates of the mean effect size from the main analyses. Percentages indicate the estimated between-sample variance explained by each moderator variable.}
+\label{fig:s2}
+\end{figure*}
+```
+
+# References
+
+\begingroup
+
+\noindent
+\setlength{\parindent}{-0.5in}
+\setlength{\leftskip}{0.5in}
+
+<div id="refs"></div>
+
+\endgroup
+

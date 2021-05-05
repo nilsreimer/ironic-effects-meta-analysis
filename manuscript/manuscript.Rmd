@@ -7,12 +7,12 @@ abstract:
 statement: 
   As societies are becoming more diverse, there are more opportunities for members of different groups to come in contact with each other. Psychologists disagree about what this means for overcoming persistent inequality between advantaged and disadvantaged groups. Many argue that intergroup contact reduces advantaged-group members' prejudice and, thereby, prevents interpersonal discrimination. Reducing prejudice, however, is rarely enough to overcome institutional and structural discrimination. Instead, social change often results from disadvantaged-group members mobilizing against social injustice (for example, in the 2020 Black Lives Matter protests). Critics argue that positive intergroup contact could create a false sense of equality and, thereby, stifle disadvantaged-group members' opposition to injustice. We present the first systematic review and meta-analysis of the growing number of studies examining how intergroup contact relates to support for social change in disadvantaged groups. Our findings help us understand whether, when, and how intergroup contact might hinder, rather than help, social change.
 output:
+  word_document:
+    reference_docx: word-template.docx
   pdf_document:
     latex_engine: pdflatex
     keep_tex: yes
     template: preprint-template.tex
-  word_document:
-    reference_docx: word-template.docx
 ---
 
 ```{r setup, include = FALSE}
@@ -47,7 +47,7 @@ In addition, we collated the evidence for two alternative accounts of this relat
 
 ## Transparency
 
-We prepared a protocol in accordance with the PRISMA-P statement [@moher_preferred_2015] and preregistered it on the Open Science Framework.^[[https://osf.io/ryuev/?view_only=8938ac6178914da98bdda1da4a6e27f0](https://osf.io/ryuev/?view_only=8938ac6178914da98bdda1da4a6e27f0)] Preregistration precludes undisclosed flexibility in study selection, outcome selection, and other decisions that influence effect size estimates—and thus prevents confirmation bias from determining the conclusions of a meta-analysis [@lakens_reproducibility_2016]. We report deviations from our protocol in the Supplemental Materials. We make data, analysis scripts, and the fully reproducible manuscript available online.^[[https://osf.io/w5tqv/?view_only=5cbf7ad5b2b449a7a0f4ada0337b802a](https://osf.io/w5tqv/?view_only=5cbf7ad5b2b449a7a0f4ada0337b802a)]
+We prepared a protocol in accordance with the PRISMA-P statement [@moher_preferred_2015] and preregistered it on the Open Science Framework.^[[https://osf.io/ryuev/?view_only=8938ac6178914da98bdda1da4a6e27f0](https://osf.io/ryuev/?view_only=8938ac6178914da98bdda1da4a6e27f0)] Preregistration precludes undisclosed flexibility in study selection, outcome selection, and other decisions that influence effect size estimates—and thus prevents confirmation bias from determining the conclusions of a meta-analysis [@lakens_reproducibility_2016]. We report deviations from our protocol in the Supplemental Online Material (SOM-R). We make data, analysis scripts, and the fully reproducible manuscript available online.^[[https://osf.io/w5tqv/?view_only=5cbf7ad5b2b449a7a0f4ada0337b802a](https://osf.io/w5tqv/?view_only=5cbf7ad5b2b449a7a0f4ada0337b802a)]
 
 ## Eligibility Criteria
 
@@ -81,9 +81,9 @@ We included studies if they measured or manipulated the quantity of, quality of,
 \end{figure*}
 ```
 
-As preregistered, we searched titles, abstract, and keywords for relevant terms in four electronic databases. We searched for relevant articles in the *Scopus* and *PsycINFO* databases. We searched for gray literature in the *ProQuest Dissertations and Theses* database. We used similar non-exclusive search terms for all databases (see Supplemental Materials). We searched databases on April 1, 2019 and again on April 1, 2020. We exported records and relevant metadata from each database. We removed duplicates using the *revtools* package [@westgate_revtools:_2019]. 
+As preregistered, we searched titles, abstract, and keywords for relevant terms in four electronic databases. We searched for relevant articles in the *Scopus* and *PsycINFO* databases. We searched for gray literature in the *ProQuest Dissertations and Theses* database. We used similar non-exclusive search terms for all databases (see SOM-R). We searched databases on April 1, 2019 and again on April 1, 2020. We exported records and relevant metadata from each database. We removed duplicates using the *revtools* package [@westgate_revtools:_2019]. 
 
-To find unpublished studies, we sent a call to the mailing lists of several professional organizations (see Supplemental Materials). We also advertised on social media and at relevant conferences. We directed researchers to an online survey in which they answered questions about the eligibility of their unpublished research and, if the research was eligible, provided data on moderator variables and effect sizes. We also contacted experts in the field, asking for unpublished research and other studies we might have missed.
+To find unpublished studies, we sent a call to the mailing lists of several professional organizations (see SOM-R). We also advertised on social media and at relevant conferences. We directed researchers to an online survey in which they answered questions about the eligibility of their unpublished research and, if the research was eligible, provided data on moderator variables and effect sizes. We also contacted experts in the field, asking for unpublished research and other studies we might have missed.
 
 In addition, we used the *Scopus* citation database to find records that cited at least one of the published articles included in the meta-analysis or at least one of three relevant review articles [@dixon_beyond_2012; @reicher_rethinking_2007; @wright_struggle_2009]. This search resulted in 2,075 records. Of these, we focused on 145 records that cited at least three eligible studies or relevant reviews and looked for eligible studies that were not among those from our original search.
 
@@ -260,7 +260,7 @@ As preregistered, we ran three random-effects meta-analysis models, one for each
 ```{=latex}
 \begin{figure*}[t!]
 \centering
-\caption{Posterior distributions from the preregistered random-effect meta-analysis models}
+\caption{Posterior distributions from the preregistered random-effects meta-analysis models}
 \includegraphics[scale=1]{../figures/figure-3}
 \caption*{\textit{Note.} \textbf{A} Posterior distributions for the mean correlation coefficients, highlighting the proportion of posterior samples for which $r_\text{mean} < 0$. \textbf{B} Posterior predictive distributions of study-wise correlation coefficients, highlighting the 80\% most common effect sizes, with point estimates for the correlation coefficients for all studies in the sample.}
 \label{fig:f3}
@@ -293,11 +293,11 @@ ca_ps_results <- results %>% filter(x_var == "ca", y_var == "ps", parameter == "
 
 As preregistered, we ran another three random-effects meta-analysis models to estimate the relationships between the three outcome variables. As we were not interested in the direction of these relationships, we used cross-sectional correlation coefficients as effect sizes for longitudinal studies. Across `r pi_ca_results$N` participants from `r pi_ca_results$I` samples in `r pi_ca_results$J` studies, we found evidence for a moderate association (`r pi_ca_results$text`) between perceived injustice and collective action. Across `r pi_ps_results$N` participants from `r pi_ps_results$I` samples in `r pi_ps_results$J` studies, we found evidence for a moderate association (`r pi_ps_results$text`) between perceived injustice and policy support. Across `r ca_ps_results$N` participants from `r ca_ps_results$I` samples in `r ca_ps_results$J` studies, we found evidence for a moderate association (`r ca_ps_results$text`) between collective action and policy support.
 
-In addition, we ran preregistered robustness checks which showed that our main analyses were robust to choosing different prior distributions and to excluding influential studies (see Supplemental Materials).
+In addition, we ran preregistered robustness checks which showed that our main analyses were robust to choosing different prior distributions and to excluding influential studies (see SOM-R).
 
 ## Moderator Analyses
 
-We conducted two kinds of moderator analyses. For both analyses, we had an insufficient number of effect sizes to examine moderators for any outcomes except perceived injustice (for details, see Supplemental Materials). 
+We conducted two kinds of moderator analyses. For both analyses, we had an insufficient number of effect sizes to examine moderators for any outcomes except perceived injustice (for details, see SOM-R). 
 
 ```{=latex}
 \begin{figure*}
@@ -427,7 +427,7 @@ Figure 7 shows adjusted and unadjusted estimates with confidence intervals for t
 ```{=latex}
 \begin{figure*}
 \centering
-\caption{Posterior distributions from the random-effect meta-analysis models with alternative predictor variables}
+\caption{Posterior distributions from the random-effects meta-analysis models with alternative predictor variables}
 \includegraphics[scale=1]{../figures/figure-8}
 \label{fig:f8}
 \end{figure*}
