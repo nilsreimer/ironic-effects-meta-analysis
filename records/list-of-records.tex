@@ -1,55 +1,297 @@
-\documentclass[12pt, a4paper]{article}
-\usepackage[utf8]{inputenc}
+\documentclass[10pt, letterpaper]{article}
 
 % Font
-%\usepackage{MinionPro}
-%\input glyphtounicode
-%\pdfgentounicode=1
+\usepackage[T1]{fontenc}
+\usepackage[utf8]{inputenc}
+\usepackage{MinionPro} 
+\input{glyphtounicode}
+\pdfgentounicode=1 
 \usepackage{microtype}
-\usepackage[super]{nth}
-\usepackage{csquotes}
 
 % Format
-\setlength{\parindent}{0.5in}
+\usepackage[letterpaper, margin = 1in]{geometry}
 \setcounter{secnumdepth}{0}
-
-% Language
-\usepackage[american]{babel}
+\usepackage{sectsty}
+\sectionfont{\centering}
+\usepackage{lscape} 
 
 % Links
-\usepackage[colorlinks=true, linkcolor=black, urlcolor=black, citecolor=black]{hyperref} 
+\usepackage[colorlinks = true, linkcolor = black, urlcolor = black, citecolor = black]{hyperref} 
 
 % Figures
 \usepackage{graphicx}
-\usepackage[small, labelfont=it, labelsep=period]{caption}
+\usepackage[labelfont = bf, labelsep = newline, singlelinecheck = false]{caption}
 
 % Tables
 \usepackage{booktabs}
-\usepackage{tabularx}
+\usepackage{xltabular}
 
 % References
 \usepackage[style=apa]{biblatex}
-\DeclareSourcemap{
-  \maps[datatype=bibtex]{
-    \map{
-      \pertype{book}
-      \step[fieldset=location, null]
-      \step[fieldset=address, null]
-    }
-    \map{
-      \pertype{incollection}
-      \step[fieldset=location, null]
-      \step[fieldset=address, null]
-    }
-  }
-}
 \addbibresource{references.bib}
-\renewcommand*{\bibfont}{\small}
-
-% Frontmatter
 
 \begin{document}
 
-\nocite{*}\printbibliography
+\begin{landscape}
+
+\small
+
+\begin{xltabular}{650pt}{Xrrrllrlllll}
+ 
+	\caption{List of samples/studies for perceived injustice \label{tab:pi}}\\
+ \toprule
+	Study &  & $N$ & $r$ & Design & Sample & Age & Continent & Country & Setting & Published & Intended \\
+ \midrule
+ \endfirsthead
+
+ \toprule
+	Study &  & $N$ & $r$ & Design & Sample & Age & Continent & Country & Setting & Published & Intended \\
+ \midrule
+ \endhead
+
+ \bottomrule
+ \endfoot
+
+ \bottomrule\addlinespace
+ \multicolumn{12}{p{650pt}}{\textit{Note.} Age: > 18 = Sample consisted of adults (> 18 years). > 18 = Sample included adolescents/children (< 18 years). Setting: L.-T. Migration = Long-Term Migration, S.-T. Migration = Short-Term Migration. Published: Has the study been published? Intended: Was the study conducted with the intention to examine the effects of intergroup contact on one or more of the three outcome measures?}
+ \endlastfoot
+ 
+ \cite{2395} & 1 & 132 & -.03 & Cross-Sectional & Convenience & > 18 & Asia & Turkey & Post-Colonial & No & No\\
+ & 2 & 188 & -.14 & Cross-Sectional & Probability & > 18 & Europe & UK & L.-T. Migration & No & No\\
+\cite{322} & 1 & 151 & -.25 & Cross-Sectional & Students & > 18 & Asia & Turkey & Post-Colonial & Yes & Yes\\
+\cite{2257} & 1 & 269 & -.06 & Cross-Sectional & Convenience & > 18 & Asia & Turkey & Other & Yes & No\\
+\cite{423} & 1 & 64 & .19 & Cross-Sectional & Convenience & > 18 & Europe & UK & L.-T. Migration & Yes & Yes\\
+ & 2 & 67 & -.00 & Cross-Sectional & Convenience & > 18 & Asia & Turkey & Post-Colonial & Yes & Yes\\
+ & 3 & 210 & -.08 & Cross-Sectional & Convenience & > 18 & Asia & Turkey & Post-Colonial & Yes & Yes\\
+\cite{2396} & 1 & 290 & -.11 & Cross-Sectional & Convenience & > 18 & Asia & Turkey & Other & Yes & No\\
+ & 2 & 381 & -.05 & Cross-Sectional & Convenience & > 18 & Asia & Turkey & Sexuality & Yes & No\\
+ & 3 & 191 & -.07 & Cross-Sectional & Convenience & > 18 & Asia & Turkey & Post-Colonial & Yes & No\\
+\cite{2023} & 1 & 247 & .05 & Cross-Sectional & Students & < 18 & Europe & UK & L.-T. Migration & No & No\\
+ & 2 & 118 & -.04 & Cross-Sectional & Students & < 18 & Europe & UK & L.-T. Migration & No & No\\
+\cite{1045} & 1 & 252 & .11 & Cross-Sectional & Students & < 18 & N. America & USA & L.-T. Migration & Yes & No\\
+\cite{2397} & 1 & 501 & .13 & Cross-Sectional & Probability & > 18 & Europe & UK & L.-T. Migration & No & Yes\\
+\cite{284} & 1 & 488 & -.26 & Cross-Sectional & Students & > 18 & Africa & S. Africa & Post-Colonial & Yes & Yes\\
+\cite{1248} & 1 & 209 & -.31 & Cross-Sectional & Convenience & > 18 & Asia & Turkey & Post-Colonial & Yes & Yes\\
+\cite{1914} & 1 & 216 & -.35 & Cross-Sectional & Students & > 18 & S. America & Argentina & S.-T. Migration & Yes & No\\
+\cite{480} & 1 & 407 & -.11 & Cross-Sectional & Students & < 18 & S. America & Costa Rica & Post-Slavery & Yes & No\\
+\cite{1614} & 1 & 320 & -.27 & Cross-Sectional & Students & > 18 & Asia & Turkey & Post-Colonial & Yes & Yes\\
+\cite{3205} & 1 & 602 & -.11 & Cross-Sectional & Probability & > 18 & Europe & Romania & Other & Yes & Yes\\
+\cite{91} & 1 & 284 & .07 & Cross-Sectional & Students & > 18 & N. America & USA & S.-T. Migration & No & Yes\\
+\cite{1163} & 1 & 116 & .44 & Cross-Sectional & Students & > 18 & N. America & USA & Post-Slavery & No & Yes\\
+\cite{783} & 1 & 869 & .02 & Cross-Sectional & Probability & > 18 & Europe & Netherlands & L.-T. Migration & Yes & No\\
+ & 2 & 859 & -.03 & Cross-Sectional & Probability & > 18 & Europe & Netherlands & L.-T. Migration & Yes & No\\
+\cite{3196} & 1 & 165 & .23 & Cross-Sectional & Students & < 18 & Europe & Italy & L.-T. Migration & Yes & Yes\\
+\cite{1807} & 1 & 2,775 & -.07 & Cross-Sectional & Probability & > 18 & Europe & Netherlands & L.-T. Migration & Yes & Yes\\
+\cite{336} & 1 & 596 & -.22 & Cross-Sectional & Probability & > 18 & Africa & S. Africa & Post-Colonial & Yes & Yes\\
+\cite{2033} & 1 & 203 & -.01 & Experimental & Students & > 18 & N. America & Canada & L.-T. Migration & Yes & Yes\\
+\cite{4001} & 1 & 239 & .07 & Cross-Sectional & Students & > 18 & S. America & Mexico & Other & Yes & No\\
+\cite{325} & 1 & 1,100 & -.25 & Cross-Sectional & Probability & > 18 & N. America & USA & Other & Yes & No\\
+\cite{1576} & 1 & 1,503 & .22 & Cross-Sectional & Probability & > 18 & N. America & USA & L.-T. Migration & Yes & Yes\\
+\cite{1949} & 1 & 94 & -.06 & Cross-Sectional & Convenience & < 18 & Europe & Germany & L.-T. Migration & Yes & No\\
+\cite{4003} & 1 & 116 & -.33 & Cross-Sectional & Convenience & > 18 & N. America & USA & Post-Slavery & Yes & Yes\\
+\cite{2309} & 1 & 195 & -.04 & Cross-Sectional & Convenience & > 18 & N. America & USA & Post-Slavery & Yes & Yes\\
+ & 2 & 170 & -.28 & Cross-Sectional & Convenience & > 18 & N. America & USA & L.-T. Migration & Yes & Yes\\
+\cite{1407} & 1 & 2,137 & .10 & Cross-Sectional & Probability & > 18 & N. America & USA & Post-Slavery & No & Yes\\
+ & 2 & 695 & .10 & Cross-Sectional & Probability & > 18 & N. America & USA & L.-T. Migration & No & Yes\\
+\cite{1494} & 3 & 237 & .02 & Cross-Sectional & Probability & > 18 & N. America & USA & Post-Slavery & No & No\\
+ & 4 & 235 & .01 & Cross-Sectional & Probability & > 18 & N. America & USA & L.-T. Migration & No & No\\
+\cite{324} & 1 & 353 & .06 & Cross-Sectional & Probability & < 18 & N. America & USA & Post-Slavery & Yes & No\\
+ & 2 & 508 & .07 & Cross-Sectional & Probability & < 18 & N. America & USA & L.-T. Migration & Yes & No\\
+\cite{609} & 1 & 182 & -.32 & Cross-Sectional & Convenience & > 18 & Asia & Hong Kong & L.-T. Migration & Yes & No\\
+\cite{2001} & 1 & 42,445 & .07 & Cross-Sectional & Convenience & > 18 & N. America & USA & Post-Slavery & Yes & Yes\\
+\cite{2341} & 1 & 141 & -.41 & Cross-Sectional & Convenience & > 18 & Europe & Finland & L.-T. Migration & Yes & No\\
+\cite{19} & 1 & 585 & -.33 & Cross-Sectional & Students & > 18 & Asia & Singapore & S.-T. Migration & Yes & No\\
+\cite{303} & 1 & 114 & -.18 & Cross-Sectional & Convenience & > 18 & Multiple & Multiple & Post-Colonial & No & No\\
+\cite{856} & 1 & 187 & .19 & Cross-Sectional & Students & < 18 & Europe & Macedonia & Other & Yes & Yes\\
+\cite{1411} & 1 & 531 & -.14 & Cross-Sectional & Probability & > 18 & Asia & Indonesia & Religion & Yes & No\\
+\cite{4002} & 1 & 1,251 & .05 & Cross-Sectional & Probability & < 18 & Europe & Belgium & L.-T. Migration & Yes & No\\
+\cite{1525} & 1 & 169 & -.16 & Cross-Sectional & Probability & < 18 & N. America & USA & L.-T. Migration & Yes & Yes\\
+\cite{830} & 1 & 219 & -.03 & Cross-Sectional & Students & < 18 & N. America & USA & L.-T. Migration & No & No\\
+ & 2 & 160 & -.08 & Cross-Sectional & Probability & < 18 & N. America & USA & L.-T. Migration & No & No\\
+ & 3 & 155 & .09 & Cross-Sectional & Probability & < 18 & N. America & USA & L.-T. Migration & No & No\\
+\cite{401} & 1 & 653 & -.00 & Longitudinal & Probability & < 18 & Europe & Germany & Other & Yes & Yes\\
+\cite{45} & 1 & 161 & -.16 & Cross-Sectional & Students & > 18 & Europe & Germany & S.-T. Migration & Yes & Yes\\
+ & 2 & 139 & -.23 & Cross-Sectional & Students & > 18 & Europe & UK & S.-T. Migration & Yes & Yes\\
+ & 3 & 79 & .15 & Cross-Sectional & Convenience & > 18 & Europe & Germany & S.-T. Migration & Yes & Yes\\
+\cite{1993} & 1 & 106 & -.16 & Cross-Sectional & Convenience & > 18 & Asia & Singapore & S.-T. Migration & Yes & No\\
+\cite{3134} & 1 & 1,172 & -.07 & Cross-Sectional & Probability & < 18 & Europe & Germany & L.-T. Migration & Yes & No\\
+ & 2 & 864 & -.06 & Cross-Sectional & Probability & < 18 & Europe & Netherlands & L.-T. Migration & Yes & No\\
+ & 3 & 774 & -.05 & Cross-Sectional & Probability & < 18 & Europe & Sweden & L.-T. Migration & Yes & No\\
+\cite{1042} & 1 & 165 & .19 & Cross-Sectional & Students & > 18 & N. America & USA & L.-T. Migration & Yes & Yes\\
+ & 2 & 92 & -.03 & Cross-Sectional & Students & > 18 & N. America & USA & Post-Slavery & Yes & Yes\\
+\cite{4000} & 1 & 121 & -.24 & Cross-Sectional & Convenience & > 18 & Europe & Germany & L.-T. Migration & Yes & Yes\\
+\cite{893} & 1 & 410 & .07 & Cross-Sectional & Probability & > 18 & Europe & UK & Religion & Yes & Yes\\
+\cite{3005} & 1 & 93 & -.18 & Cross-Sectional & Students & > 18 & Europe & Norway & L.-T. Migration & Yes & No\\
+\cite{1850} & 1 & 110 & .04 & Cross-Sectional & Convenience & > 18 & Europe & Russia & L.-T. Migration & No & No\\
+\cite{823} & 1 & 612 & -.15 & Cross-Sectional & Students & > 18 & N. America & USA & S.-T. Migration & Yes & No\\
+\cite{1762} & 1 & 191 & .14 & Cross-Sectional & Convenience & < 18 & N. America & Canada & Post-Colonial & Yes & Yes\\
+\cite{2391} & 1 & 400 & -.03 & Longitudinal & Convenience & > 18 & Europe & Italy & L.-T. Migration & No & Yes\\
+\cite{3051} & 1 & 1,211 & -.07 & Cross-Sectional & Probability & > 18 & Europe & Denmark & L.-T. Migration & Yes & No\\
+\cite{956} & 1 & 233 & -.24 & Cross-Sectional & Students & > 18 & Europe & UK & Sexuality & Yes & Yes\\
+ & 2 & 433 & -.09 & Longitudinal & Students & > 18 & Multiple & Multiple & Sexuality & Yes & Yes\\
+\cite{2380} & 1 & 76 & -.13 & Cross-Sectional & Students & > 18 & Asia & India & Caste & No & Yes\\
+ & 2 & 127 & -.00 & Cross-Sectional & Students & > 18 & Asia & India & Caste & No & Yes\\
+\cite{803} & 1 & 429 & -.12 & Cross-Sectional & Probability & > 18 & N. America & USA & L.-T. Migration & Yes & Yes\\
+\cite{703} & 1 & 68 & .04 & Cross-Sectional & Students & < 18 & N. America & USA & Post-Slavery & Yes & Yes\\
+\cite{244} & 1 & 129 & .04 & Cross-Sectional & Students & < 18 & N. America & USA & Post-Slavery & Yes & Yes\\
+\cite{2333} & 1 & 1,337 & .02 & Cross-Sectional & Students & > 18 & N. America & USA & L.-T. Migration & No & Yes\\
+\cite{4005} & 1 & 74 & -.34 & Cross-Sectional & Students & > 18 & Asia & Israel & L.-T. Migration & Yes & Yes\\
+\cite{813} & 2 & 175 & -.22 & Cross-Sectional & Students & > 18 & Asia & Israel & Post-Colonial & Yes & Yes\\
+\cite{2382} & 1 & 751 & -.02 & Longitudinal & Probability & < 18 & Europe & UK & L.-T. Migration & No & Yes\\
+\cite{1695} & 1 & 1,008 & -.02 & Cross-Sectional & Probability & > 18 & Oceania & NZ & Post-Colonial & Yes & Yes\\
+\cite{2381} & 1 & 1,977 & -.10 & Longitudinal & Probability & > 18 & Oceania & NZ & Post-Colonial & No & No\\
+ & 2 & 526 & -.02 & Longitudinal & Probability & > 18 & Oceania & NZ & L.-T. Migration & No & No\\
+ & 3 & 684 & -.03 & Longitudinal & Probability & > 18 & Oceania & NZ & L.-T. Migration & No & No\\
+\cite{2385} & 1 & 4,708 & .02 & Cross-Sectional & Probability & > 18 & Asia & India & Religion & No & Yes\\
+\cite{2392} & 1 & 13,646 & -.11 & Cross-Sectional & Probability & > 18 & Asia & India & Caste & No & Yes\\
+ & 2 & 1,526 & -.21 & Cross-Sectional & Probability & > 18 & Asia & India & Religion & No & Yes\\
+ & 2 & 49,764 & -.10 & Cross-Sectional & Probability & > 18 & Asia & India & Caste & No & Yes\\
+ & 3 & 935 & -.19 & Cross-Sectional & Probability & > 18 & Asia & India & Religion & No & Yes\\
+ & 3 & 33,137 & -.08 & Cross-Sectional & Probability & > 18 & Asia & India & Caste & No & Yes\\
+ & 4 & 271 & -.22 & Cross-Sectional & Probability & > 18 & Asia & India & Religion & No & Yes\\
+\cite{1891} & 1 & 753 & -.11 & Cross-Sectional & Students & > 18 & N. America & USA & L.-T. Migration & No & No\\
+\cite{789} & 1 & 281 & .04 & Quasi-Experimental & Students & < 18 & Asia & Israel & Post-Colonial & Yes & Yes\\
+\cite{3060} & 1 & 385 & .00 & Cross-Sectional & Convenience & > 18 & N. America & USA & Post-Slavery & Yes & No\\
+\cite{733} & 1 & 249 & -.38 & Cross-Sectional & Students & > 18 & Europe & UK & S.-T. Migration & Yes & No\\
+\cite{1020} & 1 & 81 & -.75 & Cross-Sectional & Students & > 18 & Europe & UK & S.-T. Migration & Yes & No\\
+ & 2 & 110 & -.03 & Cross-Sectional & Students & > 18 & Europe & UK & S.-T. Migration & Yes & No\\
+\cite{2375} & 1 & 112 & -.06 & Cross-Sectional & Students & > 18 & N. America & USA & L.-T. Migration & Yes & Yes\\
+\cite{46} & 1 & 1,445 & -.08 & Cross-Sectional & Probability & < 18 & Europe & Belgium & S.-T. Migration & Yes & No\\
+\cite{1412} & 1 & 3,958 & -.03 & Cross-Sectional & Probability & > 18 & Europe & Denmark & L.-T. Migration & Yes & No\\
+\cite{1966} & 1 & 506 & .00 & Cross-Sectional & Convenience & < 18 & Europe & Germany & L.-T. Migration & Yes & No\\
+ & 1 & 506 & -.04 & Cross-Sectional & Convenience & < 18 & Europe & Germany & L.-T. Migration & Yes & No\\
+ & 2 & 506 & -.07 & Cross-Sectional & Convenience & < 18 & Asia & Israel & L.-T. Migration & Yes & No\\
+ & 2 & 506 & -.12 & Cross-Sectional & Convenience & < 18 & Asia & Israel & L.-T. Migration & Yes & No\\
+\cite{1221} & 1 & 313 & -.00 & Cross-Sectional & Probability & < 18 & N. America & USA & L.-T. Migration & No & No\\
+ & 2 & 918 & .07 & Cross-Sectional & Probability & < 18 & N. America & USA & Post-Slavery & No & No\\
+ & 3 & 118 & .08 & Cross-Sectional & Probability & < 18 & N. America & USA & Post-Colonial & No & No\\
+ & 4 & 150 & -.07 & Cross-Sectional & Probability & < 18 & N. America & USA & L.-T. Migration & No & No\\
+\cite{1743} & 1 & 72 & -.29 & Longitudinal & Students & > 18 & N. America & USA & Post-Slavery & Yes & Yes\\
+ & 2 & 282 & -.11 & Longitudinal & Students & > 18 & N. America & USA & L.-T. Migration & Yes & Yes\\
+ & 3 & 417 & .05 & Longitudinal & Students & > 18 & N. America & USA & L.-T. Migration & Yes & Yes\\
+\cite{1658} & 1 & 502 & -.25 & Cross-Sectional & Probability & > 18 & N. America & USA & Post-Slavery & Yes & No\\
+ & 2 & 500 & -.26 & Cross-Sectional & Probability & > 18 & N. America & USA & L.-T. Migration & Yes & No\\
+ & 3 & 501 & -.20 & Cross-Sectional & Probability & > 18 & N. America & USA & L.-T. Migration & Yes & No\\
+\cite{933} & 1 & 709 & .06 & Cross-Sectional & Probability & > 18 & N. America & USA & Post-Slavery & Yes & Yes\\
+\cite{2394} & 1 & 201 & -.10 & Cross-Sectional & Convenience & > 18 & N. America & USA & L.-T. Migration & No & Yes\\
+ & 2 & 209 & .08 & Cross-Sectional & Convenience & > 18 & N. America & USA & Post-Slavery & No & Yes\\
+\cite{829} & 1 & 736 & .03 & Cross-Sectional & Students & < 18 & Multiple & Multiple & L.-T. Migration & Yes & No\\
+\cite{2383} & 1 & 466 & -.07 & Cross-Sectional & Students & < 18 & Europe & UK & L.-T. Migration & No & No\\
+ & 2 & 161 & -.04 & Cross-Sectional & Students & < 18 & Europe & UK & L.-T. Migration & No & No\\
+ & 3 & 86 & .06 & Cross-Sectional & Students & < 18 & Europe & UK & Other & No & No\\
+\cite{1395} & 1 & 726 & -.09 & Cross-Sectional & Students & > 18 & Asia & Hong Kong & S.-T. Migration & Yes & No\\
+\cite{3000} & 1 & 2,201 & -.11 & Cross-Sectional & Students & > 18 & Asia & Hong Kong & S.-T. Migration & Yes & No\\
+
+\end{xltabular}
+
+\newpage
+
+\begin{xltabular}{650pt}{Xrrrllrlllll}
+ 
+	\caption{List of samples/studies for collective action \label{tab:ca}}\\
+ \toprule
+	Study &  & $N$ & $r$ & Design & Sample & Age & Continent & Country & Setting & Published & Intended \\
+ \midrule
+ \endfirsthead
+
+ \toprule
+	Study &  & $N$ & $r$ & Design & Sample & Age & Continent & Country & Setting & Published & Intended \\
+ \midrule
+ \endhead
+
+ \bottomrule
+ \endfoot
+
+ \bottomrule\addlinespace
+ \multicolumn{12}{p{650pt}}{\textit{Note.} Age: > 18 = Sample consisted of adults (> 18 years). > 18 = Sample included adolescents/children (< 18 years). Setting: L.-T. Migration = Long-Term Migration, S.-T. Migration = Short-Term Migration. Published: Has the study been published? Intended: Was the study conducted with the intention to examine the effects of intergroup contact on one or more of the three outcome measures?}
+  \endlastfoot
+  
+  \cite{3201} & 1 & 159 & -.19 & Cross-Sectional & Convenience & > 18 & Asia & Palestine & Post-Colonial & Yes & Yes\\
+\cite{322} & 1 & 151 & -.10 & Cross-Sectional & Students & > 18 & Asia & Turkey & Post-Colonial & Yes & Yes\\
+\cite{414} & 1 & 269 & .31 & Cross-Sectional & Convenience & > 18 & Asia & Turkey & Other & Yes & Yes\\
+\cite{2075} & 1 & 81 & -.35 & Experimental & Students & > 18 & N. America & Canada & Other & Yes & Yes\\
+\cite{2397} & 1 & 501 & .05 & Cross-Sectional & Probability & > 18 & Europe & UK & L.-T. Migration & No & Yes\\
+\cite{284} & 1 & 488 & -.29 & Cross-Sectional & Students & > 18 & Africa & S. Africa & Post-Colonial & Yes & Yes\\
+\cite{1248} & 1 & 209 & -.13 & Cross-Sectional & Convenience & > 18 & Asia & Turkey & Post-Colonial & Yes & Yes\\
+\cite{3196} & 1 & 165 & .20 & Cross-Sectional & Students & < 18 & Europe & Italy & L.-T. Migration & Yes & Yes\\
+\cite{93} & 1 & 449 & .15 & Cross-Sectional & Students & > 18 & Asia & India & Religion & Yes & Yes\\
+\cite{2033} & 1 & 203 & .05 & Experimental & Students & > 18 & N. America & Canada & L.-T. Migration & Yes & Yes\\
+\cite{3054} & 1 & 1,000 & -.04 & Cross-Sectional & Convenience & > 18 & Multiple & Multiple & Multiple & Yes & Yes\\
+ & 11 & 3,883 & -.09 & Cross-Sectional & Convenience & > 18 & Multiple & Multiple & Sexuality & Yes & Yes\\
+\cite{2309} & 1 & 195 & .08 & Cross-Sectional & Convenience & > 18 & N. America & USA & Post-Slavery & Yes & Yes\\
+ & 2 & 170 & -.03 & Cross-Sectional & Convenience & > 18 & N. America & USA & L.-T. Migration & Yes & Yes\\
+\cite{894} & 1 & 176 & -.12 & Cross-Sectional & Students & > 18 & N. America & USA & L.-T. Migration & No & Yes\\
+ & 2 & 126 & -.10 & Cross-Sectional & Students & > 18 & N. America & USA & Post-Slavery & No & Yes\\
+\cite{1376} & 1 & 85 & -.30 & Cross-Sectional & Students & > 18 & Europe & UK & Religion & Yes & Yes\\
+\cite{4004} & 1 & 320 & .16 & Cross-Sectional & Convenience & < 18 & Europe & Bulgaria & Other & Yes & Yes\\
+\cite{2391} & 1 & 400 & .04 & Longitudinal & Convenience & > 18 & Europe & Italy & L.-T. Migration & No & Yes\\
+\cite{956} & 1 & 233 & -.03 & Cross-Sectional & Students & > 18 & Europe & UK & Sexuality & Yes & Yes\\
+ & 2 & 433 & .05 & Longitudinal & Students & > 18 & Multiple & Multiple & Sexuality & Yes & Yes\\
+\cite{1114} & 1 & 581 & -.28 & Cross-Sectional & Probability & > 18 & Asia & Lebanon & L.-T. Migration & Yes & Yes\\
+\cite{2382} & 1 & 751 & -.22 & Longitudinal & Probability & < 18 & Europe & UK & L.-T. Migration & No & Yes\\
+\cite{2381} & 1 & 1,977 & -.06 & Longitudinal & Probability & > 18 & Oceania & NZ & Post-Colonial & No & No\\
+ & 2 & 526 & .00 & Longitudinal & Probability & > 18 & Oceania & NZ & L.-T. Migration & No & No\\
+ & 3 & 684 & .02 & Longitudinal & Probability & > 18 & Oceania & NZ & L.-T. Migration & No & No\\
+\cite{2385} & 1 & 4,708 & .03 & Cross-Sectional & Probability & > 18 & Asia & India & Religion & No & Yes\\
+\cite{2392} & 1 & 13,646 & -.03 & Cross-Sectional & Probability & > 18 & Asia & India & Caste & No & Yes\\
+ & 2 & 1,526 & -.28 & Cross-Sectional & Probability & > 18 & Asia & India & Religion & No & Yes\\
+ & 2 & 49,764 & -.02 & Cross-Sectional & Probability & > 18 & Asia & India & Caste & No & Yes\\
+ & 3 & 935 & -.02 & Cross-Sectional & Probability & > 18 & Asia & India & Religion & No & Yes\\
+ & 3 & 33,137 & -.03 & Cross-Sectional & Probability & > 18 & Asia & India & Caste & No & Yes\\
+ & 4 & 271 & .08 & Cross-Sectional & Probability & > 18 & Asia & India & Religion & No & Yes\\
+\cite{2375} & 1 & 112 & -.23 & Cross-Sectional & Students & > 18 & N. America & USA & L.-T. Migration & Yes & Yes\\
+\cite{1743} & 1 & 72 & -.12 & Longitudinal & Students & > 18 & N. America & USA & Post-Slavery & Yes & Yes\\
+ & 2 & 282 & -.17 & Longitudinal & Students & > 18 & N. America & USA & L.-T. Migration & Yes & Yes\\
+ & 3 & 417 & .03 & Longitudinal & Students & > 18 & N. America & USA & L.-T. Migration & Yes & Yes\\
+ 
+\end{xltabular}
+
+\newpage
+
+\begin{xltabular}{650pt}{Xrrrllrlllll}
+ 
+	\caption{List of samples/studies for policy support \label{tab:ps}}\\
+ \toprule
+	Study &  & $N$ & $r$ & Design & Sample & Age & Continent & Country & Setting & Published & Intended \\
+ \midrule
+ \endfirsthead
+
+ \toprule
+	Study &  & $N$ & $r$ & Design & Sample & Age & Continent & Country & Setting & Published & Intended \\
+ \midrule
+ \endhead
+
+ \bottomrule
+ \endfoot
+
+ \bottomrule\addlinespace
+ \multicolumn{12}{p{650pt}}{\textit{Note.} Age: > 18 = Sample consisted of adults (> 18 years). > 18 = Sample included adolescents/children (< 18 years). Setting: L.-T. Migration = Long-Term Migration, S.-T. Migration = Short-Term Migration. Published: Has the study been published? Intended: Was the study conducted with the intention to examine the effects of intergroup contact on one or more of the three outcome measures?}
+ \endlastfoot
+ 
+ \cite{284} & 1 & 488 & -.27 & Cross-Sectional & Students & > 18 & Africa & S. Africa & Post-Colonial & Yes & Yes\\
+\cite{1614} & 1 & 320 & -.23 & Cross-Sectional & Students & > 18 & Asia & Turkey & Post-Colonial & Yes & Yes\\
+\cite{3205} & 1 & 602 & -.09 & Cross-Sectional & Probability & > 18 & Europe & Romania & Other & Yes & Yes\\
+\cite{1386} & 1 & 1,556 & -.09 & Cross-Sectional & Probability & > 18 & Africa & S. Africa & Post-Colonial & Yes & Yes\\
+\cite{1549} & 1 & 658 & -.09 & Cross-Sectional & Probability & > 18 & N. America & USA & Post-Slavery & No & Yes\\
+\cite{3054} & 1 & 1,000 & -.01 & Cross-Sectional & Convenience & > 18 & Multiple & Multiple & Multiple & Yes & Yes\\
+ & 11 & 3,883 & -.09 & Cross-Sectional & Convenience & > 18 & Multiple & Multiple & Sexuality & Yes & Yes\\
+\cite{856} & 1 & 187 & .06 & Cross-Sectional & Students & < 18 & Europe & Macedonia & Other & Yes & Yes\\
+\cite{1042} & 1 & 165 & .17 & Cross-Sectional & Students & > 18 & N. America & USA & L.-T. Migration & Yes & Yes\\
+ & 2 & 92 & .10 & Cross-Sectional & Students & > 18 & N. America & USA & Post-Slavery & Yes & Yes\\
+\cite{2380} & 1 & 76 & -.10 & Cross-Sectional & Students & > 18 & Asia & India & Caste & No & Yes\\
+ & 2 & 127 & -.04 & Cross-Sectional & Students & > 18 & Asia & India & Caste & No & Yes\\
+\cite{4005} & 1 & 74 & -.24 & Cross-Sectional & Students & > 18 & Asia & Israel & L.-T. Migration & Yes & Yes\\
+\cite{813} & 2 & 175 & .00 & Cross-Sectional & Students & > 18 & Asia & Israel & Post-Colonial & Yes & Yes\\
+\cite{1695} & 1 & 1,008 & .03 & Cross-Sectional & Probability & > 18 & Oceania & NZ & Post-Colonial & Yes & Yes\\
+\cite{2381} & 1 & 1,977 & -.02 & Longitudinal & Probability & > 18 & Oceania & NZ & Post-Colonial & No & No\\
+ & 2 & 526 & -.00 & Longitudinal & Probability & > 18 & Oceania & NZ & L.-T. Migration & No & No\\
+ & 3 & 684 & -.00 & Longitudinal & Probability & > 18 & Oceania & NZ & L.-T. Migration & No & No\\
+\cite{286} & 1 & 105 & -.14 & Cross-Sectional & Convenience & > 18 & Asia & Turkey & Post-Colonial & Yes & Yes\\
+ 
+\end{xltabular}
+ 
+\end{landscape}
+
+\printbibliography
 
 \end{document}

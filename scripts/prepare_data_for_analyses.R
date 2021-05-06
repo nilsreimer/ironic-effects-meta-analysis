@@ -1,14 +1,7 @@
 rm(list = ls())
 
 # Notes -------------------------------------------------------------------
-  
-  #########################################################################
-  # 414 (1) and 2257 are likely duplicates—but have different measures.   # 
-  #########################################################################
 
-  #########################################################################
-  # Something is wrong with 2381's entry which contains ps double.        #
-  #########################################################################
 
 # Library -----------------------------------------------------------------
 
@@ -199,7 +192,7 @@ rm(list = ls())
   # Arrange for export
   dl <- dl %>% arrange(id, sample, x, y)
   
-  # Code (missing) moderators (for now)
+  # Code missing moderators (for unpublished data)
   dl <- dl %>% 
     mutate(
       study_setting = case_when(
