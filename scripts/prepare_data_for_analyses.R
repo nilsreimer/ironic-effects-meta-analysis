@@ -202,42 +202,28 @@ rm(list = ls())
         id == 2396L & sample == 1L ~ "Other",
         id == 2396L & sample == 2L ~ "Sexuality",
         id == 2396L & sample == 3L ~ "Colonization",
-        id == 2397L & sample == 1L ~ "Long-term migration"
+        id == 2397L & sample == 1L ~ "Long-term migration",
+        id == 2398L & sample == 1L ~ "Long-term migration"
       ),
-      ic_direct = case_when(
-        !is.na(ic_direct) ~ ic_direct,
-        id == 2395L & sample == 1L ~ "Directly",
-        id == 2395L & sample == 2L ~ "Directly",
-        id == 2396L & sample == 1L ~ "Directly",
-        id == 2396L & sample == 2L ~ "Directly",
-        id == 2396L & sample == 3L ~ "Directly",
-        id == 2397L & sample == 1L ~ "Directly"
+      ingroup = case_when(
+        !is.na(ingroup) ~ ingroup,
+        id == 2395L & sample == 1L ~ "Kurdish people",
+        id == 2395L & sample == 2L ~ "Black people",
+        id == 2396L & sample == 1L ~ "Disabled people",
+        id == 2396L & sample == 2L ~ "LGBTI people",
+        id == 2396L & sample == 3L ~ "Kurdish people",
+        id == 2397L & sample == 1L ~ "Black people",
+        id == 2398L & sample == 1L ~ "Asian people"
       ),
-      pi_specific = case_when(
-        !is.na(pi_specific) ~ pi_specific,
-        id == 2395L & sample == 1L & y == "gd" ~ "General",
-        id == 2395L & sample == 1L & y == "pd" ~ "General",
-        id == 2395L & sample == 1L & y == "rd" ~ "General",
-        id == 2395L & sample == 2L & y == "gd" ~ "General",
-        id == 2395L & sample == 2L & y == "pd" ~ "General",
-        id == 2395L & sample == 2L & y == "rd" ~ "General",
-        id == 2396L & sample == 1L & y == "pd" ~ "Specific",
-        id == 2396L & sample == 2L & y == "pd" ~ "Specific",
-        id == 2396L & sample == 3L & y == "pd" ~ "Specific",
-        id == 2397L & sample == 1L & y == "rd" ~ "Specific"
-      ),
-      pi_personal = case_when(
-        !is.na(pi_personal) ~ pi_personal,
-        id == 2395L & sample == 1L & y == "gd" ~ "Group",
-        id == 2395L & sample == 1L & y == "pd" ~ "Personal",
-        id == 2395L & sample == 1L & y == "rd" ~ "Group",
-        id == 2395L & sample == 2L & y == "gd" ~ "Group",
-        id == 2395L & sample == 2L & y == "pd" ~ "Personal",
-        id == 2395L & sample == 2L & y == "rd" ~ "Group",
-        id == 2396L & sample == 1L & y == "pd" ~ "Personal",
-        id == 2396L & sample == 2L & y == "pd" ~ "Personal",
-        id == 2396L & sample == 3L & y == "pd" ~ "Personal",
-        id == 2397L & sample == 1L & y == "rd" ~ "Group"
+      outgroup = case_when(
+        !is.na(outgroup) ~ outgroup,
+        id == 2395L & sample == 1L ~ "Turkish people",
+        id == 2395L & sample == 2L ~ "White people",
+        id == 2396L & sample == 1L ~ "Non-disabled people",
+        id == 2396L & sample == 2L ~ "Heterosexual people",
+        id == 2396L & sample == 3L ~ "Turkish people",
+        id == 2397L & sample == 1L ~ "White people",
+        id == 2398L & sample == 1L ~ "White people"
       )
     )
   

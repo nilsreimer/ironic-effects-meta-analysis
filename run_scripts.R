@@ -4,7 +4,8 @@ rm(list = ls())
   
   #########################################################################
   # This script runs all R scripts in the order in which they need to be  #
-  # run to reproduce the analyses reported in the manuscript.             #
+  # run to reproduce the analyses reported in the manuscript. You might   #
+  # need to restart R between scripts.                                    #
   #########################################################################
 
 # Prepare -----------------------------------------------------------------

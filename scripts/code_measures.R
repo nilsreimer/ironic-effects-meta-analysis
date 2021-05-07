@@ -68,7 +68,7 @@ rm(list = ls())
     "Both", "Both", "Both", "Both", "Group",
     "General", "General", "Personal", "General", "General",
     "Both", "General", "General", "General", "General",
-    "Group", "Group", "General", "General", "General", "Specific"
+    "Group", "Group", "General", "General", "Specific", "General", "Specific"
   )
     
   # Resolve disagreements

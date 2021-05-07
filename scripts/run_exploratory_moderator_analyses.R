@@ -61,7 +61,7 @@ rm(list = ls())
   
   # Average effect sizes for multiple (equivalent) outcomes
   es <- es %>% 
-    group_by(id, sample, x, y, x_var, y_var) %>% 
+    group_by(id, sample, x, y, x_var, y_var, ic_direct, pi_specific, pi_personal) %>% 
     summarise(
       n = unique(n), 
       r = mean(r, na.rm = TRUE)
@@ -91,7 +91,7 @@ rm(list = ls())
   # Add (categorical) moderators
   es <- dl %>% 
     distinct(
-      id, sample, x, y, pi_specific, pi_personal, ic_direct, 
+      id, sample, x, y, 
       study_setting, study_design, study_sample, age,
       study_intention, publication_status
     ) %>% 
@@ -121,8 +121,8 @@ rm(list = ls())
       kk = case_when(
         age != "Adults" ~ 1L,
         ic_direct != "Directly" ~ 2L,
-        !(study_setting %in% c("Colonization", "Short-term migration")) ~ 3L,
-        study_setting %in% c("Colonization", "Short-term migration") ~ 4L
+        !(study_setting %in% c("Colonization", "Short-term migration", "Sexuality")) ~ 3L,
+        study_setting %in% c("Colonization", "Short-term migration", "Sexuality") ~ 4L
       )
     )
   
@@ -149,7 +149,7 @@ rm(list = ls())
     mutate(
       study_setting = case_when(
         age != "Adults" | ic_direct == "Indirectly" ~ NA_character_, 
-        str_detect(study_setting, "Colonization|Short-term migration") ~ "Colonization/Short-term migration",
+        str_detect(study_setting, "Colonization|Short-term migration|Sexuality") ~ "Colonization/Short-term migration/Sexuality",
         TRUE ~ "Other"
       ),
       ic_direct = case_when(
@@ -165,7 +165,6 @@ rm(list = ls())
     select(.chain:.draw, kk, r = r_kk, n, R2, age:study_setting)
   
   
-
 # Estimate (collective action) --------------------------------------------
 
   # Set seed
@@ -177,7 +176,7 @@ rm(list = ls())
     vi = vi,
     data = es %>% filter(y_var == "ca"),
     c = 0.0,
-    xval = nrow(es %>% filter(y_var == "ca")),
+    xval = 34,
     lookahead = TRUE
   )
   
@@ -193,7 +192,7 @@ rm(list = ls())
     vi = vi,
     data = es %>% filter(y_var == "ps"),
     c = 0.0,
-    xval = nrow(es %>% filter(y_var == "ps")),
+    xval = 17,
     lookahead = TRUE
   )
 

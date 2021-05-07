@@ -100,9 +100,9 @@ id,coder,n_samples,sample,name,n,variables,comments
 2375,Coder 2,1,1,Latino American college students,112,"cf,gd,ca,gi,oa,o1,o2",NA
 2380,NA,2,1,Scheduled Caste/Scheduled Tribe (Dalits/Adivasi),76,"cq,pc,nc,cf,gd,ps,gi",NA
 2380,NA,2,2,Other Backward Class,127,"cq,pc,nc,cf,gd,ps,gi",NA
-2381,NA,3,1,NZ Maori,1977,"pc,nc,cf,in,pd,gd,rd,pi,ca,gi,oa,o1,o2",NA
-2381,NA,3,2,Pacific Islanders,526,"pc,nc,cf,in,pd,gd,rd,pi,ca,gi,oa,o1,o2",NA
-2381,NA,3,3,Asians,684,"pc,nc,cf,in,pd,gd,rd,pi,ca,gi,oa,o1,o2",NA
+2381,NA,3,1,NZ Maori,1977,"pc,nc,cf,in,pd,gd,rd,pi,ca,gi,oa,ge,o1",NA
+2381,NA,3,2,Pacific Islanders,526,"pc,nc,cf,in,pd,gd,rd,pi,ca,gi,oa,ge,o1",NA
+2381,NA,3,3,Asians,684,"pc,nc,cf,in,pd,gd,rd,pi,ca,gi,oa,ge,o1",NA
 2382,NA,1,1,Asian British people,751,"pc,nc,cf,in,pd,gd,ca,gi,oa",NA
 2383,NA,3,1,Asian British secondary-school students,466,"pc,nc,cf,in,pd,gd,gi,oa",NA
 2383,NA,3,2,Black British secondary-school students,161,"pc,nc,cf,in,pd,gd,gi,oa",NA
@@ -122,7 +122,8 @@ id,coder,n_samples,sample,name,n,variables,comments
 2396,NA,3,1,Disabled people,290,"cf,in,pd,gi",NA
 2396,NA,3,2,LGBTI,381,"cf,in,pd,gi",NA
 2396,NA,3,3,Kurdish,191,"cf,in,pd,gi",NA
-2397,NA,1,1,Black British people,501,"pc,nc,rd,ca,gi,oa,o1,o2",NA
+2397,NA,1,1,Black British people,501,"pc,nc,rd,ca,gi,oa,ge,o1",NA
+2398,NA,1,1,Asian secondary-school students,829,"pc,nc,in,gd,gi,oa",NA
 3000,Coder 1,1,1,Mainland Chinese students in Hong Kong,2201,"cq,pi",NA
 3005,Coder 1,1,1,Study 2,93,"cq,pd",NA
 3051,Coder 1,1,1,Non-Western immigrants in Denmark,1211,"cf,pd,gd,oa",NA

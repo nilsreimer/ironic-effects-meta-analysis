@@ -123,7 +123,7 @@ Some study designs resulted in more than one effect size for the same measure: W
 
 In addition to extracting and selecting effect sizes for the preregistered analyses, we collected data on a broad range of potential moderators. All moderators that required subjective assessments were coded by both authors. We calculated inter-rater agreement (Cohen’s $\kappa$) and resolved all disagreements by consensus.
 
-***Study Setting.*** For each sample, we recorded in what country (or countries) the data was collected ($\kappa = .97$) and what the disadvantaged ingroup and the advantaged outgroup were. We categorized each sample’s setting according to whether the source of the groups’ relative inequality was long-term migration (e.g., Asian Americans), short-term  migration (e.g., international students), slavery (e.g., Black Americans), colonization (e.g., Māori, Black South Africans), religion, caste, sexuality, or another distinction ($\kappa = .84$).
+***Study Setting.*** For each sample, we recorded in what country (or countries) the data was collected ($\kappa = .97$) and what the disadvantaged ingroup and the advantaged outgroup were. We categorized each sample’s setting according to whether the source of the groups’ relative inequality was long-term migration (e.g., Asian Americans), short-term  migration (e.g., international students), slavery (e.g., Black Americans), colonization (e.g., Māori, Black South Africans), religion, caste, sexuality, or another distinction ($\kappa = .85$).
 
 ***Study Design.*** We categorized each study as either observational and cross-sectional, observational and longitudinal, quasi-experimental, experimental, an intervention, or other ($\kappa = .85$). We categorized each sample as either a student convenience sample, a non-student convenience sample, a probability or representative sample, or another kind of sample ($\kappa = .73$). We categorized the age group(s) in each sample as children ($\leq 12$ years), adolescents (13–18 years), or adults ($\geq 18$ years; $\kappa = .64$).
 
@@ -133,7 +133,7 @@ In addition to extracting and selecting effect sizes for the preregistered analy
 
 ***Predictor Variables.*** For each measure of intergroup contact, we coded whether it assessed contact with the specific advantaged outgroup of interest directly—or whether it assessed contact indirectly by, for example, asking what proportion of someone’s friends were not from the participants’ ingroup or what proportion of residents in someone’s neighbourhood were from the relevant outgroup ($\kappa = .82$).
 
-***Outcome Variables.*** For each measure of perceived injustice, we coded whether it refered to specific instances of discrimination, to a more general perception of discrimination, or to both ($\kappa = .67$) and whether it assessed personal discrimination, group discrimination, or both ($\kappa = .83$).
+***Outcome Variables.*** For each measure of perceived injustice, we coded whether it refered to specific instances of discrimination, to a more general perception of discrimination, or to both ($\kappa = .67$) and whether it assessed personal discrimination, group discrimination, or both ($\kappa = .84$).
 
 ***Cultural Distance.*** We also used the measure developed by @muthukrishna_beyond_2020, when available, to quantify each country’s cultural distance from the United States, which represents the cultural context of most psychological research [@henrich_weirdest_2010].
 

@@ -246,6 +246,7 @@ rm(list = ls())
       ingroup,
       outgroup,
       age = case_when(
+        age_adolescents == 1L & age_children == 1L ~ "Children\n(≤ 12 years),Adolescents\n(13 - 18 years)",
         age_adolescents == 1L & age_adults == 1L ~ "Adolescents\n(13 - 18 years),Adults\n(≥ 18 years)",
         age_adolescents == 1L ~ "Adolescents\n(13 - 18 years)",
         age_adults == 1L ~ "Adults\n(≥ 18 years)",
