@@ -313,7 +313,7 @@ rm(list = ls())
     stan(
       "models/1l-meta-analysis.stan",
       data = .,
-      control = list(adapt_delta = 0.95),
+      control = list(adapt_delta = 0.99),
       chains = n_cores,
       iter = n_warmup + n_iter/n_cores,
       warmup = n_warmup,

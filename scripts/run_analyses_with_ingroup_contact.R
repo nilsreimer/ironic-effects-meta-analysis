@@ -52,6 +52,7 @@ rm(list = ls())
         id == 2382L & x == "cf" ~ "og",
         id == 2383L & x == "cf" ~ "og",
         id == 2396L & x == "cf" ~ "og",
+        id == 2398L & x == "pc" ~ "og",
         TRUE ~ x
       ),
       y = case_when(
@@ -70,6 +71,7 @@ rm(list = ls())
         id == 2382L & y == "cf" ~ "og",
         id == 2383L & y == "cf" ~ "og",
         id == 2396L & y == "cf" ~ "og",
+        id == 2398L & y == "pc" ~ "og",
         TRUE ~ y
       )
     ) %>% 

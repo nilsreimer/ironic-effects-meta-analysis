@@ -360,9 +360,32 @@ We conducted two kinds of moderator analyses. For both analyses, we had an insuf
 \end{figure*}
 ```
 
-First, we used meta-regression models to examine specific moderator variables which we expected to explain heterogeneity in effect sizes across samples. Figure 4 shows results for categorical moderator variables. We found that the setting of the study ($R^2 = 20\%$), participants’ age group ($R^2 = 12\%$), and whether intergroup contact was measured directly or indirectly ($R^2 = 10\%$) explained the most variance across effect sizes. Figure 5 shows results from country-level analyses examining cultural context as a moderator variable. We found that cultural distance from the United States tended to be associated with larger effect sizes—although we had data from too few countries to reach any firm conclusions. 
+```{r, include = FALSE}
 
-Second, we used meta-regression trees to discover interactions between moderator variables that best explained heterogeneity in effect sizes [@li_multiple_2020]. Figure 6 shows the resulting meta-regression that explained more variance across samples than any individual moderator ($R^2 = 31\%$). We found that intergroup contact was associated with less perceived injustice only in studies that focused on adults and that measured intergroup contact directly. Among these studies, this association was stronger in settings in which the groups’ relative inequality stemmed from short-term migration or colonization ($r = -.18, [-.23, -.13]$) than in other settings ($r = -.09, [-.12, -.06]$).
+  # Import results from moderator analyses
+  R2 <- read_rds("../results/results_categorical_moderator_analyses.rds") %>% 
+    mutate(
+      R2 = map_dbl(R2, ~median(.$R2)), 
+      R2 = glue("$R^2 = {f_num(R2 * 100, digits = 0)}\\%$")
+    ) %>% 
+    filter(y_var == "pi") %>% 
+    select(moderator, R2)
+
+  # Import results from moderator analyses
+  meta_cart <- read_rds("../results/results_exploratory_moderator_analyses.rds") %>% 
+    group_by(kk, age, ic_direct, study_setting) %>% 
+    summarize(
+      r_kk = glue("$r = {f_num(median(r), digits = 2)}, [{f_num(quantile(r, 0.025), digits = 2)}, {f_num(quantile(r, 0.975), digits = 2)}]$"),
+      R2 = glue("$R^2 = {f_num(median(R2) * 100, digits = 0)}\\%$")
+    ) %>% 
+    ungroup()
+
+
+```
+
+First, we used meta-regression models to examine specific moderator variables which we expected to explain heterogeneity in effect sizes across samples. Figure 4 shows results for categorical moderator variables. We found that the setting of the study (`r with(R2, R2[moderator == "study_setting"])`), participants’ age group (`r with(R2, R2[moderator == "age"])`), and whether intergroup contact was measured directly or indirectly (`r with(R2, R2[moderator == "ic_direct"])`) explained the most variance across effect sizes. Figure 5 shows results from country-level analyses examining cultural context as a moderator variable. We found that cultural distance from the United States tended to be associated with larger effect sizes—although we had data from too few countries to reach any firm conclusions. 
+
+Second, we used meta-regression trees to discover interactions between moderator variables that best explained heterogeneity in effect sizes [@li_multiple_2020]. Figure 6 shows the resulting meta-regression that explained more variance across samples than any individual moderator (`r with(meta_cart, unique(R2))`). We found that intergroup contact was associated with less perceived injustice only in studies that focused on adults and that measured intergroup contact directly. Among these studies, this association was stronger in settings in which the groups’ relative inequality stemmed from short-term migration or colonization (`r with(meta_cart, r_kk[4])`) than in other settings (`r with(meta_cart, r_kk[3])`).
 
 ## Meta Bias
 

@@ -3,7 +3,6 @@ title: "Supplemental Online Materials"
 subtitle: Meta-Analysis of the 'Ironic' Effects of Intergroup Contact
 bibliography: references.bib
 output:
-  word_document: default
   pdf_document:
     latex_engine: pdflatex
     keep_tex: yes

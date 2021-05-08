@@ -170,7 +170,46 @@ rm(list = ls())
         rename(y = variable),
       by = c("id", "sample", "y", "y_var", "y_name", "y_text")
     )
-
+  dl <- dl %>% 
+    filter(y_var == "pi", is.na(pi_specific), is.na(pi_personal), !is.na(r)) %>% 
+    select(-pi_specific, -pi_personal) %>% 
+    left_join(
+      mo_mi %>% 
+        filter(var == "pi") %>% 
+        select(-starts_with("ic_")) %>% 
+        rename_with(~paste0("y_", .), c("var", "name")) %>% 
+        rename(y = variable),
+      by = c("id", "sample", "y", "y_var", "y_name")
+    ) %>% 
+    bind_rows(
+      dl %>% filter(
+        y_var != "pi" | 
+        (y_var == "pi" & !is.na(pi_specific) & !is.na(pi_personal)) | 
+        is.na(r)
+      ),
+      .
+    )
+  dl <- dl %>% 
+    filter(x_var == "ic", is.na(ic_direct), !is.na(r)) %>% 
+    select(-ic_direct) %>% 
+    left_join(
+      mo_mi %>% 
+        filter(var == "ic") %>% 
+        select(-starts_with("pi_")) %>% 
+        rename_with(~paste0("x_", .), c("var")) %>% 
+        rename(x = variable),
+      by = c("id", "sample", "x", "x_var")
+    ) %>% 
+    bind_rows(
+      dl %>% filter(
+        x_var != "ic" | 
+          (x_var == "ic" & !is.na(ic_direct)) | 
+          is.na(r)
+      ),
+      .
+    )
+  
+  
 
 # Export ------------------------------------------------------------------
 
@@ -192,7 +231,7 @@ rm(list = ls())
   # Arrange for export
   dl <- dl %>% arrange(id, sample, x, y)
   
-  # Code missing moderators (for unpublished data)
+  # Add missing study information (for unpublished data)
   dl <- dl %>% 
     mutate(
       study_setting = case_when(

@@ -19,8 +19,7 @@ rm(list = ls())
   seeds    <- c(6967674, 5768664, 7517370)
   options(mc.cores = n_cores)
   rstan_options(auto_write = TRUE)
-  Sys.setenv(LOCAL_CPPFLAGS = '-march=corei7 -mtune=corei7')
-  
+
   # Link functions
   r_to_z <- function(r) 0.5 * log( (1 + r) / (1 - r) )
   z_to_r <- function(z) ( exp(2 * z) - 1 ) / ( exp(2 * z) + 1 )

@@ -92,6 +92,7 @@ rm(list = ls())
   # Load model
   model <- stan_model("models/2l-meta-analysis-with-negative-contact.stan")
 
+
 # Estimate (perceived injustice) ------------------------------------------
   
   # Prepare data list

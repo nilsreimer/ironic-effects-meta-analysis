@@ -26,7 +26,7 @@ rm(list = ls())
     xmin = c(0.0, 1.0, 2.0, 3.0, 3.0, 3.0, 3.0),
     xmax = c(0.8, 1.8, 2.8, 3.8, 3.8, 3.8, 3.8),
     ymin = c(1.5, 1.0, 0.5, 0.0, 1.0, 2.0, 3.0),
-    ymax = c(2.3, 1.8, 1.3, 0.8, 1.8, 2.8, 3.8) + 0.1
+    ymax = c(2.3, 1.8, 1.3, 0.8, 1.8, 2.8, 3.8)
   )
   
   # Create arrows
@@ -40,12 +40,12 @@ rm(list = ls())
   # Create labels
   labels <- tibble(
     x = c(0.4, 1.4, 2.4, 3.4, 3.4, 3.4, 3.4),
-    y = c(1.9, 1.4, 0.9, 0.4, 1.4, 2.4, 3.4) + 0.05,
+    y = c(1.9, 1.4, 0.9, 0.4, 1.4, 2.4, 3.4),
     text = c(
       glue("*I* = {sum(d_6a$n)}"),
       glue("Adults<br>*I* = {d_6a$n[2] + d_6a$n[3] + d_6a$n[4]}"),
       glue("Direct<br>Measurement<br>*I* = {d_6a$n[3] + d_6a$n[4]}"),
-      glue("Post-Colonial/<br>S.-T. Migration/<br>Sexuality<br>*I* = {d_6a$n[4]}"),
+      glue("Post-Colonial/<br>S.-T. Migration<br>*I* = {d_6a$n[4]}"),
       glue("Other Settings<br>*I* = {d_6a$n[3]}"),
       glue("Indirect<br>Measurement<br>*I* = {d_6a$n[2]}"),
       glue("Adolescents/<br>Children<br>*I* = {d_6a$n[1]}")

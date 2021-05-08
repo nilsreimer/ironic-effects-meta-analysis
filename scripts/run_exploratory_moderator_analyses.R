@@ -109,7 +109,7 @@ rm(list = ls())
     vi = vi,
     data = es %>% filter(y_var == "pi"),
     c = 0.0,
-    xval = nrow(es %>% filter(y_var == "ca")),
+    xval = nrow(es %>% filter(y_var == "pi")),
     lookahead = TRUE
   )
   
@@ -121,8 +121,8 @@ rm(list = ls())
       kk = case_when(
         age != "Adults" ~ 1L,
         ic_direct != "Directly" ~ 2L,
-        !(study_setting %in% c("Colonization", "Short-term migration", "Sexuality")) ~ 3L,
-        study_setting %in% c("Colonization", "Short-term migration", "Sexuality") ~ 4L
+        !(study_setting %in% c("Colonization", "Short-term migration")) ~ 3L,
+        study_setting %in% c("Colonization", "Short-term migration") ~ 4L
       )
     )
   
@@ -149,7 +149,7 @@ rm(list = ls())
     mutate(
       study_setting = case_when(
         age != "Adults" | ic_direct == "Indirectly" ~ NA_character_, 
-        str_detect(study_setting, "Colonization|Short-term migration|Sexuality") ~ "Colonization/Short-term migration/Sexuality",
+        str_detect(study_setting, "Colonization|Short-term migration") ~ "Colonization/Short-term migration",
         TRUE ~ "Other"
       ),
       ic_direct = case_when(
@@ -176,7 +176,7 @@ rm(list = ls())
     vi = vi,
     data = es %>% filter(y_var == "ca"),
     c = 0.0,
-    xval = 34,
+    xval = nrow(es %>% filter(y_var == "ca")),
     lookahead = TRUE
   )
   
@@ -192,7 +192,7 @@ rm(list = ls())
     vi = vi,
     data = es %>% filter(y_var == "ps"),
     c = 0.0,
-    xval = 17,
+    xval = nrow(es %>% filter(y_var == "ps")),
     lookahead = TRUE
   )
 

@@ -95,5 +95,3 @@ rm(list = ls())
   
   # Export as .rds files (data)
   mo_mi %>% write_rds("data/mo_mi.rds")
-    
-  
