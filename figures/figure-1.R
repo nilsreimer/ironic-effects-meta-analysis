@@ -242,4 +242,7 @@ rm(list = ls())
   )      
   
   # Export data (as .rds)
-  write_rds(counts, "figures/figure-1.rds")
+  write_rds(
+    left_join(counts, records, by = "stage"), 
+    "figures/figure-1.rds"
+  )

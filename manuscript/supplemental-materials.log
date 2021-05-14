@@ -1,4 +1,4 @@
-This is pdfTeX, Version 3.14159265-2.6-1.40.21 (MiKTeX 20.7) (preloaded format=pdflatex 2020.8.30)  7 MAY 2021 20:30
+This is pdfTeX, Version 3.14159265-2.6-1.40.21 (MiKTeX 20.7) (preloaded format=pdflatex 2020.8.30)  13 MAY 2021 18:40
 entering extended mode
 **./supplemental-materials.tex
 (supplemental-materials.tex
@@ -675,30 +675,30 @@ Package microtype Info: Loading generic protrusion settings for font family
 <../figures/figure-s1.pdf, id=52, 469.755pt x 469.755pt>
 File: ../figures/figure-s1.pdf Graphic file (type pdf)
 <use ../figures/figure-s1.pdf>
-Package pdftex.def Info: ../figures/figure-s1.pdf  used on input line 170.
+Package pdftex.def Info: ../figures/figure-s1.pdf  used on input line 179.
 (pdftex.def)             Requested size: 469.75386pt x 469.75386pt.
 <../figures/figure-s2.pdf, id=53, 469.755pt x 469.755pt>
 File: ../figures/figure-s2.pdf Graphic file (type pdf)
 <use ../figures/figure-s2.pdf>
-Package pdftex.def Info: ../figures/figure-s2.pdf  used on input line 178.
+Package pdftex.def Info: ../figures/figure-s2.pdf  used on input line 187.
 (pdftex.def)             Requested size: 469.75386pt x 469.75386pt.
-Package atveryend Info: Empty hook `BeforeClearDocument' on input line 205.
+Package atveryend Info: Empty hook `BeforeClearDocument' on input line 222.
 [3] [4 <../figures/figure-s1.pdf>] [5 <../figures/figure-s2.pdf>]
-Package atveryend Info: Empty hook `AfterLastShipout' on input line 205.
+Package atveryend Info: Empty hook `AfterLastShipout' on input line 222.
 (supplemental-materials.aux)
-Package atveryend Info: Executing hook `AtVeryEndDocument' on input line 205.
-Package atveryend Info: Executing hook `AtEndAfterFileList' on input line 205.
+Package atveryend Info: Executing hook `AtVeryEndDocument' on input line 222.
+Package atveryend Info: Executing hook `AtEndAfterFileList' on input line 222.
 Package rerunfilecheck Info: File `supplemental-materials.out' has not changed.
 
 (rerunfilecheck)             Checksum: 970474F8DAD0CD0B1A93007A074E713E;262.
-Package atveryend Info: Empty hook `AtVeryVeryEnd' on input line 205.
+Package atveryend Info: Empty hook `AtVeryVeryEnd' on input line 222.
  ) 
 Here is how much of TeX's memory you used:
- 13822 strings out of 481178
- 223565 string characters out of 2912453
- 476463 words of memory out of 3000000
+ 13859 strings out of 481178
+ 224541 string characters out of 2912453
+ 475463 words of memory out of 3000000
  28842 multiletter control sequences out of 15000+200000
- 804455 words of font info for 354 fonts, out of 3000000 for 9000
+ 808651 words of font info for 384 fonts, out of 3000000 for 9000
  1141 hyphenation exceptions out of 8191
  50i,7n,59p,390b,458s stack positions out of 5000i,500n,10000p,200000b,50000s
 {C:/Users/nilsr/AppData/Roaming/MiKTeX/2.9/fonts/enc/dvips/mnsymbol/MnSymbolC
@@ -712,10 +712,10 @@ iKTeX/2.9/fonts/type1/Adobe/MinionPro/MinionPro-It.pfb><C:/Users/nilsr/AppData/
 Roaming/MiKTeX/2.9/fonts/type1/Adobe/MinionPro/MinionPro-Regular.pfb><C:/Users/
 nilsr/AppData/Roaming/MiKTeX/2.9/fonts/type1/public/mnsymbol/MnSymbol12.pfb><C:
 /Program Files/MiKTeX 2.9/fonts/type1/public/amsfonts/cm/cmtt12.pfb>
-Output written on supplemental-materials.pdf (5 pages, 273206 bytes).
+Output written on supplemental-materials.pdf (5 pages, 275710 bytes).
 PDF statistics:
- 143 PDF objects out of 1000 (max. 8388607)
- 29 named destinations out of 1000 (max. 500000)
+ 145 PDF objects out of 1000 (max. 8388607)
+ 30 named destinations out of 1000 (max. 500000)
  64563 words of extra memory for PDF output out of 74296 (max. 10000000)
 
 

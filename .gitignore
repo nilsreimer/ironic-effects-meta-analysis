@@ -8,5 +8,6 @@ scripts/old/
 test/
 models/*.rds
 protocol/*.rds
-manuscript/*.aux
+manuscript/author-contributions.docx
+manuscript/author-contributions.pdf
 presentation

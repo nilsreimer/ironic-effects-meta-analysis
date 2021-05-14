@@ -148,9 +148,18 @@ by specific categorical moderator variables
 (\texttt{run\_moderator\_analyses.R}). Figures S1 and S2 show the
 results for collective action and policy support. Comparisons were
 inconclusive because we had an insufficient number of effect sizes per
-category. Second, we used meta-regression trees to discover interactions
-between moderator variables that best explained heterogeneity in effect
-sizes (Li et al., 2017, 2020). As recommended, we ran random-effects
+category. We ran another three random-effects meta-regression models
+with Muthukrishna et al.'s (2020) measure of cultural distance, where
+available, as a continuous moderator variable. Because cultural distance
+was a country-level moderator variable, we used two-level random-effects
+models in which we estimated country-specific deviations from the mean
+effect size as well as sample-specific deviations from the
+country-specific effect size. Figure 5 (in the main text) show the
+inconclusive results for all three outcomes.
+
+Second, we used meta-regression trees to discover interactions between
+moderator variables that best explained heterogeneity in effect sizes
+(Li et al., 2017, 2020). As recommended, we ran random-effects
 meta-regression tree analyses using the look-ahead strategy (Li et al.,
 2020). We set the pruning parameter to \(c = 0\) because, for this
 analysis, we prioritized exploration over error control
@@ -160,7 +169,7 @@ interaction of moderators explained between-samples heterogeneity. This
 result is not surprising, however, as both analyses used fewer than 40
 effect sizes, the minimum number required for the algorithm to perform
 well in detecting even simple interaction effects (Li et al., 2017). As
-both moderator analyses were inconclusive for collective action and
+all moderator analyses were inconclusive for collective action and
 policy support, we only report results for perceived injustice in the
 main text.
 
@@ -199,6 +208,14 @@ Li, X., Dusseldorp, E., Su, X., \& Meulman, J. J. (2020). Multiple
 moderator meta-analysis using the R-package Meta-CART. \emph{Behavior
 Research Methods}, \emph{52}(6), 2657--2673.
 \url{https://doi.org/10.3758/s13428-020-01360-0}
+
+\leavevmode\hypertarget{ref-muthukrishna_beyond_2020}{}%
+Muthukrishna, M., Bell, A. V., Henrich, J., Curtin, C. M., Gedranovich,
+A., McInerney, J., \& Thue, B. (2020). Beyond western, educated,
+industrial, rich, and democratic (WEIRD) psychology: Measuring and
+mapping scales of cultural and psychological distance.
+\emph{Psychological Science}, \emph{31}(6), 678--701.
+\url{https://doi.org/10.1177/0956797620916782}
 
 \endgroup
 
