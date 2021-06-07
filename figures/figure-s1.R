@@ -66,7 +66,7 @@ rm(list = ls())
         "convenience sample" = "convenience",
         "probability/representative sample" = "probability/representative",
         "Slavery" = "Post-Slavery",
-        "Colonization" = "Post-Colonial"
+        "Colonization" = "(Post-)Colonial"
       ),
       category = str_replace(category, " ", "\n"),
       category = str_replace(category, "\\/", "/\n"),
@@ -79,7 +79,7 @@ rm(list = ls())
         "Short-term\nmigration",
         "Long-term\nmigration",
         "Post-Slavery",
-        "Post-Colonial",
+        "(Post-)Colonial",
         "Religion",
         "Caste",
         "Sexuality",

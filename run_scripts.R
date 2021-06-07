@@ -53,22 +53,22 @@ rm(list = ls())
   source("scripts/run_analyses_with_ingroup_contact.R")
 
   # Run analyses to test and correct for publication bias
-  source("scripts/run_meta_bias_ingroup_contact.R")
+  source("scripts/run_meta_bias_analyses.R")
   
 
 # Visualize ---------------------------------------------------------------
   
   # Make figures
-  source("scripts/figure-1.R")
-  source("scripts/figure-2.R")
-  source("scripts/figure-3.R")
-  source("scripts/figure-4.R")
-  source("scripts/figure-5.R")
-  source("scripts/figure-6.R")
-  source("scripts/figure-7.R")
-  source("scripts/figure-8.R")
-  source("scripts/figure-s1.R")
-  source("scripts/figure-s2.R")
+  source("figures/figure-1.R")
+  source("figures/figure-2.R")
+  source("figures/figure-3.R")
+  source("figures/figure-4.R")
+  source("figures/figure-5.R")
+  source("figures/figure-6.R")
+  source("figures/figure-7.R")
+  source("figures/figure-8.R")
+  source("figures/figure-s1.R")
+  source("figures/figure-s2.R")
 
 # Combine -----------------------------------------------------------------
 

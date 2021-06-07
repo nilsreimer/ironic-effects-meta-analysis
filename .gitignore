@@ -10,4 +10,5 @@ models/*.rds
 protocol/*.rds
 manuscript/author-contributions.docx
 manuscript/author-contributions.pdf
+manuscript/preprint-template.tex
 presentation

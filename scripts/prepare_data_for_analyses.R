@@ -242,7 +242,8 @@ rm(list = ls())
         id == 2396L & sample == 2L ~ "Sexuality",
         id == 2396L & sample == 3L ~ "Colonization",
         id == 2397L & sample == 1L ~ "Long-term migration",
-        id == 2398L & sample == 1L ~ "Long-term migration"
+        id == 2398L & sample == 1L ~ "Long-term migration",
+        id == 2399L ~ "Long-term migration"
       ),
       ingroup = case_when(
         !is.na(ingroup) ~ ingroup,
@@ -252,7 +253,9 @@ rm(list = ls())
         id == 2396L & sample == 2L ~ "LGBTI people",
         id == 2396L & sample == 3L ~ "Kurdish people",
         id == 2397L & sample == 1L ~ "Black people",
-        id == 2398L & sample == 1L ~ "Asian people"
+        id == 2398L & sample == 1L ~ "Asian people",
+        id == 2399L & sample == 1L ~ "Asian people",
+        id == 2399L & sample == 2L ~ "Black people"
       ),
       outgroup = case_when(
         !is.na(outgroup) ~ outgroup,
@@ -262,7 +265,8 @@ rm(list = ls())
         id == 2396L & sample == 2L ~ "Heterosexual people",
         id == 2396L & sample == 3L ~ "Turkish people",
         id == 2397L & sample == 1L ~ "White people",
-        id == 2398L & sample == 1L ~ "White people"
+        id == 2398L & sample == 1L ~ "White people",
+        id == 2399L ~ "White people"
       )
     )
   

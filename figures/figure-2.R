@@ -91,7 +91,7 @@ rm(list = ls())
       study_setting = case_when(
         str_detect(study_setting, ",") ~ "Other",
         study_setting == "Slavery" ~ "Post-Slavery",
-        study_setting == "Colonization" ~ "Post-Colonial",
+        study_setting == "Colonization" ~ "(Post-)Colonial",
         TRUE ~ study_setting
       )
     ) %>% 

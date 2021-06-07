@@ -1897,6 +1897,7 @@
           </choose>
         </if>
         <else>
+          <text variable="note"/>
           <group delimiter=" ">
             <group delimiter=". " suffix=".">
               <text macro="author-bib"/>

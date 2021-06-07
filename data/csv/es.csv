@@ -4256,6 +4256,38 @@ id,sample,metric,es,x,y,source,note,n1,n2,t1,t2,direction,x_name,y_name
 2398,1,r,1,pc,pc,unpublished,NA,NA,NA,1,1,NA,Contact quality / Positive contact,Contact quality / Positive contact
 2398,1,r,0.3665928076995171,pc,pc,unpublished,NA,NA,NA,1,2,NA,Contact quality / Positive contact,Contact quality / Positive contact
 2398,1,r,1,pc,pc,unpublished,NA,NA,NA,2,2,NA,Contact quality / Positive contact,Contact quality / Positive contact
+2399,1,r,1,gd,gd,unpublished,NA,NA,NA,NA,NA,NA,Group discrimination,Group discrimination
+2399,1,r,0.196,gd,nc,unpublished,NA,NA,NA,NA,NA,NA,Group discrimination,Negative contact
+2399,1,r,-0.012,gd,oa,unpublished,NA,NA,NA,NA,NA,NA,Group discrimination,Outgroup attitudes
+2399,1,r,-0.096,gd,pc,unpublished,NA,NA,NA,NA,NA,NA,Group discrimination,Contact quality / Positive contact
+2399,1,r,0.196,nc,gd,unpublished,NA,NA,NA,NA,NA,NA,Negative contact,Group discrimination
+2399,1,r,1,nc,nc,unpublished,NA,NA,NA,NA,NA,NA,Negative contact,Negative contact
+2399,1,r,0.015,nc,oa,unpublished,NA,NA,NA,NA,NA,NA,Negative contact,Outgroup attitudes
+2399,1,r,-0.257,nc,pc,unpublished,NA,NA,NA,NA,NA,NA,Negative contact,Contact quality / Positive contact
+2399,1,r,-0.012,oa,gd,unpublished,NA,NA,NA,NA,NA,NA,Outgroup attitudes,Group discrimination
+2399,1,r,0.015,oa,nc,unpublished,NA,NA,NA,NA,NA,NA,Outgroup attitudes,Negative contact
+2399,1,r,1,oa,oa,unpublished,NA,NA,NA,NA,NA,NA,Outgroup attitudes,Outgroup attitudes
+2399,1,r,0.1,oa,pc,unpublished,NA,NA,NA,NA,NA,NA,Outgroup attitudes,Contact quality / Positive contact
+2399,1,r,-0.096,pc,gd,unpublished,NA,NA,NA,NA,NA,NA,Contact quality / Positive contact,Group discrimination
+2399,1,r,-0.257,pc,nc,unpublished,NA,NA,NA,NA,NA,NA,Contact quality / Positive contact,Negative contact
+2399,1,r,0.1,pc,oa,unpublished,NA,NA,NA,NA,NA,NA,Contact quality / Positive contact,Outgroup attitudes
+2399,1,r,1,pc,pc,unpublished,NA,NA,NA,NA,NA,NA,Contact quality / Positive contact,Contact quality / Positive contact
+2399,2,r,1,gd,gd,unpublished,NA,NA,NA,NA,NA,NA,Group discrimination,Group discrimination
+2399,2,r,0.073,gd,nc,unpublished,NA,NA,NA,NA,NA,NA,Group discrimination,Negative contact
+2399,2,r,-0.167,gd,oa,unpublished,NA,NA,NA,NA,NA,NA,Group discrimination,Outgroup attitudes
+2399,2,r,-0.036,gd,pc,unpublished,NA,NA,NA,NA,NA,NA,Group discrimination,Contact quality / Positive contact
+2399,2,r,0.073,nc,gd,unpublished,NA,NA,NA,NA,NA,NA,Negative contact,Group discrimination
+2399,2,r,1,nc,nc,unpublished,NA,NA,NA,NA,NA,NA,Negative contact,Negative contact
+2399,2,r,-0.204,nc,oa,unpublished,NA,NA,NA,NA,NA,NA,Negative contact,Outgroup attitudes
+2399,2,r,-0.269,nc,pc,unpublished,NA,NA,NA,NA,NA,NA,Negative contact,Contact quality / Positive contact
+2399,2,r,-0.167,oa,gd,unpublished,NA,NA,NA,NA,NA,NA,Outgroup attitudes,Group discrimination
+2399,2,r,-0.204,oa,nc,unpublished,NA,NA,NA,NA,NA,NA,Outgroup attitudes,Negative contact
+2399,2,r,1,oa,oa,unpublished,NA,NA,NA,NA,NA,NA,Outgroup attitudes,Outgroup attitudes
+2399,2,r,0.101,oa,pc,unpublished,NA,NA,NA,NA,NA,NA,Outgroup attitudes,Contact quality / Positive contact
+2399,2,r,-0.036,pc,gd,unpublished,NA,NA,NA,NA,NA,NA,Contact quality / Positive contact,Group discrimination
+2399,2,r,-0.269,pc,nc,unpublished,NA,NA,NA,NA,NA,NA,Contact quality / Positive contact,Negative contact
+2399,2,r,0.101,pc,oa,unpublished,NA,NA,NA,NA,NA,NA,Contact quality / Positive contact,Outgroup attitudes
+2399,2,r,1,pc,pc,unpublished,NA,NA,NA,NA,NA,NA,Contact quality / Positive contact,Contact quality / Positive contact
 3000,1,r,1,cq,cq,text,NA,NA,NA,NA,NA,NA,Contact quantity,Contact quantity
 3000,1,r,-0.11,cq,pi,text,NA,NA,NA,NA,NA,NA,Contact quantity,Perceived injustice (other)
 3000,1,r,-0.11,pi,cq,text,NA,NA,NA,NA,NA,NA,Perceived injustice (other),Contact quantity

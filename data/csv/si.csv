@@ -124,6 +124,8 @@ id,coder,n_samples,sample,name,n,variables,comments
 2396,NA,3,3,Kurdish,191,"cf,in,pd,gi",NA
 2397,NA,1,1,Black British people,501,"pc,nc,rd,ca,gi,oa,ge,o1",NA
 2398,NA,1,1,Asian secondary-school students,829,"pc,nc,in,gd,gi,oa",NA
+2399,NA,2,1,Asian adolescents,579,"pc,nc,gd,oa",NA
+2399,NA,2,2,Black adolescents,317,"pc,nc,gd,oa",NA
 3000,Coder 1,1,1,Mainland Chinese students in Hong Kong,2201,"cq,pi",NA
 3005,Coder 1,1,1,Study 2,93,"cq,pd",NA
 3051,Coder 1,1,1,Non-Western immigrants in Denmark,1211,"cf,pd,gd,oa",NA
