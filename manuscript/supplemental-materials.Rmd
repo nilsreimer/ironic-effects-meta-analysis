@@ -50,53 +50,11 @@ We used similar non-exclusive search terms for all electronic databases:
 
 \noindent We sent a call for unpublished research to the mailing lists of the *European Association of Social Psychology*, the *Society for Personality and Social Psychology*, the *International Society of Political Psychology*, the *Society for the Psychological Study of Social Issues*, and the *Society of Australasian Social Psychologists*.
 
-## Robustness Checks
-
-```{r, include = FALSE}
-
-  # Summarize prior choice results
-  d_priors <- read_rds("../results/results_robustness_checks_priors.rds") %>% 
-    group_by(y_var, prior) %>% 
-    median_qi(d_r_mean) %>% 
-    mutate(
-      across(c(d_r_mean, .lower, .upper), ~f_num(., digits = 2)),
-      text = paste0("$\\Delta r = ", d_r_mean, ", [", .lower, ", ", .upper, "]$")
-    )
-
-```
-
-```{r, include = FALSE}
-
-  # Calculate Mean Absolute Deviation (MAD)
-  mad_loo <- read_rds("../results/results_robustness_checks_loo.rds") %>% 
-    group_by(.draw, y_var) %>% 
-    summarize(mad_loo = mean(ae_loo)) %>% 
-    group_by(y_var) %>% 
-    median_qi(mad_loo) %>% 
-    mutate(
-      across(c(mad_loo, .lower, .upper), ~f_num(., digits = 2)),
-      text = paste0("$\\textit{MAD} = ", mad_loo, ", [", .lower, ", ", .upper, "]$")
-    )
-
-  # Leave out most influential studies
-  d_loo <- read_rds("../results/results_robustness_checks_loo.rds") %>% 
-    group_by(y_var, id) %>%
-    median_qi(e_loo) %>% 
-    top_n(n = 1, wt = abs(e_loo)) %>% 
-    mutate(
-      across(c(e_loo, .lower, .upper), ~f_num(., digits = 2)),
-      text = paste0("$\\Delta r = ", e_loo, ", [", .lower, ", ", .upper, "]$")
-    )
-
-```
-
-As preregistered, we conducted two kinds of robustness checks. First, we assessed to what extent our findings were sensitive to choosing narrower, $\mu \sim \text{Normal}(0, 0.1)$, or wider, $\mu \sim \text{Normal}(0, 1)$, prior distributions. Choosing narrower or wider prior distribution did not affect mean effect size estimates for perceived injustice (`r d_priors$text[d_priors$y_var == "pi" & d_priors$prior == "N(0, 0.1)"]` and `r d_priors$text[d_priors$y_var == "pi" & d_priors$prior == "N(0, 1.0)"]`), collective action (`r d_priors$text[d_priors$y_var == "ca" & d_priors$prior == "N(0, 0.1)"]` and `r d_priors$text[d_priors$y_var == "ca" & d_priors$prior == "N(0, 1.0)"]`), and policy support (`r d_priors$text[d_priors$y_var == "ps" & d_priors$prior == "N(0, 0.1)"]` and `r d_priors$text[d_priors$y_var == "ps" & d_priors$prior == "N(0, 1.0)"]`). Second, we assessed to what extent our findings were sensitive to including or excluding influential studies by repeating the preregistered analyses $J$ times while leaving out one of $J$ studies each time and by calculating the mean absolute difference (*MAD*) for the estimated mean effect size across left-out studies. For perceived injustice (`r mad_loo$text[mad_loo$y_var == "pi"]`), collective action (`r mad_loo$text[mad_loo$y_var == "ca"]`), and policy support (`r mad_loo$text[mad_loo$y_var == "ps"]`), the *MAD* was small. Leaving out the most influential study, for example, did not change estimates of the mean effect size for the three outcomes (`r d_loo$text[d_loo$y_var == "pi"]`; `r d_loo$text[d_loo$y_var == "ca"]`; `r d_loo$text[d_loo$y_var == "ps"]`). Together, these analyses showed that our findings were robust to choosing different prior distributions and to excluding influential studies.
-
 ## Moderator Analyses
 
-First, we ran a series of Bayesian random-effects meta-regression models to estimate how much of the between-samples heterogeneity was explained by specific categorical moderator variables (`run_moderator_analyses.R`). Figures S1 and S2 show the results for collective action and policy support. Comparisons were inconclusive because we had an insufficient number of effect sizes per category. We ran another three random-effects meta-regression models with Muthukrishna et al.'s [-@muthukrishna_beyond_2020] measure of cultural distance, where available, as a continuous moderator variable. Because cultural distance was a country-level moderator variable, we used two-level random-effects models in which we estimated country-specific deviations from the mean effect size as well as sample-specific deviations from the country-specific effect size. Figure 5 (in the main text) show the inconclusive results for all three outcomes. 
+First, we ran a series of Bayesian random-effects meta-regression models to estimate how much of the between-samples heterogeneity was explained by specific categorical moderator variables (`run_moderator_analyses.R`). Figures S1 and S2 show the results for collective action and policy support. Comparisons were inconclusive because we had an insufficient number of effect sizes per category. Second, we ran another three random-effects meta-regression models with Muthukrishna et al.'s [-@muthukrishna_beyond_2020] measure of cultural distance, where available, as a continuous moderator variable. Because cultural distance was a country-level moderator variable, we used two-level random-effects models in which we estimated country-specific deviations from the mean effect size as well as sample-specific deviations from the country-specific effect size. Figure 5 (in the main text) show the inconclusive results for all three outcomes. 
 
-Second, we used meta-regression trees to discover interactions between moderator variables that best explained heterogeneity in effect sizes [@li_meta-cart_2017; @li_multiple_2020]. As recommended, we ran random-effects meta-regression tree analyses using the look-ahead strategy [@li_multiple_2020]. We set the pruning parameter to $c = 0$ because, for this analysis, we prioritized exploration over error control (`run_exploratory_moderator_analyses.R`). For both collective action and policy support, the algorithm found that no moderator or interaction of moderators explained between-samples heterogeneity. This result is not surprising, however, as both analyses used fewer than 40 effect sizes, the minimum number required for the algorithm to perform well in detecting even simple interaction effects [@li_meta-cart_2017]. As all moderator analyses were inconclusive for collective action and policy support, we only report results for perceived injustice in the main text.
+Second, we used meta-regression trees to discover interactions between moderator variables that best explained heterogeneity in effect sizes [@li_meta-cart_2017]. As recommended, we ran random-effects meta-regression tree analyses using the look-ahead strategy [@li_multiple_2020]. We set the pruning parameter to $c = 0$ because, for this analysis, we prioritized exploration over error control (`run_exploratory_moderator_analyses.R`). For both collective action and policy support, the algorithm found that no moderator or interaction of moderators explained between-samples heterogeneity. This result is not surprising, however, as both analyses used fewer than 40 effect sizes, the minimum number required for the algorithm to perform well in detecting even simple interaction effects [@li_meta-cart_2017]. As all moderator analyses were inconclusive for collective action and policy support, we only report results for perceived injustice in the main text.
 
 ```{=latex}
 \begin{figure*}
