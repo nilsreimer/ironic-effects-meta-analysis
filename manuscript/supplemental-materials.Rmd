@@ -52,9 +52,11 @@ We used similar non-exclusive search terms for all electronic databases:
 
 ## Moderator Analyses
 
-First, we ran a series of Bayesian random-effects meta-regression models to estimate how much of the between-samples heterogeneity was explained by specific categorical moderator variables (`run_moderator_analyses.R`). Figures S1 and S2 show the results for collective action and policy support. Comparisons were inconclusive because we had an insufficient number of effect sizes per category. Second, we ran another three random-effects meta-regression models with Muthukrishna et al.'s [-@muthukrishna_beyond_2020] measure of cultural distance, where available, as a continuous moderator variable. Because cultural distance was a country-level moderator variable, we used two-level random-effects models in which we estimated country-specific deviations from the mean effect size as well as sample-specific deviations from the country-specific effect size. Figure 5 (in the main text) show the inconclusive results for all three outcomes. 
+First, we ran a series of Bayesian random-effects meta-regression models to estimate how much of the between-samples heterogeneity was explained by specific categorical moderator variables (`run_moderator_analyses.R`). Figures S1 and S2 show the results for collective action and policy support. Comparisons were inconclusive because we had an insufficient number of effect sizes per category. 
 
-Second, we used meta-regression trees to discover interactions between moderator variables that best explained heterogeneity in effect sizes [@li_meta-cart_2017]. As recommended, we ran random-effects meta-regression tree analyses using the look-ahead strategy [@li_multiple_2020]. We set the pruning parameter to $c = 0$ because, for this analysis, we prioritized exploration over error control (`run_exploratory_moderator_analyses.R`). For both collective action and policy support, the algorithm found that no moderator or interaction of moderators explained between-samples heterogeneity. This result is not surprising, however, as both analyses used fewer than 40 effect sizes, the minimum number required for the algorithm to perform well in detecting even simple interaction effects [@li_meta-cart_2017]. As all moderator analyses were inconclusive for collective action and policy support, we only report results for perceived injustice in the main text.
+Second, we ran another three random-effects meta-regression models with Muthukrishna et al.'s [-@muthukrishna_beyond_2020] measure of cultural distance, where available, as a continuous moderator variable. Because cultural distance was a country-level moderator variable, we used two-level random-effects models in which we estimated country-specific deviations from the mean effect size as well as sample-specific deviations from the country-specific effect size. Figure 5 (in the main text) show the inconclusive results for all three outcomes. 
+
+Third, we used meta-regression trees to discover interactions between moderator variables that best explained heterogeneity in effect sizes [@li_meta-cart_2017]. As recommended, we ran random-effects meta-regression tree analyses using the look-ahead strategy [@li_multiple_2020]. We set the pruning parameter to $c = 0$ because, for this analysis, we prioritized exploration over error control (`run_exploratory_moderator_analyses.R`). For both collective action and policy support, the algorithm found that no moderator or interaction of moderators explained between-samples heterogeneity. This result is not surprising, however, as both analyses used fewer than 40 effect sizes, the minimum number required for the algorithm to perform well in detecting even simple interaction effects [@li_meta-cart_2017]. As all moderator analyses were inconclusive for collective action and policy support, we only report results for perceived injustice in the main text.
 
 ```{=latex}
 \begin{figure*}
@@ -73,6 +75,8 @@ Second, we used meta-regression trees to discover interactions between moderator
 \label{fig:s2}
 \end{figure*}
 ```
+
+\newpage
 
 # References
 

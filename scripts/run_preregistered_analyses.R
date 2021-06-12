@@ -387,6 +387,20 @@ rm(list = ls())
         distinct(id, jj, x_var, y_var),
       by = c("x_var", "y_var", "jj")
     )
+  
+  # Extract predicted proportion of studies for which r > 0
+  set.seed(9071118)
+  abstract <- post %>% 
+    filter(x_var == "ic", y_var %in% c("pi", "ca", "ps")) %>% 
+    mutate(
+      r_pred = z_to_r(rnorm(n = n(), mean = mu, sd = tau_jj))
+    ) %>% 
+    group_by(x_var, y_var) %>% 
+    summarize(
+      r_mean = median(r_mean),
+      p_pred = mean(r_pred > 0)
+    ) %>% 
+    ungroup()
 
 
 # Export ------------------------------------------------------------------
@@ -396,3 +410,6 @@ rm(list = ls())
   
   # Export study-wise estimates (as .rds)
   write_rds(pred_jj, "results/r_pred_jj.rds")
+  
+  # Export results for abstract (as .rds)
+  write_rds(abstract, "results/results_for_abstract.rds")
