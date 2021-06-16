@@ -9,12 +9,14 @@
 \usepackage[letterpaper, margin = 1in]{geometry}
 \setcounter{secnumdepth}{0}
 \setlength{\parindent}{0.5in}
-\usepackage[compact]{titlesec}  
+\usepackage[compact]{titlesec}
 \titleformat*{\section}{\centering\normalfont\normalsize\bfseries}
 \titleformat*{\subsection}{\raggedright\normalfont\normalsize\bfseries}
 \titleformat*{\subsubsection}{\raggedright\normalfont\normalsize\bfseries\itshape}
+\newcommand{\refsection}{\newpage \section{References}}
 \usepackage{indentfirst}
 \usepackage[hang,flushmargin]{footmisc}
+\providecommand{\tightlist}{\setlength{\itemsep}{0pt}\setlength{\parskip}{0pt}}
 
 % Header
 \usepackage{fancyhdr}
@@ -39,7 +41,14 @@
 % Line spacing
 \usepackage[doublespacing]{setspace}
 
+% Frontmatter
+\title{ $title$ }
+
 \begin{document}
+
+% \maketitle
+% 
+% \newpage
 
 \section{Abstract}
 
