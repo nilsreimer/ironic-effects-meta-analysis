@@ -30,7 +30,7 @@
 \usepackage{tabularx}
 
 % Frontmatter
-\title{ $title$ }
+\title{ $title$\thanks{} }
 \author[1]{Nils K. Reimer}
 \author[2]{Nikhil K. Sengupta}
 \affil[1]{University of Southern California, Los Angeles, United States}
@@ -53,7 +53,13 @@
   %   \end{abstract}
   % \end{@twocolumnfalse}
 ]
-  
+
+{
+  \renewcommand{\thefootnote}%
+    {\fnsymbol{footnote}}
+  \footnotetext[1]{This preprint has not been peer reviewed.}
+}
+
 \noindent $body$
 
 \end{document}
