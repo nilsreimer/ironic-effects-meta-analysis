@@ -12,7 +12,7 @@ output:
   pdf_document:
     latex_engine: pdflatex
     keep_tex: yes
-    template: apa-template.tex
+    template: preprint-template.tex
 ---
 
 ```{r setup, include = FALSE}

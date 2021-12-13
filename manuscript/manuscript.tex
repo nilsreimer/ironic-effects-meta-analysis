@@ -1,31 +1,22 @@
-\documentclass[12pt, letterpaper]{article}
+\documentclass[twocolumn, 11pt, letterpaper]{article}
 
 % Font
 \usepackage[utf8]{inputenc}
-\usepackage{amsmath}
+\usepackage{MinionPro} 
+\input{glyphtounicode}
+\pdfgentounicode=1 
 \usepackage{microtype}
 
 % Format
 \usepackage[letterpaper, margin = 1in]{geometry}
+\setlength{\columnsep}{18pt}
 \setcounter{secnumdepth}{0}
-\setlength{\parindent}{0.5in}
-\usepackage[compact]{titlesec}
-\titleformat*{\section}{\centering\normalfont\normalsize\bfseries}
-\titleformat*{\subsection}{\raggedright\normalfont\normalsize\bfseries}
-\titleformat*{\subsubsection}{\raggedright\normalfont\normalsize\bfseries\itshape}
-\newcommand{\refsection}{\newpage \section{References}}
-\usepackage{indentfirst}
-\usepackage[hang,flushmargin]{footmisc}
+\usepackage[compact]{titlesec}  
+\titleformat*{\section}{\centering\normalfont\Large\bfseries}
+\usepackage{authblk}
+\renewcommand\Affilfont{\small}
+\newcommand{\refsection}{\section{References}}
 \providecommand{\tightlist}{\setlength{\itemsep}{0pt}\setlength{\parskip}{0pt}}
-
-% Header
-\usepackage{fancyhdr}
-\pagestyle{fancy}
-\fancyhf{}
-\setlength{\headheight}{14.5pt}
-\renewcommand{\headrulewidth}{0pt}
-\fancyhead[L]{`IRONIC' EFFECTS META-ANALYSIS}
-\fancyhead[R]{\thepage}
 
 % Links
 \usepackage[colorlinks = true, linkcolor = black, urlcolor = black, citecolor = black]{hyperref} 
@@ -38,66 +29,88 @@
 \usepackage{booktabs}
 \usepackage{tabularx}
 
-% Line spacing
-\usepackage[doublespacing]{setspace}
+% References
+\newlength{\cslhangindent}
+\setlength{\cslhangindent}{1.5em}
+\newenvironment{CSLReferences}%
+  {}%
+  {\par}
 
 % Frontmatter
-\title{ Meta-Analysis of the `Ironic' Effects of Intergroup Contact }
+\title{ Meta-Analysis of the `Ironic' Effects of Intergroup
+Contact\thanks{} }
+\author[1]{Nils K. Reimer}
+\author[2]{Nikhil K. Sengupta}
+\affil[1]{University of Southern California, Los Angeles, United States}
+\affil[2]{University of Kent, Canterbury, United Kingdom}
+\date{June 15, 2021}
 
 \begin{document}
 
-\section{Abstract}
+\twocolumn[
+  \begin{@twocolumnfalse}
+    \maketitle
+    \begin{abstract}
+      \noindent Growing evidence suggests that intergroup contact,
+psychology's most-researched paradigm for reducing prejudice, has the
+`ironic' effect of reducing support for social change in disadvantaged
+groups. We conducted a preregistered meta-analytic test of this effect
+across 98 studies with 140 samples of 213,085 disadvantaged-group
+members. As predicted, intergroup contact was, on average, associated
+with less perceived injustice (\(r = -.07\)), collective action
+(\(r = -.06\)), and support for reparative policies (\(r = -.07\)).
+However, these associations were small, variable, and consistent with
+alternative explanations. Across outcomes, 25--36\% of studies found
+\emph{positive} associations with intergroup contact. Moderator analyses
+explained about a third of the between-sample variance, showing that, on
+average, associations were negative only in studies of adults that
+measured intergroup contact directly and were strongest in studies that
+examined short-term migration or (post-)colonial intergroup relations.
+We also found evidence for an alternative explanation for the apparent
+`ironic' effects of intergroup contact as, after controlling for the
+positive association of negative contact with support for social change,
+positive contact was no longer associated with any of the outcomes. We
+close by discussing strengths and limitations of the available evidence
+and by highlighting open questions about the relationship between
+intergroup contact and support for social change in disadvantaged
+groups.
+    \end{abstract}
+  \end{@twocolumnfalse}
+  % \renewcommand{\abstractname}{Statement of Relevance}
+  % \begin{@twocolumnfalse}
+  %   \maketitle
+  %   \begin{abstract}
+  %   \noindent 
+  %   \end{abstract}
+  % \end{@twocolumnfalse}
+]
 
-\noindent Growing evidence suggests that intergroup contact, psychology's
-most-researched paradigm for reducing prejudice, has the `ironic' effect
-of reducing support for social change in disadvantaged groups. We
-conducted a preregistered meta-analytic test of this effect across 98
-studies with 140 samples of 213,085 disadvantaged-group members. As
-predicted, intergroup contact was, on average, associated with less
-perceived injustice (\(r = -.07\)), collective action (\(r = -.06\)),
-and support for reparative policies (\(r = -.07\)). However, these
-associations were small, variable, and consistent with alternative
-explanations. Across outcomes, 25--36\% of studies found \emph{positive}
-associations with intergroup contact. Moderator analyses explained about
-a third of the between-sample variance, showing that, on average,
-associations were negative only in studies of adults that measured
-intergroup contact directly and were strongest in studies that examined
-short-term migration or (post-)colonial intergroup relations. We also
-found evidence for an alternative explanation for the apparent `ironic'
-effects of intergroup contact as, after controlling for the positive
-association of negative contact with support for social change, positive
-contact was no longer associated with any of the outcomes. We close by
-discussing strengths and limitations of the available evidence and by
-highlighting open questions about the relationship between intergroup
-contact and support for social change in disadvantaged groups.
+{
+  \renewcommand{\thefootnote}%
+    {\fnsymbol{footnote}}
+  \footnotetext[1]{Manuscript under review.}
+}
 
-\textit{Keywords:} intergroup contact, meta-analysis, perceived discrimination, collective
-action, policy support
-
-\newpage
-
-\section{Meta-Analysis of the `Ironic' Effects of Intergroup Contact}
-
-It is ironic that psychology's most-researched paradigm for reducing
-prejudice---intergroup contact---should hinder, rather than help, social
-change. Hundreds of studies have confirmed that intergroup contact is
-associated with less negative feelings toward outgroup members (for a
-meta-analysis, see Pettigrew \& Tropp, 2006). Most of these studies have
-focused on advantaged-group members' contact experiences with
-disadvantaged-group members (Tropp \& Pettigrew, 2005), guided by the
-idea that reducing advantaged-group members' prejudice will prevent
-interpersonal discrimination. Reducing prejudice, however, is rarely
-enough to overcome institutional and structural discrimination. Instead,
-as the 2020 Black Lives Matter protests have shown, social change often
-requires political mobilization by the disadvantaged. Critics have
-argued that, by fostering harmony and reducing conflict, intergroup
-contact might distract disadvantaged-group members from the injustice
-they face and, thereby, undermine their motivation for social change
-(Dixon et al., 2005; Reicher, 2007; Wright, 2003). By reducing
-disadvantaged-group members' opposition to injustice, intergroup contact
-might thus have the `ironic' (Saguy et al., 2009), `sedative' (Çakal et
-al., 2011), or `paradoxical' (Dixon et al., 2010) effect of hindering
-social change.
+\noindent It is ironic that psychology's most-researched paradigm for
+reducing prejudice---intergroup contact---should hinder, rather than
+help, social change. Hundreds of studies have confirmed that intergroup
+contact is associated with less negative feelings toward outgroup
+members (for a meta-analysis, see Pettigrew \& Tropp, 2006). Most of
+these studies have focused on advantaged-group members' contact
+experiences with disadvantaged-group members (L. R. Tropp \& Pettigrew,
+2005), guided by the idea that reducing advantaged-group members'
+prejudice will prevent interpersonal discrimination. Reducing prejudice,
+however, is rarely enough to overcome institutional and structural
+discrimination. Instead, as the 2020 Black Lives Matter protests have
+shown, social change often requires political mobilization by the
+disadvantaged. Critics have argued that, by fostering harmony and
+reducing conflict, intergroup contact might distract disadvantaged-group
+members from the injustice they face and, thereby, undermine their
+motivation for social change (Dixon et al., 2005; Reicher, 2007; Wright,
+2003). By reducing disadvantaged-group members' opposition to injustice,
+intergroup contact might thus have the `ironic' (Saguy et al., 2009),
+`sedative' (Çakal et al., 2011), or `paradoxical' (Dixon et al., 2010)
+effect of hindering social change.
 
 Supporting this argument, initial studies provided evidence that contact
 with advantaged-group members reduces disadvantaged-group members'
@@ -139,13 +152,13 @@ rarely give up their advantages without sustained pressure from
 disadvantaged-group members (Blumer, 1958; for a review, see Dixon et
 al., 2012). Researchers have argued that intergroup contact could
 discourage disadvantaged-group members from engaging in collective
-action by diminishing their perceived discrimination (Tropp et al.,
-2012), by blurring boundaries between the disadvantaged ingroup and the
-advantaged outgroup (Saguy et al., 2009), by reducing negative attitudes
-toward the advantaged outgroup (Wright \& Lubensky, 2009), and by
-quelling their anger (Hayward et al., 2018; Tausch et al., 2015). To the
-extent that it discourages collective action, intergroup contact reduces
-support for social change.
+action by diminishing their perceived discrimination (Linda R. Tropp et
+al., 2012), by blurring boundaries between the disadvantaged ingroup and
+the advantaged outgroup (Saguy et al., 2009), by reducing negative
+attitudes toward the advantaged outgroup (Wright \& Lubensky, 2009), and
+by quelling their anger (Hayward et al., 2018; Tausch et al., 2015). To
+the extent that it discourages collective action, intergroup contact
+reduces support for social change.
 
 Reparative policies (e.g., affirmative action) can be effective means to
 reduce social inequality. Disadvantaged-group members, who stand to
@@ -400,7 +413,7 @@ until we achieved acceptable inter-rater agreement (\(\kappa_1 = .56\),
 records between the two authors. For each record, one of the authors
 coded whether the record met the eligibility criteria (yes, maybe, no),
 or whether it was a relevant review article. We kept all records coded
-as ``yes'' or ``maybe''. Second, both authors reviewed each of the
+as ``yes'' or ``maybe.'' Second, both authors reviewed each of the
 full-text manuscripts from the previous stage and coded whether any
 study or sample in the manuscript fulfilled the preregistered
 eligibility criteria (\(\kappa = .75\)). Third, we resolved any
@@ -772,7 +785,6 @@ policy support, we report results for these outcomes in the SOM.
 \label{fig:f4}
 \end{figure*}
 
-
 \begin{figure*}
 \centering
 \caption{Estimated effect size as a function of cultural distance from the United States, with point estimates and uncertainty intervals for each country}
@@ -834,8 +846,8 @@ outperforming all others (Carter et al., 2019). Following Carter et
 al.'s recommendations, we compared results of several methods to adjust
 meta-analytic estimates for publication bias: the PET-PEESE estimator
 (Stanley \& Doucouliagos, 2014); the three-parameter selection model
-(3PSM; Vevea \& Hedges, 1995); and the \emph{p}-uniform* estimator (van
-Aert \& Assen, 2018). In addition, we ran a subgroup analysis that
+{[}3PSM; Vevea \& Hedges (1995){]}; and the \emph{p}-uniform* estimator
+(van Aert \& Assen, 2018). In addition, we ran a subgroup analysis that
 included only studies that were not published or not conducted with the
 intention to examine the effects of intergroup contact on any of the
 outcomes---and that, therefore, can be assumed to have not been affected
@@ -937,16 +949,16 @@ action (\(r = -.06\)), and policy support (\(r = -.07\)) were small.
 Across the three outcomes, the 95\% most plausible estimates included
 effect sizes between \(r = -.14\) and \(r = .02\). Effect sizes were
 thus much smaller than for the association between contact and prejudice
-in minority (\(r = -.18\)) and majority (\(r = -.23\)) groups (Tropp \&
-Pettigrew, 2005).\footnote{Comparing standardized effect sizes assumes
-  that the two outcomes are of equal importance. That is not always the
-  case: for example, a drug that reduces mild symptoms by 0.20 standard
-  deviations is not better than a drug that reduces deaths by 0.10
-  standard deviations.} Small effects can still be important if they
-accumulate over time or across people. For example, even a small change
-in policy attitudes could, if it affects enough people, sway a tight
-election. Cumulative effects, however, should not be assumed without an
-empirical or theoretical rationale (Funder \& Ozer, 2019).
+in minority (\(r = -.18\)) and majority (\(r = -.23\)) groups (L. R.
+Tropp \& Pettigrew, 2005).\footnote{Comparing standardized effect sizes
+  assumes that the two outcomes are of equal importance. That is not
+  always the case: for example, a drug that reduces mild symptoms by
+  0.20 standard deviations is not better than a drug that reduces deaths
+  by 0.10 standard deviations.} Small effects can still be important if
+they accumulate over time or across people. For example, even a small
+change in policy attitudes could, if it affects enough people, sway a
+tight election. Cumulative effects, however, should not be assumed
+without an empirical or theoretical rationale (Funder \& Ozer, 2019).
 
 Second, the estimated effect sizes varied across studies. For example,
 we estimated that 31\% of studies find a positive association between
@@ -982,11 +994,11 @@ prioritize longitudinal studies to confirm the direction of the observed
 associations and (field) experiments to rule out confounding and other
 alternative explanations.\footnote{Published research includes only
   three longitudinal studies (Koschate et al., 2012; Reimer et al.,
-  2017; Tropp et al., 2012), all of which conflated within-person change
-  and between-person stability (Hamaker et al., 2015), two experimental
-  studies with a no-contact control condition (Becker et al., 2013;
-  Droogendyk et al., 2016), and two intervention studies (Reimer et al.,
-  2021; Shani \& Boehnke, 2017).}
+  2017; Linda R. Tropp et al., 2012), all of which conflated
+  within-person change and between-person stability (Hamaker et al.,
+  2015), two experimental studies with a no-contact control condition
+  (Becker et al., 2013; Droogendyk et al., 2016), and two intervention
+  studies (Reimer et al., 2021; Shani \& Boehnke, 2017).}
 
 Fourth, the observed association between intergroup contact and support
 for social change could be confounded by an alternative predictor that
@@ -1031,12 +1043,13 @@ explaining how intergroup contact might \emph{hinder} social change. We
 did not consider whether intergroup contact might also \emph{help}
 social change by reducing prejudice (for critical perspectives, see
 Dixon et al., 2012; Jackman, 1994) or by motivating the advantaged to
-acknowledge and challenge social inequality (Tropp \& Barlow, 2018).
-Further, we did not consider contact between different disadvantaged
-groups, which has been found to increase support for social change among
-the disadvantaged (Dixon et al., 2015, 2017). Therefore, this
-meta-analysis could not provide a complete answer to the question
-whether, on balance, intergroup contact helps or hinders social change.
+acknowledge and challenge social inequality (Linda R. Tropp \& Barlow,
+2018). Further, we did not consider contact between different
+disadvantaged groups, which has been found to increase support for
+social change among the disadvantaged (Dixon et al., 2015, 2017).
+Therefore, this meta-analysis could not provide a complete answer to the
+question whether, on balance, intergroup contact helps or hinders social
+change.
 
 To conclude, our preregistered meta-analysis found some evidence that
 intergroup contact reduces perceived injustice, discourages collective
@@ -1066,44 +1079,45 @@ meta-analysis.
 \small
 
 \hypertarget{refs}{}
+\begin{CSLReferences}{1}{0}
 \leavevmode\hypertarget{ref-3201}{}%
 *Albzour, M., Penic, S., Nasser, R., \& Green, E. G. T. (2019). Support
-for ``normalization'' of relations between Palestinians and Israelis,
-and how it relates to contact and resistance in the West Bank.
-\emph{Journal of Social and Political Psychology}, \emph{7}(2),
+for {`normalization'} of relations between {Palestinians} and
+{Israelis}, and how it relates to contact and resistance in the {West}
+{Bank}. \emph{Journal of Social and Political Psychology}, \emph{7}(2),
 978--996. \url{https://doi.org/10.5964/jspp.v7i2.877}
 
 \leavevmode\hypertarget{ref-2023}{}%
 *Bagci, S. C. (2014). \emph{Cross-ethnic friendships in multiethnic
-educational settings: Consequences for psychological, academic and
+educational settings: {Consequences} for psychological, academic and
 motivational outcomes among young adolescents} {[}Doctoral dissertation,
-Goldsmiths, University of London{]}.
+\{Goldsmiths, University of London\}{]}.
 \url{https://doi.org/10.25602/GOLD.00011030}
 
 \leavevmode\hypertarget{ref-2395}{}%
 *Bagci, S. C., \& Stathi, S. (2020). \emph{Secure and insecure ingroup
 identification as mediators between identity threat and psychological
-well-being and intergroup bias} {[}Manuscript in preparation{]}. Faculty
-of Arts and Social Sciences, Sabanci University.
+well-being and intergroup bias} {[}Manuscript in preparation{]}.
+{Faculty of Arts and Social Sciences, Sabanci University}.
 
 \leavevmode\hypertarget{ref-423}{}%
 *Bagci, S. C., Stathi, S., \& Piyale, Z. E. (2019). Imagined contact
-facilitates acculturation, sometimes: Contradicting evidence from two
+facilitates acculturation, sometimes: {Contradicting} evidence from two
 sociocultural contexts. \emph{Cultural Diversity and Ethnic Minority
 Psychology}, \emph{25}(4), 539--552.
 \url{https://doi.org/10.1037/cdp0000256}
 
 \leavevmode\hypertarget{ref-322}{}%
 *Bagci, S. C., \& Turnuklu, A. (2019). Intended, unintended, and unknown
-consequences of contact: The role of positive-negative contact on
+consequences of contact: {The} role of positive-negative contact on
 outgroup attitudes, collective action tendencies, and psychological
 well-being. \emph{Social Psychology}, \emph{50}(1), 7--23.
 \url{https://doi.org/10.1027/1864-9335/a000355}
 
 \leavevmode\hypertarget{ref-414}{}%
 *Bagci, S. C., Turnuklu, A., \& Bekmezci, E. (2018a). Cross-group
-friendships and psychological well-being: A dual pathway through social
-integration and empowerment. \emph{British Journal of Social
+friendships and psychological well-being: {A} dual pathway through
+social integration and empowerment. \emph{British Journal of Social
 Psychology}, \emph{57}(4), 773--792.
 \url{https://doi.org/10.1111/bjso.12267}
 
@@ -1118,13 +1132,13 @@ Community \& Applied Social Psychology}, \emph{28}(5), 293--305.
 *Bagci, S. C., Verkuyten, M., Koc, Y., Turnuklu, A., Piyale, Z. E., \&
 Bekmezci, E. (2020). Being tolerated and being discriminated against:
 Links to psychological well-being through threatened social identity
-needs. \emph{European Journal of Social Psychology}, \emph{50}(7),
+needs. \emph{European Journal of Social Psychology}, \emph{50},
 1463--1477. \url{https://doi.org/10.1002/ejsp.2699}
 
 \leavevmode\hypertarget{ref-2075}{}%
 *Becker, J. C., Wright, S. C., Lubensky, M. E., \& Zhou, S. (2013).
-Friend or ally: Whether cross-group contact undermines collective action
-depends on what advantaged group members say (or don't say).
+Friend or ally: {Whether} cross-group contact undermines collective
+action depends on what advantaged group members say (or don't say).
 \emph{Personality and Social Psychology Bulletin}, \emph{39}(4),
 442--455. \url{https://doi.org/10.1177/0146167213477155}
 
@@ -1145,10 +1159,10 @@ Blumer, H. (1958). Race prejudice as a sense of group position.
 \url{https://doi.org/10.2307/1388607}
 
 \leavevmode\hypertarget{ref-2397}{}%
-*Bond, J., \& Dixon, J. (2020). \emph{White and Black UK residents'
-support for collective action for the removal of public symbols
-associated with historical racism in England} {[}Unpublished dataset{]}.
-The Open University.
+*Bond, J., \& Dixon, J. (2020). \emph{{White} and {Black} {UK}
+residents' support for collective action for the removal of public
+symbols associated with historical racism in {England}} {[}Unpublished
+dataset{]}. The Open University.
 
 \leavevmode\hypertarget{ref-borenstein_introduction_2009}{}%
 Borenstein, M., Hedges, L. V., Higgins, J. P. T., \& Rothstein, H. R.
@@ -1156,7 +1170,7 @@ Borenstein, M., Hedges, L. V., Higgins, J. P. T., \& Rothstein, H. R.
 
 \leavevmode\hypertarget{ref-2398}{}%
 *Bracegirdle, C. (2020). \emph{Social network study of two diverse
-schools in Northern England} {[}Unpublished dataset{]}. University of
+schools in {Northern England}} {[}Unpublished dataset{]}. University of
 Oxford.
 
 \leavevmode\hypertarget{ref-carter_correcting_2019}{}%
@@ -1166,88 +1180,88 @@ methods. \emph{Advances in Methods and Practices in Psychological
 Science}, \emph{2}(2), 115--144.
 \url{https://doi.org/10.1177/2515245919847196}
 
-\leavevmode\hypertarget{ref-480}{}%
-*Castro, V. S. (2005). Discriminación percibida y autoestima en jóvenes
-de grupos minoritarios y mayoritarios en Costa Rica {[}Perceived
-discrimination and self-esteem among ethnic majority and minority youths
-in Costa Rica{]}. \emph{Revista Interamericana de Psicología},
-\emph{39}(1), 93--106.
-
 \leavevmode\hypertarget{ref-1914}{}%
 *Castro Solano, A., \& Lupano Perugini, M. L. (2013). Predictores de la
 adaptación sociocultural de estudiantes universitarios extranjeros en
-Argentina {[}Predictors of socio-cultural adaptation of foreign
-university students in Argentina{]}. \emph{Interdisciplinaria},
+{Argentina} {[}{Predictors} of socio-cultural adaptation of foreign
+university students in {Argentina}{]}. \emph{Interdisciplinaria},
 \emph{30}(2), 265--281.
+
+\leavevmode\hypertarget{ref-480}{}%
+*Castro, V. S. (2005). Discriminación percibida y autoestima en jóvenes
+de grupos minoritarios y mayoritarios en {Costa} {Rica} {[}{Perceived}
+discrimination and self-esteem among ethnic majority and minority youths
+in {Costa} {Rica}{]}. \emph{Revista Interamericana de Psicología},
+\emph{39}(1), 93--106.
 
 \leavevmode\hypertarget{ref-3205}{}%
 *Cernat, V. (2019). Interminority contact and solidarity under conflict:
-Evidence from the Hungarian and Roma minorities in Romania. \emph{Basic
-and Applied Social Psychology}, \emph{41}(5), 326--339.
+{Evidence} from the {Hungarian} and {Roma} minorities in {Romania}.
+\emph{Basic and Applied Social Psychology}, \emph{41}(5), 326--339.
 \url{https://doi.org/10.1080/01973533.2019.1652179}
 
 \leavevmode\hypertarget{ref-91}{}%
-*Chang, T. K. (2017). \emph{Psychological distress of Asian
+*Chang, T. K. (2017). \emph{Psychological distress of {A}sian
 international students: Applying intergroup contact theory} {[}Doctoral
-dissertation, Indiana University{]}. ProQuest Dissertations and Theses
-Global.
+dissertation, \{Indiana University\}{]}. {ProQuest Dissertations and
+Theses Global}.
 
 \leavevmode\hypertarget{ref-1163}{}%
 *Cruse, S. L. (2015). \emph{The relationship of ethnic identity,
 perceived discrimination, and outgroup contact to racial attitudes
-toward White people in African American college students} {[}Doctoral
-dissertation, University of Kansas{]}. ProQuest Dissertations and Theses
-Global.
+toward {White} people in {African} {American} college students}
+{[}Doctoral dissertation, \{University of Kansas\}{]}. {ProQuest
+Dissertations and Theses Global}.
 
 \leavevmode\hypertarget{ref-1248}{}%
 *Çakal, H., Hewstone, M., Güler, M., \& Heath, A. (2016). Predicting
-support for collective action in the conflict between Turks and Kurds:
-Perceived threats as a mediator of intergroup contact and social
-identity. \emph{Group Processes \& Intergroup Relations}, \emph{19}(6),
-732--752. \url{https://doi.org/10.1177/1368430216641303}
+support for collective action in the conflict between {Turks} and
+{Kurds}: {Perceived} threats as a mediator of intergroup contact and
+social identity. \emph{Group Processes \& Intergroup Relations},
+\emph{19}(6), 732--752. \url{https://doi.org/10.1177/1368430216641303}
 
 \leavevmode\hypertarget{ref-284}{}%
 *Çakal, H., Hewstone, M., Schwär, G., \& Heath, A. (2011). An
 investigation of the social identity model of collective action and the
-``sedative'' effect of intergroup contact among Black and White students
-in South Africa. \emph{British Journal of Social Psychology},
-\emph{50}(4), 606--627.
+{`sedative'} effect of intergroup contact among {Black} and {White}
+students in {South} {Africa}. \emph{British Journal of Social
+Psychology}, \emph{50}(4), 606--627.
 \url{https://doi.org/10.1111/j.2044-8309.2011.02075.x}
 
 \leavevmode\hypertarget{ref-1614}{}%
-*Çelebi, E., Verkuyten, M., \& Smyrnioti, N. (2016). Support for Kurdish
-language rights in Turkey: The roles of ethnic group, group
+*Çelebi, E., Verkuyten, M., \& Smyrnioti, N. (2016). Support for
+{Kurdish} language rights in {Turkey}: The roles of ethnic group, group
 identifications, contact, and intergroup perceptions. \emph{Ethnic and
 Racial Studies}, \emph{39}(6), 1034--1051.
 \url{https://doi.org/10.1080/01419870.2015.1103881}
 
 \leavevmode\hypertarget{ref-783}{}%
 *de Vroome, T., Verkuyten, M., \& Martinovic, B. (2014). Host national
-identification of immigrants in the Netherlands. \emph{International
+identification of immigrants in the {Netherlands}. \emph{International
 Migration Review}, \emph{48}(1), 1--27.
 \url{https://doi.org/10.1111/imre.12063}
 
 \leavevmode\hypertarget{ref-3196}{}%
 *Di Bernardo, G. A., Vezzali, L., Stathi, S., McKeown Jones, S., Cocco,
 V. M., Saguy, T., \& Dixon, J. (2019). Fostering social change among
-advantaged and disadvantaged group members: Integrating intergroup
+advantaged and disadvantaged group members: {Integrating} intergroup
 contact and social identity perspectives on collective action.
 \emph{Group Processes \& Intergroup Relations}.
 \url{https://doi.org/10.1177/1368430219889134}
 
 \leavevmode\hypertarget{ref-1807}{}%
 *Di Saint Pierre, F., Martinovic, B., \& de Vroome, T. (2015). Return
-wishes of refugees in the Netherlands: The role of integration, host
+wishes of refugees in the {Netherlands}: {The} role of integration, host
 national identification and perceived discrimination. \emph{Journal of
 Ethnic and Migration Studies}, \emph{41}(11), 1836--1857.
 \url{https://doi.org/10.1080/1369183X.2015.1023184}
 
 \leavevmode\hypertarget{ref-93}{}%
 *Dixon, J., Çakal, H., Khan, W., Osmany, M., Majumdar, S., \& Hassan, M.
-(2017). Contact, political solidarity and collective action: An Indian
-case study of relations between historically disadvantaged communities.
-\emph{Journal of Community \& Applied Social Psychology}, \emph{27}(1),
-83--95. \url{https://doi.org/10.1002/casp.2296}
+(2017). Contact, political solidarity and collective action: {An}
+{Indian} case study of relations between historically disadvantaged
+communities. \emph{Journal of Community \& Applied Social Psychology},
+\emph{27}(1), 83--95. \url{https://doi.org/10.1002/casp.2296}
 
 \leavevmode\hypertarget{ref-dixon_divide_2015}{}%
 Dixon, J., Durrheim, K., Thomae, M., Tredoux, C., Kerr, P., \& Quayle,
@@ -1270,21 +1284,21 @@ attitudes toward the principle and practice of racial equality.
 
 \leavevmode\hypertarget{ref-336}{}%
 *Dixon, J., Durrheim, K., Tredoux, C., Tropp, L. R., Clack, B., \&
-Eaton, L. (2010). A paradox of integration? Interracial contact,
+Eaton, L. (2010). A paradox of integration? {Interracial} contact,
 prejudice reduction, and perceptions of racial discrimination.
 \emph{Journal of Social Issues}, \emph{66}(2), 401--416.
 \url{https://doi.org/10.1111/j.1540-4560.2010.01652.x}
 
 \leavevmode\hypertarget{ref-dixon_beyond_2012}{}%
 Dixon, J., Levine, M., Reicher, S., \& Durrheim, K. (2012). Beyond
-prejudice: Are negative evaluations the problem and is getting us to
+prejudice: {Are} negative evaluations the problem and is getting us to
 like one another more the solution? \emph{Behavioral and Brain
 Sciences}, \emph{35}(6), 411--425.
 \url{https://doi.org/10.1017/S0140525X11002214}
 
 \leavevmode\hypertarget{ref-2033}{}%
 *Droogendyk, L., Louis, W. R., \& Wright, S. C. (2016). Renewed promise
-for positive cross-group contact: The role of supportive contact in
+for positive cross-group contact: {The} role of supportive contact in
 empowering collective action. \emph{Canadian Journal of Behavioural
 Science / Revue Canadienne Des Sciences Du Comportement}, \emph{48}(4),
 317--327. \url{https://doi.org/10.1037/cbs0000058}
@@ -1292,19 +1306,19 @@ Science / Revue Canadienne Des Sciences Du Comportement}, \emph{48}(4),
 \leavevmode\hypertarget{ref-4001}{}%
 *Eller, A., Abrams, D., Wright, S. C., \& Davies, B. (2020). Effects of
 intergroup contact and relative gratification vs deprivation on
-prejudice on both sides of the U.S./Mexico status divide. \emph{Journal
-of Applied Social Psychology}, \emph{50}(7), 406--417.
+prejudice on both sides of the {U}.{S}./{Mexico} status divide.
+\emph{Journal of Applied Social Psychology}, \emph{50}(7), 406--417.
 \url{https://doi.org/10.1111/jasp.12669}
 
 \leavevmode\hypertarget{ref-1549}{}%
 *Forbes, J. M. (2001). \emph{Affirmative action attitudes in black and
-white} {[}Doctoral dissertation, Wayne State University{]}. ProQuest
-Dissertations and Theses Global.
+white} {[}Doctoral dissertation, \{Wayne State University\}{]}.
+{ProQuest Dissertations and Theses Global}.
 
 \leavevmode\hypertarget{ref-325}{}%
-*Franco, M. (2019). Let the racism tell you who your friends are: The
+*Franco, M. (2019). Let the racism tell you who your friends are: {The}
 effects of racism on social connections and life-satisfaction for
-Multiracial people. \emph{International Journal of Intercultural
+{Multiracial} people. \emph{International Journal of Intercultural
 Relations}, \emph{69}, 54--65.
 \url{https://doi.org/10.1016/j.ijintrel.2018.12.005}
 
@@ -1321,15 +1335,15 @@ Gelman, A., \& Loken, E. (2014). The statistical crisis in science.
 
 \leavevmode\hypertarget{ref-1576}{}%
 *Goto, S. G., Gee, G. C., \& Takeuchi, D. T. (2002). Strangers still?
-The experience of discrimination among Chinese Americans. \emph{Journal
-of Community Psychology}, \emph{30}(2), 211--224.
+{The} experience of discrimination among {Chinese} {Americans}.
+\emph{Journal of Community Psychology}, \emph{30}(2), 211--224.
 \url{https://doi.org/10.1002/jcop.9998}
 
 \leavevmode\hypertarget{ref-1949}{}%
 *Haase, A., Rohmann, A., \& Hallmann, K. (2019). An ecological approach
-to psychological adjustment: A field survey among refugees in Germany.
-\emph{International Journal of Intercultural Relations}, \emph{68},
-44--54. \url{https://doi.org/10.1016/j.ijintrel.2018.10.003}
+to psychological adjustment: {A} field survey among refugees in
+{Germany}. \emph{International Journal of Intercultural Relations},
+\emph{68}, 44--54. \url{https://doi.org/10.1016/j.ijintrel.2018.10.003}
 
 \leavevmode\hypertarget{ref-hamaker_critique_2015}{}%
 Hamaker, E. L., Kuiper, R. M., \& Grasman, R. P. P. P. (2015). A
@@ -1338,16 +1352,16 @@ critique of the cross-lagged panel model. \emph{Psychological Methods},
 
 \leavevmode\hypertarget{ref-4003}{}%
 *Hayward, L. E., Hornsey, M. J., Tropp, L. R., \& Barlow, F. K. (2017).
-Positive and negative intergroup contact predict Black and White
-Americans' judgments about police violence against Black Americans.
-\emph{Journal of Applied Social Psychology}, \emph{47}(11), 605--615.
-\url{https://doi.org/10.1111/jasp.12463}
+Positive and negative intergroup contact predict {Black} and {White}
+{Americans}' judgments about police violence against {Black}
+{Americans}. \emph{Journal of Applied Social Psychology}, \emph{47}(11),
+605--615. \url{https://doi.org/10.1111/jasp.12463}
 
 \leavevmode\hypertarget{ref-2309}{}%
 *Hayward, L. E., Tropp, L. R., Hornsey, M. J., \& Barlow, F. K. (2018).
-How negative contact and positive contact with Whites predict collective
-action among racial and ethnic minorities. \emph{British Journal of
-Social Psychology}, \emph{57}(1), 1--20.
+How negative contact and positive contact with {Whites} predict
+collective action among racial and ethnic minorities. \emph{British
+Journal of Social Psychology}, \emph{57}(1), 1--20.
 \url{https://doi.org/10.1111/bjso.12220}
 
 \leavevmode\hypertarget{ref-3054}{}%
@@ -1367,8 +1381,8 @@ action model. \emph{Journal of Social Issues}, \emph{77}(1), 217--241.
 
 \leavevmode\hypertarget{ref-1407}{}%
 *Head, R. N. (2013). \emph{Coping with perceived discrimination}
-{[}Doctoral dissertation, North Carolina State University{]}. ProQuest
-Dissertations and Theses Global.
+{[}Doctoral dissertation, \{North Carolina State University\}{]}.
+{ProQuest Dissertations and Theses Global}.
 
 \leavevmode\hypertarget{ref-henrich_weirdest_2010}{}%
 Henrich, J., Heine, S. J., \& Norenzayan, A. (2010). The weirdest people
@@ -1376,20 +1390,20 @@ in the world? \emph{Behavioral and Brain Sciences}, \emph{33}(2-3),
 61--135. \url{https://doi.org/10.1017/S0140525X10000725}
 
 \leavevmode\hypertarget{ref-1494}{}%
-*Herda, D. E. (2013). \emph{Hostile contact: Self-reports of
-interpersonal discrimination among Blacks, Whites and Latinos in
-Chicago} {[}Doctoral dissertation, University of California, Davis{]}.
-ProQuest Dissertations and Theses Global.
+*Herda, D. E. (2013). \emph{Hostile contact: {Self}-reports of
+interpersonal discrimination among {Blacks}, {Whites} and {Latinos} in
+{Chicago}} {[}Doctoral dissertation, \{University of California,
+Davis\}{]}. {ProQuest Dissertations and Theses Global}.
 
 \leavevmode\hypertarget{ref-324}{}%
-*Herda, D. E. (2016). The specter of discrimination: Fear of
-interpersonal racial discrimination among adolescents in Chicago.
+*Herda, D. E. (2016). The specter of discrimination: {Fear} of
+interpersonal racial discrimination among adolescents in {Chicago}.
 \emph{Social Science Research}, \emph{55}, 48--62.
 \url{https://doi.org/10.1016/j.ssresearch.2015.09.010}
 
 \leavevmode\hypertarget{ref-609}{}%
 *Hui, B. P. H., Chen, S. X., Leung, C. M., \& Berry, J. W. (2015).
-Facilitating adaptation and intercultural contact: The role of
+Facilitating adaptation and intercultural contact: {The} role of
 integration and multicultural ideology in dominant and non-dominant
 groups. \emph{International Journal of Intercultural Relations},
 \emph{45}, 70--84. \url{https://doi.org/10.1016/j.ijintrel.2015.01.002}
@@ -1397,7 +1411,7 @@ groups. \emph{International Journal of Intercultural Relations},
 \leavevmode\hypertarget{ref-2001}{}%
 *Hunt, M. O., Wise, L. A., Jipguep, M.-C., Cozier, Y. C., \& Rosenberg,
 L. (2007). Neighborhood racial composition and perceptions of racial
-discrimination: Evidence from the Black women's health study.
+discrimination: Evidence from the {Black} women's health study.
 \emph{Social Psychology Quarterly}, \emph{70}(3), 272--289.
 \url{https://doi.org/10.1177/019027250707000306}
 
@@ -1414,36 +1428,37 @@ Social Psychology}, \emph{51}(2), 312--329.
 
 \leavevmode\hypertarget{ref-19}{}%
 *Jiang, Q., Aricat, R. G., Chib, A., Chia, A., Tan, S. M., Tan, L., \&
-Woo, Z. W. (2016). Silent but brewing: Reactive ethnicity and
-interculturality among Chinese students in Singapore. \emph{Journal of
-Intercultural Communication}, \emph{40}.
+Woo, Z. W. (2016). Silent but brewing: {Reactive} ethnicity and
+interculturality among {Chinese} students in {Singapore}. \emph{Journal
+of Intercultural Communication}, \emph{40}.
 \url{http://www.immi.se/intercultural/nr40/aricat.html}
 
 \leavevmode\hypertarget{ref-303}{}%
 *Jones, M. L. (2017). \emph{Attitudes and experiences of close
-interethnic friendships among Native emerging adults: A mixed-methods
-investigation} {[}Doctoral dissertation, Utah State University{]}.
-ProQuest Dissertations and Theses Global.
+interethnic friendships among {Native} emerging adults: {A}
+mixed-methods investigation} {[}Doctoral dissertation, \{Utah State
+University\}{]}. {ProQuest Dissertations and Theses Global}.
 
 \leavevmode\hypertarget{ref-856}{}%
 *Kamberi, E., Martinovic, B., \& Verkuyten, M. (2017). Intergroup
-contact and minority group empowerment: The perspective of Roma and
-non-Roma adolescents in Macedonia. \emph{Journal of Community \& Applied
-Social Psychology}, \emph{27}(5), 424--434.
+contact and minority group empowerment: {The} perspective of {Roma} and
+non-{Roma} adolescents in {Macedonia}. \emph{Journal of Community \&
+Applied Social Psychology}, \emph{27}(5), 424--434.
 \url{https://doi.org/10.1002/casp.2320}
 
 \leavevmode\hypertarget{ref-1411}{}%
 *Kanas, A., Scheepers, P., \& Sterkens, C. (2015). Interreligious
 contact, perceived group threat, and perceived discrimination:
 Predicting negative attitudes among religious minorities and majorities
-in Indonesia. \emph{Social Psychology Quarterly}, \emph{78}(2),
+in {Indonesia}. \emph{Social Psychology Quarterly}, \emph{78}(2),
 102--126. \url{https://doi.org/10.1177/0190272514564790}
 
 \leavevmode\hypertarget{ref-4002}{}%
 *Kende, J., Baysu, G., Van Laar, C., \& Phalet, K. (2020). Majority
-group belonging without minority group distancing? Minority experiences
-of intergroup contact and inequality. \emph{British Journal of Social
-Psychology}, bjso.12382. \url{https://doi.org/10.1111/bjso.12382}
+group belonging without minority group distancing? {Minority}
+experiences of intergroup contact and inequality. \emph{British Journal
+of Social Psychology}, bjso.12382.
+\url{https://doi.org/10.1111/bjso.12382}
 
 \leavevmode\hypertarget{ref-1525}{}%
 *Kiang, L., Peterson, J. L., \& Thompson, T. L. (2011). Ethnic peer
@@ -1454,21 +1469,21 @@ communities. \emph{Journal of Research on Adolescence}, \emph{21}(4),
 \leavevmode\hypertarget{ref-830}{}%
 *Kim, T. Y. (2015). \emph{The influence of perceived racial
 discrimination on depressive symptoms and school outcomes among asian
-american adolescents} {[}Doctoral dissertation, The University of
-Chicago{]}. ProQuest Dissertations and Theses Global.
+american adolescents} {[}Doctoral dissertation, \{The University of
+Chicago\}{]}. {ProQuest Dissertations and Theses Global}.
 
 \leavevmode\hypertarget{ref-401}{}%
-*Koschate, M., Hofmann, W., \& Schmitt, M. (2012). When East meets West:
-A longitudinal examination of the relationship between group relative
-deprivation and intergroup contact in reunified Germany. \emph{British
-Journal of Social Psychology}, \emph{51}(2), 290--311.
+*Koschate, M., Hofmann, W., \& Schmitt, M. (2012). When {East} meets
+{West}: {A} longitudinal examination of the relationship between group
+relative deprivation and intergroup contact in reunified {Germany}.
+\emph{British Journal of Social Psychology}, \emph{51}(2), 290--311.
 \url{https://doi.org/10.1111/j.2044-8309.2011.02056.x}
 
 \leavevmode\hypertarget{ref-45}{}%
 *Krahé, B., Abraham, C., Felber, J., \& Helbig, M. K. (2005). Perceived
-discrimination of international visitors to universities in Germany and
-the UK. \emph{British Journal of Psychology}, \emph{96}(3), 263--281.
-\url{https://doi.org/10.1348/000712605X48296}
+discrimination of international visitors to universities in {Germany}
+and the {UK}. \emph{British Journal of Psychology}, \emph{96}(3),
+263--281. \url{https://doi.org/10.1348/000712605X48296}
 
 \leavevmode\hypertarget{ref-lakens_reproducibility_2016}{}%
 Lakens, D., Hilgard, J., \& Staaks, J. (2016). On the reproducibility of
@@ -1482,28 +1497,28 @@ meta-analyses: Six practical recommendations. \emph{BMC Psychology},
 
 \leavevmode\hypertarget{ref-3134}{}%
 *Leszczensky, L., Maxwell, R., \& Bleich, E. (2020). What factors best
-explain national identification among Muslim adolescents? Evidence from
-four European countries. \emph{Journal of Ethnic and Migration Studies},
-\emph{46}(1), 260--276.
+explain national identification among {Muslim} adolescents? {Evidence}
+from four {European} countries. \emph{Journal of Ethnic and Migration
+Studies}, \emph{46}(1), 260--276.
 \url{https://doi.org/10.1080/1369183X.2019.1578203}
 
 \leavevmode\hypertarget{ref-levin_ethnic_2006}{}%
 Levin, S., Van Laar, C., \& Foote, W. (2006). Ethnic segregation and
-perceived discrimination in college: Mutual influences and effects on
+perceived discrimination in college: {Mutual} influences and effects on
 social and academic life. \emph{Journal of Applied Social Psychology},
 \emph{36}(6), 1471--1501.
 \url{https://doi.org/10.1111/j.0021-9029.2006.00068.x}
 
 \leavevmode\hypertarget{ref-li_meta-cart_2017}{}%
-Li, X., Dusseldorp, E., \& Meulman, J. J. (2017). Meta-CART: A tool to
-identify interactions between moderators in meta-analysis. \emph{British
-Journal of Mathematical and Statistical Psychology}, \emph{70}(1),
-118--136. \url{https://doi.org/10.1111/bmsp.12088}
+Li, X., Dusseldorp, E., \& Meulman, J. J. (2017). Meta-{CART}: {A} tool
+to identify interactions between moderators in meta-analysis.
+\emph{British Journal of Mathematical and Statistical Psychology},
+\emph{70}(1), 118--136. \url{https://doi.org/10.1111/bmsp.12088}
 
 \leavevmode\hypertarget{ref-li_multiple_2020}{}%
 Li, X., Dusseldorp, E., Su, X., \& Meulman, J. J. (2020). Multiple
-moderator meta-analysis using the R-package Meta-CART. \emph{Behavior
-Research Methods}, \emph{52}(6), 2657--2673.
+moderator meta-analysis using the {R}-package {Meta}-{CART}.
+\emph{Behavior Research Methods}, \emph{52}(6), 2657--2673.
 \url{https://doi.org/10.3758/s13428-020-01360-0}
 
 \leavevmode\hypertarget{ref-1042}{}%
@@ -1515,56 +1530,56 @@ the first year of college. \emph{Journal of Social Issues},
 \leavevmode\hypertarget{ref-894}{}%
 *Lubensky, M. E. (2004). \emph{An unplanned trade-off? The potential
 conflict between reducing prejudice and supporting engagement in
-collective action} {[}Doctoral dissertation, University of California,
-Santa Cruz{]}. ProQuest Dissertations and Theses Global.
+collective action} {[}Doctoral dissertation, \{University of California,
+Santa Cruz\}{]}. {ProQuest Dissertations and Theses Global}.
 
 \leavevmode\hypertarget{ref-4000}{}%
 *Lutterbach, S., \& Beelmann, A. (2020). Positive and negative
-intergroup contact and shared reality: Contact effects among host
+intergroup contact and shared reality: {Contact} effects among host
 society and refugees. \emph{European Journal of Social Psychology},
 \emph{50}(1), 143--159. \url{https://doi.org/10.1002/ejsp.2601}
 
 \leavevmode\hypertarget{ref-macinnis_extending_2019}{}%
 MacInnis, C. C., \& Hodson, G. (2019). Extending the benefits of
-intergroup contact beyond attitudes: When does intergroup contact
+intergroup contact beyond attitudes: {When} does intergroup contact
 predict greater collective action support? \emph{Journal of Theoretical
 Social Psychology}, \emph{3}(1), 11--22.
 \url{https://doi.org/10.1002/jts5.23}
 
 \leavevmode\hypertarget{ref-893}{}%
 *Mallet, J., Lewis, C. A., \& Cairns, E. (2013). Perceived in-group
-density and psychological adjustment in a sample of Northern Irish
-Catholics and Protestants. \emph{Studia Psychologica}, \emph{55}(3),
+density and psychological adjustment in a sample of {Northern} {Irish}
+{Catholics} and {Protestants}. \emph{Studia Psychologica}, \emph{55}(3),
 229--246. \url{https://doi.org/10.21909/sp.2013.03.639}
 
 \leavevmode\hypertarget{ref-3005}{}%
 *Martiny, S. E., Froehlich, L., Soltanpanah, J., \& Haugen, M. S.
-(2020). Young immigrants in Norway: The role of national and ethnic
+(2020). Young immigrants in {Norway}: {The} role of national and ethnic
 identity in immigrants' integration. \emph{Scandinavian Journal of
 Psychology}, \emph{61}(2), 312--324.
 \url{https://doi.org/10.1111/sjop.12594}
 
 \leavevmode\hypertarget{ref-mazumder_persistent_2018}{}%
-Mazumder, S. (2018). The persistent effect of U. S. civil rights
+Mazumder, S. (2018). The persistent effect of {U. S.} Civil rights
 protests on political attitudes. \emph{American Journal of Political
 Science}, \emph{62}(4), 922--935.
 \url{https://doi.org/10.1111/ajps.12384}
 
 \leavevmode\hypertarget{ref-1850}{}%
-*McGinley, J. E. (2007). \emph{Expatriate adjustment: Resources,
-responses, and outcomes} {[}Doctoral dissertation, Northcentral
-University{]}. ProQuest Dissertations and Theses Global.
+*McGinley, J. E. (2007). \emph{Expatriate adjustment: {Resources},
+responses, and outcomes} {[}Doctoral dissertation, \{Northcentral
+University\}{]}. {ProQuest Dissertations and Theses Global}.
 
 \leavevmode\hypertarget{ref-mckeown_contact_2017}{}%
-McKeown, S., \& Dixon, J. (2017). The ``contact hypothesis'': Critical
+McKeown, S., \& Dixon, J. (2017). The {``contact hypothesis''}: Critical
 reflections and future directions. \emph{Social and Personality
 Psychology Compass}, \emph{11}(1), e12295.
 \url{https://doi.org/10.1111/spc3.12295}
 
 \leavevmode\hypertarget{ref-1376}{}%
 *McKeown, S., \& Taylor, L. K. (2017). Beyond the irony of intergroup
-contact: The effects of contact and threat on political participation
-and support for political violence in Northern Ireland. \emph{Group
+contact: {The} effects of contact and threat on political participation
+and support for political violence in {Northern} {Ireland}. \emph{Group
 Dynamics: Theory, Research, and Practice}, \emph{21}(4), 234--244.
 \url{https://doi.org/10.1037/gdn0000074}
 
@@ -1572,13 +1587,13 @@ Dynamics: Theory, Research, and Practice}, \emph{21}(4), 234--244.
 Moher, D., Shamseer, L., Clarke, M., Ghersi, D., Liberati, A.,
 Petticrew, M., Shekelle, P., \& Stewart, L. A. (2015). Preferred
 reporting items for systematic review and meta-analysis protocols
-(PRISMA-P) 2015 statement. \emph{Systematic Reviews}, \emph{4}(1), 1--9.
-\url{https://doi.org/10.1186/2046-4053-4-1}
+({PRISMA}-{P}) 2015 statement. \emph{Systematic Reviews}, \emph{4}(1),
+1--9. \url{https://doi.org/10.1186/2046-4053-4-1}
 
 \leavevmode\hypertarget{ref-muthukrishna_beyond_2020}{}%
 Muthukrishna, M., Bell, A. V., Henrich, J., Curtin, C. M., Gedranovich,
 A., McInerney, J., \& Thue, B. (2020). Beyond western, educated,
-industrial, rich, and democratic (WEIRD) psychology: Measuring and
+industrial, rich, and democratic ({WEIRD}) psychology: Measuring and
 mapping scales of cultural and psychological distance.
 \emph{Psychological Science}, \emph{31}(6), 678--701.
 \url{https://doi.org/10.1177/0956797620916782}
@@ -1621,13 +1636,17 @@ Personality Science}, \emph{11}(1), 7--15.
 \leavevmode\hypertarget{ref-1762}{}%
 *Poore, A. G., Gagne, F., Barlow, K. M., Lydon, J. E., Taylor, D. M., \&
 Wright, S. C. (2002). Contact and the personal/group discrimination
-discrepancy in an Inuit community. \emph{The Journal of Psychology},
+discrepancy in an {Inuit} community. \emph{The Journal of Psychology},
 \emph{136}(4), 371--382. \url{https://doi.org/10.1080/00223980209604164}
+
+\leavevmode\hypertarget{ref-2391}{}%
+*Prati, F., Kenfack, S. K., Rubini, M., \& Hewstone, M. (2020). {[}Data
+set{]}. University of Oxford.
 
 \leavevmode\hypertarget{ref-3051}{}%
 *Rafiqi, A., \& Thomsen, J. P. F. (2020). Group discrimination,
 intergroup contact, and ethnic minority members' reactions toward the
-majority. \emph{Ethnicities}, \emph{24}(1), 3--22.
+majority. \emph{Ethnicities}, \emph{24}, 3--22.
 \url{https://doi.org/10.1177/1468796820909493}
 
 \leavevmode\hypertarget{ref-reicher_rethinking_2007}{}%
@@ -1671,7 +1690,7 @@ Journal of Behavioral Sciences}, \emph{12}(3), 235--255.
 \leavevmode\hypertarget{ref-703}{}%
 *Rowley, S. J., Burchinal, M. R., Roberts, J. E., \& Zeisel, S. A.
 (2008). Racial identity, social context, and race-related social
-cognition in African Americans during middle childhood.
+cognition in {African} {Americans} during middle childhood.
 \emph{Developmental Psychology}, \emph{44}(6), 1537--1546.
 \url{https://doi.org/10.1037/a0013349}
 
@@ -1683,16 +1702,17 @@ children and adolescents. \emph{Journal of Youth and Adolescence},
 
 \leavevmode\hypertarget{ref-1114}{}%
 *Saab, R., Harb, C., \& Moughalian, C. (2017). Intergroup contact as a
-predictor of violent and nonviolent collective action: Evidence from
-Syrian refugees and Lebanese nationals. \emph{Peace and Conflict:
+predictor of violent and nonviolent collective action: {Evidence} from
+{Syrian} refugees and {Lebanese} nationals. \emph{Peace and Conflict:
 Journal of Peace Psychology}, \emph{23}(3), 297--306.
 \url{https://doi.org/10.1037/pac0000234}
 
 \leavevmode\hypertarget{ref-2333}{}%
 *Saenz, V. B. (2005). \emph{Breaking the cycle of segregation: Examining
 students' pre-college racial environments and their diversity
-experiences in college} {[}Doctoral dissertation, University of
-California, Los Angeles{]}. ProQuest Dissertations and Theses Global.
+experiences in college} {[}Doctoral dissertation, \{University of
+California, Los Angeles\}{]}. {ProQuest Dissertations and Theses
+Global}.
 
 \leavevmode\hypertarget{ref-4005}{}%
 *Saguy, T., \& Chernyak-Hai, L. (2012). Intergroup contact can undermine
@@ -1713,11 +1733,11 @@ of intergroup contact: A dynamic approach} {[}Unpublished dataset{]}.
 University of Oxford.
 
 \leavevmode\hypertarget{ref-2392}{}%
-*Sengupta, N. K. (2020a). \emph{Inter-caste contact in India}
+*Sengupta, N. K. (2020a). \emph{Inter-caste contact in {India}}
 {[}Unpublished dataset{]}. University of Kent.
 
 \leavevmode\hypertarget{ref-2385}{}%
-*Sengupta, N. K. (2020b). \emph{Inter-religious contact in India}
+*Sengupta, N. K. (2020b). \emph{Inter-religious contact in {India}}
 {[}Unpublished dataset{]}. University of Kent.
 
 \leavevmode\hypertarget{ref-sengupta_ingroup_2015}{}%
@@ -1735,16 +1755,16 @@ inequality. \emph{Personality and Social Psychology Bulletin},
 
 \leavevmode\hypertarget{ref-2381}{}%
 *Sengupta, N. K., \& Sibley, C. G. (2020). \emph{Intergroup contact and
-political attitudes among ethnic minorities in New Zealand}
+political attitudes among ethnic minorities in {New Zealand}}
 {[}Unpublished dataset{]}. The University of Auckland.
 
 \leavevmode\hypertarget{ref-1891}{}%
-*Shammas, D. (2009). \emph{Expatriate adjustment: Resources, responses,
-and outcomes} {[}Doctoral dissertation, Northcentral University{]}.
-ProQuest Dissertations and Theses Global.
+*Shammas, D. (2009). \emph{Expatriate adjustment: {Resources},
+responses, and outcomes} {[}Doctoral dissertation, \{Northcentral
+University\}{]}. {ProQuest Dissertations and Theses Global}.
 
 \leavevmode\hypertarget{ref-789}{}%
-*Shani, M., \& Boehnke, K. (2017). The effect of Jewish--Palestinian
+*Shani, M., \& Boehnke, K. (2017). The effect of {Jewish}--{Palestinian}
 mixed-model encounters on readiness for contact and policy support.
 \emph{Peace and Conflict: Journal of Peace Psychology}, \emph{23}(3),
 219--227. \url{https://doi.org/10.1037/pac0000220}
@@ -1760,7 +1780,7 @@ allows presenting anything as significant. \emph{Psychological Science},
 *Simons, R. L., Lei, M.-K., Carter, S., Beach, S. R. H., Gibbons, F. X.,
 Gerrard, M., \& Philibert, R. A. (2019). Inflammation mediates the
 effect of discrimination, religiosity, and friendship network on
-expression of the Tp53 cancer suppressor gene. \emph{SSM - Population
+expression of the {Tp53} cancer suppressor gene. \emph{SSM - Population
 Health}, \emph{7}, 100389.
 \url{https://doi.org/10.1016/j.ssmph.2019.100389}
 
@@ -1771,8 +1791,8 @@ Smith, H. J., Pettigrew, T. F., Pippin, G. M., \& Bialosiewicz, S.
 \url{https://doi.org/10.1177/1088868311430825}
 
 \leavevmode\hypertarget{ref-stan_development_team_rstan:_2020}{}%
-Stan Development Team. (2020). \emph{RStan: The R interface to Stan}
-(Version 2.21.2). \url{http://mc-stan.org/}
+Stan Development Team. (2020). \emph{{RStan}: {The} {R} interface to
+{Stan}} (Version 2.21.2). \url{http://mc-stan.org/}
 
 \leavevmode\hypertarget{ref-stanley_meta-regression_2014}{}%
 Stanley, T. D., \& Doucouliagos, H. (2014). Meta-regression
@@ -1782,28 +1802,28 @@ Synthesis Methods}, \emph{5}(1), 60--78.
 
 \leavevmode\hypertarget{ref-1020}{}%
 *Swami, V. (2009). Predictors of sociocultural adjustment among
-sojourning Malaysian students in Britain. \emph{International Journal of
-Psychology}, \emph{44}(4), 266--273.
+sojourning {Malaysian} students in {Britain}. \emph{International
+Journal of Psychology}, \emph{44}(4), 266--273.
 \url{https://doi.org/10.1080/00207590801888745}
 
 \leavevmode\hypertarget{ref-733}{}%
 *Swami, V., Arteche, A., Chamorro-Premuzic, T., \& Furnham, A. (2010).
-Sociocultural adjustment among sojourning Malaysian students in Britain:
-A replication and path analytic extension. \emph{Social Psychiatry and
-Psychiatric Epidemiology}, \emph{45}(1), 57--65.
+Sociocultural adjustment among sojourning {Malaysian} students in
+{Britain}: A replication and path analytic extension. \emph{Social
+Psychiatry and Psychiatric Epidemiology}, \emph{45}(1), 57--65.
 \url{https://doi.org/10.1007/s00127-009-0042-4}
 
 \leavevmode\hypertarget{ref-2375}{}%
 *Tausch, N., Saguy, T., \& Bryson, J. (2015). How does intergroup
-contact affect social change? Its impact on collective action and
+contact affect social change? {Its} impact on collective action and
 individual mobility intentions among members of a disadvantaged group.
 \emph{Journal of Social Issues}, \emph{71}(3), 536--553.
 \url{https://doi.org/10.1111/josi.12127}
 
 \leavevmode\hypertarget{ref-46}{}%
 *Teney, C. (2011). Endorsement of assimilationism among ethnic minority
-and majority youth in a multination-multiethnic context: The case of
-Brussels. \emph{European Sociological Review}, \emph{27}(2), 212--229.
+and majority youth in a multination-multiethnic context: {The} case of
+{Brussels}. \emph{European Sociological Review}, \emph{27}(2), 212--229.
 \url{https://doi.org/10.1093/esr/jcq003}
 
 \leavevmode\hypertarget{ref-1412}{}%
@@ -1815,40 +1835,41 @@ as a boundary condition. \emph{Ethnic and Racial Studies},
 
 \leavevmode\hypertarget{ref-1966}{}%
 *Titzmann, P. F., Silbereisen, R. K., \& Schmitt-Rodermund, E. (2007).
-Friendship homophily among diaspora migrant adolescents in Germany and
-Israel. \emph{European Psychologist}, \emph{12}(3), 181--195.
+Friendship homophily among diaspora migrant adolescents in {Germany} and
+{Israel}. \emph{European Psychologist}, \emph{12}(3), 181--195.
 \url{https://doi.org/10.1027/1016-9040.12.3.181}
 
 \leavevmode\hypertarget{ref-1221}{}%
-*Tostado, P. (2017). \emph{When you aren't who your friends are: The
+*Tostado, P. (2017). \emph{When you aren't who your friends are: {The}
 moderating influence of racial similarity on the association between
-friendships and mental well-being} {[}Master's thesis, Portland State
-University{]}. ProQuest Dissertations and Theses Global.
+friendships and mental well-being} {[}Master's thesis, \{Portland State
+University\}{]}. {ProQuest Dissertations and Theses Global}.
 
 \leavevmode\hypertarget{ref-933}{}%
-*Tropp, L. R. (2007). Perceived discrimination and interracial contact:
-Predicting interracial closeness among Black and White Americans.
-\emph{Social Psychology Quarterly}, \emph{70}(1), 70--81.
+*Tropp, Linda R. (2007). Perceived discrimination and interracial
+contact: {Predicting} interracial closeness among {Black} and {White}
+{Americans}. \emph{Social Psychology Quarterly}, \emph{70}(1), 70--81.
 \url{https://doi.org/10.1177/019027250707000108}
 
 \leavevmode\hypertarget{ref-tropp_making_2018}{}%
-Tropp, L. R., \& Barlow, F. K. (2018). Making advantaged racial groups
-care about inequality: Intergroup contact as a route to psychological
-investment. \emph{Current Directions in Psychological Science},
-\emph{27}(3), 194--199. \url{https://doi.org/10.1177/0963721417743282}
+Tropp, Linda R., \& Barlow, F. K. (2018). Making advantaged racial
+groups care about inequality: Intergroup contact as a route to
+psychological investment. \emph{Current Directions in Psychological
+Science}, \emph{27}(3), 194--199.
+\url{https://doi.org/10.1177/0963721417743282}
 
 \leavevmode\hypertarget{ref-1743}{}%
-*Tropp, L. R., Hawi, D. R., Van Laar, C., \& Levin, S. (2012).
+*Tropp, Linda R., Hawi, D. R., Van Laar, C., \& Levin, S. (2012).
 Cross-ethnic friendships, perceived discrimination, and their effects on
-ethnic activism over time: A longitudinal investigation of three ethnic
-minority groups. \emph{British Journal of Social Psychology},
+ethnic activism over time: {A} longitudinal investigation of three
+ethnic minority groups. \emph{British Journal of Social Psychology},
 \emph{51}(2), 257--272.
 \url{https://doi.org/10.1111/j.2044-8309.2011.02050.x}
 
 \leavevmode\hypertarget{ref-1658}{}%
-*Tropp, L. R., Okamoto, D. G., Marrow, H. B., \& Jones-Correa, M.
+*Tropp, Linda R., Okamoto, D. G., Marrow, H. B., \& Jones-Correa, M.
 (2018). How contact experiences shape welcoming: Perspectives from
-U.S.-born and immigrant groups. \emph{Social Psychology Quarterly},
+{U}.{S}.-born and immigrant groups. \emph{Social Psychology Quarterly},
 \emph{81}(1), 23--47. \url{https://doi.org/10.1177/0190272517747265}
 
 \leavevmode\hypertarget{ref-tropp_relationships_2005}{}%
@@ -1863,11 +1884,11 @@ groups. \emph{Psychological Science}, \emph{16}(12), 951--957.
 of gender} {[}Manuscript in preparation{]}. University of Kansas.
 
 \leavevmode\hypertarget{ref-286}{}%
-*Uluğ, Ö. M., \& Cohrs, J. C. (2017). "If we become friends, maybe I can
-change my perspective'': Intergroup contact, endorsement of conflict
-narratives, and peace-related attitudes in Turkey. \emph{Peace and
-Conflict: Journal of Peace Psychology}, \emph{23}(3), 278--287.
-\url{https://doi.org/10.1037/pac0000216}
+*Uluğ, Ö. M., \& Cohrs, J. C. (2017). "{If} we become friends, maybe {I}
+can change my perspective'': {Intergroup} contact, endorsement of
+conflict narratives, and peace-related attitudes in {Turkey}.
+\emph{Peace and Conflict: Journal of Peace Psychology}, \emph{23}(3),
+278--287. \url{https://doi.org/10.1037/pac0000216}
 
 \leavevmode\hypertarget{ref-van_aert_correcting_2018}{}%
 van Aert, R. C. M., \& Assen, M. A. L. M. van. (2018). \emph{Correcting
@@ -1876,15 +1897,15 @@ MetaArXiv. \url{https://doi.org/10.31222/osf.io/zqjr9}
 
 \leavevmode\hypertarget{ref-van_zomeren_toward_2008}{}%
 van Zomeren, M., Postmes, T., \& Spears, R. (2008). Toward an
-integrative social identity model of collective action: A quantitative
+integrative social identity model of collective action: {A} quantitative
 research synthesis of three socio-psychological perspectives.
 \emph{Psychological Bulletin}, \emph{134}(4), 504--535.
 \url{https://doi.org/10.1037/0033-2909.134.4.504}
 
 \leavevmode\hypertarget{ref-829}{}%
 *Vedder, P., Sam, D. L., \& Liebkind, K. (2007). The acculturation and
-adaptation of Turkish adolescents in North-Western Europe. \emph{Applied
-Developmental Science}, \emph{11}(3), 126--136.
+adaptation of {Turkish} adolescents in {North-Western Europe}.
+\emph{Applied Developmental Science}, \emph{11}(3), 126--136.
 \url{https://doi.org/10.1080/10888690701454617}
 
 \leavevmode\hypertarget{ref-vevea_general_1995}{}%
@@ -1894,12 +1915,12 @@ estimating effect size in the presence of publication bias.
 \url{https://doi.org/10.1007/BF02294384}
 
 \leavevmode\hypertarget{ref-viechtbauer_conducting_2010}{}%
-Viechtbauer, W. (2010). Conducting meta-analyses in R with the metafor
+Viechtbauer, W. (2010). Conducting meta-analyses in {R} with the metafor
 package. \emph{Journal of Statistical Software}, \emph{36}(1), 1--48.
 \url{https://doi.org/10.18637/jss.v036.i03}
 
 \leavevmode\hypertarget{ref-westgate_revtools:_2019}{}%
-Westgate, M. J. (2019). revtools: An R package to support article
+Westgate, M. J. (2019). {revtools}: An {R} package to support article
 screening for evidence synthesis. \emph{Research Synthesis Methods},
 \emph{10}(4), 606--614. \url{https://doi.org/10.1002/jrsm.1374}
 
@@ -1911,19 +1932,19 @@ societies: The importance of contact experiences in youth}
 \leavevmode\hypertarget{ref-brown_strategic_2003}{}%
 Wright, S. C. (2003). Strategic collective action: Social psychology and
 social change. In R. Brown \& S. L. Gaertner (Eds.), \emph{Blackwell
-handbook of social psychology: Intergroup processes} (pp. 409--430).
+handbook of social psychology: {Intergroup} processes} (pp. 409--430).
 Blackwell. \url{https://doi.org/10.1002/9780470693421.ch20}
 
 \leavevmode\hypertarget{ref-wright_struggle_2009}{}%
 Wright, S. C., \& Lubensky, M. E. (2009). The struggle for social
-equality: Collective action versus prejudice reduction. In S. Demoulin,
-J.-P. Leyens, \& J. F. Dovidio (Eds.), \emph{Intergroup
-misunderstandings: Impact of divergent social realities} (pp. 291--310).
-Psychology Press.
+equality: {Collective} action versus prejudice reduction. In S.
+Demoulin, J.-P. Leyens, \& J. F. Dovidio (Eds.), \emph{Intergroup
+misunderstandings: {Impact} of divergent social realities} (pp.
+291--310). Psychology Press.
 
 \leavevmode\hypertarget{ref-wright_responding_1990}{}%
 Wright, S. C., Taylor, D. M., \& Moghaddam, F. M. (1990). Responding to
-membership in a disadvantaged group: From acceptance to collective
+membership in a disadvantaged group: {From} acceptance to collective
 protest. \emph{Journal of Personality and Social Psychology},
 \emph{58}(6), 994--1003.
 \url{https://doi.org/10.1037/0022-3514.58.6.994}
@@ -1931,15 +1952,17 @@ protest. \emph{Journal of Personality and Social Psychology},
 \leavevmode\hypertarget{ref-1395}{}%
 *Yu, B., Bodycott, P., \& Mak, A. S. (2019). Language and interpersonal
 resource predictors of psychological and sociocultural adaptation:
-International students in Hong Kong. \emph{Journal of Studies in
+International students in {Hong} {Kong}. \emph{Journal of Studies in
 International Education}, \emph{23}(5), 572--588.
 \url{https://doi.org/10.1177/1028315318825336}
 
 \leavevmode\hypertarget{ref-3000}{}%
 *Yu, B., Mak, A. S., \& Bodycott, P. (2019). Psychological and academic
-adaptation of mainland Chinese students in Hong Kong universities.
+adaptation of mainland {Chinese} students in {Hong} {Kong} universities.
 \emph{Studies in Higher Education}, 1--13.
 \url{https://doi.org/10.1080/03075079.2019.1693991}
+
+\end{CSLReferences}
 
 \endgroup
 

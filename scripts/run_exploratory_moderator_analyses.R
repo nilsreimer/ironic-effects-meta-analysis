@@ -105,7 +105,7 @@ rm(list = ls())
   
   # Run random-effects meta-tree model
   pi_tree <- REmrt(
-    z ~ pi_specific + pi_personal + ic_direct + study_setting + study_design + study_sample + age + study_intention + publication_status,
+    z ~ pi_specific + pi_personal + ic_direct + ic_quality + study_setting + study_design + study_sample + age + study_intention + publication_status,
     vi = vi,
     data = es %>% filter(y_var == "pi"),
     c = 0.0,
