@@ -47,6 +47,9 @@ rm(list = ls())
   source("scripts/run_exploratory_moderator_analyses.R")
   
   # Run analyses with negative contact
+  source("scripts/run_additional_analyses.R")
+  
+  # Run analyses with negative contact
   source("scripts/run_analyses_with_negative_contact.R")
 
   # Run analyses with ingroup contact
@@ -67,6 +70,7 @@ rm(list = ls())
   source("figures/figure-6.R")
   source("figures/figure-7.R")
   source("figures/figure-8.R")
+  source("figures/figure-9.R")
   source("figures/figure-s1.R")
   source("figures/figure-s2.R")
 

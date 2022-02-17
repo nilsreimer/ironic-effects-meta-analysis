@@ -19,36 +19,36 @@ rm(list = ls())
 # Figure 6a ---------------------------------------------------------------
 
   # Prepare data for subfigure
-  d_6a <- results %>% distinct(kk, n)
+  d_6a <- results %>% distinct(kk, ic_quality, study_setting, age, n)
   
   # Create boxes
   boxes <- tibble(
-    xmin = c(0.0, 1.0, 2.0, 3.0, 3.0, 3.0, 3.0),
-    xmax = c(0.8, 1.8, 2.8, 3.8, 3.8, 3.8, 3.8),
-    ymin = c(1.5, 1.0, 0.5, 0.0, 1.0, 2.0, 3.0),
-    ymax = c(2.3, 1.8, 1.3, 0.8, 1.8, 2.8, 3.8)
+    xmin = c(0.0, 1.0, 1.0, 2.0, 2.0, 2.0, 2.0),
+    xmax = c(0.8, 1.8, 1.8, 2.8, 2.8, 2.8, 2.8),
+    ymin = c(1.5, 0.5, 2.5, 0.0, 1.0, 2.0, 3.0),
+    ymax = c(2.3, 1.3, 3.3, 0.8, 1.8, 2.8, 3.8)
   )
   
   # Create arrows
   arrows <- tibble(
-    x    = c(0.8, 0.8, 1.8, 1.8, 2.8, 2.8),
-    xend = c(1.0, 3.0, 2.0, 3.0, 3.0, 3.0),
-    y    = c(1.9, 1.9, 1.4, 1.4, 0.9, 0.9),
-    yend = c(1.4, 3.4, 0.9, 2.4, 1.4, 0.4)
+    x    = c(0.8, 0.8, 1.8, 1.8, 1.8, 1.8),
+    xend = c(1.0, 1.0, 2.0, 2.0, 2.0, 2.0),
+    y    = c(1.9, 1.9, 0.9, 0.9, 2.9, 2.9),
+    yend = c(0.9, 2.9, 0.4, 1.4, 2.4, 3.4)
   )
   
   # Create labels
   labels <- tibble(
-    x = c(0.4, 1.4, 2.4, 3.4, 3.4, 3.4, 3.4),
-    y = c(1.9, 1.4, 0.9, 0.4, 1.4, 2.4, 3.4),
+    x = c(0.4, 1.4, 1.4, 2.4, 2.4, 2.4, 2.4),
+    y = c(1.9, 0.9, 2.9, 0.4, 1.4, 2.4, 3.4),
     text = c(
       glue("*I* = {sum(d_6a$n)}"),
-      glue("Adults<br>*I* = {d_6a$n[2] + d_6a$n[3] + d_6a$n[4]}"),
-      glue("Direct<br>Measurement<br>*I* = {d_6a$n[3] + d_6a$n[4]}"),
-      glue("(Post-)Colonial/<br>S.-T. Migration<br>*I* = {d_6a$n[4]}"),
-      glue("Other Settings<br>*I* = {d_6a$n[3]}"),
-      glue("Indirect<br>Measurement<br>*I* = {d_6a$n[2]}"),
-      glue("Adolescents/<br>Children<br>*I* = {d_6a$n[1]}")
+      glue("Predictor:<br>Direct & Quality<br>*I* = {d_6a$n[3] + d_6a$n[4]}"),
+      glue("Predictor:<br>Indirect | Quantity<br>*I* = {d_6a$n[1] + d_6a$n[2]}"),
+      glue("Adolescents/Children<br>*I* = {d_6a$n[4]}"),
+      glue("Adults<br>*I* = {d_6a$n[3]}"),
+      glue("Other Settings<br>*I* = {d_6a$n[2]}"),
+      glue("Short-Term Migration<br>*I* = {d_6a$n[1]}")
     )
   )
   
@@ -71,7 +71,7 @@ rm(list = ls())
       colour = "black", fill = NA, label.colour = NA,
       size = 10*0.8/.pt
     ) +
-    coord_cartesian(xlim = c(0, 3.8), ylim = c(0, 4), expand = FALSE) +
+    coord_cartesian(xlim = c(0, 2.8), ylim = c(0, 4), expand = FALSE) +
     theme_classic(base_size = 10) +
     theme(
       axis.line = element_blank(),
@@ -101,13 +101,14 @@ rm(list = ls())
       n = 1e4
     ) +
     geom_vline(xintercept = 0, linetype = "dashed", size = 0.455) +
-    geom_richtext(
+    geom_text(
       data = d_6b %>% 
         group_by(kk) %>% 
         summarise(p = mean(r < 0), r = mean(r)) %>% 
         mutate(
           p = case_when(
-            p > 0.99 ~ "\\>99%",
+            # p > 0.99 ~ ">99%",
+            p > 0.99 ~ NA_character_,
             # p < 0.50 ~ paste0(round(1-p, 2)*100, "%"),
             # p > 0.50 ~ paste0(round(p, 2)*100, "%")
             TRUE ~ paste0(round(p, 2)*100, "%")
@@ -115,12 +116,13 @@ rm(list = ls())
         ),
       aes(label = p),
       vjust = 0,
+      nudge_y = 0.05,
       size = 10*0.8/.pt,
-      colour = "white", fill = NA, label.colour = NA
+      colour = "white" #, fill = NA, label.colour = NA
     ) +
     scale_y_reverse(breaks = 0:4) +
     scale_fill_manual(values = c("#c1d2ff", "#648fff")) +
-    coord_cartesian(xlim = c(-0.275, 0.175), ylim = c(4, 0), expand = FALSE) +
+    coord_cartesian(xlim = c(-0.375, 0.175), expand = FALSE) +
     facet_grid(. ~ "Perceived Injustice") +
     theme_classic(base_size = 10) +
     theme(

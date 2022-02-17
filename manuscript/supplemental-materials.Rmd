@@ -24,20 +24,6 @@ csl: apa.csl
 
 ```
 
-## Deviations 
-
-We preregistered the eligibility criteria, search strategy, study selection, data collection, and preregistered analyses. Some aspects of the preregistered protocol proved unrealistic, impractical, or underspecified. Therefore, we deviated from the protocol in the following ways:
-
-1. We preregistered that we would update our search every four months until we would submit the manuscript. This proved unrealistic as the study selection and data collection process for the new studies took almost as long. Instead, we concluded our search of electronic databases on April 1, 2020—that is, before we started analyzing and documenting our findings.
-
-2. We preregistered that we would randomly select 100 records to be screened by both coders to calculate inter-rater agreement. We did not specify, however, what we would do if inter-rater agreement was less than acceptable. We decided to refine our coding strategy over three samples of 100 records until we achieved acceptable agreement.
-
-3. We preregistered that we would use *Google Scholar* to find records citing eligible studies. This proved impractical as *Google Scholar* does not facilitate the electronic export of citing records. Instead, we used the *Scopus* citation database.
-
-4. We preregistered that we would attempt to contact the authors of all papers with missing effect sizes. Instead, we decided to not contact authors for studies published before 2000 as we considered it unlikely that the authors still had access to the data.
-
-5. We preregistered that we would use a Bayesian two-level random-effects meta-analysis model, described in the main text, for all preregistered analyses. For the association between policy support and collective action, however, we had only few studies and found that the two-level model did not result in a reliable posterior distribution (as indicated by divergent transitions in the estimation algorithm). Instead, we used a Bayesian one-level random-effects model to estimate that association.
-
 ## Search Strategy
 
 We used similar non-exclusive search terms for all electronic databases:
@@ -49,6 +35,22 @@ We used similar non-exclusive search terms for all electronic databases:
 3. \*group AND (contact OR friendship) AND (policy OR policies OR “affirmative action” OR (politi* W/15 attitude\*) OR (politi\* W/15 preferenc\*)) AND (redistribut\* OR reparati\* OR inequalit\* OR equalit\* OR injustice\* OR justice\* OR disadvantage\* OR advantage\* OR minorit\* OR majorit\*)
 
 \noindent We sent a call for unpublished research to the mailing lists of the *European Association of Social Psychology*, the *Society for Personality and Social Psychology*, the *International Society of Political Psychology*, the *Society for the Psychological Study of Social Issues*, and the *Society of Australasian Social Psychologists*.
+
+## Coding Criteria (Study Setting)
+
+For each sample, we categorized the study setting according to the source of the ingroup's relative disadvantage. This coding scheme is, by necessity, reductive and incomplete. We believe, however, that it can offer some insight into relevant differences in study settings.
+
+We coded a study setting as *short-term migration* if the relevant intergroup context resulted from the short-term movement of people for the purposes of temporary employment or education. Most studies in this category focus on international students.
+
+We coded a study setting as *long-term migration* if the relevant intergroup context resulted from migration, in either the current or previous generations, and if there is an established intergroup hierarchy that disadvantages the relevant ingroup. Examples include Black and Asian people in the United Kingdom and Asian Americans in the United States.
+
+We coded a study setting as *post-slavery* if the ingroup's relative disadvantage resulted from a racial hierarchy rooted in the historical abduction and enslavement of Africans. This category includes Black people in the Americas and the Caribbean.
+
+We coded a study setting as *colonization* if the relevant intergroup context resulted from the advantaged group colonizing and subjugating the disadvantaged group in the place that was originally inhabited by the disadvantaged group. This category includes contexts in which one nation has occupied the territory of another, resulting in an established intergroup hierarchy that disadvantages the relevant ingroup. Examples include Māori in New Zealand and Kurds in Turkey. While many of the hierarchies we categorize as resulting from long-term migration or slavery are rooted in a history of colonization, we use colonization in a narrow sense to describe settler colonies and occupied territories.
+
+We coded a study setting as *religion* if the relevant intergroup context was defined in terms of religious group membership (for example, Muslims in India). In contexts in which religion is a marker of a disadvantaged immigrant group (e.g., Muslims in the Netherlands), we instead categorized the study setting as long-term migration.
+
+We coded a study setting as *caste* if the ingroup's relative disadvantaged resulted from caste hierarchies in South Asia. We coded a study setting as *sexual/gender minorities* if the relevant ingroup was defined in terms of their membership in a discriminated sexual or gender minority (i.e., LGBTQ people). We coded a study setting as *other* if the relevant intergroup context did not fit any of the other categories (e.g., disabled people).
 
 ## Moderator Analyses
 
@@ -76,6 +78,51 @@ Third, we used meta-regression trees to discover interactions between moderator 
 \end{figure*}
 ```
 
+## Moderator Analyses Without Contact Quality
+
+
+```{=latex}
+
+\begin{figure*}
+\centering
+\caption{Results from the random-effects meta-regression tree analysis}
+\includegraphics[scale=1]{../figures/figure-s3}
+\caption*{\textit{Note.} Posterior distributions for the estimated correlation coefficient in each leaf of the meta-regression tree, highlighting the proportion of posterior samples for which $r_\text{mean} < 0$. In this analysis, we did not consider whether studies measured direct, qualitatively positive contact. S.-T. Migration = Short-Term Migration.}
+\label{fig:s3}
+\end{figure*}
+
+```
+
+```{r, include = FALSE}
+
+  # Import results from moderator analyses
+  meta_cart <- read_rds("../results/results_old_exploratory_moderator_analyses.rds") %>% 
+    group_by(kk, age, ic_direct, study_setting) %>% 
+    summarize(
+      r_kk = glue("$r = {f_num(median(r), digits = 2)}, [{f_num(quantile(r, 0.025), digits = 2)}, {f_num(quantile(r, 0.975), digits = 2)}]$"),
+      R2 = glue("$R^2 = {f_num(median(R2) * 100, digits = 0)}\\%$")
+    ) %>% 
+    ungroup()
+
+
+```
+
+In an earlier version of our manuscript, we did not consider the distinction between contact quantity and quality as a moderator. As we added this moderator during peer review and as doing so changed the results of some of our moderator analyses, we report our original findings from the moderator analyses below. We used meta-regression trees to discover interactions between moderator variables that best explained heterogeneity in effect sizes [@li_meta-cart_2017; @li_multiple_2020]. Figure S3 shows the resulting meta-regression model, which explained more variance across samples than any individual moderator (`r with(meta_cart, unique(R2))`). We found that intergroup contact was associated with less perceived injustice only in studies that focused on adults and that measured intergroup contact directly. Among these studies, this association was stronger in settings in which the groups’ relative inequality stemmed from short-term migration or colonization (`r with(meta_cart, r_kk[4])`) than in other settings (`r with(meta_cart, r_kk[3])`).
+
+## Unpublished Studies
+
+Some of the unpublished data included in the meta-analysis were based on studies that involved one of the co-authors of the present research. For the sake of transparency, we describe each of these studies and refer to published research based on these studies.
+
+**@2398** is based on data from a longitudinal social network study of two schools in a town in North West England conducted by a graduate students who, at the time, was co-supervised by the first author of the present research. The study included measures intended to test a broad range of questions, for example, to disentangle how contact and socialization effects shape outgroup attitudes in diverse friendship networks [@bracegirdle_disentangling_2022]. @2398 includes data from Asian adolescents who reported their cross-group friendships with White adolescents (*N* = 829).
+
+**@2382** is based on data from a longitudinal survey of Asian British and White British people and included a broad range of measures related to intergroup contact and intergroup relations in England. @2382 includes data from Asian British people who reported their contact experiences with White British people, as well as their perceived discrimination and collective action intentions (*N* = 751).
+
+**@2392** and **@2385** is based on data from the Centre for the Monitoring of the Indian Economy’s consumer pyramid sample, a representative national sample of the Indian population. In 2017, this sample consisted of 161,183 households (112,657 rural and 48,526 urban households). Households were selected by dividing 26 of the 29 States of India into sub-state "Homogenous Regions"—sets of neighboring districts with similar climatic conditions and urbanization levels—and then randomly sampling villages/blocks of towns, and households within each region. During August and September, 2017, interviewers attempted to make face-to-face contact with each household. One member of the household was asked to volunteer to complete the verbally administered survey. In all, 134,531 people were successfully reached by interviewers. The survey included measures intended to test a broad range of questions, for example, about the relationship between ambivalent sexism and violence against women [@sengupta_protect_unpublished]. For the meta-analysis, we calculated correlation coefficients between items measuring positive and negative contact, group identification, perceived discrimination, and collective action intentions. Items in the survey were first translated from English into ten Indian languages (Hindi, Urdu, Marathi, Punjabi, Bengali, Tamil, Telugu, Malayalam, Odiya and Gujarati), and then independently back-translated to ensure accuracy. Surveys were administered in whichever language the participants were most comfortable with (including English). @2392 includes data from participants who belonged to three disadvantaged caste groups and reported their contact experiences with members of upper castes (*N* = 96,547). @2385 includes data from participants who belonged to four religious minority groups and reported their contact experiences with Hindus (*N* = 7,440).
+
+**@2381** is based on data from a large-scale national longitudinal study in New Zealand, the New Zealand Attitudes and Values Study (NZAVS; [https://www.psych.auckland.ac.nz/en/about/new-zealand-attitudes-and-values-study.html](https://www.psych.auckland.ac.nz/en/about/new-zealand-attitudes-and-values-study.html)). @2381 includes data from Māori, Pacific Islanders, and Asians who reported their contact experiences with European New Zealanders (*N* = 3187).
+
+**@2383** is based on data from a social network study across ten schools in England which was conducted as part of a project for which the first author of the present research worked as a postdoctoral researcher. A survey company collected data from the same grade (Year 10, equivalent to 9th grade in the US) at each school. Data were collected between January and March 2018. Students completed a pen-and-paper survey in a classroom session (40–45 minutes). As part of a larger study on intergroup contact among young people, the survey included items measuring cross-group friendship as well as perceptions of discrimination. @2383 included data from Black, Asian, and other ethnic minority students who reported their contact experiences with White people (*N* = 713).
+
 \newpage
 
 # References
@@ -89,4 +136,3 @@ Third, we used meta-regression trees to discover interactions between moderator 
 <div id="refs"></div>
 
 \endgroup
-

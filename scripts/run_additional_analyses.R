@@ -39,56 +39,6 @@ rm(list = ls())
   # Import data
   dl <- read_rds("data/dl.rds")
   
-  # Import coding results
-  dm <- read_csv(
-    "records/results/coding-for-additional-analyses.csv",
-    col_types = "cicccccc"
-  )
-  
-  # Calculate interrater agreement
-  dm %>% 
-    pivot_wider(names_from = coder, values_from = ic_quality) %>% 
-    with(., kappa2(ratings = cbind(`Coder 1`, `Coder 2`)))
-  
-  # Resolve disagreements
-  dm <- dm %>% 
-    mutate(
-      ic_quality = case_when(
-        id == 1045L & var == "cf" ~ "No",
-        id == 1248L & var == "cq" ~ "Yes",
-        id == 1386L & var == "cq" ~ "Yes",
-        id == 1549L & var == "cf" ~ "No",
-        id == 1966L & var == "cf" & name == "Best friend is immigrant (reversed)" ~ "Yes",
-        id == 1993L & var == "pc" ~ "Yes",
-        id == 2257L & var == "ic" ~ "Yes",
-        id == 2341L & var == "pc" ~ "Yes",
-        id == 284L & var == "cf" ~ "Yes",
-        id == 4002L & var == "pc" ~ "Yes",
-        id == 4005L & var == "cq" ~ "No",
-        id == 4005L & var == "ic" ~ "Yes",
-        id == 4005L & var == "pc" ~ "Yes",
-        TRUE ~ ic_quality
-      )
-    ) %>% 
-    select(-coder) %>% 
-    distinct()
-  
-  # Add to data
-  dl <- dl %>% 
-    left_join(
-      dm %>% 
-        transmute(
-          id, 
-          x = var, 
-          x_var = "ic", 
-          x_name = name, 
-          x_text = text, 
-          outgroup, 
-          ic_quality
-        ),
-      by = c("id", "x", "x_var", "x_name", "x_text", "outgroup")
-    )
-  
   # Exclude data to test 'strong' version of hypothesis
   dl <- dl %>% 
     filter(

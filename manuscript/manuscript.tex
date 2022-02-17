@@ -1,22 +1,31 @@
-\documentclass[twocolumn, 11pt, letterpaper]{article}
+\documentclass[12pt, letterpaper]{article}
 
 % Font
 \usepackage[utf8]{inputenc}
-\usepackage{MinionPro} 
-\input{glyphtounicode}
-\pdfgentounicode=1 
+\usepackage{amsmath}
 \usepackage{microtype}
 
 % Format
 \usepackage[letterpaper, margin = 1in]{geometry}
-\setlength{\columnsep}{18pt}
 \setcounter{secnumdepth}{0}
-\usepackage[compact]{titlesec}  
-\titleformat*{\section}{\centering\normalfont\Large\bfseries}
-\usepackage{authblk}
-\renewcommand\Affilfont{\small}
-\newcommand{\refsection}{\section{References}}
+\setlength{\parindent}{0.5in}
+\usepackage[compact]{titlesec}
+\titleformat*{\section}{\centering\normalfont\normalsize\bfseries}
+\titleformat*{\subsection}{\raggedright\normalfont\normalsize\bfseries}
+\titleformat*{\subsubsection}{\raggedright\normalfont\normalsize\bfseries\itshape}
+\newcommand{\refsection}{\newpage \section{References}}
+\usepackage{indentfirst}
+\usepackage[hang,flushmargin]{footmisc}
 \providecommand{\tightlist}{\setlength{\itemsep}{0pt}\setlength{\parskip}{0pt}}
+
+% Header
+\usepackage{fancyhdr}
+\pagestyle{fancy}
+\fancyhf{}
+\setlength{\headheight}{14.5pt}
+\renewcommand{\headrulewidth}{0pt}
+\fancyhead[L]{`IRONIC' EFFECTS META-ANALYSIS}
+\fancyhead[R]{\thepage}
 
 % Links
 \usepackage[colorlinks = true, linkcolor = black, urlcolor = black, citecolor = black]{hyperref} 
@@ -30,28 +39,19 @@
 \usepackage{tabularx}
 
 % References
-\newlength{\cslhangindent}
-\setlength{\cslhangindent}{1.5em}
-\newenvironment{CSLReferences}%
-  {}%
-  {\par}
+\newenvironment{CSLReferences}[2]{}{}
+
+% Line spacing
+\usepackage[doublespacing]{setspace}
 
 % Frontmatter
-\title{ Meta-Analysis of the `Ironic' Effects of Intergroup
-Contact\thanks{} }
-\author[1]{Nils K. Reimer}
-\author[2]{Nikhil K. Sengupta}
-\affil[1]{University of Southern California, Los Angeles, United States}
-\affil[2]{University of Kent, Canterbury, United Kingdom}
-\date{June 15, 2021}
+\title{ Meta-Analysis of the `Ironic' Effects of Intergroup Contact }
 
 \begin{document}
 
-\twocolumn[
-  \begin{@twocolumnfalse}
-    \maketitle
-    \begin{abstract}
-      \noindent Growing evidence suggests that intergroup contact,
+\section{Abstract}
+
+\noindent Growing evidence suggests that intergroup contact,
 psychology's most-researched paradigm for reducing prejudice, has the
 `ironic' effect of reducing support for social change in disadvantaged
 groups. We conducted a preregistered meta-analytic test of this effect
@@ -62,55 +62,45 @@ with less perceived injustice (\(r = -.07\)), collective action
 However, these associations were small, variable, and consistent with
 alternative explanations. Across outcomes, 25--36\% of studies found
 \emph{positive} associations with intergroup contact. Moderator analyses
-explained about a third of the between-sample variance, showing that, on
-average, associations were negative only in studies of adults that
-measured intergroup contact directly and were strongest in studies that
-examined short-term migration or (post-)colonial intergroup relations.
-We also found evidence for an alternative explanation for the apparent
-`ironic' effects of intergroup contact as, after controlling for the
-positive association of negative contact with support for social change,
-positive contact was no longer associated with any of the outcomes. We
-close by discussing strengths and limitations of the available evidence
-and by highlighting open questions about the relationship between
-intergroup contact and support for social change in disadvantaged
-groups.
-    \end{abstract}
-  \end{@twocolumnfalse}
-  % \renewcommand{\abstractname}{Statement of Relevance}
-  % \begin{@twocolumnfalse}
-  %   \maketitle
-  %   \begin{abstract}
-  %   \noindent 
-  %   \end{abstract}
-  % \end{@twocolumnfalse}
-]
+explained about a third of the between-sample variance, showing that, at
+least for perceived injustice, associations with intergroup contact were
+most consistently negative in studies that measured direct,
+qualitatively positive contact among adults. We also found evidence for
+an alternative explanation for the apparent `ironic' effects of
+intergroup contact as, after controlling for the positive association of
+negative contact with support for social change, positive contact was no
+longer associated with any of the outcomes. We close by discussing
+strengths and limitations of the available evidence and by highlighting
+open questions about the relationship between intergroup contact and
+support for social change in disadvantaged groups.
 
-{
-  \renewcommand{\thefootnote}%
-    {\fnsymbol{footnote}}
-  \footnotetext[1]{Manuscript under review.}
-}
+\textit{Keywords:} intergroup contact, meta-analysis, perceived
+discrimination, collective action, policy support
 
-\noindent It is ironic that psychology's most-researched paradigm for
-reducing prejudice---intergroup contact---should hinder, rather than
-help, social change. Hundreds of studies have confirmed that intergroup
-contact is associated with less negative feelings toward outgroup
-members (for a meta-analysis, see Pettigrew \& Tropp, 2006). Most of
-these studies have focused on advantaged-group members' contact
-experiences with disadvantaged-group members (L. R. Tropp \& Pettigrew,
-2005), guided by the idea that reducing advantaged-group members'
-prejudice will prevent interpersonal discrimination. Reducing prejudice,
-however, is rarely enough to overcome institutional and structural
-discrimination. Instead, as the 2020 Black Lives Matter protests have
-shown, social change often requires political mobilization by the
-disadvantaged. Critics have argued that, by fostering harmony and
-reducing conflict, intergroup contact might distract disadvantaged-group
-members from the injustice they face and, thereby, undermine their
-motivation for social change (Dixon et al., 2005; Reicher, 2007; Wright,
-2003). By reducing disadvantaged-group members' opposition to injustice,
-intergroup contact might thus have the `ironic' (Saguy et al., 2009),
-`sedative' (Çakal et al., 2011), or `paradoxical' (Dixon et al., 2010)
-effect of hindering social change.
+\newpage
+
+\section{Meta-Analysis of the `Ironic' Effects of Intergroup Contact}
+
+It is ironic that psychology's most-researched paradigm for reducing
+prejudice---intergroup contact---should hinder, rather than help, social
+change. Hundreds of studies have confirmed that intergroup contact is
+associated with less negative feelings toward outgroup members (for a
+meta-analysis, see Pettigrew \& Tropp, 2006). Most of these studies have
+focused on advantaged-group members' contact experiences with
+disadvantaged-group members (Tropp \& Pettigrew, 2005), guided by the
+idea that reducing advantaged-group members' prejudice will prevent
+interpersonal discrimination. Reducing prejudice, however, is rarely
+enough to overcome institutional and structural discrimination. Instead,
+as the 2020 Black Lives Matter protests have shown, social change often
+requires political mobilization by the disadvantaged. Critics have
+argued that, by fostering harmony and reducing conflict, intergroup
+contact might distract disadvantaged-group members from the injustice
+they face and, thereby, undermine their motivation for social change
+(Dixon et al., 2005; Reicher, 2007; Wright, 2003). By reducing
+disadvantaged-group members' opposition to injustice, intergroup contact
+might thus have the `ironic' (Saguy et al., 2009), `sedative' (Çakal et
+al., 2011), or `paradoxical' (Dixon et al., 2010) effect of hindering
+social change.
 
 Supporting this argument, initial studies provided evidence that contact
 with advantaged-group members reduces disadvantaged-group members'
@@ -152,13 +142,14 @@ rarely give up their advantages without sustained pressure from
 disadvantaged-group members (Blumer, 1958; for a review, see Dixon et
 al., 2012). Researchers have argued that intergroup contact could
 discourage disadvantaged-group members from engaging in collective
-action by diminishing their perceived discrimination (Linda R. Tropp et
-al., 2012), by blurring boundaries between the disadvantaged ingroup and
-the advantaged outgroup (Saguy et al., 2009), by reducing negative
-attitudes toward the advantaged outgroup (Wright \& Lubensky, 2009), and
-by quelling their anger (Hayward et al., 2018; Tausch et al., 2015). To
-the extent that it discourages collective action, intergroup contact
-reduces support for social change.
+action by diminishing their perceived discrimination (Tropp et al.,
+2012), by reducing the perceived threat from the advantaged outgroup
+(Çakal et al., 2016), by blurring boundaries between the disadvantaged
+ingroup and the advantaged outgroup (Saguy et al., 2009), by reducing
+negative attitudes toward the advantaged outgroup (Wright \& Lubensky,
+2009), and by quelling their anger (Hayward et al., 2018; Tausch et al.,
+2015). To the extent that it discourages collective action, intergroup
+contact reduces support for social change.
 
 Reparative policies (e.g., affirmative action) can be effective means to
 reduce social inequality. Disadvantaged-group members, who stand to
@@ -265,33 +256,53 @@ intergroup contact is a promising means of reducing prejudice (Pettigrew
 is often crucial for achieving social change (see, for example,
 Mazumder, 2018).
 
-While narrative reviews of the growing literature on this topic have
-been published (Hässler et al., 2021; MacInnis \& Hodson, 2019; McKeown
-\& Dixon, 2017), we present the first systematic review and
-meta-analysis of the relationship between intergroup contact and support
-for social change in disadvantaged groups. To test the hypothesized
-`ironic' effects of intergroup contact, we evaluate the evidence that
-contact with advantaged-group members reduces disadvantaged-group
-members' perceived injustice, collective action, and support for
-reparative policies.
+As a result of two recent developments, there is now an emerging
+consensus that, in line with the former argument, intergroup contact has
+the `ironic' effect of undermining support for social change in
+disadvantaged groups. First, a large-scale preregistered multi-country
+study provided the most comprehensive evidence to date that contact with
+advantaged groups correlates with less support for social change in
+disadvantaged groups (Hässler et al., 2020). Second, several narrative
+reviews of the growing evidence for the `ironic' effects of intergroup
+contact have been published (Hässler, Uluğ, et al., 2021; MacInnis \&
+Hodson, 2019; McKeown \& Dixon, 2017). Narrative reviews do not,
+however, include all relevant studies and do not synthesize the,
+sometimes conflicting, findings of different studies. We present the
+first systematic review and meta-analysis of the relationship between
+intergroup contact and support for social change in disadvantaged
+groups. To test the hypothesized `ironic' effects of intergroup contact,
+we evaluate the evidence that contact with advantaged-group members
+reduces disadvantaged-group members' perceived injustice, collective
+action, and support for reparative policies.
 
 Our first objective was to systematically review the available evidence
 and to evaluate its strengths and limitations. Our second objective was
 to synthesize the available evidence to establish the direction and
 magnitude of the relationships between intergroup contact and the three
 outcomes. Doing so allowed us to determine whether the available
-evidence supports a negative or positive (see Pettigrew et al., 2011)
-relationship between contact and support for social change and to
-estimate the strength of this relationship. Our third objective was to
-estimate and explain the variability of this relationship across study
-settings, designs, and other potential moderators. For example, we
-examined whether any effects were confined to Western, Educated,
-Industrialized, Rich, Democratic (WEIRD) countries, the cultural context
-of most psychological research (Henrich et al., 2010). Our fourth
-objective was to assess how robust the available evidence was to
-publication bias. Our final objective was to explore the available
-evidence for negative contact and ingroup contact as alternative
-explanations of the apparent `ironic' effects of intergroup contact.
+evidence supports a negative or positive direct relationship between
+contact and support for social change and to estimate the strength of
+this relationship. Our third objective was to estimate and explain the
+variability of this relationship across study settings, designs, and
+other potential moderators. For example, we examined whether any effects
+were confined to Western, Educated, Industrialized, Rich, Democratic
+(WEIRD) countries, the cultural context of most psychological research
+(Henrich et al., 2010). Our fourth objective was to assess how robust
+the available evidence was to publication bias. Our final objective was
+to explore the available evidence for negative contact and ingroup
+contact as alternative explanations of the apparent `ironic' effects of
+intergroup contact.
+
+In pursuing these objectives, we focus on the direct relationships of
+intergroup contact with perceived injustice, collective action, and
+support for reparative policies in disadvantaged groups. We do not
+consider indirect and interaction effects or the effects of imagined,
+extended, or parasocial contact. Further, while the argument for the
+`ironic' effects of intergroup contact is part of a broader critique of
+the prejudice reduction model of social change (for a review, see Dixon
+et al., 2012), our meta-analysis tests the narrower hypothesis whether
+intergroup contact reduces support for social change in disadvantaged
+groups.
 
 \hypertarget{method}{%
 \section{Method}\label{method}}
@@ -301,14 +312,14 @@ explanations of the apparent `ironic' effects of intergroup contact.
 
 We prepared a protocol in accordance with the PRISMA-P statement (Moher
 et al., 2015) and preregistered it on the Open Science
-Framework.\footnote{\url{https://osf.io/ryuev/?view_only=8938ac6178914da98bdda1da4a6e27f0}}
-Preregistration precludes undisclosed flexibility in study selection,
-outcome selection, and other decisions that influence effect size
-estimates---and thus prevents confirmation bias from determining the
-conclusions of a meta-analysis (Lakens et al., 2016). We report
-deviations from our protocol in the Supplemental Online Material (SOM).
-We make data, analysis scripts, and the fully reproducible manuscript
-available online.\footnote{\url{https://osf.io/w5tqv/?view_only=5cbf7ad5b2b449a7a0f4ada0337b802a}}
+Framework.\footnote{\url{https://osf.io/ryuev}} Preregistration
+precludes undisclosed flexibility in study selection, outcome selection,
+and other decisions that influence effect size estimates---and thus
+prevents confirmation bias from determining the conclusions of a
+meta-analysis (Lakens et al., 2016). We report deviations from our
+preregistered protocol at the end of the Method section. We make data,
+analysis scripts, and the fully reproducible manuscript available
+online.\footnote{\url{https://osf.io/w5tqv}}
 
 \hypertarget{eligibility-criteria}{%
 \subsection{Eligibility Criteria}\label{eligibility-criteria}}
@@ -383,7 +394,7 @@ for gray literature in the \emph{ProQuest Dissertations and Theses}
 database. We used similar non-exclusive search terms for all databases
 (see SOM). We searched databases on April 1, 2019 and again on April 1,
 2020. We exported records and relevant metadata from each database. We
-removed duplicates using the \emph{revtools} package (Westgate, 2019).
+removed duplicates using the \emph{revtools} R package (Westgate, 2019).
 
 To find unpublished studies, we sent a call to the mailing lists of
 several professional organizations (see SOM). We also advertised on
@@ -440,8 +451,8 @@ a study or sample, we either imputed missing correlation coefficients
 from standardized beta coefficients (Peterson \& Brown, 2005) if
 reported or excluded the study or sample if not.
 
-\hypertarget{outcomes-selection}{%
-\subsubsection{Outcomes Selection}\label{outcomes-selection}}
+\hypertarget{outcome-selection}{%
+\subsubsection{Outcome Selection}\label{outcome-selection}}
 
 We collected effect sizes for all relationships between eligible
 predictor and outcome variables. When more than one eligible measure was
@@ -510,18 +521,22 @@ categorized each sample's setting according to whether the source of the
 groups' relative inequality was long-term migration (e.g., Asian
 Americans), short-term migration (e.g., international students), slavery
 (e.g., Black Americans), colonization (e.g., Māori, Black South
-Africans), religion, caste, sexuality, or another distinction
-(\(\kappa = .85\)).
+Africans), religion, caste, sexual/gender identity, or another
+distinction (\(\kappa = .85\); see SOM for details).
 
 \textbf{\emph{Study Design.}} We categorized each study as either
 observational and cross-sectional, observational and longitudinal,
 quasi-experimental, experimental, an intervention, or other
-(\(\kappa = .85\)). We categorized each sample as either a student
-convenience sample, a non-student convenience sample, a probability or
-representative sample, or another kind of sample (\(\kappa = .73\)). We
-categorized the age group(s) in each sample as children (\(\leq 12\)
-years), adolescents (13--18 years), or adults (\(\geq 18\) years;
-\(\kappa = .64\)).
+(\(\kappa = .85\)).\footnote{While the term `observational study' is
+  sometimes used to refer to the naturalistic observation of behavior,
+  we use it in its broader sense, that is, to refer to studies that do
+  not involve random assignment into experimental conditions (Cochran,
+  1965; Rosenbaum, 2005).} We categorized each sample as either a
+student convenience sample, a non-student convenience sample, a
+probability or representative sample, or another kind of sample
+(\(\kappa = .73\)). We categorized the age group(s) in each sample as
+children (\(\leq 12\) years), adolescents (13--18 years), or adults
+(\(\geq 18\) years; \(\kappa = .64\)).
 
 \textbf{\emph{Study Intention.}} We coded whether or not each study was
 conducted with the intention to examine the effects of intergroup
@@ -539,8 +554,15 @@ contact, we coded whether it assessed contact with the specific
 advantaged outgroup of interest directly---or whether it assessed
 contact indirectly by, for example, asking what proportion of someone's
 friends were not from the participants' ingroup or what proportion of
-residents in someone's neighbourhood were from the relevant outgroup
-(\(\kappa = .82\)).
+residents in someone's neighborhood were from the relevant outgroup
+(\(\kappa = .82\)). In addition, we coded whether each predictor
+variable assessed direct, qualitatively positive intergroup contact by,
+for example, measuring contact quality or cross-group friendship with
+the advantaged outgroup(\(\kappa = .82\)).\footnote{We thank John Dixon
+  for his suggestion to consider the distinction between contact
+  quantity and quality in our analyses. As we added this moderator
+  during peer review and as doing so changed the results of our
+  moderator analyses, we report our original findings in the SOM.}
 
 \textbf{\emph{Outcome Variables.}} For each measure of perceived
 injustice, we coded whether it refered to specific instances of
@@ -566,8 +588,9 @@ where \(r\) is the sample correlation coefficient, \(z\) is the
 transformed effect size, \(n\) is the sample size, and \(\sigma\) is the
 standard error of the transformed effect size.
 
-We estimated effect sizes using Bayesian random-effects meta-analysis
-models in \emph{RStan} (Stan Development Team, 2020) which modeled the
+We estimated effect sizes with Bayesian random-effects meta-analysis
+models, using the \emph{RStan} package (Stan Development Team, 2021) for
+the R programming language (R Core Team, 2021), which modeled the
 \emph{z}-transformed correlation coefficients with a normal likelihood
 function:
 \begin{align*} z_{ij} &\sim \text{Normal}(\theta_{ij}, \sigma_{ij}) \\ \theta_{ij} &= \begin{cases} \mu + \beta_j\tau_J & \text{if } I_j = 1 \\ \mu + \beta_j\tau_J + \beta_i\tau_I & \text{if } I_j > 1 \end{cases} \\ \end{align*}
@@ -609,7 +632,8 @@ to update prior distributions in light of the observed data to produce
 posterior distributions. In contrast to \emph{p}-values and confidence
 intervals, the resulting posterior distributions have a straightforward
 interpretation as stating how plausible different values of the model
-parameters are given the observed data. We report point estimates, based
+parameters are given the observed data.\footnote{For an accessible
+  introduction, see McElreath (2020).} We report point estimates, based
 on the median of posterior samples, and uncertainty intervals, based on
 the quantiles of posterior samples, that enclose the 95\% most plausible
 estimates. In addition, we report the posterior probability, based on
@@ -624,6 +648,48 @@ moderator variables explained heterogeneity in the estimated effect
 sizes, to what extent meta-biases influenced the estimated effect sizes,
 and to what extent the three outcome variables were associated with two
 alternative predictor variables, ingroup contact and negative contact.
+
+\hypertarget{deviations-from-the-preregistration}{%
+\subsection{Deviations From the
+Preregistration}\label{deviations-from-the-preregistration}}
+
+Some aspects of the preregistered protocol proved unrealistic,
+impractical, or underspecified. Therefore, we deviated from the
+preregistration in the following ways:
+
+\begin{enumerate}
+\def\labelenumi{\arabic{enumi}.}
+\item
+  We preregistered that we would update our search every four months
+  until we would submit the manuscript. This proved unrealistic as the
+  study selection and data collection process for the new studies took
+  almost as long. Instead, we concluded our search of electronic
+  databases on April 1, 2020---that is, before we started analyzing and
+  documenting our findings.
+\item
+  We preregistered that we would randomly select 100 records to be
+  screened by both coders to calculate inter-rater agreement. We did not
+  specify, however, what we would do if inter-rater agreement was less
+  than acceptable. We decided to refine our coding strategy over three
+  samples of 100 records until we achieved acceptable agreement.
+\item
+  We preregistered that we would use \emph{Google Scholar} to find
+  records citing eligible studies. This proved impractical as
+  \emph{Google Scholar} does not allow the electronic export of citing
+  records. Instead, we used the \emph{Scopus} citation database.
+\item
+  We preregistered that we would attempt to contact the authors of
+  \emph{all} papers with missing effect sizes. Instead, we decided to
+  not contact authors for studies published before 2000 as we considered
+  it unlikely that the authors still had access to the data.
+\item
+  We preregistered that we would use a Bayesian two-level random-effects
+  meta-analysis model for all preregistered analyses. For the
+  association between policy support and collective action, however, we
+  had only few studies and found that the two-level model did not result
+  in a reliable posterior distribution. Instead, we used a Bayesian
+  one-level random-effects model to estimate that association.
+\end{enumerate}
 
 \hypertarget{results}{%
 \section{Results}\label{results}}
@@ -751,9 +817,9 @@ narrower, \(\mu \sim \text{Normal}(0, 0.1)\), or wider,
 \(\mu \sim \text{Normal}(0, 1)\), prior distributions. Choosing narrower
 or wider prior distribution did not affect mean effect size estimates
 for perceived injustice (\(\Delta r = -.00, [-.05, .04]\) and
-\(\Delta r = .00, [-.05, .05]\)), collective action
-(\(\Delta r = -.01, [-.11, .09]\) and \(\Delta r = .00, [-.11, .10]\)),
-and policy support (\(\Delta r = -.01, [-.10, .08]\) and
+\(\Delta r = .00, [-.04, .05]\)), collective action
+(\(\Delta r = -.00, [-.10, .10]\) and \(\Delta r = .00, [-.10, .11]\)),
+and policy support (\(\Delta r = -.00, [-.10, .09]\) and
 \(\Delta r = .00, [-.09, .10]\)). Second, we assessed to what extent our
 findings were sensitive to including or excluding influential studies by
 repeating the preregistered analyses \(J\) times while leaving out one
@@ -762,11 +828,11 @@ difference (\emph{MAD}) for the estimated mean effect size across
 left-out studies. For perceived injustice
 (\(\textit{MAD} = .02, [.01, .04]\)), collective action
 (\(\textit{MAD} = .04, [.02, .09]\)), and policy support
-(\(\textit{MAD} = .03, [.02, .08]\)), the \emph{MAD} was small. Leaving
+(\(\textit{MAD} = .03, [.02, .09]\)), the \emph{MAD} was small. Leaving
 out the most influential study, for example, did not change estimates of
-the mean effect size for the three outcomes
-(\(\Delta r = -.00, [-.05, .04]\); \(\Delta r = .02, [-.08, .12]\);
-\(\Delta r = -.02, [-.11, .07]\)). These analyses showed that our
+the mean effect sizes for the three outcomes
+(\(\Delta r = .01, [-.04, .05]\); \(\Delta r = .02, [-.09, .11]\);
+\(\Delta r = -.02, [-.10, .08]\)). These analyses showed that our
 findings were robust to choosing different prior distributions and to
 excluding influential studies.
 
@@ -789,7 +855,7 @@ policy support, we report results for these outcomes in the SOM.
 \centering
 \caption{Estimated effect size as a function of cultural distance from the United States, with point estimates and uncertainty intervals for each country}
 \includegraphics[scale=1]{../figures/figure-5}
-\caption*{\textit{Note.} We had data from too few countries to reach firm conclusions about the direction of these associations for perceived injustice ($\beta = -0.38, [-1.45, 0.72]$; $\Pr (\beta < 0) = 75.7\%$), collective action ($\beta = -0.09, [-1.60, 1.37]$; $\Pr (\beta < 0) = 55.1\%$), and policy support ($\beta = -0.92, [-2.13, 0.55]$; $\Pr (\beta < 0) = 90.3\%$).}
+\caption*{\textit{Note.} We had data from too few countries to reach firm conclusions about the direction of these associations for perceived injustice ($\beta = -0.39, [-1.47, 0.77]$; $\Pr (\beta < 0) = 75.4\%$), collective action ($\beta = -0.08, [-1.53, 1.40]$; $\Pr (\beta < 0) = 54.8\%$), and policy support ($\beta = -0.89, [-2.10, 0.67]$; $\Pr (\beta < 0) = 88.9\%$).}
 \label{fig:f5}
 \end{figure*}
 
@@ -804,7 +870,7 @@ policy support, we report results for these outcomes in the SOM.
 First, we used meta-regression models to examine categorical moderator
 variables which we expected to explain heterogeneity in effect sizes
 across samples. As Figure 4 shows, we found that the setting of the
-study (\(R^2 = 20\%\)), participants' age group (\(R^2 = 11\%\)), and
+study (\(R^2 = 21\%\)), participants' age group (\(R^2 = 12\%\)), and
 whether intergroup contact was measured directly or indirectly
 (\(R^2 = 10\%\)) explained the most variance across effect sizes.
 
@@ -822,13 +888,13 @@ Third, we used meta-regression trees to discover interactions between
 moderator variables that best explained heterogeneity in effect sizes
 (Li et al., 2017, 2020). Figure 6 shows the resulting meta-regression
 model, which explained more variance across samples than any individual
-moderator (\(R^2 = 31\%\)). We found that intergroup contact was
-associated with less perceived injustice only in studies that focused on
-adults and that measured intergroup contact directly. Among these
-studies, this association was stronger in settings in which the groups'
-relative inequality stemmed from short-term migration or colonization
-(\(r = -.18, [-.23, -.13]\)) than in other settings
-(\(r = -.09, [-.13, -.06]\)).
+moderator (\(R^2 = 37\%\)). We found that intergroup contact was
+associated with less perceived injustice only in studies that measured
+direct, qualitatively positive contact among adults
+(\(r = -.12, [-.16, -.09]\)) or in the few studies that did not measure
+direct, qualitatively positive contact but in which the groups' relative
+inequality stemmed from short-term migration
+(\(r = -.23, [-.31, -.16]\)).
 
 \hypertarget{meta-bias}{%
 \subsection{Meta Bias}\label{meta-bias}}
@@ -845,17 +911,26 @@ meta-biases is an active area of research, with no single method
 outperforming all others (Carter et al., 2019). Following Carter et
 al.'s recommendations, we compared results of several methods to adjust
 meta-analytic estimates for publication bias: the PET-PEESE estimator
-(Stanley \& Doucouliagos, 2014); the three-parameter selection model
-{[}3PSM; Vevea \& Hedges (1995){]}; and the \emph{p}-uniform* estimator
-(van Aert \& Assen, 2018). In addition, we ran a subgroup analysis that
-included only studies that were not published or not conducted with the
-intention to examine the effects of intergroup contact on any of the
-outcomes---and that, therefore, can be assumed to have not been affected
-by publication bias. As these methods do not use Bayesian statistics, we
-compared adjusted estimates to unadjusted estimates from a
-random-effects meta-analysis estimated with restricted maximum
-likelihood estimation using the \emph{metafor} package (Viechtbauer,
-2010).
+(Stanley \& Doucouliagos, 2014) adjusts meta-analytic estimates by
+correcting for the greater risk of smaller studies to not be published;
+the \emph{p}-uniform* estimator (van Aert \& Assen, 2018) adjusts
+meta-analytic estimates by correcting for the greater risk of
+non-significant effects to not be published; and the three-parameter
+selection model (3PSM, Vevea \& Hedges, 1995) adjusts meta-analytic
+estimates for publication bias by estimating both the probability of a
+non-significant effect being published as well as the true average
+effect and between-study heterogeneity underlying the observed effect
+sizes.\footnote{For an accessible introduction to meta bias correction,
+  see Harrer et al. (2021).}
+
+In addition, we ran a subgroup analysis that included only studies that
+were not published or not conducted with the intention to examine the
+effects of intergroup contact on any of the outcomes---and that,
+therefore, can be assumed to have not been affected by publication bias.
+As the methods we used do not use Bayesian statistics, we compared
+adjusted estimates to unadjusted estimates from a random-effects
+meta-analysis estimated with restricted maximum likelihood estimation
+using the \emph{metafor} R package (Viechtbauer, 2010).
 
 Figure 7 shows adjusted and unadjusted estimates with confidence
 intervals for the three outcomes. Comparing adjusted and unadjusted
@@ -874,26 +949,69 @@ or publication bias is strong (Carter et al., 2019). Therefore, we did
 not find evidence for publication bias---but also did not find
 conclusive evidence against it.
 
-\hypertarget{alternative-predictors}{%
-\subsection{Alternative Predictors}\label{alternative-predictors}}
+\hypertarget{additional-analyses}{%
+\subsection{Additional Analyses}\label{additional-analyses}}
+
+\begin{figure*}[t!]
+\centering
+\caption{Posterior distributions for studies that measured direct, qualitatively positive contact among adults}
+\includegraphics[scale=1]{../figures/figure-8}
+\caption*{\textit{Note.} Black outlines show the posterior distributions from the original, preregistered analyses. \textbf{A} Posterior distributions for the mean correlation coefficients, highlighting the proportion of posterior samples for which $r_\text{mean} < 0$. \textbf{B} Posterior predictive distributions of study-wise correlation coefficients, highlighting the 80\% most common effect sizes, with point estimates for the correlation coefficients for all studies in the sample.}
+\label{fig:f8}
+\end{figure*}
+
+Our moderator analyses suggested that, for perceived injustice, the
+evidence for the `ironic' effect of intergroup contact was stronger in
+studies that measured direct, qualitatively positive contact among
+adults than in most other studies. Operationalizing intergroup contact
+as direct, qualitatively positive contact among adults is closer to the
+original argument for the `ironic' effects of intergroup contact and,
+therefore, tests a stronger case for the hypothesized relationships. To
+test this stronger case, we repeated our original, preregistered
+analyses for studies that measured direct, qualitatively positive
+contact among adults.
+
+Figure 8 shows posterior distributions from these analyses. Across
+122,725 participants from 59 samples in 39 studies, we found strong
+evidence for a small to medium negative association between intergroup
+contact and perceived injustice (\(r = -.13, [-.17, -.09]\)), an effect
+size that is larger than estimated in the preregistered analysis
+(\(\Delta r = -.06, [-.11, -.00]\)). Compared to the preregistered
+analyses, we did not find stronger associations with collective action
+(\(r = -.08, [-.16, .01]\), \(\Delta r = -.02, [-.13, .09]\)) or policy
+support (\(r = -.10, [-.17, -.03]\), \(\Delta r = -.03, [-.12, .07]\))
+in studies that measured direct, qualitatively positive contact among
+adults. These findings are not surprising as our preregistered analyses
+already prioritized predictor variables that measured direct,
+qualitatively positive contact and as most studies on collective action
+and policy support included those predictor variables. We estimated that
+\(13.1\%\), \(29.3\%\), and \(13.2\%\) of studies that measured direct,
+qualitatively positive contact among adults would find \emph{positive}
+associations with perceived injustice, collective action, and policy
+support---suggesting that, relative to the preregistered analyses,
+focusing on direct, qualitatively positive contact among adults reduced
+the variance in effect sizes across studies.
+
+\hypertarget{alternative-explanations}{%
+\subsection{Alternative Explanations}\label{alternative-explanations}}
 
 \begin{figure*}[t!]
 \centering
 \caption{Posterior distributions from the random-effects meta-analysis models with alternative predictor variables}
-\includegraphics[scale=1]{../figures/figure-8}
-\label{fig:f8}
+\includegraphics[scale=1]{../figures/figure-9}
+\label{fig:f9}
 \end{figure*}
 
 We ran three random-effects meta-analysis models estimating the partial
 correlations of positive and negative contact with each outcome, using
-effect sizes from all studies that measured both predictors (Figure 8a).
+effect sizes from all studies that measured both predictors (Figure 9a).
 By using partial correlations, we estimated the effect of one form of
 contact while controlling for the other. Across 106,270 participants
 from 29 samples in 17 studies, we found somewhat stronger evidence for a
 positive association between negative contact and perceived injustice
-(\(r = .14, [.06, .23]\); \(\Pr (r > 0) = 99.9\%\)) than for a negative
+(\(r = .14, [.06, .23]\); \(\Pr (r > 0) > 99.9\%\)) than for a negative
 association between positive contact and perceived injustice
-(\(r = -.05, [-.10, .01]\); \(\Pr (r < 0) = 95.6\%\)). Across 107,451
+(\(r = -.05, [-.11, .01]\); \(\Pr (r < 0) = 95.4\%\)). Across 107,451
 participants from 16 samples in 9 studies, we again found stronger
 evidence for a positive association between negative contact and
 collective action (\(r = .11, [.01, .20]\); \(\Pr (r > 0) = 98.4\%\))
@@ -901,32 +1019,32 @@ than for a negative association between positive contact and collective
 action (\(r = .00, [-.03, .06]\); \(\Pr (r < 0) = 40.7\%\)). Across
 8,273 participants from 7 samples in 3 studies, we also found stronger
 evidence for a positive association between negative contact and policy
-support (\(r = .04, [.00, .07]\); \(\Pr (r > 0) = 98.3\%\)) than for a
+support (\(r = .04, [.01, .07]\); \(\Pr (r > 0) = 98.5\%\)) than for a
 negative association between positive contact and policy support
-(\(r = .03, [-.03, .10]\); \(\Pr (r < 0) = 12.7\%\)). Across 111,153
+(\(r = .03, [-.03, .10]\); \(\Pr (r < 0) = 12.2\%\)). Across 111,153
 participants from 31 samples in 18 studies, we found a negative
 association between positive and negative contact
-(\(r = -.16, [-.25, -.07]\); \(\Pr (r < 0) = 99.8\%\)).
+(\(r = -.16, [-.25, -.07]\); \(\Pr (r < 0) = 99.9\%\)).
 
 We ran three random-effects meta-analysis models that estimated the
 partial correlations of ingroup and outgroup contact with each outcome,
 using effect sizes from all studies that measured both predictors
-(Figure 8b). Across 6,888 participants from 15 samples in 8 studies, we
+(Figure 9b). Across 6,888 participants from 15 samples in 8 studies, we
 found insufficient evidence for associations of ingroup contact
-(\(r = .03, [-.10, .15]\); \(\Pr (r > 0) = 69.0\%\)) and outgroup
-contact (\(r = -.10, [-.26, .07]\); \(\Pr (r < 0) = 89.2\%\)) with
+(\(r = .03, [-.10, .15]\); \(\Pr (r > 0) = 68.9\%\)) and outgroup
+contact (\(r = -.09, [-.25, .08]\); \(\Pr (r < 0) = 87.9\%\)) with
 perceived injustice. Across 3,938 participants from 4 samples in 2
 studies, we found stronger evidence for a positive association between
-ingroup contact and collective action (\(r = .12, [.03, .20]\);
-\(\Pr (r > 0) = 99.1\%\)) than for a negative association between
+ingroup contact and collective action (\(r = .12, [.04, .19]\);
+\(\Pr (r > 0) = 99.0\%\)) than for a negative association between
 outgroup contact and collective action (\(r = -.08, [-.25, .10]\);
-\(\Pr (r < 0) = 85.5\%\)). Across 3,187 participants from 3 samples in 1
+\(\Pr (r < 0) = 85.2\%\)). Across 3,187 participants from 3 samples in 1
 study, we found insufficient evidence for associations of ingroup
-contact (\(r = .09, [-.13, .27]\); \(\Pr (r > 0) = 86.2\%\)) and
-outgroup contact (\(r = -.03, [-.12, .08]\); \(\Pr (r < 0) = 78.5\%\))
+contact (\(r = .09, [-.14, .27]\); \(\Pr (r > 0) = 85.7\%\)) and
+outgroup contact (\(r = -.02, [-.12, .08]\); \(\Pr (r < 0) = 77.7\%\))
 with policy support. Across 6,888 participants from 15 samples in 8
 studies, we found a positive association between ingroup and outgroup
-contact (\(r = .25, [.10, .34]\); \(\Pr (r > 0) = 99.7\%\)).
+contact (\(r = .25, [.09, .34]\); \(\Pr (r > 0) = 99.7\%\)).
 
 \hypertarget{discussion}{%
 \section{Discussion}\label{discussion}}
@@ -949,11 +1067,11 @@ action (\(r = -.06\)), and policy support (\(r = -.07\)) were small.
 Across the three outcomes, the 95\% most plausible estimates included
 effect sizes between \(r = -.14\) and \(r = .02\). Effect sizes were
 thus much smaller than for the association between contact and prejudice
-in minority (\(r = -.18\)) and majority (\(r = -.23\)) groups (L. R.
-Tropp \& Pettigrew, 2005).\footnote{Comparing standardized effect sizes
-  assumes that the two outcomes are of equal importance. That is not
-  always the case: for example, a drug that reduces mild symptoms by
-  0.20 standard deviations is not better than a drug that reduces deaths
+in minority (\(r = -.18\)) and majority (\(r = -.23\)) groups (Tropp \&
+Pettigrew, 2005).\footnote{Comparing standardized effect sizes assumes
+  that the two outcomes are of equal importance. That is not always the
+  case: for example, a drug that reduces mild symptoms by 0.20 standard
+  deviations is not necessarily better than a drug that reduces deaths
   by 0.10 standard deviations.} Small effects can still be important if
 they accumulate over time or across people. For example, even a small
 change in policy attitudes could, if it affects enough people, sway a
@@ -970,15 +1088,25 @@ renders discrimination \emph{more} salient.
 
 A combination of moderators explained about a third of the between-study
 variance in the association between intergroup contact and perceived
-injustice. We found that, on average, this association was negative only
-in studies of adults that measured contact \emph{directly} (e.g., by
-asking about the number of friends from the advantaged outgroup). This
-suggests that, as hypothesized, the `ironic' effects result from direct
-contact and not from other contextual factors. We also found that, on
-average, effect sizes were greater for studies in (post-)colonial
-settings or on short-term migration than for studies in other contexts.
-Future research should systematically investigate variance in how
-contact affects support for social change across settings and cultures.
+injustice. We found the most consistent evidence for a negative
+association in studies that measured direct, qualitatively positive
+contact among adults (e.g., by asking how much time they spent with
+friends from the advantaged outgroup). This operationalization is
+closely aligned with, and thus supports, the original argument for the
+`ironic' effects of intergroup contact. More broadly, this finding
+suggests that the magnitude and direction of the observed effects
+depends on how intergroup contact is measured. Like other measures of
+social psychological constructs (Flake et al., 2017), few measures of
+intergroup contact resulted from a systematic process of scale
+development (for an exception, see Hayward, Tropp, et al., 2017) or
+underwent a rigorous process of scale validation (for an overview, see
+Lolliot et al., 2015). Although we did not find conclusive evidence for
+systematic cultural differences in the `ironic' effects of intergroup
+contact, we found that, like other areas of psychological research
+(Henrich et al., 2010), this area of research continues to
+underrepresent large parts of Africa, Asia, and South America. Future
+research should systematically investigate how contact affects support
+for social change across different measures, settings, and cultures.
 
 Third, the available evidence is almost entirely from cross-sectional,
 observational studies and thus consistent with alternative explanations
@@ -994,11 +1122,11 @@ prioritize longitudinal studies to confirm the direction of the observed
 associations and (field) experiments to rule out confounding and other
 alternative explanations.\footnote{Published research includes only
   three longitudinal studies (Koschate et al., 2012; Reimer et al.,
-  2017; Linda R. Tropp et al., 2012), all of which conflated
-  within-person change and between-person stability (Hamaker et al.,
-  2015), two experimental studies with a no-contact control condition
-  (Becker et al., 2013; Droogendyk et al., 2016), and two intervention
-  studies (Reimer et al., 2021; Shani \& Boehnke, 2017).}
+  2017; Tropp et al., 2012), all of which conflated within-person change
+  and between-person stability (Hamaker et al., 2015), two experimental
+  studies with a no-contact control condition (Becker et al., 2013;
+  Droogendyk et al., 2016), and two intervention studies (Reimer et al.,
+  2021; Shani \& Boehnke, 2017).}
 
 Fourth, the observed association between intergroup contact and support
 for social change could be confounded by an alternative predictor that
@@ -1013,6 +1141,30 @@ and outgroup contact. Going forward, researchers should clarify which
 aspects of intergroup contact should theoretically affect support for
 social change---and include measures that allow testing both the
 hypothesized and competing explanations.
+
+Considering positive and negative contact helps us understand both the
+\emph{reality} of contact as experienced in everyday interactions as
+well as the \emph{ideal} of contact as targeted in planned
+interventions. When considering contact in planned interventions
+designed to promote positive contact, our findings suggest that
+contact-based interventions could reduce awareness of, and opposition
+to, social injustice in disadvantaged groups. This finding is consistent
+with the argument that intergroup contact, as a strategy to reduce
+prejudice, is in conflict with collective action as a strategy to effect
+social change (Dixon et al., 2012; Wright \& Baray, 2012). Future
+research on contact-based interventions should consider strategies to
+resolve this conflict (e.g., Becker et al., 2013; Droogendyk et al.,
+2016; Hässler, Ullrich, et al., 2021; Rodríguez et al., 2018). When
+considering contact in everyday interactions, our findings suggest that
+negative experiences, not positive, experiences with the advantaged
+affect support for social change among the disadvantaged. This finding
+is consistent with the argument that negative contact draws attention to
+the discrimination disadvantaged-group members faces and strengthens
+their resolve to challenge social injustice (see Reimer et al., 2017).
+While theoretical and methodological questions remain in the study of
+negative contact (Schäfer et al., 2021), future research should measure
+both forms of contact to avoid confounding the presence of positive
+contact with the absence of negative contact.
 
 Finally, we cannot rule out that biases in the literature caused our
 meta-analysis to overestimate the `ironic' effects of intergroup
@@ -1030,10 +1182,9 @@ false-positive findings (Gelman \& Loken, 2014; Simmons et al., 2011).
 This risk is pertinent to a literature in which most studies are
 observational, include many measures, and are not preregistered---and,
 therefore, do not constrain the direction of observed associations or
-the selection of included variables.\footnote{To date, only one
-  preregistered study has been published (Hässler et al., 2020).} Future
-research should use preregistration and other methods to prevent
-undisclosed flexibility in data collection and analysis.
+the selection of included variables. Future research should use
+preregistration and other methods to prevent undisclosed flexibility in
+data collection and analysis.
 
 Our research was motivated by the broader question whether intergroup
 contact helps or hinders social change. By examining the narrower
@@ -1043,13 +1194,31 @@ explaining how intergroup contact might \emph{hinder} social change. We
 did not consider whether intergroup contact might also \emph{help}
 social change by reducing prejudice (for critical perspectives, see
 Dixon et al., 2012; Jackman, 1994) or by motivating the advantaged to
-acknowledge and challenge social inequality (Linda R. Tropp \& Barlow,
-2018). Further, we did not consider contact between different
-disadvantaged groups, which has been found to increase support for
-social change among the disadvantaged (Dixon et al., 2015, 2017).
-Therefore, this meta-analysis could not provide a complete answer to the
-question whether, on balance, intergroup contact helps or hinders social
-change.
+acknowledge and challenge social inequality (Tropp \& Barlow, 2018).
+Likewise, we did not test whether, in certain conditions, positive
+contact with advantaged-group members might \emph{increase} support for
+social change in disadvantaged groups. For example, studies found
+positive intergroup contact to increase collective action intentions
+when advantaged-group members acknowledged intergroup injustice as
+illegitimate (Becker et al., 2013) or expressed support for social
+change (Droogendyk et al., 2016). More broadly, intergroup contact is
+associated with more support for social change if it satisfies
+disadvantaged-group members' need for empowerment, that is, when they
+felt that the advantaged-group members they had contact with listened to
+what they had to say and perceived them as competent and intelligent
+(Hässler, Ullrich, et al., 2021).\footnote{We did not consider whether,
+  in certain conditions, positive contact might increase support for
+  social change in disadvantaged groups because only few studies
+  measured the relevant moderator variables and because our analyses
+  relied on correlation matrices which are not enough to estimate
+  interaction effects. For the latter reason, we also did not consider
+  whether positive and negative contact might interact in their effects
+  on support for social change (see Albzour et al., in press).} Further,
+we did not consider contact between different disadvantaged groups,
+which has been found to increase support for social change among the
+disadvantaged (Dixon et al., 2015, 2017). Therefore, this meta-analysis
+could not provide a complete answer to the question whether, on balance,
+intergroup contact helps or hinders social change.
 
 To conclude, our preregistered meta-analysis found some evidence that
 intergroup contact reduces perceived injustice, discourages collective
@@ -1060,13 +1229,13 @@ should (1) compare the direction and magnitude of the associations
 between intergroup contact and support for social change across
 cultures, groups, and issues; (2) use longitudinal designs and field
 experiments to establish the direction of these relationships and to
-rule out spurious associations; (3) include measures that allow testing
-alternative explanations for the apparent `ironic' effects of intergroup
-contact; and (4) incorporate practices to prevent undisclosed
-flexibility in data collection and analysis. We hope that our
-meta-analysis helps researchers to address the open questions about how
-intergroup contact relates to support for social change in disadvantaged
-groups.
+rule out spurious associations; (3) include validated measures that
+allow testing alternative explanations for the apparent `ironic' effects
+of intergroup contact; and (4) incorporate practices to prevent
+undisclosed flexibility in data collection and analysis. We hope that
+our meta-analysis helps researchers to address the open questions about
+how intergroup contact relates to support for social change in
+disadvantaged groups.
 
 \refsection
 
@@ -1080,6 +1249,13 @@ meta-analysis.
 
 \hypertarget{refs}{}
 \begin{CSLReferences}{1}{0}
+\leavevmode\hypertarget{ref-albzour_talking_inpress}{}%
+Albzour, M., Bady, Z., Elcheroth, E., Penic, S., Nasser, R., Reimer, N.
+K., \& Green, E. G. T. (in press). Talking to a (segregation) wall:
+Intergroup contact and attitudes toward normalization with {Israelis}
+among {Palestinians} from the occupied territories. \emph{Political
+Psychology}.
+
 \leavevmode\hypertarget{ref-3201}{}%
 *Albzour, M., Penic, S., Nasser, R., \& Green, E. G. T. (2019). Support
 for {`normalization'} of relations between {Palestinians} and
@@ -1091,7 +1267,7 @@ for {`normalization'} of relations between {Palestinians} and
 *Bagci, S. C. (2014). \emph{Cross-ethnic friendships in multiethnic
 educational settings: {Consequences} for psychological, academic and
 motivational outcomes among young adolescents} {[}Doctoral dissertation,
-\{Goldsmiths, University of London\}{]}.
+Goldsmiths, University of London{]}.
 \url{https://doi.org/10.25602/GOLD.00011030}
 
 \leavevmode\hypertarget{ref-2395}{}%
@@ -1173,6 +1349,13 @@ Borenstein, M., Hedges, L. V., Higgins, J. P. T., \& Rothstein, H. R.
 schools in {Northern England}} {[}Unpublished dataset{]}. University of
 Oxford.
 
+\leavevmode\hypertarget{ref-bracegirdle_disentangling_2022}{}%
+Bracegirdle, C., Reimer, N. K., Zalk, M. van, Hewstone, M., \& Wölfer,
+R. (2022). Disentangling contact and socialization effects on outgroup
+attitudes in diverse friendship networks. \emph{Journal of Personality
+and Social Psychology}, \emph{122}(1), 1--15.
+\url{https://doi.org/10.1037/pspa0000240}
+
 \leavevmode\hypertarget{ref-carter_correcting_2019}{}%
 Carter, E. C., Schönbrodt, F. D., Gervais, W. M., \& Hilgard, J. (2019).
 Correcting for bias in psychology: A comparison of meta-analytic
@@ -1203,14 +1386,19 @@ in {Costa} {Rica}{]}. \emph{Revista Interamericana de Psicología},
 \leavevmode\hypertarget{ref-91}{}%
 *Chang, T. K. (2017). \emph{Psychological distress of {A}sian
 international students: Applying intergroup contact theory} {[}Doctoral
-dissertation, \{Indiana University\}{]}. {ProQuest Dissertations and
-Theses Global}.
+dissertation, Indiana University{]}. {ProQuest Dissertations and Theses
+Global}.
+
+\leavevmode\hypertarget{ref-cochran_planning_1965}{}%
+Cochran, W. G. (1965). The planning of observational studies of human
+populations. \emph{Journal of the Royal Statistical Society},
+\emph{128}(2), 234--266. \url{https://doi.org/10.2307/2344179}
 
 \leavevmode\hypertarget{ref-1163}{}%
 *Cruse, S. L. (2015). \emph{The relationship of ethnic identity,
 perceived discrimination, and outgroup contact to racial attitudes
 toward {White} people in {African} {American} college students}
-{[}Doctoral dissertation, \{University of Kansas\}{]}. {ProQuest
+{[}Doctoral dissertation, University of Kansas{]}. {ProQuest
 Dissertations and Theses Global}.
 
 \leavevmode\hypertarget{ref-1248}{}%
@@ -1310,10 +1498,16 @@ prejudice on both sides of the {U}.{S}./{Mexico} status divide.
 \emph{Journal of Applied Social Psychology}, \emph{50}(7), 406--417.
 \url{https://doi.org/10.1111/jasp.12669}
 
+\leavevmode\hypertarget{ref-flake_construct_2017}{}%
+Flake, J. K., Pek, J., \& Hehman, E. (2017). Construct validation in
+social and personality research: {Current} practice and recommendations.
+\emph{Social Psychological and Personality Science}, \emph{8}(4),
+370--378. \url{https://doi.org/10.1177/1948550617693063}
+
 \leavevmode\hypertarget{ref-1549}{}%
 *Forbes, J. M. (2001). \emph{Affirmative action attitudes in black and
-white} {[}Doctoral dissertation, \{Wayne State University\}{]}.
-{ProQuest Dissertations and Theses Global}.
+white} {[}Doctoral dissertation, Wayne State University{]}. {ProQuest
+Dissertations and Theses Global}.
 
 \leavevmode\hypertarget{ref-325}{}%
 *Franco, M. (2019). Let the racism tell you who your friends are: {The}
@@ -1350,12 +1544,25 @@ Hamaker, E. L., Kuiper, R. M., \& Grasman, R. P. P. P. (2015). A
 critique of the cross-lagged panel model. \emph{Psychological Methods},
 \emph{20}(1), 102--116. \url{https://doi.org/10.1037/a0038889}
 
+\leavevmode\hypertarget{ref-harrer_doing_2021}{}%
+Harrer, M., Cuijper, P., Furukawa, T. A., \& Ebert, D. D. (2021).
+\emph{Doing meta-analysis with {R}: A hands-on guide}. CRC Press/Taylor
+\& Francis Group.
+\url{https://bookdown.org/MathiasHarrer/Doing_Meta_Analysis_in_R/}
+
 \leavevmode\hypertarget{ref-4003}{}%
 *Hayward, L. E., Hornsey, M. J., Tropp, L. R., \& Barlow, F. K. (2017).
 Positive and negative intergroup contact predict {Black} and {White}
 {Americans}' judgments about police violence against {Black}
 {Americans}. \emph{Journal of Applied Social Psychology}, \emph{47}(11),
 605--615. \url{https://doi.org/10.1111/jasp.12463}
+
+\leavevmode\hypertarget{ref-hayward_toward_2017}{}%
+Hayward, L. E., Tropp, L. R., Hornsey, M. J., \& Barlow, F. K. (2017).
+Toward a comprehensive understanding of intergroup contact: Descriptions
+and mediators of positive and negative contact among majority and
+minority groups. \emph{Personality and Social Psychology Bulletin},
+\emph{43}(3), 347--364. \url{https://doi.org/10.1177/0146167216685291}
 
 \leavevmode\hypertarget{ref-2309}{}%
 *Hayward, L. E., Tropp, L. R., Hornsey, M. J., \& Barlow, F. K. (2018).
@@ -1373,6 +1580,16 @@ Ugarte, L. M. (2020). A large-scale test of the link between intergroup
 contact and support for social change. \emph{Nature Human Behaviour},
 \emph{4}(4), 380--386. \url{https://doi.org/10.1038/s41562-019-0815-z}
 
+\leavevmode\hypertarget{ref-hassler_need_2021}{}%
+Hässler, T., Ullrich, J., Sebben, S., Shnabel, N., Bernardino, M.,
+Valdenegro, D., Van Laar, C., González, R., Visintin, E. P., Tropp, L.
+R., Ditlmann, R. K., Abrams, D., Aydin, A. L., Pereira, A., Selvanathan,
+H. P., Zimmermann, J. von, Lantos, N. A., Sainz, M., Glenz, A., \ldots{}
+Pistella, J. (2021). Need satisfaction in intergroup contact: {A}
+multinational study of pathways toward social change. \emph{Journal of
+Personality and Social Psychology}.
+\url{https://doi.org/10.1037/pspi0000365}
+
 \leavevmode\hypertarget{ref-hassler_intergroup_2021}{}%
 Hässler, T., Uluğ, Ö. M., Kappmeier, M., \& Travaglino, G. A. (2021).
 Intergroup contact and social change: An integrated contact‐collective
@@ -1381,8 +1598,8 @@ action model. \emph{Journal of Social Issues}, \emph{77}(1), 217--241.
 
 \leavevmode\hypertarget{ref-1407}{}%
 *Head, R. N. (2013). \emph{Coping with perceived discrimination}
-{[}Doctoral dissertation, \{North Carolina State University\}{]}.
-{ProQuest Dissertations and Theses Global}.
+{[}Doctoral dissertation, North Carolina State University{]}. {ProQuest
+Dissertations and Theses Global}.
 
 \leavevmode\hypertarget{ref-henrich_weirdest_2010}{}%
 Henrich, J., Heine, S. J., \& Norenzayan, A. (2010). The weirdest people
@@ -1392,8 +1609,8 @@ in the world? \emph{Behavioral and Brain Sciences}, \emph{33}(2-3),
 \leavevmode\hypertarget{ref-1494}{}%
 *Herda, D. E. (2013). \emph{Hostile contact: {Self}-reports of
 interpersonal discrimination among {Blacks}, {Whites} and {Latinos} in
-{Chicago}} {[}Doctoral dissertation, \{University of California,
-Davis\}{]}. {ProQuest Dissertations and Theses Global}.
+{Chicago}} {[}Doctoral dissertation, University of California, Davis{]}.
+{ProQuest Dissertations and Theses Global}.
 
 \leavevmode\hypertarget{ref-324}{}%
 *Herda, D. E. (2016). The specter of discrimination: {Fear} of
@@ -1436,8 +1653,8 @@ of Intercultural Communication}, \emph{40}.
 \leavevmode\hypertarget{ref-303}{}%
 *Jones, M. L. (2017). \emph{Attitudes and experiences of close
 interethnic friendships among {Native} emerging adults: {A}
-mixed-methods investigation} {[}Doctoral dissertation, \{Utah State
-University\}{]}. {ProQuest Dissertations and Theses Global}.
+mixed-methods investigation} {[}Doctoral dissertation, Utah State
+University{]}. {ProQuest Dissertations and Theses Global}.
 
 \leavevmode\hypertarget{ref-856}{}%
 *Kamberi, E., Martinovic, B., \& Verkuyten, M. (2017). Intergroup
@@ -1469,8 +1686,8 @@ communities. \emph{Journal of Research on Adolescence}, \emph{21}(4),
 \leavevmode\hypertarget{ref-830}{}%
 *Kim, T. Y. (2015). \emph{The influence of perceived racial
 discrimination on depressive symptoms and school outcomes among asian
-american adolescents} {[}Doctoral dissertation, \{The University of
-Chicago\}{]}. {ProQuest Dissertations and Theses Global}.
+american adolescents} {[}Doctoral dissertation, The University of
+Chicago{]}. {ProQuest Dissertations and Theses Global}.
 
 \leavevmode\hypertarget{ref-401}{}%
 *Koschate, M., Hofmann, W., \& Schmitt, M. (2012). When {East} meets
@@ -1521,6 +1738,14 @@ moderator meta-analysis using the {R}-package {Meta}-{CART}.
 \emph{Behavior Research Methods}, \emph{52}(6), 2657--2673.
 \url{https://doi.org/10.3758/s13428-020-01360-0}
 
+\leavevmode\hypertarget{ref-lolliot_measures_2015}{}%
+Lolliot, S., Fell, B., Schmid, K., Wölfer, R., Swart, H., Voci, A.,
+Christ, O., New, R., \& Hewstone, M. (2015). Measures of intergroup
+contact. In G. J. Boyle, D. H. Saklofske, \& G. Matthews (Eds.),
+\emph{Measures of {Personality} and {Social} {Psychological}
+{Constructs}} (pp. 652--683). Elsevier.
+\url{https://doi.org/10.1016/B978-0-12-386915-9.00023-1}
+
 \leavevmode\hypertarget{ref-1042}{}%
 *Lopez, G. E. (2004). Interethnic contact, curriculum, and attitudes in
 the first year of college. \emph{Journal of Social Issues},
@@ -1530,8 +1755,8 @@ the first year of college. \emph{Journal of Social Issues},
 \leavevmode\hypertarget{ref-894}{}%
 *Lubensky, M. E. (2004). \emph{An unplanned trade-off? The potential
 conflict between reducing prejudice and supporting engagement in
-collective action} {[}Doctoral dissertation, \{University of California,
-Santa Cruz\}{]}. {ProQuest Dissertations and Theses Global}.
+collective action} {[}Doctoral dissertation, University of California,
+Santa Cruz{]}. {ProQuest Dissertations and Theses Global}.
 
 \leavevmode\hypertarget{ref-4000}{}%
 *Lutterbach, S., \& Beelmann, A. (2020). Positive and negative
@@ -1565,10 +1790,15 @@ protests on political attitudes. \emph{American Journal of Political
 Science}, \emph{62}(4), 922--935.
 \url{https://doi.org/10.1111/ajps.12384}
 
+\leavevmode\hypertarget{ref-mcelreath_statistical_2020}{}%
+McElreath, R. (2020). \emph{Statistical rethinking: A {Bayesian} course
+with examples in {R} and {Stan}} (2nd ed.). CRC Press/Taylor \& Francis
+Group.
+
 \leavevmode\hypertarget{ref-1850}{}%
 *McGinley, J. E. (2007). \emph{Expatriate adjustment: {Resources},
-responses, and outcomes} {[}Doctoral dissertation, \{Northcentral
-University\}{]}. {ProQuest Dissertations and Theses Global}.
+responses, and outcomes} {[}Doctoral dissertation, Northcentral
+University{]}. {ProQuest Dissertations and Theses Global}.
 
 \leavevmode\hypertarget{ref-mckeown_contact_2017}{}%
 McKeown, S., \& Dixon, J. (2017). The {``contact hypothesis''}: Critical
@@ -1643,6 +1873,10 @@ discrepancy in an {Inuit} community. \emph{The Journal of Psychology},
 *Prati, F., Kenfack, S. K., Rubini, M., \& Hewstone, M. (2020). {[}Data
 set{]}. University of Oxford.
 
+\leavevmode\hypertarget{ref-r_version_2021}{}%
+R Core Team. (2021). \emph{R: A language and environment for statistical
+computing} (Version 4.1.1). \url{https://www.R-project.org/}
+
 \leavevmode\hypertarget{ref-3051}{}%
 *Rafiqi, A., \& Thomsen, J. P. F. (2020). Group discrimination,
 intergroup contact, and ethnic minority members' reactions toward the
@@ -1687,6 +1921,19 @@ contact to social identity and political consciousness. \emph{Hispanic
 Journal of Behavioral Sciences}, \emph{12}(3), 235--255.
 \url{https://doi.org/10.1177/07399863900123001}
 
+\leavevmode\hypertarget{ref-rodriguez_engaging_2018}{}%
+Rodríguez, J., Nagda, B. R. A., Sorensen, N., \& Gurin, P. (2018).
+Engaging race and racism for socially just intergroup relations: The
+impact of intergroup dialogue on college campuses in the {United
+States}. \emph{Multicultural Education Review}, \emph{10}(3), 224--245.
+\url{https://doi.org/10.1080/2005615X.2018.1497874}
+
+\leavevmode\hypertarget{ref-everitt_observational_2005}{}%
+Rosenbaum, P. R. (2005). Observational study. In B. S. Everitt \& D. C.
+Howell (Eds.), \emph{Encyclopedia of statistics in behavioral science}
+(3rd ed., pp. 1451--1462). John Wiley \& Sons, Ltd.
+\url{https://doi.org/10.1002/0470013192}
+
 \leavevmode\hypertarget{ref-703}{}%
 *Rowley, S. J., Burchinal, M. R., Roberts, J. E., \& Zeisel, S. A.
 (2008). Racial identity, social context, and race-related social
@@ -1710,9 +1957,8 @@ Journal of Peace Psychology}, \emph{23}(3), 297--306.
 \leavevmode\hypertarget{ref-2333}{}%
 *Saenz, V. B. (2005). \emph{Breaking the cycle of segregation: Examining
 students' pre-college racial environments and their diversity
-experiences in college} {[}Doctoral dissertation, \{University of
-California, Los Angeles\}{]}. {ProQuest Dissertations and Theses
-Global}.
+experiences in college} {[}Doctoral dissertation, University of
+California, Los Angeles{]}. {ProQuest Dissertations and Theses Global}.
 
 \leavevmode\hypertarget{ref-4005}{}%
 *Saguy, T., \& Chernyak-Hai, L. (2012). Intergroup contact can undermine
@@ -1732,6 +1978,14 @@ Reimer, N. K., \& Wölfer, R. (2018). \emph{Positive-negative asymmetry
 of intergroup contact: A dynamic approach} {[}Unpublished dataset{]}.
 University of Oxford.
 
+\leavevmode\hypertarget{ref-schafer_does_2021}{}%
+Schäfer, S. J., Kauff, M., Prati, F., Kros, M., Lang, T., \& Christ, O.
+(2021). Does negative contact undermine attempts to improve intergroup
+relations? {Deepening} the understanding of negative contact and its
+consequences for intergroup contact research and interventions.
+\emph{Journal of Social Issues}, \emph{77}(1), 197--216.
+\url{https://doi.org/10.1111/josi.12422}
+
 \leavevmode\hypertarget{ref-2392}{}%
 *Sengupta, N. K. (2020a). \emph{Inter-caste contact in {India}}
 {[}Unpublished dataset{]}. University of Kent.
@@ -1739,6 +1993,11 @@ University of Oxford.
 \leavevmode\hypertarget{ref-2385}{}%
 *Sengupta, N. K. (2020b). \emph{Inter-religious contact in {India}}
 {[}Unpublished dataset{]}. University of Kent.
+
+\leavevmode\hypertarget{ref-sengupta_protect_unpublished}{}%
+Sengupta, N. K. (2021). \emph{{``We protect, you serve''}: Ambivalent
+sexism and violence against women in {India}} {[}Manuscript submitted
+for publication{]}. School of Psychology, University of Kent.
 
 \leavevmode\hypertarget{ref-sengupta_ingroup_2015}{}%
 Sengupta, N. K., Milojev, P., Barlow, F. K., \& Sibley, C. G. (2015).
@@ -1760,8 +2019,8 @@ political attitudes among ethnic minorities in {New Zealand}}
 
 \leavevmode\hypertarget{ref-1891}{}%
 *Shammas, D. (2009). \emph{Expatriate adjustment: {Resources},
-responses, and outcomes} {[}Doctoral dissertation, \{Northcentral
-University\}{]}. {ProQuest Dissertations and Theses Global}.
+responses, and outcomes} {[}Doctoral dissertation, Northcentral
+University{]}. {ProQuest Dissertations and Theses Global}.
 
 \leavevmode\hypertarget{ref-789}{}%
 *Shani, M., \& Boehnke, K. (2017). The effect of {Jewish}--{Palestinian}
@@ -1791,8 +2050,8 @@ Smith, H. J., Pettigrew, T. F., Pippin, G. M., \& Bialosiewicz, S.
 \url{https://doi.org/10.1177/1088868311430825}
 
 \leavevmode\hypertarget{ref-stan_development_team_rstan:_2020}{}%
-Stan Development Team. (2020). \emph{{RStan}: {The} {R} interface to
-{Stan}} (Version 2.21.2). \url{http://mc-stan.org/}
+Stan Development Team. (2021). \emph{{RStan}: {The} {R} interface to
+{Stan}} (Version 2.26.3). \url{http://mc-stan.org/}
 
 \leavevmode\hypertarget{ref-stanley_meta-regression_2014}{}%
 Stanley, T. D., \& Doucouliagos, H. (2014). Meta-regression
@@ -1846,20 +2105,19 @@ friendships and mental well-being} {[}Master's thesis, \{Portland State
 University\}{]}. {ProQuest Dissertations and Theses Global}.
 
 \leavevmode\hypertarget{ref-933}{}%
-*Tropp, Linda R. (2007). Perceived discrimination and interracial
-contact: {Predicting} interracial closeness among {Black} and {White}
+*Tropp, L. R. (2007). Perceived discrimination and interracial contact:
+{Predicting} interracial closeness among {Black} and {White}
 {Americans}. \emph{Social Psychology Quarterly}, \emph{70}(1), 70--81.
 \url{https://doi.org/10.1177/019027250707000108}
 
 \leavevmode\hypertarget{ref-tropp_making_2018}{}%
-Tropp, Linda R., \& Barlow, F. K. (2018). Making advantaged racial
-groups care about inequality: Intergroup contact as a route to
-psychological investment. \emph{Current Directions in Psychological
-Science}, \emph{27}(3), 194--199.
-\url{https://doi.org/10.1177/0963721417743282}
+Tropp, L. R., \& Barlow, F. K. (2018). Making advantaged racial groups
+care about inequality: Intergroup contact as a route to psychological
+investment. \emph{Current Directions in Psychological Science},
+\emph{27}(3), 194--199. \url{https://doi.org/10.1177/0963721417743282}
 
 \leavevmode\hypertarget{ref-1743}{}%
-*Tropp, Linda R., Hawi, D. R., Van Laar, C., \& Levin, S. (2012).
+*Tropp, L. R., Hawi, D. R., Van Laar, C., \& Levin, S. (2012).
 Cross-ethnic friendships, perceived discrimination, and their effects on
 ethnic activism over time: {A} longitudinal investigation of three
 ethnic minority groups. \emph{British Journal of Social Psychology},
@@ -1867,7 +2125,7 @@ ethnic minority groups. \emph{British Journal of Social Psychology},
 \url{https://doi.org/10.1111/j.2044-8309.2011.02050.x}
 
 \leavevmode\hypertarget{ref-1658}{}%
-*Tropp, Linda R., Okamoto, D. G., Marrow, H. B., \& Jones-Correa, M.
+*Tropp, L. R., Okamoto, D. G., Marrow, H. B., \& Jones-Correa, M.
 (2018). How contact experiences shape welcoming: Perspectives from
 {U}.{S}.-born and immigrant groups. \emph{Social Psychology Quarterly},
 \emph{81}(1), 23--47. \url{https://doi.org/10.1177/0190272517747265}
@@ -1934,6 +2192,14 @@ Wright, S. C. (2003). Strategic collective action: Social psychology and
 social change. In R. Brown \& S. L. Gaertner (Eds.), \emph{Blackwell
 handbook of social psychology: {Intergroup} processes} (pp. 409--430).
 Blackwell. \url{https://doi.org/10.1002/9780470693421.ch20}
+
+\leavevmode\hypertarget{ref-dixon_models_2012}{}%
+Wright, S. C., \& Baray, G. (2012). Models of social change in social
+psychology: {Collective} action or prejudice reduction? {Conflict} or
+harmony? In J. Dixon \& M. Levine (Eds.), \emph{Beyond prejudice:
+{Extending} the social psychology of conflict, inequality and social
+change} (pp. 225--247). Cambridge University Press.
+\url{https://doi.org/10.1017/CBO9781139022736.014}
 
 \leavevmode\hypertarget{ref-wright_struggle_2009}{}%
 Wright, S. C., \& Lubensky, M. E. (2009). The struggle for social

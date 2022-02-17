@@ -17,7 +17,7 @@ rm(list = ls())
   n_iter   <- 8000
   n_warmup <- 1000
   options(mc.cores = n_cores)
-  rstan_options(auto_write = TRUE)
+  rstan_options(auto_write = FALSE)
   
   # Link functions
   r_to_z <- function(r) 0.5 * log( (1 + r) / (1 - r) )
@@ -239,7 +239,8 @@ rm(list = ls())
         ) %>% mutate(
           category = case_when(
             str_detect(category, "Adults") & !str_detect(category, "Adolescents|Children") ~ "Adults",
-            str_detect(category, "Adolescents|Children") ~ "Adolescents/Children"
+            str_detect(category, "Adolescents") & !str_detect(category, "Children") ~ "Adolescents",
+            str_detect(category, "Children") ~ "Children"
           ),
           ii = row_number(),
           kk = as.integer(factor(category))
@@ -277,7 +278,8 @@ rm(list = ls())
   }
 
 
-# Predictor variables -----------------------------------------------------
+
+# Predictor variables (direct/indirect) -----------------------------------
 
   # Load model
   model <- stan_model("models/2l-meta-analysis-categorical-moderators.stan")
@@ -341,6 +343,78 @@ rm(list = ls())
       ))
     )
 
+  # Compile results
+  if (exists("moderators")) {
+    moderators <- bind_rows(moderators, results)
+  } else {
+    moderators <- results
+  }
+
+
+# Predictor variables (quality) -------------------------------------------
+
+  # Load model
+  model <- stan_model("models/2l-meta-analysis-categorical-moderators.stan")
+  
+  # Prepare data list
+  results <- data %>%
+    mutate(
+      moderator = "ic_quality",
+      es = map(
+        y_var,
+        ~filter(dl, x_var == "ic", y_var == .) %>% 
+          group_by(id, sample, ic_direct) %>% 
+          top_n(1, -x_rank) %>% 
+          top_n(1, -y_rank) %>% 
+          group_by(id, sample, x, y, x_var, y_var, category = ic_quality) %>% 
+          summarise(
+            n = unique(n), 
+            r = mean(r, na.rm = TRUE)
+          ) %>% 
+          ungroup() %>% 
+          select(id, sample, n, r, everything()) %>% 
+          mutate(
+            ii = row_number(),
+            jj = as.integer(factor(id)),
+            kk = as.integer(factor(category))
+          ) %>% 
+          group_by(jj) %>% 
+          mutate(
+            n_sample = n(),
+            ii = if_else(n_sample == 1L, 0L, ii)
+          ) %>% 
+          ungroup() %>%
+          mutate(
+            ii = as.integer(factor(ii)) - 1
+          ) %>% 
+          select(-n_sample)
+      ),
+      dlist = map(es, ~with(., list(
+        I  = length(ii),
+        J  = max(jj),
+        K  = max(kk),
+        ii = ii,
+        jj = jj,
+        kk = kk,
+        r  = r,
+        n  = n
+      )))
+    )
+  
+  # Run model
+  results <- results %>%
+    mutate(
+      fit = map(dlist, ~sampling(
+        model,
+        data = .,
+        control = list(adapt_delta = 0.99, max_treedepth = 12),
+        chains = n_cores,
+        iter = n_warmup + n_iter/n_cores,
+        warmup = n_warmup,
+        seed = 2669059
+      ))
+    )
+  
   # Compile results
   if (exists("moderators")) {
     moderators <- bind_rows(moderators, results)

@@ -18,7 +18,7 @@ rm(list = ls())
   n_warmup <- 1000
   seeds    <- c(6967674, 5768664, 7517370, 6852246, 9115239, 5279371)
   options(mc.cores = n_cores)
-  rstan_options(auto_write = TRUE)
+  rstan_options(auto_write = FALSE)
   
   # Link functions
   r_to_z <- function(r) 0.5 * log( (1 + r) / (1 - r) )

@@ -16,6 +16,12 @@ rm(list = ls())
     "records/results/coding-measures.csv",
     col_types = "ciiccccccc"
   )
+  
+  # Import results from survey (additional moderator)
+  dr_new <- read_csv(
+    "records/results/coding-for-additional-analyses.csv",
+    col_types = "cicccccc"
+  )
 
   # Import .rds files (data)
   mi <- read_rds("data/mi.rds")
@@ -86,6 +92,40 @@ rm(list = ls())
       values_from = response
     ) %>% 
     arrange(id, sample, var)
+  
+  # Calculate interrater agreement for predictor variable (contact quality)
+  dr_new %>% 
+    pivot_wider(names_from = coder, values_from = ic_quality) %>% 
+    with(., kappa2(ratings = cbind(`Coder 1`, `Coder 2`)))
+  
+  # Resolve disagreements
+  dr_new <- dr_new %>% 
+    mutate(
+      ic_quality = case_when(
+        id == 1045L & var == "cf" ~ "No",
+        id == 1248L & var == "cq" ~ "Yes",
+        id == 1386L & var == "cq" ~ "Yes",
+        id == 1549L & var == "cf" ~ "No",
+        id == 1966L & var == "cf" & name == "Best friend is immigrant (reversed)" ~ "Yes",
+        id == 1966L & var == "cf" & name == "Cross-group friendship" ~ "Yes",
+        id == 1993L & var == "pc" ~ "Yes",
+        id == 1993L & var == "pc" ~ "Yes",
+        id == 2257L & var == "ic" ~ "Yes",
+        id == 2341L & var == "pc" ~ "Yes",
+        id == 284L & var == "cf" ~ "Yes",
+        id == 4002L & var == "pc" ~ "Yes",
+        id == 4005L & var == "cq" ~ "No",
+        id == 4005L & var == "ic" ~ "Yes",
+        id == 4005L & var == "pc" ~ "Yes",
+        TRUE ~ ic_quality
+      )
+    ) %>% 
+    select(id, variable = var, name, ic_quality) %>%
+    distinct()
+  
+  # Add contact quality as additional moderator
+  mo_mi <- left_join(mo_mi, dr_new, by = c("id", "variable", "name")) %>% 
+    select(id:text, ic_direct, ic_quality, pi_personal, pi_specific)
 
   
 # Export ------------------------------------------------------------------

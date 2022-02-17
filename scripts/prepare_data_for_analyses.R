@@ -190,8 +190,8 @@ rm(list = ls())
       .
     )
   dl <- dl %>% 
-    filter(x_var == "ic", is.na(ic_direct), !is.na(r)) %>% 
-    select(-ic_direct) %>% 
+      filter(x_var == "ic", is.na(ic_direct), is.na(ic_quality), !is.na(r)) %>% 
+    select(-ic_direct, -ic_quality) %>% 
     left_join(
       mo_mi %>% 
         filter(var == "ic") %>% 
@@ -209,7 +209,6 @@ rm(list = ls())
       .
     )
   
-  
 
 # Export ------------------------------------------------------------------
 
@@ -221,7 +220,7 @@ rm(list = ls())
       source, note, t1, t2, r_ab, r_bc, r_ac,
       country, region, continent, ingroup, outgroup, study_setting, 
       study_design, study_sample, age, study_intention, publication_status,
-      ic_direct, pi_specific, pi_personal,
+      ic_direct, ic_quality, pi_specific, pi_personal,
       ends_with("to_usa")
     )
   

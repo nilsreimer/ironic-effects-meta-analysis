@@ -14,7 +14,7 @@ rm(list = ls())
   n_warmup <- 1000
   seeds    <- c(6967674, 5768664, 7517370, 1585380)
   options(mc.cores = n_cores)
-  rstan_options(auto_write = TRUE)
+  rstan_options(auto_write = FALSE)
   
   # Functions
   source("scripts/functions.R")

@@ -15,4 +15,6 @@ manuscript/title-page.pdf
 manuscript/letter-*
 manuscript/*.docx
 manuscript/preprint*
+manuscript/revision
+manuscript/revisions*
 presentation

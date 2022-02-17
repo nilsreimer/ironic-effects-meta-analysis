@@ -17,7 +17,7 @@ rm(list = ls())
   n_iter   <- 8000
   n_warmup <- 1000
   options(mc.cores = n_cores)
-  rstan_options(auto_write = TRUE)
+  rstan_options(auto_write = FALSE)
   
   # Link functions
   r_to_z <- function(r) 0.5 * log( (1 + r) / (1 - r) )
@@ -34,7 +34,8 @@ rm(list = ls())
     mutate(
       age = case_when(
         str_detect(age, "Adults") & !str_detect(age, "Adolescents|Children") ~ "Adults",
-        str_detect(age, "Adolescents|Children") ~ "Adolescents/Children"
+        str_detect(age, "Adolescents") & !str_detect(age, "Children") ~ "Adolescents",
+        str_detect(age, "Children") ~ "Children"
       ),
       publication_status = case_when(
         publication_status == "published" ~ "published",
@@ -61,7 +62,7 @@ rm(list = ls())
   
   # Average effect sizes for multiple (equivalent) outcomes
   es <- es %>% 
-    group_by(id, sample, x, y, x_var, y_var, ic_direct, pi_specific, pi_personal) %>% 
+    group_by(id, sample, x, y, x_var, y_var, ic_direct, ic_quality, pi_specific, pi_personal) %>% 
     summarise(
       n = unique(n), 
       r = mean(r, na.rm = TRUE)
@@ -119,10 +120,10 @@ rm(list = ls())
     mutate(
       ii = row_number(),
       kk = case_when(
-        age != "Adults" ~ 1L,
-        ic_direct != "Directly" ~ 2L,
-        !(study_setting %in% c("Colonization", "Short-term migration")) ~ 3L,
-        study_setting %in% c("Colonization", "Short-term migration") ~ 4L
+        ic_quality == "No" & study_setting == "Short-term migration" ~ 1L,
+        ic_quality == "No" & study_setting != "Short-term migration" ~ 2L,
+        ic_quality == "Yes" & age == "Adults" ~ 3L,
+        ic_quality == "Yes" & age != "Adults" ~ 4L,
       )
     )
   
@@ -148,21 +149,22 @@ rm(list = ls())
   results <- pi_es %>% 
     mutate(
       study_setting = case_when(
-        age != "Adults" | ic_direct == "Indirectly" ~ NA_character_, 
-        str_detect(study_setting, "Colonization|Short-term migration") ~ "Colonization/Short-term migration",
-        TRUE ~ "Other"
+        ic_quality == "Yes" ~ NA_character_, 
+        study_setting != "Short-term migration" ~ "Other",
+        TRUE ~ study_setting
       ),
-      ic_direct = case_when(
-        age != "Adults" ~ NA_character_,
-        TRUE ~ ic_direct
+      age = case_when(
+        ic_quality == "No" ~ NA_character_,
+        age != "Adults" ~ "Adolescents/Children",
+        TRUE ~ age
       )
     ) %>% 
-    count(kk, age, ic_direct, study_setting) %>% 
+    count(kk, ic_quality, study_setting, age) %>% 
     full_join(
       pi_fit %>% spread_draws(r_kk[kk], R2),
       by = "kk"
     ) %>% 
-    select(.chain:.draw, kk, r = r_kk, n, R2, age:study_setting)
+    select(.chain:.draw, kk, r = r_kk, n, R2, ic_quality, study_setting, age)
   
   
 # Estimate (collective action) --------------------------------------------

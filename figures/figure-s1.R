@@ -56,24 +56,29 @@ rm(list = ls())
         "study_intention" = "Study Intention",
         "publication_status" = "Publication Status",
         "ic_direct" = "Predictor (Direct/Indirect)",
+        "ic_quality" = "Predictor (Contact Quality)",
         "pi_specific" = "Outcome (Specific/General)",
         "pi_personal" = "Outcome (Personal/Group)"
       ),
       category = recode(
         category,
+        "observational, cross-sectional" = "cross-sectional",
+        "observational, longitudinal" = "longitudinal",
         "quasi-experimental (no random assignment)" = "quasi-experimental",
         "experimental (random assignment)" = "experimental",
         "convenience sample" = "convenience",
-        "probability/representative sample" = "probability/representative",
+        "probability/representative sample" = "representative",
         "Slavery" = "Post-Slavery",
-        "Colonization" = "(Post-)Colonial"
+        "Colonization" = "(Post-)Colonial",
+        "Sexuality" = "Sexual/Gender Minorities",
+        "Directly" = "Direct",
+        "Indirectly" = "Indirect"
       ),
       category = str_replace(category, " ", "\n"),
-      category = str_replace(category, "\\/", "/\n"),
       category = Hmisc::capitalize(category),
       category = factor(category, levels = c(
-        "Observational,\ncross-sectional", 
-        "Observational,\nlongitudinal",
+        "Cross-sectional", 
+        "Longitudinal",
         "Quasi-experimental",
         "Experimental",
         "Short-term\nmigration",
@@ -82,23 +87,24 @@ rm(list = ls())
         "(Post-)Colonial",
         "Religion",
         "Caste",
-        "Sexuality",
+        "Sexual/Gender\nMinorities",
         "Other",
         "Convenience",
-        "Probability/\nrepresentative",
+        "Representative",
         "Adults",
-        "Adolescents/\nChildren",
-        "Directly",
-        "Indirectly",
+        "Adolescents",
+        "Children",
+        "Direct",
+        "Indirect",
+        "Yes",
+        "No",
         "Specific",
         "General",
         "Personal",
         "Group",
         "Both",
         "Published",
-        "Unpublished",
-        "Yes",
-        "No"
+        "Unpublished"
       ))
     )
   
@@ -191,9 +197,10 @@ rm(list = ls())
     design = "
     AC
     AD
-    AE
-    BF
-    BG
+    AB
+    AB
+    EF
+    GH
     ",
     guides = "collect"
   )
