@@ -148,8 +148,8 @@ rm(list = ls())
         study_design,
         "experimental (random assignment)" = "experimental",
         "quasi-experimental (no random assignment)" = "quasi-experimental",
-        "observational, longitudinal" = "observational,\nlongitudinal",
-        "observational, cross-sectional" = "observational,\ncross-sectional"
+        "observational, longitudinal" = "correlational,\nlongitudinal",
+        "observational, cross-sectional" = "correlational,\ncross-sectional"
       )
     ) %>%
     group_by(study_design) %>% 
